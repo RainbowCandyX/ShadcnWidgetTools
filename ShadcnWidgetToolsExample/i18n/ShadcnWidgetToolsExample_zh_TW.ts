@@ -1,0 +1,11707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_TW" sourcelanguage="zh_CN">
+<context>
+    <name>AccordionPage</name>
+    <message>
+        <source>手风琴</source>
+        <translation>手風琴</translation>
+    </message>
+    <message>
+        <source>ShadAccordion：可折叠的内容列表。</source>
+        <translation>ShadAccordion：可摺疊的內容清單。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>同时只展开一项</source>
+        <translation>同時只展開一項</translation>
+    </message>
+    <message>
+        <source>多选</source>
+        <translation>多選</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>选择要接收的通知。</source>
+        <translation>選擇要接收的通知。</translation>
+    </message>
+    <message>
+        <source>隐私</source>
+        <translation>隱私</translation>
+    </message>
+    <message>
+        <source>控制谁能看到你的资料。</source>
+        <translation>控制誰能看到你的資料。</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>帳單</translation>
+    </message>
+    <message>
+        <source>管理付款方式。</source>
+        <translation>管理付款方式。</translation>
+    </message>
+    <message>
+        <source>禁用项</source>
+        <translation>停用項目</translation>
+    </message>
+    <message>
+        <source>带边框</source>
+        <translation>帶邊框</translation>
+    </message>
+    <message>
+        <source>卡片中使用</source>
+        <translation>在卡片中使用</translation>
+    </message>
+    <message>
+        <source>放进 ShadCard</source>
+        <translation>放進 ShadCard</translation>
+    </message>
+    <message>
+        <source>订阅与账单</source>
+        <translation>訂閱與帳單</translation>
+    </message>
+    <message>
+        <source>常见问题</source>
+        <translation>常見問題</translation>
+    </message>
+    <message>
+        <source>有哪些套餐？</source>
+        <translation>有哪些方案？</translation>
+    </message>
+    <message>
+        <source>免费版、专业版和团队版。</source>
+        <translation>免費版、專業版和團隊版。</translation>
+    </message>
+    <message>
+        <source>如何升级？</source>
+        <translation>如何升級？</translation>
+    </message>
+    <message>
+        <source>在设置中更换套餐。</source>
+        <translation>在設定中更換方案。</translation>
+    </message>
+    <message>
+        <source>可以随时取消吗？</source>
+        <translation>可以隨時取消嗎？</translation>
+    </message>
+    <message>
+        <source>可以，到期后不再续费。</source>
+        <translation>可以，到期後不再續費。</translation>
+    </message>
+    <message>
+        <source>外部控制</source>
+        <translation>外部控制</translation>
+    </message>
+    <message>
+        <source>全部展开</source>
+        <translation>全部展開</translation>
+    </message>
+    <message>
+        <source>全部收起</source>
+        <translation>全部收合</translation>
+    </message>
+    <message>
+        <source>多久能发货？</source>
+        <translation>多久能出貨？</translation>
+    </message>
+    <message>
+        <source>下单后 1 到 2 个工作日发货。</source>
+        <translation>下單後 1 到 2 個工作天出貨。</translation>
+    </message>
+    <message>
+        <source>可以退货吗？</source>
+        <translation>可以退貨嗎？</translation>
+    </message>
+    <message>
+        <source>收货 30 天内可申请退货。</source>
+        <translation>收貨 30 天內可申請退貨。</translation>
+    </message>
+    <message>
+        <source>怎么联系客服？</source>
+        <translation>怎麼聯絡客服？</translation>
+    </message>
+    <message>
+        <source>工作日 9:00 到 18:00 在线。</source>
+        <translation>工作日 9:00 到 18:00 在線。</translation>
+    </message>
+</context>
+<context>
+    <name>AiChatClient</name>
+    <message>
+        <source>接口地址无效：%1</source>
+        <translation>端點網址無效：%1</translation>
+    </message>
+    <message>
+        <source>请求超时：%1 秒内没有收到数据</source>
+        <translation>請求逾時：%1 秒內沒有收到資料</translation>
+    </message>
+    <message>
+        <source>HTTP %1：%2</source>
+        <translation>HTTP %1：%2</translation>
+    </message>
+    <message>
+        <source>没有返回错误信息</source>
+        <translation>沒有傳回錯誤訊息</translation>
+    </message>
+</context>
+<context>
+    <name>AiChatPage</name>
+    <message>
+        <source>AI 助手</source>
+        <translation>AI 助理</translation>
+    </message>
+    <message>
+        <source>基于组件库的 AI 对话示例，支持流式输出。</source>
+        <translation>以元件庫打造的 AI 對話範例，支援串流輸出。</translation>
+    </message>
+    <message>
+        <source>连接设置</source>
+        <translation>連線設定</translation>
+    </message>
+    <message>
+        <source>OpenAI 兼容格式</source>
+        <translation>OpenAI 相容格式</translation>
+    </message>
+    <message>
+        <source>官方</source>
+        <translation>官方</translation>
+    </message>
+    <message>
+        <source>自定义</source>
+        <translation>自訂</translation>
+    </message>
+    <message>
+        <source>在此粘贴 API Key</source>
+        <translation>在此貼上 API Key</translation>
+    </message>
+    <message>
+        <source>服务商</source>
+        <translation>服務商</translation>
+    </message>
+    <message>
+        <source>接口地址</source>
+        <translation>端點</translation>
+    </message>
+    <message>
+        <source>基础地址</source>
+        <translation>基礎網址</translation>
+    </message>
+    <message>
+        <source>模型</source>
+        <translation>模型</translation>
+    </message>
+    <message>
+        <source>推理强度</source>
+        <translation>推理強度</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>低</source>
+        <translation>低</translation>
+    </message>
+    <message>
+        <source>中</source>
+        <translation>中</translation>
+    </message>
+    <message>
+        <source>高</source>
+        <translation>高</translation>
+    </message>
+    <message>
+        <source>超高</source>
+        <translation>超高</translation>
+    </message>
+    <message>
+        <source>最高</source>
+        <translation>最高</translation>
+    </message>
+    <message>
+        <source>对话</source>
+        <translation>對話</translation>
+    </message>
+    <message>
+        <source>Ctrl+Enter 发送（macOS 上为 Cmd+Enter），回复以 Markdown 流式显示</source>
+        <translation>按 Ctrl+Enter 傳送（macOS 上為 Cmd+Enter），回覆以 Markdown 串流顯示</translation>
+    </message>
+    <message>
+        <source>发送一条消息开始对话</source>
+        <translation>傳送一則訊息開始對話</translation>
+    </message>
+    <message>
+        <source>输入消息...</source>
+        <translation>輸入訊息...</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>傳送</translation>
+    </message>
+    <message>
+        <source>停止</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>清空对话</source>
+        <translation>清除對話</translation>
+    </message>
+    <message>
+        <source>请求被安全策略拒绝</source>
+        <translation>請求遭安全政策拒絕</translation>
+    </message>
+    <message>
+        <source>没有返回内容</source>
+        <translation>沒有傳回內容</translation>
+    </message>
+    <message>
+        <source>请先填写 API Key</source>
+        <translation>請先填寫 API Key</translation>
+    </message>
+    <message>
+        <source>请先填写模型</source>
+        <translation>請先填寫模型</translation>
+    </message>
+    <message>
+        <source>思考中...</source>
+        <translation>思考中...</translation>
+    </message>
+    <message>
+        <source>已停止</source>
+        <translation>已停止</translation>
+    </message>
+    <message>
+        <source>请求失败</source>
+        <translation>請求失敗</translation>
+    </message>
+    <message>
+        <source>添加图片</source>
+        <translation>新增圖片</translation>
+    </message>
+    <message>
+        <source>选择图片</source>
+        <translation>選擇圖片</translation>
+    </message>
+    <message>
+        <source>图片 (*.png *.jpg *.jpeg *.gif *.webp *.bmp)</source>
+        <translation>圖片 (*.png *.jpg *.jpeg *.gif *.webp *.bmp)</translation>
+    </message>
+    <message>
+        <source>粘贴的图片</source>
+        <translation>貼上的圖片</translation>
+    </message>
+    <message>
+        <source>无法读取图片：%1</source>
+        <translation>無法讀取圖片：%1</translation>
+    </message>
+    <message>
+        <source>每条消息最多 %1 张图片</source>
+        <translation>每則訊息最多 %1 張圖片</translation>
+    </message>
+    <message>
+        <source>移除</source>
+        <translation>移除</translation>
+    </message>
+</context>
+<context>
+    <name>AlertDialogPage</name>
+    <message>
+        <source>确定要继续吗？</source>
+        <translation>確定要繼續嗎？</translation>
+    </message>
+    <message>
+        <source>此操作无法撤销，你的账户将被永久删除，数据也会从我们的服务器上移除。</source>
+        <translation>此操作無法復原，你的帳號將被永久刪除，資料也會從我們的伺服器上移除。</translation>
+    </message>
+    <message>
+        <source>允许配件连接？</source>
+        <translation>允許配件連線？</translation>
+    </message>
+    <message>
+        <source>是否允许 USB 配件连接到这台设备？</source>
+        <translation>是否允許 USB 配件連線到這台裝置？</translation>
+    </message>
+    <message>
+        <source>不允许</source>
+        <translation>不允許</translation>
+    </message>
+    <message>
+        <source>允许</source>
+        <translation>允許</translation>
+    </message>
+    <message>
+        <source>你的账户将被永久删除，数据也会从我们的服务器上移除。</source>
+        <translation>你的帳號將被永久刪除，資料也會從我們的伺服器上移除。</translation>
+    </message>
+    <message>
+        <source>删除聊天？</source>
+        <translation>刪除聊天？</translation>
+    </message>
+    <message>
+        <source>这会永久删除这段聊天记录，聊天中保存的记忆可以在设置中删除。</source>
+        <translation>這會永久刪除這段聊天記錄，聊天中儲存的記憶可以在設定中刪除。</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>刪除</translation>
+    </message>
+    <message>
+        <source>警告对话框示例</source>
+        <translation>警告對話方塊範例</translation>
+    </message>
+    <message>
+        <source>点击下面的按钮打开警告对话框。</source>
+        <translation>點擊下方的按鈕開啟警告對話方塊。</translation>
+    </message>
+    <message>
+        <source>打开警告对话框</source>
+        <translation>開啟警告對話方塊</translation>
+    </message>
+    <message>
+        <source>警告对话框</source>
+        <translation>警告對話方塊</translation>
+    </message>
+    <message>
+        <source>ShadAlertDialog：打断用户并要求回应的模态对话框，内置取消与确认按钮。</source>
+        <translation>ShadAlertDialog：會打斷使用者並要求回應的強制回應對話方塊，內建取消與確認按鈕。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>标题与描述，页脚带取消与继续按钮</source>
+        <translation>標題與描述，頁尾帶有取消與繼續按鈕</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>小尺寸</source>
+        <translation>小尺寸</translation>
+    </message>
+    <message>
+        <source>setSize(Small)：更窄，内容居中，按钮等宽并排</source>
+        <translation>setSize(Small)：更窄，內容置中，按鈕等寬並排</translation>
+    </message>
+    <message>
+        <source>带媒体</source>
+        <translation>帶媒體</translation>
+    </message>
+    <message>
+        <source>setMediaIcon：在标题区显示媒体图标</source>
+        <translation>setMediaIcon：在標題區顯示媒體圖示</translation>
+    </message>
+    <message>
+        <source>默认（媒体）</source>
+        <translation>預設（媒體）</translation>
+    </message>
+    <message>
+        <source>小尺寸带媒体</source>
+        <translation>小尺寸帶媒體</translation>
+    </message>
+    <message>
+        <source>小尺寸下媒体区、标题与描述上下排列并居中</source>
+        <translation>小尺寸下媒體區、標題與描述上下排列並置中</translation>
+    </message>
+    <message>
+        <source>小尺寸（媒体）</source>
+        <translation>小尺寸（媒體）</translation>
+    </message>
+    <message>
+        <source>危险操作</source>
+        <translation>危險操作</translation>
+    </message>
+    <message>
+        <source>媒体区与确认按钮使用危险配色</source>
+        <translation>媒體區與確認按鈕使用危險配色</translation>
+    </message>
+    <message>
+        <source>删除聊天</source>
+        <translation>刪除聊天</translation>
+    </message>
+    <message>
+        <source>聊天仍然保留</source>
+        <translation>聊天仍然保留</translation>
+    </message>
+    <message>
+        <source>已删除聊天</source>
+        <translation>已刪除聊天</translation>
+    </message>
+    <message>
+        <source>已取消</source>
+        <translation>已取消</translation>
+    </message>
+    <message>
+        <source>在对话框中打开</source>
+        <translation>在對話方塊中開啟</translation>
+    </message>
+    <message>
+        <source>在另一个对话框之上打开警告对话框</source>
+        <translation>在另一個對話方塊之上開啟警告對話方塊</translation>
+    </message>
+    <message>
+        <source>打开对话框</source>
+        <translation>開啟對話方塊</translation>
+    </message>
+    <message>
+        <source>静态函数</source>
+        <translation>靜態函式</translation>
+    </message>
+    <message>
+        <source>ShadAlertDialog::confirm：一行代码打开并返回确认结果</source>
+        <translation>ShadAlertDialog::confirm：一行程式碼開啟並回傳確認結果</translation>
+    </message>
+    <message>
+        <source>退出登录</source>
+        <translation>登出</translation>
+    </message>
+    <message>
+        <source>仍然保持登录</source>
+        <translation>仍保持登入</translation>
+    </message>
+    <message>
+        <source>退出登录？</source>
+        <translation>登出？</translation>
+    </message>
+    <message>
+        <source>退出后需要重新输入账号和密码。</source>
+        <translation>登出後需要重新輸入帳號和密碼。</translation>
+    </message>
+    <message>
+        <source>退出</source>
+        <translation>登出</translation>
+    </message>
+    <message>
+        <source>confirm 返回 true：已退出登录</source>
+        <translation>confirm 回傳 true：已登出</translation>
+    </message>
+    <message>
+        <source>confirm 返回 false：已取消</source>
+        <translation>confirm 回傳 false：已取消</translation>
+    </message>
+</context>
+<context>
+    <name>AlertPage</name>
+    <message>
+        <source>提示</source>
+        <translation>提示</translation>
+    </message>
+    <message>
+        <source>ShadAlert：带图标、标题与描述的提示，右上角可放操作组件。</source>
+        <translation>ShadAlert：帶有圖示、標題與描述的提示，右上角可放置操作元件。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>图标可选，图标与标题同色</source>
+        <translation>圖示可選，圖示與標題同色</translation>
+    </message>
+    <message>
+        <source>危险样式</source>
+        <translation>危險樣式</translation>
+    </message>
+    <message>
+        <source>标题、图标与描述使用危险色</source>
+        <translation>標題、圖示與描述使用危險色</translation>
+    </message>
+    <message>
+        <source>操作</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>setAction：在右上角放置操作组件</source>
+        <translation>setAction：在右上角放置操作元件</translation>
+    </message>
+    <message>
+        <source>自定义颜色</source>
+        <translation>自訂顏色</translation>
+    </message>
+    <message>
+        <source>setCustomColors：按亮色与暗色主题分别设置颜色</source>
+        <translation>setCustomColors：依亮色與暗色主題分別設定顏色</translation>
+    </message>
+</context>
+<context>
+    <name>AttachmentPage</name>
+    <message>
+        <source>附件</source>
+        <translation>附件</translation>
+    </message>
+    <message>
+        <source>ShadAttachment / ShadAttachmentGroup：显示文件或图片附件的图标、名称、上传状态与操作。</source>
+        <translation>ShadAttachment / ShadAttachmentGroup：顯示檔案或圖片附件的圖示、名稱、上傳狀態與操作。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>图标、标题与描述，结束侧带操作按钮</source>
+        <translation>圖示、標題與描述，結尾側帶有操作按鈕</translation>
+    </message>
+    <message>
+        <source>上传中 · 64%</source>
+        <translation>上傳中 · 64%</translation>
+    </message>
+    <message>
+        <source>取消上传</source>
+        <translation>取消上傳</translation>
+    </message>
+    <message>
+        <source>已取消上传</source>
+        <translation>已取消上傳</translation>
+    </message>
+    <message>
+        <source>移除 %1</source>
+        <translation>移除 %1</translation>
+    </message>
+    <message>
+        <source>已移除附件</source>
+        <translation>已移除附件</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>等待、上传中、处理中、失败与完成五种状态</source>
+        <translation>等待、上傳中、處理中、失敗與完成五種狀態</translation>
+    </message>
+    <message>
+        <source>等待上传</source>
+        <translation>等待上傳</translation>
+    </message>
+    <message>
+        <source>正在处理文档</source>
+        <translation>正在處理文件</translation>
+    </message>
+    <message>
+        <source>上传失败，请重试。</source>
+        <translation>上傳失敗，請重試。</translation>
+    </message>
+    <message>
+        <source>已上传 · 1.8 MB</source>
+        <translation>已上傳 · 1.8 MB</translation>
+    </message>
+    <message>
+        <source>重新上传</source>
+        <translation>重新上傳</translation>
+    </message>
+    <message>
+        <source>上传中...</source>
+        <translation>上傳中...</translation>
+    </message>
+    <message>
+        <source>已上传 · 2.6 MB</source>
+        <translation>已上傳 · 2.6 MB</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>setAttachmentSize：默认、小号与超小三种尺寸</source>
+        <translation>setAttachmentSize：預設、小與超小三種尺寸</translation>
+    </message>
+    <message>
+        <source>默认附件</source>
+        <translation>預設附件</translation>
+    </message>
+    <message>
+        <source>小号附件</source>
+        <translation>小型附件</translation>
+    </message>
+    <message>
+        <source>超小附件</source>
+        <translation>超小型附件</translation>
+    </message>
+    <message>
+        <source>图片</source>
+        <translation>圖片</translation>
+    </message>
+    <message>
+        <source>显示裁剪为正方形的图片附件，可点击打开</source>
+        <translation>顯示裁切為正方形的圖片附件，可點擊開啟</translation>
+    </message>
+    <message>
+        <source>打开 %1</source>
+        <translation>開啟 %1</translation>
+    </message>
+    <message>
+        <source>打开图片</source>
+        <translation>開啟圖片</translation>
+    </message>
+    <message>
+        <source>分组</source>
+        <translation>群組</translation>
+    </message>
+    <message>
+        <source>横向滚动的附件分组，可移除附件</source>
+        <translation>橫向捲動的附件群組，可移除附件</translation>
+    </message>
+    <message>
+        <source>可点击</source>
+        <translation>可點擊</translation>
+    </message>
+    <message>
+        <source>setClickable(true)：卡片可点击，悬停时背景变化</source>
+        <translation>setClickable(true)：卡片可點擊，滑鼠停留時背景會變化</translation>
+    </message>
+    <message>
+        <source>PDF · 3.2 MB · 点击预览</source>
+        <translation>PDF · 3.2 MB · 點擊預覽</translation>
+    </message>
+    <message>
+        <source>预览 %1</source>
+        <translation>預覽 %1</translation>
+    </message>
+    <message>
+        <source>打开预览</source>
+        <translation>開啟預覽</translation>
+    </message>
+    <message>
+        <source>链接</source>
+        <translation>連結</translation>
+    </message>
+    <message>
+        <source>setUrl：点击卡片打开网址或本地文件</source>
+        <translation>setUrl：點擊卡片開啟網址或本機檔案</translation>
+    </message>
+    <message>
+        <source>ShadcnWidgetTools 示例文件
+
+点击附件卡片时由系统默认程序打开。
+</source>
+        <translation>ShadcnWidgetTools 範例檔案
+
+點擊附件卡片時由系統預設程式開啟。
+</translation>
+    </message>
+    <message>
+        <source>无法创建示例文件</source>
+        <translation>無法建立範例檔案</translation>
+    </message>
+    <message>
+        <source>PDF · 4.1 MB · 程序内预览</source>
+        <translation>PDF · 4.1 MB · 程式內預覽</translation>
+    </message>
+    <message>
+        <source>在程序内预览</source>
+        <translation>在程式內預覽</translation>
+    </message>
+    <message>
+        <source>上传</source>
+        <translation>上傳</translation>
+    </message>
+    <message>
+        <source>拖入或选择文件，生成附件并模拟上传</source>
+        <translation>拖曳或選擇檔案，產生附件並模擬上傳</translation>
+    </message>
+    <message>
+        <source>图片与 PDF (*.png *.jpg *.jpeg *.gif *.webp *.pdf)</source>
+        <translation>圖片與 PDF (*.png *.jpg *.jpeg *.gif *.webp *.pdf)</translation>
+    </message>
+    <message>
+        <source>或点击选择文件，支持 PNG、JPG、GIF、WebP、PDF，单个不超过 10 MB</source>
+        <translation>或點擊選擇檔案，支援 PNG、JPG、GIF、WebP、PDF，單一檔案不超過 10 MB</translation>
+    </message>
+    <message>
+        <source>上传中 · 0%</source>
+        <translation>上傳中 · 0%</translation>
+    </message>
+    <message>
+        <source>上传中 · %1%</source>
+        <translation>上傳中 · %1%</translation>
+    </message>
+    <message>
+        <source>已上传 · %1</source>
+        <translation>已上傳 · %1</translation>
+    </message>
+    <message>
+        <source>无法添加文件：%1</source>
+        <translation>無法新增檔案：%1</translation>
+    </message>
+    <message>
+        <source>、</source>
+        <comment>文件名列表分隔符</comment>
+        <translation>、</translation>
+    </message>
+</context>
+<context>
+    <name>AvatarPage</name>
+    <message>
+        <source>头像</source>
+        <translation>大頭貼</translation>
+    </message>
+    <message>
+        <source>ShadAvatar / ShadAvatarGroup：圆形头像，图片不可用时显示后备文字，支持徽章与头像组。</source>
+        <translation>ShadAvatar / ShadAvatarGroup：圓形大頭貼，圖片無法使用時顯示備用文字，支援徽章與大頭貼群組。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>图片、后备文字、加载失败与后备图标</source>
+        <translation>圖片、備用文字、載入失敗與備用圖示</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>setAvatarSize：小、中、大三种尺寸</source>
+        <translation>setAvatarSize：小、中、大三種尺寸</translation>
+    </message>
+    <message>
+        <source>徽章</source>
+        <translation>徽章</translation>
+    </message>
+    <message>
+        <source>setBadgeVisible：显示徽章圆点，可改颜色表示在线</source>
+        <translation>setBadgeVisible：顯示徽章圓點，可改變顏色表示線上</translation>
+    </message>
+    <message>
+        <source>带图标的徽章</source>
+        <translation>帶圖示的徽章</translation>
+    </message>
+    <message>
+        <source>setBadgeIcon：在徽章中显示图标，小尺寸不显示</source>
+        <translation>setBadgeIcon：在徽章中顯示圖示，小尺寸不顯示</translation>
+    </message>
+    <message>
+        <source>头像组</source>
+        <translation>大頭貼群組</translation>
+    </message>
+    <message>
+        <source>多个头像重叠排列，组内尺寸统一</source>
+        <translation>多個大頭貼重疊排列，群組內尺寸一致</translation>
+    </message>
+    <message>
+        <source>带数量的头像组</source>
+        <translation>帶數量的大頭貼群組</translation>
+    </message>
+    <message>
+        <source>setCountText：在头像组末尾显示计数</source>
+        <translation>setCountText：在大頭貼群組末尾顯示計數</translation>
+    </message>
+    <message>
+        <source>带图标的头像组</source>
+        <translation>帶圖示的大頭貼群組</translation>
+    </message>
+    <message>
+        <source>setCountIcon：在头像组末尾显示图标</source>
+        <translation>setCountIcon：在大頭貼群組末尾顯示圖示</translation>
+    </message>
+    <message>
+        <source>下拉菜单</source>
+        <translation>下拉選單</translation>
+    </message>
+    <message>
+        <source>把头像放进圆形按钮，点击弹出下拉菜单</source>
+        <translation>把大頭貼放進圓形按鈕，點擊後彈出下拉選單</translation>
+    </message>
+    <message>
+        <source>账户菜单</source>
+        <translation>帳號選單</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>個人資料</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>帳單</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>退出登录</source>
+        <translation>登出</translation>
+    </message>
+    <message>
+        <source>从右到左布局下徽章与头像组镜像</source>
+        <translation>由右至左版面配置下，徽章與大頭貼群組會鏡像翻轉</translation>
+    </message>
+</context>
+<context>
+    <name>BadgePage</name>
+    <message>
+        <source>徽章</source>
+        <translation>徽章</translation>
+    </message>
+    <message>
+        <source>ShadBadge：用于展示状态或计数的徽章。</source>
+        <translation>ShadBadge：用於顯示狀態或計數的徽章。</translation>
+    </message>
+    <message>
+        <source>变体</source>
+        <translation>變體</translation>
+    </message>
+    <message>
+        <source>默认、次要、危险与描边四种变体</source>
+        <translation>預設、次要、危險與外框四種變體</translation>
+    </message>
+    <message>
+        <source>次要</source>
+        <translation>次要</translation>
+    </message>
+    <message>
+        <source>危险</source>
+        <translation>危險</translation>
+    </message>
+    <message>
+        <source>描边</source>
+        <translation>外框</translation>
+    </message>
+    <message>
+        <source>带图标</source>
+        <translation>帶圖示</translation>
+    </message>
+    <message>
+        <source>图标与文字组合的徽章</source>
+        <translation>圖示與文字組合的徽章</translation>
+    </message>
+    <message>
+        <source>已认证</source>
+        <translation>已驗證</translation>
+    </message>
+    <message>
+        <source>标签</source>
+        <translation>標籤</translation>
+    </message>
+    <message>
+        <source>警告</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <source>计数</source>
+        <translation>計數</translation>
+    </message>
+    <message>
+        <source>数字徽章</source>
+        <translation>數字徽章</translation>
+    </message>
+</context>
+<context>
+    <name>BiometricPage</name>
+    <message>
+        <source>状态: 就绪</source>
+        <translation>狀態: 就緒</translation>
+    </message>
+    <message>
+        <source>状态: 没有可用的验证方式</source>
+        <translation>狀態: 沒有可用的驗證方式</translation>
+    </message>
+    <message>
+        <source>状态: 等待验证</source>
+        <translation>狀態: 等待驗證</translation>
+    </message>
+    <message>
+        <source>状态: 验证通过</source>
+        <translation>狀態: 驗證通過</translation>
+    </message>
+    <message>
+        <source>状态: 失败, %1</source>
+        <translation>狀態: 失敗, %1</translation>
+    </message>
+    <message>
+        <source>身份验证</source>
+        <translation>身分驗證</translation>
+    </message>
+    <message>
+        <source>ShadBiometric：调用 Touch ID 或 Windows Hello 在本机确认本人。</source>
+        <translation>ShadBiometric：呼叫 Touch ID 或 Windows Hello 在本機確認本人。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>验证通过后再执行敏感操作</source>
+        <translation>驗證通過後再執行敏感操作</translation>
+    </message>
+    <message>
+        <source>允许改用密码或 PIN</source>
+        <translation>允許改用密碼或 PIN</translation>
+    </message>
+    <message>
+        <source>验证身份</source>
+        <translation>驗證身分</translation>
+    </message>
+    <message>
+        <source>确认是你本人</source>
+        <translation>確認是你本人</translation>
+    </message>
+</context>
+<context>
+    <name>BreadcrumbPage</name>
+    <message>
+        <source>文档</source>
+        <translation>文件</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>主題</translation>
+    </message>
+    <message>
+        <source>面包屑</source>
+        <translation>導覽路徑</translation>
+    </message>
+    <message>
+        <source>ShadBreadcrumb：显示当前页面在层级中的路径，支持下拉菜单与自动折叠。</source>
+        <translation>ShadBreadcrumb：顯示目前頁面在層級中的路徑，支援下拉選單與自動摺疊。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>setPath：一次设置整条路径，末项为当前页</source>
+        <translation>setPath：一次設定整條路徑，最後一項為目前頁面</translation>
+    </message>
+    <message>
+        <source>首页</source>
+        <translation>首頁</translation>
+    </message>
+    <message>
+        <source>组件</source>
+        <translation>元件</translation>
+    </message>
+    <message>
+        <source>自定义分隔符</source>
+        <translation>自訂分隔符號</translation>
+    </message>
+    <message>
+        <source>setSeparatorIcon：替换默认的分隔符图标</source>
+        <translation>setSeparatorIcon：取代預設的分隔符號圖示</translation>
+    </message>
+    <message>
+        <source>下拉菜单</source>
+        <translation>下拉選單</translation>
+    </message>
+    <message>
+        <source>addDropdown：点击层级项弹出下拉菜单</source>
+        <translation>addDropdown：點擊層級項目彈出下拉選單</translation>
+    </message>
+    <message>
+        <source>打开菜单项</source>
+        <translation>開啟選單項目</translation>
+    </message>
+    <message>
+        <source>省略号</source>
+        <translation>省略符號</translation>
+    </message>
+    <message>
+        <source>addEllipsis：省略中间层级，可点击弹出菜单</source>
+        <translation>addEllipsis：省略中間層級，可點擊彈出選單</translation>
+    </message>
+    <message>
+        <source>自动折叠</source>
+        <translation>自動摺疊</translation>
+    </message>
+    <message>
+        <source>setMaximumVisibleItems(3)：中间层级收进省略号菜单</source>
+        <translation>setMaximumVisibleItems(3)：中間層級收進省略符號選單</translation>
+    </message>
+    <message>
+        <source>表单</source>
+        <translation>表單</translation>
+    </message>
+    <message>
+        <source>输入</source>
+        <translation>輸入</translation>
+    </message>
+    <message>
+        <source>文本框</source>
+        <translation>文字方塊</translation>
+    </message>
+    <message>
+        <source>跳转</source>
+        <translation>已跳轉至</translation>
+    </message>
+    <message>
+        <source>长文字</source>
+        <translation>長文字</translation>
+    </message>
+    <message>
+        <source>setMaximumItemWidth：限制单项宽度，超出时省略</source>
+        <translation>setMaximumItemWidth：限制單項寬度，超出時省略</translation>
+    </message>
+    <message>
+        <source>2026 年第三季度产品规划与路线图</source>
+        <translation>2026 年第三季產品規劃與路線圖</translation>
+    </message>
+    <message>
+        <source>设计评审</source>
+        <translation>設計評審</translation>
+    </message>
+    <message>
+        <source>移动端导航栏交互方案（第二版）</source>
+        <translation>行動端導覽列互動方案（第二版）</translation>
+    </message>
+    <message>
+        <source>导航</source>
+        <translation>導覽</translation>
+    </message>
+    <message>
+        <source>点击链接截掉后面的层级，按钮恢复完整路径</source>
+        <translation>點擊連結會截掉後面的層級，按鈕可還原完整路徑</translation>
+    </message>
+    <message>
+        <source>项目</source>
+        <translation>專案</translation>
+    </message>
+    <message>
+        <source>源代码</source>
+        <translation>原始碼</translation>
+    </message>
+    <message>
+        <source>恢复完整路径</source>
+        <translation>還原完整路徑</translation>
+    </message>
+</context>
+<context>
+    <name>ButtonPage</name>
+    <message>
+        <source>按钮</source>
+        <translation>按鈕</translation>
+    </message>
+    <message>
+        <source>ShadButton / ShadButtonGroup：多种变体与尺寸的按钮，以及把相关控件拼接成组的按钮组。</source>
+        <translation>ShadButton / ShadButtonGroup：多種變體與尺寸的按鈕，以及把相關控制項拼接成組的按鈕群組。</translation>
+    </message>
+    <message>
+        <source>变体</source>
+        <translation>變體</translation>
+    </message>
+    <message>
+        <source>默认、危险、描边、次要、幽灵与链接六种变体</source>
+        <translation>預設、危險、外框、次要、幽靈與連結六種變體</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>刪除</translation>
+    </message>
+    <message>
+        <source>描边</source>
+        <translation>外框</translation>
+    </message>
+    <message>
+        <source>次要</source>
+        <translation>次要</translation>
+    </message>
+    <message>
+        <source>幽灵</source>
+        <translation>幽靈</translation>
+    </message>
+    <message>
+        <source>链接</source>
+        <translation>連結</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>四种文字按钮尺寸与四种方形图标按钮尺寸</source>
+        <translation>四種文字按鈕尺寸與四種方形圖示按鈕尺寸</translation>
+    </message>
+    <message>
+        <source>超小</source>
+        <translation>超小</translation>
+    </message>
+    <message>
+        <source>小</source>
+        <translation>小</translation>
+    </message>
+    <message>
+        <source>大</source>
+        <translation>大</translation>
+    </message>
+    <message>
+        <source>图标按钮</source>
+        <translation>圖示按鈕</translation>
+    </message>
+    <message>
+        <source>带图标</source>
+        <translation>帶圖示</translation>
+    </message>
+    <message>
+        <source>图标位于文字左侧的按钮</source>
+        <translation>圖示位於文字左側的按鈕</translation>
+    </message>
+    <message>
+        <source>新建分支</source>
+        <translation>新增分支</translation>
+    </message>
+    <message>
+        <source>邮箱登录</source>
+        <translation>使用電子郵件登入</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>傳送</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>禁用后半透明，不响应悬停与点击</source>
+        <translation>停用後呈半透明，不回應滑鼠停留與點擊</translation>
+    </message>
+    <message>
+        <source>请稍候</source>
+        <translation>請稍候</translation>
+    </message>
+    <message>
+        <source>加载状态</source>
+        <translation>載入狀態</translation>
+    </message>
+    <message>
+        <source>setLoading(true)：显示加载图标，期间不响应点击</source>
+        <translation>setLoading(true)：顯示載入圖示，期間不回應點擊</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>送出</translation>
+    </message>
+    <message>
+        <source>保存草稿</source>
+        <translation>儲存草稿</translation>
+    </message>
+    <message>
+        <source>刷新</source>
+        <translation>重新整理</translation>
+    </message>
+    <message>
+        <source>菜单项</source>
+        <translation>選單項目</translation>
+    </message>
+    <message>
+        <source>按钮组：基础用法</source>
+        <translation>按鈕群組：基本用法</translation>
+    </message>
+    <message>
+        <source>三个子分组嵌套在一个分组中，末尾带下拉菜单</source>
+        <translation>三個子群組巢狀於一個群組中，末尾帶有下拉選單</translation>
+    </message>
+    <message>
+        <source>返回</source>
+        <translation>返回</translation>
+    </message>
+    <message>
+        <source>归档</source>
+        <translation>封存</translation>
+    </message>
+    <message>
+        <source>举报</source>
+        <translation>檢舉</translation>
+    </message>
+    <message>
+        <source>稍后提醒</source>
+        <translation>稍後提醒</translation>
+    </message>
+    <message>
+        <source>更多选项</source>
+        <translation>更多選項</translation>
+    </message>
+    <message>
+        <source>标为已读</source>
+        <translation>標示為已讀</translation>
+    </message>
+    <message>
+        <source>添加到日历</source>
+        <translation>新增至行事曆</translation>
+    </message>
+    <message>
+        <source>添加到列表</source>
+        <translation>新增至清單</translation>
+    </message>
+    <message>
+        <source>按钮组：方向</source>
+        <translation>按鈕群組：方向</translation>
+    </message>
+    <message>
+        <source>setOrientation(Qt::Vertical)：纵向排列，上下拼接</source>
+        <translation>setOrientation(Qt::Vertical)：縱向排列，上下拼接</translation>
+    </message>
+    <message>
+        <source>增加</source>
+        <translation>增加</translation>
+    </message>
+    <message>
+        <source>减少</source>
+        <translation>減少</translation>
+    </message>
+    <message>
+        <source>按钮组：尺寸</source>
+        <translation>按鈕群組：尺寸</translation>
+    </message>
+    <message>
+        <source>按钮组不改变子组件的尺寸，组内使用相同尺寸的按钮</source>
+        <translation>按鈕群組不會改變子元件的尺寸，群組內請使用相同尺寸的按鈕</translation>
+    </message>
+    <message>
+        <source>小号</source>
+        <translation>小</translation>
+    </message>
+    <message>
+        <source>大号</source>
+        <translation>大</translation>
+    </message>
+    <message>
+        <source>组</source>
+        <translation>群組</translation>
+    </message>
+    <message>
+        <source>添加</source>
+        <translation>新增</translation>
+    </message>
+    <message>
+        <source>按钮组：分隔线</source>
+        <translation>按鈕群組：分隔線</translation>
+    </message>
+    <message>
+        <source>addSeparator：在无边框按钮之间加分隔线</source>
+        <translation>addSeparator：在無邊框按鈕之間加上分隔線</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>貼上</translation>
+    </message>
+    <message>
+        <source>按钮组：拆分按钮</source>
+        <translation>按鈕群組：分割按鈕</translation>
+    </message>
+    <message>
+        <source>主操作按钮与附加操作的图标按钮，中间用分隔线隔开</source>
+        <translation>主要操作按鈕與附加操作的圖示按鈕，中間以分隔線隔開</translation>
+    </message>
+    <message>
+        <source>按钮组：输入框</source>
+        <translation>按鈕群組：輸入框</translation>
+    </message>
+    <message>
+        <source>输入框与按钮拼接，输入框占据多余宽度</source>
+        <translation>輸入框與按鈕拼接，輸入框佔據多餘寬度</translation>
+    </message>
+    <message>
+        <source>搜索...</source>
+        <translation>搜尋...</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>搜尋</translation>
+    </message>
+    <message>
+        <source>（空）</source>
+        <translation>（空）</translation>
+    </message>
+    <message>
+        <source>按钮组：下拉菜单</source>
+        <translation>按鈕群組：下拉選單</translation>
+    </message>
+    <message>
+        <source>主按钮加下拉箭头按钮，点击弹出菜单</source>
+        <translation>主按鈕加下拉箭頭按鈕，點擊後彈出選單</translation>
+    </message>
+    <message>
+        <source>关注</source>
+        <translation>追蹤</translation>
+    </message>
+    <message>
+        <source>已关注</source>
+        <translation>已追蹤</translation>
+    </message>
+    <message>
+        <source>将收到该会话的新消息通知</source>
+        <translation>你將收到此對話的新訊息通知</translation>
+    </message>
+    <message>
+        <source>更多操作</source>
+        <translation>更多操作</translation>
+    </message>
+    <message>
+        <source>静音会话</source>
+        <translation>將對話靜音</translation>
+    </message>
+    <message>
+        <source>举报会话</source>
+        <translation>檢舉對話</translation>
+    </message>
+    <message>
+        <source>屏蔽用户</source>
+        <translation>封鎖使用者</translation>
+    </message>
+    <message>
+        <source>分享会话</source>
+        <translation>分享對話</translation>
+    </message>
+    <message>
+        <source>复制会话</source>
+        <translation>複製對話</translation>
+    </message>
+    <message>
+        <source>删除会话</source>
+        <translation>刪除對話</translation>
+    </message>
+    <message>
+        <source>按钮组：下拉选择</source>
+        <translation>按鈕群組：下拉選擇</translation>
+    </message>
+    <message>
+        <source>币种下拉框与金额输入框拼接，后跟发送按钮</source>
+        <translation>幣別下拉方塊與金額輸入框拼接，後接傳送按鈕</translation>
+    </message>
+    <message>
+        <source>币种</source>
+        <translation>幣別</translation>
+    </message>
+    <message>
+        <source>按钮组：文本</source>
+        <translation>按鈕群組：文字</translation>
+    </message>
+    <message>
+        <source>addText：在按钮组中添加文字块，可带图标</source>
+        <translation>addText：在按鈕群組中新增文字區塊，可帶圖示</translation>
+    </message>
+    <message>
+        <source>按钮组：浮层</source>
+        <translation>按鈕群組：浮動面板</translation>
+    </message>
+    <message>
+        <source>下拉箭头按钮弹出带多行输入框的浮层</source>
+        <translation>下拉箭頭按鈕彈出帶有多行輸入框的浮動面板</translation>
+    </message>
+    <message>
+        <source>打开浮层</source>
+        <translation>開啟浮動面板</translation>
+    </message>
+    <message>
+        <source>使用 Copilot 开始新任务</source>
+        <translation>使用 Copilot 開始新任務</translation>
+    </message>
+    <message>
+        <source>用自然语言描述你的任务。</source>
+        <translation>用自然語言描述你的任務。</translation>
+    </message>
+    <message>
+        <source>我需要……</source>
+        <translation>我需要……</translation>
+    </message>
+    <message>
+        <source>Copilot 会创建一个拉取请求供你审阅。</source>
+        <translation>Copilot 會建立一個提取要求供你審閱。</translation>
+    </message>
+    <message>
+        <source>已打开 Copilot 面板</source>
+        <translation>已開啟 Copilot 面板</translation>
+    </message>
+    <message>
+        <source>按钮组：输入组与提示</source>
+        <translation>按鈕群組：輸入群組與提示</translation>
+    </message>
+    <message>
+        <source>输入组放进按钮组，语音按钮带悬停提示</source>
+        <translation>輸入群組放進按鈕群組，語音按鈕帶有滑鼠停留提示</translation>
+    </message>
+    <message>
+        <source>添加附件</source>
+        <translation>新增附件</translation>
+    </message>
+    <message>
+        <source>发送消息...</source>
+        <translation>傳送訊息...</translation>
+    </message>
+    <message>
+        <source>语音模式</source>
+        <translation>語音模式</translation>
+    </message>
+    <message>
+        <source>录制并发送语音...</source>
+        <translation>錄製並傳送語音...</translation>
+    </message>
+</context>
+<context>
+    <name>CardPage</name>
+    <message>
+        <source>卡片</source>
+        <translation>卡片</translation>
+    </message>
+    <message>
+        <source>ShadCard：由标题区、内容区与底部区组成的卡片容器。</source>
+        <translation>ShadCard：由標題區、內容區與底部區組成的卡片容器。</translation>
+    </message>
+    <message>
+        <source>登录卡片</source>
+        <translation>登入卡片</translation>
+    </message>
+    <message>
+        <source>包含标题、操作、内容与底部四个部分</source>
+        <translation>包含標題、操作、內容與底部四個部分</translation>
+    </message>
+    <message>
+        <source>登录你的账号</source>
+        <translation>登入你的帳號</translation>
+    </message>
+    <message>
+        <source>在下方输入邮箱以登录账号</source>
+        <translation>在下方輸入電子郵件以登入帳號</translation>
+    </message>
+    <message>
+        <source>注册</source>
+        <translation>註冊</translation>
+    </message>
+    <message>
+        <source>邮箱</source>
+        <translation>電子郵件</translation>
+    </message>
+    <message>
+        <source>密码</source>
+        <translation>密碼</translation>
+    </message>
+    <message>
+        <source>登录</source>
+        <translation>登入</translation>
+    </message>
+    <message>
+        <source>使用 Google 登录</source>
+        <translation>使用 Google 登入</translation>
+    </message>
+</context>
+<context>
+    <name>CarouselPage</name>
+    <message>
+        <source>轮播</source>
+        <translation>輪播</translation>
+    </message>
+    <message>
+        <source>ShadCarousel：可拖动的幻灯片轮播，支持一屏多张、纵向、循环与自动播放。</source>
+        <translation>ShadCarousel：可拖曳的投影片輪播，支援單屏多張、縱向、循環與自動播放。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击两侧按钮或拖动切换幻灯片</source>
+        <translation>點擊兩側按鈕或拖曳以切換投影片</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>setItemsPerView(3)：一屏同时显示 3 张幻灯片</source>
+        <translation>setItemsPerView(3)：單屏同時顯示 3 張投影片</translation>
+    </message>
+    <message>
+        <source>间距</source>
+        <translation>間距</translation>
+    </message>
+    <message>
+        <source>setSpacing：设置幻灯片之间的距离</source>
+        <translation>setSpacing：設定投影片之間的距離</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>setOrientation(Qt::Vertical)：幻灯片纵向排列，按钮在上下两端</source>
+        <translation>setOrientation(Qt::Vertical)：投影片縱向排列，按鈕位於上下兩端</translation>
+    </message>
+    <message>
+        <source>循环</source>
+        <translation>循環</translation>
+    </message>
+    <message>
+        <source>setLoop(true)：首尾无缝衔接，按钮不会禁用</source>
+        <translation>setLoop(true)：首尾無縫銜接，按鈕不會停用</translation>
+    </message>
+    <message>
+        <source>API 与事件</source>
+        <translation>API 與事件</translation>
+    </message>
+    <message>
+        <source>读取当前停靠点与数量，监听切换信号</source>
+        <translation>讀取目前停靠點與數量，監聽切換訊號</translation>
+    </message>
+    <message>
+        <source>第 %1 张，共 %2 张</source>
+        <translation>第 %1 張，共 %2 張</translation>
+    </message>
+    <message>
+        <source>自动播放</source>
+        <translation>自動播放</translation>
+    </message>
+    <message>
+        <source>setAutoplayInterval：定时切换，悬停时暂停</source>
+        <translation>setAutoplayInterval：定時切換，滑鼠停留時暫停</translation>
+    </message>
+    <message>
+        <source>从右到左布局下幻灯片顺序与拖动方向镜像</source>
+        <translation>由右至左版面配置下，投影片順序與拖曳方向會鏡像翻轉</translation>
+    </message>
+</context>
+<context>
+    <name>ChartAreaPage</name>
+    <message>
+        <source>1月</source>
+        <translation>1月</translation>
+    </message>
+    <message>
+        <source>2月</source>
+        <translation>2月</translation>
+    </message>
+    <message>
+        <source>3月</source>
+        <translation>3月</translation>
+    </message>
+    <message>
+        <source>4月</source>
+        <translation>4月</translation>
+    </message>
+    <message>
+        <source>5月</source>
+        <translation>5月</translation>
+    </message>
+    <message>
+        <source>6月</source>
+        <translation>6月</translation>
+    </message>
+    <message>
+        <source>移动端</source>
+        <translation>行動端</translation>
+    </message>
+    <message>
+        <source>桌面端</source>
+        <translation>桌面端</translation>
+    </message>
+    <message>
+        <source>%1年%2月%3日</source>
+        <translation>%1年%2月%3日</translation>
+    </message>
+    <message>
+        <source>%1月%2日</source>
+        <translation>%1月%2日</translation>
+    </message>
+    <message>
+        <source>第 %1 条</source>
+        <translation>第 %1 筆</translation>
+    </message>
+    <message>
+        <source>自动</source>
+        <translation>自動</translation>
+    </message>
+    <message>
+        <source>%1 绘制，数据点 %2 / %3，实际刷新 %4 帧/秒，屏幕刷新率 %5 Hz</source>
+        <translation>%1 繪製，資料點 %2 / %3，實際更新 %4 幀/秒，螢幕更新率 %5 Hz</translation>
+    </message>
+    <message>
+        <source>压力测试</source>
+        <translation>壓力測試</translation>
+    </message>
+    <message>
+        <source>面积图：%1</source>
+        <translation>面積圖：%1</translation>
+    </message>
+    <message>
+        <source>面积图</source>
+        <translation>面積圖</translation>
+    </message>
+    <message>
+        <source>ShadAreaChart：GPU 绘制的面积图，GPU 不可用时改用 CPU。</source>
+        <translation>ShadAreaChart：由 GPU 繪製的面積圖，GPU 無法使用時改用 CPU。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>自然曲线，悬停显示光标线与提示</source>
+        <translation>自然曲線，滑鼠停留時顯示游標線與提示</translation>
+    </message>
+    <message>
+        <source>线性</source>
+        <translation>線性</translation>
+    </message>
+    <message>
+        <source>setCurveType(Linear)：相邻数据点直线相连</source>
+        <translation>setCurveType(Linear)：相鄰資料點以直線相連</translation>
+    </message>
+    <message>
+        <source>阶梯</source>
+        <translation>階梯</translation>
+    </message>
+    <message>
+        <source>setCurveType(Step)：在相邻两点的中点处跳变</source>
+        <translation>setCurveType(Step)：在相鄰兩點的中點處跳變</translation>
+    </message>
+    <message>
+        <source>图例</source>
+        <translation>圖例</translation>
+    </message>
+    <message>
+        <source>setLegendVisible(true)：图表下方显示系列名称</source>
+        <translation>setLegendVisible(true)：圖表下方顯示系列名稱</translation>
+    </message>
+    <message>
+        <source>堆叠</source>
+        <translation>堆疊</translation>
+    </message>
+    <message>
+        <source>setStackMode(Stacked)：后一个系列叠加在前一个之上</source>
+        <translation>setStackMode(Stacked)：後一個系列疊加在前一個之上</translation>
+    </message>
+    <message>
+        <source>百分比堆叠</source>
+        <translation>百分比堆疊</translation>
+    </message>
+    <message>
+        <source>setStackMode(Expanded)：每个分类按总和归一化为 0% 到 100%</source>
+        <translation>setStackMode(Expanded)：每個分類依總和正規化為 0% 到 100%</translation>
+    </message>
+    <message>
+        <source>其他</source>
+        <translation>其他</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>圖示</translation>
+    </message>
+    <message>
+        <source>setSeriesIcon：图例与提示用图标代替颜色标记</source>
+        <translation>setSeriesIcon：圖例與提示以圖示取代顏色標記</translation>
+    </message>
+    <message>
+        <source>渐变</source>
+        <translation>漸層</translation>
+    </message>
+    <message>
+        <source>setFillStyle(Gradient)：填充从上到下渐隐</source>
+        <translation>setFillStyle(Gradient)：填滿由上到下漸隱</translation>
+    </message>
+    <message>
+        <source>坐标轴</source>
+        <translation>座標軸</translation>
+    </message>
+    <message>
+        <source>setYAxisVisible(true)：显示 Y 轴刻度，setYTickCount(3) 减少刻度</source>
+        <translation>setYAxisVisible(true)：顯示 Y 軸刻度，setYTickCount(3) 減少刻度</translation>
+    </message>
+    <message>
+        <source>交互</source>
+        <translation>互動</translation>
+    </message>
+    <message>
+        <source>切换时间范围后更新数据，X 轴刻度过密时自动间隔显示</source>
+        <translation>切換時間範圍後更新資料，X 軸刻度過密時自動間隔顯示</translation>
+    </message>
+    <message>
+        <source>最近 3 个月</source>
+        <translation>最近 3 個月</translation>
+    </message>
+    <message>
+        <source>最近 30 天</source>
+        <translation>最近 30 天</translation>
+    </message>
+    <message>
+        <source>最近 7 天</source>
+        <translation>最近 7 天</translation>
+    </message>
+    <message>
+        <source>绘制 API 与压力测试</source>
+        <translation>繪製 API 與壓力測試</translation>
+    </message>
+    <message>
+        <source>setRenderApi：在窗口的 GPU API 与 CPU 之间切换，其他 API 在新窗口中打开；每帧追加 1000 条随机数据，只保留最近 50000 条</source>
+        <translation>setRenderApi：在視窗的 GPU API 與 CPU 之間切換，其他 API 會在新視窗中開啟；每幀追加 1000 筆隨機資料，只保留最近 50000 筆</translation>
+    </message>
+    <message>
+        <source>在新窗口中打开</source>
+        <translation>在新視窗中開啟</translation>
+    </message>
+</context>
+<context>
+    <name>ChartBarPage</name>
+    <message>
+        <source>柱状图</source>
+        <translation>長條圖</translation>
+    </message>
+    <message>
+        <source>ShadBarChart：GPU 绘制的柱状图，GPU 不可用时改用 CPU。</source>
+        <translation>ShadBarChart：由 GPU 繪製的長條圖，GPU 無法使用時改用 CPU。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>setBarRadius(8)：柱子四个角为圆角，悬停只显示提示</source>
+        <translation>setBarRadius(8)：長條四個角為圓角，滑鼠停留只顯示提示</translation>
+    </message>
+    <message>
+        <source>多系列</source>
+        <translation>多系列</translation>
+    </message>
+    <message>
+        <source>同一分类内各系列并排，间隔 4</source>
+        <translation>同一分類內各系列並排，間隔 4</translation>
+    </message>
+    <message>
+        <source>堆叠</source>
+        <translation>堆疊</translation>
+    </message>
+    <message>
+        <source>setStackMode(Stacked)：只圆整根柱子的两端，setLegendVisible(true) 显示图例</source>
+        <translation>setStackMode(Stacked)：只圓角化整根長條的兩端，setLegendVisible(true) 顯示圖例</translation>
+    </message>
+    <message>
+        <source>百分比堆叠</source>
+        <translation>百分比堆疊</translation>
+    </message>
+    <message>
+        <source>setStackMode(Expanded)：每个分类按总和归一化为 0% 到 100%</source>
+        <translation>setStackMode(Expanded)：每個分類依總和正規化為 0% 到 100%</translation>
+    </message>
+    <message>
+        <source>其他</source>
+        <translation>其他</translation>
+    </message>
+    <message>
+        <source>直角</source>
+        <translation>直角</translation>
+    </message>
+    <message>
+        <source>setBarRadius(0)：柱子为直角，setYAxisVisible(true) 显示 Y 轴刻度</source>
+        <translation>setBarRadius(0)：長條為直角，setYAxisVisible(true) 顯示 Y 軸刻度</translation>
+    </message>
+    <message>
+        <source>缩放</source>
+        <translation>縮放</translation>
+    </message>
+    <message>
+        <source>setZoomEnabled(true)：滚轮缩放、拖动平移、双击恢复</source>
+        <translation>setZoomEnabled(true)：滾輪縮放、拖曳平移、按兩下還原</translation>
+    </message>
+    <message>
+        <source>%1年%2月%3日</source>
+        <translation>%1年%2月%3日</translation>
+    </message>
+    <message>
+        <source>%1月%2日</source>
+        <translation>%1月%2日</translation>
+    </message>
+    <message>
+        <source>桌面端</source>
+        <translation>桌面端</translation>
+    </message>
+    <message>
+        <source>压力测试</source>
+        <translation>壓力測試</translation>
+    </message>
+    <message>
+        <source>每帧追加 1000 条随机数据，只保留最近 50000 条；分类多于像素宽度时按像素列合并</source>
+        <translation>每幀追加 1000 筆隨機資料，只保留最近 50000 筆；分類數多於像素寬度時依像素列合併</translation>
+    </message>
+    <message>
+        <source>移动端</source>
+        <translation>行動端</translation>
+    </message>
+    <message>
+        <source>1月</source>
+        <translation>1月</translation>
+    </message>
+    <message>
+        <source>2月</source>
+        <translation>2月</translation>
+    </message>
+    <message>
+        <source>3月</source>
+        <translation>3月</translation>
+    </message>
+    <message>
+        <source>4月</source>
+        <translation>4月</translation>
+    </message>
+    <message>
+        <source>5月</source>
+        <translation>5月</translation>
+    </message>
+    <message>
+        <source>6月</source>
+        <translation>6月</translation>
+    </message>
+</context>
+<context>
+    <name>ChartHeatmapPage</name>
+    <message>
+        <source>周一</source>
+        <translation>週一</translation>
+    </message>
+    <message>
+        <source>周二</source>
+        <translation>週二</translation>
+    </message>
+    <message>
+        <source>周三</source>
+        <translation>週三</translation>
+    </message>
+    <message>
+        <source>周四</source>
+        <translation>週四</translation>
+    </message>
+    <message>
+        <source>周五</source>
+        <translation>週五</translation>
+    </message>
+    <message>
+        <source>周六</source>
+        <translation>週六</translation>
+    </message>
+    <message>
+        <source>周日</source>
+        <translation>週日</translation>
+    </message>
+    <message>
+        <source>%1时</source>
+        <translation>%1時</translation>
+    </message>
+    <message>
+        <source>自动</source>
+        <translation>自動</translation>
+    </message>
+    <message>
+        <source>%1 绘制，行数 %2 / %3，实际刷新 %4 帧/秒，屏幕刷新率 %5 Hz</source>
+        <translation>%1 繪製，列數 %2 / %3，實際更新 %4 幀/秒，螢幕更新率 %5 Hz</translation>
+    </message>
+    <message>
+        <source>热力图</source>
+        <translation>熱力圖</translation>
+    </message>
+    <message>
+        <source>ShadHeatmap：GPU 以纹理绘制的热力图，可用作瀑布图，GPU 不可用时改用 CPU。</source>
+        <translation>ShadHeatmap：由 GPU 以紋理繪製的熱力圖，可用作瀑布圖，GPU 無法使用時改用 CPU。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>颜色从表面颜色过渡到 chart-1，范围按数据自动计算；行列标签放不下时间隔显示</source>
+        <translation>顏色從表面顏色過渡到 chart-1，範圍依資料自動計算；列與欄標籤放不下時間隔顯示</translation>
+    </message>
+    <message>
+        <source>固定范围与颜色</source>
+        <translation>固定範圍與顏色</translation>
+    </message>
+    <message>
+        <source>setValueRange(0, 100) 固定范围，setColorRole(Chart2) 更换颜色</source>
+        <translation>setValueRange(0, 100) 固定範圍，setColorRole(Chart2) 更換顏色</translation>
+    </message>
+    <message>
+        <source>瀑布图</source>
+        <translation>瀑布圖</translation>
+    </message>
+    <message>
+        <source>appendRow：每帧追加一行 128 个频点，只保留最近 120 行；GPU 绘制时只上传新增的行</source>
+        <translation>appendRow：每幀追加一列 128 個頻點，只保留最近 120 列；GPU 繪製時只上傳新增的列</translation>
+    </message>
+    <message>
+        <source>开始滚动</source>
+        <translation>開始捲動</translation>
+    </message>
+</context>
+<context>
+    <name>ChartLinePage</name>
+    <message>
+        <source>折线图</source>
+        <translation>折線圖</translation>
+    </message>
+    <message>
+        <source>ShadLineChart：GPU 绘制的折线图，GPU 不可用时改用 CPU。</source>
+        <translation>ShadLineChart：由 GPU 繪製的折線圖，GPU 無法使用時改用 CPU。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>自然曲线，线宽 2，悬停显示光标线与提示</source>
+        <translation>自然曲線，線寬 2，滑鼠停留時顯示游標線與提示</translation>
+    </message>
+    <message>
+        <source>线性</source>
+        <translation>線性</translation>
+    </message>
+    <message>
+        <source>setCurveType(Linear)：相邻数据点直线相连</source>
+        <translation>setCurveType(Linear)：相鄰資料點以直線相連</translation>
+    </message>
+    <message>
+        <source>阶梯</source>
+        <translation>階梯</translation>
+    </message>
+    <message>
+        <source>setCurveType(Step)：在相邻两点的中点处跳变</source>
+        <translation>setCurveType(Step)：在相鄰兩點的中點處跳變</translation>
+    </message>
+    <message>
+        <source>多系列</source>
+        <translation>多系列</translation>
+    </message>
+    <message>
+        <source>每个系列一条线，setLegendVisible(true) 显示图例</source>
+        <translation>每個系列一條線，setLegendVisible(true) 顯示圖例</translation>
+    </message>
+    <message>
+        <source>数据点</source>
+        <translation>資料點</translation>
+    </message>
+    <message>
+        <source>setDotsVisible(true)：每个分类上显示数据点，由 GPU 按实例绘制</source>
+        <translation>setDotsVisible(true)：每個分類上顯示資料點，由 GPU 以實例化方式繪製</translation>
+    </message>
+    <message>
+        <source>坐标轴</source>
+        <translation>座標軸</translation>
+    </message>
+    <message>
+        <source>setYAxisVisible(true)：显示 Y 轴刻度，setLineWidth(1) 改细线</source>
+        <translation>setYAxisVisible(true)：顯示 Y 軸刻度，setLineWidth(1) 改為細線</translation>
+    </message>
+    <message>
+        <source>缩放</source>
+        <translation>縮放</translation>
+    </message>
+    <message>
+        <source>setZoomEnabled(true)：滚轮缩放、拖动平移、双击恢复</source>
+        <translation>setZoomEnabled(true)：滾輪縮放、拖曳平移、按兩下還原</translation>
+    </message>
+    <message>
+        <source>%1年%2月%3日</source>
+        <translation>%1年%2月%3日</translation>
+    </message>
+    <message>
+        <source>%1月%2日</source>
+        <translation>%1月%2日</translation>
+    </message>
+    <message>
+        <source>桌面端</source>
+        <translation>桌面端</translation>
+    </message>
+    <message>
+        <source>移动端</source>
+        <translation>行動端</translation>
+    </message>
+    <message>
+        <source>压力测试</source>
+        <translation>壓力測試</translation>
+    </message>
+    <message>
+        <source>每帧追加 1000 条随机数据，只保留最近 50000 条；数据过密时按像素列抽稀</source>
+        <translation>每幀追加 1000 筆隨機資料，只保留最近 50000 筆；資料過密時依像素列抽稀</translation>
+    </message>
+    <message>
+        <source>1月</source>
+        <translation>1月</translation>
+    </message>
+    <message>
+        <source>2月</source>
+        <translation>2月</translation>
+    </message>
+    <message>
+        <source>3月</source>
+        <translation>3月</translation>
+    </message>
+    <message>
+        <source>4月</source>
+        <translation>4月</translation>
+    </message>
+    <message>
+        <source>5月</source>
+        <translation>5月</translation>
+    </message>
+    <message>
+        <source>6月</source>
+        <translation>6月</translation>
+    </message>
+</context>
+<context>
+    <name>ChartScatterPage</name>
+    <message>
+        <source>散点图</source>
+        <translation>散佈圖</translation>
+    </message>
+    <message>
+        <source>ShadScatterChart：GPU 按实例绘制的散点图，适合几十万个点，GPU 不可用时改用 CPU。</source>
+        <translation>ShadScatterChart：由 GPU 以實例化方式繪製的散佈圖，適合數十萬個點，GPU 無法使用時改用 CPU。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>X、Y 都是数值轴，范围按数据自动取整齐刻度；悬停显示最近的点</source>
+        <translation>X、Y 都是數值軸，範圍依資料自動取整齊刻度；滑鼠停留時顯示最近的點</translation>
+    </message>
+    <message>
+        <source>图例</source>
+        <translation>圖例</translation>
+    </message>
+    <message>
+        <source>setLegendVisible(true)：图表下方显示系列名称</source>
+        <translation>setLegendVisible(true)：圖表下方顯示系列名稱</translation>
+    </message>
+    <message>
+        <source>点半径</source>
+        <translation>點半徑</translation>
+    </message>
+    <message>
+        <source>setPointRadius(5)：放大圆点，setGridVisible(false) 隐藏网格线</source>
+        <translation>setPointRadius(5)：放大圓點，setGridVisible(false) 隱藏格線</translation>
+    </message>
+    <message>
+        <source>实时追加与压力测试</source>
+        <translation>即時追加與壓力測試</translation>
+    </message>
+    <message>
+        <source>appendPoints：每帧每个系列追加 2000 个点，各保留最近 200000 个；GPU 绘制时只上传新增的点</source>
+        <translation>appendPoints：每幀每個系列追加 2000 個點，各保留最近 200000 個；GPU 繪製時只上傳新增的點</translation>
+    </message>
+    <message>
+        <source>压力测试</source>
+        <translation>壓力測試</translation>
+    </message>
+    <message>
+        <source>A 组</source>
+        <translation>A 組</translation>
+    </message>
+    <message>
+        <source>B 组</source>
+        <translation>B 組</translation>
+    </message>
+    <message>
+        <source>自动</source>
+        <translation>自動</translation>
+    </message>
+    <message>
+        <source>%1 绘制，点数 %2 / %3，实际刷新 %4 帧/秒，屏幕刷新率 %5 Hz</source>
+        <translation>%1 繪製，點數 %2 / %3，實際更新 %4 幀/秒，螢幕更新率 %5 Hz</translation>
+    </message>
+</context>
+<context>
+    <name>ChartStressTest</name>
+    <message>
+        <source>自动</source>
+        <translation>自動</translation>
+    </message>
+    <message>
+        <source>%1 绘制，数据点 %2 / %3，实际刷新 %4 帧/秒，屏幕刷新率 %5 Hz</source>
+        <translation>%1 繪製，資料點 %2 / %3，實際更新 %4 幀/秒，螢幕更新率 %5 Hz</translation>
+    </message>
+    <message>
+        <source>第 %1 条</source>
+        <translation>第 %1 筆</translation>
+    </message>
+    <message>
+        <source>压力测试</source>
+        <translation>壓力測試</translation>
+    </message>
+</context>
+<context>
+    <name>CheckboxPage</name>
+    <message>
+        <source>复选框</source>
+        <translation>核取方塊</translation>
+    </message>
+    <message>
+        <source>ShadCheckbox：点击文字也可切换的复选框，支持三态与错误态。</source>
+        <translation>ShadCheckbox：點擊文字也可切換的核取方塊，支援三態與錯誤狀態。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>未选中与选中</source>
+        <translation>未勾選與已勾選</translation>
+    </message>
+    <message>
+        <source>接受服务条款</source>
+        <translation>接受服務條款</translation>
+    </message>
+    <message>
+        <source>开启通知</source>
+        <translation>開啟通知</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>禁用、半选与错误态</source>
+        <translation>停用、半選與錯誤狀態</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>禁用且选中</source>
+        <translation>停用且已勾選</translation>
+    </message>
+    <message>
+        <source>半选</source>
+        <translation>半選</translation>
+    </message>
+    <message>
+        <source>错误</source>
+        <translation>錯誤</translation>
+    </message>
+</context>
+<context>
+    <name>CodeBlockPage</name>
+    <message>
+        <source>代码块</source>
+        <translation>程式碼區塊</translation>
+    </message>
+    <message>
+        <source>ShadCodeBlock：用于显示代码、终端输出、日志与 diff，支持语法高亮。</source>
+        <translation>ShadCodeBlock：用於顯示程式碼、終端機輸出、記錄檔與 diff，支援語法醒目提示。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>setCode 设置代码，可拖动选择并复制</source>
+        <translation>setCode 設定程式碼，可拖曳選取並複製</translation>
+    </message>
+    <message>
+        <source>标题栏</source>
+        <translation>標題列</translation>
+    </message>
+    <message>
+        <source>显示标题栏，结束侧带复制按钮</source>
+        <translation>顯示標題列，結尾側帶有複製按鈕</translation>
+    </message>
+    <message>
+        <source>终端</source>
+        <translation>終端機</translation>
+    </message>
+    <message>
+        <source>操作按钮</source>
+        <translation>操作按鈕</translation>
+    </message>
+    <message>
+        <source>addActionWidget 添加操作按钮，这里用于切换自动换行</source>
+        <translation>addActionWidget 新增操作按鈕，這裡用於切換自動換行</translation>
+    </message>
+    <message>
+        <source>自动换行</source>
+        <comment>按钮提示</comment>
+        <translation>啟用自動換行</translation>
+    </message>
+    <message>
+        <source>取消自动换行</source>
+        <translation>停用自動換行</translation>
+    </message>
+    <message>
+        <source>悬浮操作</source>
+        <translation>浮動操作</translation>
+    </message>
+    <message>
+        <source>无标题时操作按钮悬浮在右上角，悬停或聚焦时淡入</source>
+        <translation>無標題時操作按鈕浮動於右上角，滑鼠停留或取得焦點時淡入</translation>
+    </message>
+    <message>
+        <source>行号</source>
+        <translation>行號</translation>
+    </message>
+    <message>
+        <source>显示行号，行号不会被选中或复制</source>
+        <translation>顯示行號，行號不會被選取或複製</translation>
+    </message>
+    <message>
+        <source>起始行号</source>
+        <translation>起始行號</translation>
+    </message>
+    <message>
+        <source>设置第一行的行号，用于展示文件中的一段代码</source>
+        <translation>設定第一行的行號，用於展示檔案中的一段程式碼</translation>
+    </message>
+    <message>
+        <source>自动换行</source>
+        <translation>自動換行</translation>
+    </message>
+    <message>
+        <source>开启时按单词换行，关闭时超出宽度横向滚动</source>
+        <translation>開啟時依單字換行，關閉時超出寬度會橫向捲動</translation>
+    </message>
+    <message>
+        <source>高亮行</source>
+        <translation>醒目提示行</translation>
+    </message>
+    <message>
+        <source>用背景色标出需要强调的重点行</source>
+        <translation>以背景色標出需要強調的重點行</translation>
+    </message>
+    <message>
+        <source>标记新增行与删除行，标记不会被复制</source>
+        <translation>標記新增行與刪除行，標記不會被複製</translation>
+    </message>
+    <message>
+        <source>限制高度</source>
+        <translation>限制高度</translation>
+    </message>
+    <message>
+        <source>限制内容高度，超出后纵向滚动</source>
+        <translation>限制內容高度，超出後縱向捲動</translation>
+    </message>
+    <message>
+        <source>展开更多</source>
+        <translation>展開更多</translation>
+    </message>
+    <message>
+        <source>收起时限制高度，点击底栏按钮展开全部代码</source>
+        <translation>收合時限制高度，點擊底部按鈕展開全部程式碼</translation>
+    </message>
+    <message>
+        <source>展开</source>
+        <translation>展開</translation>
+    </message>
+    <message>
+        <source>收起</source>
+        <translation>收合</translation>
+    </message>
+    <message>
+        <source>小尺寸</source>
+        <translation>小尺寸</translation>
+    </message>
+    <message>
+        <source>更紧凑的小尺寸，适合嵌在工具调用记录中</source>
+        <translation>更精簡的小尺寸，適合嵌入工具呼叫記錄中</translation>
+    </message>
+    <message>
+        <source>错误样式</source>
+        <translation>錯誤樣式</translation>
+    </message>
+    <message>
+        <source>标题与代码为危险色，用于错误输出与堆栈</source>
+        <translation>標題與程式碼為危險色，用於錯誤輸出與堆疊追蹤</translation>
+    </message>
+    <message>
+        <source>未处理的运行时错误</source>
+        <translation>未處理的執行階段錯誤</translation>
+    </message>
+    <message>
+        <source>语法高亮</source>
+        <translation>語法醒目提示</translation>
+    </message>
+    <message>
+        <source>setLanguage 开启语法高亮，配色随主题切换</source>
+        <translation>setLanguage 開啟語法醒目提示，配色隨主題切換</translation>
+    </message>
+    <message>
+        <source>多语言</source>
+        <translation>多語言</translation>
+    </message>
+    <message>
+        <source>内置多种语言，未内置的语言按纯文本显示</source>
+        <translation>內建多種語言，未內建的語言以純文字顯示</translation>
+    </message>
+    <message>
+        <source>/* 卡片 */
+.card {
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  color: #0a0a0a;
+}
+
+.card:hover {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.05) !important;
+}
+</source>
+        <translation>/* 卡片 */
+.card {
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  color: #0a0a0a;
+}
+
+.card:hover {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.05) !important;
+}
+</translation>
+    </message>
+    <message>
+        <source>from dataclasses import dataclass
+
+@dataclass
+class Forecast:
+    city: str
+    high: float
+
+def warmest(items: list[Forecast]) -&gt; str:
+    &quot;&quot;&quot;返回最高温度的城市&quot;&quot;&quot;
+    best = max(items, key=lambda item: item.high)
+    return f&quot;{best.city}: {best.high:.1f}°C&quot;  # 保留一位小数
+</source>
+        <translation>from dataclasses import dataclass
+
+@dataclass
+class Forecast:
+    city: str
+    high: float
+
+def warmest(items: list[Forecast]) -&gt; str:
+    &quot;&quot;&quot;傳回最高溫度的城市&quot;&quot;&quot;
+    best = max(items, key=lambda item: item.high)
+    return f&quot;{best.city}: {best.high:.1f}°C&quot;  # 保留一位小數
+</translation>
+    </message>
+    <message>
+        <source>#include &lt;QApplication&gt;
+
+int main(int argc, char* argv[])
+{
+    QApplication app(argc, argv);
+    // 显示一个代码块
+    ShadCodeBlock block(QStringLiteral(&quot;Hello&quot;));
+    block.setLanguage(QStringLiteral(&quot;cpp&quot;));
+    block.show();
+    return app.exec();
+}
+</source>
+        <translation>#include &lt;QApplication&gt;
+
+int main(int argc, char* argv[])
+{
+    QApplication app(argc, argv);
+    // 顯示一個程式碼區塊
+    ShadCodeBlock block(QStringLiteral(&quot;Hello&quot;));
+    block.setLanguage(QStringLiteral(&quot;cpp&quot;));
+    block.show();
+    return app.exec();
+}
+</translation>
+    </message>
+    <message>
+        <source>这是一段纯文本，不会被高亮。
+Unlisted languages render as plain text.
+</source>
+        <translation>這是一段純文字，不會被醒目提示。
+Unlisted languages render as plain text.
+</translation>
+    </message>
+    <message>
+        <source>终端输出</source>
+        <translation>終端機輸出</translation>
+    </message>
+    <message>
+        <source>解析终端颜色转义码，复制时去掉转义码</source>
+        <translation>解析終端機顏色逸出碼，複製時去除逸出碼</translation>
+    </message>
+    <message>
+        <source>流式输出</source>
+        <translation>串流輸出</translation>
+    </message>
+    <message>
+        <source>appendCode 逐段追加代码，点击重播按钮重新开始</source>
+        <translation>appendCode 逐段追加程式碼，點擊重播按鈕重新開始</translation>
+    </message>
+    <message>
+        <source>重播</source>
+        <translation>重播</translation>
+    </message>
+</context>
+<context>
+    <name>CodeEditorPage</name>
+    <message>
+        <source>代码编辑器</source>
+        <translation>程式碼編輯器</translation>
+    </message>
+    <message>
+        <source>ShadCodeEditor：带行号栏、语法高亮与当前行高亮的代码编辑器，继承 QPlainTextEdit。</source>
+        <translation>ShadCodeEditor：帶有行號欄、語法醒目提示與目前行醒目提示的程式碼編輯器，繼承自 QPlainTextEdit。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>setLanguage 设置高亮语言，编辑时实时着色，光标所在行高亮</source>
+        <translation>setLanguage 設定醒目提示語言，編輯時即時著色，游標所在行醒目提示</translation>
+    </message>
+    <message>
+        <source>切换语言</source>
+        <translation>切換語言</translation>
+    </message>
+    <message>
+        <source>支持 cpp、python、typescript、javascript、json、css、bash</source>
+        <translation>支援 cpp、python、typescript、javascript、json、css、bash</translation>
+    </message>
+    <message>
+        <source>只读</source>
+        <translation>唯讀</translation>
+    </message>
+    <message>
+        <source>setReadOnly(true) 后只能选择与复制，不显示当前行高亮</source>
+        <translation>setReadOnly(true) 後只能選取與複製，不顯示目前行醒目提示</translation>
+    </message>
+    <message>
+        <source>隐藏行号</source>
+        <translation>隱藏行號</translation>
+    </message>
+    <message>
+        <source>setLineNumbersVisible(false) 隐藏行号栏</source>
+        <translation>setLineNumbersVisible(false) 隱藏行號欄</translation>
+    </message>
+    <message>
+        <source>Tab 宽度</source>
+        <translation>Tab 寬度</translation>
+    </message>
+    <message>
+        <source>setTabSize(2) 让 Tab 显示为 2 个空格宽</source>
+        <translation>setTabSize(2) 讓 Tab 顯示為 2 個空格寬</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>錯誤狀態</translation>
+    </message>
+    <message>
+        <source>setInvalid(true) 边框与焦点环变为 destructive 色</source>
+        <translation>setInvalid(true) 邊框與焦點環變為 destructive 色</translation>
+    </message>
+    <message>
+        <source>from dataclasses import dataclass
+
+
+@dataclass
+class User:
+    name: str
+    age: int = 0
+
+    def greet(self) -&gt; str:
+        &quot;&quot;&quot;返回问候语&quot;&quot;&quot;
+        return f&quot;Hello, {self.name}!&quot;
+</source>
+        <translation>from dataclasses import dataclass
+
+
+@dataclass
+class User:
+    name: str
+    age: int = 0
+
+    def greet(self) -&gt; str:
+        &quot;&quot;&quot;傳回問候語&quot;&quot;&quot;
+        return f&quot;Hello, {self.name}!&quot;
+</translation>
+    </message>
+    <message>
+        <source>type Status = &quot;idle&quot; | &quot;loading&quot; | &quot;done&quot;
+
+/* 读取用户列表 */
+export async function fetchUsers(page = 1): Promise&lt;User[]&gt; {
+  const response = await fetch(`/api/users?page=${page}`)
+  if (!response.ok) {
+    throw new Error(&quot;请求失败&quot;)
+  }
+  return response.json()
+}
+</source>
+        <translation>type Status = &quot;idle&quot; | &quot;loading&quot; | &quot;done&quot;
+
+/* 讀取使用者清單 */
+export async function fetchUsers(page = 1): Promise&lt;User[]&gt; {
+  const response = await fetch(`/api/users?page=${page}`)
+  if (!response.ok) {
+    throw new Error(&quot;要求失敗&quot;)
+  }
+  return response.json()
+}
+</translation>
+    </message>
+    <message>
+        <source>#!/usr/bin/env bash
+set -euo pipefail
+
+BUILD_DIR=&quot;build&quot;
+cmake -S . -B &quot;$BUILD_DIR&quot; -DCMAKE_BUILD_TYPE=Release
+cmake --build &quot;$BUILD_DIR&quot; --parallel
+echo &quot;构建完成&quot;
+</source>
+        <translation>#!/usr/bin/env bash
+set -euo pipefail
+
+BUILD_DIR=&quot;build&quot;
+cmake -S . -B &quot;$BUILD_DIR&quot; -DCMAKE_BUILD_TYPE=Release
+cmake --build &quot;$BUILD_DIR&quot; --parallel
+echo &quot;建置完成&quot;
+</translation>
+    </message>
+</context>
+<context>
+    <name>CollapsiblePage</name>
+    <message>
+        <source>展开或收起</source>
+        <translation>展開或收合</translation>
+    </message>
+    <message>
+        <source>@peduarte 收藏了 3 个仓库</source>
+        <translation>@peduarte 加星號標記了 3 個儲存庫</translation>
+    </message>
+    <message>
+        <source>折叠面板</source>
+        <translation>摺疊面板</translation>
+    </message>
+    <message>
+        <source>ShadCollapsible：可展开收起的内容区。</source>
+        <translation>ShadCollapsible：可展開收合的內容區。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击按钮展开</source>
+        <translation>點擊按鈕展開</translation>
+    </message>
+    <message>
+        <source>默认展开</source>
+        <translation>預設展開</translation>
+    </message>
+    <message>
+        <source>放置表单</source>
+        <translation>放置表單</translation>
+    </message>
+    <message>
+        <source>内容区可以放任意组件</source>
+        <translation>內容區可以放置任意元件</translation>
+    </message>
+    <message>
+        <source>高级设置</source>
+        <translation>進階設定</translation>
+    </message>
+    <message>
+        <source>自动保存</source>
+        <translation>自動儲存</translation>
+    </message>
+    <message>
+        <source>显示行号</source>
+        <translation>顯示行號</translation>
+    </message>
+    <message>
+        <source>项目名称</source>
+        <translation>專案名稱</translation>
+    </message>
+</context>
+<context>
+    <name>ColorPickerPage</name>
+    <message>
+        <source>颜色选择器</source>
+        <translation>色彩選擇器</translation>
+    </message>
+    <message>
+        <source>ShadColorPicker / ShadColorDialog：取色面板与颜色对话框，支持屏幕取色。</source>
+        <translation>ShadColorPicker / ShadColorDialog：取色面板與顏色對話方塊，支援螢幕取色。</translation>
+    </message>
+    <message>
+        <source>屏幕取色</source>
+        <translation>螢幕取色</translation>
+    </message>
+    <message>
+        <source>隐藏本程序窗口，取窗口背后的颜色</source>
+        <translation>隱藏本程式視窗，取視窗背後的顏色</translation>
+    </message>
+    <message>
+        <source>取色时隐藏</source>
+        <translation>取色時隱藏</translation>
+    </message>
+    <message>
+        <source>内嵌面板</source>
+        <translation>內嵌面板</translation>
+    </message>
+    <message>
+        <source>直接放进页面使用，吸管可从屏幕取色</source>
+        <translation>直接放進頁面使用，滴管可從螢幕取色</translation>
+    </message>
+    <message>
+        <source>已取消屏幕取色</source>
+        <translation>已取消螢幕取色</translation>
+    </message>
+    <message>
+        <source>对话框</source>
+        <translation>對話方塊</translation>
+    </message>
+    <message>
+        <source>在对话框中选色，可恢复原始颜色</source>
+        <translation>在對話方塊中選色，可還原原始顏色</translation>
+    </message>
+    <message>
+        <source>选择主题色</source>
+        <translation>選擇主題色</translation>
+    </message>
+    <message>
+        <source>静态函数</source>
+        <translation>靜態函式</translation>
+    </message>
+    <message>
+        <source>ShadColorDialog::getColor：阻塞打开并返回所选颜色</source>
+        <translation>ShadColorDialog::getColor：以強制回應方式開啟並傳回所選顏色</translation>
+    </message>
+    <message>
+        <source>尚未选择</source>
+        <translation>尚未選擇</translation>
+    </message>
+    <message>
+        <source>选择标签颜色</source>
+        <translation>選擇標籤顏色</translation>
+    </message>
+    <message>
+        <source>已取消</source>
+        <translation>已取消</translation>
+    </message>
+    <message>
+        <source>自定义预设</source>
+        <translation>自訂預設</translation>
+    </message>
+    <message>
+        <source>替换基本颜色，切换 HSV 模式，预填自定义颜色</source>
+        <translation>取代基本顏色，切換 HSV 模式，預先填入自訂顏色</translation>
+    </message>
+    <message>
+        <source>从右到左布局下面板与色块网格镜像</source>
+        <translation>由右至左版面配置下，面板與色塊格線會鏡像翻轉</translation>
+    </message>
+</context>
+<context>
+    <name>ComboBoxPage</name>
+    <message>
+        <source>下拉选择</source>
+        <translation>下拉選擇</translation>
+    </message>
+    <message>
+        <source>ShadComboBox：下拉选择组件，开启搜索后可模糊过滤选项。</source>
+        <translation>ShadComboBox：下拉選擇元件，開啟搜尋後可模糊篩選選項。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击或用键盘打开，直接输入文字可跳到匹配项</source>
+        <translation>點擊或用鍵盤開啟，直接輸入文字可跳到符合的項目</translation>
+    </message>
+    <message>
+        <source>选择水果</source>
+        <translation>選擇水果</translation>
+    </message>
+    <message>
+        <source>当前选择: 无</source>
+        <translation>目前選擇: 無</translation>
+    </message>
+    <message>
+        <source>当前选择: %1</source>
+        <translation>目前選擇: %1</translation>
+    </message>
+    <message>
+        <source>无</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>Medium 与 Small 两种尺寸</source>
+        <translation>Medium 與 Small 兩種尺寸</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>搜尋</translation>
+    </message>
+    <message>
+        <source>开启搜索后按模糊匹配过滤，并按相关度排序</source>
+        <translation>開啟搜尋後依模糊比對篩選，並依相關度排序</translation>
+    </message>
+    <message>
+        <source>选择框架</source>
+        <translation>選擇框架</translation>
+    </message>
+    <message>
+        <source>搜索框架...</source>
+        <translation>搜尋框架...</translation>
+    </message>
+    <message>
+        <source>没有找到框架</source>
+        <translation>找不到框架</translation>
+    </message>
+    <message>
+        <source>选择城市</source>
+        <translation>選擇城市</translation>
+    </message>
+    <message>
+        <source>搜索城市...</source>
+        <translation>搜尋城市...</translation>
+    </message>
+    <message>
+        <source>多选</source>
+        <translation>多選</translation>
+    </message>
+    <message>
+        <source>每项带复选框可多选，已选项以徽章显示</source>
+        <translation>每項帶有核取方塊可多選，已選項目以徽章顯示</translation>
+    </message>
+    <message>
+        <source>、</source>
+        <comment>列表分隔符</comment>
+        <translation>、</translation>
+    </message>
+    <message>
+        <source>水果: %1    框架: %2</source>
+        <translation>水果: %1    框架: %2</translation>
+    </message>
+    <message>
+        <source>分隔线与禁用项</source>
+        <translation>分隔線與停用項目</translation>
+    </message>
+    <message>
+        <source>插入分隔线，禁用的选项不能选择</source>
+        <translation>插入分隔線，停用的選項無法選擇</translation>
+    </message>
+    <message>
+        <source>选择时区</source>
+        <translation>選擇時區</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>错误态边框为危险色，禁用后半透明</source>
+        <translation>錯誤狀態的邊框為危險色，停用後呈半透明</translation>
+    </message>
+    <message>
+        <source>必填项</source>
+        <translation>必填項目</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+</context>
+<context>
+    <name>CommandPage</name>
+    <message>
+        <source>命令面板</source>
+        <translation>命令面板</translation>
+    </message>
+    <message>
+        <source>ShadCommand：搜索并执行命令。</source>
+        <translation>ShadCommand：搜尋並執行命令。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>分组、图标与快捷键</source>
+        <translation>群組、圖示與快速鍵</translation>
+    </message>
+    <message>
+        <source>对话框</source>
+        <translation>對話方塊</translation>
+    </message>
+    <message>
+        <source>全局快捷键打开，点击外部关闭</source>
+        <translation>以全域快速鍵開啟，點擊外部關閉</translation>
+    </message>
+    <message>
+        <source>打开命令面板</source>
+        <translation>開啟命令面板</translation>
+    </message>
+    <message>
+        <source>可调整尺寸</source>
+        <translation>可調整尺寸</translation>
+    </message>
+    <message>
+        <source>快捷键</source>
+        <translation>快速鍵</translation>
+    </message>
+    <message>
+        <source>建议</source>
+        <translation>建議</translation>
+    </message>
+    <message>
+        <source>日历</source>
+        <translation>行事曆</translation>
+    </message>
+    <message>
+        <source>搜索表情</source>
+        <translation>搜尋表情符號</translation>
+    </message>
+    <message>
+        <source>计算器</source>
+        <translation>計算機</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>個人資料</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>帳單</translation>
+    </message>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最近點擊: %1</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最近點擊: 無</translation>
+    </message>
+</context>
+<context>
+    <name>ContextMenuPage</name>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最近點擊: %1</translation>
+    </message>
+    <message>
+        <source>右键菜单</source>
+        <translation>右鍵選單</translation>
+    </message>
+    <message>
+        <source>ShadContextMenu：右键菜单。</source>
+        <translation>ShadContextMenu：按一下滑鼠右鍵開啟的選單。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>子菜单、复选与单选</source>
+        <translation>子選單、核取與單選項目</translation>
+    </message>
+    <message>
+        <source>在此处右键</source>
+        <translation>在此處按滑鼠右鍵</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最近點擊: 無</translation>
+    </message>
+    <message>
+        <source>后退</source>
+        <translation>上一頁</translation>
+    </message>
+    <message>
+        <source>前进</source>
+        <translation>下一頁</translation>
+    </message>
+    <message>
+        <source>重新加载</source>
+        <translation>重新載入</translation>
+    </message>
+    <message>
+        <source>更多工具</source>
+        <translation>更多工具</translation>
+    </message>
+    <message>
+        <source>保存页面…</source>
+        <translation>儲存頁面…</translation>
+    </message>
+    <message>
+        <source>创建快捷方式…</source>
+        <translation>建立捷徑…</translation>
+    </message>
+    <message>
+        <source>命名窗口…</source>
+        <translation>為視窗命名…</translation>
+    </message>
+    <message>
+        <source>开发者工具</source>
+        <translation>開發人員工具</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>刪除</translation>
+    </message>
+    <message>
+        <source>显示书签</source>
+        <translation>顯示書籤</translation>
+    </message>
+    <message>
+        <source>显示完整网址</source>
+        <translation>顯示完整網址</translation>
+    </message>
+    <message>
+        <source>成员</source>
+        <translation>成員</translation>
+    </message>
+    <message>
+        <source>张三</source>
+        <translation>張三</translation>
+    </message>
+    <message>
+        <source>李四</source>
+        <translation>李四</translation>
+    </message>
+    <message>
+        <source>按位置更新</source>
+        <translation>依位置更新</translation>
+    </message>
+    <message>
+        <source>读取右键位置</source>
+        <translation>讀取右鍵位置</translation>
+    </message>
+    <message>
+        <source>右键位置: 无</source>
+        <translation>右鍵位置: 無</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>貼上</translation>
+    </message>
+    <message>
+        <source>右键位置: %1, %2</source>
+        <translation>右鍵位置: %1, %2</translation>
+    </message>
+</context>
+<context>
+    <name>DataTablePage</name>
+    <message>
+        <source>数据表格</source>
+        <translation>資料表格</translation>
+    </message>
+    <message>
+        <source>ShadDataTable：基于 ShadTable 的数据表格，支持筛选、排序、行选择与分页。</source>
+        <translation>ShadDataTable：基於 ShadTable 的資料表格，支援篩選、排序、列選取與分頁。</translation>
+    </message>
+    <message>
+        <source>付款记录</source>
+        <translation>付款記錄</translation>
+    </message>
+    <message>
+        <source>支持筛选、排序、列显示、行选择、分页与调整列宽</source>
+        <translation>支援篩選、排序、欄位顯示、列選取、分頁與調整欄寬</translation>
+    </message>
+    <message>
+        <source>操作</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>复制付款 ID</source>
+        <translation>複製付款 ID</translation>
+    </message>
+    <message>
+        <source>查看客户</source>
+        <translation>檢視客戶</translation>
+    </message>
+    <message>
+        <source>查看付款详情</source>
+        <translation>檢視付款詳細資料</translation>
+    </message>
+    <message>
+        <source>最近操作: 无</source>
+        <translation>最近操作: 無</translation>
+    </message>
+    <message>
+        <source>最近操作: 已复制付款 ID %1</source>
+        <translation>最近操作: 已複製付款 ID %1</translation>
+    </message>
+    <message>
+        <source>最近操作: %1 %2</source>
+        <translation>最近操作: %1 %2</translation>
+    </message>
+    <message>
+        <source>重置列宽</source>
+        <translation>重設欄寬</translation>
+    </message>
+    <message>
+        <source>陈娜</source>
+        <translation>陳娜</translation>
+    </message>
+    <message>
+        <source>设计</source>
+        <translation>設計</translation>
+    </message>
+    <message>
+        <source>李瑞</source>
+        <translation>李瑞</translation>
+    </message>
+    <message>
+        <source>前端</source>
+        <translation>前端</translation>
+    </message>
+    <message>
+        <source>王悦</source>
+        <translation>王悅</translation>
+    </message>
+    <message>
+        <source>后端</source>
+        <translation>後端</translation>
+    </message>
+    <message>
+        <source>张一</source>
+        <translation>張一</translation>
+    </message>
+    <message>
+        <source>产品</source>
+        <translation>產品</translation>
+    </message>
+    <message>
+        <source>刘洋</source>
+        <translation>劉洋</translation>
+    </message>
+    <message>
+        <source>测试</source>
+        <translation>測試</translation>
+    </message>
+    <message>
+        <source>赵敏</source>
+        <translation>趙敏</translation>
+    </message>
+    <message>
+        <source>运营</source>
+        <translation>營運</translation>
+    </message>
+    <message>
+        <source>孙磊</source>
+        <translation>孫磊</translation>
+    </message>
+    <message>
+        <source>实习</source>
+        <translation>實習</translation>
+    </message>
+    <message>
+        <source>成员</source>
+        <translation>成員</translation>
+    </message>
+    <message>
+        <source>角色</source>
+        <translation>角色</translation>
+    </message>
+    <message>
+        <source>头像列</source>
+        <translation>大頭貼欄</translation>
+    </message>
+    <message>
+        <source>setColumnImage 设为圆形头像，DescriptionRole 显示第二行</source>
+        <translation>setColumnImage 設為圓形大頭貼，DescriptionRole 顯示第二行</translation>
+    </message>
+    <message>
+        <source>筛选成员...</source>
+        <translation>篩選成員...</translation>
+    </message>
+</context>
+<context>
+    <name>DatePickerPage</name>
+    <message>
+        <source>日期选择</source>
+        <translation>日期選擇器</translation>
+    </message>
+    <message>
+        <source>ShadDatePicker：触发框加浮层日历的日期选择器，ShadCalendar 也可单独使用。</source>
+        <translation>ShadDatePicker：由觸發框加浮動行事曆組成的日期選擇器，ShadCalendar 也可單獨使用。</translation>
+    </message>
+    <message>
+        <source>日历</source>
+        <translation>行事曆</translation>
+    </message>
+    <message>
+        <source>ShadCalendar 单独使用，支持键盘选择日期</source>
+        <translation>ShadCalendar 單獨使用，支援以鍵盤選擇日期</translation>
+    </message>
+    <message>
+        <source>已选择：%1</source>
+        <translation>已選擇：%1</translation>
+    </message>
+    <message>
+        <source>未选择</source>
+        <translation>未選擇</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击触发框弹出日历，选择后关闭</source>
+        <translation>點擊觸發框彈出行事曆，選擇後關閉</translation>
+    </message>
+    <message>
+        <source>日期</source>
+        <translation>日期</translation>
+    </message>
+    <message>
+        <source>带下拉箭头</source>
+        <translation>帶下拉箭頭</translation>
+    </message>
+    <message>
+        <source>触发框结束侧显示下拉箭头</source>
+        <translation>觸發框結尾側顯示下拉箭頭</translation>
+    </message>
+    <message>
+        <source>出生日期</source>
+        <translation>出生日期</translation>
+    </message>
+    <message>
+        <source>用下拉框切换月份与年份，并自定义显示格式</source>
+        <translation>用下拉方塊切換月份與年份，並自訂顯示格式</translation>
+    </message>
+    <message>
+        <source>日期范围</source>
+        <translation>日期範圍</translation>
+    </message>
+    <message>
+        <source>选择起止日期，并排显示两个月</source>
+        <translation>選擇起訖日期，並排顯示兩個月</translation>
+    </message>
+    <message>
+        <source>M月d日</source>
+        <comment>日期显示格式</comment>
+        <translation>M月d日</translation>
+    </message>
+    <message>
+        <source>输入框</source>
+        <translation>輸入框</translation>
+    </message>
+    <message>
+        <source>直接输入日期，或点击日历按钮选择</source>
+        <translation>直接輸入日期，或點擊行事曆按鈕選擇</translation>
+    </message>
+    <message>
+        <source>选择日期</source>
+        <translation>選擇日期</translation>
+    </message>
+    <message>
+        <source>订阅日期</source>
+        <translation>訂閱日期</translation>
+    </message>
+    <message>
+        <source>日期与时间</source>
+        <translation>日期與時間</translation>
+    </message>
+    <message>
+        <source>日期选择与时间选择并排使用</source>
+        <translation>日期選擇器與時間選擇器並排使用</translation>
+    </message>
+    <message>
+        <source>时间</source>
+        <translation>時間</translation>
+    </message>
+    <message>
+        <source>时间选择</source>
+        <translation>時間選擇器</translation>
+    </message>
+    <message>
+        <source>ShadTimePicker 滚动或点击选择时间，可只选时与分</source>
+        <translation>ShadTimePicker 捲動或點擊選擇時間，可只選時與分</translation>
+    </message>
+    <message>
+        <source>尚未选择</source>
+        <translation>尚未選擇</translation>
+    </message>
+    <message>
+        <source>已选择时间：%1</source>
+        <translation>已選擇時間：%1</translation>
+    </message>
+    <message>
+        <source>时分秒</source>
+        <translation>時分秒</translation>
+    </message>
+    <message>
+        <source>时分</source>
+        <translation>時分</translation>
+    </message>
+</context>
+<context>
+    <name>DescriptionsPage</name>
+    <message>
+        <source>描述列表</source>
+        <translation>描述清單</translation>
+    </message>
+    <message>
+        <source>ShadDescriptions：键值对按列网格排列，支持跨列、带边框与纵向排列，内容可以是文字或任意组件。</source>
+        <translation>ShadDescriptions：鍵值對依欄格線排列，支援跨欄、帶邊框與縱向排列，內容可以是文字或任意元件。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>3 列排列，标题行结束侧放置操作按钮；最后一项跨 2 列</source>
+        <translation>3 欄排列，標題列結尾側放置操作按鈕；最後一項跨 2 欄</translation>
+    </message>
+    <message>
+        <source>用户信息</source>
+        <translation>使用者資訊</translation>
+    </message>
+    <message>
+        <source>编辑</source>
+        <translation>編輯</translation>
+    </message>
+    <message>
+        <source>姓名</source>
+        <translation>姓名</translation>
+    </message>
+    <message>
+        <source>陈怡君</source>
+        <translation>陳怡君</translation>
+    </message>
+    <message>
+        <source>手机号码</source>
+        <translation>手機號碼</translation>
+    </message>
+    <message>
+        <source>居住地</source>
+        <translation>居住地</translation>
+    </message>
+    <message>
+        <source>台北市</source>
+        <translation>台北市</translation>
+    </message>
+    <message>
+        <source>电子邮件</source>
+        <translation>電子郵件</translation>
+    </message>
+    <message>
+        <source>地址</source>
+        <translation>地址</translation>
+    </message>
+    <message>
+        <source>台北市大安区忠孝东路四段 100 号 8 楼</source>
+        <translation>台北市大安區忠孝東路四段 100 號 8 樓</translation>
+    </message>
+    <message>
+        <source>带边框</source>
+        <translation>帶邊框</translation>
+    </message>
+    <message>
+        <source>setBordered(true)：标签格带底色，单元格之间有分隔线；状态使用 ShadBadge，收货地址与备注跨 3 列</source>
+        <translation>setBordered(true)：標籤格帶底色，儲存格之間有分隔線；狀態使用 ShadBadge，收貨地址與備註跨 3 欄</translation>
+    </message>
+    <message>
+        <source>订单详情</source>
+        <translation>訂單詳細資料</translation>
+    </message>
+    <message>
+        <source>订单编号</source>
+        <translation>訂單編號</translation>
+    </message>
+    <message>
+        <source>已付款</source>
+        <translation>已付款</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>创建时间</source>
+        <translation>建立時間</translation>
+    </message>
+    <message>
+        <source>付款方式</source>
+        <translation>付款方式</translation>
+    </message>
+    <message>
+        <source>信用卡</source>
+        <translation>信用卡</translation>
+    </message>
+    <message>
+        <source>金额</source>
+        <translation>金額</translation>
+    </message>
+    <message>
+        <source>配送方式</source>
+        <translation>配送方式</translation>
+    </message>
+    <message>
+        <source>宅配</source>
+        <translation>宅配</translation>
+    </message>
+    <message>
+        <source>收货地址</source>
+        <translation>收貨地址</translation>
+    </message>
+    <message>
+        <source>台北市大安区忠孝东路四段 100 号 8 楼
+陈怡君 0912-345-678</source>
+        <translation>台北市大安區忠孝東路四段 100 號 8 樓
+陳怡君 0912-345-678</translation>
+    </message>
+    <message>
+        <source>备注</source>
+        <translation>備註</translation>
+    </message>
+    <message>
+        <source>请于平日晚上六点后送达，送达前请先来电。</source>
+        <translation>請於平日晚上六點後送達，送達前請先來電。</translation>
+    </message>
+    <message>
+        <source>纵向排列</source>
+        <translation>縱向排列</translation>
+    </message>
+    <message>
+        <source>setItemLayout(Vertical)：标签在上、内容在下；带边框时标签行与内容行交替</source>
+        <translation>setItemLayout(Vertical)：標籤在上、內容在下；帶邊框時標籤列與內容列交替</translation>
+    </message>
+    <message>
+        <source>服务器信息</source>
+        <translation>伺服器資訊</translation>
+    </message>
+    <message>
+        <source>主机名称</source>
+        <translation>主機名稱</translation>
+    </message>
+    <message>
+        <source>IP 地址</source>
+        <translation>IP 位址</translation>
+    </message>
+    <message>
+        <source>机房</source>
+        <translation>機房</translation>
+    </message>
+    <message>
+        <source>台北</source>
+        <translation>台北</translation>
+    </message>
+    <message>
+        <source>处理器</source>
+        <translation>處理器</translation>
+    </message>
+    <message>
+        <source>8 核</source>
+        <translation>8 核心</translation>
+    </message>
+    <message>
+        <source>内存</source>
+        <translation>記憶體</translation>
+    </message>
+    <message>
+        <source>磁盘</source>
+        <translation>磁碟</translation>
+    </message>
+    <message>
+        <source>项目名称</source>
+        <translation>專案名稱</translation>
+    </message>
+    <message>
+        <source>官网改版</source>
+        <translation>官網改版</translation>
+    </message>
+    <message>
+        <source>负责人</source>
+        <translation>負責人</translation>
+    </message>
+    <message>
+        <source>林志豪</source>
+        <translation>林志豪</translation>
+    </message>
+    <message>
+        <source>截止日期</source>
+        <translation>截止日期</translation>
+    </message>
+    <message>
+        <source>尺寸与列数</source>
+        <translation>尺寸與欄數</translation>
+    </message>
+    <message>
+        <source>setDescriptionsSize 切换 Small 与 Medium，setColumnCount 设置 1 到 4 列</source>
+        <translation>setDescriptionsSize 切換 Small 與 Medium，setColumnCount 設定 1 到 4 欄</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>列数</source>
+        <translation>欄數</translation>
+    </message>
+    <message>
+        <source>商品名称</source>
+        <translation>商品名稱</translation>
+    </message>
+    <message>
+        <source>机械键盘</source>
+        <translation>機械式鍵盤</translation>
+    </message>
+    <message>
+        <source>型号</source>
+        <translation>型號</translation>
+    </message>
+    <message>
+        <source>颜色</source>
+        <translation>顏色</translation>
+    </message>
+    <message>
+        <source>黑色</source>
+        <translation>黑色</translation>
+    </message>
+    <message>
+        <source>库存</source>
+        <translation>庫存</translation>
+    </message>
+    <message>
+        <source>价格</source>
+        <translation>價格</translation>
+    </message>
+    <message>
+        <source>产地</source>
+        <translation>產地</translation>
+    </message>
+    <message>
+        <source>新北市</source>
+        <translation>新北市</translation>
+    </message>
+</context>
+<context>
+    <name>DialogPage</name>
+    <message>
+        <source>第 %1 段：这是一段用于演示滚动的示例文字。对话框内容超过可用高度时，内容区单独滚动，标题区保持在顶部可见。把 ShadScrollArea 放进 contentLayout 并限制高度即可得到这种效果，页脚位于内容区之外，同样不会随内容滚动。</source>
+        <translation>第 %1 段：這是一段用於示範捲動的範例文字。對話方塊內容超過可用高度時，內容區會單獨捲動，標題區保持在頂部可見。把 ShadScrollArea 放進 contentLayout 並限制高度即可得到這種效果，頁尾位於內容區之外，同樣不會隨內容捲動。</translation>
+    </message>
+    <message>
+        <source>发送反馈</source>
+        <translation>傳送意見回饋</translation>
+    </message>
+    <message>
+        <source>告诉我们你遇到的问题或建议，我们会尽快回复。</source>
+        <translation>告訴我們你遇到的問題或建議，我們會盡快回覆。</translation>
+    </message>
+    <message>
+        <source>请输入你的反馈</source>
+        <translation>請輸入你的意見回饋</translation>
+    </message>
+    <message>
+        <source>允许通过邮件联系我</source>
+        <translation>允許透過電子郵件與我聯絡</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>傳送</translation>
+    </message>
+    <message>
+        <source>编辑资料</source>
+        <translation>編輯資料</translation>
+    </message>
+    <message>
+        <source>在这里修改你的个人资料，完成后点击保存。</source>
+        <translation>在這裡修改你的個人資料，完成後點擊儲存。</translation>
+    </message>
+    <message>
+        <source>名称</source>
+        <translation>名稱</translation>
+    </message>
+    <message>
+        <source>用户名</source>
+        <translation>使用者名稱</translation>
+    </message>
+    <message>
+        <source>保存修改</source>
+        <translation>儲存變更</translation>
+    </message>
+    <message>
+        <source>分享链接</source>
+        <translation>分享連結</translation>
+    </message>
+    <message>
+        <source>拿到这个链接的人都可以查看。</source>
+        <translation>拿到這個連結的人都可以檢視。</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>可最大化的对话框</source>
+        <translation>可最大化的對話方塊</translation>
+    </message>
+    <message>
+        <source>标题栏显示最小化、最大化与关闭按钮，双击标题栏切换最大化，拖动边缘可以缩放。</source>
+        <translation>標題列顯示最小化、最大化與關閉按鈕，按兩下標題列可切換最大化，拖曳邊緣可以縮放。</translation>
+    </message>
+    <message>
+        <source>窗口标题</source>
+        <translation>視窗標題</translation>
+    </message>
+    <message>
+        <source>无关闭按钮</source>
+        <translation>無關閉按鈕</translation>
+    </message>
+    <message>
+        <source>这个对话框的标题栏没有关闭按钮，按 Esc 关闭。</source>
+        <translation>這個對話方塊的標題列沒有關閉按鈕，按 Esc 關閉。</translation>
+    </message>
+    <message>
+        <source>固定尺寸</source>
+        <translation>固定尺寸</translation>
+    </message>
+    <message>
+        <source>这个对话框的尺寸固定为 400 × 260，边缘不能拖动缩放。</source>
+        <translation>這個對話方塊的尺寸固定為 400 × 260，邊緣無法拖曳縮放。</translation>
+    </message>
+    <message>
+        <source>粘性页脚</source>
+        <translation>黏性頁尾</translation>
+    </message>
+    <message>
+        <source>这个对话框的页脚在内容滚动时保持可见。</source>
+        <translation>這個對話方塊的頁尾在內容捲動時保持可見。</translation>
+    </message>
+    <message>
+        <source>可滚动内容</source>
+        <translation>可捲動內容</translation>
+    </message>
+    <message>
+        <source>这是一个内容可以滚动的对话框。</source>
+        <translation>這是一個內容可以捲動的對話方塊。</translation>
+    </message>
+    <message>
+        <source>删除这个项目？</source>
+        <translation>刪除這個專案？</translation>
+    </message>
+    <message>
+        <source>删除后无法恢复，项目中的所有文件都会被移除。</source>
+        <translation>刪除後無法復原，專案中的所有檔案都會被移除。</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>刪除</translation>
+    </message>
+    <message>
+        <source>独立对话框</source>
+        <translation>獨立對話方塊</translation>
+    </message>
+    <message>
+        <source>这个对话框没有父窗口，因此没有遮罩，按 Esc 或点击按钮关闭。</source>
+        <translation>這個對話方塊沒有父視窗，因此沒有遮罩，按 Esc 或點擊按鈕關閉。</translation>
+    </message>
+    <message>
+        <source>移到中央</source>
+        <translation>移到中央</translation>
+    </message>
+    <message>
+        <source>知道了</source>
+        <translation>知道了</translation>
+    </message>
+    <message>
+        <source>对话框</source>
+        <translation>對話方塊</translation>
+    </message>
+    <message>
+        <source>ShadDialog：与 ShadWindow 风格一致的独立对话框窗口，模态打开时显示遮罩。</source>
+        <translation>ShadDialog：與 ShadWindow 風格一致的獨立對話方塊視窗，以強制回應方式開啟時顯示遮罩。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>设置标题与说明，放入表单和按钮后打开</source>
+        <translation>設定標題與說明，放入表單和按鈕後開啟</translation>
+    </message>
+    <message>
+        <source>打开对话框</source>
+        <translation>開啟對話方塊</translation>
+    </message>
+    <message>
+        <source>自定义关闭按钮</source>
+        <translation>自訂關閉按鈕</translation>
+    </message>
+    <message>
+        <source>页脚放关闭按钮，并靠起始侧排列</source>
+        <translation>頁尾放置關閉按鈕，並靠起始側排列</translation>
+    </message>
+    <message>
+        <source>分享</source>
+        <translation>分享</translation>
+    </message>
+    <message>
+        <source>标题栏按钮</source>
+        <translation>標題列按鈕</translation>
+    </message>
+    <message>
+        <source>setButtonFlags 设置标题栏的窗口按钮，默认只有关闭按钮</source>
+        <translation>setButtonFlags 設定標題列的視窗按鈕，預設只有關閉按鈕</translation>
+    </message>
+    <message>
+        <source>显示全部按钮</source>
+        <translation>顯示全部按鈕</translation>
+    </message>
+    <message>
+        <source>隐藏全部按钮</source>
+        <translation>隱藏全部按鈕</translation>
+    </message>
+    <message>
+        <source>固定尺寸后窗口不能缩放</source>
+        <translation>固定尺寸後視窗無法縮放</translation>
+    </message>
+    <message>
+        <source>内容区可滚动，页脚始终可见</source>
+        <translation>內容區可捲動，頁尾始終可見</translation>
+    </message>
+    <message>
+        <source>内容较长时只滚动内容区，标题区保持在顶部</source>
+        <translation>內容較長時只捲動內容區，標題區保持在頂部</translation>
+    </message>
+    <message>
+        <source>继承 ShadDialog</source>
+        <translation>繼承 ShadDialog</translation>
+    </message>
+    <message>
+        <source>在子类中填充内容，窗口风格保持统一</source>
+        <translation>在子類別中填入內容，視窗風格保持一致</translation>
+    </message>
+    <message>
+        <source>尚未发送反馈</source>
+        <translation>尚未傳送意見回饋</translation>
+    </message>
+    <message>
+        <source>已发送 %1 个字的反馈，允许邮件联系</source>
+        <translation>已傳送 %1 個字的意見回饋，允許以電子郵件聯絡</translation>
+    </message>
+    <message>
+        <source>已发送 %1 个字的反馈</source>
+        <translation>已傳送 %1 個字的意見回饋</translation>
+    </message>
+    <message>
+        <source>exec 返回值</source>
+        <translation>exec 傳回值</translation>
+    </message>
+    <message>
+        <source>exec() 以模态打开并阻塞，返回 Accepted 或 Rejected</source>
+        <translation>exec() 以強制回應方式開啟並阻塞，傳回 Accepted 或 Rejected</translation>
+    </message>
+    <message>
+        <source>删除项目</source>
+        <translation>刪除專案</translation>
+    </message>
+    <message>
+        <source>尚未操作</source>
+        <translation>尚未操作</translation>
+    </message>
+    <message>
+        <source>exec() 返回 Accepted：已删除</source>
+        <translation>exec() 傳回 Accepted：已刪除</translation>
+    </message>
+    <message>
+        <source>exec() 返回 Rejected：已取消</source>
+        <translation>exec() 傳回 Rejected：已取消</translation>
+    </message>
+    <message>
+        <source>无父窗口</source>
+        <translation>無父視窗</translation>
+    </message>
+    <message>
+        <source>无父窗口时没有遮罩，窗口在屏幕居中</source>
+        <translation>無父視窗時沒有遮罩，視窗在螢幕置中</translation>
+    </message>
+    <message>
+        <source>打开独立对话框</source>
+        <translation>開啟獨立對話方塊</translation>
+    </message>
+</context>
+<context>
+    <name>DockPage</name>
+    <message>
+        <source>资源管理器</source>
+        <translation>檔案總管</translation>
+    </message>
+    <message>
+        <source>项目文件与目录结构。</source>
+        <translation>專案檔案與目錄結構。</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>搜尋</translation>
+    </message>
+    <message>
+        <source>在整个项目中查找文本。</source>
+        <translation>在整個專案中尋找文字。</translation>
+    </message>
+    <message>
+        <source>属性</source>
+        <translation>屬性</translation>
+    </message>
+    <message>
+        <source>不可关闭，也不能浮动。</source>
+        <translation>無法關閉，也不能浮動。</translation>
+    </message>
+    <message>
+        <source>输出</source>
+        <translation>輸出</translation>
+    </message>
+    <message>
+        <source>构建与运行日志。</source>
+        <translation>建置與執行記錄檔。</translation>
+    </message>
+    <message>
+        <source>问题</source>
+        <translation>問題</translation>
+    </message>
+    <message>
+        <source>编译错误与警告。</source>
+        <translation>編譯錯誤與警告。</translation>
+    </message>
+    <message>
+        <source>项目说明：构建方式、组件列表与许可证。</source>
+        <translation>專案說明：建置方式、元件清單與授權。</translation>
+    </message>
+    <message>
+        <source>示例程序的主窗口。</source>
+        <translation>範例程式的主視窗。</translation>
+    </message>
+    <message>
+        <source>各平台的构建预设。</source>
+        <translation>各平台的建置預設。</translation>
+    </message>
+    <message>
+        <source>停靠布局</source>
+        <translation>停駐版面配置</translation>
+    </message>
+    <message>
+        <source>ShadDockManager：可拖动停靠、合并与浮动的多面板布局。</source>
+        <translation>ShadDockManager：可拖曳停駐、合併與浮動的多面板版面配置。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>拖动标签或面板标题到指引上停靠，在别处松开变为浮动窗口</source>
+        <translation>拖曳標籤或面板標題到指引上停駐，在別處放開則變為浮動視窗</translation>
+    </message>
+    <message>
+        <source>独立窗口</source>
+        <translation>獨立視窗</translation>
+    </message>
+    <message>
+        <source>保存与恢复布局，从视图菜单显示或关闭面板</source>
+        <translation>儲存與還原版面配置，從檢視選單顯示或關閉面板</translation>
+    </message>
+    <message>
+        <source>打开窗口</source>
+        <translation>開啟視窗</translation>
+    </message>
+    <message>
+        <source>视图</source>
+        <translation>檢視</translation>
+    </message>
+    <message>
+        <source>新建文档</source>
+        <translation>新增文件</translation>
+    </message>
+    <message>
+        <source>未命名 %1</source>
+        <translation>未命名 %1</translation>
+    </message>
+    <message>
+        <source>新建的空白文档。</source>
+        <translation>新建立的空白文件。</translation>
+    </message>
+    <message>
+        <source>保存布局</source>
+        <translation>儲存版面配置</translation>
+    </message>
+    <message>
+        <source>恢复布局</source>
+        <translation>還原版面配置</translation>
+    </message>
+    <message>
+        <source>默认布局</source>
+        <translation>預設版面配置</translation>
+    </message>
+</context>
+<context>
+    <name>DrawerPage</name>
+    <message>
+        <source>第 %1 段示例文字。</source>
+        <translation>第 %1 段範例文字。</translation>
+    </message>
+    <message>
+        <source>每日目标</source>
+        <translation>每日目標</translation>
+    </message>
+    <message>
+        <source>设置每天的活动目标。</source>
+        <translation>設定每天的活動目標。</translation>
+    </message>
+    <message>
+        <source>卡路里 / 天</source>
+        <translation>卡路里 / 天</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>送出</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>拖动或点击外部关闭。</source>
+        <translation>拖曳或點擊外部即可關閉。</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>可滚动内容</source>
+        <translation>可捲動內容</translation>
+    </message>
+    <message>
+        <source>内容超出时滚动。</source>
+        <translation>內容超出時可捲動。</translation>
+    </message>
+    <message>
+        <source>第 %1 层</source>
+        <translation>第 %1 層</translation>
+    </message>
+    <message>
+        <source>下层会缩小后退。</source>
+        <translation>下一層會縮小並後退。</translation>
+    </message>
+    <message>
+        <source>打开第 %1 层</source>
+        <translation>開啟第 %1 層</translation>
+    </message>
+    <message>
+        <source>上下拖动切换位置。</source>
+        <translation>上下拖曳切換位置。</translation>
+    </message>
+    <message>
+        <source>吸附点：%1%</source>
+        <translation>吸附點：%1%</translation>
+    </message>
+    <message>
+        <source>抽屉</source>
+        <translation>抽屜</translation>
+    </message>
+    <message>
+        <source>ShadDrawer：从窗口边缘滑出的面板。</source>
+        <translation>ShadDrawer：從視窗邊緣滑出的面板。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>默认从底部滑出</source>
+        <translation>預設從底部滑出</translation>
+    </message>
+    <message>
+        <source>打开抽屉</source>
+        <translation>開啟抽屜</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>从四个边缘滑出</source>
+        <translation>可從四個邊緣滑出</translation>
+    </message>
+    <message>
+        <source>顶部</source>
+        <translation>頂部</translation>
+    </message>
+    <message>
+        <source>从顶部滑出</source>
+        <translation>從頂部滑出</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右側</translation>
+    </message>
+    <message>
+        <source>从右侧滑出</source>
+        <translation>從右側滑出</translation>
+    </message>
+    <message>
+        <source>底部</source>
+        <translation>底部</translation>
+    </message>
+    <message>
+        <source>从底部滑出</source>
+        <translation>從底部滑出</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左側</translation>
+    </message>
+    <message>
+        <source>从左侧滑出</source>
+        <translation>從左側滑出</translation>
+    </message>
+    <message>
+        <source>拖动把手</source>
+        <translation>拖曳把手</translation>
+    </message>
+    <message>
+        <source>显示把手</source>
+        <translation>顯示把手</translation>
+    </message>
+    <message>
+        <source>正文放入 ShadScrollArea</source>
+        <translation>將內文放入 ShadScrollArea</translation>
+    </message>
+    <message>
+        <source>嵌套</source>
+        <translation>巢狀</translation>
+    </message>
+    <message>
+        <source>抽屉中再打开抽屉</source>
+        <translation>在抽屜中再開啟抽屜</translation>
+    </message>
+    <message>
+        <source>非模态</source>
+        <translation>非強制回應</translation>
+    </message>
+    <message>
+        <source>setModal(false)：无遮罩，背景可操作</source>
+        <translation>setModal(false)：無遮罩，背景可操作</translation>
+    </message>
+    <message>
+        <source>点击 %1 次</source>
+        <translation>已點擊 %1 次</translation>
+    </message>
+    <message>
+        <source>吸附点</source>
+        <translation>吸附點</translation>
+    </message>
+    <message>
+        <source>setSnapPoints：松手后停在最近的位置</source>
+        <translation>setSnapPoints：放開後停在最近的位置</translation>
+    </message>
+    <message>
+        <source>逐级吸附</source>
+        <translation>逐級吸附</translation>
+    </message>
+    <message>
+        <source>禁止点击外部关闭</source>
+        <translation>禁止點擊外部關閉</translation>
+    </message>
+    <message>
+        <source>点击外部不关闭</source>
+        <translation>點擊外部不會關閉</translation>
+    </message>
+    <message>
+        <source>拖动、Esc 或按钮关闭。</source>
+        <translation>可透過拖曳、Esc 或按鈕關閉。</translation>
+    </message>
+</context>
+<context>
+    <name>DropdownMenuPage</name>
+    <message>
+        <source>下拉菜单</source>
+        <translation>下拉選單</translation>
+    </message>
+    <message>
+        <source>ShadDropdownMenu：菜单项用 QAction 表示的下拉菜单，支持复选项、分组与分隔线。</source>
+        <translation>ShadDropdownMenu：選單項目以 QAction 表示的下拉選單，支援核取項目、群組與分隔線。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击按钮打开菜单，支持键盘操作</source>
+        <translation>點擊按鈕開啟選單，支援鍵盤操作</translation>
+    </message>
+    <message>
+        <source>打开菜单</source>
+        <translation>開啟選單</translation>
+    </message>
+    <message>
+        <source>我的账户</source>
+        <translation>我的帳號</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>個人資料</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>帳單</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>键盘快捷键</source>
+        <translation>鍵盤快速鍵</translation>
+    </message>
+    <message>
+        <source>团队</source>
+        <translation>團隊</translation>
+    </message>
+    <message>
+        <source>邀请成员</source>
+        <translation>邀請成員</translation>
+    </message>
+    <message>
+        <source>帮助与支持</source>
+        <translation>說明與支援</translation>
+    </message>
+    <message>
+        <source>退出登录</source>
+        <translation>登出</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最近點擊: 無</translation>
+    </message>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最近點擊: %1</translation>
+    </message>
+    <message>
+        <source>复选项</source>
+        <translation>核取項目</translation>
+    </message>
+    <message>
+        <source>点击复选项切换勾选，菜单保持打开</source>
+        <translation>點擊核取項目切換勾選，選單保持開啟</translation>
+    </message>
+    <message>
+        <source>外观</source>
+        <translation>外觀</translation>
+    </message>
+    <message>
+        <source>状态栏</source>
+        <translation>狀態列</translation>
+    </message>
+    <message>
+        <source>活动栏</source>
+        <translation>活動列</translation>
+    </message>
+    <message>
+        <source>面板</source>
+        <translation>面板</translation>
+    </message>
+    <message>
+        <source>状态栏: %1    面板: %2</source>
+        <translation>狀態列: %1    面板: %2</translation>
+    </message>
+    <message>
+        <source>显示</source>
+        <translation>顯示</translation>
+    </message>
+    <message>
+        <source>隐藏</source>
+        <translation>隱藏</translation>
+    </message>
+    <message>
+        <source>危险操作与右对齐</source>
+        <translation>危險操作與靠右對齊</translation>
+    </message>
+    <message>
+        <source>危险操作样式，菜单与按钮右对齐弹出</source>
+        <translation>危險操作樣式，選單與按鈕靠右對齊彈出</translation>
+    </message>
+    <message>
+        <source>编辑</source>
+        <translation>編輯</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>刪除</translation>
+    </message>
+</context>
+<context>
+    <name>EmptyPage</name>
+    <message>
+        <source>空状态</source>
+        <translation>空狀態</translation>
+    </message>
+    <message>
+        <source>ShadEmpty：没有数据时显示的占位内容，包含媒体、标题、描述与操作区。</source>
+        <translation>ShadEmpty：沒有資料時顯示的預留位置內容，包含媒體、標題、描述與操作區。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>Icon 媒体样式，操作区放置按钮</source>
+        <translation>Icon 媒體樣式，操作區放置按鈕</translation>
+    </message>
+    <message>
+        <source>媒体样式</source>
+        <translation>媒體樣式</translation>
+    </message>
+    <message>
+        <source>setMediaVariant(Default)：只显示图标，没有底色</source>
+        <translation>setMediaVariant(Default)：只顯示圖示，沒有底色</translation>
+    </message>
+    <message>
+        <source>头像媒体</source>
+        <translation>大頭貼媒體</translation>
+    </message>
+    <message>
+        <source>setMediaWidget：用头像组等任意组件替换图标</source>
+        <translation>setMediaWidget：以大頭貼群組等任意元件取代圖示</translation>
+    </message>
+    <message>
+        <source>虚线边框</source>
+        <translation>虛線邊框</translation>
+    </message>
+    <message>
+        <source>setBorderVisible：显示虚线边框，用于标出空白区域</source>
+        <translation>setBorderVisible：顯示虛線邊框，用於標出空白區域</translation>
+    </message>
+    <message>
+        <source>描述中的链接</source>
+        <translation>描述中的連結</translation>
+    </message>
+    <message>
+        <source>描述支持 &lt;a&gt; 链接，悬停时变色，点击时发出 linkActivated</source>
+        <translation>描述支援 &lt;a&gt; 連結，滑鼠停留時變色，點擊時發出 linkActivated</translation>
+    </message>
+    <message>
+        <source>尚未点击链接</source>
+        <translation>尚未點擊連結</translation>
+    </message>
+    <message>
+        <source>点击了链接：%1</source>
+        <translation>已點擊連結：%1</translation>
+    </message>
+    <message>
+        <source>表格中的空数据</source>
+        <translation>表格中的空資料</translation>
+    </message>
+    <message>
+        <source>表格没有数据行时，在表头下方显示空状态</source>
+        <translation>表格沒有資料列時，在表頭下方顯示空狀態</translation>
+    </message>
+    <message>
+        <source>暂无项目</source>
+        <translation>尚無專案</translation>
+    </message>
+    <message>
+        <source>你还没有创建任何项目。创建第一个项目即可开始使用。</source>
+        <translation>你還沒有建立任何專案。建立第一個專案即可開始使用。</translation>
+    </message>
+    <message>
+        <source>创建项目</source>
+        <translation>建立專案</translation>
+    </message>
+    <message>
+        <source>导入项目</source>
+        <translation>匯入專案</translation>
+    </message>
+    <message>
+        <source>了解更多</source>
+        <translation>瞭解更多</translation>
+    </message>
+    <message>
+        <source>暂无消息</source>
+        <translation>尚無訊息</translation>
+    </message>
+    <message>
+        <source>收到的新消息会显示在这里。</source>
+        <translation>收到的新訊息會顯示在這裡。</translation>
+    </message>
+    <message>
+        <source>暂无团队成员</source>
+        <translation>尚無團隊成員</translation>
+    </message>
+    <message>
+        <source>邀请团队成员一起协作这个项目。</source>
+        <translation>邀請團隊成員一起協作這個專案。</translation>
+    </message>
+    <message>
+        <source>邀请成员</source>
+        <translation>邀請成員</translation>
+    </message>
+    <message>
+        <source>云存储为空</source>
+        <translation>雲端儲存空間為空</translation>
+    </message>
+    <message>
+        <source>上传文件到云存储后，即可在任何设备上访问。</source>
+        <translation>上傳檔案到雲端儲存空間後，即可在任何裝置上存取。</translation>
+    </message>
+    <message>
+        <source>上传文件</source>
+        <translation>上傳檔案</translation>
+    </message>
+    <message>
+        <source>未找到结果</source>
+        <translation>找不到結果</translation>
+    </message>
+    <message>
+        <source>没有符合条件的结果。试试调整筛选条件，或&lt;a href=&quot;#help&quot;&gt;查看帮助&lt;/a&gt;。</source>
+        <translation>沒有符合條件的結果。試試調整篩選條件，或&lt;a href=&quot;#help&quot;&gt;檢視說明&lt;/a&gt;。</translation>
+    </message>
+    <message>
+        <source>发票</source>
+        <translation>發票</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>付款方式</source>
+        <translation>付款方式</translation>
+    </message>
+    <message>
+        <source>金额</source>
+        <translation>金額</translation>
+    </message>
+    <message>
+        <source>暂无发票</source>
+        <translation>尚無發票</translation>
+    </message>
+    <message>
+        <source>创建发票后会显示在这里。</source>
+        <translation>建立發票後會顯示在這裡。</translation>
+    </message>
+</context>
+<context>
+    <name>ExpanderPage</name>
+    <message>
+        <source>抽屉面板</source>
+        <translation>抽屜面板</translation>
+    </message>
+    <message>
+        <source>ShadExpander：标题行展开内容行。</source>
+        <translation>ShadExpander：標題列可展開內容列。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击标题行展开</source>
+        <translation>點擊標題列展開</translation>
+    </message>
+    <message>
+        <source>测试窗口%1</source>
+        <translation>測試視窗%1</translation>
+    </message>
+    <message>
+        <source>设置分组</source>
+        <translation>設定群組</translation>
+    </message>
+    <message>
+        <source>每行放一项设置</source>
+        <translation>每列放一項設定</translation>
+    </message>
+    <message>
+        <source>编辑器</source>
+        <translation>編輯器</translation>
+    </message>
+    <message>
+        <source>自动保存</source>
+        <translation>自動儲存</translation>
+    </message>
+    <message>
+        <source>显示行号</source>
+        <translation>顯示行號</translation>
+    </message>
+    <message>
+        <source>2 个空格</source>
+        <translation>2 個空格</translation>
+    </message>
+    <message>
+        <source>4 个空格</source>
+        <translation>4 個空格</translation>
+    </message>
+    <message>
+        <source>制表符</source>
+        <translation>定位字元</translation>
+    </message>
+    <message>
+        <source>缩进</source>
+        <translation>縮排</translation>
+    </message>
+</context>
+<context>
+    <name>FieldPage</name>
+    <message>
+        <source>表单项</source>
+        <translation>表單欄位</translation>
+    </message>
+    <message>
+        <source>ShadField / ShadFieldSet / ShadFieldGroup：把标签、控件、说明与错误信息组合成表单项。</source>
+        <translation>ShadField / ShadFieldSet / ShadFieldGroup：把標籤、控制項、說明與錯誤訊息組合成表單欄位。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>多个字段集纵向排列，组之间用分隔线隔开</source>
+        <translation>多個欄位集縱向排列，群組之間以分隔線隔開</translation>
+    </message>
+    <message>
+        <source>付款方式</source>
+        <translation>付款方式</translation>
+    </message>
+    <message>
+        <source>所有交易均已加密，安全可靠。</source>
+        <translation>所有交易均已加密，安全可靠。</translation>
+    </message>
+    <message>
+        <source>持卡人姓名</source>
+        <translation>持卡人姓名</translation>
+    </message>
+    <message>
+        <source>张三</source>
+        <translation>張三</translation>
+    </message>
+    <message>
+        <source>卡号</source>
+        <translation>卡號</translation>
+    </message>
+    <message>
+        <source>请输入 16 位卡号。</source>
+        <translation>請輸入 16 位數卡號。</translation>
+    </message>
+    <message>
+        <source>月份</source>
+        <translation>月份</translation>
+    </message>
+    <message>
+        <source>年份</source>
+        <translation>年份</translation>
+    </message>
+    <message>
+        <source>账单地址</source>
+        <translation>帳單地址</translation>
+    </message>
+    <message>
+        <source>与付款方式关联的账单地址。</source>
+        <translation>與付款方式關聯的帳單地址。</translation>
+    </message>
+    <message>
+        <source>与收货地址相同</source>
+        <translation>與收貨地址相同</translation>
+    </message>
+    <message>
+        <source>添加其他备注</source>
+        <translation>新增其他備註</translation>
+    </message>
+    <message>
+        <source>备注</source>
+        <translation>備註</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>送出</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>输入框</source>
+        <translation>輸入框</translation>
+    </message>
+    <message>
+        <source>在控件下方显示说明文字</source>
+        <translation>在控制項下方顯示說明文字</translation>
+    </message>
+    <message>
+        <source>用户名</source>
+        <translation>使用者名稱</translation>
+    </message>
+    <message>
+        <source>请选择一个唯一的用户名。</source>
+        <translation>請選擇一個唯一的使用者名稱。</translation>
+    </message>
+    <message>
+        <source>请输入密码</source>
+        <translation>請輸入密碼</translation>
+    </message>
+    <message>
+        <source>密码</source>
+        <translation>密碼</translation>
+    </message>
+    <message>
+        <source>至少 8 个字符。</source>
+        <translation>至少 8 個字元。</translation>
+    </message>
+    <message>
+        <source>多行输入</source>
+        <translation>多行輸入</translation>
+    </message>
+    <message>
+        <source>控件为 ShadTextarea</source>
+        <translation>控制項為 ShadTextarea</translation>
+    </message>
+    <message>
+        <source>你的反馈能帮助我们改进……</source>
+        <translation>你的意見回饋能幫助我們改進……</translation>
+    </message>
+    <message>
+        <source>反馈</source>
+        <translation>意見回饋</translation>
+    </message>
+    <message>
+        <source>告诉我们你的想法。</source>
+        <translation>告訴我們你的想法。</translation>
+    </message>
+    <message>
+        <source>下拉选择</source>
+        <translation>下拉選擇</translation>
+    </message>
+    <message>
+        <source>控件为 ShadComboBox</source>
+        <translation>控制項為 ShadComboBox</translation>
+    </message>
+    <message>
+        <source>部门</source>
+        <translation>部門</translation>
+    </message>
+    <message>
+        <source>选择部门</source>
+        <translation>選擇部門</translation>
+    </message>
+    <message>
+        <source>工程</source>
+        <translation>工程</translation>
+    </message>
+    <message>
+        <source>设计</source>
+        <translation>設計</translation>
+    </message>
+    <message>
+        <source>市场</source>
+        <translation>行銷</translation>
+    </message>
+    <message>
+        <source>销售</source>
+        <translation>業務</translation>
+    </message>
+    <message>
+        <source>客服</source>
+        <translation>客服</translation>
+    </message>
+    <message>
+        <source>选择你所在的部门。</source>
+        <translation>選擇你所在的部門。</translation>
+    </message>
+    <message>
+        <source>滑块</source>
+        <translation>滑桿</translation>
+    </message>
+    <message>
+        <source>控件为范围滑块，说明文字随取值更新</source>
+        <translation>控制項為範圍滑桿，說明文字隨取值更新</translation>
+    </message>
+    <message>
+        <source>价格范围</source>
+        <translation>價格範圍</translation>
+    </message>
+    <message>
+        <source>预算范围：¥%1 - ¥%2</source>
+        <translation>預算範圍：NT$%1 - NT$%2</translation>
+    </message>
+    <message>
+        <source>分组</source>
+        <translation>欄位集</translation>
+    </message>
+    <message>
+        <source>把相关的表单项放在同一个标题下</source>
+        <translation>把相關的表單欄位放在同一個標題下</translation>
+    </message>
+    <message>
+        <source>地址信息</source>
+        <translation>地址資訊</translation>
+    </message>
+    <message>
+        <source>我们需要你的地址来配送订单。</source>
+        <translation>我們需要你的地址來配送訂單。</translation>
+    </message>
+    <message>
+        <source>街道地址</source>
+        <translation>街道地址</translation>
+    </message>
+    <message>
+        <source>人民路 123 号</source>
+        <translation>中山路 123 號</translation>
+    </message>
+    <message>
+        <source>城市</source>
+        <translation>城市</translation>
+    </message>
+    <message>
+        <source>上海</source>
+        <translation>台北</translation>
+    </message>
+    <message>
+        <source>邮编</source>
+        <translation>郵遞區號</translation>
+    </message>
+    <message>
+        <source>复选框</source>
+        <translation>核取方塊</translation>
+    </message>
+    <message>
+        <source>横排，复选框位于起始侧</source>
+        <translation>橫排，核取方塊位於起始側</translation>
+    </message>
+    <message>
+        <source>在桌面上显示这些项目</source>
+        <translation>在桌面上顯示這些項目</translation>
+    </message>
+    <message>
+        <source>选择要在桌面上显示的项目。</source>
+        <translation>選擇要在桌面上顯示的項目。</translation>
+    </message>
+    <message>
+        <source>硬盘</source>
+        <translation>硬碟</translation>
+    </message>
+    <message>
+        <source>外置磁盘</source>
+        <translation>外接磁碟</translation>
+    </message>
+    <message>
+        <source>CD、DVD 与 iPod</source>
+        <translation>CD、DVD 與 iPod</translation>
+    </message>
+    <message>
+        <source>已连接的服务器</source>
+        <translation>已連線的伺服器</translation>
+    </message>
+    <message>
+        <source>同步桌面与文稿文件夹</source>
+        <translation>同步桌面與文件資料夾</translation>
+    </message>
+    <message>
+        <source>桌面与文稿文件夹会同步到云端，可以在其他设备上访问。</source>
+        <translation>桌面與文件資料夾會同步到雲端，可以在其他裝置上存取。</translation>
+    </message>
+    <message>
+        <source>单选组</source>
+        <translation>單選群組</translation>
+    </message>
+    <message>
+        <source>ShadFieldSet 中直接放 ShadRadioGroup</source>
+        <translation>在 ShadFieldSet 中直接放置 ShadRadioGroup</translation>
+    </message>
+    <message>
+        <source>订阅方案</source>
+        <translation>訂閱方案</translation>
+    </message>
+    <message>
+        <source>年付与终身方案可享受大幅折扣。</source>
+        <translation>年付與終身方案可享大幅折扣。</translation>
+    </message>
+    <message>
+        <source>月付（¥9/月）</source>
+        <translation>月付（NT$9/月）</translation>
+    </message>
+    <message>
+        <source>年付（¥99/年）</source>
+        <translation>年付（NT$99/年）</translation>
+    </message>
+    <message>
+        <source>终身（¥299）</source>
+        <translation>終身（NT$299）</translation>
+    </message>
+    <message>
+        <source>开关</source>
+        <translation>開關</translation>
+    </message>
+    <message>
+        <source>横排，开关位于结束侧</source>
+        <translation>橫排，開關位於結尾側</translation>
+    </message>
+    <message>
+        <source>多重身份验证</source>
+        <translation>多重驗證</translation>
+    </message>
+    <message>
+        <source>开启后需要通过验证码或安全密钥完成登录。</source>
+        <translation>開啟後需要透過驗證碼或安全金鑰完成登入。</translation>
+    </message>
+    <message>
+        <source>选择卡片</source>
+        <translation>選擇卡片</translation>
+    </message>
+    <message>
+        <source>setChoiceCard(true)：整个表单项为卡片，点击任意位置切换</source>
+        <translation>setChoiceCard(true)：整個表單欄位為卡片，點擊任意位置即可切換</translation>
+    </message>
+    <message>
+        <source>计算环境</source>
+        <translation>運算環境</translation>
+    </message>
+    <message>
+        <source>选择集群的计算环境。</source>
+        <translation>選擇叢集的運算環境。</translation>
+    </message>
+    <message>
+        <source>在 Kubernetes 集群上运行 GPU 工作负载。</source>
+        <translation>在 Kubernetes 叢集上執行 GPU 工作負載。</translation>
+    </message>
+    <message>
+        <source>虚拟机</source>
+        <translation>虛擬機器</translation>
+    </message>
+    <message>
+        <source>使用虚拟机集群运行 GPU 工作负载（即将推出）。</source>
+        <translation>使用虛擬機器叢集執行 GPU 工作負載（即將推出）。</translation>
+    </message>
+    <message>
+        <source>字段组与分隔线</source>
+        <translation>欄位群組與分隔線</translation>
+    </message>
+    <message>
+        <source>在两组之间插入分隔线，可以带文字</source>
+        <translation>在兩組之間插入分隔線，可以帶文字</translation>
+    </message>
+    <message>
+        <source>回复与评论</source>
+        <translation>回覆與留言</translation>
+    </message>
+    <message>
+        <source>选择接收回复与评论通知的方式。</source>
+        <translation>選擇接收回覆與留言通知的方式。</translation>
+    </message>
+    <message>
+        <source>任务</source>
+        <translation>任務</translation>
+    </message>
+    <message>
+        <source>选择接收任务通知的方式。</source>
+        <translation>選擇接收任務通知的方式。</translation>
+    </message>
+    <message>
+        <source>推送通知</source>
+        <translation>推播通知</translation>
+    </message>
+    <message>
+        <source>邮件通知</source>
+        <translation>電子郵件通知</translation>
+    </message>
+    <message>
+        <source>以及</source>
+        <translation>以及</translation>
+    </message>
+    <message>
+        <source>三种方向</source>
+        <translation>三種方向</translation>
+    </message>
+    <message>
+        <source>竖排、横排，以及按宽度自动切换的响应式</source>
+        <translation>直排、橫排，以及依寬度自動切換的回應式</translation>
+    </message>
+    <message>
+        <source>姓名</source>
+        <translation>姓名</translation>
+    </message>
+    <message>
+        <source>请输入姓名</source>
+        <translation>請輸入姓名</translation>
+    </message>
+    <message>
+        <source>Vertical：标签、控件、说明依次排列。</source>
+        <translation>Vertical：標籤、控制項、說明依序排列。</translation>
+    </message>
+    <message>
+        <source>Horizontal：文字与控件并排。</source>
+        <translation>Horizontal：文字與控制項並排。</translation>
+    </message>
+    <message>
+        <source>Responsive，宽度 560：横排。</source>
+        <translation>Responsive，寬度 560：橫排。</translation>
+    </message>
+    <message>
+        <source>Responsive，宽度 320：竖排。</source>
+        <translation>Responsive，寬度 320：直排。</translation>
+    </message>
+    <message>
+        <source>校验与错误</source>
+        <translation>驗證與錯誤</translation>
+    </message>
+    <message>
+        <source>出错时标签与控件变色，并显示错误信息</source>
+        <translation>出錯時標籤與控制項變色，並顯示錯誤訊息</translation>
+    </message>
+    <message>
+        <source>至少 8 个字符，且包含数字。</source>
+        <translation>至少 8 個字元，且包含數字。</translation>
+    </message>
+    <message>
+        <source>请输入用户名。</source>
+        <translation>請輸入使用者名稱。</translation>
+    </message>
+    <message>
+        <source>请输入密码。</source>
+        <translation>請輸入密碼。</translation>
+    </message>
+    <message>
+        <source>密码至少需要 8 个字符。</source>
+        <translation>密碼至少需要 8 個字元。</translation>
+    </message>
+    <message>
+        <source>密码需要包含至少一个数字。</source>
+        <translation>密碼需要包含至少一個數字。</translation>
+    </message>
+    <message>
+        <source>提交成功。</source>
+        <translation>送出成功。</translation>
+    </message>
+</context>
+<context>
+    <name>HomePage</name>
+    <message>
+        <source>未知</source>
+        <translation>未知</translation>
+    </message>
+    <message>
+        <source>%1 × %2，缩放 %3</source>
+        <translation>%1 × %2，縮放 %3</translation>
+    </message>
+    <message>
+        <source>首页</source>
+        <translation>首頁</translation>
+    </message>
+    <message>
+        <source>shadcn/ui 风格的 Qt 6 Widgets 组件库。</source>
+        <translation>shadcn/ui 風格的 Qt 6 Widgets 元件庫。</translation>
+    </message>
+    <message>
+        <source>GitHub：%1</source>
+        <translation>GitHub：%1</translation>
+    </message>
+    <message>
+        <source>特性</source>
+        <translation>特色</translation>
+    </message>
+    <message>
+        <source>对齐 shadcn/ui v4</source>
+        <translation>對齊 shadcn/ui v4</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>主題</translation>
+    </message>
+    <message>
+        <source>五种基色，亮暗模式即时切换</source>
+        <translation>五種基色，亮暗模式即時切換</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>圖示</translation>
+    </message>
+    <message>
+        <source>内置 Lucide 图标字体</source>
+        <translation>內建 Lucide 圖示字型</translation>
+    </message>
+    <message>
+        <source>跟随 layoutDirection 整体镜像</source>
+        <translation>隨 layoutDirection 整體鏡像翻轉</translation>
+    </message>
+    <message>
+        <source>自绘窗口</source>
+        <translation>自繪視窗</translation>
+    </message>
+    <message>
+        <source>ShadWindow 与 ShadDialog 自绘标题栏</source>
+        <translation>ShadWindow 與 ShadDialog 自繪標題列</translation>
+    </message>
+    <message>
+        <source>系统信息</source>
+        <translation>系統資訊</translation>
+    </message>
+    <message>
+        <source>当前运行环境</source>
+        <translation>目前執行環境</translation>
+    </message>
+    <message>
+        <source>操作系统</source>
+        <translation>作業系統</translation>
+    </message>
+    <message>
+        <source>内核</source>
+        <translation>核心</translation>
+    </message>
+    <message>
+        <source>处理器架构</source>
+        <translation>處理器架構</translation>
+    </message>
+    <message>
+        <source>内存</source>
+        <translation>記憶體</translation>
+    </message>
+    <message>
+        <source>Qt 版本</source>
+        <translation>Qt 版本</translation>
+    </message>
+    <message>
+        <source>主屏幕</source>
+        <translation>主螢幕</translation>
+    </message>
+    <message>
+        <source>系统语言</source>
+        <translation>系統語言</translation>
+    </message>
+    <message>
+        <source>组件</source>
+        <translation>元件</translation>
+    </message>
+    <message>
+        <source>点击打开第一个演示页</source>
+        <translation>點擊開啟第一個示範頁面</translation>
+    </message>
+    <message>
+        <source>、</source>
+        <comment>列表分隔符</comment>
+        <translation>、</translation>
+    </message>
+    <message>
+        <source>共 %1 个演示页</source>
+        <translation>共 %1 個示範頁面</translation>
+    </message>
+</context>
+<context>
+    <name>HoverCardPage</name>
+    <message>
+        <source>React 框架，由 @vercel 创建并维护。</source>
+        <translation>React 框架，由 @vercel 建立並維護。</translation>
+    </message>
+    <message>
+        <source>2021 年 12 月加入</source>
+        <translation>2021 年 12 月加入</translation>
+    </message>
+    <message>
+        <source>悬停卡片</source>
+        <translation>懸停卡片</translation>
+    </message>
+    <message>
+        <source>ShadHoverCard：悬停时显示的卡片。</source>
+        <translation>ShadHoverCard：滑鼠停留時顯示的卡片。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>悬停后显示</source>
+        <translation>滑鼠停留後顯示</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>四个方向</source>
+        <translation>四個方向</translation>
+    </message>
+    <message>
+        <source>上方</source>
+        <translation>上方</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右側</translation>
+    </message>
+    <message>
+        <source>下方</source>
+        <translation>下方</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左側</translation>
+    </message>
+    <message>
+        <source>显示在%1</source>
+        <translation>顯示在%1</translation>
+    </message>
+</context>
+<context>
+    <name>ImageCropperPage</name>
+    <message>
+        <source>图片裁剪</source>
+        <translation>圖片裁切</translation>
+    </message>
+    <message>
+        <source>ShadImageCropper：在图片上拖动裁剪框，支持固定比例、圆形裁剪、旋转与翻转。</source>
+        <translation>ShadImageCropper：在圖片上拖曳裁切框，支援固定比例、圓形裁切、旋轉與翻轉。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>拖动框内移动，拖动手柄缩放，聚焦后用方向键微调，按住 Shift 加快 10 倍</source>
+        <translation>拖曳框內可移動，拖曳控點可縮放，取得焦點後用方向鍵微調，按住 Shift 可加快 10 倍</translation>
+    </message>
+    <message>
+        <source>自由</source>
+        <translation>自由</translation>
+    </message>
+    <message>
+        <source>向左旋转</source>
+        <translation>向左旋轉</translation>
+    </message>
+    <message>
+        <source>向右旋转</source>
+        <translation>向右旋轉</translation>
+    </message>
+    <message>
+        <source>水平翻转</source>
+        <translation>水平翻轉</translation>
+    </message>
+    <message>
+        <source>垂直翻转</source>
+        <translation>垂直翻轉</translation>
+    </message>
+    <message>
+        <source>重置</source>
+        <translation>重設</translation>
+    </message>
+    <message>
+        <source>裁剪</source>
+        <translation>裁切</translation>
+    </message>
+    <message>
+        <source>裁剪尺寸: %1 × %2</source>
+        <translation>裁切尺寸: %1 × %2</translation>
+    </message>
+    <message>
+        <source>圆形头像</source>
+        <translation>圓形大頭貼</translation>
+    </message>
+    <message>
+        <source>setShape(Circle)：固定 1:1，遮罩挖空为圆形，输出图片圆外透明</source>
+        <translation>setShape(Circle)：固定 1:1，遮罩挖空為圓形，輸出圖片圓外透明</translation>
+    </message>
+    <message>
+        <source>生成头像</source>
+        <translation>產生大頭貼</translation>
+    </message>
+    <message>
+        <source>选择图片</source>
+        <translation>選擇圖片</translation>
+    </message>
+    <message>
+        <source>从本地选择图片后进行裁剪</source>
+        <translation>從本機選擇圖片後進行裁切</translation>
+    </message>
+    <message>
+        <source>图片加载失败</source>
+        <translation>圖片載入失敗</translation>
+    </message>
+    <message>
+        <source>图片文件 (*.png *.jpg *.jpeg *.bmp *.webp)</source>
+        <translation>圖片檔案 (*.png *.jpg *.jpeg *.bmp *.webp)</translation>
+    </message>
+</context>
+<context>
+    <name>ImageViewerPage</name>
+    <message>
+        <source>图片预览</source>
+        <translation>圖片預覽</translation>
+    </message>
+    <message>
+        <source>ShadImageViewer：覆盖窗口预览图片，支持缩放、拖动、旋转、翻转与多图切换。</source>
+        <translation>ShadImageViewer：覆蓋視窗預覽圖片，支援縮放、拖曳、旋轉、翻轉與多圖切換。</translation>
+    </message>
+    <message>
+        <source>横图</source>
+        <translation>橫圖</translation>
+    </message>
+    <message>
+        <source>竖图</source>
+        <translation>直圖</translation>
+    </message>
+    <message>
+        <source>方图</source>
+        <translation>方圖</translation>
+    </message>
+    <message>
+        <source>长图</source>
+        <translation>長圖</translation>
+    </message>
+    <message>
+        <source>小图</source>
+        <translation>小圖</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击缩略图，从对应的图片开始预览；滚轮缩放，拖动平移，双击切换适应窗口与实际大小</source>
+        <translation>點擊縮圖，從對應的圖片開始預覽；滾輪縮放，拖曳平移，按兩下切換適應視窗與實際大小</translation>
+    </message>
+    <message>
+        <source>预览%1</source>
+        <translation>預覽%1</translation>
+    </message>
+    <message>
+        <source>本地图片</source>
+        <translation>本機圖片</translation>
+    </message>
+    <message>
+        <source>setImagePaths：在线程池中异步解码，加载时显示加载指示，按 EXIF 方向自动旋转</source>
+        <translation>setImagePaths：在執行緒集區中非同步解碼，載入時顯示載入指示，依 EXIF 方向自動旋轉</translation>
+    </message>
+    <message>
+        <source>选择图片...</source>
+        <translation>選擇圖片...</translation>
+    </message>
+    <message>
+        <source>选择图片</source>
+        <translation>選擇圖片</translation>
+    </message>
+    <message>
+        <source>图片文件 (%1)</source>
+        <translation>圖片檔案 (%1)</translation>
+    </message>
+    <message>
+        <source>加载失败</source>
+        <translation>載入失敗</translation>
+    </message>
+    <message>
+        <source>文件不存在或无法解码时显示 ImageOff 图标与提示文字</source>
+        <translation>檔案不存在或無法解碼時顯示 ImageOff 圖示與提示文字</translation>
+    </message>
+    <message>
+        <source>打开不存在的图片</source>
+        <translation>開啟不存在的圖片</translation>
+    </message>
+    <message>
+        <source>隐藏工具栏</source>
+        <translation>隱藏工具列</translation>
+    </message>
+    <message>
+        <source>打开预览</source>
+        <translation>開啟預覽</translation>
+    </message>
+</context>
+<context>
+    <name>InputDialogPage</name>
+    <message>
+        <source>输入对话框</source>
+        <translation>輸入對話方塊</translation>
+    </message>
+    <message>
+        <source>ShadInputDialog：在对话框中输入一个值，支持文本、密码、多行文本与数值。</source>
+        <translation>ShadInputDialog：在對話方塊中輸入一個值，支援文字、密碼、多行文字與數值。</translation>
+    </message>
+    <message>
+        <source>单行文本</source>
+        <translation>單行文字</translation>
+    </message>
+    <message>
+        <source>输入单行文本，确定后取回输入值</source>
+        <translation>輸入單行文字，確定後取回輸入值</translation>
+    </message>
+    <message>
+        <source>重命名</source>
+        <translation>重新命名</translation>
+    </message>
+    <message>
+        <source>尚未修改</source>
+        <translation>尚未修改</translation>
+    </message>
+    <message>
+        <source>季度报告.docx</source>
+        <translation>季度報告.docx</translation>
+    </message>
+    <message>
+        <source>重命名文件</source>
+        <translation>重新命名檔案</translation>
+    </message>
+    <message>
+        <source>输入新的文件名，完成后点击确定。</source>
+        <translation>輸入新的檔案名稱，完成後點擊確定。</translation>
+    </message>
+    <message>
+        <source>文件名</source>
+        <translation>檔案名稱</translation>
+    </message>
+    <message>
+        <source>新文件名：%1</source>
+        <translation>新檔案名稱：%1</translation>
+    </message>
+    <message>
+        <source>已取消</source>
+        <translation>已取消</translation>
+    </message>
+    <message>
+        <source>密码</source>
+        <translation>密碼</translation>
+    </message>
+    <message>
+        <source>隐藏输入内容，尾部按钮切换显示</source>
+        <translation>隱藏輸入內容，尾端按鈕可切換顯示</translation>
+    </message>
+    <message>
+        <source>验证身份</source>
+        <translation>驗證身分</translation>
+    </message>
+    <message>
+        <source>尚未验证</source>
+        <translation>尚未驗證</translation>
+    </message>
+    <message>
+        <source>需要验证</source>
+        <translation>需要驗證</translation>
+    </message>
+    <message>
+        <source>输入当前账户的密码以继续。</source>
+        <translation>輸入目前帳號的密碼以繼續。</translation>
+    </message>
+    <message>
+        <source>输入密码</source>
+        <translation>輸入密碼</translation>
+    </message>
+    <message>
+        <source>验证</source>
+        <translation>驗證</translation>
+    </message>
+    <message>
+        <source>已输入 %1 个字符</source>
+        <translation>已輸入 %1 個字元</translation>
+    </message>
+    <message>
+        <source>多行文本</source>
+        <translation>多行文字</translation>
+    </message>
+    <message>
+        <source>使用多行输入框，内容超出时滚动</source>
+        <translation>使用多行輸入框，內容超出時可捲動</translation>
+    </message>
+    <message>
+        <source>添加备注</source>
+        <translation>新增備註</translation>
+    </message>
+    <message>
+        <source>暂无备注</source>
+        <translation>尚無備註</translation>
+    </message>
+    <message>
+        <source>备注会显示在订单详情中。</source>
+        <translation>備註會顯示在訂單詳細資料中。</translation>
+    </message>
+    <message>
+        <source>备注</source>
+        <translation>備註</translation>
+    </message>
+    <message>
+        <source>写下需要商家注意的事项</source>
+        <translation>寫下需要商家注意的事項</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>已保存 %1 个字符</source>
+        <translation>已儲存 %1 個字元</translation>
+    </message>
+    <message>
+        <source>整数</source>
+        <translation>整數</translation>
+    </message>
+    <message>
+        <source>整数输入框，可设置范围和步长</source>
+        <translation>整數輸入框，可設定範圍和步進值</translation>
+    </message>
+    <message>
+        <source>修改数量</source>
+        <translation>修改數量</translation>
+    </message>
+    <message>
+        <source>数量：%1</source>
+        <translation>數量：%1</translation>
+    </message>
+    <message>
+        <source>购买数量</source>
+        <translation>購買數量</translation>
+    </message>
+    <message>
+        <source>每单最多购买 10 件。</source>
+        <translation>每筆訂單最多購買 10 件。</translation>
+    </message>
+    <message>
+        <source>数量</source>
+        <translation>數量</translation>
+    </message>
+    <message>
+        <source>小数</source>
+        <translation>小數</translation>
+    </message>
+    <message>
+        <source>小数输入框，可设置范围、小数位数和步长</source>
+        <translation>小數輸入框，可設定範圍、小數位數和步進值</translation>
+    </message>
+    <message>
+        <source>调整价格</source>
+        <translation>調整價格</translation>
+    </message>
+    <message>
+        <source>价格：%1 元</source>
+        <translation>價格：%1 元</translation>
+    </message>
+    <message>
+        <source>价格保留两位小数，加减按钮每次调整 0.5 元。</source>
+        <translation>價格保留兩位小數，加減按鈕每次調整 0.5 元。</translation>
+    </message>
+    <message>
+        <source>价格（元）</source>
+        <translation>價格（元）</translation>
+    </message>
+</context>
+<context>
+    <name>InputGroupPage</name>
+    <message>
+        <source>输入组</source>
+        <translation>輸入群組</translation>
+    </message>
+    <message>
+        <source>ShadInputGroup：在输入框两侧或上下加入文字、图标、按钮等附加区的输入组。</source>
+        <translation>ShadInputGroup：在輸入框兩側或上下加入文字、圖示、按鈕等附加區的輸入群組。</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>圖示</translation>
+    </message>
+    <message>
+        <source>在输入框起始侧或结束侧放置图标</source>
+        <translation>在輸入框起始側或結尾側放置圖示</translation>
+    </message>
+    <message>
+        <source>搜索...</source>
+        <translation>搜尋...</translation>
+    </message>
+    <message>
+        <source>输入邮箱</source>
+        <translation>輸入電子郵件</translation>
+    </message>
+    <message>
+        <source>我们不会公开你的邮箱</source>
+        <translation>我們不會公開你的電子郵件</translation>
+    </message>
+    <message>
+        <source>文字</source>
+        <translation>文字</translation>
+    </message>
+    <message>
+        <source>用作前缀、后缀与单位的文字</source>
+        <translation>用作前綴、後綴與單位的文字</translation>
+    </message>
+    <message>
+        <source>用户名</source>
+        <translation>使用者名稱</translation>
+    </message>
+    <message>
+        <source>按钮</source>
+        <translation>按鈕</translation>
+    </message>
+    <message>
+        <source>在输入框内放置不同尺寸的按钮</source>
+        <translation>在輸入框內放置不同尺寸的按鈕</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>已复制</source>
+        <translation>已複製</translation>
+    </message>
+    <message>
+        <source>链接已复制到剪贴板</source>
+        <translation>連結已複製到剪貼簿</translation>
+    </message>
+    <message>
+        <source>输入关键词...</source>
+        <translation>輸入關鍵字...</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>搜尋</translation>
+    </message>
+    <message>
+        <source>该连接是安全的</source>
+        <translation>此連線是安全的</translation>
+    </message>
+    <message>
+        <source>收藏</source>
+        <translation>加入我的最愛</translation>
+    </message>
+    <message>
+        <source>快捷键</source>
+        <translation>快速鍵</translation>
+    </message>
+    <message>
+        <source>放入按键组，按快捷键聚焦搜索框</source>
+        <translation>放入按鍵群組，按快速鍵即可聚焦搜尋框</translation>
+    </message>
+    <message>
+        <source>上下附加区</source>
+        <translation>上下附加區</translation>
+    </message>
+    <message>
+        <source>附加区在输入框上方或下方单独占一行</source>
+        <translation>附加區在輸入框上方或下方單獨佔一列</translation>
+    </message>
+    <message>
+        <source>张三</source>
+        <translation>張三</translation>
+    </message>
+    <message>
+        <source>全名</source>
+        <translation>全名</translation>
+    </message>
+    <message>
+        <source>将显示在你的个人资料中</source>
+        <translation>將顯示在你的個人資料中</translation>
+    </message>
+    <message>
+        <source>运行</source>
+        <translation>執行</translation>
+    </message>
+    <message>
+        <source>多行输入</source>
+        <translation>多行輸入</translation>
+    </message>
+    <message>
+        <source>高度随内容增长，底部显示字数与发送按钮</source>
+        <translation>高度隨內容增長，底部顯示字數與傳送按鈕</translation>
+    </message>
+    <message>
+        <source>向 AI 助手提问、搜索或生成内容...</source>
+        <translation>向 AI 助理提問、搜尋或產生內容...</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>傳送</translation>
+    </message>
+    <message>
+        <source>已发送</source>
+        <translation>已傳送</translation>
+    </message>
+    <message>
+        <source>（空消息）</source>
+        <translation>（空訊息）</translation>
+    </message>
+    <message>
+        <source>加载状态</source>
+        <translation>載入狀態</translation>
+    </message>
+    <message>
+        <source>自动旋转的图标作为加载指示</source>
+        <translation>自動旋轉的圖示作為載入指示</translation>
+    </message>
+    <message>
+        <source>正在搜索...</source>
+        <translation>正在搜尋...</translation>
+    </message>
+    <message>
+        <source>保存中...</source>
+        <translation>儲存中...</translation>
+    </message>
+    <message>
+        <source>自动保存</source>
+        <translation>自動儲存</translation>
+    </message>
+    <message>
+        <source>下拉菜单</source>
+        <translation>下拉選單</translation>
+    </message>
+    <message>
+        <source>结束侧的按钮弹出下拉菜单</source>
+        <translation>結尾側的按鈕彈出下拉選單</translation>
+    </message>
+    <message>
+        <source>输入搜索内容...</source>
+        <translation>輸入搜尋內容...</translation>
+    </message>
+    <message>
+        <source>范围</source>
+        <translation>範圍</translation>
+    </message>
+    <message>
+        <source>全部</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>文件</translation>
+    </message>
+    <message>
+        <source>代码</source>
+        <translation>程式碼</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>錯誤狀態</translation>
+    </message>
+    <message>
+        <source>setInvalid(true)：边框与焦点环显示错误色</source>
+        <translation>setInvalid(true)：邊框與焦點環顯示錯誤色</translation>
+    </message>
+    <message>
+        <source>请输入有效的邮箱</source>
+        <translation>請輸入有效的電子郵件</translation>
+    </message>
+</context>
+<context>
+    <name>InputOtpPage</name>
+    <message>
+        <source>验证码输入</source>
+        <translation>驗證碼輸入</translation>
+    </message>
+    <message>
+        <source>ShadInputOtp：一排相连的格子，每格一个字符，用于输入一次性验证码。</source>
+        <translation>ShadInputOtp：一排相連的格子，每格一個字元，用於輸入一次性驗證碼。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>默认两组各 3 格，输入后自动跳到下一格</source>
+        <translation>預設兩組各 3 格，輸入後自動跳到下一格</translation>
+    </message>
+    <message>
+        <source>验证码</source>
+        <translation>驗證碼</translation>
+    </message>
+    <message>
+        <source>仅数字</source>
+        <translation>僅數字</translation>
+    </message>
+    <message>
+        <source>只接受数字，一组 6 格</source>
+        <translation>只接受數字，一組 6 格</translation>
+    </message>
+    <message>
+        <source>分隔符</source>
+        <translation>分隔符號</translation>
+    </message>
+    <message>
+        <source>分为三组，组之间显示分隔符，带初始值</source>
+        <translation>分為三組，組之間顯示分隔符號，帶初始值</translation>
+    </message>
+    <message>
+        <source>当前值：空</source>
+        <translation>目前值：空</translation>
+    </message>
+    <message>
+        <source>当前值：%1</source>
+        <translation>目前值：%1</translation>
+    </message>
+    <message>
+        <source>字母与数字</source>
+        <translation>字母與數字</translation>
+    </message>
+    <message>
+        <source>接受字母与数字，字母自动转为大写</source>
+        <translation>接受字母與數字，字母自動轉為大寫</translation>
+    </message>
+    <message>
+        <source>可以输入字母和数字。</source>
+        <translation>可以輸入字母和數字。</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>禁用时整体半透明，鼠标显示禁止图标</source>
+        <translation>停用時整體呈半透明，滑鼠顯示禁止圖示</translation>
+    </message>
+    <message>
+        <source>4 位 PIN</source>
+        <translation>4 位數 PIN</translation>
+    </message>
+    <message>
+        <source>4 格仅数字，填满后发出 completed 信号</source>
+        <translation>4 格僅數字，填滿後發出 completed 訊號</translation>
+    </message>
+    <message>
+        <source>PIN 已输入</source>
+        <translation>PIN 已輸入</translation>
+    </message>
+    <message>
+        <source>输入的 PIN 为 %1</source>
+        <translation>輸入的 PIN 為 %1</translation>
+    </message>
+    <message>
+        <source>常用于 PIN 码。</source>
+        <translation>常用於 PIN 碼。</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>錯誤狀態</translation>
+    </message>
+    <message>
+        <source>setInvalid(true)：显示错误色，修改内容后取消</source>
+        <translation>setInvalid(true)：顯示錯誤色，修改內容後取消</translation>
+    </message>
+    <message>
+        <source>验证码错误，请重试。</source>
+        <translation>驗證碼錯誤，請重試。</translation>
+    </message>
+    <message>
+        <source>表单</source>
+        <translation>表單</translation>
+    </message>
+    <message>
+        <source>使用大号格子的登录验证卡片，验证时检查是否填满</source>
+        <translation>使用大型格子的登入驗證卡片，驗證時檢查是否填滿</translation>
+    </message>
+    <message>
+        <source>验证登录</source>
+        <translation>驗證登入</translation>
+    </message>
+    <message>
+        <source>请输入发送到 m@example.com 的验证码。</source>
+        <translation>請輸入傳送到 m@example.com 的驗證碼。</translation>
+    </message>
+    <message>
+        <source>重新发送</source>
+        <translation>重新傳送</translation>
+    </message>
+    <message>
+        <source>无法访问这个邮箱？</source>
+        <translation>無法存取這個電子郵件信箱？</translation>
+    </message>
+    <message>
+        <source>验证</source>
+        <translation>驗證</translation>
+    </message>
+    <message>
+        <source>登录遇到问题？请联系客服。</source>
+        <translation>登入遇到問題？請聯絡客服。</translation>
+    </message>
+    <message>
+        <source>验证码已重新发送</source>
+        <translation>驗證碼已重新傳送</translation>
+    </message>
+    <message>
+        <source>请查看 m@example.com 的收件箱。</source>
+        <translation>請查看 m@example.com 的收件匣。</translation>
+    </message>
+    <message>
+        <source>验证码不完整</source>
+        <translation>驗證碼不完整</translation>
+    </message>
+    <message>
+        <source>请输入 6 位验证码。</source>
+        <translation>請輸入 6 位數驗證碼。</translation>
+    </message>
+    <message>
+        <source>验证成功</source>
+        <translation>驗證成功</translation>
+    </message>
+    <message>
+        <source>验证码 %1 已通过验证。</source>
+        <translation>驗證碼 %1 已通過驗證。</translation>
+    </message>
+</context>
+<context>
+    <name>InputPage</name>
+    <message>
+        <source>输入框</source>
+        <translation>輸入框</translation>
+    </message>
+    <message>
+        <source>ShadInput / ShadTextarea / ShadLabel：单行、多行输入框与标签，获得焦点时显示焦点环，支持错误态。</source>
+        <translation>ShadInput / ShadTextarea / ShadLabel：單行、多行輸入框與標籤，取得焦點時顯示焦點環，支援錯誤狀態。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>单行输入框</source>
+        <translation>單行輸入框</translation>
+    </message>
+    <message>
+        <source>邮箱</source>
+        <translation>電子郵件</translation>
+    </message>
+    <message>
+        <source>搭配标签</source>
+        <translation>搭配標籤</translation>
+    </message>
+    <message>
+        <source>点击标签会把焦点交给关联的输入框</source>
+        <translation>點擊標籤會把焦點交給關聯的輸入框</translation>
+    </message>
+    <message>
+        <source>请输入密码</source>
+        <translation>請輸入密碼</translation>
+    </message>
+    <message>
+        <source>密码</source>
+        <translation>密碼</translation>
+    </message>
+    <message>
+        <source>图标与尾部按钮</source>
+        <translation>圖示與尾端按鈕</translation>
+    </message>
+    <message>
+        <source>前置图标，以及清空或切换密码显示的尾部按钮</source>
+        <translation>前置圖示，以及清除或切換密碼顯示的尾端按鈕</translation>
+    </message>
+    <message>
+        <source>搜索组件</source>
+        <translation>搜尋元件</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>搜尋</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>禁用与错误态，禁用时关联的标签也变为半透明</source>
+        <translation>停用與錯誤狀態，停用時關聯的標籤也會變為半透明</translation>
+    </message>
+    <message>
+        <source>已禁用</source>
+        <translation>已停用</translation>
+    </message>
+    <message>
+        <source>不是有效的邮箱地址</source>
+        <translation>不是有效的電子郵件地址</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>错误</source>
+        <translation>錯誤</translation>
+    </message>
+    <message>
+        <source>多行输入</source>
+        <translation>多行輸入</translation>
+    </message>
+    <message>
+        <source>高度随内容增长，超出最大高度后出现滚动条</source>
+        <translation>高度隨內容增長，超出最大高度後出現捲軸</translation>
+    </message>
+    <message>
+        <source>在这里输入你的留言，换行或输入长文本时高度会自动增长。</source>
+        <translation>在這裡輸入你的留言，換行或輸入長文字時高度會自動增長。</translation>
+    </message>
+    <message>
+        <source>留言</source>
+        <translation>留言</translation>
+    </message>
+</context>
+<context>
+    <name>ItemPage</name>
+    <message>
+        <source>仅标题</source>
+        <translation>僅標題</translation>
+    </message>
+    <message>
+        <source>标题 + 描述</source>
+        <translation>標題 + 描述</translation>
+    </message>
+    <message>
+        <source>描述文字用于补充更多上下文信息。</source>
+        <translation>描述文字用於補充更多上下文資訊。</translation>
+    </message>
+    <message>
+        <source>标题 + 描述 + 按钮</source>
+        <translation>標題 + 描述 + 按鈕</translation>
+    </message>
+    <message>
+        <source>这一项包含标题、描述和一个操作按钮。</source>
+        <translation>這一項包含標題、描述和一個操作按鈕。</translation>
+    </message>
+    <message>
+        <source>操作</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>图标 + 标题 + 描述 + 按钮</source>
+        <translation>圖示 + 標題 + 描述 + 按鈕</translation>
+    </message>
+    <message>
+        <source>完整的列表项：媒体、标题、描述和操作按钮。描述最多显示两行，超出部分在第二行末尾省略。</source>
+        <translation>完整的清單項目：媒體、標題、描述和操作按鈕。描述最多顯示兩行，超出部分在第二行末尾省略。</translation>
+    </message>
+    <message>
+        <source>多个操作</source>
+        <translation>多個操作</translation>
+    </message>
+    <message>
+        <source>操作区可以放多个按钮。</source>
+        <translation>操作區可以放置多個按鈕。</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>确认</source>
+        <translation>確認</translation>
+    </message>
+    <message>
+        <source>列表项</source>
+        <translation>清單項目</translation>
+    </message>
+    <message>
+        <source>ShadItem / ShadItemGroup：由媒体区、标题与描述、操作区组成的列表项，可分组排列。</source>
+        <translation>ShadItem / ShadItemGroup：由媒體區、標題與描述、操作區組成的清單項目，可分組排列。</translation>
+    </message>
+    <message>
+        <source>默认样式</source>
+        <translation>預設樣式</translation>
+    </message>
+    <message>
+        <source>没有边框与背景，带图标与操作按钮</source>
+        <translation>沒有邊框與背景，帶圖示與操作按鈕</translation>
+    </message>
+    <message>
+        <source>描边样式</source>
+        <translation>外框樣式</translation>
+    </message>
+    <message>
+        <source>Outline 变体，带边框</source>
+        <translation>Outline 變體，帶邊框</translation>
+    </message>
+    <message>
+        <source>柔和样式</source>
+        <translation>柔和樣式</translation>
+    </message>
+    <message>
+        <source>Muted 变体，带柔和背景</source>
+        <translation>Muted 變體，帶柔和背景</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>三种尺寸，内边距与间距逐级缩小</source>
+        <translation>三種尺寸，內邊距與間距逐級縮小</translation>
+    </message>
+    <message>
+        <source>默认尺寸</source>
+        <translation>預設尺寸</translation>
+    </message>
+    <message>
+        <source>小尺寸</source>
+        <translation>小尺寸</translation>
+    </message>
+    <message>
+        <source>超小尺寸</source>
+        <translation>超小尺寸</translation>
+    </message>
+    <message>
+        <source>图标、标题、描述和操作按钮。</source>
+        <translation>圖示、標題、描述和操作按鈕。</translation>
+    </message>
+    <message>
+        <source>图片媒体</source>
+        <translation>圖片媒體</translation>
+    </message>
+    <message>
+        <source>媒体区显示圆角正方形图片</source>
+        <translation>媒體區顯示圓角正方形圖片</translation>
+    </message>
+    <message>
+        <source>项目面板</source>
+        <translation>專案面板</translation>
+    </message>
+    <message>
+        <source>项目设置与配置概览。</source>
+        <translation>專案設定與組態概覽。</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>文件</translation>
+    </message>
+    <message>
+        <source>显示元数据的文档。</source>
+        <translation>顯示中繼資料的文件。</translation>
+    </message>
+    <message>
+        <source>查看</source>
+        <translation>檢視</translation>
+    </message>
+    <message>
+        <source>附件</source>
+        <translation>附件</translation>
+    </message>
+    <message>
+        <source>包含图片、标题、描述和下载按钮。</source>
+        <translation>包含圖片、標題、描述和下載按鈕。</translation>
+    </message>
+    <message>
+        <source>下载</source>
+        <translation>下載</translation>
+    </message>
+    <message>
+        <source>头像媒体</source>
+        <translation>大頭貼媒體</translation>
+    </message>
+    <message>
+        <source>媒体区放入任意组件，例如头像或头像组</source>
+        <translation>媒體區可放入任意元件，例如大頭貼或大頭貼群組</translation>
+    </message>
+    <message>
+        <source>陈娜</source>
+        <translation>陳娜</translation>
+    </message>
+    <message>
+        <source>设计负责人，2 小时前活跃</source>
+        <translation>設計負責人，2 小時前活躍</translation>
+    </message>
+    <message>
+        <source>发消息</source>
+        <translation>傳訊息</translation>
+    </message>
+    <message>
+        <source>还没有团队成员</source>
+        <translation>還沒有團隊成員</translation>
+    </message>
+    <message>
+        <source>邀请团队成员一起协作这个项目。</source>
+        <translation>邀請團隊成員一起協作這個專案。</translation>
+    </message>
+    <message>
+        <source>邀请</source>
+        <translation>邀請</translation>
+    </message>
+    <message>
+        <source>可点击</source>
+        <translation>可點擊</translation>
+    </message>
+    <message>
+        <source>setClickable(true)：作为链接使用，单击发出 clicked</source>
+        <translation>setClickable(true)：作為連結使用，按一下發出 clicked</translation>
+    </message>
+    <message>
+        <source>点击任意一行</source>
+        <translation>點擊任意一列</translation>
+    </message>
+    <message>
+        <source>可点击的列表项，包含标题和描述。</source>
+        <translation>可點擊的清單項目，包含標題和描述。</translation>
+    </message>
+    <message>
+        <source>图标 + 标题 + 描述</source>
+        <translation>圖示 + 標題 + 描述</translation>
+    </message>
+    <message>
+        <source>完整的可点击列表项。</source>
+        <translation>完整的可點擊清單項目。</translation>
+    </message>
+    <message>
+        <source>带操作</source>
+        <translation>帶操作</translation>
+    </message>
+    <message>
+        <source>可点击的列表项也可以有操作按钮。</source>
+        <translation>可點擊的清單項目也可以有操作按鈕。</translation>
+    </message>
+    <message>
+        <source>分享</source>
+        <translation>分享</translation>
+    </message>
+    <message>
+        <source>点击了：%1</source>
+        <translation>已點擊：%1</translation>
+    </message>
+    <message>
+        <source>点击了：分享按钮</source>
+        <translation>已點擊：分享按鈕</translation>
+    </message>
+    <message>
+        <source>分组与分隔线</source>
+        <translation>群組與分隔線</translation>
+    </message>
+    <message>
+        <source>纵向排列多个列表项，并插入分隔线</source>
+        <translation>縱向排列多個清單項目，並插入分隔線</translation>
+    </message>
+    <message>
+        <source>收件箱</source>
+        <translation>收件匣</translation>
+    </message>
+    <message>
+        <source>查看所有收到的消息。</source>
+        <translation>檢視所有收到的訊息。</translation>
+    </message>
+    <message>
+        <source>已发送</source>
+        <translation>已傳送</translation>
+    </message>
+    <message>
+        <source>查看所有已发送的消息。</source>
+        <translation>檢視所有已傳送的訊息。</translation>
+    </message>
+    <message>
+        <source>草稿</source>
+        <translation>草稿</translation>
+    </message>
+    <message>
+        <source>查看所有草稿。</source>
+        <translation>檢視所有草稿。</translation>
+    </message>
+    <message>
+        <source>归档</source>
+        <translation>封存</translation>
+    </message>
+    <message>
+        <source>查看已归档的消息。</source>
+        <translation>檢視已封存的訊息。</translation>
+    </message>
+    <message>
+        <source>页眉与页脚</source>
+        <translation>頁首與頁尾</translation>
+    </message>
+    <message>
+        <source>在主行上方或下方添加文字或任意组件</source>
+        <translation>在主列上方或下方新增文字或任意元件</translation>
+    </message>
+    <message>
+        <source>组件库</source>
+        <translation>元件庫</translation>
+    </message>
+    <message>
+        <source>一套可复用的界面组件，用于构建风格一致的界面。</source>
+        <translation>一套可重複使用的介面元件，用於建構風格一致的介面。</translation>
+    </message>
+    <message>
+        <source>设计系统</source>
+        <translation>設計系統</translation>
+    </message>
+    <message>
+        <source>第四季度报告</source>
+        <translation>第四季報告</translation>
+    </message>
+    <message>
+        <source>第四季度的收入、支出与增长指标概览。</source>
+        <translation>第四季的收入、支出與成長指標概覽。</translation>
+    </message>
+    <message>
+        <source>2 小时前更新</source>
+        <translation>2 小時前更新</translation>
+    </message>
+    <message>
+        <source>网站改版</source>
+        <translation>網站改版</translation>
+    </message>
+    <message>
+        <source>按现代设计原则全面改版公司网站，提升用户体验。</source>
+        <translation>依現代設計原則全面改版公司網站，提升使用者體驗。</translation>
+    </message>
+    <message>
+        <source>团队项目</source>
+        <translation>團隊專案</translation>
+    </message>
+    <message>
+        <source>5 分钟前更新</source>
+        <translation>5 分鐘前更新</translation>
+    </message>
+    <message>
+        <source>从右到左布局时媒体区与操作区左右对调</source>
+        <translation>由右至左版面配置時，媒體區與操作區左右對調</translation>
+    </message>
+    <message>
+        <source>打开</source>
+        <translation>開啟</translation>
+    </message>
+    <message>
+        <source>可点击的列表项</source>
+        <translation>可點擊的清單項目</translation>
+    </message>
+    <message>
+        <source>悬停与焦点环同样适用。</source>
+        <translation>滑鼠停留與焦點環同樣適用。</translation>
+    </message>
+</context>
+<context>
+    <name>KbdPage</name>
+    <message>
+        <source>按键</source>
+        <translation>按鍵</translation>
+    </message>
+    <message>
+        <source>ShadKbd / ShadKbdGroup：显示键盘按键或快捷键，并可绑定为真正的快捷键。</source>
+        <translation>ShadKbd / ShadKbdGroup：顯示鍵盤按鍵或快速鍵，並可繫結為真正的快速鍵。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>按键名称按平台显示，按键之间可插入普通文字</source>
+        <translation>按鍵名稱依平台顯示，按鍵之間可插入一般文字</translation>
+    </message>
+    <message>
+        <source>按键序列</source>
+        <translation>按鍵序列</translation>
+    </message>
+    <message>
+        <source>setKeySequence：按平台显示组合键</source>
+        <translation>setKeySequence：依平台顯示組合鍵</translation>
+    </message>
+    <message>
+        <source>句子中</source>
+        <translation>句子中</translation>
+    </message>
+    <message>
+        <source>与文字一起排列</source>
+        <translation>與文字一起排列</translation>
+    </message>
+    <message>
+        <source>使用</source>
+        <translation>使用</translation>
+    </message>
+    <message>
+        <source>或</source>
+        <translation>或</translation>
+    </message>
+    <message>
+        <source>打开命令面板</source>
+        <translation>開啟命令面板</translation>
+    </message>
+    <message>
+        <source>提示中</source>
+        <translation>工具提示中</translation>
+    </message>
+    <message>
+        <source>按钮绑定快捷键，提示中显示同一组合键</source>
+        <translation>按鈕繫結快速鍵，工具提示中顯示相同的組合鍵</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>保存更改</source>
+        <translation>儲存變更</translation>
+    </message>
+    <message>
+        <source>打印</source>
+        <translation>列印</translation>
+    </message>
+    <message>
+        <source>打印文档</source>
+        <translation>列印文件</translation>
+    </message>
+    <message>
+        <source>已执行</source>
+        <translation>已執行</translation>
+    </message>
+    <message>
+        <source>跟随 QAction</source>
+        <translation>跟隨 QAction</translation>
+    </message>
+    <message>
+        <source>bindAction：显示 QAction 的快捷键并随之更新</source>
+        <translation>bindAction：顯示 QAction 的快速鍵並隨之更新</translation>
+    </message>
+    <message>
+        <source>导出</source>
+        <translation>匯出</translation>
+    </message>
+    <message>
+        <source>切换快捷键</source>
+        <translation>切換快速鍵</translation>
+    </message>
+    <message>
+        <source>录制快捷键</source>
+        <translation>錄製快速鍵</translation>
+    </message>
+    <message>
+        <source>ShadKeySequenceEdit：点击后按下组合键录制</source>
+        <translation>ShadKeySequenceEdit：點擊後按下組合鍵即可錄製</translation>
+    </message>
+    <message>
+        <source>当前值：未设置</source>
+        <translation>目前的值：未設定</translation>
+    </message>
+    <message>
+        <source>当前值：%1</source>
+        <translation>目前的值：%1</translation>
+    </message>
+    <message>
+        <source>输入组中</source>
+        <translation>輸入群組中</translation>
+    </message>
+    <message>
+        <source>绑定快捷键，按下后聚焦搜索框</source>
+        <translation>繫結快速鍵，按下後聚焦搜尋框</translation>
+    </message>
+    <message>
+        <source>搜索...</source>
+        <translation>搜尋...</translation>
+    </message>
+</context>
+<context>
+    <name>LabelPage</name>
+    <message>
+        <source>标签</source>
+        <translation>標籤</translation>
+    </message>
+    <message>
+        <source>ShadLabel：与控件关联的文字标签。</source>
+        <translation>ShadLabel：與控制項關聯的文字標籤。</translation>
+    </message>
+    <message>
+        <source>关联输入框</source>
+        <translation>關聯輸入框</translation>
+    </message>
+    <message>
+        <source>点击标签聚焦输入框</source>
+        <translation>點擊標籤即可聚焦輸入框</translation>
+    </message>
+    <message>
+        <source>邮箱</source>
+        <translation>電子郵件</translation>
+    </message>
+    <message>
+        <source>关联复选框与开关</source>
+        <translation>關聯核取方塊與開關</translation>
+    </message>
+    <message>
+        <source>点击标签切换状态</source>
+        <translation>點擊標籤即可切換狀態</translation>
+    </message>
+    <message>
+        <source>接受服务条款</source>
+        <translation>接受服務條款</translation>
+    </message>
+    <message>
+        <source>飞行模式</source>
+        <translation>飛航模式</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>控件禁用时标签变淡</source>
+        <translation>控制項停用時標籤會變淡</translation>
+    </message>
+    <message>
+        <source>禁用下方控件</source>
+        <translation>停用下方控制項</translation>
+    </message>
+    <message>
+        <source>请输入用户名</source>
+        <translation>請輸入使用者名稱</translation>
+    </message>
+    <message>
+        <source>用户名</source>
+        <translation>使用者名稱</translation>
+    </message>
+    <message>
+        <source>记住我</source>
+        <translation>記住我</translation>
+    </message>
+    <message>
+        <source>颜色</source>
+        <translation>顏色</translation>
+    </message>
+    <message>
+        <source>setColorRole 指定文字颜色</source>
+        <translation>setColorRole 指定文字顏色</translation>
+    </message>
+    <message>
+        <source>从右到左布局整体镜像</source>
+        <translation>由右至左的版面配置會整體鏡射</translation>
+    </message>
+</context>
+<context>
+    <name>ListViewPage</name>
+    <message>
+        <source>虚拟列表</source>
+        <translation>虛擬清單</translation>
+    </message>
+    <message>
+        <source>ShadListView：继承 QListView，只绘制可见行，所有行等高，大量数据也能流畅滚动；行外观与 Item 一致。</source>
+        <translation>ShadListView：繼承自 QListView，只繪製可見列，所有列等高，大量資料也能流暢捲動；列的外觀與 Item 一致。</translation>
+    </message>
+    <message>
+        <source>十万行数据</source>
+        <translation>十萬列資料</translation>
+    </message>
+    <message>
+        <source>模型在 data() 中按行号即时生成数据，不预先创建；滚动时只读取并绘制可见行</source>
+        <translation>模型在 data() 中依列號即時產生資料，不預先建立；捲動時只讀取並繪製可見列</translation>
+    </message>
+    <message>
+        <source>联系人 %1</source>
+        <translation>聯絡人 %1</translation>
+    </message>
+    <message>
+        <source>%1 分钟前</source>
+        <translation>%1 分鐘前</translation>
+    </message>
+    <message>
+        <source>视口重绘：%1 次/秒</source>
+        <translation>視埠重繪：%1 次/秒</translation>
+    </message>
+    <message>
+        <source>视口重绘：静止</source>
+        <translation>視埠重繪：靜止</translation>
+    </message>
+    <message>
+        <source>共 %1 行</source>
+        <translation>共 %1 列</translation>
+    </message>
+    <message>
+        <source>尺寸与头像</source>
+        <translation>尺寸與大頭貼</translation>
+    </message>
+    <message>
+        <source>从左到右依次为 Medium、Small、ExtraSmall；三个列表共用同一个模型，图片按 setImageShape(Circle) 裁剪为圆形</source>
+        <translation>由左至右依序為 Medium、Small、ExtraSmall；三個清單共用同一個模型，圖片依 setImageShape(Circle) 裁切為圓形</translation>
+    </message>
+    <message>
+        <source>所有者</source>
+        <translation>擁有者</translation>
+    </message>
+    <message>
+        <source>管理员</source>
+        <translation>管理員</translation>
+    </message>
+    <message>
+        <source>成员</source>
+        <translation>成員</translation>
+    </message>
+    <message>
+        <source>访客</source>
+        <translation>訪客</translation>
+    </message>
+    <message>
+        <source>多选与复选框</source>
+        <translation>多選與核取方塊</translation>
+    </message>
+    <message>
+        <source>带 Qt::CheckStateRole 的行显示复选框，点击复选框或按空格切换；Ctrl / Shift 多选行，与复选框相互独立</source>
+        <translation>具有 Qt::CheckStateRole 的列會顯示核取方塊，點擊核取方塊或按空白鍵即可切換；Ctrl / Shift 多選列，與核取方塊互相獨立</translation>
+    </message>
+    <message>
+        <source>设计评审</source>
+        <translation>設計審查</translation>
+    </message>
+    <message>
+        <source>编写接口文档</source>
+        <translation>撰寫介面文件</translation>
+    </message>
+    <message>
+        <source>修复登录问题</source>
+        <translation>修復登入問題</translation>
+    </message>
+    <message>
+        <source>更新依赖</source>
+        <translation>更新相依套件</translation>
+    </message>
+    <message>
+        <source>准备发布说明</source>
+        <translation>準備發行說明</translation>
+    </message>
+    <message>
+        <source>整理测试用例</source>
+        <translation>整理測試案例</translation>
+    </message>
+    <message>
+        <source>优化启动速度</source>
+        <translation>最佳化啟動速度</translation>
+    </message>
+    <message>
+        <source>回复用户反馈</source>
+        <translation>回覆使用者意見回饋</translation>
+    </message>
+    <message>
+        <source>已勾选 %1 项，已选中 %2 行</source>
+        <translation>已勾選 %1 項，已選取 %2 列</translation>
+    </message>
+    <message>
+        <source>滚动加载</source>
+        <translation>捲動載入</translation>
+    </message>
+    <message>
+        <source>滚动到距底部 200px 以内时发出 reachedEnd，setLoadingMore(true) 在底部显示加载指示；每次加载 50 行，共 500 行</source>
+        <translation>捲動到距底部 200px 以內時會發出 reachedEnd，setLoadingMore(true) 會在底部顯示載入指示；每次載入 50 列，共 500 列</translation>
+    </message>
+    <message>
+        <source>第 %1 条消息</source>
+        <translation>第 %1 則訊息</translation>
+    </message>
+    <message>
+        <source>这是第 %1 条消息的摘要内容</source>
+        <translation>這是第 %1 則訊息的摘要內容</translation>
+    </message>
+    <message>
+        <source>已全部加载 %1 行</source>
+        <translation>已載入全部 %1 列</translation>
+    </message>
+    <message>
+        <source>已加载 %1 / %2 行</source>
+        <translation>已載入 %1 / %2 列</translation>
+    </message>
+    <message>
+        <source>空列表</source>
+        <translation>空清單</translation>
+    </message>
+    <message>
+        <source>模型没有行时显示 emptyState()，可设置图标、标题、描述与操作按钮</source>
+        <translation>模型沒有列時會顯示 emptyState()，可設定圖示、標題、描述與操作按鈕</translation>
+    </message>
+    <message>
+        <source>添加任务</source>
+        <translation>新增工作</translation>
+    </message>
+    <message>
+        <source>清空</source>
+        <translation>清除</translation>
+    </message>
+    <message>
+        <source>暂无任务</source>
+        <translation>暫無工作</translation>
+    </message>
+    <message>
+        <source>添加的任务会显示在这里。</source>
+        <translation>新增的工作會顯示在這裡。</translation>
+    </message>
+    <message>
+        <source>任务 %1</source>
+        <translation>工作 %1</translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <source>ShadcnWidgetTools 示例</source>
+        <translation>ShadcnWidgetTools 範例</translation>
+    </message>
+    <message>
+        <source>切换从右到左布局</source>
+        <translation>切換由右至左的版面配置</translation>
+    </message>
+    <message>
+        <source>跟随系统</source>
+        <translation>跟隨系統</translation>
+    </message>
+    <message>
+        <source>切换明暗主题（会关闭跟随系统）</source>
+        <translation>切換淺色/深色主題（會關閉跟隨系統）</translation>
+    </message>
+    <message>
+        <source>切换侧栏（Ctrl+B / Cmd+B）</source>
+        <translation>切換側邊欄（Ctrl+B / Cmd+B）</translation>
+    </message>
+    <message>
+        <source>组件</source>
+        <translation>元件</translation>
+    </message>
+    <message>
+        <source>按钮与操作</source>
+        <translation>按鈕與操作</translation>
+    </message>
+    <message>
+        <source>数据录入</source>
+        <translation>資料輸入</translation>
+    </message>
+    <message>
+        <source>数据展示</source>
+        <translation>資料顯示</translation>
+    </message>
+    <message>
+        <source>反馈</source>
+        <translation>回饋</translation>
+    </message>
+    <message>
+        <source>浮层与窗口</source>
+        <translation>浮層與視窗</translation>
+    </message>
+    <message>
+        <source>导航与布局</source>
+        <translation>導覽與版面配置</translation>
+    </message>
+    <message>
+        <source>升级到 Pro</source>
+        <translation>升級至 Pro</translation>
+    </message>
+    <message>
+        <source>账户</source>
+        <translation>帳號</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>帳單</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>退出登录</source>
+        <translation>登出</translation>
+    </message>
+    <message>
+        <source>已选择：%1</source>
+        <translation>已選擇：%1</translation>
+    </message>
+    <message>
+        <source>首页</source>
+        <translation>首頁</translation>
+    </message>
+</context>
+<context>
+    <name>MarkdownViewPage</name>
+    <message>
+        <source>Markdown</source>
+        <translation>Markdown</translation>
+    </message>
+    <message>
+        <source>ShadMarkdownView：渲染 Markdown 文本，代码块使用 ShadCodeBlock，支持流式追加。</source>
+        <translation>ShadMarkdownView：算繪 Markdown 文字，程式碼區塊使用 ShadCodeBlock，支援串流附加。</translation>
+    </message>
+    <message>
+        <source># 欢迎使用 ShadMarkdownView
+
+这是一段包含 **粗体**、*斜体* 和 `行内代码` 的段落，还有一个[链接](https://www.qt.io)。
+
+## 列表
+
+- 无序列表第一项
+- 无序列表第二项
+
+1. 有序列表第一项
+2. 有序列表第二项
+
+- [x] 已完成的任务
+- [ ] 未完成的任务
+
+### 引用
+
+&gt; 引用块使用次要文字颜色，左侧带有竖线。
+
+## 表格
+
+| 组件 | 说明 | 状态 |
+| --- | --- | --- |
+| ShadCodeBlock | 代码块 | 可用 |
+| ShadMarkdownView | Markdown 渲染 | 可用 |
+
+## 代码
+
+```cpp
+#include &lt;QApplication&gt;
+
+int main(int argc, char* argv[])
+{
+    QApplication app(argc, argv);
+    return app.exec();
+}
+```
+
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+---
+
+文末的水平线之上是各种元素的示例。
+</source>
+        <translation># 歡迎使用 ShadMarkdownView
+
+這是一段包含 **粗體**、*斜體* 和 `行內程式碼` 的段落，還有一個[連結](https://www.qt.io)。
+
+## 清單
+
+- 無序清單第一項
+- 無序清單第二項
+
+1. 有序清單第一項
+2. 有序清單第二項
+
+- [x] 已完成的工作
+- [ ] 未完成的工作
+
+### 引用
+
+&gt; 引用區塊使用次要文字顏色，左側帶有直線。
+
+## 表格
+
+| 元件 | 說明 | 狀態 |
+| --- | --- | --- |
+| ShadCodeBlock | 程式碼區塊 | 可用 |
+| ShadMarkdownView | Markdown 算繪 | 可用 |
+
+## 程式碼
+
+```cpp
+#include &lt;QApplication&gt;
+
+int main(int argc, char* argv[])
+{
+    QApplication app(argc, argv);
+    return app.exec();
+}
+```
+
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+---
+
+文末的水平線之上是各種元素的範例。
+</translation>
+    </message>
+    <message>
+        <source>## 流式输出
+
+下面的内容逐字追加，**代码块**也会随之增长：
+
+```python
+def fibonacci(count):
+    values = [0, 1]
+    while len(values) &lt; count:
+        values.append(values[-1] + values[-2])
+    return values[:count]
+```
+
+- 代码块闭合后继续输出文字
+- 只有最后一段会被重新构建
+
+输出结束。
+</source>
+        <translation>## 串流輸出
+
+下面的內容逐字附加，**程式碼區塊**也會隨之增長：
+
+```python
+def fibonacci(count):
+    values = [0, 1]
+    while len(values) &lt; count:
+        values.append(values[-1] + values[-2])
+    return values[:count]
+```
+
+- 程式碼區塊閉合後繼續輸出文字
+- 只有最後一段會被重新建構
+
+輸出結束。
+</translation>
+    </message>
+    <message>
+        <source>渲染</source>
+        <translation>算繪</translation>
+    </message>
+    <message>
+        <source>setMarkdown 渲染标题、列表、引用、表格、代码块与水平线</source>
+        <translation>setMarkdown 算繪標題、清單、引用、表格、程式碼區塊與水平線</translation>
+    </message>
+    <message>
+        <source>流式输出</source>
+        <translation>串流輸出</translation>
+    </message>
+    <message>
+        <source>appendMarkdown 逐段追加文字，模拟 AI 逐字输出</source>
+        <translation>appendMarkdown 逐段附加文字，模擬 AI 逐字輸出</translation>
+    </message>
+    <message>
+        <source>开始</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>重置</source>
+        <translation>重設</translation>
+    </message>
+</context>
+<context>
+    <name>MarkerPage</name>
+    <message>
+        <source>标记</source>
+        <translation>標記</translation>
+    </message>
+    <message>
+        <source>ShadMarker：对话中的行内标记，用于状态、提示、带边框的行和带文字的分隔线。</source>
+        <translation>ShadMarker：對話中的行內標記，用於狀態、提示、帶邊框的列和帶文字的分隔線。</translation>
+    </message>
+    <message>
+        <source>变体</source>
+        <translation>變體</translation>
+    </message>
+    <message>
+        <source>Default 为行内提示，Separator 为居中文字加两侧分隔线，Border 在行下方加边框</source>
+        <translation>Default 為行內提示，Separator 為置中文字加兩側分隔線，Border 在列下方加邊框</translation>
+    </message>
+    <message>
+        <source>对话已开始</source>
+        <translation>對話已開始</translation>
+    </message>
+    <message>
+        <source>今天</source>
+        <translation>今天</translation>
+    </message>
+    <message>
+        <source>已切换到 release-candidate 分支</source>
+        <translation>已切換到 release-candidate 分支</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>图标位置放入 ShadSpinner；文字变化时会通知辅助功能</source>
+        <translation>圖示位置放入 ShadSpinner；文字變化時會通知輔助功能</translation>
+    </message>
+    <message>
+        <source>正在压缩对话</source>
+        <translation>正在壓縮對話</translation>
+    </message>
+    <message>
+        <source>正在运行测试</source>
+        <translation>正在執行測試</translation>
+    </message>
+    <message>
+        <source>扫光</source>
+        <translation>掃光</translation>
+    </message>
+    <message>
+        <source>setShimmer(true)：文字带扫光动画，表示正在进行</source>
+        <translation>setShimmer(true)：文字帶有掃光動畫，表示正在進行中</translation>
+    </message>
+    <message>
+        <source>思考中...</source>
+        <translation>思考中...</translation>
+    </message>
+    <message>
+        <source>正在读取 4 个文件</source>
+        <translation>正在讀取 4 個檔案</translation>
+    </message>
+    <message>
+        <source>分隔线</source>
+        <translation>分隔線</translation>
+    </message>
+    <message>
+        <source>Separator 变体：文字居中，两侧为分隔线</source>
+        <translation>Separator 變體：文字置中，兩側為分隔線</translation>
+    </message>
+    <message>
+        <source>用时 42 秒</source>
+        <translation>耗時 42 秒</translation>
+    </message>
+    <message>
+        <source>对话已压缩</source>
+        <translation>對話已壓縮</translation>
+    </message>
+    <message>
+        <source>带边框</source>
+        <translation>帶邊框</translation>
+    </message>
+    <message>
+        <source>Border 变体：在行下方加一条边框</source>
+        <translation>Border 變體：在列下方加一條邊框</translation>
+    </message>
+    <message>
+        <source>已查看 8 个相关文件</source>
+        <translation>已檢視 8 個相關檔案</translation>
+    </message>
+    <message>
+        <source>已打开实现说明</source>
+        <translation>已開啟實作說明</translation>
+    </message>
+    <message>
+        <source>带图标</source>
+        <translation>帶圖示</translation>
+    </message>
+    <message>
+        <source>图标位于文字起始侧，文字较长时自动换行</source>
+        <translation>圖示位於文字起始側，文字較長時自動換行</translation>
+    </message>
+    <message>
+        <source>已切换到新分支</source>
+        <translation>已切換到新分支</translation>
+    </message>
+    <message>
+        <source>已查看 4 个文件</source>
+        <translation>已檢視 4 個檔案</translation>
+    </message>
+    <message>
+        <source>同步完成</source>
+        <translation>同步完成</translation>
+    </message>
+    <message>
+        <source>已将 12 个文件中的旧接口替换为新接口，并更新了相关的单元测试与文档说明，所有检查均已通过，可以合并到主分支。</source>
+        <translation>已將 12 個檔案中的舊介面替換為新介面，並更新了相關的單元測試與文件說明，所有檢查均已通過，可以合併到主分支。</translation>
+    </message>
+    <message>
+        <source>链接与按钮</source>
+        <translation>連結與按鈕</translation>
+    </message>
+    <message>
+        <source>setUrl 显示为链接，点击后用浏览器打开；setClickable 后整行可点击并发出 clicked 信号</source>
+        <translation>setUrl 會顯示為連結，點擊後以瀏覽器開啟；setClickable 後整列可點擊並發出 clicked 訊號</translation>
+    </message>
+    <message>
+        <source>查看拉取请求</source>
+        <translation>檢視 Pull Request</translation>
+    </message>
+    <message>
+        <source>撤销这次修改</source>
+        <translation>復原這次修改</translation>
+    </message>
+    <message>
+        <source>点击次数: %1</source>
+        <translation>點擊次數: %1</translation>
+    </message>
+</context>
+<context>
+    <name>MenubarPage</name>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最近點擊: %1</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最近點擊: 無</translation>
+    </message>
+    <message>
+        <source>菜单栏</source>
+        <translation>選單列</translation>
+    </message>
+    <message>
+        <source>ShadMenubar：常驻的菜单栏。</source>
+        <translation>ShadMenubar：常駐的選單列。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>子菜单、复选与单选</source>
+        <translation>子選單、核取與單選</translation>
+    </message>
+    <message>
+        <source>文件</source>
+        <translation>檔案</translation>
+    </message>
+    <message>
+        <source>新建标签页</source>
+        <translation>新增分頁</translation>
+    </message>
+    <message>
+        <source>新建窗口</source>
+        <translation>新增視窗</translation>
+    </message>
+    <message>
+        <source>新建无痕窗口</source>
+        <translation>新增無痕視窗</translation>
+    </message>
+    <message>
+        <source>分享</source>
+        <translation>分享</translation>
+    </message>
+    <message>
+        <source>邮件链接</source>
+        <translation>以郵件寄送連結</translation>
+    </message>
+    <message>
+        <source>消息</source>
+        <translation>訊息</translation>
+    </message>
+    <message>
+        <source>备忘录</source>
+        <translation>備忘錄</translation>
+    </message>
+    <message>
+        <source>打印…</source>
+        <translation>列印…</translation>
+    </message>
+    <message>
+        <source>编辑</source>
+        <translation>編輯</translation>
+    </message>
+    <message>
+        <source>撤销</source>
+        <translation>復原</translation>
+    </message>
+    <message>
+        <source>重做</source>
+        <translation>重做</translation>
+    </message>
+    <message>
+        <source>查找</source>
+        <translation>尋找</translation>
+    </message>
+    <message>
+        <source>搜索网页</source>
+        <translation>搜尋網頁</translation>
+    </message>
+    <message>
+        <source>查找…</source>
+        <translation>尋找…</translation>
+    </message>
+    <message>
+        <source>查找下一个</source>
+        <translation>尋找下一個</translation>
+    </message>
+    <message>
+        <source>查找上一个</source>
+        <translation>尋找上一個</translation>
+    </message>
+    <message>
+        <source>剪切</source>
+        <translation>剪下</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>貼上</translation>
+    </message>
+    <message>
+        <source>视图</source>
+        <translation>檢視</translation>
+    </message>
+    <message>
+        <source>始终显示书签栏</source>
+        <translation>一律顯示書籤列</translation>
+    </message>
+    <message>
+        <source>始终显示完整网址</source>
+        <translation>一律顯示完整網址</translation>
+    </message>
+    <message>
+        <source>重新加载</source>
+        <translation>重新載入</translation>
+    </message>
+    <message>
+        <source>强制重新加载</source>
+        <translation>強制重新載入</translation>
+    </message>
+    <message>
+        <source>切换全屏</source>
+        <translation>切換全螢幕</translation>
+    </message>
+    <message>
+        <source>隐藏侧栏</source>
+        <translation>隱藏側邊欄</translation>
+    </message>
+    <message>
+        <source>账户</source>
+        <translation>帳號</translation>
+    </message>
+    <message>
+        <source>张三</source>
+        <translation>張三</translation>
+    </message>
+    <message>
+        <source>李四</source>
+        <translation>李四</translation>
+    </message>
+    <message>
+        <source>王五</source>
+        <translation>王五</translation>
+    </message>
+    <message>
+        <source>编辑…</source>
+        <translation>編輯…</translation>
+    </message>
+    <message>
+        <source>添加账户…</source>
+        <translation>新增帳號…</translation>
+    </message>
+    <message>
+        <source>显示在 macOS 菜单栏</source>
+        <translation>顯示在 macOS 選單列</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>圖示</translation>
+    </message>
+    <message>
+        <source>带图标与危险操作</source>
+        <translation>帶圖示與危險操作</translation>
+    </message>
+    <message>
+        <source>项目</source>
+        <translation>專案</translation>
+    </message>
+    <message>
+        <source>新建文件</source>
+        <translation>新增檔案</translation>
+    </message>
+    <message>
+        <source>新建文件夹</source>
+        <translation>新增資料夾</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>刪除</translation>
+    </message>
+    <message>
+        <source>更多</source>
+        <translation>更多</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>偏好设置</source>
+        <translation>偏好設定</translation>
+    </message>
+    <message>
+        <source>帮助</source>
+        <translation>說明</translation>
+    </message>
+</context>
+<context>
+    <name>NavigationMenuPage</name>
+    <message>
+        <source>导航菜单</source>
+        <translation>導覽選單</translation>
+    </message>
+    <message>
+        <source>ShadNavigationMenu：导航菜单。</source>
+        <translation>ShadNavigationMenu：導覽選單。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>两组内容与一个链接</source>
+        <translation>兩組內容與一個連結</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最近點擊: 無</translation>
+    </message>
+    <message>
+        <source>入门</source>
+        <translation>入門</translation>
+    </message>
+    <message>
+        <source>组件</source>
+        <translation>元件</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>文件</translation>
+    </message>
+    <message>
+        <source>最近点击: 文档</source>
+        <translation>最近點擊: 文件</translation>
+    </message>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最近點擊: %1</translation>
+    </message>
+    <message>
+        <source>介绍</source>
+        <translation>介紹</translation>
+    </message>
+    <message>
+        <source>基于 Qt Widgets 的可复用组件，风格对齐 shadcn/ui。</source>
+        <translation>基於 Qt Widgets 的可重複使用元件，風格對齊 shadcn/ui。</translation>
+    </message>
+    <message>
+        <source>安装</source>
+        <translation>安裝</translation>
+    </message>
+    <message>
+        <source>用 CMake 引入组件库并链接到你的程序。</source>
+        <translation>使用 CMake 引入元件庫並連結到你的程式。</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>主題</translation>
+    </message>
+    <message>
+        <source>五种基色与亮暗模式，可单独修改任意颜色。</source>
+        <translation>五種基色與淺色/深色模式，可單獨修改任意顏色。</translation>
+    </message>
+    <message>
+        <source>警告对话框</source>
+        <translation>警示對話方塊</translation>
+    </message>
+    <message>
+        <source>打断用户并等待确认的模态对话框。</source>
+        <translation>會中斷使用者並等待確認的強制回應對話方塊。</translation>
+    </message>
+    <message>
+        <source>悬停卡片</source>
+        <translation>懸停卡片</translation>
+    </message>
+    <message>
+        <source>悬停在链接上时预览更多内容。</source>
+        <translation>滑鼠停留在連結上時預覽更多內容。</translation>
+    </message>
+    <message>
+        <source>进度条</source>
+        <translation>進度列</translation>
+    </message>
+    <message>
+        <source>显示任务的完成进度。</source>
+        <translation>顯示工作的完成進度。</translation>
+    </message>
+    <message>
+        <source>滚动区域</source>
+        <translation>捲動區域</translation>
+    </message>
+    <message>
+        <source>带自定义滚动条的滚动容器。</source>
+        <translation>帶自訂捲軸的捲動容器。</translation>
+    </message>
+    <message>
+        <source>标签页</source>
+        <translation>分頁</translation>
+    </message>
+    <message>
+        <source>分层显示内容，每次只显示一个面板。</source>
+        <translation>分層顯示內容，每次只顯示一個面板。</translation>
+    </message>
+    <message>
+        <source>提示</source>
+        <translation>工具提示</translation>
+    </message>
+    <message>
+        <source>悬停或聚焦时显示相关信息的小浮层。</source>
+        <translation>滑鼠停留或聚焦時顯示相關資訊的小浮層。</translation>
+    </message>
+</context>
+<context>
+    <name>NotificationPage</name>
+    <message>
+        <source>消息通知</source>
+        <translation>訊息通知</translation>
+    </message>
+    <message>
+        <source>ShadNotification：从窗口边缘弹出的消息条，带倒计时，到时自动关闭。</source>
+        <translation>ShadNotification：從視窗邊緣彈出的訊息列，帶有倒數計時，時間到會自動關閉。</translation>
+    </message>
+    <message>
+        <source>类型</source>
+        <translation>類型</translation>
+    </message>
+    <message>
+        <source>不同类型显示不同的状态图标与倒计时颜色</source>
+        <translation>不同類型顯示不同的狀態圖示與倒數計時顏色</translation>
+    </message>
+    <message>
+        <source>信息</source>
+        <translation>資訊</translation>
+    </message>
+    <message>
+        <source>新版本</source>
+        <translation>新版本</translation>
+    </message>
+    <message>
+        <source>版本 0.3 已发布，可以随时更新。</source>
+        <translation>版本 0.3 已發行，隨時可以更新。</translation>
+    </message>
+    <message>
+        <source>成功</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <source>保存成功</source>
+        <translation>儲存成功</translation>
+    </message>
+    <message>
+        <source>所有更改已同步到云端。</source>
+        <translation>所有變更已同步到雲端。</translation>
+    </message>
+    <message>
+        <source>警告</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <source>空间不足</source>
+        <translation>空間不足</translation>
+    </message>
+    <message>
+        <source>剩余空间低于 10%，请及时清理。</source>
+        <translation>剩餘空間低於 10%，請及時清理。</translation>
+    </message>
+    <message>
+        <source>错误</source>
+        <translation>錯誤</translation>
+    </message>
+    <message>
+        <source>上传失败</source>
+        <translation>上傳失敗</translation>
+    </message>
+    <message>
+        <source>网络连接已断开，请检查后重试。</source>
+        <translation>網路連線已中斷，請檢查後重試。</translation>
+    </message>
+    <message>
+        <source>位置</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>同一位置的消息条按顺序堆叠，关闭后其余的自动补位</source>
+        <translation>同一位置的訊息列依序堆疊，關閉後其餘的自動補位</translation>
+    </message>
+    <message>
+        <source>上中</source>
+        <translation>上中</translation>
+    </message>
+    <message>
+        <source>下中</source>
+        <translation>下中</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左側</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右側</translation>
+    </message>
+    <message>
+        <source>左上</source>
+        <translation>左上</translation>
+    </message>
+    <message>
+        <source>右上</source>
+        <translation>右上</translation>
+    </message>
+    <message>
+        <source>左下</source>
+        <translation>左下</translation>
+    </message>
+    <message>
+        <source>右下</source>
+        <translation>右下</translation>
+    </message>
+    <message>
+        <source>位置已切换</source>
+        <translation>位置已切換</translation>
+    </message>
+    <message>
+        <source>消息条现在显示在%1</source>
+        <translation>訊息列現在顯示在%1</translation>
+    </message>
+    <message>
+        <source>显示时长</source>
+        <translation>顯示時間</translation>
+    </message>
+    <message>
+        <source>倒计时结束后自动关闭</source>
+        <translation>倒數計時結束後自動關閉</translation>
+    </message>
+    <message>
+        <source>%1 秒</source>
+        <translation>%1 秒</translation>
+    </message>
+    <message>
+        <source>堆叠与关闭</source>
+        <translation>堆疊與關閉</translation>
+    </message>
+    <message>
+        <source>超出窗口高度时先关闭最早的一条</source>
+        <translation>超出視窗高度時先關閉最早的一則</translation>
+    </message>
+    <message>
+        <source>更新说明</source>
+        <translation>更新說明</translation>
+    </message>
+    <message>
+        <source>本次更新新增了消息通知组件，支持八个弹出位置、四种类型和倒计时进度条，文字较长时会自动换行，消息条的高度随之增加。</source>
+        <translation>本次更新新增了訊息通知元件，支援八個彈出位置、四種類型和倒數計時進度列，文字較長時會自動換行，訊息列的高度也隨之增加。</translation>
+    </message>
+    <message>
+        <source>第 %1 条</source>
+        <translation>第 %1 則</translation>
+    </message>
+    <message>
+        <source>连续弹出的消息条依次排列。</source>
+        <translation>連續彈出的訊息列依序排列。</translation>
+    </message>
+    <message>
+        <source>需要手动关闭</source>
+        <translation>需要手動關閉</translation>
+    </message>
+    <message>
+        <source>这条消息不会自动消失，点击右侧的关闭按钮。</source>
+        <translation>這則訊息不會自動消失，請點擊右側的關閉按鈕。</translation>
+    </message>
+    <message>
+        <source>独立窗口</source>
+        <translation>獨立視窗</translation>
+    </message>
+    <message>
+        <source>通过 parent 参数指定在哪个窗口弹出</source>
+        <translation>透過 parent 參數指定在哪個視窗彈出</translation>
+    </message>
+    <message>
+        <source>长文本</source>
+        <translation>長文字</translation>
+    </message>
+    <message>
+        <source>连续弹出 5 条</source>
+        <translation>連續彈出 5 則</translation>
+    </message>
+    <message>
+        <source>不自动关闭</source>
+        <translation>不自動關閉</translation>
+    </message>
+    <message>
+        <source>全部关闭</source>
+        <translation>全部關閉</translation>
+    </message>
+    <message>
+        <source>打开独立窗口</source>
+        <translation>開啟獨立視窗</translation>
+    </message>
+    <message>
+        <source>独立窗口中的消息</source>
+        <translation>獨立視窗中的訊息</translation>
+    </message>
+    <message>
+        <source>显示在当前窗口。</source>
+        <translation>顯示在目前的視窗。</translation>
+    </message>
+    <message>
+        <source>来自独立窗口的消息</source>
+        <translation>來自獨立視窗的訊息</translation>
+    </message>
+    <message>
+        <source>显示在主窗口。</source>
+        <translation>顯示在主視窗。</translation>
+    </message>
+    <message>
+        <source>独立窗口消息</source>
+        <translation>獨立視窗訊息</translation>
+    </message>
+    <message>
+        <source>把窗口作为最后一个参数传入，消息条就会在该窗口内弹出，位置和时长沿用页面上的设置。</source>
+        <translation>將視窗作為最後一個參數傳入，訊息列就會在該視窗內彈出，位置和時間沿用頁面上的設定。</translation>
+    </message>
+    <message>
+        <source>在此窗口显示</source>
+        <translation>在此視窗顯示</translation>
+    </message>
+    <message>
+        <source>在主窗口显示</source>
+        <translation>在主視窗顯示</translation>
+    </message>
+</context>
+<context>
+    <name>PaginationPage</name>
+    <message>
+        <source>分页</source>
+        <translation>分頁</translation>
+    </message>
+    <message>
+        <source>ShadPagination：带上一页、页码与下一页的分页，支持输入页码跳转。</source>
+        <translation>ShadPagination：帶有上一頁、頁碼與下一頁的分頁，支援輸入頁碼跳轉。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>页数较多时中间显示省略号，当前页为描边样式</source>
+        <translation>頁數較多時中間顯示省略號，目前頁面為描邊樣式</translation>
+    </message>
+    <message>
+        <source>简单</source>
+        <translation>簡單</translation>
+    </message>
+    <message>
+        <source>setNavigationVisible(false)：只显示页码</source>
+        <translation>setNavigationVisible(false)：只顯示頁碼</translation>
+    </message>
+    <message>
+        <source>每页行数</source>
+        <translation>每頁列數</translation>
+    </message>
+    <message>
+        <source>只显示上一页与下一页，切换每页行数后重新计算页数</source>
+        <translation>只顯示上一頁與下一頁，切換每頁列數後重新計算頁數</translation>
+    </message>
+    <message>
+        <source>第 %1 - %2 条，共 %3 条</source>
+        <translation>第 %1 - %2 筆，共 %3 筆</translation>
+    </message>
+    <message>
+        <source>页码跳转</source>
+        <translation>頁碼跳轉</translation>
+    </message>
+    <message>
+        <source>setJumpVisible(true)：输入页码后按 Enter 跳转，超出范围时显示错误态</source>
+        <translation>setJumpVisible(true)：輸入頁碼後按 Enter 跳轉，超出範圍時顯示錯誤狀態</translation>
+    </message>
+    <message>
+        <source>只显示图标</source>
+        <translation>只顯示圖示</translation>
+    </message>
+    <message>
+        <source>setNavigationTextVisible(false)：上一页与下一页只显示箭头</source>
+        <translation>setNavigationTextVisible(false)：上一頁與下一頁只顯示箭頭</translation>
+    </message>
+    <message>
+        <source>从右到左时整体镜像，箭头方向翻转</source>
+        <translation>由右至左時整體鏡射，箭頭方向翻轉</translation>
+    </message>
+    <message>
+        <source>第 %1 / %2 页</source>
+        <translation>第 %1 / %2 頁</translation>
+    </message>
+</context>
+<context>
+    <name>PasskeyPage</name>
+    <message>
+        <source>状态: 就绪</source>
+        <translation>狀態: 就緒</translation>
+    </message>
+    <message>
+        <source>状态: 进行中</source>
+        <translation>狀態: 進行中</translation>
+    </message>
+    <message>
+        <source>状态: 注册成功</source>
+        <translation>狀態: 註冊成功</translation>
+    </message>
+    <message>
+        <source>状态: 登录成功</source>
+        <translation>狀態: 登入成功</translation>
+    </message>
+    <message>
+        <source>状态: 失败, %1</source>
+        <translation>狀態: 失敗, %1</translation>
+    </message>
+    <message>
+        <source>通行密钥</source>
+        <translation>通行金鑰</translation>
+    </message>
+    <message>
+        <source>ShadPasskey：调用系统通行密钥完成注册与登录，签名交给服务器验证。</source>
+        <translation>ShadPasskey：呼叫系統通行金鑰完成註冊與登入，簽章交給伺服器驗證。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>调起系统通行密钥对话框</source>
+        <translation>喚起系統通行金鑰對話方塊</translation>
+    </message>
+    <message>
+        <source>域名</source>
+        <translation>網域</translation>
+    </message>
+    <message>
+        <source>用户名</source>
+        <translation>使用者名稱</translation>
+    </message>
+    <message>
+        <source>模拟模式，不调用系统通行密钥</source>
+        <translation>模擬模式，不呼叫系統通行金鑰</translation>
+    </message>
+    <message>
+        <source>注册通行密钥</source>
+        <translation>註冊通行金鑰</translation>
+    </message>
+    <message>
+        <source>返回数据</source>
+        <translation>回傳資料</translation>
+    </message>
+    <message>
+        <source>发送给服务器验证的字段，base64url 编码</source>
+        <translation>傳送給伺服器驗證的欄位，base64url 編碼</translation>
+    </message>
+    <message>
+        <source>凭据 ID</source>
+        <translation>憑證 ID</translation>
+    </message>
+    <message>
+        <source>签名</source>
+        <translation>簽章</translation>
+    </message>
+    <message>
+        <source>用户 ID</source>
+        <translation>使用者 ID</translation>
+    </message>
+</context>
+<context>
+    <name>PopconfirmPage</name>
+    <message>
+        <source>结果: 已确认</source>
+        <translation>結果: 已確認</translation>
+    </message>
+    <message>
+        <source>结果: 已取消</source>
+        <translation>結果: 已取消</translation>
+    </message>
+    <message>
+        <source>结果: 无</source>
+        <translation>結果: 無</translation>
+    </message>
+    <message>
+        <source>气泡确认</source>
+        <translation>氣泡確認</translation>
+    </message>
+    <message>
+        <source>ShadPopconfirm：在操作旁弹出的轻量确认。</source>
+        <translation>ShadPopconfirm：在操作旁彈出的輕量確認。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>危险操作前确认</source>
+        <translation>危險操作前先確認</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>刪除</translation>
+    </message>
+    <message>
+        <source>删除这条记录？</source>
+        <translation>刪除這筆記錄？</translation>
+    </message>
+    <message>
+        <source>删除后无法恢复。</source>
+        <translation>刪除後無法復原。</translation>
+    </message>
+    <message>
+        <source>上方</source>
+        <translation>上方</translation>
+    </message>
+    <message>
+        <source>下方</source>
+        <translation>下方</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左側</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右側</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>在按钮四周弹出</source>
+        <translation>在按鈕四周彈出</translation>
+    </message>
+    <message>
+        <source>确认执行此操作？</source>
+        <translation>確認執行此操作？</translation>
+    </message>
+    <message>
+        <source>自定义</source>
+        <translation>自訂</translation>
+    </message>
+    <message>
+        <source>图标与按钮文字</source>
+        <translation>圖示與按鈕文字</translation>
+    </message>
+    <message>
+        <source>发布</source>
+        <translation>發佈</translation>
+    </message>
+    <message>
+        <source>发布到正式环境？</source>
+        <translation>發佈到正式環境？</translation>
+    </message>
+    <message>
+        <source>所有用户都会看到新版本。</source>
+        <translation>所有使用者都會看到新版本。</translation>
+    </message>
+    <message>
+        <source>再想想</source>
+        <translation>再想想</translation>
+    </message>
+    <message>
+        <source>归档</source>
+        <translation>封存</translation>
+    </message>
+    <message>
+        <source>归档这个项目？</source>
+        <translation>封存這個專案？</translation>
+    </message>
+</context>
+<context>
+    <name>PopoverPage</name>
+    <message>
+        <source>浮层</source>
+        <translation>浮層</translation>
+    </message>
+    <message>
+        <source>ShadPopover：在锚点旁弹出的浮动卡片，可以放任意组件。</source>
+        <translation>ShadPopover：在錨點旁彈出的浮動卡片，可以放入任意元件。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>带标题与描述的表单浮层</source>
+        <translation>帶標題與描述的表單浮層</translation>
+    </message>
+    <message>
+        <source>打开浮层</source>
+        <translation>開啟浮層</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>设置图层的尺寸。</source>
+        <translation>設定圖層的尺寸。</translation>
+    </message>
+    <message>
+        <source>宽度</source>
+        <translation>寬度</translation>
+    </message>
+    <message>
+        <source>最大宽度</source>
+        <translation>最大寬度</translation>
+    </message>
+    <message>
+        <source>高度</source>
+        <translation>高度</translation>
+    </message>
+    <message>
+        <source>最大高度</source>
+        <translation>最大高度</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>从四个方向弹出，空间不足时翻到对侧</source>
+        <translation>可從四個方向彈出，空間不足時翻到對側</translation>
+    </message>
+    <message>
+        <source>上方</source>
+        <translation>上方</translation>
+    </message>
+    <message>
+        <source>下方</source>
+        <translation>下方</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左側</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右側</translation>
+    </message>
+    <message>
+        <source>显示在%1</source>
+        <translation>顯示在%1</translation>
+    </message>
+    <message>
+        <source>与按钮间距 4px，居中对齐。</source>
+        <translation>與按鈕間距 4px，置中對齊。</translation>
+    </message>
+    <message>
+        <source>对齐</source>
+        <translation>對齊</translation>
+    </message>
+    <message>
+        <source>起始、居中、结束三种对齐方式</source>
+        <translation>起始、置中、結束三種對齊方式</translation>
+    </message>
+    <message>
+        <source>起始对齐</source>
+        <translation>起始對齊</translation>
+    </message>
+    <message>
+        <source>居中对齐</source>
+        <translation>置中對齊</translation>
+    </message>
+    <message>
+        <source>结束对齐</source>
+        <translation>結束對齊</translation>
+    </message>
+    <message>
+        <source>浮层宽 240，按钮较窄时可以看出对齐方式。</source>
+        <translation>浮層寬 240，按鈕較窄時可以看出對齊方式。</translation>
+    </message>
+</context>
+<context>
+    <name>ProgressPage</name>
+    <message>
+        <source>进度条与滑块</source>
+        <translation>進度列與滑桿</translation>
+    </message>
+    <message>
+        <source>ShadProgress / ShadSlider：进度条与滑块，进度变化和滑块外圈都带过渡动画。</source>
+        <translation>ShadProgress / ShadSlider：進度列與滑桿，進度變化和滑桿外圈都帶有過渡動畫。</translation>
+    </message>
+    <message>
+        <source>进度条</source>
+        <translation>進度列</translation>
+    </message>
+    <message>
+        <source>每次点击增加 10%，到 100% 后归零</source>
+        <translation>每次點擊增加 10%，到 100% 後歸零</translation>
+    </message>
+    <message>
+        <source>增加 10%</source>
+        <translation>增加 10%</translation>
+    </message>
+    <message>
+        <source>滑块</source>
+        <translation>滑桿</translation>
+    </message>
+    <message>
+        <source>拖动或点击轨道调整数值</source>
+        <translation>拖曳或點擊軌道即可調整數值</translation>
+    </message>
+    <message>
+        <source>当前值: %1</source>
+        <translation>目前的值: %1</translation>
+    </message>
+    <message>
+        <source>范围选择</source>
+        <translation>範圍選擇</translation>
+    </message>
+    <message>
+        <source>setRangeMode(true)：用两个滑块选择范围</source>
+        <translation>setRangeMode(true)：用兩個滑桿選擇範圍</translation>
+    </message>
+    <message>
+        <source>价格区间: %1 - %2</source>
+        <translation>價格區間: %1 - %2</translation>
+    </message>
+    <message>
+        <source>步长 / 禁用 / 纵向</source>
+        <translation>步進 / 停用 / 垂直</translation>
+    </message>
+    <message>
+        <source>singleStep 为 10 时吸附到 10 的倍数</source>
+        <translation>singleStep 為 10 時會吸附到 10 的倍數</translation>
+    </message>
+</context>
+<context>
+    <name>PropertyGridPage</name>
+    <message>
+        <source>属性面板</source>
+        <translation>屬性面板</translation>
+    </message>
+    <message>
+        <source>ShadPropertyGrid：分组编辑键值属性。</source>
+        <translation>ShadPropertyGrid：分組編輯鍵值屬性。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>拖动分界线调整列宽</source>
+        <translation>拖曳分界線調整欄寬</translation>
+    </message>
+    <message>
+        <source>外观</source>
+        <translation>外觀</translation>
+    </message>
+    <message>
+        <source>行为</source>
+        <translation>行為</translation>
+    </message>
+    <message>
+        <source>标题</source>
+        <translation>標題</translation>
+    </message>
+    <message>
+        <source>显示在顶部的文字。</source>
+        <translation>顯示在頂部的文字。</translation>
+    </message>
+    <message>
+        <source>宽度</source>
+        <translation>寬度</translation>
+    </message>
+    <message>
+        <source>单位为像素，范围 0 到 2000。</source>
+        <translation>單位為像素，範圍 0 到 2000。</translation>
+    </message>
+    <message>
+        <source>透明度</source>
+        <translation>透明度</translation>
+    </message>
+    <message>
+        <source>0 为全透明，1 为不透明。</source>
+        <translation>0 為全透明，1 為不透明。</translation>
+    </message>
+    <message>
+        <source>可见</source>
+        <translation>可見</translation>
+    </message>
+    <message>
+        <source>背景色</source>
+        <translation>背景色</translation>
+    </message>
+    <message>
+        <source>点击打开取色对话框。</source>
+        <translation>點擊開啟取色對話方塊。</translation>
+    </message>
+    <message>
+        <source>对齐方式</source>
+        <translation>對齊方式</translation>
+    </message>
+    <message>
+        <source>左对齐</source>
+        <translation>靠左對齊</translation>
+    </message>
+    <message>
+        <source>居中</source>
+        <translation>置中</translation>
+    </message>
+    <message>
+        <source>右对齐</source>
+        <translation>靠右對齊</translation>
+    </message>
+    <message>
+        <source>启用</source>
+        <translation>啟用</translation>
+    </message>
+    <message>
+        <source>版本</source>
+        <translation>版本</translation>
+    </message>
+    <message>
+        <source>只读属性。</source>
+        <translation>唯讀屬性。</translation>
+    </message>
+    <message>
+        <source>音量</source>
+        <translation>音量</translation>
+    </message>
+    <message>
+        <source>自定义编辑器。</source>
+        <translation>自訂編輯器。</translation>
+    </message>
+    <message>
+        <source>最近修改: 无</source>
+        <translation>最近修改: 無</translation>
+    </message>
+    <message>
+        <source>最近修改: %1</source>
+        <translation>最近修改: %1</translation>
+    </message>
+    <message>
+        <source>只读</source>
+        <translation>唯讀</translation>
+    </message>
+    <message>
+        <source>不分组，隐藏说明区</source>
+        <translation>不分組，隱藏說明區</translation>
+    </message>
+    <message>
+        <source>文件名</source>
+        <translation>檔案名稱</translation>
+    </message>
+    <message>
+        <source>大小 (KB)</source>
+        <translation>大小 (KB)</translation>
+    </message>
+    <message>
+        <source>已共享</source>
+        <translation>已共用</translation>
+    </message>
+    <message>
+        <source>标签颜色</source>
+        <translation>標籤顏色</translation>
+    </message>
+</context>
+<context>
+    <name>QrCodePage</name>
+    <message>
+        <source>二维码</source>
+        <translation>QR Code</translation>
+    </message>
+    <message>
+        <source>ShadQrCode：根据输入文本自动生成二维码，不依赖第三方库。</source>
+        <translation>ShadQrCode：根據輸入文字自動產生 QR Code，不依賴第三方程式庫。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>修改文本后立即重新编码，支持中文</source>
+        <translation>修改文字後立即重新編碼，支援中文</translation>
+    </message>
+    <message>
+        <source>输入要编码的文本</source>
+        <translation>輸入要編碼的文字</translation>
+    </message>
+    <message>
+        <source>纠错等级</source>
+        <translation>錯誤修正等級</translation>
+    </message>
+    <message>
+        <source>四档纠错等级，等级越高格子越多</source>
+        <translation>四檔錯誤修正等級，等級越高格子越多</translation>
+    </message>
+    <message>
+        <source>尺寸与颜色</source>
+        <translation>尺寸與顏色</translation>
+    </message>
+    <message>
+        <source>设置边长、配色与四周留白</source>
+        <translation>設定邊長、配色與四周留白</translation>
+    </message>
+    <message>
+        <source>内容过长</source>
+        <translation>內容過長</translation>
+    </message>
+    <message>
+        <source>内容超出容量时显示错误状态</source>
+        <translation>內容超出容量時顯示錯誤狀態</translation>
+    </message>
+    <message>
+        <source>尚未编码</source>
+        <translation>尚未編碼</translation>
+    </message>
+    <message>
+        <source>编码失败：%1</source>
+        <translation>編碼失敗：%1</translation>
+    </message>
+    <message>
+        <source>没有有效的二维码</source>
+        <translation>沒有有效的 QR Code</translation>
+    </message>
+    <message>
+        <source>版本 %1 · %2 × %2 格</source>
+        <translation>版本 %1 · %2 × %2 格</translation>
+    </message>
+</context>
+<context>
+    <name>QuestionnairePage</name>
+    <message>
+        <source>尚未提交</source>
+        <translation>尚未提交</translation>
+    </message>
+    <message>
+        <source>%1：%2</source>
+        <translation>%1：%2</translation>
+    </message>
+    <message>
+        <source>、</source>
+        <translation>、</translation>
+    </message>
+    <message>
+        <source>已提交 %1</source>
+        <translation>已提交 %1</translation>
+    </message>
+    <message>
+        <source>；</source>
+        <translation>；</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>接下来先做什么？</source>
+        <translation>接下來先做什麼？</translation>
+    </message>
+    <message>
+        <source>也可以写下其他想法。</source>
+        <translation>也可以寫下其他想法。</translation>
+    </message>
+    <message>
+        <source>时间线</source>
+        <translation>時間軸</translation>
+    </message>
+    <message>
+        <source>工具调用时间线</source>
+        <translation>工具呼叫時間軸</translation>
+    </message>
+    <message>
+        <source>展示操作与结果。</source>
+        <translation>顯示操作與結果。</translation>
+    </message>
+    <message>
+        <source>审批</source>
+        <translation>審核</translation>
+    </message>
+    <message>
+        <source>审批节点</source>
+        <translation>審核節點</translation>
+    </message>
+    <message>
+        <source>敏感操作前确认。</source>
+        <translation>敏感操作前先確認。</translation>
+    </message>
+    <message>
+        <source>交接</source>
+        <translation>交接</translation>
+    </message>
+    <message>
+        <source>任务交接</source>
+        <translation>工作交接</translation>
+    </message>
+    <message>
+        <source>跟踪委派的工作。</source>
+        <translation>追蹤委派的工作。</translation>
+    </message>
+    <message>
+        <source>其他想法…</source>
+        <translation>其他想法…</translation>
+    </message>
+    <message>
+        <source>汇报</source>
+        <translation>回報</translation>
+    </message>
+    <message>
+        <source>汇报包含哪些内容？</source>
+        <translation>回報包含哪些內容？</translation>
+    </message>
+    <message>
+        <source>可多选。</source>
+        <translation>可複選。</translation>
+    </message>
+    <message>
+        <source>进度</source>
+        <translation>進度</translation>
+    </message>
+    <message>
+        <source>决策</source>
+        <translation>決策</translation>
+    </message>
+    <message>
+        <source>风险</source>
+        <translation>風險</translation>
+    </message>
+    <message>
+        <source>下一步</source>
+        <translation>下一步</translation>
+    </message>
+    <message>
+        <source>时间</source>
+        <translation>時間</translation>
+    </message>
+    <message>
+        <source>什么时候开始？</source>
+        <translation>什麼時候開始？</translation>
+    </message>
+    <message>
+        <source>现在</source>
+        <translation>現在</translation>
+    </message>
+    <message>
+        <source>现在开始</source>
+        <translation>現在開始</translation>
+    </message>
+    <message>
+        <source>下个周期</source>
+        <translation>下個週期</translation>
+    </message>
+    <message>
+        <source>待办</source>
+        <translation>待辦</translation>
+    </message>
+    <message>
+        <source>放进待办</source>
+        <translation>放進待辦</translation>
+    </message>
+    <message>
+        <source>问卷</source>
+        <translation>問卷</translation>
+    </message>
+    <message>
+        <source>ShadQuestionnaire：多步问卷。</source>
+        <translation>ShadQuestionnaire：多步驟問卷。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>按字母键快速选择</source>
+        <translation>按字母鍵快速選擇</translation>
+    </message>
+    <message>
+        <source>保存计划</source>
+        <translation>儲存計畫</translation>
+    </message>
+    <message>
+        <source>多选</source>
+        <translation>複選</translation>
+    </message>
+    <message>
+        <source>平台</source>
+        <translation>平台</translation>
+    </message>
+    <message>
+        <source>需要支持哪些平台？</source>
+        <translation>需要支援哪些平台？</translation>
+    </message>
+    <message>
+        <source>至少选一项。</source>
+        <translation>至少選一項。</translation>
+    </message>
+    <message>
+        <source>自由输入</source>
+        <translation>自由輸入</translation>
+    </message>
+    <message>
+        <source>建议</source>
+        <translation>建議</translation>
+    </message>
+    <message>
+        <source>还有什么建议？</source>
+        <translation>還有什麼建議？</translation>
+    </message>
+    <message>
+        <source>写下你的建议…</source>
+        <translation>寫下你的建議…</translation>
+    </message>
+    <message>
+        <source>跳过</source>
+        <translation>跳過</translation>
+    </message>
+    <message>
+        <source>非必答题可跳过</source>
+        <translation>非必答題可跳過</translation>
+    </message>
+    <message>
+        <source>角色</source>
+        <translation>角色</translation>
+    </message>
+    <message>
+        <source>你的角色是？</source>
+        <translation>你的角色是？</translation>
+    </message>
+    <message>
+        <source>可以跳过。</source>
+        <translation>可以跳過。</translation>
+    </message>
+    <message>
+        <source>开发</source>
+        <translation>開發</translation>
+    </message>
+    <message>
+        <source>设计</source>
+        <translation>設計</translation>
+    </message>
+    <message>
+        <source>产品</source>
+        <translation>產品</translation>
+    </message>
+    <message>
+        <source>年限</source>
+        <translation>年資</translation>
+    </message>
+    <message>
+        <source>工作几年了？</source>
+        <translation>工作幾年了？</translation>
+    </message>
+    <message>
+        <source>1 年以内</source>
+        <translation>1 年以內</translation>
+    </message>
+    <message>
+        <source>1 到 3 年</source>
+        <translation>1 到 3 年</translation>
+    </message>
+    <message>
+        <source>3 年以上</source>
+        <translation>3 年以上</translation>
+    </message>
+    <message>
+        <source>数字快捷键</source>
+        <translation>數字快速鍵</translation>
+    </message>
+    <message>
+        <source>按数字键选择</source>
+        <translation>按數字鍵選擇</translation>
+    </message>
+    <message>
+        <source>评分</source>
+        <translation>評分</translation>
+    </message>
+    <message>
+        <source>整体体验如何？</source>
+        <translation>整體體驗如何？</translation>
+    </message>
+    <message>
+        <source>好</source>
+        <translation>好</translation>
+    </message>
+    <message>
+        <source>很好</source>
+        <translation>很好</translation>
+    </message>
+    <message>
+        <source>一般</source>
+        <translation>普通</translation>
+    </message>
+    <message>
+        <source>差</source>
+        <translation>差</translation>
+    </message>
+    <message>
+        <source>不太好</source>
+        <translation>不太好</translation>
+    </message>
+    <message>
+        <source>自定义校验</source>
+        <translation>自訂驗證</translation>
+    </message>
+    <message>
+        <source>模块</source>
+        <translation>模組</translation>
+    </message>
+    <message>
+        <source>先启用哪些模块？</source>
+        <translation>先啟用哪些模組？</translation>
+    </message>
+    <message>
+        <source>最多选两项。</source>
+        <translation>最多選兩項。</translation>
+    </message>
+    <message>
+        <source>账号</source>
+        <translation>帳號</translation>
+    </message>
+    <message>
+        <source>支付</source>
+        <translation>支付</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>报表</source>
+        <translation>報表</translation>
+    </message>
+    <message>
+        <source>外部控制</source>
+        <translation>外部控制</translation>
+    </message>
+    <message>
+        <source>切换、恢复与重置</source>
+        <translation>切換、還原與重設</translation>
+    </message>
+    <message>
+        <source>最后一题</source>
+        <translation>最後一題</translation>
+    </message>
+    <message>
+        <source>恢复答案</source>
+        <translation>還原答案</translation>
+    </message>
+    <message>
+        <source>重置</source>
+        <translation>重設</translation>
+    </message>
+    <message>
+        <source>条件题目</source>
+        <translation>條件題目</translation>
+    </message>
+    <message>
+        <source>发票</source>
+        <translation>發票</translation>
+    </message>
+    <message>
+        <source>抬头</source>
+        <translation>抬頭</translation>
+    </message>
+    <message>
+        <source>不需要</source>
+        <translation>不需要</translation>
+    </message>
+    <message>
+        <source>需要发票吗？</source>
+        <translation>需要發票嗎？</translation>
+    </message>
+    <message>
+        <source>需要</source>
+        <translation>需要</translation>
+    </message>
+    <message>
+        <source>发票抬头</source>
+        <translation>發票抬頭</translation>
+    </message>
+    <message>
+        <source>公司名称</source>
+        <translation>公司名稱</translation>
+    </message>
+    <message>
+        <source>备注</source>
+        <translation>備註</translation>
+    </message>
+    <message>
+        <source>订单备注</source>
+        <translation>訂單備註</translation>
+    </message>
+    <message>
+        <source>选填</source>
+        <translation>選填</translation>
+    </message>
+    <message>
+        <source>自定义进度</source>
+        <translation>自訂進度</translation>
+    </message>
+    <message>
+        <source>用进度条显示进度</source>
+        <translation>以進度列顯示進度</translation>
+    </message>
+    <message>
+        <source>对话框</source>
+        <translation>對話方塊</translation>
+    </message>
+    <message>
+        <source>提交后关闭</source>
+        <translation>提交後關閉</translation>
+    </message>
+    <message>
+        <source>开始问卷</source>
+        <translation>開始問卷</translation>
+    </message>
+    <message>
+        <source>项目问卷</source>
+        <translation>專案問卷</translation>
+    </message>
+</context>
+<context>
+    <name>RadialProgressPage</name>
+    <message>
+        <source>环形进度</source>
+        <translation>環形進度</translation>
+    </message>
+    <message>
+        <source>ShadRadialProgress：环形进度，支持整圆与仪表盘两种形态，数值变化带过渡动画。</source>
+        <translation>ShadRadialProgress：環形進度，支援整圓與儀表板兩種型態，數值變化帶有過渡動畫。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>中心文字显示当前百分比，数字随动画变化</source>
+        <translation>中心文字顯示目前的百分比，數字隨動畫變化</translation>
+    </message>
+    <message>
+        <source>增加 10%</source>
+        <translation>增加 10%</translation>
+    </message>
+    <message>
+        <source>减少 10%</source>
+        <translation>減少 10%</translation>
+    </message>
+    <message>
+        <source>仪表盘</source>
+        <translation>儀表板</translation>
+    </message>
+    <message>
+        <source>Gauge 变体为 270° 圆弧，缺口朝下</source>
+        <translation>Gauge 變體為 270° 圓弧，缺口朝下</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>状态决定指示色，轨道为指示色的 20% 透明度</source>
+        <translation>狀態決定指示色，軌道為指示色的 20% 透明度</translation>
+    </message>
+    <message>
+        <source>尺寸与文字</source>
+        <translation>尺寸與文字</translation>
+    </message>
+    <message>
+        <source>可设置直径与线宽，支持自定义文字或隐藏文字</source>
+        <translation>可設定直徑與線寬，支援自訂文字或隱藏文字</translation>
+    </message>
+    <message>
+        <source>已完成</source>
+        <translation>已完成</translation>
+    </message>
+</context>
+<context>
+    <name>RadioGroupPage</name>
+    <message>
+        <source>单选组</source>
+        <translation>單選群組</translation>
+    </message>
+    <message>
+        <source>ShadRadioGroup：单选组，支持纵向与横向排列，方向键可在选项间切换。</source>
+        <translation>ShadRadioGroup：單選群組，支援垂直與水平排列，可用方向鍵在選項間切換。</translation>
+    </message>
+    <message>
+        <source>纵向排列</source>
+        <translation>垂直排列</translation>
+    </message>
+    <message>
+        <source>默认纵向排列</source>
+        <translation>預設為垂直排列</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>舒适</source>
+        <translation>舒適</translation>
+    </message>
+    <message>
+        <source>紧凑</source>
+        <translation>緊湊</translation>
+    </message>
+    <message>
+        <source>当前选中: %1</source>
+        <translation>目前選取: %1</translation>
+    </message>
+    <message>
+        <source>无</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>横向排列</source>
+        <translation>水平排列</translation>
+    </message>
+    <message>
+        <source>横向排列，第三项禁用</source>
+        <translation>水平排列，第三項停用</translation>
+    </message>
+    <message>
+        <source>入门版</source>
+        <translation>入門版</translation>
+    </message>
+    <message>
+        <source>专业版</source>
+        <translation>專業版</translation>
+    </message>
+    <message>
+        <source>企业版</source>
+        <translation>企業版</translation>
+    </message>
+</context>
+<context>
+    <name>RatingPage</name>
+    <message>
+        <source>评分</source>
+        <translation>評分</translation>
+    </message>
+    <message>
+        <source>ShadRating：星级评分，悬停时预览，点击设置评分，支持只读与自定义外观。</source>
+        <translation>ShadRating：星級評分，滑鼠停留時預覽，點擊設定評分，支援唯讀與自訂外觀。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>悬停预览，点击设置评分</source>
+        <translation>滑鼠停留時預覽，點擊設定評分</translation>
+    </message>
+    <message>
+        <source>当前评分：%1 / 5</source>
+        <translation>目前評分：%1 / 5</translation>
+    </message>
+    <message>
+        <source>只读与禁用</source>
+        <translation>唯讀與停用</translation>
+    </message>
+    <message>
+        <source>只读时仅显示评分，禁用时整体半透明</source>
+        <translation>唯讀時僅顯示評分，停用時整體半透明</translation>
+    </message>
+    <message>
+        <source>数量与尺寸</source>
+        <translation>數量與尺寸</translation>
+    </message>
+    <message>
+        <source>设置星星的数量、大小与间距</source>
+        <translation>設定星星的數量、大小與間距</translation>
+    </message>
+    <message>
+        <source>自定义颜色</source>
+        <translation>自訂顏色</translation>
+    </message>
+    <message>
+        <source>setActiveColor：修改选中星星的颜色</source>
+        <translation>setActiveColor：修改選取星星的顏色</translation>
+    </message>
+    <message>
+        <source>键盘与 RTL</source>
+        <translation>鍵盤與 RTL</translation>
+    </message>
+    <message>
+        <source>键盘调整评分，以及从右到左布局</source>
+        <translation>以鍵盤調整評分，以及由右至左的版面配置</translation>
+    </message>
+</context>
+<context>
+    <name>RtlPage</name>
+    <message>
+        <source>RTL 布局</source>
+        <translation>RTL 版面配置</translation>
+    </message>
+    <message>
+        <source>组件跟随 Qt 的 layoutDirection，从右到左时绘制、交互与弹出层位置全部镜像。</source>
+        <translation>元件跟隨 Qt 的 layoutDirection，由右至左時繪製、互動與彈出層位置全部鏡射。</translation>
+    </message>
+    <message>
+        <source>阿拉伯语登录卡片</source>
+        <translation>阿拉伯文登入卡片</translation>
+    </message>
+    <message>
+        <source>操作按钮位于左上角，输入框图标与按钮组镜像</source>
+        <translation>操作按鈕位於左上角，輸入框圖示與按鈕群組鏡射</translation>
+    </message>
+    <message>
+        <source>面包屑</source>
+        <translation>導覽列</translation>
+    </message>
+    <message>
+        <source>项从右向左排列，下拉菜单右对齐</source>
+        <translation>項目由右至左排列，下拉選單靠右對齊</translation>
+    </message>
+    <message>
+        <source>按钮组</source>
+        <translation>按鈕群組</translation>
+    </message>
+    <message>
+        <source>从右向左排列，圆角与拼接边框随方向镜像</source>
+        <translation>由右至左排列，圓角與拼接邊框隨方向鏡射</translation>
+    </message>
+    <message>
+        <source>浮层、提示与输入组</source>
+        <translation>浮層、工具提示與輸入群組</translation>
+    </message>
+    <message>
+        <source>浮层右对齐，提示左右互换，输入组附加区镜像</source>
+        <translation>浮層靠右對齊，工具提示左右互換，輸入群組附加區鏡射</translation>
+    </message>
+    <message>
+        <source>常用组件</source>
+        <translation>常用元件</translation>
+    </message>
+    <message>
+        <source>复选框、开关、滑块等常用组件在 RTL 下的效果</source>
+        <translation>核取方塊、開關、滑桿等常用元件在 RTL 下的效果</translation>
+    </message>
+    <message>
+        <source>代码块</source>
+        <translation>程式碼區塊</translation>
+    </message>
+    <message>
+        <source>标题靠右、复制按钮在左，代码保持从左到右</source>
+        <translation>標題靠右、複製按鈕在左，程式碼保持由左至右</translation>
+    </message>
+    <message>
+        <source>执行记录</source>
+        <translation>執行記錄</translation>
+    </message>
+    <message>
+        <source>图标在右、描述在左，箭头朝左，详情区缩进在右</source>
+        <translation>圖示在右、描述在左，箭頭朝左，詳細資料區縮排在右</translation>
+    </message>
+    <message>
+        <source>标签页</source>
+        <translation>分頁</translation>
+    </message>
+    <message>
+        <source>标签从右向左排列，纵向时标签栏位于右侧</source>
+        <translation>分頁由右至左排列，垂直時分頁列位於右側</translation>
+    </message>
+    <message>
+        <source>对话框</source>
+        <translation>對話方塊</translation>
+    </message>
+    <message>
+        <source>跟随父组件方向，窗口按钮在左，标题与描述靠右</source>
+        <translation>跟隨父元件方向，視窗按鈕在左，標題與描述靠右</translation>
+    </message>
+    <message>
+        <source>独立窗口</source>
+        <translation>獨立視窗</translation>
+    </message>
+    <message>
+        <source>标题栏镜像，窗口按钮在左，内容从右向左排列</source>
+        <translation>標題列鏡射，視窗按鈕在左，內容由右至左排列</translation>
+    </message>
+    <message>
+        <source>加载指示</source>
+        <translation>載入指示器</translation>
+    </message>
+    <message>
+        <source>Spinner 在右、金额在左，旋转方向不变</source>
+        <translation>Spinner 在右、金額在左，旋轉方向不變</translation>
+    </message>
+    <message>
+        <source>二维码</source>
+        <translation>QR Code</translation>
+    </message>
+    <message>
+        <source>二维码不镜像，位于右侧，说明文字从右向左</source>
+        <translation>QR Code 不鏡射，位於右側，說明文字由右至左</translation>
+    </message>
+    <message>
+        <source>日期与时间选择</source>
+        <translation>日期與時間選擇</translation>
+    </message>
+    <message>
+        <source>下拉箭头在左、浮层右对齐，日历从右向左排列</source>
+        <translation>下拉箭頭在左、浮層靠右對齊，日曆由右至左排列</translation>
+    </message>
+    <message>
+        <source>侧栏</source>
+        <translation>側邊欄</translation>
+    </message>
+    <message>
+        <source>侧栏位于右侧，徽章、操作按钮与箭头在左侧</source>
+        <translation>側邊欄位於右側，徽章、操作按鈕與箭頭在左側</translation>
+    </message>
+</context>
+<context>
+    <name>ScreenshotPage</name>
+    <message>
+        <source>结果: 无</source>
+        <translation>結果: 無</translation>
+    </message>
+    <message>
+        <source>结果: 无法开始截图，当前平台不支持或没有屏幕录制权限</source>
+        <translation>結果: 無法開始截圖，目前的平台不支援或沒有螢幕錄製權限</translation>
+    </message>
+    <message>
+        <source>结果: 已截取 %1 × %2</source>
+        <translation>結果: 已截取 %1 × %2</translation>
+    </message>
+    <message>
+        <source>结果: 已保存到 %1</source>
+        <translation>結果: 已儲存到 %1</translation>
+    </message>
+    <message>
+        <source>结果: 保存失败, %1</source>
+        <translation>結果: 儲存失敗, %1</translation>
+    </message>
+    <message>
+        <source>结果: 已取消</source>
+        <translation>結果: 已取消</translation>
+    </message>
+    <message>
+        <source>截图</source>
+        <translation>截圖</translation>
+    </message>
+    <message>
+        <source>ShadScreenshot：框选屏幕区域或单击窗口截图，可添加标注，复制、保存或钉在屏幕上。</source>
+        <translation>ShadScreenshot：框選螢幕區域或點一下視窗進行截圖，可加入標註，複製、儲存或釘選在螢幕上。</translation>
+    </message>
+    <message>
+        <source>结果: 已钉在屏幕上，拖动移动，滚轮缩放，双击或 Esc 关闭</source>
+        <translation>結果: 已釘選在螢幕上，拖曳移動，滾輪縮放，按兩下或按 Esc 關閉</translation>
+    </message>
+    <message>
+        <source>关闭全部贴图</source>
+        <translation>關閉全部貼圖</translation>
+    </message>
+    <message>
+        <source>未注册快捷键</source>
+        <translation>未註冊快速鍵</translation>
+    </message>
+    <message>
+        <source>当前平台不支持全局快捷键</source>
+        <translation>目前的平台不支援全域快速鍵</translation>
+    </message>
+    <message>
+        <source>已注册 %1</source>
+        <translation>已註冊 %1</translation>
+    </message>
+    <message>
+        <source>注册失败，%1 被占用或不支持</source>
+        <translation>註冊失敗，%1 已被佔用或不支援</translation>
+    </message>
+    <message>
+        <source>全局快捷键</source>
+        <translation>全域快速鍵</translation>
+    </message>
+    <message>
+        <source>示例程序默认注册 %1，在其他程序中也能开始截图</source>
+        <translation>範例程式預設註冊 %1，在其他程式中也能開始截圖</translation>
+    </message>
+    <message>
+        <source>点击后按下快捷键</source>
+        <translation>點擊後按下快速鍵</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>拖动框选或单击窗口，Enter 完成，Esc 取消</source>
+        <translation>拖曳框選或點一下視窗，按 Enter 完成，按 Esc 取消</translation>
+    </message>
+    <message>
+        <source>截图包含本程序窗口</source>
+        <translation>截圖包含本程式視窗</translation>
+    </message>
+    <message>
+        <source>选区右上角显示钉住按钮</source>
+        <translation>選取範圍右上角顯示釘選按鈕</translation>
+    </message>
+    <message>
+        <source>开始截图</source>
+        <translation>開始截圖</translation>
+    </message>
+    <message>
+        <source>查看大图</source>
+        <translation>檢視大圖</translation>
+    </message>
+    <message>
+        <source>清除图片</source>
+        <translation>清除圖片</translation>
+    </message>
+</context>
+<context>
+    <name>SegmentedPage</name>
+    <message>
+        <source>分段控制器</source>
+        <translation>分段控制器</translation>
+    </message>
+    <message>
+        <source>ShadSegmented：在多个互斥选项之间切换的分段控制器，选中块带滑动动画。</source>
+        <translation>ShadSegmented：在多個互斥選項之間切換的分段控制器，選取區塊帶有滑動動畫。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击或使用左右方向键切换选项</source>
+        <translation>點擊或使用左右方向鍵切換選項</translation>
+    </message>
+    <message>
+        <source>日</source>
+        <translation>日</translation>
+    </message>
+    <message>
+        <source>周</source>
+        <translation>週</translation>
+    </message>
+    <message>
+        <source>月</source>
+        <translation>月</translation>
+    </message>
+    <message>
+        <source>年</source>
+        <translation>年</translation>
+    </message>
+    <message>
+        <source>当前选择: %1</source>
+        <translation>目前選擇: %1</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>圖示</translation>
+    </message>
+    <message>
+        <source>图标加文字，或仅图标并设置提示</source>
+        <translation>圖示加文字，或僅圖示並設定工具提示</translation>
+    </message>
+    <message>
+        <source>列表</source>
+        <translation>清單</translation>
+    </message>
+    <message>
+        <source>网格</source>
+        <translation>格狀</translation>
+    </message>
+    <message>
+        <source>看板</source>
+        <translation>看板</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>Small、Default、Large 三种尺寸</source>
+        <translation>Small、Default、Large 三種尺寸</translation>
+    </message>
+    <message>
+        <source>撑满宽度与禁用项</source>
+        <translation>撐滿寬度與停用項目</translation>
+    </message>
+    <message>
+        <source>setBlock(true) 各项等宽撑满；可禁用单项或整体</source>
+        <translation>setBlock(true) 讓各項等寬撐滿；可停用單一項目或整體</translation>
+    </message>
+    <message>
+        <source>概览</source>
+        <translation>概覽</translation>
+    </message>
+    <message>
+        <source>分析</source>
+        <translation>分析</translation>
+    </message>
+    <message>
+        <source>报告</source>
+        <translation>報告</translation>
+    </message>
+</context>
+<context>
+    <name>SeparatorPage</name>
+    <message>
+        <source>分隔线</source>
+        <translation>分隔線</translation>
+    </message>
+    <message>
+        <source>ShadSeparator / ShadResizable：静态分隔线，以及可拖动调整相邻面板大小的分隔线。</source>
+        <translation>ShadSeparator / ShadResizable：靜態分隔線，以及可拖曳調整相鄰面板大小的分隔線。</translation>
+    </message>
+    <message>
+        <source>静态分隔线</source>
+        <translation>靜態分隔線</translation>
+    </message>
+    <message>
+        <source>水平与垂直两种分隔线</source>
+        <translation>水平與垂直兩種分隔線</translation>
+    </message>
+    <message>
+        <source>基础组件</source>
+        <translation>基礎元件</translation>
+    </message>
+    <message>
+        <source>一个开源的 UI 组件库。</source>
+        <translation>一個開放原始碼的 UI 元件庫。</translation>
+    </message>
+    <message>
+        <source>博客</source>
+        <translation>部落格</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>文件</translation>
+    </message>
+    <message>
+        <source>源码</source>
+        <translation>原始碼</translation>
+    </message>
+    <message>
+        <source>可拖动分隔线</source>
+        <translation>可拖曳分隔線</translation>
+    </message>
+    <message>
+        <source>拖动分隔线调整面板大小，支持嵌套面板组</source>
+        <translation>拖曳分隔線調整面板大小，支援巢狀面板群組</translation>
+    </message>
+    <message>
+        <source>二</source>
+        <translation>二</translation>
+    </message>
+    <message>
+        <source>三</source>
+        <translation>三</translation>
+    </message>
+    <message>
+        <source>一</source>
+        <translation>一</translation>
+    </message>
+    <message>
+        <source>带抓手</source>
+        <translation>帶握把</translation>
+    </message>
+    <message>
+        <source>setGripVisible(true)：在分隔线中间显示抓手</source>
+        <translation>setGripVisible(true)：在分隔線中間顯示握把</translation>
+    </message>
+    <message>
+        <source>侧边栏</source>
+        <translation>側邊欄</translation>
+    </message>
+    <message>
+        <source>内容</source>
+        <translation>內容</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsDialog</name>
+    <message>
+        <source>右侧</source>
+        <translation>右側</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左側</translation>
+    </message>
+    <message>
+        <source>窗口按钮位置</source>
+        <translation>視窗按鈕位置</translation>
+    </message>
+    <message>
+        <source>左上</source>
+        <translation>左上</translation>
+    </message>
+    <message>
+        <source>顶部居中</source>
+        <translation>頂部置中</translation>
+    </message>
+    <message>
+        <source>右上</source>
+        <translation>右上</translation>
+    </message>
+    <message>
+        <source>左下</source>
+        <translation>左下</translation>
+    </message>
+    <message>
+        <source>底部居中</source>
+        <translation>底部置中</translation>
+    </message>
+    <message>
+        <source>右下</source>
+        <translation>右下</translation>
+    </message>
+    <message>
+        <source>无</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>壁纸模糊</source>
+        <translation>桌布模糊</translation>
+    </message>
+    <message>
+        <source>背景模糊</source>
+        <translation>背景模糊</translation>
+    </message>
+    <message>
+        <source>亚克力</source>
+        <translation>壓克力</translation>
+    </message>
+    <message>
+        <source>云母</source>
+        <translation>雲母</translation>
+    </message>
+    <message>
+        <source>云母 Alt</source>
+        <translation>雲母 Alt</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>修改后立即生效。</source>
+        <translation>修改後立即生效。</translation>
+    </message>
+    <message>
+        <source>浅色</source>
+        <translation>淺色</translation>
+    </message>
+    <message>
+        <source>深色</source>
+        <translation>深色</translation>
+    </message>
+    <message>
+        <source>跟随系统</source>
+        <translation>跟隨系統</translation>
+    </message>
+    <message>
+        <source>语言</source>
+        <translation>語言</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>主題</translation>
+    </message>
+    <message>
+        <source>基色</source>
+        <translation>基底色</translation>
+    </message>
+    <message>
+        <source>圆角</source>
+        <translation>圓角</translation>
+    </message>
+    <message>
+        <source>特效</source>
+        <translation>特效</translation>
+    </message>
+    <message>
+        <source>底色不透明度</source>
+        <translation>底色不透明度</translation>
+    </message>
+    <message>
+        <source>模糊程度</source>
+        <translation>模糊程度</translation>
+    </message>
+    <message>
+        <source>仅模糊桌面</source>
+        <translation>僅模糊桌面</translation>
+    </message>
+    <message>
+        <source>只模糊壁纸，不含其他窗口；需要录屏权限，未授权时使用系统模糊</source>
+        <translation>只模糊桌布，不含其他視窗；需要螢幕錄製權限，未授權時使用系統模糊</translation>
+    </message>
+    <message>
+        <source>组件不透明度</source>
+        <translation>元件不透明度</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>圖示</translation>
+    </message>
+    <message>
+        <source>完全隐藏</source>
+        <translation>完全隱藏</translation>
+    </message>
+    <message>
+        <source>从右到左布局</source>
+        <translation>由右至左的版面配置</translation>
+    </message>
+    <message>
+        <source>侧栏收起方式</source>
+        <translation>側邊欄收合方式</translation>
+    </message>
+    <message>
+        <source>只展开一个分类</source>
+        <translation>只展開一個分類</translation>
+    </message>
+    <message>
+        <source>提示位置已更改</source>
+        <translation>通知位置已變更</translation>
+    </message>
+    <message>
+        <source>之后的提示显示在这里</source>
+        <translation>之後的通知會顯示在這裡</translation>
+    </message>
+    <message>
+        <source>提示位置</source>
+        <translation>通知位置</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>淡入淡出</source>
+        <translation>淡入淡出</translation>
+    </message>
+    <message>
+        <source>滑入</source>
+        <translation>滑入</translation>
+    </message>
+    <message>
+        <source>页面切换</source>
+        <translation>頁面切換</translation>
+    </message>
+    <message>
+        <source>切换时长</source>
+        <translation>切換時間</translation>
+    </message>
+    <message>
+        <source>侧栏指示条</source>
+        <translation>側邊欄指示條</translation>
+    </message>
+    <message>
+        <source>外观</source>
+        <translation>外觀</translation>
+    </message>
+    <message>
+        <source>动画</source>
+        <translation>動畫</translation>
+    </message>
+    <message>
+        <source>布局</source>
+        <translation>版面配置</translation>
+    </message>
+    <message>
+        <source>窗口特效</source>
+        <translation>視窗特效</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>完成</source>
+        <translation>完成</translation>
+    </message>
+</context>
+<context>
+    <name>SidebarPage</name>
+    <message>
+        <source>企业版</source>
+        <translation>企業版</translation>
+    </message>
+    <message>
+        <source>平台</source>
+        <translation>平台</translation>
+    </message>
+    <message>
+        <source>演练场</source>
+        <translation>實驗場</translation>
+    </message>
+    <message>
+        <source>历史记录</source>
+        <translation>歷史記錄</translation>
+    </message>
+    <message>
+        <source>已收藏</source>
+        <translation>已收藏</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>模型</source>
+        <translation>模型</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>文件</translation>
+    </message>
+    <message>
+        <source>简介</source>
+        <translation>簡介</translation>
+    </message>
+    <message>
+        <source>快速开始</source>
+        <translation>快速開始</translation>
+    </message>
+    <message>
+        <source>教程</source>
+        <translation>教學</translation>
+    </message>
+    <message>
+        <source>更新日志</source>
+        <translation>更新日誌</translation>
+    </message>
+    <message>
+        <source>通用</source>
+        <translation>一般</translation>
+    </message>
+    <message>
+        <source>团队</source>
+        <translation>團隊</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>帳單</translation>
+    </message>
+    <message>
+        <source>用量</source>
+        <translation>用量</translation>
+    </message>
+    <message>
+        <source>项目</source>
+        <translation>專案</translation>
+    </message>
+    <message>
+        <source>设计工程</source>
+        <translation>設計工程</translation>
+    </message>
+    <message>
+        <source>销售与市场</source>
+        <translation>銷售與行銷</translation>
+    </message>
+    <message>
+        <source>差旅</source>
+        <translation>差旅</translation>
+    </message>
+    <message>
+        <source>帮助</source>
+        <translation>說明</translation>
+    </message>
+    <message>
+        <source>支持</source>
+        <translation>支援</translation>
+    </message>
+    <message>
+        <source>反馈</source>
+        <translation>意見回饋</translation>
+    </message>
+    <message>
+        <source>切换侧栏（Ctrl+B / Cmd+B）</source>
+        <translation>切換側邊欄（Ctrl+B / Cmd+B）</translation>
+    </message>
+    <message>
+        <source>构建你的应用 / 历史记录</source>
+        <translation>建置你的應用程式 / 歷史記錄</translation>
+    </message>
+    <message>
+        <source>侧栏</source>
+        <translation>側邊欄</translation>
+    </message>
+    <message>
+        <source>ShadSidebar / ShadSidebarLayout：可组合、可收起的侧栏，包含页头、分组、菜单与页脚。</source>
+        <translation>ShadSidebar / ShadSidebarLayout：可組合、可收合的側邊欄，包含頁首、群組、選單與頁尾。</translation>
+    </message>
+    <message>
+        <source>迷你应用</source>
+        <translation>迷你應用程式</translation>
+    </message>
+    <message>
+        <source>可切换侧栏的变体、收起方式与位置</source>
+        <translation>可切換側邊欄的變體、收合方式與位置</translation>
+    </message>
+    <message>
+        <source>起始侧</source>
+        <translation>起始側</translation>
+    </message>
+    <message>
+        <source>结束侧</source>
+        <translation>結束側</translation>
+    </message>
+    <message>
+        <source>变体</source>
+        <translation>變體</translation>
+    </message>
+    <message>
+        <source>收起方式</source>
+        <translation>收合方式</translation>
+    </message>
+    <message>
+        <source>位置</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>展开</source>
+        <translation>展開</translation>
+    </message>
+    <message>
+        <source>收起</source>
+        <translation>收合</translation>
+    </message>
+    <message>
+        <source>构建你的应用 / %1</source>
+        <translation>建置你的應用程式 / %1</translation>
+    </message>
+</context>
+<context>
+    <name>SignaturePadPage</name>
+    <message>
+        <source>签名板</source>
+        <translation>簽名板</translation>
+    </message>
+    <message>
+        <source>ShadSignaturePad：手写签名板，线宽随速度变化，支持数位板压感、撤销、清空与导出图片。</source>
+        <translation>ShadSignaturePad：手寫簽名板，線寬隨速度變化，支援繪圖板壓感、復原、清除與匯出圖片。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>用鼠标或数位板签名，聚焦后 Ctrl+Z 撤销，Delete 清空</source>
+        <translation>使用滑鼠或繪圖板簽名，聚焦後按 Ctrl+Z 復原，按 Delete 清除</translation>
+    </message>
+    <message>
+        <source>撤销</source>
+        <translation>復原</translation>
+    </message>
+    <message>
+        <source>清空</source>
+        <translation>清除</translation>
+    </message>
+    <message>
+        <source>导出</source>
+        <translation>匯出</translation>
+    </message>
+    <message>
+        <source>笔迹样式</source>
+        <translation>筆跡樣式</translation>
+    </message>
+    <message>
+        <source>切换笔迹颜色，拖动滑块调整最大线宽</source>
+        <translation>切換筆跡顏色，拖曳滑桿調整最大線寬</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>蓝色</source>
+        <translation>藍色</translation>
+    </message>
+    <message>
+        <source>红色</source>
+        <translation>紅色</translation>
+    </message>
+    <message>
+        <source>最大线宽: %1</source>
+        <translation>最大線寬: %1</translation>
+    </message>
+    <message>
+        <source>只读与禁用</source>
+        <translation>唯讀與停用</translation>
+    </message>
+    <message>
+        <source>只读和禁用的签名板都不响应输入</source>
+        <translation>唯讀和停用的簽名板都不會回應輸入</translation>
+    </message>
+    <message>
+        <source>只读</source>
+        <translation>唯讀</translation>
+    </message>
+</context>
+<context>
+    <name>SpinBoxPage</name>
+    <message>
+        <source>数字输入框</source>
+        <translation>數字輸入框</translation>
+    </message>
+    <message>
+        <source>ShadSpinBox / ShadDoubleSpinBox：外观与输入框一致的数字输入框，提供四种按钮布局。</source>
+        <translation>ShadSpinBox / ShadDoubleSpinBox：外觀與輸入框一致的數字輸入框，提供四種按鈕版面配置。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>取值范围 0 到 100，右键打开操作菜单</source>
+        <translation>取值範圍 0 到 100，按右鍵開啟操作選單</translation>
+    </message>
+    <message>
+        <source>数量</source>
+        <translation>數量</translation>
+    </message>
+    <message>
+        <source>按钮布局</source>
+        <translation>按鈕版面配置</translation>
+    </message>
+    <message>
+        <source>setButtonLayout：四种增减按钮布局</source>
+        <translation>setButtonLayout：四種增減按鈕版面配置</translation>
+    </message>
+    <message>
+        <source>小数</source>
+        <translation>小數</translation>
+    </message>
+    <message>
+        <source>ShadDoubleSpinBox：设置小数位数与步长</source>
+        <translation>ShadDoubleSpinBox：設定小數位數與步進值</translation>
+    </message>
+    <message>
+        <source>体重（千克）</source>
+        <translation>體重（公斤）</translation>
+    </message>
+    <message>
+        <source>比例</source>
+        <translation>比例</translation>
+    </message>
+    <message>
+        <source>前后缀</source>
+        <translation>前後綴</translation>
+    </message>
+    <message>
+        <source>数值前后显示固定文字，最小值时显示替代文字</source>
+        <translation>數值前後顯示固定文字，最小值時顯示替代文字</translation>
+    </message>
+    <message>
+        <source>不限</source>
+        <translation>不限</translation>
+    </message>
+    <message>
+        <source> 次</source>
+        <translation> 次</translation>
+    </message>
+    <message>
+        <source>价格</source>
+        <translation>價格</translation>
+    </message>
+    <message>
+        <source>音量</source>
+        <translation>音量</translation>
+    </message>
+    <message>
+        <source>重试次数</source>
+        <translation>重試次數</translation>
+    </message>
+    <message>
+        <source>禁用与错误态</source>
+        <translation>停用與錯誤狀態</translation>
+    </message>
+    <message>
+        <source>禁用与错误态，到达边界时对应按钮半透明</source>
+        <translation>停用與錯誤狀態，到達邊界時對應按鈕半透明</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>错误（已达最大值）</source>
+        <translation>錯誤（已達最大值）</translation>
+    </message>
+    <message>
+        <source>数值变化</source>
+        <translation>數值變化</translation>
+    </message>
+    <message>
+        <source>valueChanged：数值变化时更新下方文字</source>
+        <translation>valueChanged：數值變化時更新下方文字</translation>
+    </message>
+    <message>
+        <source> 个月</source>
+        <translation> 個月</translation>
+    </message>
+    <message>
+        <source>订阅时长：%1 个月，合计 %2 元</source>
+        <translation>訂閱時長：%1 個月，合計 %2 元</translation>
+    </message>
+    <message>
+        <source>订阅时长</source>
+        <translation>訂閱時長</translation>
+    </message>
+</context>
+<context>
+    <name>SpinnerPage</name>
+    <message>
+        <source>加载指示</source>
+        <translation>載入指示器</translation>
+    </message>
+    <message>
+        <source>ShadSpinner：表示正在加载的旋转图标，按钮、徽章与输入组中同样可用。</source>
+        <translation>ShadSpinner：表示正在載入的旋轉圖示，按鈕、徽章與輸入群組中同樣可用。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>匀速旋转，隐藏时暂停，显示后继续</source>
+        <translation>等速旋轉，隱藏時暫停，顯示後繼續</translation>
+    </message>
+    <message>
+        <source>正在处理付款...</source>
+        <translation>正在處理付款...</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>setSpinnerSize：设置不同的图标尺寸</source>
+        <translation>setSpinnerSize：設定不同的圖示尺寸</translation>
+    </message>
+    <message>
+        <source>自定义</source>
+        <translation>自訂</translation>
+    </message>
+    <message>
+        <source>更换图标与颜色，或停止旋转</source>
+        <translation>更換圖示與顏色，或停止旋轉</translation>
+    </message>
+    <message>
+        <source>暂停</source>
+        <translation>暫停</translation>
+    </message>
+    <message>
+        <source>继续</source>
+        <translation>繼續</translation>
+    </message>
+    <message>
+        <source>按钮</source>
+        <translation>按鈕</translation>
+    </message>
+    <message>
+        <source>setLoading：在按钮图标位置显示加载动画</source>
+        <translation>setLoading：在按鈕圖示位置顯示載入動畫</translation>
+    </message>
+    <message>
+        <source>加载中...</source>
+        <translation>載入中...</translation>
+    </message>
+    <message>
+        <source>请稍候</source>
+        <translation>請稍候</translation>
+    </message>
+    <message>
+        <source>处理中</source>
+        <translation>處理中</translation>
+    </message>
+    <message>
+        <source>徽章</source>
+        <translation>徽章</translation>
+    </message>
+    <message>
+        <source>徽章中的加载图标在可见时自动旋转</source>
+        <translation>徽章中的載入圖示在可見時自動旋轉</translation>
+    </message>
+    <message>
+        <source>同步中</source>
+        <translation>同步中</translation>
+    </message>
+    <message>
+        <source>更新中</source>
+        <translation>更新中</translation>
+    </message>
+    <message>
+        <source>输入组</source>
+        <translation>輸入群組</translation>
+    </message>
+    <message>
+        <source>把 Spinner 放进输入组的附加区</source>
+        <translation>將 Spinner 放進輸入群組的附加區</translation>
+    </message>
+    <message>
+        <source>发送消息...</source>
+        <translation>傳送訊息...</translation>
+    </message>
+    <message>
+        <source>正在验证...</source>
+        <translation>正在驗證...</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>傳送</translation>
+    </message>
+    <message>
+        <source>空状态</source>
+        <translation>空狀態</translation>
+    </message>
+    <message>
+        <source>用现有组件组合出加载中的空状态</source>
+        <translation>用現有元件組合出載入中的空狀態</translation>
+    </message>
+    <message>
+        <source>正在处理你的请求</source>
+        <translation>正在處理你的要求</translation>
+    </message>
+    <message>
+        <source>请稍候，我们正在处理你的请求，请不要刷新页面。</source>
+        <translation>請稍候，我們正在處理你的要求，請不要重新整理頁面。</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+</context>
+<context>
+    <name>StatisticPage</name>
+    <message>
+        <source>统计数值</source>
+        <translation>統計數值</translation>
+    </message>
+    <message>
+        <source>ShadStatistic：展示关键数值，支持前后缀、趋势、数值滚动动画与倒计时。</source>
+        <translation>ShadStatistic：顯示關鍵數值，支援前後綴、趨勢、數值滾動動畫與倒數計時。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>数值变化时从当前值滚动到新值</source>
+        <translation>數值變化時從目前的值滾動到新值</translation>
+    </message>
+    <message>
+        <source>活跃用户</source>
+        <translation>活躍使用者</translation>
+    </message>
+    <message>
+        <source>账户余额</source>
+        <translation>帳戶餘額</translation>
+    </message>
+    <message>
+        <source>转化率</source>
+        <translation>轉換率</translation>
+    </message>
+    <message>
+        <source>随机刷新</source>
+        <translation>隨機重新整理</translation>
+    </message>
+    <message>
+        <source>趋势</source>
+        <translation>趨勢</translation>
+    </message>
+    <message>
+        <source>上涨显示绿色向上箭头，下跌显示红色向下箭头</source>
+        <translation>上漲顯示綠色向上箭頭，下跌顯示紅色向下箭頭</translation>
+    </message>
+    <message>
+        <source>环比增长</source>
+        <translation>較上期成長</translation>
+    </message>
+    <message>
+        <source>环比下降</source>
+        <translation>較上期下降</translation>
+    </message>
+    <message>
+        <source>倒计时</source>
+        <translation>倒數計時</translation>
+    </message>
+    <message>
+        <source>setCountdown：每秒刷新，到点后显示全 0 并发出 finished 信号</source>
+        <translation>setCountdown：每秒更新，時間到後顯示全 0 並發出 finished 訊號</translation>
+    </message>
+    <message>
+        <source>距离活动开始</source>
+        <translation>距離活動開始</translation>
+    </message>
+    <message>
+        <source>距离活动结束</source>
+        <translation>距離活動結束</translation>
+    </message>
+    <message>
+        <source>D 天 HH:mm:ss</source>
+        <translation>D 天 HH:mm:ss</translation>
+    </message>
+    <message>
+        <source>验证码有效期</source>
+        <translation>驗證碼有效期限</translation>
+    </message>
+    <message>
+        <source>已结束</source>
+        <translation>已結束</translation>
+    </message>
+    <message>
+        <source>重新开始</source>
+        <translation>重新開始</translation>
+    </message>
+</context>
+<context>
+    <name>StatusBarPage</name>
+    <message>
+        <source>状态栏</source>
+        <translation>狀態列</translation>
+    </message>
+    <message>
+        <source>ShadStatusBar：窗口底部的状态信息。</source>
+        <translation>ShadStatusBar：視窗底部的狀態資訊。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>开始侧显示状态，结束侧显示常驻信息</source>
+        <translation>起始側顯示狀態，結束側顯示常駐資訊</translation>
+    </message>
+    <message>
+        <source>就绪</source>
+        <translation>就緒</translation>
+    </message>
+    <message>
+        <source>第 %1 行，第 %2 列</source>
+        <translation>第 %1 列，第 %2 欄</translation>
+    </message>
+    <message>
+        <source>已连接</source>
+        <translation>已連線</translation>
+    </message>
+    <message>
+        <source>显示分隔线</source>
+        <translation>顯示分隔線</translation>
+    </message>
+    <message>
+        <source>临时消息</source>
+        <translation>暫時訊息</translation>
+    </message>
+    <message>
+        <source>消息显示期间隐藏开始侧内容</source>
+        <translation>訊息顯示期間隱藏起始側內容</translation>
+    </message>
+    <message>
+        <source>共 %1 个文件</source>
+        <translation>共 %1 個檔案</translation>
+    </message>
+    <message>
+        <source>显示 3 秒</source>
+        <translation>顯示 3 秒</translation>
+    </message>
+    <message>
+        <source>一直显示</source>
+        <translation>持續顯示</translation>
+    </message>
+    <message>
+        <source>清除</source>
+        <translation>清除</translation>
+    </message>
+    <message>
+        <source>已保存</source>
+        <translation>已儲存</translation>
+    </message>
+    <message>
+        <source>正在同步…</source>
+        <translation>正在同步…</translation>
+    </message>
+    <message>
+        <source>进度</source>
+        <translation>進度</translation>
+    </message>
+    <message>
+        <source>结束侧放置进度与加载状态</source>
+        <translation>結束側放置進度與載入狀態</translation>
+    </message>
+    <message>
+        <source>正在索引…</source>
+        <translation>正在建立索引…</translation>
+    </message>
+</context>
+<context>
+    <name>SwitchPage</name>
+    <message>
+        <source>开关</source>
+        <translation>開關</translation>
+    </message>
+    <message>
+        <source>ShadSwitch：在打开与关闭之间切换的开关，滑块带过渡动画。</source>
+        <translation>ShadSwitch：在開啟與關閉之間切換的開關，滑塊帶有過渡動畫。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>右侧文字可选，点击文字同样可以切换</source>
+        <translation>右側文字為選用，點擊文字同樣可以切換</translation>
+    </message>
+    <message>
+        <source>飞行模式</source>
+        <translation>飛航模式</translation>
+    </message>
+    <message>
+        <source>当前状态: 关闭</source>
+        <translation>目前狀態: 關閉</translation>
+    </message>
+    <message>
+        <source>当前状态: 打开</source>
+        <translation>目前狀態: 開啟</translation>
+    </message>
+    <message>
+        <source>无线网络</source>
+        <translation>無線網路</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>禁用后整体半透明</source>
+        <translation>停用後整體半透明</translation>
+    </message>
+    <message>
+        <source>禁用且打开</source>
+        <translation>停用且開啟</translation>
+    </message>
+</context>
+<context>
+    <name>TabViewPage</name>
+    <message>
+        <source>标签视图</source>
+        <translation>分頁檢視</translation>
+    </message>
+    <message>
+        <source>ShadTabView：多标签视图，每个标签对应一个页面。</source>
+        <translation>ShadTabView：多分頁檢視，每個分頁對應一個頁面。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>新建、关闭标签，拖动调整顺序</source>
+        <translation>新增、關閉分頁，拖曳調整順序</translation>
+    </message>
+    <message>
+        <source>拆分与合并</source>
+        <translation>拆分與合併</translation>
+    </message>
+    <message>
+        <source>setDragGroup：拖出标签栏拆分为新窗口，拖到同组标签栏上合并</source>
+        <translation>setDragGroup：拖出分頁列可拆分為新視窗，拖到同組分頁列上則合併</translation>
+    </message>
+    <message>
+        <source>单个标签属性</source>
+        <translation>單一分頁屬性</translation>
+    </message>
+    <message>
+        <source>setTabFlags：首页不可关闭、不可拖动，归档禁用</source>
+        <translation>setTabFlags：首頁不可關閉、不可拖曳，封存停用</translation>
+    </message>
+    <message>
+        <source>首页</source>
+        <translation>首頁</translation>
+    </message>
+    <message>
+        <source>不可关闭，不可拖动。</source>
+        <translation>不可關閉，不可拖曳。</translation>
+    </message>
+    <message>
+        <source>归档</source>
+        <translation>封存</translation>
+    </message>
+    <message>
+        <source>禁用的标签不能选中。</source>
+        <translation>停用的分頁無法選取。</translation>
+    </message>
+    <message>
+        <source>项目根目录 / README.md</source>
+        <translation>專案根目錄 / README.md</translation>
+    </message>
+    <message>
+        <source>大量标签</source>
+        <translation>大量分頁</translation>
+    </message>
+    <message>
+        <source>放不下时用滚轮横向滚动</source>
+        <translation>放不下時可用滾輪水平捲動</translation>
+    </message>
+    <message>
+        <source>标签页 %1</source>
+        <translation>分頁 %1</translation>
+    </message>
+    <message>
+        <source>第 %1 个页面。</source>
+        <translation>第 %1 個頁面。</translation>
+    </message>
+    <message>
+        <source>固定标签</source>
+        <translation>固定分頁</translation>
+    </message>
+    <message>
+        <source>隐藏关闭与新建按钮</source>
+        <translation>隱藏關閉與新增按鈕</translation>
+    </message>
+    <message>
+        <source>标题栏中的标签</source>
+        <translation>標題列中的分頁</translation>
+    </message>
+    <message>
+        <source>把标签栏放进窗口标题栏</source>
+        <translation>將分頁列放進視窗標題列</translation>
+    </message>
+    <message>
+        <source>打开窗口</source>
+        <translation>開啟視窗</translation>
+    </message>
+    <message>
+        <source>项目说明：构建方式、组件列表与许可证。</source>
+        <translation>專案說明：建置方式、元件清單與授權條款。</translation>
+    </message>
+    <message>
+        <source>示例程序的主窗口，左侧侧栏按分类导航到各个演示页。</source>
+        <translation>範例程式的主視窗，左側的側邊欄依分類導覽到各個示範頁面。</translation>
+    </message>
+    <message>
+        <source>各平台的构建预设，使用 Ninja 生成器。</source>
+        <translation>各平台的建置預設組態，使用 Ninja 產生器。</translation>
+    </message>
+    <message>
+        <source>新标签页 %1</source>
+        <translation>新分頁 %1</translation>
+    </message>
+    <message>
+        <source>新建的空白页面。</source>
+        <translation>新增的空白頁面。</translation>
+    </message>
+</context>
+<context>
+    <name>TablePage</name>
+    <message>
+        <source>表格</source>
+        <translation>表格</translation>
+    </message>
+    <message>
+        <source>ShadTable：接受任意 QAbstractItemModel 的表格组件，对齐与字重由模型决定。</source>
+        <translation>ShadTable：可接受任意 QAbstractItemModel 的表格元件，對齊與字重由模型決定。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>拖动表头边缘调整列宽，双击恢复；带表尾合计</source>
+        <translation>拖曳表頭邊緣調整欄寬，按兩下還原；帶有表尾合計</translation>
+    </message>
+    <message>
+        <source>行操作</source>
+        <translation>列操作</translation>
+    </message>
+    <message>
+        <source>setActionColumn：指定行操作列，点击可弹出菜单</source>
+        <translation>setActionColumn：指定列操作欄，點擊可彈出選單</translation>
+    </message>
+    <message>
+        <source>编辑</source>
+        <translation>編輯</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>刪除</translation>
+    </message>
+    <message>
+        <source>最近操作: 无</source>
+        <translation>最近操作: 無</translation>
+    </message>
+    <message>
+        <source>最近操作: %1 %2</source>
+        <translation>最近操作: %1 %2</translation>
+    </message>
+    <message>
+        <source>图片列</source>
+        <translation>圖片欄</translation>
+    </message>
+    <message>
+        <source>setColumnImage：每列单独设置图片尺寸与形状</source>
+        <translation>setColumnImage：每欄單獨設定圖片尺寸與形狀</translation>
+    </message>
+    <message>
+        <source>商品</source>
+        <translation>商品</translation>
+    </message>
+    <message>
+        <source>卖家</source>
+        <translation>賣家</translation>
+    </message>
+    <message>
+        <source>库存</source>
+        <translation>庫存</translation>
+    </message>
+    <message>
+        <source>价格</source>
+        <translation>價格</translation>
+    </message>
+    <message>
+        <source>无线鼠标</source>
+        <translation>無線滑鼠</translation>
+    </message>
+    <message>
+        <source>数码旗舰店</source>
+        <translation>數位旗艦店</translation>
+    </message>
+    <message>
+        <source>机械键盘</source>
+        <translation>機械式鍵盤</translation>
+    </message>
+    <message>
+        <source>外设专营店</source>
+        <translation>週邊專賣店</translation>
+    </message>
+    <message>
+        <source>USB-C 扩展坞</source>
+        <translation>USB-C 擴充基座</translation>
+    </message>
+</context>
+<context>
+    <name>TabsPage</name>
+    <message>
+        <source>标签页</source>
+        <translation>分頁</translation>
+    </message>
+    <message>
+        <source>ShadTabs：标签页组件，一组分层的内容每次只显示其中一个。</source>
+        <translation>ShadTabs：分頁元件，一組分層的內容每次只顯示其中一個。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>添加标签与页面，只显示当前标签的页面</source>
+        <translation>新增分頁與頁面，只顯示目前分頁的頁面</translation>
+    </message>
+    <message>
+        <source>概览</source>
+        <translation>概覽</translation>
+    </message>
+    <message>
+        <source>查看关键指标与最近的项目动态，跟踪所有进行中项目的进度。</source>
+        <translation>檢視關鍵指標與最近的專案動態，追蹤所有進行中專案的進度。</translation>
+    </message>
+    <message>
+        <source>你有 12 个进行中的项目与 3 个待处理的任务。</source>
+        <translation>你有 12 個進行中的專案與 3 個待處理的工作。</translation>
+    </message>
+    <message>
+        <source>分析</source>
+        <translation>分析</translation>
+    </message>
+    <message>
+        <source>跟踪性能与用户参与度，观察趋势并发现增长机会。</source>
+        <translation>追蹤效能與使用者參與度，觀察趨勢並發現成長機會。</translation>
+    </message>
+    <message>
+        <source>页面浏览量比上月增长 25%。</source>
+        <translation>頁面瀏覽量比上個月成長 25%。</translation>
+    </message>
+    <message>
+        <source>报告</source>
+        <translation>報告</translation>
+    </message>
+    <message>
+        <source>生成并下载详细报告，导出多种格式的数据用于分析。</source>
+        <translation>產生並下載詳細報告，匯出多種格式的資料以供分析。</translation>
+    </message>
+    <message>
+        <source>有 5 份报告已生成，可以导出。</source>
+        <translation>有 5 份報告已產生，可以匯出。</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>管理账户偏好与选项，按需定制使用体验。</source>
+        <translation>管理帳號偏好設定與選項，依需求自訂使用體驗。</translation>
+    </message>
+    <message>
+        <source>配置通知、安全与主题。</source>
+        <translation>設定通知、安全性與主題。</translation>
+    </message>
+    <message>
+        <source>线条样式</source>
+        <translation>線條樣式</translation>
+    </message>
+    <message>
+        <source>setVariant(Line)：背景透明，选中项显示指示线</source>
+        <translation>setVariant(Line)：背景透明，選取項目顯示指示線</translation>
+    </message>
+    <message>
+        <source>账户</source>
+        <translation>帳號</translation>
+    </message>
+    <message>
+        <source>密码</source>
+        <translation>密碼</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>纵向</source>
+        <translation>垂直</translation>
+    </message>
+    <message>
+        <source>setOrientation(Qt::Vertical)：标签纵向排列在起始侧</source>
+        <translation>setOrientation(Qt::Vertical)：分頁垂直排列在起始側</translation>
+    </message>
+    <message>
+        <source>修改账户信息，保存后生效。</source>
+        <translation>修改帳號資訊，儲存後生效。</translation>
+    </message>
+    <message>
+        <source>用户名、头像与个人简介。</source>
+        <translation>使用者名稱、大頭貼與個人簡介。</translation>
+    </message>
+    <message>
+        <source>修改密码，保存后需要重新登录。</source>
+        <translation>修改密碼，儲存後需要重新登入。</translation>
+    </message>
+    <message>
+        <source>建议使用 12 位以上的密码。</source>
+        <translation>建議使用 12 個字元以上的密碼。</translation>
+    </message>
+    <message>
+        <source>选择接收通知的方式。</source>
+        <translation>選擇接收通知的方式。</translation>
+    </message>
+    <message>
+        <source>邮件、推送与站内消息。</source>
+        <translation>電子郵件、推播與站內訊息。</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>禁用的标签半透明，不能点击，键盘导航时跳过</source>
+        <translation>停用的分頁為半透明，無法點擊，鍵盤導覽時會跳過</translation>
+    </message>
+    <message>
+        <source>首页</source>
+        <translation>首頁</translation>
+    </message>
+    <message>
+        <source>已禁用</source>
+        <translation>已停用</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>圖示</translation>
+    </message>
+    <message>
+        <source>在标签文字前显示图标</source>
+        <translation>在分頁文字前顯示圖示</translation>
+    </message>
+    <message>
+        <source>预览</source>
+        <translation>預覽</translation>
+    </message>
+    <message>
+        <source>代码</source>
+        <translation>程式碼</translation>
+    </message>
+    <message>
+        <source>键盘切换</source>
+        <translation>鍵盤切換</translation>
+    </message>
+    <message>
+        <source>用方向键在标签间移动，可设置为移动时直接切换</source>
+        <translation>使用方向鍵在分頁間移動，可設定為移動時直接切換</translation>
+    </message>
+    <message>
+        <source>回车或空格切换</source>
+        <translation>按 Enter 或空白鍵切換</translation>
+    </message>
+    <message>
+        <source>方向键直接切换</source>
+        <translation>方向鍵直接切換</translation>
+    </message>
+    <message>
+        <source>日</source>
+        <translation>日</translation>
+    </message>
+    <message>
+        <source>周</source>
+        <translation>週</translation>
+    </message>
+    <message>
+        <source>月</source>
+        <translation>月</translation>
+    </message>
+    <message>
+        <source>年</source>
+        <translation>年</translation>
+    </message>
+    <message>
+        <source>%1：当前为 %2</source>
+        <translation>%1：目前為 %2</translation>
+    </message>
+</context>
+<context>
+    <name>ThemePage</name>
+    <message>
+        <source>主题</source>
+        <translation>主題</translation>
+    </message>
+    <message>
+        <source>ShadTheme：管理颜色 token、基色、明暗模式与圆角，通常在启动时选定基色。</source>
+        <translation>ShadTheme：管理顏色 token、基底色、淺色/深色模式與圓角，通常在啟動時選定基底色。</translation>
+    </message>
+    <message>
+        <source>基色</source>
+        <translation>基底色</translation>
+    </message>
+    <message>
+        <source>切换基色后所有组件立即重绘</source>
+        <translation>切換基底色後所有元件會立即重繪</translation>
+    </message>
+    <message>
+        <source>颜色 token</source>
+        <translation>顏色 token</translation>
+    </message>
+    <message>
+        <source>当前基色与明暗模式下的全部颜色</source>
+        <translation>目前基底色與淺色/深色模式下的全部顏色</translation>
+    </message>
+    <message>
+        <source>基色对比</source>
+        <translation>基底色對比</translation>
+    </message>
+    <message>
+        <source>对比五种基色的主要 token，悬停查看色值</source>
+        <translation>對比五種基底色的主要 token，滑鼠停留可檢視色值</translation>
+    </message>
+</context>
+<context>
+    <name>ToastPage</name>
+    <message>
+        <source>子窗口通知</source>
+        <translation>子視窗通知</translation>
+    </message>
+    <message>
+        <source>ShadToaster::forWindow(window) 返回本窗口的 toaster。</source>
+        <translation>ShadToaster::forWindow(window) 會回傳本視窗的 toaster。</translation>
+    </message>
+    <message>
+        <source>在此窗口显示</source>
+        <translation>在此視窗顯示</translation>
+    </message>
+    <message>
+        <source>在主窗口显示</source>
+        <translation>在主視窗顯示</translation>
+    </message>
+    <message>
+        <source>子窗口中的通知</source>
+        <translation>子視窗中的通知</translation>
+    </message>
+    <message>
+        <source>显示在当前窗口。</source>
+        <translation>顯示在目前的視窗。</translation>
+    </message>
+    <message>
+        <source>来自子窗口的通知</source>
+        <translation>來自子視窗的通知</translation>
+    </message>
+    <message>
+        <source>显示在主窗口。</source>
+        <translation>顯示在主視窗。</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>ShadToaster：在窗口内短暂显示的通知消息，悬停时展开。</source>
+        <translation>ShadToaster：在視窗內短暫顯示的通知訊息，滑鼠停留時展開。</translation>
+    </message>
+    <message>
+        <source>位置</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>切换位置后已显示的通知随之移动</source>
+        <translation>切換位置後，已顯示的通知會隨之移動</translation>
+    </message>
+    <message>
+        <source>左上</source>
+        <translation>左上</translation>
+    </message>
+    <message>
+        <source>上中</source>
+        <translation>上中</translation>
+    </message>
+    <message>
+        <source>右上</source>
+        <translation>右上</translation>
+    </message>
+    <message>
+        <source>左下</source>
+        <translation>左下</translation>
+    </message>
+    <message>
+        <source>下中</source>
+        <translation>下中</translation>
+    </message>
+    <message>
+        <source>右下</source>
+        <translation>右下</translation>
+    </message>
+    <message>
+        <source>位置已切换</source>
+        <translation>位置已切換</translation>
+    </message>
+    <message>
+        <source>通知现在显示在%1</source>
+        <translation>通知現在顯示在%1</translation>
+    </message>
+    <message>
+        <source>类型</source>
+        <translation>類型</translation>
+    </message>
+    <message>
+        <source>不同类型显示不同的状态图标</source>
+        <translation>不同類型顯示不同的狀態圖示</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>事件已创建</source>
+        <translation>事件已建立</translation>
+    </message>
+    <message>
+        <source>星期日，12 月 3 日 上午 9:00</source>
+        <translation>星期日，12 月 3 日 上午 9:00</translation>
+    </message>
+    <message>
+        <source>成功</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <source>保存成功</source>
+        <translation>儲存成功</translation>
+    </message>
+    <message>
+        <source>所有更改已同步到云端。</source>
+        <translation>所有變更已同步到雲端。</translation>
+    </message>
+    <message>
+        <source>信息</source>
+        <translation>資訊</translation>
+    </message>
+    <message>
+        <source>有新版本可用</source>
+        <translation>有新版本可用</translation>
+    </message>
+    <message>
+        <source>版本 0.2 包含 Toast 与 Resizable 组件。</source>
+        <translation>版本 0.2 包含 Toast 與 Resizable 元件。</translation>
+    </message>
+    <message>
+        <source>警告</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <source>存储空间不足</source>
+        <translation>儲存空間不足</translation>
+    </message>
+    <message>
+        <source>剩余空间低于 10%，请及时清理。</source>
+        <translation>剩餘空間低於 10%，請及時清理。</translation>
+    </message>
+    <message>
+        <source>错误</source>
+        <translation>錯誤</translation>
+    </message>
+    <message>
+        <source>上传失败</source>
+        <translation>上傳失敗</translation>
+    </message>
+    <message>
+        <source>网络连接已断开，请检查后重试。</source>
+        <translation>網路連線已中斷，請檢查後重試。</translation>
+    </message>
+    <message>
+        <source>操作按钮</source>
+        <translation>操作按鈕</translation>
+    </message>
+    <message>
+        <source>通知中显示操作按钮，点击后执行回调</source>
+        <translation>通知中顯示操作按鈕，點擊後執行回呼</translation>
+    </message>
+    <message>
+        <source>删除文件</source>
+        <translation>刪除檔案</translation>
+    </message>
+    <message>
+        <source>文件已删除</source>
+        <translation>檔案已刪除</translation>
+    </message>
+    <message>
+        <source>报告.pdf 已移到回收站。</source>
+        <translation>報告.pdf 已移到資源回收筒。</translation>
+    </message>
+    <message>
+        <source>撤销</source>
+        <translation>復原</translation>
+    </message>
+    <message>
+        <source>已撤销</source>
+        <translation>已復原</translation>
+    </message>
+    <message>
+        <source>报告.pdf 已恢复。</source>
+        <translation>報告.pdf 已還原。</translation>
+    </message>
+    <message>
+        <source>异步任务</source>
+        <translation>非同步工作</translation>
+    </message>
+    <message>
+        <source>先显示加载状态，任务结束后更新为成功或失败</source>
+        <translation>先顯示載入狀態，工作結束後更新為成功或失敗</translation>
+    </message>
+    <message>
+        <source>创建事件</source>
+        <translation>建立事件</translation>
+    </message>
+    <message>
+        <source>创建事件（模拟失败）</source>
+        <translation>建立事件（模擬失敗）</translation>
+    </message>
+    <message>
+        <source>正在创建事件</source>
+        <translation>正在建立事件</translation>
+    </message>
+    <message>
+        <source>请稍候……</source>
+        <translation>請稍候……</translation>
+    </message>
+    <message>
+        <source>创建失败</source>
+        <translation>建立失敗</translation>
+    </message>
+    <message>
+        <source>服务器暂时不可用。</source>
+        <translation>伺服器暫時無法使用。</translation>
+    </message>
+    <message>
+        <source>堆叠与关闭</source>
+        <translation>堆疊與關閉</translation>
+    </message>
+    <message>
+        <source>收起时显示最新 3 条，悬停展开</source>
+        <translation>收合時顯示最新 3 則，滑鼠停留時展開</translation>
+    </message>
+    <message>
+        <source>连续弹出 5 条</source>
+        <translation>連續彈出 5 則</translation>
+    </message>
+    <message>
+        <source>第 %1 条通知</source>
+        <translation>第 %1 則通知</translation>
+    </message>
+    <message>
+        <source>悬停在通知上可以展开查看全部。</source>
+        <translation>滑鼠停留在通知上可展開檢視全部。</translation>
+    </message>
+    <message>
+        <source>不自动关闭</source>
+        <translation>不自動關閉</translation>
+    </message>
+    <message>
+        <source>需要手动关闭</source>
+        <translation>需要手動關閉</translation>
+    </message>
+    <message>
+        <source>这条通知不会自动消失，点击右侧的关闭按钮。</source>
+        <translation>這則通知不會自動消失，請點擊右側的關閉按鈕。</translation>
+    </message>
+    <message>
+        <source>全部关闭</source>
+        <translation>全部關閉</translation>
+    </message>
+    <message>
+        <source>子窗口</source>
+        <translation>子視窗</translation>
+    </message>
+    <message>
+        <source>ShadToaster::forWindow 按窗口显示通知</source>
+        <translation>ShadToaster::forWindow 依視窗顯示通知</translation>
+    </message>
+    <message>
+        <source>打开子窗口</source>
+        <translation>開啟子視窗</translation>
+    </message>
+</context>
+<context>
+    <name>TogglePage</name>
+    <message>
+        <source>切换按钮</source>
+        <translation>切換按鈕</translation>
+    </message>
+    <message>
+        <source>ShadToggle / ShadToggleGroup：可选中的双态按钮，以及支持单选与多选的按钮组。</source>
+        <translation>ShadToggle / ShadToggleGroup：可選取的雙態按鈕，以及支援單選與複選的按鈕群組。</translation>
+    </message>
+    <message>
+        <source>变体</source>
+        <translation>變體</translation>
+    </message>
+    <message>
+        <source>Default 与 Outline 两种外观</source>
+        <translation>Default 與 Outline 兩種外觀</translation>
+    </message>
+    <message>
+        <source>加粗</source>
+        <translation>粗體</translation>
+    </message>
+    <message>
+        <source>斜体</source>
+        <translation>斜體</translation>
+    </message>
+    <message>
+        <source>下划线</source>
+        <translation>底線</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>尺寸</translation>
+    </message>
+    <message>
+        <source>Small、Medium、Large 三种尺寸</source>
+        <translation>Small、Medium、Large 三種尺寸</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>禁用后整体半透明</source>
+        <translation>停用後整體半透明</translation>
+    </message>
+    <message>
+        <source>按钮组：单选</source>
+        <translation>按鈕群組：單選</translation>
+    </message>
+    <message>
+        <source>最多选中一项，再次点击可取消选中</source>
+        <translation>最多選取一項，再次點擊可取消選取</translation>
+    </message>
+    <message>
+        <source>左对齐</source>
+        <translation>靠左對齊</translation>
+    </message>
+    <message>
+        <source>居中</source>
+        <translation>置中對齊</translation>
+    </message>
+    <message>
+        <source>右对齐</source>
+        <translation>靠右對齊</translation>
+    </message>
+    <message>
+        <source>日</source>
+        <translation>日</translation>
+    </message>
+    <message>
+        <source>周</source>
+        <translation>週</translation>
+    </message>
+    <message>
+        <source>月</source>
+        <translation>月</translation>
+    </message>
+    <message>
+        <source>当前选中: 周</source>
+        <translation>目前選取: 週</translation>
+    </message>
+    <message>
+        <source>当前选中: %1</source>
+        <translation>目前選取: %1</translation>
+    </message>
+    <message>
+        <source>当前选中: 无</source>
+        <translation>目前選取: 無</translation>
+    </message>
+    <message>
+        <source>按钮组：多选</source>
+        <translation>按鈕群組：複選</translation>
+    </message>
+    <message>
+        <source>可以同时选中多项</source>
+        <translation>可以同時選取多項</translation>
+    </message>
+</context>
+<context>
+    <name>ToolbarPage</name>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最近點擊: %1</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最近點擊: 無</translation>
+    </message>
+    <message>
+        <source>工具栏</source>
+        <translation>工具列</translation>
+    </message>
+    <message>
+        <source>ShadToolbar：放置常用操作的工具栏。</source>
+        <translation>ShadToolbar：放置常用操作的工具列。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>按钮、勾选、下拉菜单与分隔线</source>
+        <translation>按鈕、勾選、下拉選單與分隔線</translation>
+    </message>
+    <message>
+        <source>撤销</source>
+        <translation>復原</translation>
+    </message>
+    <message>
+        <source>重做</source>
+        <translation>重做</translation>
+    </message>
+    <message>
+        <source>加粗</source>
+        <translation>粗體</translation>
+    </message>
+    <message>
+        <source>斜体</source>
+        <translation>斜體</translation>
+    </message>
+    <message>
+        <source>下划线</source>
+        <translation>底線</translation>
+    </message>
+    <message>
+        <source>对齐</source>
+        <translation>對齊</translation>
+    </message>
+    <message>
+        <source>左对齐</source>
+        <translation>靠左對齊</translation>
+    </message>
+    <message>
+        <source>居中</source>
+        <translation>置中對齊</translation>
+    </message>
+    <message>
+        <source>右对齐</source>
+        <translation>靠右對齊</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>显示文字</source>
+        <translation>顯示文字</translation>
+    </message>
+    <message>
+        <source>图标旁显示文字</source>
+        <translation>圖示旁顯示文字</translation>
+    </message>
+    <message>
+        <source>新建</source>
+        <translation>新增</translation>
+    </message>
+    <message>
+        <source>打开</source>
+        <translation>開啟</translation>
+    </message>
+    <message>
+        <source>分享</source>
+        <translation>分享</translation>
+    </message>
+    <message>
+        <source>邮件</source>
+        <translation>電子郵件</translation>
+    </message>
+    <message>
+        <source>复制链接</source>
+        <translation>複製連結</translation>
+    </message>
+    <message>
+        <source>纵向</source>
+        <translation>垂直</translation>
+    </message>
+    <message>
+        <source>纵向排列，勾选项可以互斥</source>
+        <translation>垂直排列，勾選項目可設為互斥</translation>
+    </message>
+    <message>
+        <source>选择</source>
+        <translation>選擇</translation>
+    </message>
+    <message>
+        <source>平移</source>
+        <translation>平移</translation>
+    </message>
+    <message>
+        <source>画笔</source>
+        <translation>畫筆</translation>
+    </message>
+    <message>
+        <source>橡皮擦</source>
+        <translation>橡皮擦</translation>
+    </message>
+    <message>
+        <source>文字</source>
+        <translation>文字</translation>
+    </message>
+    <message>
+        <source>放大</source>
+        <translation>放大</translation>
+    </message>
+    <message>
+        <source>缩小</source>
+        <translation>縮小</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>剪切</source>
+        <translation>剪下</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>貼上</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>刪除</translation>
+    </message>
+    <message>
+        <source>溢出</source>
+        <translation>溢位</translation>
+    </message>
+    <message>
+        <source>宽度不够时收进更多菜单，拖动滑块调整宽度</source>
+        <translation>寬度不夠時收進「更多」選單，拖曳滑桿調整寬度</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>搜尋</translation>
+    </message>
+    <message>
+        <source>打印</source>
+        <translation>列印</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+</context>
+<context>
+    <name>TooltipPage</name>
+    <message>
+        <source>悬停提示</source>
+        <translation>工具提示</translation>
+    </message>
+    <message>
+        <source>ShadTooltip：统一所有组件 toolTip 样式的悬停提示，悬停或聚焦时出现。</source>
+        <translation>ShadTooltip：統一所有元件 toolTip 樣式的工具提示，滑鼠停留或聚焦時出現。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>直接使用 setToolTip，默认立即显示</source>
+        <translation>直接使用 setToolTip，預設立即顯示</translation>
+    </message>
+    <message>
+        <source>悬停</source>
+        <translation>滑鼠停留</translation>
+    </message>
+    <message>
+        <source>添加到收藏</source>
+        <translation>加入收藏</translation>
+    </message>
+    <message>
+        <source>收藏</source>
+        <translation>收藏</translation>
+    </message>
+    <message>
+        <source>长文字</source>
+        <translation>長文字</translation>
+    </message>
+    <message>
+        <source>提示文字超过 320px 时自动换行，适合放一两句简短的说明，不要放可以交互的内容。</source>
+        <translation>提示文字超過 320px 時會自動換行，適合放一兩句簡短的說明，請勿放入可互動的內容。</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>setSide：指定提示方向，空间不足时翻到对侧</source>
+        <translation>setSide：指定提示方向，空間不足時翻到對側</translation>
+    </message>
+    <message>
+        <source>上方</source>
+        <translation>上方</translation>
+    </message>
+    <message>
+        <source>显示在上方</source>
+        <translation>顯示在上方</translation>
+    </message>
+    <message>
+        <source>下方</source>
+        <translation>下方</translation>
+    </message>
+    <message>
+        <source>显示在下方</source>
+        <translation>顯示在下方</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左側</translation>
+    </message>
+    <message>
+        <source>显示在左侧</source>
+        <translation>顯示在左側</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右側</translation>
+    </message>
+    <message>
+        <source>显示在右侧</source>
+        <translation>顯示在右側</translation>
+    </message>
+    <message>
+        <source>快捷键</source>
+        <translation>快速鍵</translation>
+    </message>
+    <message>
+        <source>setShortcut：在提示文字后显示快捷键</source>
+        <translation>setShortcut：在提示文字後顯示快速鍵</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>保存更改</source>
+        <translation>儲存變更</translation>
+    </message>
+    <message>
+        <source>打印</source>
+        <translation>列印</translation>
+    </message>
+    <message>
+        <source>打印文档</source>
+        <translation>列印文件</translation>
+    </message>
+    <message>
+        <source>键盘聚焦</source>
+        <translation>鍵盤聚焦</translation>
+    </message>
+    <message>
+        <source>键盘聚焦到按钮时同样显示提示</source>
+        <translation>鍵盤聚焦到按鈕時同樣會顯示提示</translation>
+    </message>
+    <message>
+        <source>第一个</source>
+        <translation>第一個</translation>
+    </message>
+    <message>
+        <source>第二个</source>
+        <translation>第二個</translation>
+    </message>
+    <message>
+        <source>第三个</source>
+        <translation>第三個</translation>
+    </message>
+    <message>
+        <source>通过键盘聚焦到%1按钮</source>
+        <translation>透過鍵盤聚焦到%1按鈕</translation>
+    </message>
+    <message>
+        <source>禁用组件</source>
+        <translation>停用的元件</translation>
+    </message>
+    <message>
+        <source>禁用组件外包一层容器，把提示设在容器上</source>
+        <translation>在停用的元件外包一層容器，把提示設在容器上</translation>
+    </message>
+    <message>
+        <source>已禁用</source>
+        <translation>已停用</translation>
+    </message>
+    <message>
+        <source>该操作当前不可用</source>
+        <translation>此操作目前無法使用</translation>
+    </message>
+</context>
+<context>
+    <name>TracePage</name>
+    <message>
+        <source>在浏览器中打开 %1</source>
+        <translation>在瀏覽器中開啟 %1</translation>
+    </message>
+    <message>
+        <source>执行记录</source>
+        <translation>執行記錄</translation>
+    </message>
+    <message>
+        <source>ShadTrace / ShadTraceLine / ShadTraceCollapsible：按行显示 agent 的执行过程，每行可展开详情或打开链接。</source>
+        <translation>ShadTrace / ShadTraceLine / ShadTraceCollapsible：逐列顯示 agent 的執行過程，每列可展開詳細資料或開啟連結。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>添加普通行与可展开的行</source>
+        <translation>新增一般列與可展開的列</translation>
+    </message>
+    <message>
+        <source>已搜索 frozen-lockfile</source>
+        <translation>已搜尋 frozen-lockfile</translation>
+    </message>
+    <message>
+        <source>已运行 node --version</source>
+        <translation>已執行 node --version</translation>
+    </message>
+    <message>
+        <source>单行</source>
+        <translation>單列</translation>
+    </message>
+    <message>
+        <source>默认不可点击，只作为文字显示</source>
+        <translation>預設不可點擊，僅作為文字顯示</translation>
+    </message>
+    <message>
+        <source>已创建分支 fix/frozen-lockfile</source>
+        <translation>已建立分支 fix/frozen-lockfile</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>用颜色与动画区分状态，标题也要写明状态</source>
+        <translation>以顏色與動畫區分狀態，標題也要寫明狀態</translation>
+    </message>
+    <message>
+        <source>已运行 pnpm install</source>
+        <translation>已執行 pnpm install</translation>
+    </message>
+    <message>
+        <source>运行 pnpm lint 失败</source>
+        <translation>執行 pnpm lint 失敗</translation>
+    </message>
+    <message>
+        <source>正在运行 pnpm build</source>
+        <translation>正在執行 pnpm build</translation>
+    </message>
+    <message>
+        <source>运行 pnpm test</source>
+        <translation>執行 pnpm test</translation>
+    </message>
+    <message>
+        <source>描述</source>
+        <translation>描述</translation>
+    </message>
+    <message>
+        <source>描述显示数量、耗时或改动统计</source>
+        <translation>描述顯示數量、耗時或變更統計</translation>
+    </message>
+    <message>
+        <source>已编辑 components/settings/notification-preferences-form.tsx</source>
+        <translation>已編輯 components/settings/notification-preferences-form.tsx</translation>
+    </message>
+    <message>
+        <source>已运行 pnpm test</source>
+        <translation>已執行 pnpm test</translation>
+    </message>
+    <message>
+        <source>已搜索 useChat</source>
+        <translation>已搜尋 useChat</translation>
+    </message>
+    <message>
+        <source>8 个结果</source>
+        <translation>8 個結果</translation>
+    </message>
+    <message>
+        <source>可展开</source>
+        <translation>可展開</translation>
+    </message>
+    <message>
+        <source>触发行带箭头，展开后显示详情区</source>
+        <translation>觸發列帶有箭頭，展開後顯示詳細資料區</translation>
+    </message>
+    <message>
+        <source>展开状态</source>
+        <translation>展開狀態</translation>
+    </message>
+    <message>
+        <source>默认展开或外部控制，运行中的行自动展开</source>
+        <translation>預設展開或由外部控制，執行中的列會自動展開</translation>
+    </message>
+    <message>
+        <source>已运行 pnpm --version</source>
+        <translation>已執行 pnpm --version</translation>
+    </message>
+    <message>
+        <source>显示 pnpm 输出</source>
+        <translation>顯示 pnpm 輸出</translation>
+    </message>
+    <message>
+        <source>隐藏 pnpm 输出</source>
+        <translation>隱藏 pnpm 輸出</translation>
+    </message>
+    <message>
+        <source>已运行 pnpm build</source>
+        <translation>已執行 pnpm build</translation>
+    </message>
+    <message>
+        <source>重新运行构建</source>
+        <translation>重新執行建置</translation>
+    </message>
+    <message>
+        <source>链接</source>
+        <translation>連結</translation>
+    </message>
+    <message>
+        <source>setUrl：把一行设为链接，用系统浏览器打开</source>
+        <translation>setUrl：將一列設為連結，以系統瀏覽器開啟</translation>
+    </message>
+    <message>
+        <source>浮层</source>
+        <translation>浮層</translation>
+    </message>
+    <message>
+        <source>点击可点击的行时打开浮层</source>
+        <translation>點擊可點擊的列時開啟浮層</translation>
+    </message>
+    <message>
+        <source>已在网上搜索缓存键</source>
+        <translation>已在網路上搜尋快取金鑰</translation>
+    </message>
+    <message>
+        <source>3 个结果</source>
+        <translation>3 個結果</translation>
+    </message>
+    <message>
+        <source>搜索：pnpm cache key</source>
+        <translation>搜尋：pnpm cache key</translation>
+    </message>
+    <message>
+        <source>3 个结果，按相关度排序</source>
+        <translation>3 個結果，依相關度排序</translation>
+    </message>
+    <message>
+        <source>分组</source>
+        <translation>群組</translation>
+    </message>
+    <message>
+        <source>相邻的几行放在同一个 ShadTrace 中</source>
+        <translation>相鄰的幾列放在同一個 ShadTrace 中</translation>
+    </message>
+    <message>
+        <source>已搜索 lockfile 设置</source>
+        <translation>已搜尋 lockfile 設定</translation>
+    </message>
+    <message>
+        <source>4 个结果</source>
+        <translation>4 個結果</translation>
+    </message>
+    <message>
+        <source>已读取 pnpm-workspace.yaml</source>
+        <translation>已讀取 pnpm-workspace.yaml</translation>
+    </message>
+    <message>
+        <source>来源</source>
+        <translation>來源</translation>
+    </message>
+    <message>
+        <source>展开后显示一组来源链接</source>
+        <translation>展開後顯示一組來源連結</translation>
+    </message>
+    <message>
+        <source>使用了 3 个来源</source>
+        <translation>使用了 3 個來源</translation>
+    </message>
+    <message>
+        <source>思维链</source>
+        <translation>思維鏈</translation>
+    </message>
+    <message>
+        <source>子步骤依次完成，父行按子步骤汇总状态</source>
+        <translation>子步驟依序完成，父列依子步驟彙總狀態</translation>
+    </message>
+    <message>
+        <source>读取 package.json</source>
+        <translation>讀取 package.json</translation>
+    </message>
+    <message>
+        <source>正在读取 package.json</source>
+        <translation>正在讀取 package.json</translation>
+    </message>
+    <message>
+        <source>已读取 package.json</source>
+        <translation>已讀取 package.json</translation>
+    </message>
+    <message>
+        <source>查找 next.config</source>
+        <translation>尋找 next.config</translation>
+    </message>
+    <message>
+        <source>正在查找 next.config</source>
+        <translation>正在尋找 next.config</translation>
+    </message>
+    <message>
+        <source>已找到 next.config.ts</source>
+        <translation>已找到 next.config.ts</translation>
+    </message>
+    <message>
+        <source>检查构建脚本</source>
+        <translation>檢查建置指令碼</translation>
+    </message>
+    <message>
+        <source>正在检查构建脚本</source>
+        <translation>正在檢查建置指令碼</translation>
+    </message>
+    <message>
+        <source>已检查构建脚本</source>
+        <translation>已檢查建置指令碼</translation>
+    </message>
+    <message>
+        <source>正在思考：%1</source>
+        <translation>正在思考：%1</translation>
+    </message>
+    <message>
+        <source>思考了 %1 个步骤</source>
+        <translation>思考了 %1 個步驟</translation>
+    </message>
+    <message>
+        <source>重新思考</source>
+        <translation>重新思考</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>提交</translation>
+    </message>
+    <message>
+        <source>文件行显示改动行数，点击后在浮层中查看 diff</source>
+        <translation>檔案列顯示變更行數，點擊後在浮層中檢視 diff</translation>
+    </message>
+    <message>
+        <source>已提交 a1b2c3：修复登录后的跳转</source>
+        <translation>已提交 a1b2c3：修復登入後的跳轉</translation>
+    </message>
+    <message>
+        <source>已添加 %1</source>
+        <translation>已新增 %1</translation>
+    </message>
+    <message>
+        <source>已编辑 %1</source>
+        <translation>已編輯 %1</translation>
+    </message>
+    <message>
+        <source>%1 处新增，%2 处删除</source>
+        <translation>%1 處新增，%2 處刪除</translation>
+    </message>
+    <message>
+        <source>完整回合</source>
+        <translation>完整回合</translation>
+    </message>
+    <message>
+        <source>三层嵌套：回合展开为步骤，步骤再展开为输出</source>
+        <translation>三層巢狀：回合展開為步驟，步驟再展開為輸出</translation>
+    </message>
+    <message>
+        <source>工作了 2 分 4 秒，1 个命令失败</source>
+        <translation>工作了 2 分 4 秒，1 個命令失敗</translation>
+    </message>
+    <message>
+        <source>思考</source>
+        <translation>思考</translation>
+    </message>
+    <message>
+        <source>在生成项目之前，先确认安装了哪些包管理器。</source>
+        <translation>在產生專案之前，先確認安裝了哪些套件管理員。</translation>
+    </message>
+    <message>
+        <source>运行了 2 个命令，1 个失败</source>
+        <translation>執行了 2 個命令，1 個失敗</translation>
+    </message>
+    <message>
+        <source>运行 pnpm --version 失败</source>
+        <translation>執行 pnpm --version 失敗</translation>
+    </message>
+    <message>
+        <source>已安装 Node，没有安装 pnpm。接下来读取文档配置。</source>
+        <translation>已安裝 Node，沒有安裝 pnpm。接下來讀取文件設定。</translation>
+    </message>
+    <message>
+        <source>已读取 apps/v4/lib/docs.ts</source>
+        <translation>已讀取 apps/v4/lib/docs.ts</translation>
+    </message>
+</context>
+<context>
+    <name>TreeSelectPage</name>
+    <message>
+        <source>树形选择</source>
+        <translation>樹狀選擇</translation>
+    </message>
+    <message>
+        <source>ShadTreeSelect：在下拉的树中选择节点，支持单选、多选、父子勾选联动与搜索。</source>
+        <translation>ShadTreeSelect：在下拉的樹狀結構中選擇節點，支援單選、複選、父子勾選連動與搜尋。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击节点即选中并关闭弹出层，方向键导航，左右键折叠展开</source>
+        <translation>點擊節點即選取並關閉彈出層，方向鍵導覽，左右鍵收合展開</translation>
+    </message>
+    <message>
+        <source>选择地区</source>
+        <translation>選擇地區</translation>
+    </message>
+    <message>
+        <source>只选叶子节点</source>
+        <translation>只選葉節點</translation>
+    </message>
+    <message>
+        <source>开启 leafOnly 后点击地区、县市只展开或折叠，触发框显示完整路径</source>
+        <translation>開啟 leafOnly 後，點擊地區、縣市只會展開或收合，觸發框顯示完整路徑</translation>
+    </message>
+    <message>
+        <source>选择区县</source>
+        <translation>選擇區縣</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>搜尋</translation>
+    </message>
+    <message>
+        <source>按模糊匹配过滤，匹配节点的祖先自动展开，匹配节点的下级全部保留</source>
+        <translation>依模糊比對篩選，符合節點的上層自動展開，符合節點的下層全部保留</translation>
+    </message>
+    <message>
+        <source>搜索地区...</source>
+        <translation>搜尋地區...</translation>
+    </message>
+    <message>
+        <source>没有找到地区</source>
+        <translation>找不到地區</translation>
+    </message>
+    <message>
+        <source>多选</source>
+        <translation>複選</translation>
+    </message>
+    <message>
+        <source>勾选父节点同步全部下级，三种回显策略对比：ShowChild 只显示叶子节点，ShowParent 下级全选时只显示父节点，ShowAll 显示全部勾选节点</source>
+        <translation>勾選父節點會同步勾選全部下層，三種回顯策略對比：ShowChild 只顯示葉節點，ShowParent 在下層全選時只顯示父節點，ShowAll 顯示全部勾選的節點</translation>
+    </message>
+    <message>
+        <source>尺寸与状态</source>
+        <translation>尺寸與狀態</translation>
+    </message>
+    <message>
+        <source>Small 尺寸为 24px，错误态边框为危险色，禁用后半透明</source>
+        <translation>Small 尺寸為 24px，錯誤狀態的邊框為危險色，停用後半透明</translation>
+    </message>
+    <message>
+        <source>必填项</source>
+        <translation>必填項目</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>当前选择: 无</source>
+        <translation>目前選擇: 無</translation>
+    </message>
+    <message>
+        <source>当前选择: %1</source>
+        <translation>目前選擇: %1</translation>
+    </message>
+    <message>
+        <source>、</source>
+        <comment>列表分隔符</comment>
+        <translation>、</translation>
+    </message>
+    <message>
+        <source>无</source>
+        <translation>無</translation>
+    </message>
+    <message>
+        <source>北部</source>
+        <translation>北部</translation>
+    </message>
+    <message>
+        <source>台北市</source>
+        <translation>臺北市</translation>
+    </message>
+    <message>
+        <source>中正区</source>
+        <translation>中正區</translation>
+    </message>
+    <message>
+        <source>大安区</source>
+        <translation>大安區</translation>
+    </message>
+    <message>
+        <source>信义区</source>
+        <translation>信義區</translation>
+    </message>
+    <message>
+        <source>新北市</source>
+        <translation>新北市</translation>
+    </message>
+    <message>
+        <source>板桥区</source>
+        <translation>板橋區</translation>
+    </message>
+    <message>
+        <source>淡水区</source>
+        <translation>淡水區</translation>
+    </message>
+    <message>
+        <source>三重区</source>
+        <translation>三重區</translation>
+    </message>
+    <message>
+        <source>中部</source>
+        <translation>中部</translation>
+    </message>
+    <message>
+        <source>台中市</source>
+        <translation>臺中市</translation>
+    </message>
+    <message>
+        <source>西屯区</source>
+        <translation>西屯區</translation>
+    </message>
+    <message>
+        <source>北屯区</source>
+        <translation>北屯區</translation>
+    </message>
+    <message>
+        <source>彰化县</source>
+        <translation>彰化縣</translation>
+    </message>
+    <message>
+        <source>彰化市</source>
+        <translation>彰化市</translation>
+    </message>
+    <message>
+        <source>鹿港镇</source>
+        <translation>鹿港鎮</translation>
+    </message>
+    <message>
+        <source>南部</source>
+        <translation>南部</translation>
+    </message>
+    <message>
+        <source>高雄市</source>
+        <translation>高雄市</translation>
+    </message>
+    <message>
+        <source>苓雅区</source>
+        <translation>苓雅區</translation>
+    </message>
+    <message>
+        <source>左营区</source>
+        <translation>左營區</translation>
+    </message>
+</context>
+<context>
+    <name>TreeViewPage</name>
+    <message>
+        <source>树形视图</source>
+        <translation>樹狀檢視</translation>
+    </message>
+    <message>
+        <source>ShadTreeView：继承 QTreeView 的树形视图，支持图标、复选框、多列与拖放。</source>
+        <translation>ShadTreeView：繼承自 QTreeView 的樹狀檢視，支援圖示、核取方塊、多欄與拖放。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>IconRole 指定 Lucide 图标，文件夹展开时自动切换图标</source>
+        <translation>IconRole 指定 Lucide 圖示，資料夾展開時自動切換圖示</translation>
+    </message>
+    <message>
+        <source>未选择</source>
+        <translation>未選擇</translation>
+    </message>
+    <message>
+        <source>复选框</source>
+        <translation>核取方塊</translation>
+    </message>
+    <message>
+        <source>勾选父节点全选子节点，子节点部分勾选时父节点半选</source>
+        <translation>勾選父節點會全選子節點，子節點部分勾選時父節點為半選狀態</translation>
+    </message>
+    <message>
+        <source>用户管理</source>
+        <translation>使用者管理</translation>
+    </message>
+    <message>
+        <source>查看用户</source>
+        <translation>檢視使用者</translation>
+    </message>
+    <message>
+        <source>编辑用户</source>
+        <translation>編輯使用者</translation>
+    </message>
+    <message>
+        <source>删除用户</source>
+        <translation>刪除使用者</translation>
+    </message>
+    <message>
+        <source>内容管理</source>
+        <translation>內容管理</translation>
+    </message>
+    <message>
+        <source>发布文章</source>
+        <translation>發佈文章</translation>
+    </message>
+    <message>
+        <source>审核评论</source>
+        <translation>審核留言</translation>
+    </message>
+    <message>
+        <source>系统设置</source>
+        <translation>系統設定</translation>
+    </message>
+    <message>
+        <source>修改主题</source>
+        <translation>修改主題</translation>
+    </message>
+    <message>
+        <source>备份数据</source>
+        <translation>備份資料</translation>
+    </message>
+    <message>
+        <source>全部展开</source>
+        <translation>全部展開</translation>
+    </message>
+    <message>
+        <source>全部折叠</source>
+        <translation>全部收合</translation>
+    </message>
+    <message>
+        <source>多列与表头</source>
+        <translation>多欄與表頭</translation>
+    </message>
+    <message>
+        <source>显示表头后与表格的表头外观一致</source>
+        <translation>顯示表頭後，外觀與表格的表頭一致</translation>
+    </message>
+    <message>
+        <source>名称</source>
+        <translation>名稱</translation>
+    </message>
+    <message>
+        <source>大小</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <source>修改时间</source>
+        <translation>修改時間</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>文件</translation>
+    </message>
+    <message>
+        <source>季度报告.pdf</source>
+        <translation>季度報告.pdf</translation>
+    </message>
+    <message>
+        <source>会议纪要.docx</source>
+        <translation>會議記錄.docx</translation>
+    </message>
+    <message>
+        <source>图片</source>
+        <translation>圖片</translation>
+    </message>
+    <message>
+        <source>封面.png</source>
+        <translation>封面.png</translation>
+    </message>
+    <message>
+        <source>安装包.zip</source>
+        <translation>安裝套件.zip</translation>
+    </message>
+    <message>
+        <source>拖放排序</source>
+        <translation>拖放排序</translation>
+    </message>
+    <message>
+        <source>InternalMove：拖动节点调整顺序或移入文件夹</source>
+        <translation>InternalMove：拖曳節點調整順序或移入資料夾</translation>
+    </message>
+    <message>
+        <source>样式选项</source>
+        <translation>樣式選項</translation>
+    </message>
+    <message>
+        <source>关闭缩进线，行高改为 28</source>
+        <translation>關閉縮排線，列高改為 28</translation>
+    </message>
+    <message>
+        <source>从右到左时缩进、箭头与图标位于右侧</source>
+        <translation>由右至左時，縮排、箭頭與圖示位於右側</translation>
+    </message>
+</context>
+<context>
+    <name>WatermarkPage</name>
+    <message>
+        <source>水印</source>
+        <translation>浮水印</translation>
+    </message>
+    <message>
+        <source>ShadWatermark：在目标组件上平铺文字或图片水印，不拦截鼠标事件。</source>
+        <translation>ShadWatermark：在目標元件上平鋪文字或圖片浮水印，不攔截滑鼠事件。</translation>
+    </message>
+    <message>
+        <source>季度经营报告</source>
+        <translation>季度經營報告</translation>
+    </message>
+    <message>
+        <source>本季度整体收入保持稳定增长，各业务线的成本控制良好，详细数据见附表。</source>
+        <translation>本季整體收入保持穩定成長，各業務線的成本控管良好，詳細資料請見附表。</translation>
+    </message>
+    <message>
+        <source>文字水印</source>
+        <translation>文字浮水印</translation>
+    </message>
+    <message>
+        <source>水印覆盖在内容之上，奇数行交错排列</source>
+        <translation>浮水印覆蓋在內容之上，奇數列交錯排列</translation>
+    </message>
+    <message>
+        <source>内部资料</source>
+        <translation>內部資料</translation>
+    </message>
+    <message>
+        <source>多行文字</source>
+        <translation>多行文字</translation>
+    </message>
+    <message>
+        <source>文字中的换行符会拆成多行</source>
+        <translation>文字中的換行符號會拆成多行</translation>
+    </message>
+    <message>
+        <source>ShadcnWidgetTools</source>
+        <translation>ShadcnWidgetTools</translation>
+    </message>
+    <message>
+        <source>图片水印</source>
+        <translation>圖片浮水印</translation>
+    </message>
+    <message>
+        <source>使用图标渲染的图片，透明度 0.15</source>
+        <translation>使用圖示算繪的圖片，透明度 0.15</translation>
+    </message>
+    <message>
+        <source>自定义</source>
+        <translation>自訂</translation>
+    </message>
+    <message>
+        <source>拖动滑块实时调整旋转角度、间距和字号</source>
+        <translation>拖曳滑桿即時調整旋轉角度、間距和字型大小</translation>
+    </message>
+    <message>
+        <source>旋转角度: %1</source>
+        <translation>旋轉角度: %1</translation>
+    </message>
+    <message>
+        <source>间距: %1</source>
+        <translation>間距: %1</translation>
+    </message>
+    <message>
+        <source>字号: %1</source>
+        <translation>字型大小: %1</translation>
+    </message>
+</context>
+<context>
+    <name>WidgetPage</name>
+    <message>
+        <source>按钮位置</source>
+        <translation>按鈕位置</translation>
+    </message>
+    <message>
+        <source>窗口按钮默认在右侧，打开下方开关后移到左侧。</source>
+        <translation>視窗按鈕預設在右側，開啟下方開關後會移到左側。</translation>
+    </message>
+    <message>
+        <source>按钮放在左侧</source>
+        <translation>按鈕放在左側</translation>
+    </message>
+    <message>
+        <source>窗口按钮可放在标题栏左侧或右侧</source>
+        <translation>視窗按鈕可放在標題列左側或右側</translation>
+    </message>
+    <message>
+        <source>通知设置</source>
+        <translation>通知設定</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>选择你希望收到的通知类型，修改会立即生效。</source>
+        <translation>選擇你希望收到的通知類型，修改會立即生效。</translation>
+    </message>
+    <message>
+        <source>邮件通知</source>
+        <translation>電子郵件通知</translation>
+    </message>
+    <message>
+        <source>推送通知</source>
+        <translation>推播通知</translation>
+    </message>
+    <message>
+        <source>每周摘要</source>
+        <translation>每週摘要</translation>
+    </message>
+    <message>
+        <source>移到中央</source>
+        <translation>移到中央</translation>
+    </message>
+    <message>
+        <source>完成</source>
+        <translation>完成</translation>
+    </message>
+    <message>
+        <source>云同步</source>
+        <translation>雲端同步</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>这个窗口没有最大化按钮，双击标题栏不会最大化；标题后的徽章与右侧的设置按钮通过 setTitleBarWidget 放入。</source>
+        <translation>這個視窗沒有最大化按鈕，按兩下標題列不會最大化；標題後的徽章與右側的設定按鈕是透過 setTitleBarWidget 放入的。</translation>
+    </message>
+    <message>
+        <source>固定尺寸</source>
+        <translation>固定尺寸</translation>
+    </message>
+    <message>
+        <source>这个窗口的尺寸固定为 360 × 220。</source>
+        <translation>這個視窗的尺寸固定為 360 × 220。</translation>
+    </message>
+    <message>
+        <source>便签</source>
+        <translation>便利貼</translation>
+    </message>
+    <message>
+        <source>打开下方开关或点击标题栏的图钉按钮后，这个窗口会保持在其他窗口之上。</source>
+        <translation>開啟下方開關或點擊標題列的圖釘按鈕後，這個視窗會保持在其他視窗之上。</translation>
+    </message>
+    <message>
+        <source>保持在最上层</source>
+        <translation>保持在最上層</translation>
+    </message>
+    <message>
+        <source>放弃修改？</source>
+        <translation>捨棄修改？</translation>
+    </message>
+    <message>
+        <source>草稿还没有保存，关闭后修改会丢失。</source>
+        <translation>草稿還沒有儲存，關閉後修改會遺失。</translation>
+    </message>
+    <message>
+        <source>继续编辑</source>
+        <translation>繼續編輯</translation>
+    </message>
+    <message>
+        <source>放弃并关闭</source>
+        <translation>捨棄並關閉</translation>
+    </message>
+    <message>
+        <source>未保存的草稿</source>
+        <translation>未儲存的草稿</translation>
+    </message>
+    <message>
+        <source>草稿</source>
+        <translation>草稿</translation>
+    </message>
+    <message>
+        <source>点击标题栏的关闭按钮或按 Alt+F4 时会先询问是否放弃修改。</source>
+        <translation>點擊標題列的關閉按鈕或按 Alt+F4 時，會先詢問是否捨棄修改。</translation>
+    </message>
+    <message>
+        <source>独立窗口</source>
+        <translation>獨立視窗</translation>
+    </message>
+    <message>
+        <source>ShadWidget：外观与 ShadWindow 相同的独立窗口，标题栏不占用布局，可以直接 setLayout。</source>
+        <translation>ShadWidget：外觀與 ShadWindow 相同的獨立視窗，標題列不佔用版面配置，可以直接 setLayout。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>直接 setLayout，内容从标题栏下方开始</source>
+        <translation>直接 setLayout，內容從標題列下方開始</translation>
+    </message>
+    <message>
+        <source>打开窗口</source>
+        <translation>開啟視窗</translation>
+    </message>
+    <message>
+        <source>标题栏按钮与自定义组件</source>
+        <translation>標題列按鈕與自訂元件</translation>
+    </message>
+    <message>
+        <source>精简窗口按钮，并在标题栏放入自定义组件</source>
+        <translation>精簡視窗按鈕，並在標題列放入自訂元件</translation>
+    </message>
+    <message>
+        <source>固定尺寸后不能拖动缩放，也不能双击最大化</source>
+        <translation>固定尺寸後無法拖曳縮放，也無法按兩下最大化</translation>
+    </message>
+    <message>
+        <source>置顶</source>
+        <translation>置頂</translation>
+    </message>
+    <message>
+        <source>保持在其他窗口之上，标题栏可显示置顶按钮</source>
+        <translation>保持在其他視窗之上，標題列可顯示置頂按鈕</translation>
+    </message>
+    <message>
+        <source>拦截关闭按钮</source>
+        <translation>攔截關閉按鈕</translation>
+    </message>
+    <message>
+        <source>关闭请求只发出 closeRequested，确认后再关闭</source>
+        <translation>關閉要求只會發出 closeRequested，確認後再關閉</translation>
+    </message>
+</context>
+</TS>

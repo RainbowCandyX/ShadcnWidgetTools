@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_TW" sourcelanguage="zh_CN">
+<context>
+    <name>ShadAlertDialog</name>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>继续</source>
+        <translation>繼續</translation>
+    </message>
+</context>
+<context>
+    <name>ShadAttachment</name>
+    <message>
+        <source>文件</source>
+        <translation>檔案</translation>
+    </message>
+    <message>
+        <source>打开链接</source>
+        <translation>開啟連結</translation>
+    </message>
+    <message>
+        <source>复制链接地址</source>
+        <translation>複製連結網址</translation>
+    </message>
+</context>
+<context>
+    <name>ShadBiometric</name>
+    <message>
+        <source>验证你的身份</source>
+        <translation>驗證你的身分</translation>
+    </message>
+    <message>
+        <source>已取消</source>
+        <translation>已取消</translation>
+    </message>
+    <message>
+        <source>当前设备不支持身份验证</source>
+        <translation>目前的裝置不支援身分驗證</translation>
+    </message>
+    <message>
+        <source>尚未设置指纹或 Windows Hello</source>
+        <translation>尚未設定指紋或 Windows Hello</translation>
+    </message>
+    <message>
+        <source>尝试次数过多，已暂时锁定</source>
+        <translation>嘗試次數過多，已暫時鎖定</translation>
+    </message>
+    <message>
+        <source>身份验证未通过</source>
+        <translation>身分驗證未通過</translation>
+    </message>
+    <message>
+        <source>身份验证失败</source>
+        <translation>身分驗證失敗</translation>
+    </message>
+    <message>
+        <source>系统返回错误：%1</source>
+        <translation>系統回傳錯誤：%1</translation>
+    </message>
+</context>
+<context>
+    <name>ShadBreadcrumb</name>
+    <message>
+        <source>显示更多</source>
+        <translation>顯示更多</translation>
+    </message>
+    <message>
+        <source>面包屑导航</source>
+        <translation>導覽列</translation>
+    </message>
+</context>
+<context>
+    <name>ShadButtonGroup</name>
+    <message>
+        <source>按钮组</source>
+        <translation>按鈕群組</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCalendar</name>
+    <message>
+        <source>上一月</source>
+        <translation>上個月</translation>
+    </message>
+    <message>
+        <source>下一月</source>
+        <translation>下個月</translation>
+    </message>
+    <message>
+        <source>月份</source>
+        <translation>月份</translation>
+    </message>
+    <message>
+        <source>年份</source>
+        <translation>年份</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCarousel</name>
+    <message>
+        <source>上一张</source>
+        <translation>上一張</translation>
+    </message>
+    <message>
+        <source>下一张</source>
+        <translation>下一張</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCodeBlock</name>
+    <message>
+        <source>已复制</source>
+        <translation>已複製</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCodeBlockView</name>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>全选</source>
+        <translation>全選</translation>
+    </message>
+</context>
+<context>
+    <name>ShadColorDialog</name>
+    <message>
+        <source>选择颜色</source>
+        <translation>選擇顏色</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>确定</source>
+        <translation>確定</translation>
+    </message>
+</context>
+<context>
+    <name>ShadColorPicker</name>
+    <message>
+        <source>点击下半部分恢复原始颜色</source>
+        <translation>點擊下半部可還原為原始顏色</translation>
+    </message>
+    <message>
+        <source>从屏幕取色</source>
+        <translation>從螢幕取色</translation>
+    </message>
+    <message>
+        <source>基本颜色</source>
+        <translation>基本顏色</translation>
+    </message>
+    <message>
+        <source>添加到自定义颜色</source>
+        <translation>加入自訂顏色</translation>
+    </message>
+    <message>
+        <source>移除选中的自定义颜色</source>
+        <translation>移除選取的自訂顏色</translation>
+    </message>
+    <message>
+        <source>自定义颜色</source>
+        <translation>自訂顏色</translation>
+    </message>
+</context>
+<context>
+    <name>ShadComboBox</name>
+    <message>
+        <source>搜索...</source>
+        <translation>搜尋...</translation>
+    </message>
+    <message>
+        <source>未找到结果</source>
+        <translation>找不到結果</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCommand</name>
+    <message>
+        <source>输入命令或搜索…</source>
+        <translation>輸入命令或搜尋…</translation>
+    </message>
+    <message>
+        <source>没有找到结果。</source>
+        <translation>找不到結果。</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCommandDialog</name>
+    <message>
+        <source>命令面板</source>
+        <translation>命令面板</translation>
+    </message>
+</context>
+<context>
+    <name>ShadDataTable</name>
+    <message>
+        <source>筛选...</source>
+        <translation>篩選...</translation>
+    </message>
+    <message>
+        <source>列</source>
+        <translation>欄位</translation>
+    </message>
+    <message>
+        <source>没有结果</source>
+        <translation>沒有結果</translation>
+    </message>
+    <message>
+        <source>已选择 %1 / %2 行</source>
+        <translation>已選取 %1 / %2 列</translation>
+    </message>
+</context>
+<context>
+    <name>ShadDatePicker</name>
+    <message>
+        <source>选择日期</source>
+        <translation>選擇日期</translation>
+    </message>
+</context>
+<context>
+    <name>ShadDockHeader</name>
+    <message>
+        <source>关闭</source>
+        <translation>關閉</translation>
+    </message>
+</context>
+<context>
+    <name>ShadFileDropZone</name>
+    <message>
+        <source>文件超过 %1</source>
+        <translation>檔案超過 %1</translation>
+    </message>
+    <message>
+        <source>文件不存在</source>
+        <translation>檔案不存在</translation>
+    </message>
+    <message>
+        <source>不支持文件夹</source>
+        <translation>不支援資料夾</translation>
+    </message>
+    <message>
+        <source>不支持的文件类型</source>
+        <translation>不支援的檔案類型</translation>
+    </message>
+    <message>
+        <source>拖拽文件到这里</source>
+        <translation>將檔案拖曳到這裡</translation>
+    </message>
+    <message>
+        <source>或点击选择文件</source>
+        <translation>或點擊選擇檔案</translation>
+    </message>
+    <message>
+        <source>选择文件</source>
+        <translation>選擇檔案</translation>
+    </message>
+</context>
+<context>
+    <name>ShadHeatmap</name>
+    <message>
+        <source>第 %1 行</source>
+        <translation>第 %1 列</translation>
+    </message>
+    <message>
+        <source>第 %1 列</source>
+        <translation>第 %1 欄</translation>
+    </message>
+</context>
+<context>
+    <name>ShadImageCropper</name>
+    <message>
+        <source>未选择图片</source>
+        <translation>未選擇圖片</translation>
+    </message>
+</context>
+<context>
+    <name>ShadImageViewer</name>
+    <message>
+        <source>图片预览</source>
+        <translation>圖片預覽</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <source>上一张</source>
+        <translation>上一張</translation>
+    </message>
+    <message>
+        <source>下一张</source>
+        <translation>下一張</translation>
+    </message>
+    <message>
+        <source>缩小</source>
+        <translation>縮小</translation>
+    </message>
+    <message>
+        <source>放大</source>
+        <translation>放大</translation>
+    </message>
+    <message>
+        <source>实际大小</source>
+        <translation>實際大小</translation>
+    </message>
+    <message>
+        <source>适应窗口</source>
+        <translation>符合視窗</translation>
+    </message>
+    <message>
+        <source>向左旋转</source>
+        <translation>向左旋轉</translation>
+    </message>
+    <message>
+        <source>向右旋转</source>
+        <translation>向右旋轉</translation>
+    </message>
+    <message>
+        <source>水平翻转</source>
+        <translation>水平翻轉</translation>
+    </message>
+    <message>
+        <source>垂直翻转</source>
+        <translation>垂直翻轉</translation>
+    </message>
+    <message>
+        <source>图片加载失败</source>
+        <translation>圖片載入失敗</translation>
+    </message>
+    <message>
+        <source>复制图片</source>
+        <translation>複製圖片</translation>
+    </message>
+    <message>
+        <source>保存图片…</source>
+        <translation>儲存圖片…</translation>
+    </message>
+    <message>
+        <source>保存图片</source>
+        <translation>儲存圖片</translation>
+    </message>
+    <message>
+        <source>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</source>
+        <translation>圖片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有檔案 (*)</translation>
+    </message>
+</context>
+<context>
+    <name>ShadInput</name>
+    <message>
+        <source>清空</source>
+        <translation>清除</translation>
+    </message>
+    <message>
+        <source>隐藏密码</source>
+        <translation>隱藏密碼</translation>
+    </message>
+    <message>
+        <source>显示密码</source>
+        <translation>顯示密碼</translation>
+    </message>
+</context>
+<context>
+    <name>ShadInputDialog</name>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>确定</source>
+        <translation>確定</translation>
+    </message>
+</context>
+<context>
+    <name>ShadKeySequenceEdit</name>
+    <message>
+        <source>点击后按下快捷键</source>
+        <translation>點擊後按下快速鍵</translation>
+    </message>
+    <message>
+        <source>清除</source>
+        <translation>清除</translation>
+    </message>
+    <message>
+        <source>请按下组合键…</source>
+        <translation>請按下組合鍵…</translation>
+    </message>
+</context>
+<context>
+    <name>ShadListView</name>
+    <message>
+        <source>暂无数据</source>
+        <translation>暫無資料</translation>
+    </message>
+</context>
+<context>
+    <name>ShadNotification</name>
+    <message>
+        <source>关闭</source>
+        <translation>關閉</translation>
+    </message>
+</context>
+<context>
+    <name>ShadPagination</name>
+    <message>
+        <source>第 %1 页</source>
+        <translation>第 %1 頁</translation>
+    </message>
+    <message>
+        <source>上一页</source>
+        <translation>上一頁</translation>
+    </message>
+    <message>
+        <source>下一页</source>
+        <translation>下一頁</translation>
+    </message>
+    <message>
+        <source>跳至</source>
+        <translation>跳至</translation>
+    </message>
+    <message>
+        <source>跳转页码</source>
+        <translation>跳轉頁碼</translation>
+    </message>
+    <message>
+        <source>页</source>
+        <translation>頁</translation>
+    </message>
+</context>
+<context>
+    <name>ShadPasskey</name>
+    <message>
+        <source>已取消</source>
+        <translation>已取消</translation>
+    </message>
+    <message>
+        <source>当前平台不支持通行密钥</source>
+        <translation>目前的平台不支援通行金鑰</translation>
+    </message>
+    <message>
+        <source>请求超时</source>
+        <translation>要求逾時</translation>
+    </message>
+    <message>
+        <source>应用未与该域名关联</source>
+        <translation>應用程式未與此網域建立關聯</translation>
+    </message>
+    <message>
+        <source>参数不完整</source>
+        <translation>參數不完整</translation>
+    </message>
+    <message>
+        <source>认证失败</source>
+        <translation>驗證失敗</translation>
+    </message>
+    <message>
+        <source>系统返回错误：%1</source>
+        <translation>系統回傳錯誤：%1</translation>
+    </message>
+</context>
+<context>
+    <name>ShadPasskeyButton</name>
+    <message>
+        <source>使用通行密钥登录</source>
+        <translation>使用通行金鑰登入</translation>
+    </message>
+    <message>
+        <source>当前平台不支持通行密钥</source>
+        <translation>目前的平台不支援通行金鑰</translation>
+    </message>
+</context>
+<context>
+    <name>ShadPopconfirm</name>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>确定</source>
+        <translation>確定</translation>
+    </message>
+</context>
+<context>
+    <name>ShadQrCode</name>
+    <message>
+        <source>内容过长，当前纠错等级下无法生成二维码</source>
+        <translation>內容過長，在目前的錯誤修正等級下無法產生 QR Code</translation>
+    </message>
+    <message>
+        <source>内容过长，无法生成二维码</source>
+        <translation>內容過長，無法產生 QR Code</translation>
+    </message>
+</context>
+<context>
+    <name>ShadQuestionnaire</name>
+    <message>
+        <source>请选择一个答案。</source>
+        <translation>請選擇一個答案。</translation>
+    </message>
+    <message>
+        <source>请选择一个答案或跳过此题。</source>
+        <translation>請選擇一個答案或跳過此題。</translation>
+    </message>
+    <message>
+        <source>上一题</source>
+        <translation>上一題</translation>
+    </message>
+    <message>
+        <source>跳过</source>
+        <translation>跳過</translation>
+    </message>
+    <message>
+        <source>下一题</source>
+        <translation>下一題</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>提交</translation>
+    </message>
+    <message>
+        <source>第 %1 题，共 %2 题</source>
+        <translation>第 %1 題，共 %2 題</translation>
+    </message>
+</context>
+<context>
+    <name>ShadScreenshot</name>
+    <message>
+        <source>截图</source>
+        <translation>截圖</translation>
+    </message>
+    <message>
+        <source>PNG 图片 (*.png)</source>
+        <translation>PNG 圖片 (*.png)</translation>
+    </message>
+    <message>
+        <source>JPEG 图片 (*.jpg *.jpeg)</source>
+        <translation>JPEG 圖片 (*.jpg *.jpeg)</translation>
+    </message>
+    <message>
+        <source>保存截图</source>
+        <translation>儲存截圖</translation>
+    </message>
+</context>
+<context>
+    <name>ShadScreenshotOverlay</name>
+    <message>
+        <source>钉在屏幕上</source>
+        <translation>釘選在螢幕上</translation>
+    </message>
+</context>
+<context>
+    <name>ShadScreenshotPin</name>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>恢复原始大小</source>
+        <translation>還原原始大小</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>關閉</translation>
+    </message>
+</context>
+<context>
+    <name>ShadScreenshotToolbar</name>
+    <message>
+        <source>钉在屏幕上</source>
+        <translation>釘選在螢幕上</translation>
+    </message>
+    <message>
+        <source>矩形</source>
+        <translation>矩形</translation>
+    </message>
+    <message>
+        <source>椭圆</source>
+        <translation>橢圓</translation>
+    </message>
+    <message>
+        <source>箭头</source>
+        <translation>箭頭</translation>
+    </message>
+    <message>
+        <source>画笔</source>
+        <translation>畫筆</translation>
+    </message>
+    <message>
+        <source>马赛克</source>
+        <translation>馬賽克</translation>
+    </message>
+    <message>
+        <source>文字</source>
+        <translation>文字</translation>
+    </message>
+    <message>
+        <source>粗细</source>
+        <translation>粗細</translation>
+    </message>
+    <message>
+        <source>模糊</source>
+        <translation>模糊</translation>
+    </message>
+    <message>
+        <source>撤销</source>
+        <translation>復原</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>完成</source>
+        <translation>完成</translation>
+    </message>
+</context>
+<context>
+    <name>ShadSidebarTrigger</name>
+    <message>
+        <source>切换侧栏</source>
+        <translation>切換側邊欄</translation>
+    </message>
+</context>
+<context>
+    <name>ShadSignaturePad</name>
+    <message>
+        <source>在此签名</source>
+        <translation>在此簽名</translation>
+    </message>
+</context>
+<context>
+    <name>ShadSpinBox</name>
+    <message>
+        <source>撤销</source>
+        <translation>復原</translation>
+    </message>
+    <message>
+        <source>恢复</source>
+        <translation>重做</translation>
+    </message>
+    <message>
+        <source>剪切</source>
+        <translation>剪下</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>貼上</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>刪除</translation>
+    </message>
+    <message>
+        <source>全选</source>
+        <translation>全選</translation>
+    </message>
+    <message>
+        <source>增加</source>
+        <translation>增加</translation>
+    </message>
+    <message>
+        <source>减少</source>
+        <translation>減少</translation>
+    </message>
+</context>
+<context>
+    <name>ShadSpinner</name>
+    <message>
+        <source>加载中</source>
+        <translation>載入中</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTabViewBar</name>
+    <message>
+        <source>新建标签页</source>
+        <translation>新增分頁</translation>
+    </message>
+    <message>
+        <source>关闭标签页</source>
+        <translation>關閉分頁</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTimePanel</name>
+    <message>
+        <source>时</source>
+        <translation>時</translation>
+    </message>
+    <message>
+        <source>分</source>
+        <translation>分</translation>
+    </message>
+    <message>
+        <source>秒</source>
+        <translation>秒</translation>
+    </message>
+    <message>
+        <source>确定</source>
+        <translation>確定</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTimePicker</name>
+    <message>
+        <source>选择时间</source>
+        <translation>選擇時間</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTitleBar</name>
+    <message>
+        <source>取消置顶</source>
+        <translation>取消置頂</translation>
+    </message>
+    <message>
+        <source>置顶</source>
+        <translation>置頂</translation>
+    </message>
+</context>
+<context>
+    <name>ShadToastItem</name>
+    <message>
+        <source>关闭</source>
+        <translation>關閉</translation>
+    </message>
+</context>
+<context>
+    <name>ShadToolbar</name>
+    <message>
+        <source>更多</source>
+        <translation>更多</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTreeSelect</name>
+    <message>
+        <source>请选择</source>
+        <translation>請選擇</translation>
+    </message>
+    <message>
+        <source>搜索...</source>
+        <translation>搜尋...</translation>
+    </message>
+    <message>
+        <source>未找到结果</source>
+        <translation>找不到結果</translation>
+    </message>
+</context>
+</TS>

@@ -1,0 +1,11707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ja" sourcelanguage="zh_CN">
+<context>
+    <name>AccordionPage</name>
+    <message>
+        <source>手风琴</source>
+        <translation>アコーディオン</translation>
+    </message>
+    <message>
+        <source>ShadAccordion：可折叠的内容列表。</source>
+        <translation>ShadAccordion：折りたたみ可能なコンテンツのリストです。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>同时只展开一项</source>
+        <translation>同時に展開できるのは1項目のみ</translation>
+    </message>
+    <message>
+        <source>多选</source>
+        <translation>複数選択</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>选择要接收的通知。</source>
+        <translation>受け取る通知を選択します。</translation>
+    </message>
+    <message>
+        <source>隐私</source>
+        <translation>プライバシー</translation>
+    </message>
+    <message>
+        <source>控制谁能看到你的资料。</source>
+        <translation>プロフィールを閲覧できる相手を設定します。</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>請求</translation>
+    </message>
+    <message>
+        <source>管理付款方式。</source>
+        <translation>お支払い方法を管理します。</translation>
+    </message>
+    <message>
+        <source>禁用项</source>
+        <translation>無効な項目</translation>
+    </message>
+    <message>
+        <source>带边框</source>
+        <translation>枠線付き</translation>
+    </message>
+    <message>
+        <source>卡片中使用</source>
+        <translation>カード内での使用</translation>
+    </message>
+    <message>
+        <source>放进 ShadCard</source>
+        <translation>ShadCard の中に配置</translation>
+    </message>
+    <message>
+        <source>订阅与账单</source>
+        <translation>サブスクリプションと請求</translation>
+    </message>
+    <message>
+        <source>常见问题</source>
+        <translation>よくある質問</translation>
+    </message>
+    <message>
+        <source>有哪些套餐？</source>
+        <translation>どのようなプランがありますか？</translation>
+    </message>
+    <message>
+        <source>免费版、专业版和团队版。</source>
+        <translation>無料版、プロ版、チーム版があります。</translation>
+    </message>
+    <message>
+        <source>如何升级？</source>
+        <translation>アップグレードするには？</translation>
+    </message>
+    <message>
+        <source>在设置中更换套餐。</source>
+        <translation>設定でプランを変更できます。</translation>
+    </message>
+    <message>
+        <source>可以随时取消吗？</source>
+        <translation>いつでも解約できますか？</translation>
+    </message>
+    <message>
+        <source>可以，到期后不再续费。</source>
+        <translation>はい。期間終了後は更新されません。</translation>
+    </message>
+    <message>
+        <source>外部控制</source>
+        <translation>外部制御</translation>
+    </message>
+    <message>
+        <source>全部展开</source>
+        <translation>すべて展開</translation>
+    </message>
+    <message>
+        <source>全部收起</source>
+        <translation>すべて折りたたむ</translation>
+    </message>
+    <message>
+        <source>多久能发货？</source>
+        <translation>発送までどのくらいかかりますか？</translation>
+    </message>
+    <message>
+        <source>下单后 1 到 2 个工作日发货。</source>
+        <translation>ご注文後、1～2営業日で発送します。</translation>
+    </message>
+    <message>
+        <source>可以退货吗？</source>
+        <translation>返品はできますか？</translation>
+    </message>
+    <message>
+        <source>收货 30 天内可申请退货。</source>
+        <translation>商品到着後30日以内であれば返品を受け付けます。</translation>
+    </message>
+    <message>
+        <source>怎么联系客服？</source>
+        <translation>サポートへの連絡方法は？</translation>
+    </message>
+    <message>
+        <source>工作日 9:00 到 18:00 在线。</source>
+        <translation>営業日の9:00～18:00に対応しています。</translation>
+    </message>
+</context>
+<context>
+    <name>AiChatClient</name>
+    <message>
+        <source>接口地址无效：%1</source>
+        <translation>エンドポイントの URL が無効です：%1</translation>
+    </message>
+    <message>
+        <source>请求超时：%1 秒内没有收到数据</source>
+        <translation>リクエストがタイムアウトしました：%1 秒間データを受信できませんでした</translation>
+    </message>
+    <message>
+        <source>HTTP %1：%2</source>
+        <translation>HTTP %1：%2</translation>
+    </message>
+    <message>
+        <source>没有返回错误信息</source>
+        <translation>エラーメッセージが返されませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>AiChatPage</name>
+    <message>
+        <source>AI 助手</source>
+        <translation>AI アシスタント</translation>
+    </message>
+    <message>
+        <source>基于组件库的 AI 对话示例，支持流式输出。</source>
+        <translation>コンポーネントライブラリで作った AI チャットの例です。ストリーミング出力に対応しています。</translation>
+    </message>
+    <message>
+        <source>连接设置</source>
+        <translation>接続設定</translation>
+    </message>
+    <message>
+        <source>OpenAI 兼容格式</source>
+        <translation>OpenAI 互換形式</translation>
+    </message>
+    <message>
+        <source>官方</source>
+        <translation>公式</translation>
+    </message>
+    <message>
+        <source>自定义</source>
+        <translation>カスタム</translation>
+    </message>
+    <message>
+        <source>在此粘贴 API Key</source>
+        <translation>ここに API キーを貼り付け</translation>
+    </message>
+    <message>
+        <source>服务商</source>
+        <translation>プロバイダー</translation>
+    </message>
+    <message>
+        <source>接口地址</source>
+        <translation>エンドポイント</translation>
+    </message>
+    <message>
+        <source>基础地址</source>
+        <translation>ベース URL</translation>
+    </message>
+    <message>
+        <source>模型</source>
+        <translation>モデル</translation>
+    </message>
+    <message>
+        <source>推理强度</source>
+        <translation>推論の強度</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>オフ</translation>
+    </message>
+    <message>
+        <source>低</source>
+        <translation>低</translation>
+    </message>
+    <message>
+        <source>中</source>
+        <translation>中</translation>
+    </message>
+    <message>
+        <source>高</source>
+        <translation>高</translation>
+    </message>
+    <message>
+        <source>超高</source>
+        <translation>超高</translation>
+    </message>
+    <message>
+        <source>最高</source>
+        <translation>最大</translation>
+    </message>
+    <message>
+        <source>对话</source>
+        <translation>チャット</translation>
+    </message>
+    <message>
+        <source>Ctrl+Enter 发送（macOS 上为 Cmd+Enter），回复以 Markdown 流式显示</source>
+        <translation>Ctrl+Enter で送信します（macOS では Cmd+Enter）。返答は Markdown でストリーミング表示されます</translation>
+    </message>
+    <message>
+        <source>发送一条消息开始对话</source>
+        <translation>メッセージを送信して会話を始めましょう</translation>
+    </message>
+    <message>
+        <source>输入消息...</source>
+        <translation>メッセージを入力...</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>停止</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>清空对话</source>
+        <translation>会話をクリア</translation>
+    </message>
+    <message>
+        <source>请求被安全策略拒绝</source>
+        <translation>リクエストは安全ポリシーにより拒否されました</translation>
+    </message>
+    <message>
+        <source>没有返回内容</source>
+        <translation>返答がありませんでした</translation>
+    </message>
+    <message>
+        <source>请先填写 API Key</source>
+        <translation>先に API キーを入力してください</translation>
+    </message>
+    <message>
+        <source>请先填写模型</source>
+        <translation>先にモデルを入力してください</translation>
+    </message>
+    <message>
+        <source>思考中...</source>
+        <translation>考え中...</translation>
+    </message>
+    <message>
+        <source>已停止</source>
+        <translation>停止しました</translation>
+    </message>
+    <message>
+        <source>请求失败</source>
+        <translation>リクエストに失敗しました</translation>
+    </message>
+    <message>
+        <source>添加图片</source>
+        <translation>画像を追加</translation>
+    </message>
+    <message>
+        <source>选择图片</source>
+        <translation>画像を選択</translation>
+    </message>
+    <message>
+        <source>图片 (*.png *.jpg *.jpeg *.gif *.webp *.bmp)</source>
+        <translation>画像 (*.png *.jpg *.jpeg *.gif *.webp *.bmp)</translation>
+    </message>
+    <message>
+        <source>粘贴的图片</source>
+        <translation>貼り付けた画像</translation>
+    </message>
+    <message>
+        <source>无法读取图片：%1</source>
+        <translation>画像を読み込めません：%1</translation>
+    </message>
+    <message>
+        <source>每条消息最多 %1 张图片</source>
+        <translation>1 件のメッセージに添付できる画像は %1 枚までです</translation>
+    </message>
+    <message>
+        <source>移除</source>
+        <translation>削除</translation>
+    </message>
+</context>
+<context>
+    <name>AlertDialogPage</name>
+    <message>
+        <source>确定要继续吗？</source>
+        <translation>本当に続行しますか？</translation>
+    </message>
+    <message>
+        <source>此操作无法撤销，你的账户将被永久删除，数据也会从我们的服务器上移除。</source>
+        <translation>この操作は元に戻せません。アカウントは完全に削除され、データもサーバーから削除されます。</translation>
+    </message>
+    <message>
+        <source>允许配件连接？</source>
+        <translation>アクセサリの接続を許可しますか？</translation>
+    </message>
+    <message>
+        <source>是否允许 USB 配件连接到这台设备？</source>
+        <translation>USB アクセサリをこのデバイスに接続することを許可しますか？</translation>
+    </message>
+    <message>
+        <source>不允许</source>
+        <translation>許可しない</translation>
+    </message>
+    <message>
+        <source>允许</source>
+        <translation>許可</translation>
+    </message>
+    <message>
+        <source>你的账户将被永久删除，数据也会从我们的服务器上移除。</source>
+        <translation>アカウントは完全に削除され、データもサーバーから削除されます。</translation>
+    </message>
+    <message>
+        <source>删除聊天？</source>
+        <translation>チャットを削除しますか？</translation>
+    </message>
+    <message>
+        <source>这会永久删除这段聊天记录，聊天中保存的记忆可以在设置中删除。</source>
+        <translation>このチャット履歴は完全に削除されます。チャットで保存されたメモリは設定から削除できます。</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>警告对话框示例</source>
+        <translation>警告ダイアログの例</translation>
+    </message>
+    <message>
+        <source>点击下面的按钮打开警告对话框。</source>
+        <translation>下のボタンをクリックして警告ダイアログを開きます。</translation>
+    </message>
+    <message>
+        <source>打开警告对话框</source>
+        <translation>警告ダイアログを開く</translation>
+    </message>
+    <message>
+        <source>警告对话框</source>
+        <translation>警告ダイアログ</translation>
+    </message>
+    <message>
+        <source>ShadAlertDialog：打断用户并要求回应的模态对话框，内置取消与确认按钮。</source>
+        <translation>ShadAlertDialog：ユーザーの操作を中断して応答を求めるモーダルダイアログです。キャンセルボタンと確認ボタンを内蔵しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>标题与描述，页脚带取消与继续按钮</source>
+        <translation>タイトルと説明、フッターにキャンセルと続行ボタン</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>デフォルト</translation>
+    </message>
+    <message>
+        <source>小尺寸</source>
+        <translation>小サイズ</translation>
+    </message>
+    <message>
+        <source>setSize(Small)：更窄，内容居中，按钮等宽并排</source>
+        <translation>setSize(Small)：幅が狭く、内容は中央揃え、ボタンは同じ幅で横に並びます</translation>
+    </message>
+    <message>
+        <source>带媒体</source>
+        <translation>メディア付き</translation>
+    </message>
+    <message>
+        <source>setMediaIcon：在标题区显示媒体图标</source>
+        <translation>setMediaIcon：ヘッダー領域にメディアアイコンを表示します</translation>
+    </message>
+    <message>
+        <source>默认（媒体）</source>
+        <translation>デフォルト（メディア）</translation>
+    </message>
+    <message>
+        <source>小尺寸带媒体</source>
+        <translation>小サイズ（メディア付き）</translation>
+    </message>
+    <message>
+        <source>小尺寸下媒体区、标题与描述上下排列并居中</source>
+        <translation>小サイズではメディア、タイトル、説明が縦に並び、中央揃えになります</translation>
+    </message>
+    <message>
+        <source>小尺寸（媒体）</source>
+        <translation>小サイズ（メディア）</translation>
+    </message>
+    <message>
+        <source>危险操作</source>
+        <translation>危険な操作</translation>
+    </message>
+    <message>
+        <source>媒体区与确认按钮使用危险配色</source>
+        <translation>メディア領域と確認ボタンに危険を示す配色を使用します</translation>
+    </message>
+    <message>
+        <source>删除聊天</source>
+        <translation>チャットを削除</translation>
+    </message>
+    <message>
+        <source>聊天仍然保留</source>
+        <translation>チャットは保持されます</translation>
+    </message>
+    <message>
+        <source>已删除聊天</source>
+        <translation>チャットを削除しました</translation>
+    </message>
+    <message>
+        <source>已取消</source>
+        <translation>キャンセルしました</translation>
+    </message>
+    <message>
+        <source>在对话框中打开</source>
+        <translation>ダイアログ内で開く</translation>
+    </message>
+    <message>
+        <source>在另一个对话框之上打开警告对话框</source>
+        <translation>別のダイアログの上に警告ダイアログを開きます</translation>
+    </message>
+    <message>
+        <source>打开对话框</source>
+        <translation>ダイアログを開く</translation>
+    </message>
+    <message>
+        <source>静态函数</source>
+        <translation>静的関数</translation>
+    </message>
+    <message>
+        <source>ShadAlertDialog::confirm：一行代码打开并返回确认结果</source>
+        <translation>ShadAlertDialog::confirm：1行のコードで開いて確認結果を取得します</translation>
+    </message>
+    <message>
+        <source>退出登录</source>
+        <translation>ログアウト</translation>
+    </message>
+    <message>
+        <source>仍然保持登录</source>
+        <translation>ログイン状態を維持しました</translation>
+    </message>
+    <message>
+        <source>退出登录？</source>
+        <translation>ログアウトしますか？</translation>
+    </message>
+    <message>
+        <source>退出后需要重新输入账号和密码。</source>
+        <translation>ログアウト後は、アカウントとパスワードを再入力する必要があります。</translation>
+    </message>
+    <message>
+        <source>退出</source>
+        <translation>ログアウト</translation>
+    </message>
+    <message>
+        <source>confirm 返回 true：已退出登录</source>
+        <translation>confirm が true を返しました：ログアウトしました</translation>
+    </message>
+    <message>
+        <source>confirm 返回 false：已取消</source>
+        <translation>confirm が false を返しました：キャンセルしました</translation>
+    </message>
+</context>
+<context>
+    <name>AlertPage</name>
+    <message>
+        <source>提示</source>
+        <translation>アラート</translation>
+    </message>
+    <message>
+        <source>ShadAlert：带图标、标题与描述的提示，右上角可放操作组件。</source>
+        <translation>ShadAlert：アイコン、タイトル、説明を備えたアラートです。右上に操作用コンポーネントを配置できます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>图标可选，图标与标题同色</source>
+        <translation>アイコンは任意で、アイコンとタイトルは同じ色になります</translation>
+    </message>
+    <message>
+        <source>危险样式</source>
+        <translation>危険スタイル</translation>
+    </message>
+    <message>
+        <source>标题、图标与描述使用危险色</source>
+        <translation>タイトル、アイコン、説明に危険を示す色を使用します</translation>
+    </message>
+    <message>
+        <source>操作</source>
+        <translation>アクション</translation>
+    </message>
+    <message>
+        <source>setAction：在右上角放置操作组件</source>
+        <translation>setAction：右上に操作用コンポーネントを配置します</translation>
+    </message>
+    <message>
+        <source>自定义颜色</source>
+        <translation>カスタムカラー</translation>
+    </message>
+    <message>
+        <source>setCustomColors：按亮色与暗色主题分别设置颜色</source>
+        <translation>setCustomColors：ライトテーマとダークテーマで別々に色を設定します</translation>
+    </message>
+</context>
+<context>
+    <name>AttachmentPage</name>
+    <message>
+        <source>附件</source>
+        <translation>添付ファイル</translation>
+    </message>
+    <message>
+        <source>ShadAttachment / ShadAttachmentGroup：显示文件或图片附件的图标、名称、上传状态与操作。</source>
+        <translation>ShadAttachment / ShadAttachmentGroup：ファイルや画像の添付のアイコン、名前、アップロード状態、操作を表示します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>图标、标题与描述，结束侧带操作按钮</source>
+        <translation>アイコン、タイトル、説明と、末尾側の操作ボタン</translation>
+    </message>
+    <message>
+        <source>上传中 · 64%</source>
+        <translation>アップロード中 · 64%</translation>
+    </message>
+    <message>
+        <source>取消上传</source>
+        <translation>アップロードをキャンセル</translation>
+    </message>
+    <message>
+        <source>已取消上传</source>
+        <translation>アップロードをキャンセルしました</translation>
+    </message>
+    <message>
+        <source>移除 %1</source>
+        <translation>%1 を削除</translation>
+    </message>
+    <message>
+        <source>已移除附件</source>
+        <translation>添付ファイルを削除しました</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>等待、上传中、处理中、失败与完成五种状态</source>
+        <translation>待機中、アップロード中、処理中、失敗、完了の5つの状態</translation>
+    </message>
+    <message>
+        <source>等待上传</source>
+        <translation>アップロード待ち</translation>
+    </message>
+    <message>
+        <source>正在处理文档</source>
+        <translation>ドキュメントを処理中</translation>
+    </message>
+    <message>
+        <source>上传失败，请重试。</source>
+        <translation>アップロードに失敗しました。もう一度お試しください。</translation>
+    </message>
+    <message>
+        <source>已上传 · 1.8 MB</source>
+        <translation>アップロード済み · 1.8 MB</translation>
+    </message>
+    <message>
+        <source>重新上传</source>
+        <translation>再アップロード</translation>
+    </message>
+    <message>
+        <source>上传中...</source>
+        <translation>アップロード中...</translation>
+    </message>
+    <message>
+        <source>已上传 · 2.6 MB</source>
+        <translation>アップロード済み · 2.6 MB</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>setAttachmentSize：默认、小号与超小三种尺寸</source>
+        <translation>setAttachmentSize：デフォルト、小、極小の3種類のサイズ</translation>
+    </message>
+    <message>
+        <source>默认附件</source>
+        <translation>デフォルトの添付ファイル</translation>
+    </message>
+    <message>
+        <source>小号附件</source>
+        <translation>小サイズの添付ファイル</translation>
+    </message>
+    <message>
+        <source>超小附件</source>
+        <translation>極小サイズの添付ファイル</translation>
+    </message>
+    <message>
+        <source>图片</source>
+        <translation>画像</translation>
+    </message>
+    <message>
+        <source>显示裁剪为正方形的图片附件，可点击打开</source>
+        <translation>正方形にトリミングした画像の添付を表示します。クリックして開けます</translation>
+    </message>
+    <message>
+        <source>打开 %1</source>
+        <translation>%1 を開く</translation>
+    </message>
+    <message>
+        <source>打开图片</source>
+        <translation>画像を開く</translation>
+    </message>
+    <message>
+        <source>分组</source>
+        <translation>グループ</translation>
+    </message>
+    <message>
+        <source>横向滚动的附件分组，可移除附件</source>
+        <translation>横スクロールする添付ファイルのグループです。添付ファイルを削除できます</translation>
+    </message>
+    <message>
+        <source>可点击</source>
+        <translation>クリック可能</translation>
+    </message>
+    <message>
+        <source>setClickable(true)：卡片可点击，悬停时背景变化</source>
+        <translation>setClickable(true)：カードをクリックでき、ホバー時に背景が変化します</translation>
+    </message>
+    <message>
+        <source>PDF · 3.2 MB · 点击预览</source>
+        <translation>PDF · 3.2 MB · クリックしてプレビュー</translation>
+    </message>
+    <message>
+        <source>预览 %1</source>
+        <translation>%1 をプレビュー</translation>
+    </message>
+    <message>
+        <source>打开预览</source>
+        <translation>プレビューを開く</translation>
+    </message>
+    <message>
+        <source>链接</source>
+        <translation>リンク</translation>
+    </message>
+    <message>
+        <source>setUrl：点击卡片打开网址或本地文件</source>
+        <translation>setUrl：カードをクリックすると URL またはローカルファイルを開きます</translation>
+    </message>
+    <message>
+        <source>ShadcnWidgetTools 示例文件
+
+点击附件卡片时由系统默认程序打开。
+</source>
+        <translation>ShadcnWidgetTools サンプルファイル
+
+添付ファイルのカードをクリックすると、システムの既定のアプリで開きます。
+</translation>
+    </message>
+    <message>
+        <source>无法创建示例文件</source>
+        <translation>サンプルファイルを作成できません</translation>
+    </message>
+    <message>
+        <source>PDF · 4.1 MB · 程序内预览</source>
+        <translation>PDF · 4.1 MB · アプリ内プレビュー</translation>
+    </message>
+    <message>
+        <source>在程序内预览</source>
+        <translation>アプリ内でプレビュー</translation>
+    </message>
+    <message>
+        <source>上传</source>
+        <translation>アップロード</translation>
+    </message>
+    <message>
+        <source>拖入或选择文件，生成附件并模拟上传</source>
+        <translation>ファイルをドラッグまたは選択すると、添付ファイルを作成してアップロードをシミュレートします</translation>
+    </message>
+    <message>
+        <source>图片与 PDF (*.png *.jpg *.jpeg *.gif *.webp *.pdf)</source>
+        <translation>画像と PDF (*.png *.jpg *.jpeg *.gif *.webp *.pdf)</translation>
+    </message>
+    <message>
+        <source>或点击选择文件，支持 PNG、JPG、GIF、WebP、PDF，单个不超过 10 MB</source>
+        <translation>またはクリックしてファイルを選択します。PNG、JPG、GIF、WebP、PDF に対応し、1ファイルあたり10 MBまで</translation>
+    </message>
+    <message>
+        <source>上传中 · 0%</source>
+        <translation>アップロード中 · 0%</translation>
+    </message>
+    <message>
+        <source>上传中 · %1%</source>
+        <translation>アップロード中 · %1%</translation>
+    </message>
+    <message>
+        <source>已上传 · %1</source>
+        <translation>アップロード済み · %1</translation>
+    </message>
+    <message>
+        <source>无法添加文件：%1</source>
+        <translation>ファイルを追加できません：%1</translation>
+    </message>
+    <message>
+        <source>、</source>
+        <comment>文件名列表分隔符</comment>
+        <translation>、</translation>
+    </message>
+</context>
+<context>
+    <name>AvatarPage</name>
+    <message>
+        <source>头像</source>
+        <translation>アバター</translation>
+    </message>
+    <message>
+        <source>ShadAvatar / ShadAvatarGroup：圆形头像，图片不可用时显示后备文字，支持徽章与头像组。</source>
+        <translation>ShadAvatar / ShadAvatarGroup：円形のアバターです。画像が使えない場合は代替テキストを表示し、バッジとアバターグループに対応します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>图片、后备文字、加载失败与后备图标</source>
+        <translation>画像、代替テキスト、読み込み失敗、代替アイコン</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>setAvatarSize：小、中、大三种尺寸</source>
+        <translation>setAvatarSize：小、中、大の3種類のサイズ</translation>
+    </message>
+    <message>
+        <source>徽章</source>
+        <translation>バッジ</translation>
+    </message>
+    <message>
+        <source>setBadgeVisible：显示徽章圆点，可改颜色表示在线</source>
+        <translation>setBadgeVisible：バッジの丸印を表示します。色を変えてオンライン状態を表せます</translation>
+    </message>
+    <message>
+        <source>带图标的徽章</source>
+        <translation>アイコン付きバッジ</translation>
+    </message>
+    <message>
+        <source>setBadgeIcon：在徽章中显示图标，小尺寸不显示</source>
+        <translation>setBadgeIcon：バッジ内にアイコンを表示します。小サイズでは表示されません</translation>
+    </message>
+    <message>
+        <source>头像组</source>
+        <translation>アバターグループ</translation>
+    </message>
+    <message>
+        <source>多个头像重叠排列，组内尺寸统一</source>
+        <translation>複数のアバターを重ねて並べ、グループ内でサイズを統一します</translation>
+    </message>
+    <message>
+        <source>带数量的头像组</source>
+        <translation>件数付きアバターグループ</translation>
+    </message>
+    <message>
+        <source>setCountText：在头像组末尾显示计数</source>
+        <translation>setCountText：アバターグループの末尾に件数を表示します</translation>
+    </message>
+    <message>
+        <source>带图标的头像组</source>
+        <translation>アイコン付きアバターグループ</translation>
+    </message>
+    <message>
+        <source>setCountIcon：在头像组末尾显示图标</source>
+        <translation>setCountIcon：アバターグループの末尾にアイコンを表示します</translation>
+    </message>
+    <message>
+        <source>下拉菜单</source>
+        <translation>ドロップダウンメニュー</translation>
+    </message>
+    <message>
+        <source>把头像放进圆形按钮，点击弹出下拉菜单</source>
+        <translation>アバターを円形ボタンに入れ、クリックするとドロップダウンメニューを表示します</translation>
+    </message>
+    <message>
+        <source>账户菜单</source>
+        <translation>アカウントメニュー</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>プロフィール</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>請求</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>退出登录</source>
+        <translation>ログアウト</translation>
+    </message>
+    <message>
+        <source>从右到左布局下徽章与头像组镜像</source>
+        <translation>右から左へのレイアウトでは、バッジとアバターグループが左右反転します</translation>
+    </message>
+</context>
+<context>
+    <name>BadgePage</name>
+    <message>
+        <source>徽章</source>
+        <translation>バッジ</translation>
+    </message>
+    <message>
+        <source>ShadBadge：用于展示状态或计数的徽章。</source>
+        <translation>ShadBadge：状態や件数を表示するためのバッジです。</translation>
+    </message>
+    <message>
+        <source>变体</source>
+        <translation>バリエーション</translation>
+    </message>
+    <message>
+        <source>默认、次要、危险与描边四种变体</source>
+        <translation>デフォルト、セカンダリ、危険、アウトラインの4種類のバリエーション</translation>
+    </message>
+    <message>
+        <source>次要</source>
+        <translation>セカンダリ</translation>
+    </message>
+    <message>
+        <source>危险</source>
+        <translation>危険</translation>
+    </message>
+    <message>
+        <source>描边</source>
+        <translation>アウトライン</translation>
+    </message>
+    <message>
+        <source>带图标</source>
+        <translation>アイコン付き</translation>
+    </message>
+    <message>
+        <source>图标与文字组合的徽章</source>
+        <translation>アイコンとテキストを組み合わせたバッジ</translation>
+    </message>
+    <message>
+        <source>已认证</source>
+        <translation>認証済み</translation>
+    </message>
+    <message>
+        <source>标签</source>
+        <translation>タグ</translation>
+    </message>
+    <message>
+        <source>警告</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <source>计数</source>
+        <translation>件数</translation>
+    </message>
+    <message>
+        <source>数字徽章</source>
+        <translation>数字バッジ</translation>
+    </message>
+</context>
+<context>
+    <name>BiometricPage</name>
+    <message>
+        <source>状态: 就绪</source>
+        <translation>状態: 準備完了</translation>
+    </message>
+    <message>
+        <source>状态: 没有可用的验证方式</source>
+        <translation>状態: 利用できる認証方法がありません</translation>
+    </message>
+    <message>
+        <source>状态: 等待验证</source>
+        <translation>状態: 認証待ち</translation>
+    </message>
+    <message>
+        <source>状态: 验证通过</source>
+        <translation>状態: 認証成功</translation>
+    </message>
+    <message>
+        <source>状态: 失败, %1</source>
+        <translation>状態: 失敗, %1</translation>
+    </message>
+    <message>
+        <source>身份验证</source>
+        <translation>本人認証</translation>
+    </message>
+    <message>
+        <source>ShadBiometric：调用 Touch ID 或 Windows Hello 在本机确认本人。</source>
+        <translation>ShadBiometric：Touch ID または Windows Hello を呼び出して、この端末で本人確認を行います。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>验证通过后再执行敏感操作</source>
+        <translation>認証に成功してから重要な操作を実行します</translation>
+    </message>
+    <message>
+        <source>允许改用密码或 PIN</source>
+        <translation>パスワードまたは PIN への切り替えを許可</translation>
+    </message>
+    <message>
+        <source>验证身份</source>
+        <translation>本人確認</translation>
+    </message>
+    <message>
+        <source>确认是你本人</source>
+        <translation>ご本人であることを確認します</translation>
+    </message>
+</context>
+<context>
+    <name>BreadcrumbPage</name>
+    <message>
+        <source>文档</source>
+        <translation>ドキュメント</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>テーマ</translation>
+    </message>
+    <message>
+        <source>面包屑</source>
+        <translation>パンくずリスト</translation>
+    </message>
+    <message>
+        <source>ShadBreadcrumb：显示当前页面在层级中的路径，支持下拉菜单与自动折叠。</source>
+        <translation>ShadBreadcrumb：現在のページの階層内でのパスを表示します。ドロップダウンメニューと自動折りたたみに対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>setPath：一次设置整条路径，末项为当前页</source>
+        <translation>setPath：パス全体を一度に設定します。最後の項目が現在のページです</translation>
+    </message>
+    <message>
+        <source>首页</source>
+        <translation>ホーム</translation>
+    </message>
+    <message>
+        <source>组件</source>
+        <translation>コンポーネント</translation>
+    </message>
+    <message>
+        <source>自定义分隔符</source>
+        <translation>カスタム区切り文字</translation>
+    </message>
+    <message>
+        <source>setSeparatorIcon：替换默认的分隔符图标</source>
+        <translation>setSeparatorIcon：既定の区切りアイコンを置き換えます</translation>
+    </message>
+    <message>
+        <source>下拉菜单</source>
+        <translation>ドロップダウン</translation>
+    </message>
+    <message>
+        <source>addDropdown：点击层级项弹出下拉菜单</source>
+        <translation>addDropdown：階層の項目をクリックするとドロップダウンメニューを表示します</translation>
+    </message>
+    <message>
+        <source>打开菜单项</source>
+        <translation>開いたメニュー項目</translation>
+    </message>
+    <message>
+        <source>省略号</source>
+        <translation>省略記号</translation>
+    </message>
+    <message>
+        <source>addEllipsis：省略中间层级，可点击弹出菜单</source>
+        <translation>addEllipsis：中間の階層を省略します。クリックするとメニューを表示します</translation>
+    </message>
+    <message>
+        <source>自动折叠</source>
+        <translation>自動折りたたみ</translation>
+    </message>
+    <message>
+        <source>setMaximumVisibleItems(3)：中间层级收进省略号菜单</source>
+        <translation>setMaximumVisibleItems(3)：中間の階層を省略記号のメニューにまとめます</translation>
+    </message>
+    <message>
+        <source>表单</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>输入</source>
+        <translation>入力</translation>
+    </message>
+    <message>
+        <source>文本框</source>
+        <translation>テキストフィールド</translation>
+    </message>
+    <message>
+        <source>跳转</source>
+        <translation>移動先</translation>
+    </message>
+    <message>
+        <source>长文字</source>
+        <translation>長いテキスト</translation>
+    </message>
+    <message>
+        <source>setMaximumItemWidth：限制单项宽度，超出时省略</source>
+        <translation>setMaximumItemWidth：各項目の幅を制限し、超えた部分は省略します</translation>
+    </message>
+    <message>
+        <source>2026 年第三季度产品规划与路线图</source>
+        <translation>2026年第3四半期 製品計画とロードマップ</translation>
+    </message>
+    <message>
+        <source>设计评审</source>
+        <translation>デザインレビュー</translation>
+    </message>
+    <message>
+        <source>移动端导航栏交互方案（第二版）</source>
+        <translation>モバイル版ナビゲーションバーのインタラクション案（第2版）</translation>
+    </message>
+    <message>
+        <source>导航</source>
+        <translation>ナビゲーション</translation>
+    </message>
+    <message>
+        <source>点击链接截掉后面的层级，按钮恢复完整路径</source>
+        <translation>リンクをクリックすると後ろの階層が切り捨てられ、ボタンで完全なパスに戻せます</translation>
+    </message>
+    <message>
+        <source>项目</source>
+        <translation>プロジェクト</translation>
+    </message>
+    <message>
+        <source>源代码</source>
+        <translation>ソースコード</translation>
+    </message>
+    <message>
+        <source>恢复完整路径</source>
+        <translation>完全なパスに戻す</translation>
+    </message>
+</context>
+<context>
+    <name>ButtonPage</name>
+    <message>
+        <source>按钮</source>
+        <translation>ボタン</translation>
+    </message>
+    <message>
+        <source>ShadButton / ShadButtonGroup：多种变体与尺寸的按钮，以及把相关控件拼接成组的按钮组。</source>
+        <translation>ShadButton / ShadButtonGroup：さまざまなバリエーションとサイズのボタンと、関連するコントロールをまとめて並べるボタングループです。</translation>
+    </message>
+    <message>
+        <source>变体</source>
+        <translation>バリエーション</translation>
+    </message>
+    <message>
+        <source>默认、危险、描边、次要、幽灵与链接六种变体</source>
+        <translation>デフォルト、危険、アウトライン、セカンダリ、ゴースト、リンクの6種類のバリエーション</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>デフォルト</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>描边</source>
+        <translation>アウトライン</translation>
+    </message>
+    <message>
+        <source>次要</source>
+        <translation>セカンダリ</translation>
+    </message>
+    <message>
+        <source>幽灵</source>
+        <translation>ゴースト</translation>
+    </message>
+    <message>
+        <source>链接</source>
+        <translation>リンク</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>四种文字按钮尺寸与四种方形图标按钮尺寸</source>
+        <translation>4種類のテキストボタンサイズと4種類の正方形アイコンボタンサイズ</translation>
+    </message>
+    <message>
+        <source>超小</source>
+        <translation>極小</translation>
+    </message>
+    <message>
+        <source>小</source>
+        <translation>小</translation>
+    </message>
+    <message>
+        <source>大</source>
+        <translation>大</translation>
+    </message>
+    <message>
+        <source>图标按钮</source>
+        <translation>アイコンボタン</translation>
+    </message>
+    <message>
+        <source>带图标</source>
+        <translation>アイコン付き</translation>
+    </message>
+    <message>
+        <source>图标位于文字左侧的按钮</source>
+        <translation>テキストの左側にアイコンがあるボタン</translation>
+    </message>
+    <message>
+        <source>新建分支</source>
+        <translation>新規ブランチ</translation>
+    </message>
+    <message>
+        <source>邮箱登录</source>
+        <translation>メールでログイン</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>禁用后半透明，不响应悬停与点击</source>
+        <translation>無効にすると半透明になり、ホバーやクリックに反応しません</translation>
+    </message>
+    <message>
+        <source>请稍候</source>
+        <translation>お待ちください</translation>
+    </message>
+    <message>
+        <source>加载状态</source>
+        <translation>読み込み中の状態</translation>
+    </message>
+    <message>
+        <source>setLoading(true)：显示加载图标，期间不响应点击</source>
+        <translation>setLoading(true)：読み込みアイコンを表示し、その間はクリックに反応しません</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>保存草稿</source>
+        <translation>下書きを保存</translation>
+    </message>
+    <message>
+        <source>刷新</source>
+        <translation>更新</translation>
+    </message>
+    <message>
+        <source>菜单项</source>
+        <translation>メニュー項目</translation>
+    </message>
+    <message>
+        <source>按钮组：基础用法</source>
+        <translation>ボタングループ：基本的な使い方</translation>
+    </message>
+    <message>
+        <source>三个子分组嵌套在一个分组中，末尾带下拉菜单</source>
+        <translation>3つのサブグループを1つのグループに入れ子にし、末尾にドロップダウンメニューを配置します</translation>
+    </message>
+    <message>
+        <source>返回</source>
+        <translation>戻る</translation>
+    </message>
+    <message>
+        <source>归档</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>举报</source>
+        <translation>報告</translation>
+    </message>
+    <message>
+        <source>稍后提醒</source>
+        <translation>後で通知</translation>
+    </message>
+    <message>
+        <source>更多选项</source>
+        <translation>その他のオプション</translation>
+    </message>
+    <message>
+        <source>标为已读</source>
+        <translation>既読にする</translation>
+    </message>
+    <message>
+        <source>添加到日历</source>
+        <translation>カレンダーに追加</translation>
+    </message>
+    <message>
+        <source>添加到列表</source>
+        <translation>リストに追加</translation>
+    </message>
+    <message>
+        <source>按钮组：方向</source>
+        <translation>ボタングループ：方向</translation>
+    </message>
+    <message>
+        <source>setOrientation(Qt::Vertical)：纵向排列，上下拼接</source>
+        <translation>setOrientation(Qt::Vertical)：縦方向に並べ、上下に連結します</translation>
+    </message>
+    <message>
+        <source>增加</source>
+        <translation>増やす</translation>
+    </message>
+    <message>
+        <source>减少</source>
+        <translation>減らす</translation>
+    </message>
+    <message>
+        <source>按钮组：尺寸</source>
+        <translation>ボタングループ：サイズ</translation>
+    </message>
+    <message>
+        <source>按钮组不改变子组件的尺寸，组内使用相同尺寸的按钮</source>
+        <translation>ボタングループは子コンポーネントのサイズを変更しないため、グループ内では同じサイズのボタンを使用します</translation>
+    </message>
+    <message>
+        <source>小号</source>
+        <translation>小</translation>
+    </message>
+    <message>
+        <source>大号</source>
+        <translation>大</translation>
+    </message>
+    <message>
+        <source>组</source>
+        <translation>グループ</translation>
+    </message>
+    <message>
+        <source>添加</source>
+        <translation>追加</translation>
+    </message>
+    <message>
+        <source>按钮组：分隔线</source>
+        <translation>ボタングループ：区切り線</translation>
+    </message>
+    <message>
+        <source>addSeparator：在无边框按钮之间加分隔线</source>
+        <translation>addSeparator：枠線のないボタンの間に区切り線を追加します</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>ペースト</translation>
+    </message>
+    <message>
+        <source>按钮组：拆分按钮</source>
+        <translation>ボタングループ：分割ボタン</translation>
+    </message>
+    <message>
+        <source>主操作按钮与附加操作的图标按钮，中间用分隔线隔开</source>
+        <translation>メインのアクションボタンと追加アクション用のアイコンボタンを、区切り線で分けて配置します</translation>
+    </message>
+    <message>
+        <source>按钮组：输入框</source>
+        <translation>ボタングループ：入力欄</translation>
+    </message>
+    <message>
+        <source>输入框与按钮拼接，输入框占据多余宽度</source>
+        <translation>入力欄とボタンを連結し、入力欄が余った幅を占めます</translation>
+    </message>
+    <message>
+        <source>搜索...</source>
+        <translation>検索...</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>（空）</source>
+        <translation>（空）</translation>
+    </message>
+    <message>
+        <source>按钮组：下拉菜单</source>
+        <translation>ボタングループ：ドロップダウンメニュー</translation>
+    </message>
+    <message>
+        <source>主按钮加下拉箭头按钮，点击弹出菜单</source>
+        <translation>メインボタンとドロップダウン矢印ボタンの組み合わせです。クリックするとメニューを表示します</translation>
+    </message>
+    <message>
+        <source>关注</source>
+        <translation>フォロー</translation>
+    </message>
+    <message>
+        <source>已关注</source>
+        <translation>フォロー中</translation>
+    </message>
+    <message>
+        <source>将收到该会话的新消息通知</source>
+        <translation>この会話の新着メッセージが通知されます</translation>
+    </message>
+    <message>
+        <source>更多操作</source>
+        <translation>その他の操作</translation>
+    </message>
+    <message>
+        <source>静音会话</source>
+        <translation>会話をミュート</translation>
+    </message>
+    <message>
+        <source>举报会话</source>
+        <translation>会話を報告</translation>
+    </message>
+    <message>
+        <source>屏蔽用户</source>
+        <translation>ユーザーをブロック</translation>
+    </message>
+    <message>
+        <source>分享会话</source>
+        <translation>会話を共有</translation>
+    </message>
+    <message>
+        <source>复制会话</source>
+        <translation>会話を複製</translation>
+    </message>
+    <message>
+        <source>删除会话</source>
+        <translation>会話を削除</translation>
+    </message>
+    <message>
+        <source>按钮组：下拉选择</source>
+        <translation>ボタングループ：ドロップダウン選択</translation>
+    </message>
+    <message>
+        <source>币种下拉框与金额输入框拼接，后跟发送按钮</source>
+        <translation>通貨のドロップダウンと金額の入力欄を連結し、その後ろに送信ボタンを置きます</translation>
+    </message>
+    <message>
+        <source>币种</source>
+        <translation>通貨</translation>
+    </message>
+    <message>
+        <source>按钮组：文本</source>
+        <translation>ボタングループ：テキスト</translation>
+    </message>
+    <message>
+        <source>addText：在按钮组中添加文字块，可带图标</source>
+        <translation>addText：ボタングループにテキストブロックを追加します。アイコンも付けられます</translation>
+    </message>
+    <message>
+        <source>按钮组：浮层</source>
+        <translation>ボタングループ：ポップオーバー</translation>
+    </message>
+    <message>
+        <source>下拉箭头按钮弹出带多行输入框的浮层</source>
+        <translation>ドロップダウン矢印ボタンで、複数行の入力欄を備えたポップオーバーを開きます</translation>
+    </message>
+    <message>
+        <source>打开浮层</source>
+        <translation>ポップオーバーを開く</translation>
+    </message>
+    <message>
+        <source>使用 Copilot 开始新任务</source>
+        <translation>Copilot で新しいタスクを開始</translation>
+    </message>
+    <message>
+        <source>用自然语言描述你的任务。</source>
+        <translation>タスクを自然な言葉で入力してください。</translation>
+    </message>
+    <message>
+        <source>我需要……</source>
+        <translation>やりたいことは……</translation>
+    </message>
+    <message>
+        <source>Copilot 会创建一个拉取请求供你审阅。</source>
+        <translation>Copilot がレビュー用のプルリクエストを作成します。</translation>
+    </message>
+    <message>
+        <source>已打开 Copilot 面板</source>
+        <translation>Copilot パネルを開きました</translation>
+    </message>
+    <message>
+        <source>按钮组：输入组与提示</source>
+        <translation>ボタングループ：入力グループとツールチップ</translation>
+    </message>
+    <message>
+        <source>输入组放进按钮组，语音按钮带悬停提示</source>
+        <translation>入力グループをボタングループに入れます。音声ボタンにはホバー時のツールチップが付きます</translation>
+    </message>
+    <message>
+        <source>添加附件</source>
+        <translation>添付ファイルを追加</translation>
+    </message>
+    <message>
+        <source>发送消息...</source>
+        <translation>メッセージを送信...</translation>
+    </message>
+    <message>
+        <source>语音模式</source>
+        <translation>音声モード</translation>
+    </message>
+    <message>
+        <source>录制并发送语音...</source>
+        <translation>音声を録音して送信...</translation>
+    </message>
+</context>
+<context>
+    <name>CardPage</name>
+    <message>
+        <source>卡片</source>
+        <translation>カード</translation>
+    </message>
+    <message>
+        <source>ShadCard：由标题区、内容区与底部区组成的卡片容器。</source>
+        <translation>ShadCard：ヘッダー、コンテンツ、フッターの各領域で構成されるカードコンテナです。</translation>
+    </message>
+    <message>
+        <source>登录卡片</source>
+        <translation>ログインカード</translation>
+    </message>
+    <message>
+        <source>包含标题、操作、内容与底部四个部分</source>
+        <translation>ヘッダー、アクション、コンテンツ、フッターの4つの部分を含みます</translation>
+    </message>
+    <message>
+        <source>登录你的账号</source>
+        <translation>アカウントにログイン</translation>
+    </message>
+    <message>
+        <source>在下方输入邮箱以登录账号</source>
+        <translation>下にメールアドレスを入力してアカウントにログインします</translation>
+    </message>
+    <message>
+        <source>注册</source>
+        <translation>新規登録</translation>
+    </message>
+    <message>
+        <source>邮箱</source>
+        <translation>メールアドレス</translation>
+    </message>
+    <message>
+        <source>密码</source>
+        <translation>パスワード</translation>
+    </message>
+    <message>
+        <source>登录</source>
+        <translation>ログイン</translation>
+    </message>
+    <message>
+        <source>使用 Google 登录</source>
+        <translation>Google でログイン</translation>
+    </message>
+</context>
+<context>
+    <name>CarouselPage</name>
+    <message>
+        <source>轮播</source>
+        <translation>カルーセル</translation>
+    </message>
+    <message>
+        <source>ShadCarousel：可拖动的幻灯片轮播，支持一屏多张、纵向、循环与自动播放。</source>
+        <translation>ShadCarousel：ドラッグ可能なスライドのカルーセルです。複数枚同時表示、縦方向、ループ、自動再生に対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击两侧按钮或拖动切换幻灯片</source>
+        <translation>両側のボタンをクリックするか、ドラッグしてスライドを切り替えます</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>setItemsPerView(3)：一屏同时显示 3 张幻灯片</source>
+        <translation>setItemsPerView(3)：1画面に3枚のスライドを同時に表示します</translation>
+    </message>
+    <message>
+        <source>间距</source>
+        <translation>間隔</translation>
+    </message>
+    <message>
+        <source>setSpacing：设置幻灯片之间的距离</source>
+        <translation>setSpacing：スライド間の距離を設定します</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>setOrientation(Qt::Vertical)：幻灯片纵向排列，按钮在上下两端</source>
+        <translation>setOrientation(Qt::Vertical)：スライドを縦方向に並べ、ボタンを上下の端に配置します</translation>
+    </message>
+    <message>
+        <source>循环</source>
+        <translation>ループ</translation>
+    </message>
+    <message>
+        <source>setLoop(true)：首尾无缝衔接，按钮不会禁用</source>
+        <translation>setLoop(true)：最初と最後がシームレスにつながり、ボタンは無効になりません</translation>
+    </message>
+    <message>
+        <source>API 与事件</source>
+        <translation>API とイベント</translation>
+    </message>
+    <message>
+        <source>读取当前停靠点与数量，监听切换信号</source>
+        <translation>現在のスナップ位置と枚数を取得し、切り替えのシグナルを受け取ります</translation>
+    </message>
+    <message>
+        <source>第 %1 张，共 %2 张</source>
+        <translation>%1 / %2 枚目</translation>
+    </message>
+    <message>
+        <source>自动播放</source>
+        <translation>自動再生</translation>
+    </message>
+    <message>
+        <source>setAutoplayInterval：定时切换，悬停时暂停</source>
+        <translation>setAutoplayInterval：一定間隔で切り替え、ホバー中は一時停止します</translation>
+    </message>
+    <message>
+        <source>从右到左布局下幻灯片顺序与拖动方向镜像</source>
+        <translation>右から左へのレイアウトでは、スライドの順序とドラッグ方向が左右反転します</translation>
+    </message>
+</context>
+<context>
+    <name>ChartAreaPage</name>
+    <message>
+        <source>1月</source>
+        <translation>1月</translation>
+    </message>
+    <message>
+        <source>2月</source>
+        <translation>2月</translation>
+    </message>
+    <message>
+        <source>3月</source>
+        <translation>3月</translation>
+    </message>
+    <message>
+        <source>4月</source>
+        <translation>4月</translation>
+    </message>
+    <message>
+        <source>5月</source>
+        <translation>5月</translation>
+    </message>
+    <message>
+        <source>6月</source>
+        <translation>6月</translation>
+    </message>
+    <message>
+        <source>移动端</source>
+        <translation>モバイル</translation>
+    </message>
+    <message>
+        <source>桌面端</source>
+        <translation>デスクトップ</translation>
+    </message>
+    <message>
+        <source>%1年%2月%3日</source>
+        <translation>%1年%2月%3日</translation>
+    </message>
+    <message>
+        <source>%1月%2日</source>
+        <translation>%1月%2日</translation>
+    </message>
+    <message>
+        <source>第 %1 条</source>
+        <translation>#%1</translation>
+    </message>
+    <message>
+        <source>自动</source>
+        <translation>自動</translation>
+    </message>
+    <message>
+        <source>%1 绘制，数据点 %2 / %3，实际刷新 %4 帧/秒，屏幕刷新率 %5 Hz</source>
+        <translation>%1 で描画、データ点 %2 / %3、実際の更新 %4 fps、画面のリフレッシュレート %5 Hz</translation>
+    </message>
+    <message>
+        <source>压力测试</source>
+        <translation>ストレステスト</translation>
+    </message>
+    <message>
+        <source>面积图：%1</source>
+        <translation>面グラフ：%1</translation>
+    </message>
+    <message>
+        <source>面积图</source>
+        <translation>面グラフ</translation>
+    </message>
+    <message>
+        <source>ShadAreaChart：GPU 绘制的面积图，GPU 不可用时改用 CPU。</source>
+        <translation>ShadAreaChart：GPU で描画する面グラフです。GPU が使えない場合は CPU で描画します。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>デフォルト</translation>
+    </message>
+    <message>
+        <source>自然曲线，悬停显示光标线与提示</source>
+        <translation>自然な曲線です。ホバーするとカーソル線とツールチップを表示します</translation>
+    </message>
+    <message>
+        <source>线性</source>
+        <translation>線形</translation>
+    </message>
+    <message>
+        <source>setCurveType(Linear)：相邻数据点直线相连</source>
+        <translation>setCurveType(Linear)：隣り合うデータ点を直線でつなぎます</translation>
+    </message>
+    <message>
+        <source>阶梯</source>
+        <translation>階段状</translation>
+    </message>
+    <message>
+        <source>setCurveType(Step)：在相邻两点的中点处跳变</source>
+        <translation>setCurveType(Step)：隣り合う2点の中間で段差をつけます</translation>
+    </message>
+    <message>
+        <source>图例</source>
+        <translation>凡例</translation>
+    </message>
+    <message>
+        <source>setLegendVisible(true)：图表下方显示系列名称</source>
+        <translation>setLegendVisible(true)：グラフの下にシリーズ名を表示します</translation>
+    </message>
+    <message>
+        <source>堆叠</source>
+        <translation>積み上げ</translation>
+    </message>
+    <message>
+        <source>setStackMode(Stacked)：后一个系列叠加在前一个之上</source>
+        <translation>setStackMode(Stacked)：後のシリーズを前のシリーズの上に積み重ねます</translation>
+    </message>
+    <message>
+        <source>百分比堆叠</source>
+        <translation>100%積み上げ</translation>
+    </message>
+    <message>
+        <source>setStackMode(Expanded)：每个分类按总和归一化为 0% 到 100%</source>
+        <translation>setStackMode(Expanded)：各カテゴリを合計に対して0%～100%に正規化します</translation>
+    </message>
+    <message>
+        <source>其他</source>
+        <translation>その他</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>アイコン</translation>
+    </message>
+    <message>
+        <source>setSeriesIcon：图例与提示用图标代替颜色标记</source>
+        <translation>setSeriesIcon：凡例とツールチップで、色マーカーの代わりにアイコンを使用します</translation>
+    </message>
+    <message>
+        <source>渐变</source>
+        <translation>グラデーション</translation>
+    </message>
+    <message>
+        <source>setFillStyle(Gradient)：填充从上到下渐隐</source>
+        <translation>setFillStyle(Gradient)：塗りつぶしが上から下へ徐々に薄くなります</translation>
+    </message>
+    <message>
+        <source>坐标轴</source>
+        <translation>軸</translation>
+    </message>
+    <message>
+        <source>setYAxisVisible(true)：显示 Y 轴刻度，setYTickCount(3) 减少刻度</source>
+        <translation>setYAxisVisible(true)：Y 軸の目盛りを表示し、setYTickCount(3) で目盛りの数を減らします</translation>
+    </message>
+    <message>
+        <source>交互</source>
+        <translation>インタラクティブ</translation>
+    </message>
+    <message>
+        <source>切换时间范围后更新数据，X 轴刻度过密时自动间隔显示</source>
+        <translation>期間を切り替えるとデータが更新されます。X 軸の目盛りが密集する場合は自動的に間引いて表示します</translation>
+    </message>
+    <message>
+        <source>最近 3 个月</source>
+        <translation>過去3か月</translation>
+    </message>
+    <message>
+        <source>最近 30 天</source>
+        <translation>過去30日間</translation>
+    </message>
+    <message>
+        <source>最近 7 天</source>
+        <translation>過去7日間</translation>
+    </message>
+    <message>
+        <source>绘制 API 与压力测试</source>
+        <translation>描画 API とストレステスト</translation>
+    </message>
+    <message>
+        <source>setRenderApi：在窗口的 GPU API 与 CPU 之间切换，其他 API 在新窗口中打开；每帧追加 1000 条随机数据，只保留最近 50000 条</source>
+        <translation>setRenderApi：ウィンドウの GPU API と CPU を切り替えます。他の API は新しいウィンドウで開きます。1フレームごとにランダムなデータを1000件追加し、直近の50000件のみ保持します</translation>
+    </message>
+    <message>
+        <source>在新窗口中打开</source>
+        <translation>新しいウィンドウで開く</translation>
+    </message>
+</context>
+<context>
+    <name>ChartBarPage</name>
+    <message>
+        <source>柱状图</source>
+        <translation>棒グラフ</translation>
+    </message>
+    <message>
+        <source>ShadBarChart：GPU 绘制的柱状图，GPU 不可用时改用 CPU。</source>
+        <translation>ShadBarChart：GPU で描画する棒グラフです。GPU が使えない場合は CPU で描画します。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>デフォルト</translation>
+    </message>
+    <message>
+        <source>setBarRadius(8)：柱子四个角为圆角，悬停只显示提示</source>
+        <translation>setBarRadius(8)：棒の四隅を丸くします。ホバー時はツールチップのみ表示します</translation>
+    </message>
+    <message>
+        <source>多系列</source>
+        <translation>複数シリーズ</translation>
+    </message>
+    <message>
+        <source>同一分类内各系列并排，间隔 4</source>
+        <translation>同じカテゴリ内でシリーズを横に並べ、間隔は4です</translation>
+    </message>
+    <message>
+        <source>堆叠</source>
+        <translation>積み上げ</translation>
+    </message>
+    <message>
+        <source>setStackMode(Stacked)：只圆整根柱子的两端，setLegendVisible(true) 显示图例</source>
+        <translation>setStackMode(Stacked)：積み上げ全体の両端のみ丸めます。setLegendVisible(true) で凡例を表示します</translation>
+    </message>
+    <message>
+        <source>百分比堆叠</source>
+        <translation>100%積み上げ</translation>
+    </message>
+    <message>
+        <source>setStackMode(Expanded)：每个分类按总和归一化为 0% 到 100%</source>
+        <translation>setStackMode(Expanded)：各カテゴリを合計に対して0%～100%に正規化します</translation>
+    </message>
+    <message>
+        <source>其他</source>
+        <translation>その他</translation>
+    </message>
+    <message>
+        <source>直角</source>
+        <translation>角あり</translation>
+    </message>
+    <message>
+        <source>setBarRadius(0)：柱子为直角，setYAxisVisible(true) 显示 Y 轴刻度</source>
+        <translation>setBarRadius(0)：棒を角のある形にします。setYAxisVisible(true) で Y 軸の目盛りを表示します</translation>
+    </message>
+    <message>
+        <source>缩放</source>
+        <translation>ズーム</translation>
+    </message>
+    <message>
+        <source>setZoomEnabled(true)：滚轮缩放、拖动平移、双击恢复</source>
+        <translation>setZoomEnabled(true)：ホイールでズーム、ドラッグで移動、ダブルクリックでリセットします</translation>
+    </message>
+    <message>
+        <source>%1年%2月%3日</source>
+        <translation>%1年%2月%3日</translation>
+    </message>
+    <message>
+        <source>%1月%2日</source>
+        <translation>%1月%2日</translation>
+    </message>
+    <message>
+        <source>桌面端</source>
+        <translation>デスクトップ</translation>
+    </message>
+    <message>
+        <source>压力测试</source>
+        <translation>ストレステスト</translation>
+    </message>
+    <message>
+        <source>每帧追加 1000 条随机数据，只保留最近 50000 条；分类多于像素宽度时按像素列合并</source>
+        <translation>1フレームごとにランダムなデータを1000件追加し、直近の50000件のみ保持します。カテゴリ数がピクセル幅を超える場合は、ピクセル列ごとに統合します</translation>
+    </message>
+    <message>
+        <source>移动端</source>
+        <translation>モバイル</translation>
+    </message>
+    <message>
+        <source>1月</source>
+        <translation>1月</translation>
+    </message>
+    <message>
+        <source>2月</source>
+        <translation>2月</translation>
+    </message>
+    <message>
+        <source>3月</source>
+        <translation>3月</translation>
+    </message>
+    <message>
+        <source>4月</source>
+        <translation>4月</translation>
+    </message>
+    <message>
+        <source>5月</source>
+        <translation>5月</translation>
+    </message>
+    <message>
+        <source>6月</source>
+        <translation>6月</translation>
+    </message>
+</context>
+<context>
+    <name>ChartHeatmapPage</name>
+    <message>
+        <source>周一</source>
+        <translation>月</translation>
+    </message>
+    <message>
+        <source>周二</source>
+        <translation>火</translation>
+    </message>
+    <message>
+        <source>周三</source>
+        <translation>水</translation>
+    </message>
+    <message>
+        <source>周四</source>
+        <translation>木</translation>
+    </message>
+    <message>
+        <source>周五</source>
+        <translation>金</translation>
+    </message>
+    <message>
+        <source>周六</source>
+        <translation>土</translation>
+    </message>
+    <message>
+        <source>周日</source>
+        <translation>日</translation>
+    </message>
+    <message>
+        <source>%1时</source>
+        <translation>%1時</translation>
+    </message>
+    <message>
+        <source>自动</source>
+        <translation>自動</translation>
+    </message>
+    <message>
+        <source>%1 绘制，行数 %2 / %3，实际刷新 %4 帧/秒，屏幕刷新率 %5 Hz</source>
+        <translation>%1 で描画、行数 %2 / %3、実際の更新 %4 fps、画面のリフレッシュレート %5 Hz</translation>
+    </message>
+    <message>
+        <source>热力图</source>
+        <translation>ヒートマップ</translation>
+    </message>
+    <message>
+        <source>ShadHeatmap：GPU 以纹理绘制的热力图，可用作瀑布图，GPU 不可用时改用 CPU。</source>
+        <translation>ShadHeatmap：GPU がテクスチャとして描画するヒートマップです。ウォーターフォール表示にも使え、GPU が使えない場合は CPU で描画します。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>デフォルト</translation>
+    </message>
+    <message>
+        <source>颜色从表面颜色过渡到 chart-1，范围按数据自动计算；行列标签放不下时间隔显示</source>
+        <translation>色はサーフェスの色から chart-1 へ変化し、範囲はデータから自動計算されます。行と列のラベルが収まらない場合は間引いて表示します</translation>
+    </message>
+    <message>
+        <source>固定范围与颜色</source>
+        <translation>固定範囲と色</translation>
+    </message>
+    <message>
+        <source>setValueRange(0, 100) 固定范围，setColorRole(Chart2) 更换颜色</source>
+        <translation>setValueRange(0, 100) で範囲を固定し、setColorRole(Chart2) で色を変更します</translation>
+    </message>
+    <message>
+        <source>瀑布图</source>
+        <translation>ウォーターフォール</translation>
+    </message>
+    <message>
+        <source>appendRow：每帧追加一行 128 个频点，只保留最近 120 行；GPU 绘制时只上传新增的行</source>
+        <translation>appendRow：1フレームごとに128個の周波数ビンを持つ行を1行追加し、直近の120行のみ保持します。GPU 描画では追加された行のみアップロードします</translation>
+    </message>
+    <message>
+        <source>开始滚动</source>
+        <translation>スクロール開始</translation>
+    </message>
+</context>
+<context>
+    <name>ChartLinePage</name>
+    <message>
+        <source>折线图</source>
+        <translation>折れ線グラフ</translation>
+    </message>
+    <message>
+        <source>ShadLineChart：GPU 绘制的折线图，GPU 不可用时改用 CPU。</source>
+        <translation>ShadLineChart：GPU で描画する折れ線グラフです。GPU が使えない場合は CPU で描画します。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>デフォルト</translation>
+    </message>
+    <message>
+        <source>自然曲线，线宽 2，悬停显示光标线与提示</source>
+        <translation>自然な曲線、線幅2。ホバーするとカーソル線とツールチップを表示します</translation>
+    </message>
+    <message>
+        <source>线性</source>
+        <translation>線形</translation>
+    </message>
+    <message>
+        <source>setCurveType(Linear)：相邻数据点直线相连</source>
+        <translation>setCurveType(Linear)：隣り合うデータ点を直線でつなぎます</translation>
+    </message>
+    <message>
+        <source>阶梯</source>
+        <translation>階段状</translation>
+    </message>
+    <message>
+        <source>setCurveType(Step)：在相邻两点的中点处跳变</source>
+        <translation>setCurveType(Step)：隣り合う2点の中間で段差をつけます</translation>
+    </message>
+    <message>
+        <source>多系列</source>
+        <translation>複数シリーズ</translation>
+    </message>
+    <message>
+        <source>每个系列一条线，setLegendVisible(true) 显示图例</source>
+        <translation>シリーズごとに1本の線を描き、setLegendVisible(true) で凡例を表示します</translation>
+    </message>
+    <message>
+        <source>数据点</source>
+        <translation>データ点</translation>
+    </message>
+    <message>
+        <source>setDotsVisible(true)：每个分类上显示数据点，由 GPU 按实例绘制</source>
+        <translation>setDotsVisible(true)：各カテゴリにデータ点を表示します。GPU がインスタンス描画で描画します</translation>
+    </message>
+    <message>
+        <source>坐标轴</source>
+        <translation>軸</translation>
+    </message>
+    <message>
+        <source>setYAxisVisible(true)：显示 Y 轴刻度，setLineWidth(1) 改细线</source>
+        <translation>setYAxisVisible(true)：Y 軸の目盛りを表示し、setLineWidth(1) で線を細くします</translation>
+    </message>
+    <message>
+        <source>缩放</source>
+        <translation>ズーム</translation>
+    </message>
+    <message>
+        <source>setZoomEnabled(true)：滚轮缩放、拖动平移、双击恢复</source>
+        <translation>setZoomEnabled(true)：ホイールでズーム、ドラッグで移動、ダブルクリックでリセットします</translation>
+    </message>
+    <message>
+        <source>%1年%2月%3日</source>
+        <translation>%1年%2月%3日</translation>
+    </message>
+    <message>
+        <source>%1月%2日</source>
+        <translation>%1月%2日</translation>
+    </message>
+    <message>
+        <source>桌面端</source>
+        <translation>デスクトップ</translation>
+    </message>
+    <message>
+        <source>移动端</source>
+        <translation>モバイル</translation>
+    </message>
+    <message>
+        <source>压力测试</source>
+        <translation>ストレステスト</translation>
+    </message>
+    <message>
+        <source>每帧追加 1000 条随机数据，只保留最近 50000 条；数据过密时按像素列抽稀</source>
+        <translation>1フレームごとにランダムなデータを1000件追加し、直近の50000件のみ保持します。データが密集する場合は、ピクセル列ごとに間引きます</translation>
+    </message>
+    <message>
+        <source>1月</source>
+        <translation>1月</translation>
+    </message>
+    <message>
+        <source>2月</source>
+        <translation>2月</translation>
+    </message>
+    <message>
+        <source>3月</source>
+        <translation>3月</translation>
+    </message>
+    <message>
+        <source>4月</source>
+        <translation>4月</translation>
+    </message>
+    <message>
+        <source>5月</source>
+        <translation>5月</translation>
+    </message>
+    <message>
+        <source>6月</source>
+        <translation>6月</translation>
+    </message>
+</context>
+<context>
+    <name>ChartScatterPage</name>
+    <message>
+        <source>散点图</source>
+        <translation>散布図</translation>
+    </message>
+    <message>
+        <source>ShadScatterChart：GPU 按实例绘制的散点图，适合几十万个点，GPU 不可用时改用 CPU。</source>
+        <translation>ShadScatterChart：GPU がインスタンス描画で描画する散布図です。数十万点の表示に適しており、GPU が使えない場合は CPU で描画します。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>デフォルト</translation>
+    </message>
+    <message>
+        <source>X、Y 都是数值轴，范围按数据自动取整齐刻度；悬停显示最近的点</source>
+        <translation>X 軸と Y 軸はどちらも数値軸で、範囲はデータに応じてきりのよい目盛りに自動調整されます。ホバーすると最も近い点を表示します</translation>
+    </message>
+    <message>
+        <source>图例</source>
+        <translation>凡例</translation>
+    </message>
+    <message>
+        <source>setLegendVisible(true)：图表下方显示系列名称</source>
+        <translation>setLegendVisible(true)：グラフの下にシリーズ名を表示します</translation>
+    </message>
+    <message>
+        <source>点半径</source>
+        <translation>点の半径</translation>
+    </message>
+    <message>
+        <source>setPointRadius(5)：放大圆点，setGridVisible(false) 隐藏网格线</source>
+        <translation>setPointRadius(5) で点を大きくし、setGridVisible(false) でグリッド線を非表示にします</translation>
+    </message>
+    <message>
+        <source>实时追加与压力测试</source>
+        <translation>リアルタイム追加とストレステスト</translation>
+    </message>
+    <message>
+        <source>appendPoints：每帧每个系列追加 2000 个点，各保留最近 200000 个；GPU 绘制时只上传新增的点</source>
+        <translation>appendPoints：1フレームごとに各シリーズへ2000点を追加し、それぞれ直近の200000点のみ保持します。GPU 描画では追加された点のみアップロードします</translation>
+    </message>
+    <message>
+        <source>压力测试</source>
+        <translation>ストレステスト</translation>
+    </message>
+    <message>
+        <source>A 组</source>
+        <translation>グループ A</translation>
+    </message>
+    <message>
+        <source>B 组</source>
+        <translation>グループ B</translation>
+    </message>
+    <message>
+        <source>自动</source>
+        <translation>自動</translation>
+    </message>
+    <message>
+        <source>%1 绘制，点数 %2 / %3，实际刷新 %4 帧/秒，屏幕刷新率 %5 Hz</source>
+        <translation>%1 で描画、点数 %2 / %3、実際の更新 %4 fps、画面のリフレッシュレート %5 Hz</translation>
+    </message>
+</context>
+<context>
+    <name>ChartStressTest</name>
+    <message>
+        <source>自动</source>
+        <translation>自動</translation>
+    </message>
+    <message>
+        <source>%1 绘制，数据点 %2 / %3，实际刷新 %4 帧/秒，屏幕刷新率 %5 Hz</source>
+        <translation>%1 で描画、データ点 %2 / %3、実際の更新 %4 fps、画面のリフレッシュレート %5 Hz</translation>
+    </message>
+    <message>
+        <source>第 %1 条</source>
+        <translation>#%1</translation>
+    </message>
+    <message>
+        <source>压力测试</source>
+        <translation>ストレステスト</translation>
+    </message>
+</context>
+<context>
+    <name>CheckboxPage</name>
+    <message>
+        <source>复选框</source>
+        <translation>チェックボックス</translation>
+    </message>
+    <message>
+        <source>ShadCheckbox：点击文字也可切换的复选框，支持三态与错误态。</source>
+        <translation>ShadCheckbox：ラベルをクリックしても切り替えられるチェックボックスです。3状態とエラー状態に対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>未选中与选中</source>
+        <translation>未チェックとチェック済み</translation>
+    </message>
+    <message>
+        <source>接受服务条款</source>
+        <translation>利用規約に同意する</translation>
+    </message>
+    <message>
+        <source>开启通知</source>
+        <translation>通知を有効にする</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>禁用、半选与错误态</source>
+        <translation>無効、一部選択、エラー状態</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>禁用且选中</source>
+        <translation>無効かつチェック済み</translation>
+    </message>
+    <message>
+        <source>半选</source>
+        <translation>一部選択</translation>
+    </message>
+    <message>
+        <source>错误</source>
+        <translation>エラー</translation>
+    </message>
+</context>
+<context>
+    <name>CodeBlockPage</name>
+    <message>
+        <source>代码块</source>
+        <translation>コードブロック</translation>
+    </message>
+    <message>
+        <source>ShadCodeBlock：用于显示代码、终端输出、日志与 diff，支持语法高亮。</source>
+        <translation>ShadCodeBlock：コード、ターミナル出力、ログ、diff を表示します。シンタックスハイライトに対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>setCode 设置代码，可拖动选择并复制</source>
+        <translation>setCode でコードを設定します。ドラッグして選択し、コピーできます</translation>
+    </message>
+    <message>
+        <source>标题栏</source>
+        <translation>ヘッダー</translation>
+    </message>
+    <message>
+        <source>显示标题栏，结束侧带复制按钮</source>
+        <translation>ヘッダーを表示し、末尾側にコピーボタンを配置します</translation>
+    </message>
+    <message>
+        <source>终端</source>
+        <translation>ターミナル</translation>
+    </message>
+    <message>
+        <source>操作按钮</source>
+        <translation>操作ボタン</translation>
+    </message>
+    <message>
+        <source>addActionWidget 添加操作按钮，这里用于切换自动换行</source>
+        <translation>addActionWidget で操作ボタンを追加します。ここでは自動折り返しの切り替えに使っています</translation>
+    </message>
+    <message>
+        <source>自动换行</source>
+        <comment>按钮提示</comment>
+        <translation>自動折り返しを有効にする</translation>
+    </message>
+    <message>
+        <source>取消自动换行</source>
+        <translation>自動折り返しを無効にする</translation>
+    </message>
+    <message>
+        <source>悬浮操作</source>
+        <translation>フローティング操作</translation>
+    </message>
+    <message>
+        <source>无标题时操作按钮悬浮在右上角，悬停或聚焦时淡入</source>
+        <translation>ヘッダーがない場合、操作ボタンは右上に浮かび、ホバー時またはフォーカス時にフェードインします</translation>
+    </message>
+    <message>
+        <source>行号</source>
+        <translation>行番号</translation>
+    </message>
+    <message>
+        <source>显示行号，行号不会被选中或复制</source>
+        <translation>行番号を表示します。行番号は選択やコピーの対象になりません</translation>
+    </message>
+    <message>
+        <source>起始行号</source>
+        <translation>開始行番号</translation>
+    </message>
+    <message>
+        <source>设置第一行的行号，用于展示文件中的一段代码</source>
+        <translation>先頭行の行番号を設定します。ファイル内の一部のコードを表示する場合に使います</translation>
+    </message>
+    <message>
+        <source>自动换行</source>
+        <translation>自動折り返し</translation>
+    </message>
+    <message>
+        <source>开启时按单词换行，关闭时超出宽度横向滚动</source>
+        <translation>オンの場合は単語単位で折り返し、オフの場合は幅を超えた部分を横スクロールします</translation>
+    </message>
+    <message>
+        <source>高亮行</source>
+        <translation>ハイライト行</translation>
+    </message>
+    <message>
+        <source>用背景色标出需要强调的重点行</source>
+        <translation>強調したい重要な行を背景色で示します</translation>
+    </message>
+    <message>
+        <source>标记新增行与删除行，标记不会被复制</source>
+        <translation>追加された行と削除された行にマークを付けます。マークはコピーされません</translation>
+    </message>
+    <message>
+        <source>限制高度</source>
+        <translation>高さの制限</translation>
+    </message>
+    <message>
+        <source>限制内容高度，超出后纵向滚动</source>
+        <translation>内容の高さを制限し、超えた場合は縦にスクロールします</translation>
+    </message>
+    <message>
+        <source>展开更多</source>
+        <translation>さらに表示</translation>
+    </message>
+    <message>
+        <source>收起时限制高度，点击底栏按钮展开全部代码</source>
+        <translation>折りたたんだ状態では高さを制限し、フッターのボタンをクリックすると全コードを展開します</translation>
+    </message>
+    <message>
+        <source>展开</source>
+        <translation>展開</translation>
+    </message>
+    <message>
+        <source>收起</source>
+        <translation>折りたたむ</translation>
+    </message>
+    <message>
+        <source>小尺寸</source>
+        <translation>小サイズ</translation>
+    </message>
+    <message>
+        <source>更紧凑的小尺寸，适合嵌在工具调用记录中</source>
+        <translation>よりコンパクトな小サイズで、ツール呼び出しの履歴への埋め込みに適しています</translation>
+    </message>
+    <message>
+        <source>错误样式</source>
+        <translation>エラースタイル</translation>
+    </message>
+    <message>
+        <source>标题与代码为危险色，用于错误输出与堆栈</source>
+        <translation>タイトルとコードに危険を示す色を使用します。エラー出力やスタックトレース向けです</translation>
+    </message>
+    <message>
+        <source>未处理的运行时错误</source>
+        <translation>未処理のランタイムエラー</translation>
+    </message>
+    <message>
+        <source>语法高亮</source>
+        <translation>シンタックスハイライト</translation>
+    </message>
+    <message>
+        <source>setLanguage 开启语法高亮，配色随主题切换</source>
+        <translation>setLanguage でシンタックスハイライトを有効にします。配色はテーマに合わせて切り替わります</translation>
+    </message>
+    <message>
+        <source>多语言</source>
+        <translation>複数の言語</translation>
+    </message>
+    <message>
+        <source>内置多种语言，未内置的语言按纯文本显示</source>
+        <translation>複数の言語を内蔵しています。内蔵されていない言語はプレーンテキストとして表示します</translation>
+    </message>
+    <message>
+        <source>/* 卡片 */
+.card {
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  color: #0a0a0a;
+}
+
+.card:hover {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.05) !important;
+}
+</source>
+        <translation>/* カード */
+.card {
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  color: #0a0a0a;
+}
+
+.card:hover {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.05) !important;
+}
+</translation>
+    </message>
+    <message>
+        <source>from dataclasses import dataclass
+
+@dataclass
+class Forecast:
+    city: str
+    high: float
+
+def warmest(items: list[Forecast]) -&gt; str:
+    &quot;&quot;&quot;返回最高温度的城市&quot;&quot;&quot;
+    best = max(items, key=lambda item: item.high)
+    return f&quot;{best.city}: {best.high:.1f}°C&quot;  # 保留一位小数
+</source>
+        <translation>from dataclasses import dataclass
+
+@dataclass
+class Forecast:
+    city: str
+    high: float
+
+def warmest(items: list[Forecast]) -&gt; str:
+    &quot;&quot;&quot;最高気温の都市を返す&quot;&quot;&quot;
+    best = max(items, key=lambda item: item.high)
+    return f&quot;{best.city}: {best.high:.1f}°C&quot;  # 小数点以下1桁を保持
+</translation>
+    </message>
+    <message>
+        <source>#include &lt;QApplication&gt;
+
+int main(int argc, char* argv[])
+{
+    QApplication app(argc, argv);
+    // 显示一个代码块
+    ShadCodeBlock block(QStringLiteral(&quot;Hello&quot;));
+    block.setLanguage(QStringLiteral(&quot;cpp&quot;));
+    block.show();
+    return app.exec();
+}
+</source>
+        <translation>#include &lt;QApplication&gt;
+
+int main(int argc, char* argv[])
+{
+    QApplication app(argc, argv);
+    // コードブロックを表示する
+    ShadCodeBlock block(QStringLiteral(&quot;Hello&quot;));
+    block.setLanguage(QStringLiteral(&quot;cpp&quot;));
+    block.show();
+    return app.exec();
+}
+</translation>
+    </message>
+    <message>
+        <source>这是一段纯文本，不会被高亮。
+Unlisted languages render as plain text.
+</source>
+        <translation>これはプレーンテキストなので、ハイライトされません。
+Unlisted languages render as plain text.
+</translation>
+    </message>
+    <message>
+        <source>终端输出</source>
+        <translation>ターミナル出力</translation>
+    </message>
+    <message>
+        <source>解析终端颜色转义码，复制时去掉转义码</source>
+        <translation>ターミナルの色指定エスケープコードを解析し、コピー時にはエスケープコードを除去します</translation>
+    </message>
+    <message>
+        <source>流式输出</source>
+        <translation>ストリーミング出力</translation>
+    </message>
+    <message>
+        <source>appendCode 逐段追加代码，点击重播按钮重新开始</source>
+        <translation>appendCode でコードを少しずつ追加します。再生ボタンをクリックすると最初からやり直します</translation>
+    </message>
+    <message>
+        <source>重播</source>
+        <translation>再生</translation>
+    </message>
+</context>
+<context>
+    <name>CodeEditorPage</name>
+    <message>
+        <source>代码编辑器</source>
+        <translation>コードエディター</translation>
+    </message>
+    <message>
+        <source>ShadCodeEditor：带行号栏、语法高亮与当前行高亮的代码编辑器，继承 QPlainTextEdit。</source>
+        <translation>ShadCodeEditor：行番号欄、シンタックスハイライト、現在行のハイライトを備えたコードエディターです。QPlainTextEdit を継承しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>setLanguage 设置高亮语言，编辑时实时着色，光标所在行高亮</source>
+        <translation>setLanguage でハイライトの言語を設定します。編集中はリアルタイムで色分けされ、カーソルのある行がハイライトされます</translation>
+    </message>
+    <message>
+        <source>切换语言</source>
+        <translation>言語を切り替え</translation>
+    </message>
+    <message>
+        <source>支持 cpp、python、typescript、javascript、json、css、bash</source>
+        <translation>cpp、python、typescript、javascript、json、css、bash に対応しています</translation>
+    </message>
+    <message>
+        <source>只读</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>setReadOnly(true) 后只能选择与复制，不显示当前行高亮</source>
+        <translation>setReadOnly(true) を設定すると、選択とコピーのみ可能になり、現在行のハイライトは表示されません</translation>
+    </message>
+    <message>
+        <source>隐藏行号</source>
+        <translation>行番号を非表示</translation>
+    </message>
+    <message>
+        <source>setLineNumbersVisible(false) 隐藏行号栏</source>
+        <translation>setLineNumbersVisible(false) で行番号欄を非表示にします</translation>
+    </message>
+    <message>
+        <source>Tab 宽度</source>
+        <translation>Tab の幅</translation>
+    </message>
+    <message>
+        <source>setTabSize(2) 让 Tab 显示为 2 个空格宽</source>
+        <translation>setTabSize(2) で Tab を半角スペース2個分の幅で表示します</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>エラー状態</translation>
+    </message>
+    <message>
+        <source>setInvalid(true) 边框与焦点环变为 destructive 色</source>
+        <translation>setInvalid(true) で枠線とフォーカスリングが destructive の色になります</translation>
+    </message>
+    <message>
+        <source>from dataclasses import dataclass
+
+
+@dataclass
+class User:
+    name: str
+    age: int = 0
+
+    def greet(self) -&gt; str:
+        &quot;&quot;&quot;返回问候语&quot;&quot;&quot;
+        return f&quot;Hello, {self.name}!&quot;
+</source>
+        <translation>from dataclasses import dataclass
+
+
+@dataclass
+class User:
+    name: str
+    age: int = 0
+
+    def greet(self) -&gt; str:
+        &quot;&quot;&quot;挨拶を返す&quot;&quot;&quot;
+        return f&quot;Hello, {self.name}!&quot;
+</translation>
+    </message>
+    <message>
+        <source>type Status = &quot;idle&quot; | &quot;loading&quot; | &quot;done&quot;
+
+/* 读取用户列表 */
+export async function fetchUsers(page = 1): Promise&lt;User[]&gt; {
+  const response = await fetch(`/api/users?page=${page}`)
+  if (!response.ok) {
+    throw new Error(&quot;请求失败&quot;)
+  }
+  return response.json()
+}
+</source>
+        <translation>type Status = &quot;idle&quot; | &quot;loading&quot; | &quot;done&quot;
+
+/* ユーザー一覧を取得する */
+export async function fetchUsers(page = 1): Promise&lt;User[]&gt; {
+  const response = await fetch(`/api/users?page=${page}`)
+  if (!response.ok) {
+    throw new Error(&quot;リクエストに失敗しました&quot;)
+  }
+  return response.json()
+}
+</translation>
+    </message>
+    <message>
+        <source>#!/usr/bin/env bash
+set -euo pipefail
+
+BUILD_DIR=&quot;build&quot;
+cmake -S . -B &quot;$BUILD_DIR&quot; -DCMAKE_BUILD_TYPE=Release
+cmake --build &quot;$BUILD_DIR&quot; --parallel
+echo &quot;构建完成&quot;
+</source>
+        <translation>#!/usr/bin/env bash
+set -euo pipefail
+
+BUILD_DIR=&quot;build&quot;
+cmake -S . -B &quot;$BUILD_DIR&quot; -DCMAKE_BUILD_TYPE=Release
+cmake --build &quot;$BUILD_DIR&quot; --parallel
+echo &quot;ビルド完了&quot;
+</translation>
+    </message>
+</context>
+<context>
+    <name>CollapsiblePage</name>
+    <message>
+        <source>展开或收起</source>
+        <translation>展開／折りたたみ</translation>
+    </message>
+    <message>
+        <source>@peduarte 收藏了 3 个仓库</source>
+        <translation>@peduarte が3つのリポジトリにスターを付けました</translation>
+    </message>
+    <message>
+        <source>折叠面板</source>
+        <translation>折りたたみパネル</translation>
+    </message>
+    <message>
+        <source>ShadCollapsible：可展开收起的内容区。</source>
+        <translation>ShadCollapsible：展開と折りたたみができるコンテンツ領域です。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击按钮展开</source>
+        <translation>ボタンをクリックして展開します</translation>
+    </message>
+    <message>
+        <source>默认展开</source>
+        <translation>初期状態で展開</translation>
+    </message>
+    <message>
+        <source>放置表单</source>
+        <translation>フォームの配置</translation>
+    </message>
+    <message>
+        <source>内容区可以放任意组件</source>
+        <translation>コンテンツ領域には任意のコンポーネントを配置できます</translation>
+    </message>
+    <message>
+        <source>高级设置</source>
+        <translation>詳細設定</translation>
+    </message>
+    <message>
+        <source>自动保存</source>
+        <translation>自動保存</translation>
+    </message>
+    <message>
+        <source>显示行号</source>
+        <translation>行番号を表示</translation>
+    </message>
+    <message>
+        <source>项目名称</source>
+        <translation>プロジェクト名</translation>
+    </message>
+</context>
+<context>
+    <name>ColorPickerPage</name>
+    <message>
+        <source>颜色选择器</source>
+        <translation>カラーピッカー</translation>
+    </message>
+    <message>
+        <source>ShadColorPicker / ShadColorDialog：取色面板与颜色对话框，支持屏幕取色。</source>
+        <translation>ShadColorPicker / ShadColorDialog：カラーパネルとカラーダイアログです。画面上の色の取得に対応しています。</translation>
+    </message>
+    <message>
+        <source>屏幕取色</source>
+        <translation>画面から色を取得</translation>
+    </message>
+    <message>
+        <source>隐藏本程序窗口，取窗口背后的颜色</source>
+        <translation>このアプリのウィンドウを隠して、その背後の色を取得します</translation>
+    </message>
+    <message>
+        <source>取色时隐藏</source>
+        <translation>取得中は隠す</translation>
+    </message>
+    <message>
+        <source>内嵌面板</source>
+        <translation>埋め込みパネル</translation>
+    </message>
+    <message>
+        <source>直接放进页面使用，吸管可从屏幕取色</source>
+        <translation>ページに直接配置して使用します。スポイトで画面から色を取得できます</translation>
+    </message>
+    <message>
+        <source>已取消屏幕取色</source>
+        <translation>画面からの色の取得をキャンセルしました</translation>
+    </message>
+    <message>
+        <source>对话框</source>
+        <translation>ダイアログ</translation>
+    </message>
+    <message>
+        <source>在对话框中选色，可恢复原始颜色</source>
+        <translation>ダイアログで色を選択します。元の色に戻すこともできます</translation>
+    </message>
+    <message>
+        <source>选择主题色</source>
+        <translation>テーマカラーを選択</translation>
+    </message>
+    <message>
+        <source>静态函数</source>
+        <translation>静的関数</translation>
+    </message>
+    <message>
+        <source>ShadColorDialog::getColor：阻塞打开并返回所选颜色</source>
+        <translation>ShadColorDialog::getColor：モーダルで開き、選択した色を返します</translation>
+    </message>
+    <message>
+        <source>尚未选择</source>
+        <translation>まだ選択されていません</translation>
+    </message>
+    <message>
+        <source>选择标签颜色</source>
+        <translation>ラベルの色を選択</translation>
+    </message>
+    <message>
+        <source>已取消</source>
+        <translation>キャンセルしました</translation>
+    </message>
+    <message>
+        <source>自定义预设</source>
+        <translation>カスタムプリセット</translation>
+    </message>
+    <message>
+        <source>替换基本颜色，切换 HSV 模式，预填自定义颜色</source>
+        <translation>基本色を置き換え、HSV モードに切り替え、カスタムカラーをあらかじめ入力します</translation>
+    </message>
+    <message>
+        <source>从右到左布局下面板与色块网格镜像</source>
+        <translation>右から左へのレイアウトでは、パネルとカラースウォッチのグリッドが左右反転します</translation>
+    </message>
+</context>
+<context>
+    <name>ComboBoxPage</name>
+    <message>
+        <source>下拉选择</source>
+        <translation>コンボボックス</translation>
+    </message>
+    <message>
+        <source>ShadComboBox：下拉选择组件，开启搜索后可模糊过滤选项。</source>
+        <translation>ShadComboBox：ドロップダウン選択コンポーネントです。検索を有効にすると、あいまい一致で選択肢を絞り込めます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击或用键盘打开，直接输入文字可跳到匹配项</source>
+        <translation>クリックまたはキーボードで開き、文字を入力すると一致する項目に移動します</translation>
+    </message>
+    <message>
+        <source>选择水果</source>
+        <translation>果物を選択</translation>
+    </message>
+    <message>
+        <source>当前选择: 无</source>
+        <translation>現在の選択: なし</translation>
+    </message>
+    <message>
+        <source>当前选择: %1</source>
+        <translation>現在の選択: %1</translation>
+    </message>
+    <message>
+        <source>无</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Medium 与 Small 两种尺寸</source>
+        <translation>Medium と Small の2種類のサイズ</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>开启搜索后按模糊匹配过滤，并按相关度排序</source>
+        <translation>検索を有効にすると、あいまい一致で絞り込み、関連度順に並べ替えます</translation>
+    </message>
+    <message>
+        <source>选择框架</source>
+        <translation>フレームワークを選択</translation>
+    </message>
+    <message>
+        <source>搜索框架...</source>
+        <translation>フレームワークを検索...</translation>
+    </message>
+    <message>
+        <source>没有找到框架</source>
+        <translation>フレームワークが見つかりません</translation>
+    </message>
+    <message>
+        <source>选择城市</source>
+        <translation>都市を選択</translation>
+    </message>
+    <message>
+        <source>搜索城市...</source>
+        <translation>都市を検索...</translation>
+    </message>
+    <message>
+        <source>多选</source>
+        <translation>複数選択</translation>
+    </message>
+    <message>
+        <source>每项带复选框可多选，已选项以徽章显示</source>
+        <translation>各項目にチェックボックスがあり、複数選択できます。選択した項目はバッジで表示されます</translation>
+    </message>
+    <message>
+        <source>、</source>
+        <comment>列表分隔符</comment>
+        <translation>、</translation>
+    </message>
+    <message>
+        <source>水果: %1    框架: %2</source>
+        <translation>果物: %1    フレームワーク: %2</translation>
+    </message>
+    <message>
+        <source>分隔线与禁用项</source>
+        <translation>区切り線と無効な項目</translation>
+    </message>
+    <message>
+        <source>插入分隔线，禁用的选项不能选择</source>
+        <translation>区切り線を挿入できます。無効な選択肢は選択できません</translation>
+    </message>
+    <message>
+        <source>选择时区</source>
+        <translation>タイムゾーンを選択</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>错误态边框为危险色，禁用后半透明</source>
+        <translation>エラー状態では枠線が危険を示す色になり、無効にすると半透明になります</translation>
+    </message>
+    <message>
+        <source>必填项</source>
+        <translation>必須項目</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+</context>
+<context>
+    <name>CommandPage</name>
+    <message>
+        <source>命令面板</source>
+        <translation>コマンドパレット</translation>
+    </message>
+    <message>
+        <source>ShadCommand：搜索并执行命令。</source>
+        <translation>ShadCommand：コマンドを検索して実行します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>分组、图标与快捷键</source>
+        <translation>グループ、アイコン、ショートカットキー</translation>
+    </message>
+    <message>
+        <source>对话框</source>
+        <translation>ダイアログ</translation>
+    </message>
+    <message>
+        <source>全局快捷键打开，点击外部关闭</source>
+        <translation>グローバルショートカットキーで開き、外側をクリックすると閉じます</translation>
+    </message>
+    <message>
+        <source>打开命令面板</source>
+        <translation>コマンドパレットを開く</translation>
+    </message>
+    <message>
+        <source>可调整尺寸</source>
+        <translation>サイズ変更可能</translation>
+    </message>
+    <message>
+        <source>快捷键</source>
+        <translation>ショートカットキー</translation>
+    </message>
+    <message>
+        <source>建议</source>
+        <translation>候補</translation>
+    </message>
+    <message>
+        <source>日历</source>
+        <translation>カレンダー</translation>
+    </message>
+    <message>
+        <source>搜索表情</source>
+        <translation>絵文字を検索</translation>
+    </message>
+    <message>
+        <source>计算器</source>
+        <translation>計算機</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>プロフィール</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>請求</translation>
+    </message>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最後にクリック: %1</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最後にクリック: なし</translation>
+    </message>
+</context>
+<context>
+    <name>ContextMenuPage</name>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最後にクリック: %1</translation>
+    </message>
+    <message>
+        <source>右键菜单</source>
+        <translation>コンテキストメニュー</translation>
+    </message>
+    <message>
+        <source>ShadContextMenu：右键菜单。</source>
+        <translation>ShadContextMenu：右クリックで開くメニューです。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>子菜单、复选与单选</source>
+        <translation>サブメニュー、チェック項目、ラジオ項目</translation>
+    </message>
+    <message>
+        <source>在此处右键</source>
+        <translation>ここで右クリック</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最後にクリック: なし</translation>
+    </message>
+    <message>
+        <source>后退</source>
+        <translation>戻る</translation>
+    </message>
+    <message>
+        <source>前进</source>
+        <translation>進む</translation>
+    </message>
+    <message>
+        <source>重新加载</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>更多工具</source>
+        <translation>その他のツール</translation>
+    </message>
+    <message>
+        <source>保存页面…</source>
+        <translation>ページを保存…</translation>
+    </message>
+    <message>
+        <source>创建快捷方式…</source>
+        <translation>ショートカットを作成…</translation>
+    </message>
+    <message>
+        <source>命名窗口…</source>
+        <translation>ウィンドウに名前を付ける…</translation>
+    </message>
+    <message>
+        <source>开发者工具</source>
+        <translation>デベロッパーツール</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>显示书签</source>
+        <translation>ブックマークを表示</translation>
+    </message>
+    <message>
+        <source>显示完整网址</source>
+        <translation>完全な URL を表示</translation>
+    </message>
+    <message>
+        <source>成员</source>
+        <translation>メンバー</translation>
+    </message>
+    <message>
+        <source>张三</source>
+        <translation>張三</translation>
+    </message>
+    <message>
+        <source>李四</source>
+        <translation>李四</translation>
+    </message>
+    <message>
+        <source>按位置更新</source>
+        <translation>位置に応じて更新</translation>
+    </message>
+    <message>
+        <source>读取右键位置</source>
+        <translation>右クリック位置を取得</translation>
+    </message>
+    <message>
+        <source>右键位置: 无</source>
+        <translation>右クリック位置: なし</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>ペースト</translation>
+    </message>
+    <message>
+        <source>右键位置: %1, %2</source>
+        <translation>右クリック位置: %1, %2</translation>
+    </message>
+</context>
+<context>
+    <name>DataTablePage</name>
+    <message>
+        <source>数据表格</source>
+        <translation>データテーブル</translation>
+    </message>
+    <message>
+        <source>ShadDataTable：基于 ShadTable 的数据表格，支持筛选、排序、行选择与分页。</source>
+        <translation>ShadDataTable：ShadTable をベースにしたデータテーブルです。フィルター、並べ替え、行選択、ページ分割に対応しています。</translation>
+    </message>
+    <message>
+        <source>付款记录</source>
+        <translation>支払い履歴</translation>
+    </message>
+    <message>
+        <source>支持筛选、排序、列显示、行选择、分页与调整列宽</source>
+        <translation>フィルター、並べ替え、列の表示切り替え、行選択、ページ分割、列幅の調整に対応しています</translation>
+    </message>
+    <message>
+        <source>操作</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>复制付款 ID</source>
+        <translation>支払い ID をコピー</translation>
+    </message>
+    <message>
+        <source>查看客户</source>
+        <translation>顧客を表示</translation>
+    </message>
+    <message>
+        <source>查看付款详情</source>
+        <translation>支払いの詳細を表示</translation>
+    </message>
+    <message>
+        <source>最近操作: 无</source>
+        <translation>最後の操作: なし</translation>
+    </message>
+    <message>
+        <source>最近操作: 已复制付款 ID %1</source>
+        <translation>最後の操作: 支払い ID %1 をコピーしました</translation>
+    </message>
+    <message>
+        <source>最近操作: %1 %2</source>
+        <translation>最後の操作: %1 %2</translation>
+    </message>
+    <message>
+        <source>重置列宽</source>
+        <translation>列幅をリセット</translation>
+    </message>
+    <message>
+        <source>陈娜</source>
+        <translation>陳娜</translation>
+    </message>
+    <message>
+        <source>设计</source>
+        <translation>デザイン</translation>
+    </message>
+    <message>
+        <source>李瑞</source>
+        <translation>李瑞</translation>
+    </message>
+    <message>
+        <source>前端</source>
+        <translation>フロントエンド</translation>
+    </message>
+    <message>
+        <source>王悦</source>
+        <translation>王悦</translation>
+    </message>
+    <message>
+        <source>后端</source>
+        <translation>バックエンド</translation>
+    </message>
+    <message>
+        <source>张一</source>
+        <translation>張一</translation>
+    </message>
+    <message>
+        <source>产品</source>
+        <translation>プロダクト</translation>
+    </message>
+    <message>
+        <source>刘洋</source>
+        <translation>劉洋</translation>
+    </message>
+    <message>
+        <source>测试</source>
+        <translation>QA</translation>
+    </message>
+    <message>
+        <source>赵敏</source>
+        <translation>趙敏</translation>
+    </message>
+    <message>
+        <source>运营</source>
+        <translation>運用</translation>
+    </message>
+    <message>
+        <source>孙磊</source>
+        <translation>孫磊</translation>
+    </message>
+    <message>
+        <source>实习</source>
+        <translation>インターン</translation>
+    </message>
+    <message>
+        <source>成员</source>
+        <translation>メンバー</translation>
+    </message>
+    <message>
+        <source>角色</source>
+        <translation>役割</translation>
+    </message>
+    <message>
+        <source>头像列</source>
+        <translation>アバター列</translation>
+    </message>
+    <message>
+        <source>setColumnImage 设为圆形头像，DescriptionRole 显示第二行</source>
+        <translation>setColumnImage で円形のアバターにし、DescriptionRole で2行目を表示します</translation>
+    </message>
+    <message>
+        <source>筛选成员...</source>
+        <translation>メンバーを絞り込み...</translation>
+    </message>
+</context>
+<context>
+    <name>DatePickerPage</name>
+    <message>
+        <source>日期选择</source>
+        <translation>日付ピッカー</translation>
+    </message>
+    <message>
+        <source>ShadDatePicker：触发框加浮层日历的日期选择器，ShadCalendar 也可单独使用。</source>
+        <translation>ShadDatePicker：トリガーとポップオーバーのカレンダーで構成される日付ピッカーです。ShadCalendar は単独でも使用できます。</translation>
+    </message>
+    <message>
+        <source>日历</source>
+        <translation>カレンダー</translation>
+    </message>
+    <message>
+        <source>ShadCalendar 单独使用，支持键盘选择日期</source>
+        <translation>ShadCalendar を単独で使用します。キーボードでの日付選択に対応しています</translation>
+    </message>
+    <message>
+        <source>已选择：%1</source>
+        <translation>選択中：%1</translation>
+    </message>
+    <message>
+        <source>未选择</source>
+        <translation>未選択</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击触发框弹出日历，选择后关闭</source>
+        <translation>トリガーをクリックするとカレンダーが開き、選択すると閉じます</translation>
+    </message>
+    <message>
+        <source>日期</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+        <source>带下拉箭头</source>
+        <translation>下向き矢印付き</translation>
+    </message>
+    <message>
+        <source>触发框结束侧显示下拉箭头</source>
+        <translation>トリガーの末尾側に下向き矢印を表示します</translation>
+    </message>
+    <message>
+        <source>出生日期</source>
+        <translation>生年月日</translation>
+    </message>
+    <message>
+        <source>用下拉框切换月份与年份，并自定义显示格式</source>
+        <translation>ドロップダウンで月と年を切り替え、表示形式をカスタマイズします</translation>
+    </message>
+    <message>
+        <source>日期范围</source>
+        <translation>日付範囲</translation>
+    </message>
+    <message>
+        <source>选择起止日期，并排显示两个月</source>
+        <translation>開始日と終了日を選択します。2か月分を横に並べて表示します</translation>
+    </message>
+    <message>
+        <source>M月d日</source>
+        <comment>日期显示格式</comment>
+        <translation>M月d日</translation>
+    </message>
+    <message>
+        <source>输入框</source>
+        <translation>入力欄</translation>
+    </message>
+    <message>
+        <source>直接输入日期，或点击日历按钮选择</source>
+        <translation>日付を直接入力するか、カレンダーボタンをクリックして選択します</translation>
+    </message>
+    <message>
+        <source>选择日期</source>
+        <translation>日付を選択</translation>
+    </message>
+    <message>
+        <source>订阅日期</source>
+        <translation>登録日</translation>
+    </message>
+    <message>
+        <source>日期与时间</source>
+        <translation>日付と時刻</translation>
+    </message>
+    <message>
+        <source>日期选择与时间选择并排使用</source>
+        <translation>日付ピッカーと時刻ピッカーを並べて使用します</translation>
+    </message>
+    <message>
+        <source>时间</source>
+        <translation>時刻</translation>
+    </message>
+    <message>
+        <source>时间选择</source>
+        <translation>時刻ピッカー</translation>
+    </message>
+    <message>
+        <source>ShadTimePicker 滚动或点击选择时间，可只选时与分</source>
+        <translation>ShadTimePicker：スクロールまたはクリックで時刻を選択します。時と分のみの選択も可能です</translation>
+    </message>
+    <message>
+        <source>尚未选择</source>
+        <translation>まだ選択されていません</translation>
+    </message>
+    <message>
+        <source>已选择时间：%1</source>
+        <translation>選択した時刻：%1</translation>
+    </message>
+    <message>
+        <source>时分秒</source>
+        <translation>秒まで指定</translation>
+    </message>
+    <message>
+        <source>时分</source>
+        <translation>秒を指定しない</translation>
+    </message>
+</context>
+<context>
+    <name>DescriptionsPage</name>
+    <message>
+        <source>描述列表</source>
+        <translation>説明リスト</translation>
+    </message>
+    <message>
+        <source>ShadDescriptions：键值对按列网格排列，支持跨列、带边框与纵向排列，内容可以是文字或任意组件。</source>
+        <translation>ShadDescriptions：キーと値のペアを列のグリッドに並べます。列の結合、枠線付き、縦並びに対応し、内容にはテキストや任意のコンポーネントを使用できます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>3 列排列，标题行结束侧放置操作按钮；最后一项跨 2 列</source>
+        <translation>3列で並べ、タイトル行の末尾側に操作ボタンを配置します。最後の項目は2列にまたがります</translation>
+    </message>
+    <message>
+        <source>用户信息</source>
+        <translation>ユーザー情報</translation>
+    </message>
+    <message>
+        <source>编辑</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>姓名</source>
+        <translation>氏名</translation>
+    </message>
+    <message>
+        <source>陈怡君</source>
+        <translation>陳怡君</translation>
+    </message>
+    <message>
+        <source>手机号码</source>
+        <translation>携帯電話番号</translation>
+    </message>
+    <message>
+        <source>居住地</source>
+        <translation>居住地</translation>
+    </message>
+    <message>
+        <source>台北市</source>
+        <translation>台北市</translation>
+    </message>
+    <message>
+        <source>电子邮件</source>
+        <translation>メールアドレス</translation>
+    </message>
+    <message>
+        <source>地址</source>
+        <translation>住所</translation>
+    </message>
+    <message>
+        <source>台北市大安区忠孝东路四段 100 号 8 楼</source>
+        <translation>台北市大安区忠孝東路四段100号 8階</translation>
+    </message>
+    <message>
+        <source>带边框</source>
+        <translation>枠線付き</translation>
+    </message>
+    <message>
+        <source>setBordered(true)：标签格带底色，单元格之间有分隔线；状态使用 ShadBadge，收货地址与备注跨 3 列</source>
+        <translation>setBordered(true)：ラベルのセルに背景色が付き、セル間に区切り線が入ります。状態には ShadBadge を使用し、配送先住所と備考は3列にまたがります</translation>
+    </message>
+    <message>
+        <source>订单详情</source>
+        <translation>注文の詳細</translation>
+    </message>
+    <message>
+        <source>订单编号</source>
+        <translation>注文番号</translation>
+    </message>
+    <message>
+        <source>已付款</source>
+        <translation>支払い済み</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>创建时间</source>
+        <translation>作成日時</translation>
+    </message>
+    <message>
+        <source>付款方式</source>
+        <translation>お支払い方法</translation>
+    </message>
+    <message>
+        <source>信用卡</source>
+        <translation>クレジットカード</translation>
+    </message>
+    <message>
+        <source>金额</source>
+        <translation>金額</translation>
+    </message>
+    <message>
+        <source>配送方式</source>
+        <translation>配送方法</translation>
+    </message>
+    <message>
+        <source>宅配</source>
+        <translation>宅配</translation>
+    </message>
+    <message>
+        <source>收货地址</source>
+        <translation>配送先住所</translation>
+    </message>
+    <message>
+        <source>台北市大安区忠孝东路四段 100 号 8 楼
+陈怡君 0912-345-678</source>
+        <translation>台北市大安区忠孝東路四段100号 8階
+陳怡君 0912-345-678</translation>
+    </message>
+    <message>
+        <source>备注</source>
+        <translation>備考</translation>
+    </message>
+    <message>
+        <source>请于平日晚上六点后送达，送达前请先来电。</source>
+        <translation>平日の午後6時以降にお届けください。お届け前にお電話をお願いします。</translation>
+    </message>
+    <message>
+        <source>纵向排列</source>
+        <translation>縦並び</translation>
+    </message>
+    <message>
+        <source>setItemLayout(Vertical)：标签在上、内容在下；带边框时标签行与内容行交替</source>
+        <translation>setItemLayout(Vertical)：ラベルを上、内容を下に配置します。枠線付きの場合はラベル行と内容行が交互に並びます</translation>
+    </message>
+    <message>
+        <source>服务器信息</source>
+        <translation>サーバー情報</translation>
+    </message>
+    <message>
+        <source>主机名称</source>
+        <translation>ホスト名</translation>
+    </message>
+    <message>
+        <source>IP 地址</source>
+        <translation>IP アドレス</translation>
+    </message>
+    <message>
+        <source>机房</source>
+        <translation>データセンター</translation>
+    </message>
+    <message>
+        <source>台北</source>
+        <translation>台北</translation>
+    </message>
+    <message>
+        <source>处理器</source>
+        <translation>プロセッサ</translation>
+    </message>
+    <message>
+        <source>8 核</source>
+        <translation>8コア</translation>
+    </message>
+    <message>
+        <source>内存</source>
+        <translation>メモリ</translation>
+    </message>
+    <message>
+        <source>磁盘</source>
+        <translation>ディスク</translation>
+    </message>
+    <message>
+        <source>项目名称</source>
+        <translation>プロジェクト名</translation>
+    </message>
+    <message>
+        <source>官网改版</source>
+        <translation>公式サイトのリニューアル</translation>
+    </message>
+    <message>
+        <source>负责人</source>
+        <translation>担当者</translation>
+    </message>
+    <message>
+        <source>林志豪</source>
+        <translation>林志豪</translation>
+    </message>
+    <message>
+        <source>截止日期</source>
+        <translation>期限</translation>
+    </message>
+    <message>
+        <source>尺寸与列数</source>
+        <translation>サイズと列数</translation>
+    </message>
+    <message>
+        <source>setDescriptionsSize 切换 Small 与 Medium，setColumnCount 设置 1 到 4 列</source>
+        <translation>setDescriptionsSize で Small と Medium を切り替え、setColumnCount で1～4列を設定します</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>列数</source>
+        <translation>列数</translation>
+    </message>
+    <message>
+        <source>商品名称</source>
+        <translation>商品名</translation>
+    </message>
+    <message>
+        <source>机械键盘</source>
+        <translation>メカニカルキーボード</translation>
+    </message>
+    <message>
+        <source>型号</source>
+        <translation>型番</translation>
+    </message>
+    <message>
+        <source>颜色</source>
+        <translation>カラー</translation>
+    </message>
+    <message>
+        <source>黑色</source>
+        <translation>ブラック</translation>
+    </message>
+    <message>
+        <source>库存</source>
+        <translation>在庫</translation>
+    </message>
+    <message>
+        <source>价格</source>
+        <translation>価格</translation>
+    </message>
+    <message>
+        <source>产地</source>
+        <translation>産地</translation>
+    </message>
+    <message>
+        <source>新北市</source>
+        <translation>新北市</translation>
+    </message>
+</context>
+<context>
+    <name>DialogPage</name>
+    <message>
+        <source>第 %1 段：这是一段用于演示滚动的示例文字。对话框内容超过可用高度时，内容区单独滚动，标题区保持在顶部可见。把 ShadScrollArea 放进 contentLayout 并限制高度即可得到这种效果，页脚位于内容区之外，同样不会随内容滚动。</source>
+        <translation>第 %1 段落：これはスクロールを示すためのサンプルテキストです。ダイアログの内容が利用可能な高さを超えると、コンテンツ領域だけがスクロールし、ヘッダーは上部に表示されたままになります。ShadScrollArea を contentLayout に配置して高さを制限すると、この動作になります。フッターはコンテンツ領域の外側にあるため、同様に内容と一緒にスクロールしません。</translation>
+    </message>
+    <message>
+        <source>发送反馈</source>
+        <translation>フィードバックを送信</translation>
+    </message>
+    <message>
+        <source>告诉我们你遇到的问题或建议，我们会尽快回复。</source>
+        <translation>発生した問題やご提案をお聞かせください。できるだけ早くご返信します。</translation>
+    </message>
+    <message>
+        <source>请输入你的反馈</source>
+        <translation>フィードバックを入力してください</translation>
+    </message>
+    <message>
+        <source>允许通过邮件联系我</source>
+        <translation>メールでの連絡を許可する</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>编辑资料</source>
+        <translation>プロフィールを編集</translation>
+    </message>
+    <message>
+        <source>在这里修改你的个人资料，完成后点击保存。</source>
+        <translation>ここでプロフィールを変更できます。完了したら保存をクリックしてください。</translation>
+    </message>
+    <message>
+        <source>名称</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>用户名</source>
+        <translation>ユーザー名</translation>
+    </message>
+    <message>
+        <source>保存修改</source>
+        <translation>変更を保存</translation>
+    </message>
+    <message>
+        <source>分享链接</source>
+        <translation>リンクを共有</translation>
+    </message>
+    <message>
+        <source>拿到这个链接的人都可以查看。</source>
+        <translation>このリンクを知っている人は誰でも閲覧できます。</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>可最大化的对话框</source>
+        <translation>最大化できるダイアログ</translation>
+    </message>
+    <message>
+        <source>标题栏显示最小化、最大化与关闭按钮，双击标题栏切换最大化，拖动边缘可以缩放。</source>
+        <translation>タイトルバーに最小化、最大化、閉じるボタンが表示されます。タイトルバーをダブルクリックすると最大化を切り替え、端をドラッグするとサイズを変更できます。</translation>
+    </message>
+    <message>
+        <source>窗口标题</source>
+        <translation>ウィンドウのタイトル</translation>
+    </message>
+    <message>
+        <source>无关闭按钮</source>
+        <translation>閉じるボタンなし</translation>
+    </message>
+    <message>
+        <source>这个对话框的标题栏没有关闭按钮，按 Esc 关闭。</source>
+        <translation>このダイアログのタイトルバーには閉じるボタンがありません。Esc キーで閉じます。</translation>
+    </message>
+    <message>
+        <source>固定尺寸</source>
+        <translation>固定サイズ</translation>
+    </message>
+    <message>
+        <source>这个对话框的尺寸固定为 400 × 260，边缘不能拖动缩放。</source>
+        <translation>このダイアログのサイズは 400 × 260 に固定されており、端をドラッグしてサイズを変更することはできません。</translation>
+    </message>
+    <message>
+        <source>粘性页脚</source>
+        <translation>固定フッター</translation>
+    </message>
+    <message>
+        <source>这个对话框的页脚在内容滚动时保持可见。</source>
+        <translation>このダイアログのフッターは、内容がスクロールしても表示されたままになります。</translation>
+    </message>
+    <message>
+        <source>可滚动内容</source>
+        <translation>スクロール可能なコンテンツ</translation>
+    </message>
+    <message>
+        <source>这是一个内容可以滚动的对话框。</source>
+        <translation>これは内容をスクロールできるダイアログです。</translation>
+    </message>
+    <message>
+        <source>删除这个项目？</source>
+        <translation>このプロジェクトを削除しますか？</translation>
+    </message>
+    <message>
+        <source>删除后无法恢复，项目中的所有文件都会被移除。</source>
+        <translation>削除すると元に戻せません。プロジェクト内のすべてのファイルが削除されます。</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>独立对话框</source>
+        <translation>独立したダイアログ</translation>
+    </message>
+    <message>
+        <source>这个对话框没有父窗口，因此没有遮罩，按 Esc 或点击按钮关闭。</source>
+        <translation>このダイアログには親ウィンドウがないため、オーバーレイは表示されません。Esc キーを押すかボタンをクリックして閉じます。</translation>
+    </message>
+    <message>
+        <source>移到中央</source>
+        <translation>中央に移動</translation>
+    </message>
+    <message>
+        <source>知道了</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>对话框</source>
+        <translation>ダイアログ</translation>
+    </message>
+    <message>
+        <source>ShadDialog：与 ShadWindow 风格一致的独立对话框窗口，模态打开时显示遮罩。</source>
+        <translation>ShadDialog：ShadWindow と同じスタイルの独立したダイアログウィンドウです。モーダルで開くとオーバーレイが表示されます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>设置标题与说明，放入表单和按钮后打开</source>
+        <translation>タイトルと説明を設定し、フォームとボタンを配置してから開きます</translation>
+    </message>
+    <message>
+        <source>打开对话框</source>
+        <translation>ダイアログを開く</translation>
+    </message>
+    <message>
+        <source>自定义关闭按钮</source>
+        <translation>カスタム閉じるボタン</translation>
+    </message>
+    <message>
+        <source>页脚放关闭按钮，并靠起始侧排列</source>
+        <translation>フッターに閉じるボタンを置き、先頭側に揃えます</translation>
+    </message>
+    <message>
+        <source>分享</source>
+        <translation>共有</translation>
+    </message>
+    <message>
+        <source>标题栏按钮</source>
+        <translation>タイトルバーのボタン</translation>
+    </message>
+    <message>
+        <source>setButtonFlags 设置标题栏的窗口按钮，默认只有关闭按钮</source>
+        <translation>setButtonFlags でタイトルバーのウィンドウボタンを設定します。デフォルトでは閉じるボタンのみです</translation>
+    </message>
+    <message>
+        <source>显示全部按钮</source>
+        <translation>すべてのボタンを表示</translation>
+    </message>
+    <message>
+        <source>隐藏全部按钮</source>
+        <translation>すべてのボタンを非表示</translation>
+    </message>
+    <message>
+        <source>固定尺寸后窗口不能缩放</source>
+        <translation>サイズを固定するとウィンドウのサイズは変更できません</translation>
+    </message>
+    <message>
+        <source>内容区可滚动，页脚始终可见</source>
+        <translation>コンテンツ領域はスクロールでき、フッターは常に表示されます</translation>
+    </message>
+    <message>
+        <source>内容较长时只滚动内容区，标题区保持在顶部</source>
+        <translation>内容が長い場合はコンテンツ領域のみスクロールし、ヘッダーは上部に表示されたままになります</translation>
+    </message>
+    <message>
+        <source>继承 ShadDialog</source>
+        <translation>ShadDialog を継承</translation>
+    </message>
+    <message>
+        <source>在子类中填充内容，窗口风格保持统一</source>
+        <translation>サブクラスで内容を構築しても、ウィンドウのスタイルは統一されたままです</translation>
+    </message>
+    <message>
+        <source>尚未发送反馈</source>
+        <translation>まだフィードバックを送信していません</translation>
+    </message>
+    <message>
+        <source>已发送 %1 个字的反馈，允许邮件联系</source>
+        <translation>%1 文字のフィードバックを送信しました（メールでの連絡を許可）</translation>
+    </message>
+    <message>
+        <source>已发送 %1 个字的反馈</source>
+        <translation>%1 文字のフィードバックを送信しました</translation>
+    </message>
+    <message>
+        <source>exec 返回值</source>
+        <translation>exec の戻り値</translation>
+    </message>
+    <message>
+        <source>exec() 以模态打开并阻塞，返回 Accepted 或 Rejected</source>
+        <translation>exec() はモーダルで開いて処理をブロックし、Accepted または Rejected を返します</translation>
+    </message>
+    <message>
+        <source>删除项目</source>
+        <translation>プロジェクトを削除</translation>
+    </message>
+    <message>
+        <source>尚未操作</source>
+        <translation>まだ操作していません</translation>
+    </message>
+    <message>
+        <source>exec() 返回 Accepted：已删除</source>
+        <translation>exec() が Accepted を返しました：削除しました</translation>
+    </message>
+    <message>
+        <source>exec() 返回 Rejected：已取消</source>
+        <translation>exec() が Rejected を返しました：キャンセルしました</translation>
+    </message>
+    <message>
+        <source>无父窗口</source>
+        <translation>親ウィンドウなし</translation>
+    </message>
+    <message>
+        <source>无父窗口时没有遮罩，窗口在屏幕居中</source>
+        <translation>親ウィンドウがない場合はオーバーレイが表示されず、ウィンドウは画面の中央に配置されます</translation>
+    </message>
+    <message>
+        <source>打开独立对话框</source>
+        <translation>独立したダイアログを開く</translation>
+    </message>
+</context>
+<context>
+    <name>DockPage</name>
+    <message>
+        <source>资源管理器</source>
+        <translation>エクスプローラー</translation>
+    </message>
+    <message>
+        <source>项目文件与目录结构。</source>
+        <translation>プロジェクトのファイルとフォルダー構造です。</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>在整个项目中查找文本。</source>
+        <translation>プロジェクト全体からテキストを検索します。</translation>
+    </message>
+    <message>
+        <source>属性</source>
+        <translation>プロパティ</translation>
+    </message>
+    <message>
+        <source>不可关闭，也不能浮动。</source>
+        <translation>閉じることも、フローティングにすることもできません。</translation>
+    </message>
+    <message>
+        <source>输出</source>
+        <translation>出力</translation>
+    </message>
+    <message>
+        <source>构建与运行日志。</source>
+        <translation>ビルドと実行のログです。</translation>
+    </message>
+    <message>
+        <source>问题</source>
+        <translation>問題</translation>
+    </message>
+    <message>
+        <source>编译错误与警告。</source>
+        <translation>コンパイルのエラーと警告です。</translation>
+    </message>
+    <message>
+        <source>项目说明：构建方式、组件列表与许可证。</source>
+        <translation>プロジェクトの説明：ビルド方法、コンポーネント一覧、ライセンスです。</translation>
+    </message>
+    <message>
+        <source>示例程序的主窗口。</source>
+        <translation>サンプルアプリのメインウィンドウです。</translation>
+    </message>
+    <message>
+        <source>各平台的构建预设。</source>
+        <translation>各プラットフォームのビルドプリセットです。</translation>
+    </message>
+    <message>
+        <source>停靠布局</source>
+        <translation>ドッキングレイアウト</translation>
+    </message>
+    <message>
+        <source>ShadDockManager：可拖动停靠、合并与浮动的多面板布局。</source>
+        <translation>ShadDockManager：パネルをドラッグしてドッキング、タブとして統合、フローティング表示ができる複数パネルのレイアウトです。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>拖动标签或面板标题到指引上停靠，在别处松开变为浮动窗口</source>
+        <translation>タブまたはパネルのタイトルをガイドの上にドラッグしてドッキングします。別の場所で離すとフローティングウィンドウになります</translation>
+    </message>
+    <message>
+        <source>独立窗口</source>
+        <translation>独立ウィンドウ</translation>
+    </message>
+    <message>
+        <source>保存与恢复布局，从视图菜单显示或关闭面板</source>
+        <translation>レイアウトの保存と復元ができ、表示メニューからパネルの表示と非表示を切り替えられます</translation>
+    </message>
+    <message>
+        <source>打开窗口</source>
+        <translation>ウィンドウを開く</translation>
+    </message>
+    <message>
+        <source>视图</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>新建文档</source>
+        <translation>新規ドキュメント</translation>
+    </message>
+    <message>
+        <source>未命名 %1</source>
+        <translation>名称未設定 %1</translation>
+    </message>
+    <message>
+        <source>新建的空白文档。</source>
+        <translation>新規作成した空白のドキュメントです。</translation>
+    </message>
+    <message>
+        <source>保存布局</source>
+        <translation>レイアウトを保存</translation>
+    </message>
+    <message>
+        <source>恢复布局</source>
+        <translation>レイアウトを復元</translation>
+    </message>
+    <message>
+        <source>默认布局</source>
+        <translation>デフォルトのレイアウト</translation>
+    </message>
+</context>
+<context>
+    <name>DrawerPage</name>
+    <message>
+        <source>第 %1 段示例文字。</source>
+        <translation>サンプルテキスト、第 %1 段落。</translation>
+    </message>
+    <message>
+        <source>每日目标</source>
+        <translation>1日の目標</translation>
+    </message>
+    <message>
+        <source>设置每天的活动目标。</source>
+        <translation>1日の活動目標を設定します。</translation>
+    </message>
+    <message>
+        <source>卡路里 / 天</source>
+        <translation>カロリー / 日</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>拖动或点击外部关闭。</source>
+        <translation>ドラッグするか、外側をクリックして閉じます。</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>可滚动内容</source>
+        <translation>スクロール可能なコンテンツ</translation>
+    </message>
+    <message>
+        <source>内容超出时滚动。</source>
+        <translation>内容がはみ出す場合はスクロールします。</translation>
+    </message>
+    <message>
+        <source>第 %1 层</source>
+        <translation>第 %1 階層</translation>
+    </message>
+    <message>
+        <source>下层会缩小后退。</source>
+        <translation>下の階層は縮小して後ろに下がります。</translation>
+    </message>
+    <message>
+        <source>打开第 %1 层</source>
+        <translation>第 %1 階層を開く</translation>
+    </message>
+    <message>
+        <source>上下拖动切换位置。</source>
+        <translation>上下にドラッグして位置を切り替えます。</translation>
+    </message>
+    <message>
+        <source>吸附点：%1%</source>
+        <translation>スナップ位置：%1%</translation>
+    </message>
+    <message>
+        <source>抽屉</source>
+        <translation>ドロワー</translation>
+    </message>
+    <message>
+        <source>ShadDrawer：从窗口边缘滑出的面板。</source>
+        <translation>ShadDrawer：ウィンドウの端からスライドして表示されるパネルです。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>默认从底部滑出</source>
+        <translation>デフォルトでは下からスライドして表示されます</translation>
+    </message>
+    <message>
+        <source>打开抽屉</source>
+        <translation>ドロワーを開く</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>从四个边缘滑出</source>
+        <translation>四方向の端からスライドして表示できます</translation>
+    </message>
+    <message>
+        <source>顶部</source>
+        <translation>上</translation>
+    </message>
+    <message>
+        <source>从顶部滑出</source>
+        <translation>上からスライド</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右</translation>
+    </message>
+    <message>
+        <source>从右侧滑出</source>
+        <translation>右からスライド</translation>
+    </message>
+    <message>
+        <source>底部</source>
+        <translation>下</translation>
+    </message>
+    <message>
+        <source>从底部滑出</source>
+        <translation>下からスライド</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <source>从左侧滑出</source>
+        <translation>左からスライド</translation>
+    </message>
+    <message>
+        <source>拖动把手</source>
+        <translation>ドラッグハンドル</translation>
+    </message>
+    <message>
+        <source>显示把手</source>
+        <translation>ハンドルを表示</translation>
+    </message>
+    <message>
+        <source>正文放入 ShadScrollArea</source>
+        <translation>本文を ShadScrollArea に配置</translation>
+    </message>
+    <message>
+        <source>嵌套</source>
+        <translation>入れ子</translation>
+    </message>
+    <message>
+        <source>抽屉中再打开抽屉</source>
+        <translation>ドロワーの中からさらにドロワーを開きます</translation>
+    </message>
+    <message>
+        <source>非模态</source>
+        <translation>モードレス</translation>
+    </message>
+    <message>
+        <source>setModal(false)：无遮罩，背景可操作</source>
+        <translation>setModal(false)：オーバーレイなしで、背景を操作できます</translation>
+    </message>
+    <message>
+        <source>点击 %1 次</source>
+        <translation>%1 回クリック</translation>
+    </message>
+    <message>
+        <source>吸附点</source>
+        <translation>スナップ位置</translation>
+    </message>
+    <message>
+        <source>setSnapPoints：松手后停在最近的位置</source>
+        <translation>setSnapPoints：指を離すと最も近い位置で止まります</translation>
+    </message>
+    <message>
+        <source>逐级吸附</source>
+        <translation>段階的にスナップ</translation>
+    </message>
+    <message>
+        <source>禁止点击外部关闭</source>
+        <translation>外側クリックで閉じない</translation>
+    </message>
+    <message>
+        <source>点击外部不关闭</source>
+        <translation>外側をクリックしても閉じません</translation>
+    </message>
+    <message>
+        <source>拖动、Esc 或按钮关闭。</source>
+        <translation>ドラッグ、Esc キー、またはボタンで閉じます。</translation>
+    </message>
+</context>
+<context>
+    <name>DropdownMenuPage</name>
+    <message>
+        <source>下拉菜单</source>
+        <translation>ドロップダウンメニュー</translation>
+    </message>
+    <message>
+        <source>ShadDropdownMenu：菜单项用 QAction 表示的下拉菜单，支持复选项、分组与分隔线。</source>
+        <translation>ShadDropdownMenu：メニュー項目を QAction で表すドロップダウンメニューです。チェック項目、グループ、区切り線に対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击按钮打开菜单，支持键盘操作</source>
+        <translation>ボタンをクリックしてメニューを開きます。キーボード操作に対応しています</translation>
+    </message>
+    <message>
+        <source>打开菜单</source>
+        <translation>メニューを開く</translation>
+    </message>
+    <message>
+        <source>我的账户</source>
+        <translation>マイアカウント</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>プロフィール</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>請求</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>键盘快捷键</source>
+        <translation>キーボードショートカット</translation>
+    </message>
+    <message>
+        <source>团队</source>
+        <translation>チーム</translation>
+    </message>
+    <message>
+        <source>邀请成员</source>
+        <translation>メンバーを招待</translation>
+    </message>
+    <message>
+        <source>帮助与支持</source>
+        <translation>ヘルプとサポート</translation>
+    </message>
+    <message>
+        <source>退出登录</source>
+        <translation>ログアウト</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最後にクリック: なし</translation>
+    </message>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最後にクリック: %1</translation>
+    </message>
+    <message>
+        <source>复选项</source>
+        <translation>チェック項目</translation>
+    </message>
+    <message>
+        <source>点击复选项切换勾选，菜单保持打开</source>
+        <translation>チェック項目をクリックしてオンとオフを切り替えます。メニューは開いたままになります</translation>
+    </message>
+    <message>
+        <source>外观</source>
+        <translation>外観</translation>
+    </message>
+    <message>
+        <source>状态栏</source>
+        <translation>ステータスバー</translation>
+    </message>
+    <message>
+        <source>活动栏</source>
+        <translation>アクティビティバー</translation>
+    </message>
+    <message>
+        <source>面板</source>
+        <translation>パネル</translation>
+    </message>
+    <message>
+        <source>状态栏: %1    面板: %2</source>
+        <translation>ステータスバー: %1    パネル: %2</translation>
+    </message>
+    <message>
+        <source>显示</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>隐藏</source>
+        <translation>非表示</translation>
+    </message>
+    <message>
+        <source>危险操作与右对齐</source>
+        <translation>危険な操作と右揃え</translation>
+    </message>
+    <message>
+        <source>危险操作样式，菜单与按钮右对齐弹出</source>
+        <translation>危険な操作のスタイルです。メニューはボタンの右端に揃えて表示されます</translation>
+    </message>
+    <message>
+        <source>编辑</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>削除</translation>
+    </message>
+</context>
+<context>
+    <name>EmptyPage</name>
+    <message>
+        <source>空状态</source>
+        <translation>空の状態</translation>
+    </message>
+    <message>
+        <source>ShadEmpty：没有数据时显示的占位内容，包含媒体、标题、描述与操作区。</source>
+        <translation>ShadEmpty：データがないときに表示するプレースホルダーです。メディア、タイトル、説明、操作領域で構成されます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>Icon 媒体样式，操作区放置按钮</source>
+        <translation>Icon メディアスタイルで、操作領域にボタンを配置します</translation>
+    </message>
+    <message>
+        <source>媒体样式</source>
+        <translation>メディアスタイル</translation>
+    </message>
+    <message>
+        <source>setMediaVariant(Default)：只显示图标，没有底色</source>
+        <translation>setMediaVariant(Default)：アイコンのみで、背景色はありません</translation>
+    </message>
+    <message>
+        <source>头像媒体</source>
+        <translation>アバターのメディア</translation>
+    </message>
+    <message>
+        <source>setMediaWidget：用头像组等任意组件替换图标</source>
+        <translation>setMediaWidget：アイコンをアバターグループなどの任意のコンポーネントに置き換えます</translation>
+    </message>
+    <message>
+        <source>虚线边框</source>
+        <translation>破線の枠線</translation>
+    </message>
+    <message>
+        <source>setBorderVisible：显示虚线边框，用于标出空白区域</source>
+        <translation>setBorderVisible：破線の枠線を表示し、空白の領域を示します</translation>
+    </message>
+    <message>
+        <source>描述中的链接</source>
+        <translation>説明内のリンク</translation>
+    </message>
+    <message>
+        <source>描述支持 &lt;a&gt; 链接，悬停时变色，点击时发出 linkActivated</source>
+        <translation>説明には &lt;a&gt; リンクを使用できます。ホバー時に色が変わり、クリックすると linkActivated が発行されます</translation>
+    </message>
+    <message>
+        <source>尚未点击链接</source>
+        <translation>まだリンクをクリックしていません</translation>
+    </message>
+    <message>
+        <source>点击了链接：%1</source>
+        <translation>リンクをクリックしました：%1</translation>
+    </message>
+    <message>
+        <source>表格中的空数据</source>
+        <translation>テーブル内の空データ</translation>
+    </message>
+    <message>
+        <source>表格没有数据行时，在表头下方显示空状态</source>
+        <translation>テーブルにデータ行がないとき、ヘッダーの下に空の状態を表示します</translation>
+    </message>
+    <message>
+        <source>暂无项目</source>
+        <translation>プロジェクトはまだありません</translation>
+    </message>
+    <message>
+        <source>你还没有创建任何项目。创建第一个项目即可开始使用。</source>
+        <translation>プロジェクトをまだ作成していません。最初のプロジェクトを作成して始めましょう。</translation>
+    </message>
+    <message>
+        <source>创建项目</source>
+        <translation>プロジェクトを作成</translation>
+    </message>
+    <message>
+        <source>导入项目</source>
+        <translation>プロジェクトをインポート</translation>
+    </message>
+    <message>
+        <source>了解更多</source>
+        <translation>詳しく見る</translation>
+    </message>
+    <message>
+        <source>暂无消息</source>
+        <translation>メッセージはありません</translation>
+    </message>
+    <message>
+        <source>收到的新消息会显示在这里。</source>
+        <translation>新着メッセージはここに表示されます。</translation>
+    </message>
+    <message>
+        <source>暂无团队成员</source>
+        <translation>チームメンバーはいません</translation>
+    </message>
+    <message>
+        <source>邀请团队成员一起协作这个项目。</source>
+        <translation>チームメンバーを招待して、このプロジェクトで共同作業しましょう。</translation>
+    </message>
+    <message>
+        <source>邀请成员</source>
+        <translation>メンバーを招待</translation>
+    </message>
+    <message>
+        <source>云存储为空</source>
+        <translation>クラウドストレージは空です</translation>
+    </message>
+    <message>
+        <source>上传文件到云存储后，即可在任何设备上访问。</source>
+        <translation>ファイルをクラウドストレージにアップロードすると、どのデバイスからでもアクセスできます。</translation>
+    </message>
+    <message>
+        <source>上传文件</source>
+        <translation>ファイルをアップロード</translation>
+    </message>
+    <message>
+        <source>未找到结果</source>
+        <translation>結果が見つかりません</translation>
+    </message>
+    <message>
+        <source>没有符合条件的结果。试试调整筛选条件，或&lt;a href=&quot;#help&quot;&gt;查看帮助&lt;/a&gt;。</source>
+        <translation>条件に一致する結果がありません。フィルターを調整するか、&lt;a href=&quot;#help&quot;&gt;ヘルプを表示&lt;/a&gt;してください。</translation>
+    </message>
+    <message>
+        <source>发票</source>
+        <translation>請求書</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>付款方式</source>
+        <translation>支払い方法</translation>
+    </message>
+    <message>
+        <source>金额</source>
+        <translation>金額</translation>
+    </message>
+    <message>
+        <source>暂无发票</source>
+        <translation>請求書はありません</translation>
+    </message>
+    <message>
+        <source>创建发票后会显示在这里。</source>
+        <translation>請求書を作成すると、ここに表示されます。</translation>
+    </message>
+</context>
+<context>
+    <name>ExpanderPage</name>
+    <message>
+        <source>抽屉面板</source>
+        <translation>エキスパンダー</translation>
+    </message>
+    <message>
+        <source>ShadExpander：标题行展开内容行。</source>
+        <translation>ShadExpander：ヘッダー行を展開して内容の行を表示します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击标题行展开</source>
+        <translation>ヘッダー行をクリックして展開します</translation>
+    </message>
+    <message>
+        <source>测试窗口%1</source>
+        <translation>テストウィンドウ%1</translation>
+    </message>
+    <message>
+        <source>设置分组</source>
+        <translation>設定グループ</translation>
+    </message>
+    <message>
+        <source>每行放一项设置</source>
+        <translation>1行に1つの設定を配置します</translation>
+    </message>
+    <message>
+        <source>编辑器</source>
+        <translation>エディター</translation>
+    </message>
+    <message>
+        <source>自动保存</source>
+        <translation>自動保存</translation>
+    </message>
+    <message>
+        <source>显示行号</source>
+        <translation>行番号を表示</translation>
+    </message>
+    <message>
+        <source>2 个空格</source>
+        <translation>スペース2個</translation>
+    </message>
+    <message>
+        <source>4 个空格</source>
+        <translation>スペース4個</translation>
+    </message>
+    <message>
+        <source>制表符</source>
+        <translation>タブ</translation>
+    </message>
+    <message>
+        <source>缩进</source>
+        <translation>インデント</translation>
+    </message>
+</context>
+<context>
+    <name>FieldPage</name>
+    <message>
+        <source>表单项</source>
+        <translation>フィールド</translation>
+    </message>
+    <message>
+        <source>ShadField / ShadFieldSet / ShadFieldGroup：把标签、控件、说明与错误信息组合成表单项。</source>
+        <translation>ShadField / ShadFieldSet / ShadFieldGroup：ラベル、コントロール、説明、エラーメッセージを組み合わせてフォームの項目を構成します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>多个字段集纵向排列，组之间用分隔线隔开</source>
+        <translation>複数のフィールドセットを縦に並べ、グループ間は区切り線で分けます</translation>
+    </message>
+    <message>
+        <source>付款方式</source>
+        <translation>お支払い方法</translation>
+    </message>
+    <message>
+        <source>所有交易均已加密，安全可靠。</source>
+        <translation>すべての取引は暗号化されており、安全です。</translation>
+    </message>
+    <message>
+        <source>持卡人姓名</source>
+        <translation>カード名義人</translation>
+    </message>
+    <message>
+        <source>张三</source>
+        <translation>山田 太郎</translation>
+    </message>
+    <message>
+        <source>卡号</source>
+        <translation>カード番号</translation>
+    </message>
+    <message>
+        <source>请输入 16 位卡号。</source>
+        <translation>16桁のカード番号を入力してください。</translation>
+    </message>
+    <message>
+        <source>月份</source>
+        <translation>月</translation>
+    </message>
+    <message>
+        <source>年份</source>
+        <translation>年</translation>
+    </message>
+    <message>
+        <source>账单地址</source>
+        <translation>請求先住所</translation>
+    </message>
+    <message>
+        <source>与付款方式关联的账单地址。</source>
+        <translation>お支払い方法に関連付けられた請求先住所です。</translation>
+    </message>
+    <message>
+        <source>与收货地址相同</source>
+        <translation>配送先住所と同じ</translation>
+    </message>
+    <message>
+        <source>添加其他备注</source>
+        <translation>その他のコメントを追加</translation>
+    </message>
+    <message>
+        <source>备注</source>
+        <translation>コメント</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>输入框</source>
+        <translation>入力欄</translation>
+    </message>
+    <message>
+        <source>在控件下方显示说明文字</source>
+        <translation>コントロールの下に説明文を表示します</translation>
+    </message>
+    <message>
+        <source>用户名</source>
+        <translation>ユーザー名</translation>
+    </message>
+    <message>
+        <source>请选择一个唯一的用户名。</source>
+        <translation>他と重複しないユーザー名を選択してください。</translation>
+    </message>
+    <message>
+        <source>请输入密码</source>
+        <translation>パスワードを入力してください</translation>
+    </message>
+    <message>
+        <source>密码</source>
+        <translation>パスワード</translation>
+    </message>
+    <message>
+        <source>至少 8 个字符。</source>
+        <translation>8文字以上で入力してください。</translation>
+    </message>
+    <message>
+        <source>多行输入</source>
+        <translation>複数行入力</translation>
+    </message>
+    <message>
+        <source>控件为 ShadTextarea</source>
+        <translation>コントロールは ShadTextarea です</translation>
+    </message>
+    <message>
+        <source>你的反馈能帮助我们改进……</source>
+        <translation>いただいたフィードバックは改善に役立ちます……</translation>
+    </message>
+    <message>
+        <source>反馈</source>
+        <translation>フィードバック</translation>
+    </message>
+    <message>
+        <source>告诉我们你的想法。</source>
+        <translation>ご意見をお聞かせください。</translation>
+    </message>
+    <message>
+        <source>下拉选择</source>
+        <translation>ドロップダウン選択</translation>
+    </message>
+    <message>
+        <source>控件为 ShadComboBox</source>
+        <translation>コントロールは ShadComboBox です</translation>
+    </message>
+    <message>
+        <source>部门</source>
+        <translation>部署</translation>
+    </message>
+    <message>
+        <source>选择部门</source>
+        <translation>部署を選択</translation>
+    </message>
+    <message>
+        <source>工程</source>
+        <translation>エンジニアリング</translation>
+    </message>
+    <message>
+        <source>设计</source>
+        <translation>デザイン</translation>
+    </message>
+    <message>
+        <source>市场</source>
+        <translation>マーケティング</translation>
+    </message>
+    <message>
+        <source>销售</source>
+        <translation>営業</translation>
+    </message>
+    <message>
+        <source>客服</source>
+        <translation>カスタマーサポート</translation>
+    </message>
+    <message>
+        <source>选择你所在的部门。</source>
+        <translation>所属する部署を選択してください。</translation>
+    </message>
+    <message>
+        <source>滑块</source>
+        <translation>スライダー</translation>
+    </message>
+    <message>
+        <source>控件为范围滑块，说明文字随取值更新</source>
+        <translation>コントロールは範囲スライダーで、説明文は値に応じて更新されます</translation>
+    </message>
+    <message>
+        <source>价格范围</source>
+        <translation>価格帯</translation>
+    </message>
+    <message>
+        <source>预算范围：¥%1 - ¥%2</source>
+        <translation>予算の範囲：¥%1 - ¥%2</translation>
+    </message>
+    <message>
+        <source>分组</source>
+        <translation>フィールドセット</translation>
+    </message>
+    <message>
+        <source>把相关的表单项放在同一个标题下</source>
+        <translation>関連するフォーム項目を1つの見出しの下にまとめます</translation>
+    </message>
+    <message>
+        <source>地址信息</source>
+        <translation>住所情報</translation>
+    </message>
+    <message>
+        <source>我们需要你的地址来配送订单。</source>
+        <translation>ご注文の配送にはご住所が必要です。</translation>
+    </message>
+    <message>
+        <source>街道地址</source>
+        <translation>番地</translation>
+    </message>
+    <message>
+        <source>人民路 123 号</source>
+        <translation>人民路123号</translation>
+    </message>
+    <message>
+        <source>城市</source>
+        <translation>市区町村</translation>
+    </message>
+    <message>
+        <source>上海</source>
+        <translation>上海</translation>
+    </message>
+    <message>
+        <source>邮编</source>
+        <translation>郵便番号</translation>
+    </message>
+    <message>
+        <source>复选框</source>
+        <translation>チェックボックス</translation>
+    </message>
+    <message>
+        <source>横排，复选框位于起始侧</source>
+        <translation>横並びで、チェックボックスは先頭側に配置します</translation>
+    </message>
+    <message>
+        <source>在桌面上显示这些项目</source>
+        <translation>デスクトップにこれらの項目を表示</translation>
+    </message>
+    <message>
+        <source>选择要在桌面上显示的项目。</source>
+        <translation>デスクトップに表示する項目を選択してください。</translation>
+    </message>
+    <message>
+        <source>硬盘</source>
+        <translation>ハードディスク</translation>
+    </message>
+    <message>
+        <source>外置磁盘</source>
+        <translation>外付けディスク</translation>
+    </message>
+    <message>
+        <source>CD、DVD 与 iPod</source>
+        <translation>CD、DVD、iPod</translation>
+    </message>
+    <message>
+        <source>已连接的服务器</source>
+        <translation>接続中のサーバー</translation>
+    </message>
+    <message>
+        <source>同步桌面与文稿文件夹</source>
+        <translation>デスクトップと書類フォルダを同期</translation>
+    </message>
+    <message>
+        <source>桌面与文稿文件夹会同步到云端，可以在其他设备上访问。</source>
+        <translation>デスクトップと書類フォルダはクラウドに同期され、他のデバイスからもアクセスできます。</translation>
+    </message>
+    <message>
+        <source>单选组</source>
+        <translation>ラジオグループ</translation>
+    </message>
+    <message>
+        <source>ShadFieldSet 中直接放 ShadRadioGroup</source>
+        <translation>ShadFieldSet の中に ShadRadioGroup を直接配置します</translation>
+    </message>
+    <message>
+        <source>订阅方案</source>
+        <translation>サブスクリプションプラン</translation>
+    </message>
+    <message>
+        <source>年付与终身方案可享受大幅折扣。</source>
+        <translation>年払いプランと買い切りプランは大幅な割引が適用されます。</translation>
+    </message>
+    <message>
+        <source>月付（¥9/月）</source>
+        <translation>月払い（¥9/月）</translation>
+    </message>
+    <message>
+        <source>年付（¥99/年）</source>
+        <translation>年払い（¥99/年）</translation>
+    </message>
+    <message>
+        <source>终身（¥299）</source>
+        <translation>買い切り（¥299）</translation>
+    </message>
+    <message>
+        <source>开关</source>
+        <translation>スイッチ</translation>
+    </message>
+    <message>
+        <source>横排，开关位于结束侧</source>
+        <translation>横並びで、スイッチは末尾側に配置します</translation>
+    </message>
+    <message>
+        <source>多重身份验证</source>
+        <translation>多要素認証</translation>
+    </message>
+    <message>
+        <source>开启后需要通过验证码或安全密钥完成登录。</source>
+        <translation>有効にすると、ログインに認証コードまたはセキュリティキーが必要になります。</translation>
+    </message>
+    <message>
+        <source>选择卡片</source>
+        <translation>選択カード</translation>
+    </message>
+    <message>
+        <source>setChoiceCard(true)：整个表单项为卡片，点击任意位置切换</source>
+        <translation>setChoiceCard(true)：フォーム項目全体がカードになり、どこをクリックしても切り替わります</translation>
+    </message>
+    <message>
+        <source>计算环境</source>
+        <translation>コンピューティング環境</translation>
+    </message>
+    <message>
+        <source>选择集群的计算环境。</source>
+        <translation>クラスターのコンピューティング環境を選択してください。</translation>
+    </message>
+    <message>
+        <source>在 Kubernetes 集群上运行 GPU 工作负载。</source>
+        <translation>Kubernetes クラスター上で GPU ワークロードを実行します。</translation>
+    </message>
+    <message>
+        <source>虚拟机</source>
+        <translation>仮想マシン</translation>
+    </message>
+    <message>
+        <source>使用虚拟机集群运行 GPU 工作负载（即将推出）。</source>
+        <translation>仮想マシンのクラスター上で GPU ワークロードを実行します（近日公開）。</translation>
+    </message>
+    <message>
+        <source>字段组与分隔线</source>
+        <translation>フィールドグループと区切り線</translation>
+    </message>
+    <message>
+        <source>在两组之间插入分隔线，可以带文字</source>
+        <translation>グループの間に区切り線を挿入します。文字を添えることもできます</translation>
+    </message>
+    <message>
+        <source>回复与评论</source>
+        <translation>返信とコメント</translation>
+    </message>
+    <message>
+        <source>选择接收回复与评论通知的方式。</source>
+        <translation>返信とコメントの通知を受け取る方法を選択してください。</translation>
+    </message>
+    <message>
+        <source>任务</source>
+        <translation>タスク</translation>
+    </message>
+    <message>
+        <source>选择接收任务通知的方式。</source>
+        <translation>タスクの通知を受け取る方法を選択してください。</translation>
+    </message>
+    <message>
+        <source>推送通知</source>
+        <translation>プッシュ通知</translation>
+    </message>
+    <message>
+        <source>邮件通知</source>
+        <translation>メール通知</translation>
+    </message>
+    <message>
+        <source>以及</source>
+        <translation>および</translation>
+    </message>
+    <message>
+        <source>三种方向</source>
+        <translation>3つの方向</translation>
+    </message>
+    <message>
+        <source>竖排、横排，以及按宽度自动切换的响应式</source>
+        <translation>縦並び、横並び、そして幅に応じて自動で切り替わるレスポンシブ</translation>
+    </message>
+    <message>
+        <source>姓名</source>
+        <translation>氏名</translation>
+    </message>
+    <message>
+        <source>请输入姓名</source>
+        <translation>氏名を入力してください</translation>
+    </message>
+    <message>
+        <source>Vertical：标签、控件、说明依次排列。</source>
+        <translation>Vertical：ラベル、コントロール、説明を順に並べます。</translation>
+    </message>
+    <message>
+        <source>Horizontal：文字与控件并排。</source>
+        <translation>Horizontal：テキストとコントロールを横に並べます。</translation>
+    </message>
+    <message>
+        <source>Responsive，宽度 560：横排。</source>
+        <translation>Responsive、幅 560：横並び。</translation>
+    </message>
+    <message>
+        <source>Responsive，宽度 320：竖排。</source>
+        <translation>Responsive、幅 320：縦並び。</translation>
+    </message>
+    <message>
+        <source>校验与错误</source>
+        <translation>検証とエラー</translation>
+    </message>
+    <message>
+        <source>出错时标签与控件变色，并显示错误信息</source>
+        <translation>エラー時にはラベルとコントロールの色が変わり、エラーメッセージが表示されます</translation>
+    </message>
+    <message>
+        <source>至少 8 个字符，且包含数字。</source>
+        <translation>8文字以上で、数字を含めてください。</translation>
+    </message>
+    <message>
+        <source>请输入用户名。</source>
+        <translation>ユーザー名を入力してください。</translation>
+    </message>
+    <message>
+        <source>请输入密码。</source>
+        <translation>パスワードを入力してください。</translation>
+    </message>
+    <message>
+        <source>密码至少需要 8 个字符。</source>
+        <translation>パスワードは8文字以上にしてください。</translation>
+    </message>
+    <message>
+        <source>密码需要包含至少一个数字。</source>
+        <translation>パスワードには数字を1つ以上含めてください。</translation>
+    </message>
+    <message>
+        <source>提交成功。</source>
+        <translation>送信しました。</translation>
+    </message>
+</context>
+<context>
+    <name>HomePage</name>
+    <message>
+        <source>未知</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>%1 × %2，缩放 %3</source>
+        <translation>%1 × %2、拡大率 %3</translation>
+    </message>
+    <message>
+        <source>首页</source>
+        <translation>ホーム</translation>
+    </message>
+    <message>
+        <source>shadcn/ui 风格的 Qt 6 Widgets 组件库。</source>
+        <translation>shadcn/ui スタイルの Qt 6 Widgets コンポーネントライブラリです。</translation>
+    </message>
+    <message>
+        <source>GitHub：%1</source>
+        <translation>GitHub：%1</translation>
+    </message>
+    <message>
+        <source>特性</source>
+        <translation>特長</translation>
+    </message>
+    <message>
+        <source>对齐 shadcn/ui v4</source>
+        <translation>shadcn/ui v4 に準拠</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>テーマ</translation>
+    </message>
+    <message>
+        <source>五种基色，亮暗模式即时切换</source>
+        <translation>5種類のベースカラーに対応し、ライトモードとダークモードをすぐに切り替えられます</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>アイコン</translation>
+    </message>
+    <message>
+        <source>内置 Lucide 图标字体</source>
+        <translation>Lucide アイコンフォントを内蔵</translation>
+    </message>
+    <message>
+        <source>跟随 layoutDirection 整体镜像</source>
+        <translation>layoutDirection に合わせてレイアウト全体が左右反転します</translation>
+    </message>
+    <message>
+        <source>自绘窗口</source>
+        <translation>独自描画のウィンドウ</translation>
+    </message>
+    <message>
+        <source>ShadWindow 与 ShadDialog 自绘标题栏</source>
+        <translation>ShadWindow と ShadDialog は独自描画のタイトルバーを使用</translation>
+    </message>
+    <message>
+        <source>系统信息</source>
+        <translation>システム情報</translation>
+    </message>
+    <message>
+        <source>当前运行环境</source>
+        <translation>現在の実行環境</translation>
+    </message>
+    <message>
+        <source>操作系统</source>
+        <translation>オペレーティングシステム</translation>
+    </message>
+    <message>
+        <source>内核</source>
+        <translation>カーネル</translation>
+    </message>
+    <message>
+        <source>处理器架构</source>
+        <translation>CPU アーキテクチャ</translation>
+    </message>
+    <message>
+        <source>内存</source>
+        <translation>メモリ</translation>
+    </message>
+    <message>
+        <source>Qt 版本</source>
+        <translation>Qt バージョン</translation>
+    </message>
+    <message>
+        <source>主屏幕</source>
+        <translation>メインディスプレイ</translation>
+    </message>
+    <message>
+        <source>系统语言</source>
+        <translation>システムの言語</translation>
+    </message>
+    <message>
+        <source>组件</source>
+        <translation>コンポーネント</translation>
+    </message>
+    <message>
+        <source>点击打开第一个演示页</source>
+        <translation>クリックして最初のデモページを開きます</translation>
+    </message>
+    <message>
+        <source>、</source>
+        <comment>列表分隔符</comment>
+        <translation>、</translation>
+    </message>
+    <message>
+        <source>共 %1 个演示页</source>
+        <translation>デモページ数：%1</translation>
+    </message>
+</context>
+<context>
+    <name>HoverCardPage</name>
+    <message>
+        <source>React 框架，由 @vercel 创建并维护。</source>
+        <translation>React フレームワークです。@vercel が作成し、メンテナンスしています。</translation>
+    </message>
+    <message>
+        <source>2021 年 12 月加入</source>
+        <translation>2021年12月に参加</translation>
+    </message>
+    <message>
+        <source>悬停卡片</source>
+        <translation>ホバーカード</translation>
+    </message>
+    <message>
+        <source>ShadHoverCard：悬停时显示的卡片。</source>
+        <translation>ShadHoverCard：ホバー時に表示されるカードです。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>悬停后显示</source>
+        <translation>ホバーすると表示されます</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>表示位置</translation>
+    </message>
+    <message>
+        <source>四个方向</source>
+        <translation>4つの方向</translation>
+    </message>
+    <message>
+        <source>上方</source>
+        <translation>上</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右</translation>
+    </message>
+    <message>
+        <source>下方</source>
+        <translation>下</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <source>显示在%1</source>
+        <translation>表示位置：%1</translation>
+    </message>
+</context>
+<context>
+    <name>ImageCropperPage</name>
+    <message>
+        <source>图片裁剪</source>
+        <translation>画像のトリミング</translation>
+    </message>
+    <message>
+        <source>ShadImageCropper：在图片上拖动裁剪框，支持固定比例、圆形裁剪、旋转与翻转。</source>
+        <translation>ShadImageCropper：画像上でトリミング枠をドラッグして操作します。縦横比の固定、円形トリミング、回転、反転に対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>拖动框内移动，拖动手柄缩放，聚焦后用方向键微调，按住 Shift 加快 10 倍</source>
+        <translation>枠の内側をドラッグして移動し、ハンドルをドラッグしてサイズを変更します。フォーカス中は矢印キーで微調整でき、Shift キーを押すと10倍の速さで移動します</translation>
+    </message>
+    <message>
+        <source>自由</source>
+        <translation>フリー</translation>
+    </message>
+    <message>
+        <source>向左旋转</source>
+        <translation>左に回転</translation>
+    </message>
+    <message>
+        <source>向右旋转</source>
+        <translation>右に回転</translation>
+    </message>
+    <message>
+        <source>水平翻转</source>
+        <translation>左右反転</translation>
+    </message>
+    <message>
+        <source>垂直翻转</source>
+        <translation>上下反転</translation>
+    </message>
+    <message>
+        <source>重置</source>
+        <translation>リセット</translation>
+    </message>
+    <message>
+        <source>裁剪</source>
+        <translation>トリミング</translation>
+    </message>
+    <message>
+        <source>裁剪尺寸: %1 × %2</source>
+        <translation>トリミングサイズ: %1 × %2</translation>
+    </message>
+    <message>
+        <source>圆形头像</source>
+        <translation>円形アバター</translation>
+    </message>
+    <message>
+        <source>setShape(Circle)：固定 1:1，遮罩挖空为圆形，输出图片圆外透明</source>
+        <translation>setShape(Circle)：縦横比を1:1に固定し、マスクを円形にくり抜きます。出力画像では円の外側が透明になります</translation>
+    </message>
+    <message>
+        <source>生成头像</source>
+        <translation>アバターを作成</translation>
+    </message>
+    <message>
+        <source>选择图片</source>
+        <translation>画像を選択</translation>
+    </message>
+    <message>
+        <source>从本地选择图片后进行裁剪</source>
+        <translation>ローカルから画像を選択してトリミングします</translation>
+    </message>
+    <message>
+        <source>图片加载失败</source>
+        <translation>画像を読み込めませんでした</translation>
+    </message>
+    <message>
+        <source>图片文件 (*.png *.jpg *.jpeg *.bmp *.webp)</source>
+        <translation>画像ファイル (*.png *.jpg *.jpeg *.bmp *.webp)</translation>
+    </message>
+</context>
+<context>
+    <name>ImageViewerPage</name>
+    <message>
+        <source>图片预览</source>
+        <translation>画像ビューアー</translation>
+    </message>
+    <message>
+        <source>ShadImageViewer：覆盖窗口预览图片，支持缩放、拖动、旋转、翻转与多图切换。</source>
+        <translation>ShadImageViewer：ウィンドウの上に重ねて画像をプレビューします。ズーム、ドラッグ、回転、反転、複数画像の切り替えに対応しています。</translation>
+    </message>
+    <message>
+        <source>横图</source>
+        <translation>横長の画像</translation>
+    </message>
+    <message>
+        <source>竖图</source>
+        <translation>縦長の画像</translation>
+    </message>
+    <message>
+        <source>方图</source>
+        <translation>正方形の画像</translation>
+    </message>
+    <message>
+        <source>长图</source>
+        <translation>細長い画像</translation>
+    </message>
+    <message>
+        <source>小图</source>
+        <translation>小さい画像</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击缩略图，从对应的图片开始预览；滚轮缩放，拖动平移，双击切换适应窗口与实际大小</source>
+        <translation>サムネイルをクリックすると、その画像からプレビューを開始します。ホイールでズーム、ドラッグで移動、ダブルクリックでウィンドウに合わせる表示と実寸表示を切り替えます</translation>
+    </message>
+    <message>
+        <source>预览%1</source>
+        <translation>%1をプレビュー</translation>
+    </message>
+    <message>
+        <source>本地图片</source>
+        <translation>ローカルの画像</translation>
+    </message>
+    <message>
+        <source>setImagePaths：在线程池中异步解码，加载时显示加载指示，按 EXIF 方向自动旋转</source>
+        <translation>setImagePaths：スレッドプールで非同期にデコードし、読み込み中はインジケーターを表示します。EXIF の向きに従って自動的に回転します</translation>
+    </message>
+    <message>
+        <source>选择图片...</source>
+        <translation>画像を選択...</translation>
+    </message>
+    <message>
+        <source>选择图片</source>
+        <translation>画像を選択</translation>
+    </message>
+    <message>
+        <source>图片文件 (%1)</source>
+        <translation>画像ファイル (%1)</translation>
+    </message>
+    <message>
+        <source>加载失败</source>
+        <translation>読み込み失敗</translation>
+    </message>
+    <message>
+        <source>文件不存在或无法解码时显示 ImageOff 图标与提示文字</source>
+        <translation>ファイルが存在しない場合やデコードできない場合に、ImageOff アイコンとメッセージを表示します</translation>
+    </message>
+    <message>
+        <source>打开不存在的图片</source>
+        <translation>存在しない画像を開く</translation>
+    </message>
+    <message>
+        <source>隐藏工具栏</source>
+        <translation>ツールバーを非表示</translation>
+    </message>
+    <message>
+        <source>打开预览</source>
+        <translation>プレビューを開く</translation>
+    </message>
+</context>
+<context>
+    <name>InputDialogPage</name>
+    <message>
+        <source>输入对话框</source>
+        <translation>入力ダイアログ</translation>
+    </message>
+    <message>
+        <source>ShadInputDialog：在对话框中输入一个值，支持文本、密码、多行文本与数值。</source>
+        <translation>ShadInputDialog：ダイアログで1つの値を入力します。テキスト、パスワード、複数行テキスト、数値に対応しています。</translation>
+    </message>
+    <message>
+        <source>单行文本</source>
+        <translation>1行テキスト</translation>
+    </message>
+    <message>
+        <source>输入单行文本，确定后取回输入值</source>
+        <translation>1行のテキストを入力し、確定後に入力値を取得します</translation>
+    </message>
+    <message>
+        <source>重命名</source>
+        <translation>名前を変更</translation>
+    </message>
+    <message>
+        <source>尚未修改</source>
+        <translation>まだ変更していません</translation>
+    </message>
+    <message>
+        <source>季度报告.docx</source>
+        <translation>四半期レポート.docx</translation>
+    </message>
+    <message>
+        <source>重命名文件</source>
+        <translation>ファイル名を変更</translation>
+    </message>
+    <message>
+        <source>输入新的文件名，完成后点击确定。</source>
+        <translation>新しいファイル名を入力し、完了したら OK をクリックしてください。</translation>
+    </message>
+    <message>
+        <source>文件名</source>
+        <translation>ファイル名</translation>
+    </message>
+    <message>
+        <source>新文件名：%1</source>
+        <translation>新しいファイル名：%1</translation>
+    </message>
+    <message>
+        <source>已取消</source>
+        <translation>キャンセルしました</translation>
+    </message>
+    <message>
+        <source>密码</source>
+        <translation>パスワード</translation>
+    </message>
+    <message>
+        <source>隐藏输入内容，尾部按钮切换显示</source>
+        <translation>入力内容を隠し、末尾のボタンで表示を切り替えます</translation>
+    </message>
+    <message>
+        <source>验证身份</source>
+        <translation>本人確認</translation>
+    </message>
+    <message>
+        <source>尚未验证</source>
+        <translation>まだ確認していません</translation>
+    </message>
+    <message>
+        <source>需要验证</source>
+        <translation>確認が必要です</translation>
+    </message>
+    <message>
+        <source>输入当前账户的密码以继续。</source>
+        <translation>続行するには、現在のアカウントのパスワードを入力してください。</translation>
+    </message>
+    <message>
+        <source>输入密码</source>
+        <translation>パスワードを入力</translation>
+    </message>
+    <message>
+        <source>验证</source>
+        <translation>確認</translation>
+    </message>
+    <message>
+        <source>已输入 %1 个字符</source>
+        <translation>%1 文字を入力しました</translation>
+    </message>
+    <message>
+        <source>多行文本</source>
+        <translation>複数行テキスト</translation>
+    </message>
+    <message>
+        <source>使用多行输入框，内容超出时滚动</source>
+        <translation>複数行の入力欄を使用し、内容がはみ出す場合はスクロールします</translation>
+    </message>
+    <message>
+        <source>添加备注</source>
+        <translation>備考を追加</translation>
+    </message>
+    <message>
+        <source>暂无备注</source>
+        <translation>備考はありません</translation>
+    </message>
+    <message>
+        <source>备注会显示在订单详情中。</source>
+        <translation>備考は注文の詳細に表示されます。</translation>
+    </message>
+    <message>
+        <source>备注</source>
+        <translation>備考</translation>
+    </message>
+    <message>
+        <source>写下需要商家注意的事项</source>
+        <translation>販売者に伝えたいことを入力してください</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>已保存 %1 个字符</source>
+        <translation>%1 文字を保存しました</translation>
+    </message>
+    <message>
+        <source>整数</source>
+        <translation>整数</translation>
+    </message>
+    <message>
+        <source>整数输入框，可设置范围和步长</source>
+        <translation>整数の入力欄です。範囲とステップ幅を設定できます</translation>
+    </message>
+    <message>
+        <source>修改数量</source>
+        <translation>数量を変更</translation>
+    </message>
+    <message>
+        <source>数量：%1</source>
+        <translation>数量：%1</translation>
+    </message>
+    <message>
+        <source>购买数量</source>
+        <translation>購入数量</translation>
+    </message>
+    <message>
+        <source>每单最多购买 10 件。</source>
+        <translation>1回のご注文につき最大10点までご購入いただけます。</translation>
+    </message>
+    <message>
+        <source>数量</source>
+        <translation>数量</translation>
+    </message>
+    <message>
+        <source>小数</source>
+        <translation>小数</translation>
+    </message>
+    <message>
+        <source>小数输入框，可设置范围、小数位数和步长</source>
+        <translation>小数の入力欄です。範囲、小数点以下の桁数、ステップ幅を設定できます</translation>
+    </message>
+    <message>
+        <source>调整价格</source>
+        <translation>価格を調整</translation>
+    </message>
+    <message>
+        <source>价格：%1 元</source>
+        <translation>価格：¥%1</translation>
+    </message>
+    <message>
+        <source>价格保留两位小数，加减按钮每次调整 0.5 元。</source>
+        <translation>価格は小数点以下2桁で、プラスとマイナスのボタンで0.5円ずつ調整されます。</translation>
+    </message>
+    <message>
+        <source>价格（元）</source>
+        <translation>価格（¥）</translation>
+    </message>
+</context>
+<context>
+    <name>InputGroupPage</name>
+    <message>
+        <source>输入组</source>
+        <translation>入力グループ</translation>
+    </message>
+    <message>
+        <source>ShadInputGroup：在输入框两侧或上下加入文字、图标、按钮等附加区的输入组。</source>
+        <translation>ShadInputGroup：入力欄の左右または上下に、テキスト、アイコン、ボタンなどの付加領域を加えた入力グループです。</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>アイコン</translation>
+    </message>
+    <message>
+        <source>在输入框起始侧或结束侧放置图标</source>
+        <translation>入力欄の先頭側または末尾側にアイコンを配置します</translation>
+    </message>
+    <message>
+        <source>搜索...</source>
+        <translation>検索...</translation>
+    </message>
+    <message>
+        <source>输入邮箱</source>
+        <translation>メールアドレスを入力</translation>
+    </message>
+    <message>
+        <source>我们不会公开你的邮箱</source>
+        <translation>メールアドレスが公開されることはありません</translation>
+    </message>
+    <message>
+        <source>文字</source>
+        <translation>テキスト</translation>
+    </message>
+    <message>
+        <source>用作前缀、后缀与单位的文字</source>
+        <translation>接頭辞、接尾辞、単位として使うテキスト</translation>
+    </message>
+    <message>
+        <source>用户名</source>
+        <translation>ユーザー名</translation>
+    </message>
+    <message>
+        <source>按钮</source>
+        <translation>ボタン</translation>
+    </message>
+    <message>
+        <source>在输入框内放置不同尺寸的按钮</source>
+        <translation>入力欄の中にさまざまなサイズのボタンを配置します</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>已复制</source>
+        <translation>コピーしました</translation>
+    </message>
+    <message>
+        <source>链接已复制到剪贴板</source>
+        <translation>リンクをクリップボードにコピーしました</translation>
+    </message>
+    <message>
+        <source>输入关键词...</source>
+        <translation>キーワードを入力...</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>该连接是安全的</source>
+        <translation>この接続は安全です</translation>
+    </message>
+    <message>
+        <source>收藏</source>
+        <translation>お気に入り</translation>
+    </message>
+    <message>
+        <source>快捷键</source>
+        <translation>ショートカットキー</translation>
+    </message>
+    <message>
+        <source>放入按键组，按快捷键聚焦搜索框</source>
+        <translation>キーグループを配置し、ショートカットキーで検索ボックスにフォーカスします</translation>
+    </message>
+    <message>
+        <source>上下附加区</source>
+        <translation>上下の付加領域</translation>
+    </message>
+    <message>
+        <source>附加区在输入框上方或下方单独占一行</source>
+        <translation>付加領域は入力欄の上または下で1行を占有します</translation>
+    </message>
+    <message>
+        <source>张三</source>
+        <translation>山田 太郎</translation>
+    </message>
+    <message>
+        <source>全名</source>
+        <translation>氏名</translation>
+    </message>
+    <message>
+        <source>将显示在你的个人资料中</source>
+        <translation>プロフィールに表示されます</translation>
+    </message>
+    <message>
+        <source>运行</source>
+        <translation>実行</translation>
+    </message>
+    <message>
+        <source>多行输入</source>
+        <translation>複数行入力</translation>
+    </message>
+    <message>
+        <source>高度随内容增长，底部显示字数与发送按钮</source>
+        <translation>高さは内容に合わせて伸び、下部に文字数と送信ボタンを表示します</translation>
+    </message>
+    <message>
+        <source>向 AI 助手提问、搜索或生成内容...</source>
+        <translation>AI アシスタントに質問、検索、コンテンツ生成を依頼...</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>已发送</source>
+        <translation>送信しました</translation>
+    </message>
+    <message>
+        <source>（空消息）</source>
+        <translation>（空のメッセージ）</translation>
+    </message>
+    <message>
+        <source>加载状态</source>
+        <translation>読み込み中の状態</translation>
+    </message>
+    <message>
+        <source>自动旋转的图标作为加载指示</source>
+        <translation>自動で回転するアイコンを読み込みインジケーターとして使用します</translation>
+    </message>
+    <message>
+        <source>正在搜索...</source>
+        <translation>検索中...</translation>
+    </message>
+    <message>
+        <source>保存中...</source>
+        <translation>保存中...</translation>
+    </message>
+    <message>
+        <source>自动保存</source>
+        <translation>自動保存</translation>
+    </message>
+    <message>
+        <source>下拉菜单</source>
+        <translation>ドロップダウンメニュー</translation>
+    </message>
+    <message>
+        <source>结束侧的按钮弹出下拉菜单</source>
+        <translation>末尾側のボタンでドロップダウンメニューを表示します</translation>
+    </message>
+    <message>
+        <source>输入搜索内容...</source>
+        <translation>検索する内容を入力...</translation>
+    </message>
+    <message>
+        <source>范围</source>
+        <translation>範囲</translation>
+    </message>
+    <message>
+        <source>全部</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>ドキュメント</translation>
+    </message>
+    <message>
+        <source>代码</source>
+        <translation>コード</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>エラー状態</translation>
+    </message>
+    <message>
+        <source>setInvalid(true)：边框与焦点环显示错误色</source>
+        <translation>setInvalid(true)：枠線とフォーカスリングにエラーの色を表示します</translation>
+    </message>
+    <message>
+        <source>请输入有效的邮箱</source>
+        <translation>有効なメールアドレスを入力してください</translation>
+    </message>
+</context>
+<context>
+    <name>InputOtpPage</name>
+    <message>
+        <source>验证码输入</source>
+        <translation>認証コード入力</translation>
+    </message>
+    <message>
+        <source>ShadInputOtp：一排相连的格子，每格一个字符，用于输入一次性验证码。</source>
+        <translation>ShadInputOtp：1文字ずつ入力する連結したマス目の列で、ワンタイムパスワードの入力に使います。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>默认两组各 3 格，输入后自动跳到下一格</source>
+        <translation>デフォルトでは3マスずつ2グループで、入力すると自動的に次のマスへ移動します</translation>
+    </message>
+    <message>
+        <source>验证码</source>
+        <translation>認証コード</translation>
+    </message>
+    <message>
+        <source>仅数字</source>
+        <translation>数字のみ</translation>
+    </message>
+    <message>
+        <source>只接受数字，一组 6 格</source>
+        <translation>数字のみ受け付け、6マスで1グループです</translation>
+    </message>
+    <message>
+        <source>分隔符</source>
+        <translation>区切り文字</translation>
+    </message>
+    <message>
+        <source>分为三组，组之间显示分隔符，带初始值</source>
+        <translation>3グループに分け、グループ間に区切り文字を表示します。初期値付きです</translation>
+    </message>
+    <message>
+        <source>当前值：空</source>
+        <translation>現在の値：空</translation>
+    </message>
+    <message>
+        <source>当前值：%1</source>
+        <translation>現在の値：%1</translation>
+    </message>
+    <message>
+        <source>字母与数字</source>
+        <translation>英数字</translation>
+    </message>
+    <message>
+        <source>接受字母与数字，字母自动转为大写</source>
+        <translation>英字と数字を受け付け、英字は自動的に大文字に変換されます</translation>
+    </message>
+    <message>
+        <source>可以输入字母和数字。</source>
+        <translation>英字と数字を入力できます。</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>禁用时整体半透明，鼠标显示禁止图标</source>
+        <translation>無効の場合は全体が半透明になり、マウスポインターに禁止アイコンが表示されます</translation>
+    </message>
+    <message>
+        <source>4 位 PIN</source>
+        <translation>4桁の PIN</translation>
+    </message>
+    <message>
+        <source>4 格仅数字，填满后发出 completed 信号</source>
+        <translation>数字のみの4マスで、すべて入力すると completed シグナルが発行されます</translation>
+    </message>
+    <message>
+        <source>PIN 已输入</source>
+        <translation>PIN を入力しました</translation>
+    </message>
+    <message>
+        <source>输入的 PIN 为 %1</source>
+        <translation>入力した PIN は %1 です</translation>
+    </message>
+    <message>
+        <source>常用于 PIN 码。</source>
+        <translation>PIN コードによく使われます。</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>エラー状態</translation>
+    </message>
+    <message>
+        <source>setInvalid(true)：显示错误色，修改内容后取消</source>
+        <translation>setInvalid(true)：エラーの色を表示し、内容を編集すると解除されます</translation>
+    </message>
+    <message>
+        <source>验证码错误，请重试。</source>
+        <translation>認証コードが正しくありません。もう一度お試しください。</translation>
+    </message>
+    <message>
+        <source>表单</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>使用大号格子的登录验证卡片，验证时检查是否填满</source>
+        <translation>大きなマス目を使ったログイン認証カードです。認証時にすべて入力されているか確認します</translation>
+    </message>
+    <message>
+        <source>验证登录</source>
+        <translation>ログインの確認</translation>
+    </message>
+    <message>
+        <source>请输入发送到 m@example.com 的验证码。</source>
+        <translation>m@example.com に送信した認証コードを入力してください。</translation>
+    </message>
+    <message>
+        <source>重新发送</source>
+        <translation>再送信</translation>
+    </message>
+    <message>
+        <source>无法访问这个邮箱？</source>
+        <translation>このメールアドレスにアクセスできませんか？</translation>
+    </message>
+    <message>
+        <source>验证</source>
+        <translation>確認</translation>
+    </message>
+    <message>
+        <source>登录遇到问题？请联系客服。</source>
+        <translation>ログインできませんか？サポートまでお問い合わせください。</translation>
+    </message>
+    <message>
+        <source>验证码已重新发送</source>
+        <translation>認証コードを再送信しました</translation>
+    </message>
+    <message>
+        <source>请查看 m@example.com 的收件箱。</source>
+        <translation>m@example.com の受信トレイをご確認ください。</translation>
+    </message>
+    <message>
+        <source>验证码不完整</source>
+        <translation>認証コードが不完全です</translation>
+    </message>
+    <message>
+        <source>请输入 6 位验证码。</source>
+        <translation>6桁の認証コードを入力してください。</translation>
+    </message>
+    <message>
+        <source>验证成功</source>
+        <translation>確認できました</translation>
+    </message>
+    <message>
+        <source>验证码 %1 已通过验证。</source>
+        <translation>認証コード %1 を確認しました。</translation>
+    </message>
+</context>
+<context>
+    <name>InputPage</name>
+    <message>
+        <source>输入框</source>
+        <translation>入力欄</translation>
+    </message>
+    <message>
+        <source>ShadInput / ShadTextarea / ShadLabel：单行、多行输入框与标签，获得焦点时显示焦点环，支持错误态。</source>
+        <translation>ShadInput / ShadTextarea / ShadLabel：1行と複数行の入力欄およびラベルです。フォーカス時にフォーカスリングを表示し、エラー状態にも対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>单行输入框</source>
+        <translation>1行の入力欄</translation>
+    </message>
+    <message>
+        <source>邮箱</source>
+        <translation>メールアドレス</translation>
+    </message>
+    <message>
+        <source>搭配标签</source>
+        <translation>ラベル付き</translation>
+    </message>
+    <message>
+        <source>点击标签会把焦点交给关联的输入框</source>
+        <translation>ラベルをクリックすると、関連付けられた入力欄にフォーカスが移ります</translation>
+    </message>
+    <message>
+        <source>请输入密码</source>
+        <translation>パスワードを入力してください</translation>
+    </message>
+    <message>
+        <source>密码</source>
+        <translation>パスワード</translation>
+    </message>
+    <message>
+        <source>图标与尾部按钮</source>
+        <translation>アイコンと末尾のボタン</translation>
+    </message>
+    <message>
+        <source>前置图标，以及清空或切换密码显示的尾部按钮</source>
+        <translation>先頭のアイコンと、入力のクリアやパスワード表示の切り替えを行う末尾のボタン</translation>
+    </message>
+    <message>
+        <source>搜索组件</source>
+        <translation>コンポーネントを検索</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>禁用与错误态，禁用时关联的标签也变为半透明</source>
+        <translation>無効状態とエラー状態です。無効にすると、関連付けられたラベルも半透明になります</translation>
+    </message>
+    <message>
+        <source>已禁用</source>
+        <translation>無効化済み</translation>
+    </message>
+    <message>
+        <source>不是有效的邮箱地址</source>
+        <translation>有効なメールアドレスではありません</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>错误</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>多行输入</source>
+        <translation>複数行入力</translation>
+    </message>
+    <message>
+        <source>高度随内容增长，超出最大高度后出现滚动条</source>
+        <translation>高さは内容に合わせて伸び、最大の高さを超えるとスクロールバーが表示されます</translation>
+    </message>
+    <message>
+        <source>在这里输入你的留言，换行或输入长文本时高度会自动增长。</source>
+        <translation>ここにメッセージを入力してください。改行したり長いテキストを入力したりすると、高さが自動的に伸びます。</translation>
+    </message>
+    <message>
+        <source>留言</source>
+        <translation>メッセージ</translation>
+    </message>
+</context>
+<context>
+    <name>ItemPage</name>
+    <message>
+        <source>仅标题</source>
+        <translation>タイトルのみ</translation>
+    </message>
+    <message>
+        <source>标题 + 描述</source>
+        <translation>タイトル + 説明</translation>
+    </message>
+    <message>
+        <source>描述文字用于补充更多上下文信息。</source>
+        <translation>説明文では、より詳しい補足情報を伝えます。</translation>
+    </message>
+    <message>
+        <source>标题 + 描述 + 按钮</source>
+        <translation>タイトル + 説明 + ボタン</translation>
+    </message>
+    <message>
+        <source>这一项包含标题、描述和一个操作按钮。</source>
+        <translation>この項目にはタイトル、説明、操作ボタンが1つ含まれています。</translation>
+    </message>
+    <message>
+        <source>操作</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>图标 + 标题 + 描述 + 按钮</source>
+        <translation>アイコン + タイトル + 説明 + ボタン</translation>
+    </message>
+    <message>
+        <source>完整的列表项：媒体、标题、描述和操作按钮。描述最多显示两行，超出部分在第二行末尾省略。</source>
+        <translation>すべての要素を備えたリスト項目です：メディア、タイトル、説明、操作ボタン。説明は最大2行まで表示され、超えた部分は2行目の末尾で省略されます。</translation>
+    </message>
+    <message>
+        <source>多个操作</source>
+        <translation>複数の操作</translation>
+    </message>
+    <message>
+        <source>操作区可以放多个按钮。</source>
+        <translation>操作領域には複数のボタンを配置できます。</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>确认</source>
+        <translation>確認</translation>
+    </message>
+    <message>
+        <source>列表项</source>
+        <translation>リスト項目</translation>
+    </message>
+    <message>
+        <source>ShadItem / ShadItemGroup：由媒体区、标题与描述、操作区组成的列表项，可分组排列。</source>
+        <translation>ShadItem / ShadItemGroup：メディア領域、タイトルと説明、操作領域で構成されるリスト項目で、グループ化して並べられます。</translation>
+    </message>
+    <message>
+        <source>默认样式</source>
+        <translation>デフォルトスタイル</translation>
+    </message>
+    <message>
+        <source>没有边框与背景，带图标与操作按钮</source>
+        <translation>枠線と背景がなく、アイコンと操作ボタンが付いています</translation>
+    </message>
+    <message>
+        <source>描边样式</source>
+        <translation>アウトラインスタイル</translation>
+    </message>
+    <message>
+        <source>Outline 变体，带边框</source>
+        <translation>Outline バリエーションで、枠線が付きます</translation>
+    </message>
+    <message>
+        <source>柔和样式</source>
+        <translation>ミュートスタイル</translation>
+    </message>
+    <message>
+        <source>Muted 变体，带柔和背景</source>
+        <translation>Muted バリエーションで、やわらかい背景が付きます</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>三种尺寸，内边距与间距逐级缩小</source>
+        <translation>3種類のサイズがあり、余白と間隔が段階的に小さくなります</translation>
+    </message>
+    <message>
+        <source>默认尺寸</source>
+        <translation>デフォルトサイズ</translation>
+    </message>
+    <message>
+        <source>小尺寸</source>
+        <translation>小サイズ</translation>
+    </message>
+    <message>
+        <source>超小尺寸</source>
+        <translation>極小サイズ</translation>
+    </message>
+    <message>
+        <source>图标、标题、描述和操作按钮。</source>
+        <translation>アイコン、タイトル、説明、操作ボタンです。</translation>
+    </message>
+    <message>
+        <source>图片媒体</source>
+        <translation>画像のメディア</translation>
+    </message>
+    <message>
+        <source>媒体区显示圆角正方形图片</source>
+        <translation>メディア領域に角丸の正方形の画像を表示します</translation>
+    </message>
+    <message>
+        <source>项目面板</source>
+        <translation>プロジェクトダッシュボード</translation>
+    </message>
+    <message>
+        <source>项目设置与配置概览。</source>
+        <translation>プロジェクトの設定と構成の概要です。</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>ドキュメント</translation>
+    </message>
+    <message>
+        <source>显示元数据的文档。</source>
+        <translation>メタデータを表示したドキュメントです。</translation>
+    </message>
+    <message>
+        <source>查看</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>附件</source>
+        <translation>添付ファイル</translation>
+    </message>
+    <message>
+        <source>包含图片、标题、描述和下载按钮。</source>
+        <translation>画像、タイトル、説明、ダウンロードボタンを含みます。</translation>
+    </message>
+    <message>
+        <source>下载</source>
+        <translation>ダウンロード</translation>
+    </message>
+    <message>
+        <source>头像媒体</source>
+        <translation>アバターのメディア</translation>
+    </message>
+    <message>
+        <source>媒体区放入任意组件，例如头像或头像组</source>
+        <translation>メディア領域には、アバターやアバターグループなど任意のコンポーネントを配置できます</translation>
+    </message>
+    <message>
+        <source>陈娜</source>
+        <translation>陳娜</translation>
+    </message>
+    <message>
+        <source>设计负责人，2 小时前活跃</source>
+        <translation>デザイン責任者、2時間前にアクティブ</translation>
+    </message>
+    <message>
+        <source>发消息</source>
+        <translation>メッセージを送る</translation>
+    </message>
+    <message>
+        <source>还没有团队成员</source>
+        <translation>チームメンバーがまだいません</translation>
+    </message>
+    <message>
+        <source>邀请团队成员一起协作这个项目。</source>
+        <translation>チームメンバーを招待して、このプロジェクトで共同作業しましょう。</translation>
+    </message>
+    <message>
+        <source>邀请</source>
+        <translation>招待</translation>
+    </message>
+    <message>
+        <source>可点击</source>
+        <translation>クリック可能</translation>
+    </message>
+    <message>
+        <source>setClickable(true)：作为链接使用，单击发出 clicked</source>
+        <translation>setClickable(true)：リンクとして動作し、クリックすると clicked が発行されます</translation>
+    </message>
+    <message>
+        <source>点击任意一行</source>
+        <translation>いずれかの行をクリック</translation>
+    </message>
+    <message>
+        <source>可点击的列表项，包含标题和描述。</source>
+        <translation>クリック可能なリスト項目で、タイトルと説明を含みます。</translation>
+    </message>
+    <message>
+        <source>图标 + 标题 + 描述</source>
+        <translation>アイコン + タイトル + 説明</translation>
+    </message>
+    <message>
+        <source>完整的可点击列表项。</source>
+        <translation>すべての要素を備えたクリック可能なリスト項目です。</translation>
+    </message>
+    <message>
+        <source>带操作</source>
+        <translation>操作付き</translation>
+    </message>
+    <message>
+        <source>可点击的列表项也可以有操作按钮。</source>
+        <translation>クリック可能なリスト項目にも操作ボタンを付けられます。</translation>
+    </message>
+    <message>
+        <source>分享</source>
+        <translation>共有</translation>
+    </message>
+    <message>
+        <source>点击了：%1</source>
+        <translation>クリックしました：%1</translation>
+    </message>
+    <message>
+        <source>点击了：分享按钮</source>
+        <translation>クリックしました：共有ボタン</translation>
+    </message>
+    <message>
+        <source>分组与分隔线</source>
+        <translation>グループと区切り線</translation>
+    </message>
+    <message>
+        <source>纵向排列多个列表项，并插入分隔线</source>
+        <translation>複数のリスト項目を縦に並べ、区切り線を挿入します</translation>
+    </message>
+    <message>
+        <source>收件箱</source>
+        <translation>受信トレイ</translation>
+    </message>
+    <message>
+        <source>查看所有收到的消息。</source>
+        <translation>受信したメッセージをすべて表示します。</translation>
+    </message>
+    <message>
+        <source>已发送</source>
+        <translation>送信済み</translation>
+    </message>
+    <message>
+        <source>查看所有已发送的消息。</source>
+        <translation>送信したメッセージをすべて表示します。</translation>
+    </message>
+    <message>
+        <source>草稿</source>
+        <translation>下書き</translation>
+    </message>
+    <message>
+        <source>查看所有草稿。</source>
+        <translation>下書きをすべて表示します。</translation>
+    </message>
+    <message>
+        <source>归档</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>查看已归档的消息。</source>
+        <translation>アーカイブしたメッセージを表示します。</translation>
+    </message>
+    <message>
+        <source>页眉与页脚</source>
+        <translation>ヘッダーとフッター</translation>
+    </message>
+    <message>
+        <source>在主行上方或下方添加文字或任意组件</source>
+        <translation>メインの行の上または下に、テキストや任意のコンポーネントを追加します</translation>
+    </message>
+    <message>
+        <source>组件库</source>
+        <translation>コンポーネントライブラリ</translation>
+    </message>
+    <message>
+        <source>一套可复用的界面组件，用于构建风格一致的界面。</source>
+        <translation>統一感のある画面を構築するための、再利用可能な UI コンポーネント群です。</translation>
+    </message>
+    <message>
+        <source>设计系统</source>
+        <translation>デザインシステム</translation>
+    </message>
+    <message>
+        <source>第四季度报告</source>
+        <translation>第4四半期レポート</translation>
+    </message>
+    <message>
+        <source>第四季度的收入、支出与增长指标概览。</source>
+        <translation>第4四半期の収入、支出、成長指標の概要です。</translation>
+    </message>
+    <message>
+        <source>2 小时前更新</source>
+        <translation>2時間前に更新</translation>
+    </message>
+    <message>
+        <source>网站改版</source>
+        <translation>ウェブサイトのリニューアル</translation>
+    </message>
+    <message>
+        <source>按现代设计原则全面改版公司网站，提升用户体验。</source>
+        <translation>最新のデザイン原則に基づいて自社ウェブサイトを全面的に刷新し、ユーザー体験を向上させます。</translation>
+    </message>
+    <message>
+        <source>团队项目</source>
+        <translation>チームプロジェクト</translation>
+    </message>
+    <message>
+        <source>5 分钟前更新</source>
+        <translation>5分前に更新</translation>
+    </message>
+    <message>
+        <source>从右到左布局时媒体区与操作区左右对调</source>
+        <translation>右から左へのレイアウトでは、メディア領域と操作領域の左右が入れ替わります</translation>
+    </message>
+    <message>
+        <source>打开</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <source>可点击的列表项</source>
+        <translation>クリック可能なリスト項目</translation>
+    </message>
+    <message>
+        <source>悬停与焦点环同样适用。</source>
+        <translation>ホバーとフォーカスリングも同様に適用されます。</translation>
+    </message>
+</context>
+<context>
+    <name>KbdPage</name>
+    <message>
+        <source>按键</source>
+        <translation>キー</translation>
+    </message>
+    <message>
+        <source>ShadKbd / ShadKbdGroup：显示键盘按键或快捷键，并可绑定为真正的快捷键。</source>
+        <translation>ShadKbd / ShadKbdGroup：キーボードのキーやショートカットを表示し、実際のショートカットとしてバインドすることもできます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>按键名称按平台显示，按键之间可插入普通文字</source>
+        <translation>キー名はプラットフォームに合わせて表示され、キーの間には通常のテキストを挿入できます</translation>
+    </message>
+    <message>
+        <source>按键序列</source>
+        <translation>キーシーケンス</translation>
+    </message>
+    <message>
+        <source>setKeySequence：按平台显示组合键</source>
+        <translation>setKeySequence：プラットフォームに合わせてキーの組み合わせを表示します</translation>
+    </message>
+    <message>
+        <source>句子中</source>
+        <translation>文中</translation>
+    </message>
+    <message>
+        <source>与文字一起排列</source>
+        <translation>テキストと一緒に並べて表示します</translation>
+    </message>
+    <message>
+        <source>使用</source>
+        <translation>次のキーを使うと</translation>
+    </message>
+    <message>
+        <source>或</source>
+        <translation>または</translation>
+    </message>
+    <message>
+        <source>打开命令面板</source>
+        <translation>コマンドパレットを開けます</translation>
+    </message>
+    <message>
+        <source>提示中</source>
+        <translation>ツールチップ内</translation>
+    </message>
+    <message>
+        <source>按钮绑定快捷键，提示中显示同一组合键</source>
+        <translation>ボタンにショートカットをバインドし、ツールチップに同じキーの組み合わせを表示します</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>保存更改</source>
+        <translation>変更を保存</translation>
+    </message>
+    <message>
+        <source>打印</source>
+        <translation>印刷</translation>
+    </message>
+    <message>
+        <source>打印文档</source>
+        <translation>ドキュメントを印刷</translation>
+    </message>
+    <message>
+        <source>已执行</source>
+        <translation>実行しました</translation>
+    </message>
+    <message>
+        <source>跟随 QAction</source>
+        <translation>QAction に追従</translation>
+    </message>
+    <message>
+        <source>bindAction：显示 QAction 的快捷键并随之更新</source>
+        <translation>bindAction：QAction のショートカットを表示し、変更に合わせて更新します</translation>
+    </message>
+    <message>
+        <source>导出</source>
+        <translation>書き出し</translation>
+    </message>
+    <message>
+        <source>切换快捷键</source>
+        <translation>ショートカットを切り替え</translation>
+    </message>
+    <message>
+        <source>录制快捷键</source>
+        <translation>ショートカットを記録</translation>
+    </message>
+    <message>
+        <source>ShadKeySequenceEdit：点击后按下组合键录制</source>
+        <translation>ShadKeySequenceEdit：クリックしてからキーの組み合わせを押すと記録されます</translation>
+    </message>
+    <message>
+        <source>当前值：未设置</source>
+        <translation>現在の値：未設定</translation>
+    </message>
+    <message>
+        <source>当前值：%1</source>
+        <translation>現在の値：%1</translation>
+    </message>
+    <message>
+        <source>输入组中</source>
+        <translation>入力グループ内</translation>
+    </message>
+    <message>
+        <source>绑定快捷键，按下后聚焦搜索框</source>
+        <translation>ショートカットをバインドし、押すと検索ボックスにフォーカスします</translation>
+    </message>
+    <message>
+        <source>搜索...</source>
+        <translation>検索...</translation>
+    </message>
+</context>
+<context>
+    <name>LabelPage</name>
+    <message>
+        <source>标签</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>ShadLabel：与控件关联的文字标签。</source>
+        <translation>ShadLabel：コントロールに関連付けられたテキストラベルです。</translation>
+    </message>
+    <message>
+        <source>关联输入框</source>
+        <translation>入力欄との関連付け</translation>
+    </message>
+    <message>
+        <source>点击标签聚焦输入框</source>
+        <translation>ラベルをクリックすると入力欄にフォーカスします</translation>
+    </message>
+    <message>
+        <source>邮箱</source>
+        <translation>メールアドレス</translation>
+    </message>
+    <message>
+        <source>关联复选框与开关</source>
+        <translation>チェックボックスとスイッチとの関連付け</translation>
+    </message>
+    <message>
+        <source>点击标签切换状态</source>
+        <translation>ラベルをクリックすると状態を切り替えます</translation>
+    </message>
+    <message>
+        <source>接受服务条款</source>
+        <translation>利用規約に同意する</translation>
+    </message>
+    <message>
+        <source>飞行模式</source>
+        <translation>機内モード</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>控件禁用时标签变淡</source>
+        <translation>コントロールが無効のとき、ラベルは薄く表示されます</translation>
+    </message>
+    <message>
+        <source>禁用下方控件</source>
+        <translation>下のコントロールを無効にする</translation>
+    </message>
+    <message>
+        <source>请输入用户名</source>
+        <translation>ユーザー名を入力してください</translation>
+    </message>
+    <message>
+        <source>用户名</source>
+        <translation>ユーザー名</translation>
+    </message>
+    <message>
+        <source>记住我</source>
+        <translation>ログイン状態を保持する</translation>
+    </message>
+    <message>
+        <source>颜色</source>
+        <translation>色</translation>
+    </message>
+    <message>
+        <source>setColorRole 指定文字颜色</source>
+        <translation>setColorRole でテキストの色を指定します</translation>
+    </message>
+    <message>
+        <source>从右到左布局整体镜像</source>
+        <translation>右から左のレイアウトでは全体が左右反転します</translation>
+    </message>
+</context>
+<context>
+    <name>ListViewPage</name>
+    <message>
+        <source>虚拟列表</source>
+        <translation>仮想リスト</translation>
+    </message>
+    <message>
+        <source>ShadListView：继承 QListView，只绘制可见行，所有行等高，大量数据也能流畅滚动；行外观与 Item 一致。</source>
+        <translation>ShadListView：QListView を継承し、表示されている行だけを描画します。すべての行が同じ高さのため、大量のデータでもスムーズにスクロールできます。行の外観は Item と同じです。</translation>
+    </message>
+    <message>
+        <source>十万行数据</source>
+        <translation>10万行のデータ</translation>
+    </message>
+    <message>
+        <source>模型在 data() 中按行号即时生成数据，不预先创建；滚动时只读取并绘制可见行</source>
+        <translation>モデルは data() 内で行番号に応じてその場でデータを生成し、事前には作成しません。スクロール時は表示されている行だけを読み取って描画します</translation>
+    </message>
+    <message>
+        <source>联系人 %1</source>
+        <translation>連絡先 %1</translation>
+    </message>
+    <message>
+        <source>%1 分钟前</source>
+        <translation>%1 分前</translation>
+    </message>
+    <message>
+        <source>视口重绘：%1 次/秒</source>
+        <translation>ビューポートの再描画：%1 回/秒</translation>
+    </message>
+    <message>
+        <source>视口重绘：静止</source>
+        <translation>ビューポートの再描画：停止中</translation>
+    </message>
+    <message>
+        <source>共 %1 行</source>
+        <translation>全 %1 行</translation>
+    </message>
+    <message>
+        <source>尺寸与头像</source>
+        <translation>サイズとアバター</translation>
+    </message>
+    <message>
+        <source>从左到右依次为 Medium、Small、ExtraSmall；三个列表共用同一个模型，图片按 setImageShape(Circle) 裁剪为圆形</source>
+        <translation>左から順に Medium、Small、ExtraSmall です。3 つのリストは同じモデルを共有し、画像は setImageShape(Circle) で円形に切り抜かれます</translation>
+    </message>
+    <message>
+        <source>所有者</source>
+        <translation>オーナー</translation>
+    </message>
+    <message>
+        <source>管理员</source>
+        <translation>管理者</translation>
+    </message>
+    <message>
+        <source>成员</source>
+        <translation>メンバー</translation>
+    </message>
+    <message>
+        <source>访客</source>
+        <translation>ゲスト</translation>
+    </message>
+    <message>
+        <source>多选与复选框</source>
+        <translation>複数選択とチェックボックス</translation>
+    </message>
+    <message>
+        <source>带 Qt::CheckStateRole 的行显示复选框，点击复选框或按空格切换；Ctrl / Shift 多选行，与复选框相互独立</source>
+        <translation>Qt::CheckStateRole を持つ行にはチェックボックスが表示され、クリックまたはスペースキーで切り替えます。Ctrl / Shift による複数行の選択は、チェックボックスとは独立しています</translation>
+    </message>
+    <message>
+        <source>设计评审</source>
+        <translation>デザインレビュー</translation>
+    </message>
+    <message>
+        <source>编写接口文档</source>
+        <translation>API ドキュメントを作成</translation>
+    </message>
+    <message>
+        <source>修复登录问题</source>
+        <translation>ログインの問題を修正</translation>
+    </message>
+    <message>
+        <source>更新依赖</source>
+        <translation>依存関係を更新</translation>
+    </message>
+    <message>
+        <source>准备发布说明</source>
+        <translation>リリースノートを準備</translation>
+    </message>
+    <message>
+        <source>整理测试用例</source>
+        <translation>テストケースを整理</translation>
+    </message>
+    <message>
+        <source>优化启动速度</source>
+        <translation>起動速度を改善</translation>
+    </message>
+    <message>
+        <source>回复用户反馈</source>
+        <translation>ユーザーのフィードバックに返信</translation>
+    </message>
+    <message>
+        <source>已勾选 %1 项，已选中 %2 行</source>
+        <translation>%1 件にチェック、%2 行を選択中</translation>
+    </message>
+    <message>
+        <source>滚动加载</source>
+        <translation>スクロール読み込み</translation>
+    </message>
+    <message>
+        <source>滚动到距底部 200px 以内时发出 reachedEnd，setLoadingMore(true) 在底部显示加载指示；每次加载 50 行，共 500 行</source>
+        <translation>下端から 200px 以内までスクロールすると reachedEnd が発行され、setLoadingMore(true) で下部に読み込みインジケーターが表示されます。1 回に 50 行ずつ、合計 500 行を読み込みます</translation>
+    </message>
+    <message>
+        <source>第 %1 条消息</source>
+        <translation>メッセージ %1</translation>
+    </message>
+    <message>
+        <source>这是第 %1 条消息的摘要内容</source>
+        <translation>メッセージ %1 の概要です</translation>
+    </message>
+    <message>
+        <source>已全部加载 %1 行</source>
+        <translation>%1 行をすべて読み込みました</translation>
+    </message>
+    <message>
+        <source>已加载 %1 / %2 行</source>
+        <translation>%1 / %2 行を読み込み済み</translation>
+    </message>
+    <message>
+        <source>空列表</source>
+        <translation>空のリスト</translation>
+    </message>
+    <message>
+        <source>模型没有行时显示 emptyState()，可设置图标、标题、描述与操作按钮</source>
+        <translation>モデルに行がないとき emptyState() が表示されます。アイコン、タイトル、説明、操作ボタンを設定できます</translation>
+    </message>
+    <message>
+        <source>添加任务</source>
+        <translation>タスクを追加</translation>
+    </message>
+    <message>
+        <source>清空</source>
+        <translation>クリア</translation>
+    </message>
+    <message>
+        <source>暂无任务</source>
+        <translation>タスクはありません</translation>
+    </message>
+    <message>
+        <source>添加的任务会显示在这里。</source>
+        <translation>追加したタスクはここに表示されます。</translation>
+    </message>
+    <message>
+        <source>任务 %1</source>
+        <translation>タスク %1</translation>
+    </message>
+</context>
+<context>
+    <name>MainWindow</name>
+    <message>
+        <source>ShadcnWidgetTools 示例</source>
+        <translation>ShadcnWidgetTools サンプル</translation>
+    </message>
+    <message>
+        <source>切换从右到左布局</source>
+        <translation>右から左のレイアウトを切り替え</translation>
+    </message>
+    <message>
+        <source>跟随系统</source>
+        <translation>システムに合わせる</translation>
+    </message>
+    <message>
+        <source>切换明暗主题（会关闭跟随系统）</source>
+        <translation>ライト/ダークテーマを切り替え（「システムに合わせる」はオフになります）</translation>
+    </message>
+    <message>
+        <source>切换侧栏（Ctrl+B / Cmd+B）</source>
+        <translation>サイドバーを切り替え（Ctrl+B / Cmd+B）</translation>
+    </message>
+    <message>
+        <source>组件</source>
+        <translation>コンポーネント</translation>
+    </message>
+    <message>
+        <source>按钮与操作</source>
+        <translation>ボタンと操作</translation>
+    </message>
+    <message>
+        <source>数据录入</source>
+        <translation>データ入力</translation>
+    </message>
+    <message>
+        <source>数据展示</source>
+        <translation>データ表示</translation>
+    </message>
+    <message>
+        <source>反馈</source>
+        <translation>フィードバック</translation>
+    </message>
+    <message>
+        <source>浮层与窗口</source>
+        <translation>オーバーレイとウィンドウ</translation>
+    </message>
+    <message>
+        <source>导航与布局</source>
+        <translation>ナビゲーションとレイアウト</translation>
+    </message>
+    <message>
+        <source>升级到 Pro</source>
+        <translation>Pro にアップグレード</translation>
+    </message>
+    <message>
+        <source>账户</source>
+        <translation>アカウント</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>請求</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>退出登录</source>
+        <translation>ログアウト</translation>
+    </message>
+    <message>
+        <source>已选择：%1</source>
+        <translation>選択中：%1</translation>
+    </message>
+    <message>
+        <source>首页</source>
+        <translation>ホーム</translation>
+    </message>
+</context>
+<context>
+    <name>MarkdownViewPage</name>
+    <message>
+        <source>Markdown</source>
+        <translation>Markdown</translation>
+    </message>
+    <message>
+        <source>ShadMarkdownView：渲染 Markdown 文本，代码块使用 ShadCodeBlock，支持流式追加。</source>
+        <translation>ShadMarkdownView：Markdown テキストを描画します。コードブロックには ShadCodeBlock を使用し、ストリーミング追記に対応しています。</translation>
+    </message>
+    <message>
+        <source># 欢迎使用 ShadMarkdownView
+
+这是一段包含 **粗体**、*斜体* 和 `行内代码` 的段落，还有一个[链接](https://www.qt.io)。
+
+## 列表
+
+- 无序列表第一项
+- 无序列表第二项
+
+1. 有序列表第一项
+2. 有序列表第二项
+
+- [x] 已完成的任务
+- [ ] 未完成的任务
+
+### 引用
+
+&gt; 引用块使用次要文字颜色，左侧带有竖线。
+
+## 表格
+
+| 组件 | 说明 | 状态 |
+| --- | --- | --- |
+| ShadCodeBlock | 代码块 | 可用 |
+| ShadMarkdownView | Markdown 渲染 | 可用 |
+
+## 代码
+
+```cpp
+#include &lt;QApplication&gt;
+
+int main(int argc, char* argv[])
+{
+    QApplication app(argc, argv);
+    return app.exec();
+}
+```
+
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+---
+
+文末的水平线之上是各种元素的示例。
+</source>
+        <translation># ShadMarkdownView へようこそ
+
+これは **太字**、*斜体*、`インラインコード` を含む段落で、[リンク](https://www.qt.io)もあります。
+
+## リスト
+
+- 順序なしリストの 1 番目
+- 順序なしリストの 2 番目
+
+1. 順序付きリストの 1 番目
+2. 順序付きリストの 2 番目
+
+- [x] 完了したタスク
+- [ ] 未完了のタスク
+
+### 引用
+
+&gt; 引用ブロックには補助的なテキスト色が使われ、左側に縦線が付きます。
+
+## 表
+
+| コンポーネント | 説明 | 状態 |
+| --- | --- | --- |
+| ShadCodeBlock | コードブロック | 利用可能 |
+| ShadMarkdownView | Markdown の描画 | 利用可能 |
+
+## コード
+
+```cpp
+#include &lt;QApplication&gt;
+
+int main(int argc, char* argv[])
+{
+    QApplication app(argc, argv);
+    return app.exec();
+}
+```
+
+```bash
+cmake -S . -B build
+cmake --build build
+```
+
+---
+
+末尾の水平線より上に、各要素のサンプルがあります。
+</translation>
+    </message>
+    <message>
+        <source>## 流式输出
+
+下面的内容逐字追加，**代码块**也会随之增长：
+
+```python
+def fibonacci(count):
+    values = [0, 1]
+    while len(values) &lt; count:
+        values.append(values[-1] + values[-2])
+    return values[:count]
+```
+
+- 代码块闭合后继续输出文字
+- 只有最后一段会被重新构建
+
+输出结束。
+</source>
+        <translation>## ストリーミング出力
+
+以下の内容は 1 文字ずつ追加され、**コードブロック**もそれに合わせて伸びていきます：
+
+```python
+def fibonacci(count):
+    values = [0, 1]
+    while len(values) &lt; count:
+        values.append(values[-1] + values[-2])
+    return values[:count]
+```
+
+- コードブロックが閉じた後も、テキストの出力が続きます
+- 最後のセグメントだけが再構築されます
+
+出力が完了しました。
+</translation>
+    </message>
+    <message>
+        <source>渲染</source>
+        <translation>描画</translation>
+    </message>
+    <message>
+        <source>setMarkdown 渲染标题、列表、引用、表格、代码块与水平线</source>
+        <translation>setMarkdown は見出し、リスト、引用、表、コードブロック、水平線を描画します</translation>
+    </message>
+    <message>
+        <source>流式输出</source>
+        <translation>ストリーミング出力</translation>
+    </message>
+    <message>
+        <source>appendMarkdown 逐段追加文字，模拟 AI 逐字输出</source>
+        <translation>appendMarkdown はテキストを少しずつ追加し、AI の逐次出力を再現します</translation>
+    </message>
+    <message>
+        <source>开始</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>重置</source>
+        <translation>リセット</translation>
+    </message>
+</context>
+<context>
+    <name>MarkerPage</name>
+    <message>
+        <source>标记</source>
+        <translation>マーカー</translation>
+    </message>
+    <message>
+        <source>ShadMarker：对话中的行内标记，用于状态、提示、带边框的行和带文字的分隔线。</source>
+        <translation>ShadMarker：会話内のインラインマーカーで、状態、メモ、枠線付きの行、テキスト付きの区切り線に使用します。</translation>
+    </message>
+    <message>
+        <source>变体</source>
+        <translation>バリエーション</translation>
+    </message>
+    <message>
+        <source>Default 为行内提示，Separator 为居中文字加两侧分隔线，Border 在行下方加边框</source>
+        <translation>Default はインラインのメモ、Separator は中央のテキストの両側に区切り線を付けたもの、Border は行の下に枠線を追加したものです</translation>
+    </message>
+    <message>
+        <source>对话已开始</source>
+        <translation>会話を開始しました</translation>
+    </message>
+    <message>
+        <source>今天</source>
+        <translation>今日</translation>
+    </message>
+    <message>
+        <source>已切换到 release-candidate 分支</source>
+        <translation>release-candidate ブランチに切り替えました</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>图标位置放入 ShadSpinner；文字变化时会通知辅助功能</source>
+        <translation>アイコン位置に ShadSpinner を配置します。テキストが変化すると、アクセシビリティ機能に通知されます</translation>
+    </message>
+    <message>
+        <source>正在压缩对话</source>
+        <translation>会話を圧縮しています</translation>
+    </message>
+    <message>
+        <source>正在运行测试</source>
+        <translation>テストを実行しています</translation>
+    </message>
+    <message>
+        <source>扫光</source>
+        <translation>シマー</translation>
+    </message>
+    <message>
+        <source>setShimmer(true)：文字带扫光动画，表示正在进行</source>
+        <translation>setShimmer(true)：テキストに光が流れるアニメーションが付き、処理中であることを示します</translation>
+    </message>
+    <message>
+        <source>思考中...</source>
+        <translation>考え中...</translation>
+    </message>
+    <message>
+        <source>正在读取 4 个文件</source>
+        <translation>4 個のファイルを読み込んでいます</translation>
+    </message>
+    <message>
+        <source>分隔线</source>
+        <translation>区切り線</translation>
+    </message>
+    <message>
+        <source>Separator 变体：文字居中，两侧为分隔线</source>
+        <translation>Separator バリエーション：テキストを中央に配置し、両側に区切り線を表示します</translation>
+    </message>
+    <message>
+        <source>用时 42 秒</source>
+        <translation>42 秒かかりました</translation>
+    </message>
+    <message>
+        <source>对话已压缩</source>
+        <translation>会話を圧縮しました</translation>
+    </message>
+    <message>
+        <source>带边框</source>
+        <translation>枠線付き</translation>
+    </message>
+    <message>
+        <source>Border 变体：在行下方加一条边框</source>
+        <translation>Border バリエーション：行の下に枠線を 1 本追加します</translation>
+    </message>
+    <message>
+        <source>已查看 8 个相关文件</source>
+        <translation>関連する 8 個のファイルを確認しました</translation>
+    </message>
+    <message>
+        <source>已打开实现说明</source>
+        <translation>実装メモを開きました</translation>
+    </message>
+    <message>
+        <source>带图标</source>
+        <translation>アイコン付き</translation>
+    </message>
+    <message>
+        <source>图标位于文字起始侧，文字较长时自动换行</source>
+        <translation>アイコンはテキストの先頭側に配置され、テキストが長い場合は自動的に折り返されます</translation>
+    </message>
+    <message>
+        <source>已切换到新分支</source>
+        <translation>新しいブランチに切り替えました</translation>
+    </message>
+    <message>
+        <source>已查看 4 个文件</source>
+        <translation>4 個のファイルを確認しました</translation>
+    </message>
+    <message>
+        <source>同步完成</source>
+        <translation>同期が完了しました</translation>
+    </message>
+    <message>
+        <source>已将 12 个文件中的旧接口替换为新接口，并更新了相关的单元测试与文档说明，所有检查均已通过，可以合并到主分支。</source>
+        <translation>12 個のファイルで旧 API を新 API に置き換え、関連する単体テストとドキュメントも更新しました。すべてのチェックに合格しており、メインブランチにマージできます。</translation>
+    </message>
+    <message>
+        <source>链接与按钮</source>
+        <translation>リンクとボタン</translation>
+    </message>
+    <message>
+        <source>setUrl 显示为链接，点击后用浏览器打开；setClickable 后整行可点击并发出 clicked 信号</source>
+        <translation>setUrl で表示をリンクにすると、クリックしたときにブラウザで開きます。setClickable を設定すると行全体がクリック可能になり、clicked シグナルが発行されます</translation>
+    </message>
+    <message>
+        <source>查看拉取请求</source>
+        <translation>プルリクエストを表示</translation>
+    </message>
+    <message>
+        <source>撤销这次修改</source>
+        <translation>この変更を取り消す</translation>
+    </message>
+    <message>
+        <source>点击次数: %1</source>
+        <translation>クリック回数：%1</translation>
+    </message>
+</context>
+<context>
+    <name>MenubarPage</name>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最後にクリック：%1</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最後にクリック：なし</translation>
+    </message>
+    <message>
+        <source>菜单栏</source>
+        <translation>メニューバー</translation>
+    </message>
+    <message>
+        <source>ShadMenubar：常驻的菜单栏。</source>
+        <translation>ShadMenubar：常に表示されるメニューバーです。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>子菜单、复选与单选</source>
+        <translation>サブメニュー、チェック項目、ラジオ項目</translation>
+    </message>
+    <message>
+        <source>文件</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>新建标签页</source>
+        <translation>新しいタブ</translation>
+    </message>
+    <message>
+        <source>新建窗口</source>
+        <translation>新しいウィンドウ</translation>
+    </message>
+    <message>
+        <source>新建无痕窗口</source>
+        <translation>新しいシークレットウィンドウ</translation>
+    </message>
+    <message>
+        <source>分享</source>
+        <translation>共有</translation>
+    </message>
+    <message>
+        <source>邮件链接</source>
+        <translation>リンクをメールで送信</translation>
+    </message>
+    <message>
+        <source>消息</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>备忘录</source>
+        <translation>メモ</translation>
+    </message>
+    <message>
+        <source>打印…</source>
+        <translation>印刷…</translation>
+    </message>
+    <message>
+        <source>编辑</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>撤销</source>
+        <translation>元に戻す</translation>
+    </message>
+    <message>
+        <source>重做</source>
+        <translation>やり直す</translation>
+    </message>
+    <message>
+        <source>查找</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>搜索网页</source>
+        <translation>Web を検索</translation>
+    </message>
+    <message>
+        <source>查找…</source>
+        <translation>検索…</translation>
+    </message>
+    <message>
+        <source>查找下一个</source>
+        <translation>次を検索</translation>
+    </message>
+    <message>
+        <source>查找上一个</source>
+        <translation>前を検索</translation>
+    </message>
+    <message>
+        <source>剪切</source>
+        <translation>切り取り</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>貼り付け</translation>
+    </message>
+    <message>
+        <source>视图</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>始终显示书签栏</source>
+        <translation>ブックマークバーを常に表示</translation>
+    </message>
+    <message>
+        <source>始终显示完整网址</source>
+        <translation>完全な URL を常に表示</translation>
+    </message>
+    <message>
+        <source>重新加载</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>强制重新加载</source>
+        <translation>強制的に再読み込み</translation>
+    </message>
+    <message>
+        <source>切换全屏</source>
+        <translation>全画面表示を切り替え</translation>
+    </message>
+    <message>
+        <source>隐藏侧栏</source>
+        <translation>サイドバーを隠す</translation>
+    </message>
+    <message>
+        <source>账户</source>
+        <translation>プロファイル</translation>
+    </message>
+    <message>
+        <source>张三</source>
+        <translation>田中</translation>
+    </message>
+    <message>
+        <source>李四</source>
+        <translation>鈴木</translation>
+    </message>
+    <message>
+        <source>王五</source>
+        <translation>佐藤</translation>
+    </message>
+    <message>
+        <source>编辑…</source>
+        <translation>編集…</translation>
+    </message>
+    <message>
+        <source>添加账户…</source>
+        <translation>プロファイルを追加…</translation>
+    </message>
+    <message>
+        <source>显示在 macOS 菜单栏</source>
+        <translation>macOS のメニューバーに表示</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>アイコン</translation>
+    </message>
+    <message>
+        <source>带图标与危险操作</source>
+        <translation>アイコン付きと破壊的な操作</translation>
+    </message>
+    <message>
+        <source>项目</source>
+        <translation>プロジェクト</translation>
+    </message>
+    <message>
+        <source>新建文件</source>
+        <translation>新規ファイル</translation>
+    </message>
+    <message>
+        <source>新建文件夹</source>
+        <translation>新規フォルダ</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>更多</source>
+        <translation>その他</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>偏好设置</source>
+        <translation>環境設定</translation>
+    </message>
+    <message>
+        <source>帮助</source>
+        <translation>ヘルプ</translation>
+    </message>
+</context>
+<context>
+    <name>NavigationMenuPage</name>
+    <message>
+        <source>导航菜单</source>
+        <translation>ナビゲーションメニュー</translation>
+    </message>
+    <message>
+        <source>ShadNavigationMenu：导航菜单。</source>
+        <translation>ShadNavigationMenu：サイト内を移動するためのリンク集です。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>两组内容与一个链接</source>
+        <translation>2 つのコンテンツグループと 1 つのリンク</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最後にクリック：なし</translation>
+    </message>
+    <message>
+        <source>入门</source>
+        <translation>はじめに</translation>
+    </message>
+    <message>
+        <source>组件</source>
+        <translation>コンポーネント</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>ドキュメント</translation>
+    </message>
+    <message>
+        <source>最近点击: 文档</source>
+        <translation>最後にクリック：ドキュメント</translation>
+    </message>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最後にクリック：%1</translation>
+    </message>
+    <message>
+        <source>介绍</source>
+        <translation>紹介</translation>
+    </message>
+    <message>
+        <source>基于 Qt Widgets 的可复用组件，风格对齐 shadcn/ui。</source>
+        <translation>Qt Widgets をベースにした再利用可能なコンポーネントで、スタイルは shadcn/ui に合わせています。</translation>
+    </message>
+    <message>
+        <source>安装</source>
+        <translation>インストール</translation>
+    </message>
+    <message>
+        <source>用 CMake 引入组件库并链接到你的程序。</source>
+        <translation>CMake でライブラリを取り込み、アプリケーションにリンクします。</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>テーマ</translation>
+    </message>
+    <message>
+        <source>五种基色与亮暗模式，可单独修改任意颜色。</source>
+        <translation>5 種類のベースカラーとライト/ダークモードを備え、任意の色を個別に変更できます。</translation>
+    </message>
+    <message>
+        <source>警告对话框</source>
+        <translation>警告ダイアログ</translation>
+    </message>
+    <message>
+        <source>打断用户并等待确认的模态对话框。</source>
+        <translation>ユーザーの操作を中断し、確認を待つモーダルダイアログです。</translation>
+    </message>
+    <message>
+        <source>悬停卡片</source>
+        <translation>ホバーカード</translation>
+    </message>
+    <message>
+        <source>悬停在链接上时预览更多内容。</source>
+        <translation>リンクにカーソルを合わせると、詳しい内容をプレビューできます。</translation>
+    </message>
+    <message>
+        <source>进度条</source>
+        <translation>プログレスバー</translation>
+    </message>
+    <message>
+        <source>显示任务的完成进度。</source>
+        <translation>タスクの進捗状況を表示します。</translation>
+    </message>
+    <message>
+        <source>滚动区域</source>
+        <translation>スクロールエリア</translation>
+    </message>
+    <message>
+        <source>带自定义滚动条的滚动容器。</source>
+        <translation>カスタムスクロールバー付きのスクロールコンテナです。</translation>
+    </message>
+    <message>
+        <source>标签页</source>
+        <translation>タブ</translation>
+    </message>
+    <message>
+        <source>分层显示内容，每次只显示一个面板。</source>
+        <translation>コンテンツを階層的に表示し、一度に 1 つのパネルだけを表示します。</translation>
+    </message>
+    <message>
+        <source>提示</source>
+        <translation>ツールチップ</translation>
+    </message>
+    <message>
+        <source>悬停或聚焦时显示相关信息的小浮层。</source>
+        <translation>カーソルを合わせたりフォーカスしたりしたときに、関連情報を表示する小さなポップアップです。</translation>
+    </message>
+</context>
+<context>
+    <name>NotificationPage</name>
+    <message>
+        <source>消息通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>ShadNotification：从窗口边缘弹出的消息条，带倒计时，到时自动关闭。</source>
+        <translation>ShadNotification：ウィンドウの端からスライドして表示されるメッセージバーで、カウントダウンが終わると自動的に閉じます。</translation>
+    </message>
+    <message>
+        <source>类型</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>不同类型显示不同的状态图标与倒计时颜色</source>
+        <translation>種類ごとに異なる状態アイコンとカウントダウンの色が表示されます</translation>
+    </message>
+    <message>
+        <source>信息</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>新版本</source>
+        <translation>新しいバージョン</translation>
+    </message>
+    <message>
+        <source>版本 0.3 已发布，可以随时更新。</source>
+        <translation>バージョン 0.3 がリリースされました。いつでも更新できます。</translation>
+    </message>
+    <message>
+        <source>成功</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <source>保存成功</source>
+        <translation>保存しました</translation>
+    </message>
+    <message>
+        <source>所有更改已同步到云端。</source>
+        <translation>すべての変更がクラウドに同期されました。</translation>
+    </message>
+    <message>
+        <source>警告</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <source>空间不足</source>
+        <translation>空き容量が不足しています</translation>
+    </message>
+    <message>
+        <source>剩余空间低于 10%，请及时清理。</source>
+        <translation>空き容量が 10% を下回っています。早めに整理してください。</translation>
+    </message>
+    <message>
+        <source>错误</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>上传失败</source>
+        <translation>アップロードに失敗しました</translation>
+    </message>
+    <message>
+        <source>网络连接已断开，请检查后重试。</source>
+        <translation>ネットワーク接続が切断されました。接続を確認してもう一度お試しください。</translation>
+    </message>
+    <message>
+        <source>位置</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>同一位置的消息条按顺序堆叠，关闭后其余的自动补位</source>
+        <translation>同じ位置のメッセージバーは順番に積み重なり、1 つ閉じると残りが自動的に詰められます</translation>
+    </message>
+    <message>
+        <source>上中</source>
+        <translation>上中央</translation>
+    </message>
+    <message>
+        <source>下中</source>
+        <translation>下中央</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右</translation>
+    </message>
+    <message>
+        <source>左上</source>
+        <translation>左上</translation>
+    </message>
+    <message>
+        <source>右上</source>
+        <translation>右上</translation>
+    </message>
+    <message>
+        <source>左下</source>
+        <translation>左下</translation>
+    </message>
+    <message>
+        <source>右下</source>
+        <translation>右下</translation>
+    </message>
+    <message>
+        <source>位置已切换</source>
+        <translation>位置を切り替えました</translation>
+    </message>
+    <message>
+        <source>消息条现在显示在%1</source>
+        <translation>通知は %1 に表示されます</translation>
+    </message>
+    <message>
+        <source>显示时长</source>
+        <translation>表示時間</translation>
+    </message>
+    <message>
+        <source>倒计时结束后自动关闭</source>
+        <translation>カウントダウンが終わると自動的に閉じます</translation>
+    </message>
+    <message>
+        <source>%1 秒</source>
+        <translation>%1 秒</translation>
+    </message>
+    <message>
+        <source>堆叠与关闭</source>
+        <translation>積み重ねと閉じる動作</translation>
+    </message>
+    <message>
+        <source>超出窗口高度时先关闭最早的一条</source>
+        <translation>ウィンドウの高さを超えると、最も古いものから先に閉じます</translation>
+    </message>
+    <message>
+        <source>更新说明</source>
+        <translation>リリースノート</translation>
+    </message>
+    <message>
+        <source>本次更新新增了消息通知组件，支持八个弹出位置、四种类型和倒计时进度条，文字较长时会自动换行，消息条的高度随之增加。</source>
+        <translation>今回のアップデートで通知コンポーネントを追加しました。8 か所の表示位置、4 種類のタイプ、カウントダウンバーに対応し、テキストが長い場合は自動的に折り返され、メッセージバーの高さも広がります。</translation>
+    </message>
+    <message>
+        <source>第 %1 条</source>
+        <translation>通知 %1</translation>
+    </message>
+    <message>
+        <source>连续弹出的消息条依次排列。</source>
+        <translation>続けて表示された通知は順に並びます。</translation>
+    </message>
+    <message>
+        <source>需要手动关闭</source>
+        <translation>手動で閉じる必要があります</translation>
+    </message>
+    <message>
+        <source>这条消息不会自动消失，点击右侧的关闭按钮。</source>
+        <translation>このメッセージは自動では消えません。右側の閉じるボタンをクリックしてください。</translation>
+    </message>
+    <message>
+        <source>独立窗口</source>
+        <translation>独立したウィンドウ</translation>
+    </message>
+    <message>
+        <source>通过 parent 参数指定在哪个窗口弹出</source>
+        <translation>parent 引数で、どのウィンドウに通知を表示するかを指定します</translation>
+    </message>
+    <message>
+        <source>长文本</source>
+        <translation>長いテキスト</translation>
+    </message>
+    <message>
+        <source>连续弹出 5 条</source>
+        <translation>5 件続けて表示</translation>
+    </message>
+    <message>
+        <source>不自动关闭</source>
+        <translation>自動で閉じない</translation>
+    </message>
+    <message>
+        <source>全部关闭</source>
+        <translation>すべて閉じる</translation>
+    </message>
+    <message>
+        <source>打开独立窗口</source>
+        <translation>独立したウィンドウを開く</translation>
+    </message>
+    <message>
+        <source>独立窗口中的消息</source>
+        <translation>独立したウィンドウ内のメッセージ</translation>
+    </message>
+    <message>
+        <source>显示在当前窗口。</source>
+        <translation>現在のウィンドウに表示されます。</translation>
+    </message>
+    <message>
+        <source>来自独立窗口的消息</source>
+        <translation>独立したウィンドウからのメッセージ</translation>
+    </message>
+    <message>
+        <source>显示在主窗口。</source>
+        <translation>メインウィンドウに表示されます。</translation>
+    </message>
+    <message>
+        <source>独立窗口消息</source>
+        <translation>独立したウィンドウの通知</translation>
+    </message>
+    <message>
+        <source>把窗口作为最后一个参数传入，消息条就会在该窗口内弹出，位置和时长沿用页面上的设置。</source>
+        <translation>ウィンドウを最後の引数として渡すと、そのウィンドウ内に通知が表示されます。位置と表示時間にはページ上の設定が使われます。</translation>
+    </message>
+    <message>
+        <source>在此窗口显示</source>
+        <translation>このウィンドウに表示</translation>
+    </message>
+    <message>
+        <source>在主窗口显示</source>
+        <translation>メインウィンドウに表示</translation>
+    </message>
+</context>
+<context>
+    <name>PaginationPage</name>
+    <message>
+        <source>分页</source>
+        <translation>ページネーション</translation>
+    </message>
+    <message>
+        <source>ShadPagination：带上一页、页码与下一页的分页，支持输入页码跳转。</source>
+        <translation>ShadPagination：前へ、ページ番号、次へを備えたページネーションで、ページ番号を入力して移動することもできます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>页数较多时中间显示省略号，当前页为描边样式</source>
+        <translation>ページ数が多い場合は途中が省略記号で表示され、現在のページはアウトライン表示になります</translation>
+    </message>
+    <message>
+        <source>简单</source>
+        <translation>シンプル</translation>
+    </message>
+    <message>
+        <source>setNavigationVisible(false)：只显示页码</source>
+        <translation>setNavigationVisible(false)：ページ番号だけを表示します</translation>
+    </message>
+    <message>
+        <source>每页行数</source>
+        <translation>1 ページあたりの行数</translation>
+    </message>
+    <message>
+        <source>只显示上一页与下一页，切换每页行数后重新计算页数</source>
+        <translation>前へと次へだけを表示し、1 ページあたりの行数を切り替えるとページ数が再計算されます</translation>
+    </message>
+    <message>
+        <source>第 %1 - %2 条，共 %3 条</source>
+        <translation>%3 件中 %1 - %2 件目</translation>
+    </message>
+    <message>
+        <source>页码跳转</source>
+        <translation>ページ移動</translation>
+    </message>
+    <message>
+        <source>setJumpVisible(true)：输入页码后按 Enter 跳转，超出范围时显示错误态</source>
+        <translation>setJumpVisible(true)：ページ番号を入力して Enter を押すと移動します。範囲外の場合はエラー状態になります</translation>
+    </message>
+    <message>
+        <source>只显示图标</source>
+        <translation>アイコンのみ</translation>
+    </message>
+    <message>
+        <source>setNavigationTextVisible(false)：上一页与下一页只显示箭头</source>
+        <translation>setNavigationTextVisible(false)：前へと次へを矢印だけで表示します</translation>
+    </message>
+    <message>
+        <source>从右到左时整体镜像，箭头方向翻转</source>
+        <translation>右から左のレイアウトでは全体が左右反転し、矢印の向きも反転します</translation>
+    </message>
+    <message>
+        <source>第 %1 / %2 页</source>
+        <translation>%1 / %2 ページ</translation>
+    </message>
+</context>
+<context>
+    <name>PasskeyPage</name>
+    <message>
+        <source>状态: 就绪</source>
+        <translation>状態：準備完了</translation>
+    </message>
+    <message>
+        <source>状态: 进行中</source>
+        <translation>状態：処理中</translation>
+    </message>
+    <message>
+        <source>状态: 注册成功</source>
+        <translation>状態：登録に成功しました</translation>
+    </message>
+    <message>
+        <source>状态: 登录成功</source>
+        <translation>状態：ログインに成功しました</translation>
+    </message>
+    <message>
+        <source>状态: 失败, %1</source>
+        <translation>状態：失敗、%1</translation>
+    </message>
+    <message>
+        <source>通行密钥</source>
+        <translation>パスキー</translation>
+    </message>
+    <message>
+        <source>ShadPasskey：调用系统通行密钥完成注册与登录，签名交给服务器验证。</source>
+        <translation>ShadPasskey：システムのパスキーを呼び出して登録とログインを行い、署名の検証はサーバーに任せます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>调起系统通行密钥对话框</source>
+        <translation>システムのパスキーダイアログを表示します</translation>
+    </message>
+    <message>
+        <source>域名</source>
+        <translation>ドメイン</translation>
+    </message>
+    <message>
+        <source>用户名</source>
+        <translation>ユーザー名</translation>
+    </message>
+    <message>
+        <source>模拟模式，不调用系统通行密钥</source>
+        <translation>シミュレーションモード（システムのパスキーは呼び出しません）</translation>
+    </message>
+    <message>
+        <source>注册通行密钥</source>
+        <translation>パスキーを登録</translation>
+    </message>
+    <message>
+        <source>返回数据</source>
+        <translation>返却データ</translation>
+    </message>
+    <message>
+        <source>发送给服务器验证的字段，base64url 编码</source>
+        <translation>検証のためサーバーに送信するフィールド（base64url エンコード）</translation>
+    </message>
+    <message>
+        <source>凭据 ID</source>
+        <translation>認証情報 ID</translation>
+    </message>
+    <message>
+        <source>签名</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>用户 ID</source>
+        <translation>ユーザー ID</translation>
+    </message>
+</context>
+<context>
+    <name>PopconfirmPage</name>
+    <message>
+        <source>结果: 已确认</source>
+        <translation>結果：確認しました</translation>
+    </message>
+    <message>
+        <source>结果: 已取消</source>
+        <translation>結果：キャンセルしました</translation>
+    </message>
+    <message>
+        <source>结果: 无</source>
+        <translation>結果：なし</translation>
+    </message>
+    <message>
+        <source>气泡确认</source>
+        <translation>ポップ確認</translation>
+    </message>
+    <message>
+        <source>ShadPopconfirm：在操作旁弹出的轻量确认。</source>
+        <translation>ShadPopconfirm：操作の横に表示される軽量な確認ポップアップです。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>危险操作前确认</source>
+        <translation>破壊的な操作の前に確認する</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>删除这条记录？</source>
+        <translation>このレコードを削除しますか？</translation>
+    </message>
+    <message>
+        <source>删除后无法恢复。</source>
+        <translation>削除すると元に戻せません。</translation>
+    </message>
+    <message>
+        <source>上方</source>
+        <translation>上</translation>
+    </message>
+    <message>
+        <source>下方</source>
+        <translation>下</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>表示方向</translation>
+    </message>
+    <message>
+        <source>在按钮四周弹出</source>
+        <translation>ボタンの四方に表示できます</translation>
+    </message>
+    <message>
+        <source>确认执行此操作？</source>
+        <translation>この操作を実行しますか？</translation>
+    </message>
+    <message>
+        <source>自定义</source>
+        <translation>カスタム</translation>
+    </message>
+    <message>
+        <source>图标与按钮文字</source>
+        <translation>アイコンとボタンの文言</translation>
+    </message>
+    <message>
+        <source>发布</source>
+        <translation>公開</translation>
+    </message>
+    <message>
+        <source>发布到正式环境？</source>
+        <translation>本番環境に公開しますか？</translation>
+    </message>
+    <message>
+        <source>所有用户都会看到新版本。</source>
+        <translation>すべてのユーザーに新しいバージョンが表示されます。</translation>
+    </message>
+    <message>
+        <source>再想想</source>
+        <translation>もう少し考える</translation>
+    </message>
+    <message>
+        <source>归档</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>归档这个项目？</source>
+        <translation>このプロジェクトをアーカイブしますか？</translation>
+    </message>
+</context>
+<context>
+    <name>PopoverPage</name>
+    <message>
+        <source>浮层</source>
+        <translation>ポップオーバー</translation>
+    </message>
+    <message>
+        <source>ShadPopover：在锚点旁弹出的浮动卡片，可以放任意组件。</source>
+        <translation>ShadPopover：アンカーの横に表示されるフローティングカードで、任意のウィジェットを配置できます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>带标题与描述的表单浮层</source>
+        <translation>タイトルと説明付きのフォームポップオーバー</translation>
+    </message>
+    <message>
+        <source>打开浮层</source>
+        <translation>ポップオーバーを開く</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>设置图层的尺寸。</source>
+        <translation>レイヤーのサイズを設定します。</translation>
+    </message>
+    <message>
+        <source>宽度</source>
+        <translation>幅</translation>
+    </message>
+    <message>
+        <source>最大宽度</source>
+        <translation>最大幅</translation>
+    </message>
+    <message>
+        <source>高度</source>
+        <translation>高さ</translation>
+    </message>
+    <message>
+        <source>最大高度</source>
+        <translation>最大高さ</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>表示方向</translation>
+    </message>
+    <message>
+        <source>从四个方向弹出，空间不足时翻到对侧</source>
+        <translation>四方向に表示でき、スペースが足りない場合は反対側に切り替わります</translation>
+    </message>
+    <message>
+        <source>上方</source>
+        <translation>上</translation>
+    </message>
+    <message>
+        <source>下方</source>
+        <translation>下</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右</translation>
+    </message>
+    <message>
+        <source>显示在%1</source>
+        <translation>表示位置：%1</translation>
+    </message>
+    <message>
+        <source>与按钮间距 4px，居中对齐。</source>
+        <translation>ボタンとの間隔は 4px で、中央揃えです。</translation>
+    </message>
+    <message>
+        <source>对齐</source>
+        <translation>配置</translation>
+    </message>
+    <message>
+        <source>起始、居中、结束三种对齐方式</source>
+        <translation>開始、中央、終了の 3 種類の揃え方</translation>
+    </message>
+    <message>
+        <source>起始对齐</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>居中对齐</source>
+        <translation>中央</translation>
+    </message>
+    <message>
+        <source>结束对齐</source>
+        <translation>終了</translation>
+    </message>
+    <message>
+        <source>浮层宽 240，按钮较窄时可以看出对齐方式。</source>
+        <translation>ポップオーバーの幅は 240 のため、ボタンが細いと揃え方の違いがわかります。</translation>
+    </message>
+</context>
+<context>
+    <name>ProgressPage</name>
+    <message>
+        <source>进度条与滑块</source>
+        <translation>プログレスバーとスライダー</translation>
+    </message>
+    <message>
+        <source>ShadProgress / ShadSlider：进度条与滑块，进度变化和滑块外圈都带过渡动画。</source>
+        <translation>ShadProgress / ShadSlider：プログレスバーとスライダーで、進捗の変化とスライダーのつまみの外周リングにトランジションアニメーションが付きます。</translation>
+    </message>
+    <message>
+        <source>进度条</source>
+        <translation>プログレスバー</translation>
+    </message>
+    <message>
+        <source>每次点击增加 10%，到 100% 后归零</source>
+        <translation>クリックするたびに 10% 増え、100% を超えると 0 に戻ります</translation>
+    </message>
+    <message>
+        <source>增加 10%</source>
+        <translation>10% 増やす</translation>
+    </message>
+    <message>
+        <source>滑块</source>
+        <translation>スライダー</translation>
+    </message>
+    <message>
+        <source>拖动或点击轨道调整数值</source>
+        <translation>つまみをドラッグするか、トラックをクリックして値を調整します</translation>
+    </message>
+    <message>
+        <source>当前值: %1</source>
+        <translation>現在の値：%1</translation>
+    </message>
+    <message>
+        <source>范围选择</source>
+        <translation>範囲選択</translation>
+    </message>
+    <message>
+        <source>setRangeMode(true)：用两个滑块选择范围</source>
+        <translation>setRangeMode(true)：2 つのつまみで範囲を選択します</translation>
+    </message>
+    <message>
+        <source>价格区间: %1 - %2</source>
+        <translation>価格帯：%1 - %2</translation>
+    </message>
+    <message>
+        <source>步长 / 禁用 / 纵向</source>
+        <translation>ステップ / 無効 / 縦向き</translation>
+    </message>
+    <message>
+        <source>singleStep 为 10 时吸附到 10 的倍数</source>
+        <translation>singleStep が 10 の場合、値は 10 の倍数にスナップします</translation>
+    </message>
+</context>
+<context>
+    <name>PropertyGridPage</name>
+    <message>
+        <source>属性面板</source>
+        <translation>プロパティグリッド</translation>
+    </message>
+    <message>
+        <source>ShadPropertyGrid：分组编辑键值属性。</source>
+        <translation>ShadPropertyGrid：キーと値のプロパティをグループごとに編集します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>拖动分界线调整列宽</source>
+        <translation>区切り線をドラッグして列幅を調整します</translation>
+    </message>
+    <message>
+        <source>外观</source>
+        <translation>外観</translation>
+    </message>
+    <message>
+        <source>行为</source>
+        <translation>動作</translation>
+    </message>
+    <message>
+        <source>标题</source>
+        <translation>タイトル</translation>
+    </message>
+    <message>
+        <source>显示在顶部的文字。</source>
+        <translation>上部に表示されるテキストです。</translation>
+    </message>
+    <message>
+        <source>宽度</source>
+        <translation>幅</translation>
+    </message>
+    <message>
+        <source>单位为像素，范围 0 到 2000。</source>
+        <translation>単位はピクセルで、範囲は 0 から 2000 です。</translation>
+    </message>
+    <message>
+        <source>透明度</source>
+        <translation>不透明度</translation>
+    </message>
+    <message>
+        <source>0 为全透明，1 为不透明。</source>
+        <translation>0 は完全な透明、1 は不透明です。</translation>
+    </message>
+    <message>
+        <source>可见</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>背景色</source>
+        <translation>背景色</translation>
+    </message>
+    <message>
+        <source>点击打开取色对话框。</source>
+        <translation>クリックすると色選択ダイアログが開きます。</translation>
+    </message>
+    <message>
+        <source>对齐方式</source>
+        <translation>配置</translation>
+    </message>
+    <message>
+        <source>左对齐</source>
+        <translation>左揃え</translation>
+    </message>
+    <message>
+        <source>居中</source>
+        <translation>中央揃え</translation>
+    </message>
+    <message>
+        <source>右对齐</source>
+        <translation>右揃え</translation>
+    </message>
+    <message>
+        <source>启用</source>
+        <translation>有効</translation>
+    </message>
+    <message>
+        <source>版本</source>
+        <translation>バージョン</translation>
+    </message>
+    <message>
+        <source>只读属性。</source>
+        <translation>読み取り専用のプロパティです。</translation>
+    </message>
+    <message>
+        <source>音量</source>
+        <translation>音量</translation>
+    </message>
+    <message>
+        <source>自定义编辑器。</source>
+        <translation>カスタムエディターです。</translation>
+    </message>
+    <message>
+        <source>最近修改: 无</source>
+        <translation>最後の変更：なし</translation>
+    </message>
+    <message>
+        <source>最近修改: %1</source>
+        <translation>最後の変更：%1</translation>
+    </message>
+    <message>
+        <source>只读</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>不分组，隐藏说明区</source>
+        <translation>グループなし、説明欄は非表示</translation>
+    </message>
+    <message>
+        <source>文件名</source>
+        <translation>ファイル名</translation>
+    </message>
+    <message>
+        <source>大小 (KB)</source>
+        <translation>サイズ (KB)</translation>
+    </message>
+    <message>
+        <source>已共享</source>
+        <translation>共有済み</translation>
+    </message>
+    <message>
+        <source>标签颜色</source>
+        <translation>ラベルの色</translation>
+    </message>
+</context>
+<context>
+    <name>QrCodePage</name>
+    <message>
+        <source>二维码</source>
+        <translation>QR コード</translation>
+    </message>
+    <message>
+        <source>ShadQrCode：根据输入文本自动生成二维码，不依赖第三方库。</source>
+        <translation>ShadQrCode：入力したテキストから QR コードを自動生成します。サードパーティのライブラリには依存しません。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>修改文本后立即重新编码，支持中文</source>
+        <translation>テキストを変更するとすぐに再エンコードされ、中国語にも対応しています</translation>
+    </message>
+    <message>
+        <source>输入要编码的文本</source>
+        <translation>エンコードするテキストを入力してください</translation>
+    </message>
+    <message>
+        <source>纠错等级</source>
+        <translation>誤り訂正レベル</translation>
+    </message>
+    <message>
+        <source>四档纠错等级，等级越高格子越多</source>
+        <translation>誤り訂正レベルは 4 段階で、レベルが高いほどセルの数が増えます</translation>
+    </message>
+    <message>
+        <source>尺寸与颜色</source>
+        <translation>サイズと色</translation>
+    </message>
+    <message>
+        <source>设置边长、配色与四周留白</source>
+        <translation>一辺の長さ、配色、周囲の余白を設定します</translation>
+    </message>
+    <message>
+        <source>内容过长</source>
+        <translation>内容が長すぎます</translation>
+    </message>
+    <message>
+        <source>内容超出容量时显示错误状态</source>
+        <translation>内容が容量を超えるとエラー状態になります</translation>
+    </message>
+    <message>
+        <source>尚未编码</source>
+        <translation>まだエンコードされていません</translation>
+    </message>
+    <message>
+        <source>编码失败：%1</source>
+        <translation>エンコードに失敗しました：%1</translation>
+    </message>
+    <message>
+        <source>没有有效的二维码</source>
+        <translation>有効な QR コードがありません</translation>
+    </message>
+    <message>
+        <source>版本 %1 · %2 × %2 格</source>
+        <translation>バージョン %1 · %2 × %2 セル</translation>
+    </message>
+</context>
+<context>
+    <name>QuestionnairePage</name>
+    <message>
+        <source>尚未提交</source>
+        <translation>まだ送信されていません</translation>
+    </message>
+    <message>
+        <source>%1：%2</source>
+        <translation>%1：%2</translation>
+    </message>
+    <message>
+        <source>、</source>
+        <translation>、</translation>
+    </message>
+    <message>
+        <source>已提交 %1</source>
+        <translation>送信済み：%1</translation>
+    </message>
+    <message>
+        <source>；</source>
+        <translation>；</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>方向性</translation>
+    </message>
+    <message>
+        <source>接下来先做什么？</source>
+        <translation>次に何から取り組みますか？</translation>
+    </message>
+    <message>
+        <source>也可以写下其他想法。</source>
+        <translation>その他のアイデアを書き込むこともできます。</translation>
+    </message>
+    <message>
+        <source>时间线</source>
+        <translation>タイムライン</translation>
+    </message>
+    <message>
+        <source>工具调用时间线</source>
+        <translation>ツール呼び出しのタイムライン</translation>
+    </message>
+    <message>
+        <source>展示操作与结果。</source>
+        <translation>操作とその結果を表示します。</translation>
+    </message>
+    <message>
+        <source>审批</source>
+        <translation>承認</translation>
+    </message>
+    <message>
+        <source>审批节点</source>
+        <translation>承認ステップ</translation>
+    </message>
+    <message>
+        <source>敏感操作前确认。</source>
+        <translation>重要な操作の前に確認します。</translation>
+    </message>
+    <message>
+        <source>交接</source>
+        <translation>引き継ぎ</translation>
+    </message>
+    <message>
+        <source>任务交接</source>
+        <translation>タスクの引き継ぎ</translation>
+    </message>
+    <message>
+        <source>跟踪委派的工作。</source>
+        <translation>委任した作業を追跡します。</translation>
+    </message>
+    <message>
+        <source>其他想法…</source>
+        <translation>その他のアイデア…</translation>
+    </message>
+    <message>
+        <source>汇报</source>
+        <translation>報告</translation>
+    </message>
+    <message>
+        <source>汇报包含哪些内容？</source>
+        <translation>報告に含める内容は何ですか？</translation>
+    </message>
+    <message>
+        <source>可多选。</source>
+        <translation>複数選択できます。</translation>
+    </message>
+    <message>
+        <source>进度</source>
+        <translation>進捗</translation>
+    </message>
+    <message>
+        <source>决策</source>
+        <translation>意思決定</translation>
+    </message>
+    <message>
+        <source>风险</source>
+        <translation>リスク</translation>
+    </message>
+    <message>
+        <source>下一步</source>
+        <translation>次のステップ</translation>
+    </message>
+    <message>
+        <source>时间</source>
+        <translation>タイミング</translation>
+    </message>
+    <message>
+        <source>什么时候开始？</source>
+        <translation>いつ開始しますか？</translation>
+    </message>
+    <message>
+        <source>现在</source>
+        <translation>今すぐ</translation>
+    </message>
+    <message>
+        <source>现在开始</source>
+        <translation>今すぐ開始</translation>
+    </message>
+    <message>
+        <source>下个周期</source>
+        <translation>次のサイクル</translation>
+    </message>
+    <message>
+        <source>待办</source>
+        <translation>バックログ</translation>
+    </message>
+    <message>
+        <source>放进待办</source>
+        <translation>バックログに追加</translation>
+    </message>
+    <message>
+        <source>问卷</source>
+        <translation>アンケート</translation>
+    </message>
+    <message>
+        <source>ShadQuestionnaire：多步问卷。</source>
+        <translation>ShadQuestionnaire：複数ステップのアンケートです。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>按字母键快速选择</source>
+        <translation>アルファベットキーですばやく選択できます</translation>
+    </message>
+    <message>
+        <source>保存计划</source>
+        <translation>計画を保存</translation>
+    </message>
+    <message>
+        <source>多选</source>
+        <translation>複数選択</translation>
+    </message>
+    <message>
+        <source>平台</source>
+        <translation>プラットフォーム</translation>
+    </message>
+    <message>
+        <source>需要支持哪些平台？</source>
+        <translation>どのプラットフォームに対応する必要がありますか？</translation>
+    </message>
+    <message>
+        <source>至少选一项。</source>
+        <translation>1 つ以上選択してください。</translation>
+    </message>
+    <message>
+        <source>自由输入</source>
+        <translation>自由入力</translation>
+    </message>
+    <message>
+        <source>建议</source>
+        <translation>ご提案</translation>
+    </message>
+    <message>
+        <source>还有什么建议？</source>
+        <translation>ほかにご提案はありますか？</translation>
+    </message>
+    <message>
+        <source>写下你的建议…</source>
+        <translation>ご提案をお書きください…</translation>
+    </message>
+    <message>
+        <source>跳过</source>
+        <translation>スキップ</translation>
+    </message>
+    <message>
+        <source>非必答题可跳过</source>
+        <translation>任意の質問はスキップできます</translation>
+    </message>
+    <message>
+        <source>角色</source>
+        <translation>役割</translation>
+    </message>
+    <message>
+        <source>你的角色是？</source>
+        <translation>あなたの役割は何ですか？</translation>
+    </message>
+    <message>
+        <source>可以跳过。</source>
+        <translation>スキップできます。</translation>
+    </message>
+    <message>
+        <source>开发</source>
+        <translation>開発</translation>
+    </message>
+    <message>
+        <source>设计</source>
+        <translation>デザイン</translation>
+    </message>
+    <message>
+        <source>产品</source>
+        <translation>プロダクト</translation>
+    </message>
+    <message>
+        <source>年限</source>
+        <translation>経験年数</translation>
+    </message>
+    <message>
+        <source>工作几年了？</source>
+        <translation>勤務年数は何年ですか？</translation>
+    </message>
+    <message>
+        <source>1 年以内</source>
+        <translation>1 年未満</translation>
+    </message>
+    <message>
+        <source>1 到 3 年</source>
+        <translation>1 年から 3 年</translation>
+    </message>
+    <message>
+        <source>3 年以上</source>
+        <translation>3 年以上</translation>
+    </message>
+    <message>
+        <source>数字快捷键</source>
+        <translation>数字キーのショートカット</translation>
+    </message>
+    <message>
+        <source>按数字键选择</source>
+        <translation>数字キーで選択できます</translation>
+    </message>
+    <message>
+        <source>评分</source>
+        <translation>評価</translation>
+    </message>
+    <message>
+        <source>整体体验如何？</source>
+        <translation>全体的な使い心地はいかがでしたか？</translation>
+    </message>
+    <message>
+        <source>好</source>
+        <translation>良い</translation>
+    </message>
+    <message>
+        <source>很好</source>
+        <translation>とても良い</translation>
+    </message>
+    <message>
+        <source>一般</source>
+        <translation>普通</translation>
+    </message>
+    <message>
+        <source>差</source>
+        <translation>悪い</translation>
+    </message>
+    <message>
+        <source>不太好</source>
+        <translation>あまり良くない</translation>
+    </message>
+    <message>
+        <source>自定义校验</source>
+        <translation>カスタム検証</translation>
+    </message>
+    <message>
+        <source>模块</source>
+        <translation>モジュール</translation>
+    </message>
+    <message>
+        <source>先启用哪些模块？</source>
+        <translation>最初にどのモジュールを有効にしますか？</translation>
+    </message>
+    <message>
+        <source>最多选两项。</source>
+        <translation>最大 2 つまで選択できます。</translation>
+    </message>
+    <message>
+        <source>账号</source>
+        <translation>アカウント</translation>
+    </message>
+    <message>
+        <source>支付</source>
+        <translation>決済</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>报表</source>
+        <translation>レポート</translation>
+    </message>
+    <message>
+        <source>外部控制</source>
+        <translation>外部からの制御</translation>
+    </message>
+    <message>
+        <source>切换、恢复与重置</source>
+        <translation>移動、復元、リセット</translation>
+    </message>
+    <message>
+        <source>最后一题</source>
+        <translation>最後の質問</translation>
+    </message>
+    <message>
+        <source>恢复答案</source>
+        <translation>回答を復元</translation>
+    </message>
+    <message>
+        <source>重置</source>
+        <translation>リセット</translation>
+    </message>
+    <message>
+        <source>条件题目</source>
+        <translation>条件付きの質問</translation>
+    </message>
+    <message>
+        <source>发票</source>
+        <translation>領収書</translation>
+    </message>
+    <message>
+        <source>抬头</source>
+        <translation>宛名</translation>
+    </message>
+    <message>
+        <source>不需要</source>
+        <translation>不要</translation>
+    </message>
+    <message>
+        <source>需要发票吗？</source>
+        <translation>領収書は必要ですか？</translation>
+    </message>
+    <message>
+        <source>需要</source>
+        <translation>必要</translation>
+    </message>
+    <message>
+        <source>发票抬头</source>
+        <translation>領収書の宛名</translation>
+    </message>
+    <message>
+        <source>公司名称</source>
+        <translation>会社名</translation>
+    </message>
+    <message>
+        <source>备注</source>
+        <translation>備考</translation>
+    </message>
+    <message>
+        <source>订单备注</source>
+        <translation>注文の備考</translation>
+    </message>
+    <message>
+        <source>选填</source>
+        <translation>任意</translation>
+    </message>
+    <message>
+        <source>自定义进度</source>
+        <translation>カスタム進捗表示</translation>
+    </message>
+    <message>
+        <source>用进度条显示进度</source>
+        <translation>プログレスバーで進捗を表示します</translation>
+    </message>
+    <message>
+        <source>对话框</source>
+        <translation>ダイアログ</translation>
+    </message>
+    <message>
+        <source>提交后关闭</source>
+        <translation>送信後に閉じます</translation>
+    </message>
+    <message>
+        <source>开始问卷</source>
+        <translation>アンケートを開始</translation>
+    </message>
+    <message>
+        <source>项目问卷</source>
+        <translation>プロジェクトアンケート</translation>
+    </message>
+</context>
+<context>
+    <name>RadialProgressPage</name>
+    <message>
+        <source>环形进度</source>
+        <translation>円形プログレス</translation>
+    </message>
+    <message>
+        <source>ShadRadialProgress：环形进度，支持整圆与仪表盘两种形态，数值变化带过渡动画。</source>
+        <translation>ShadRadialProgress：円形のプログレスで、円全体とゲージの 2 つの形状に対応し、値の変化にトランジションアニメーションが付きます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>中心文字显示当前百分比，数字随动画变化</source>
+        <translation>中央のテキストに現在のパーセンテージが表示され、数字はアニメーションとともに変化します</translation>
+    </message>
+    <message>
+        <source>增加 10%</source>
+        <translation>10% 増やす</translation>
+    </message>
+    <message>
+        <source>减少 10%</source>
+        <translation>10% 減らす</translation>
+    </message>
+    <message>
+        <source>仪表盘</source>
+        <translation>ゲージ</translation>
+    </message>
+    <message>
+        <source>Gauge 变体为 270° 圆弧，缺口朝下</source>
+        <translation>Gauge バリエーションは 270° の円弧で、切れ目が下を向きます</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>状态决定指示色，轨道为指示色的 20% 透明度</source>
+        <translation>状態によってインジケーターの色が決まり、トラックはその色の不透明度 20% で表示されます</translation>
+    </message>
+    <message>
+        <source>尺寸与文字</source>
+        <translation>サイズとテキスト</translation>
+    </message>
+    <message>
+        <source>可设置直径与线宽，支持自定义文字或隐藏文字</source>
+        <translation>直径と線の太さを設定でき、テキストのカスタマイズや非表示にも対応しています</translation>
+    </message>
+    <message>
+        <source>已完成</source>
+        <translation>完了</translation>
+    </message>
+</context>
+<context>
+    <name>RadioGroupPage</name>
+    <message>
+        <source>单选组</source>
+        <translation>ラジオグループ</translation>
+    </message>
+    <message>
+        <source>ShadRadioGroup：单选组，支持纵向与横向排列，方向键可在选项间切换。</source>
+        <translation>ShadRadioGroup：縦または横に並べられるラジオグループです。矢印キーで選択肢を移動できます。</translation>
+    </message>
+    <message>
+        <source>纵向排列</source>
+        <translation>縦に並べる</translation>
+    </message>
+    <message>
+        <source>默认纵向排列</source>
+        <translation>既定では縦に並びます</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>標準</translation>
+    </message>
+    <message>
+        <source>舒适</source>
+        <translation>ゆったり</translation>
+    </message>
+    <message>
+        <source>紧凑</source>
+        <translation>コンパクト</translation>
+    </message>
+    <message>
+        <source>当前选中: %1</source>
+        <translation>選択中：%1</translation>
+    </message>
+    <message>
+        <source>无</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>横向排列</source>
+        <translation>横に並べる</translation>
+    </message>
+    <message>
+        <source>横向排列，第三项禁用</source>
+        <translation>横に並べ、3 番目の選択肢を無効にしています</translation>
+    </message>
+    <message>
+        <source>入门版</source>
+        <translation>スターター</translation>
+    </message>
+    <message>
+        <source>专业版</source>
+        <translation>プロ</translation>
+    </message>
+    <message>
+        <source>企业版</source>
+        <translation>エンタープライズ</translation>
+    </message>
+</context>
+<context>
+    <name>RatingPage</name>
+    <message>
+        <source>评分</source>
+        <translation>評価</translation>
+    </message>
+    <message>
+        <source>ShadRating：星级评分，悬停时预览，点击设置评分，支持只读与自定义外观。</source>
+        <translation>ShadRating：星による評価で、ホバーでプレビューし、クリックで評価を設定します。読み取り専用とカスタム外観に対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>悬停预览，点击设置评分</source>
+        <translation>ホバーでプレビューし、クリックで評価を設定します</translation>
+    </message>
+    <message>
+        <source>当前评分：%1 / 5</source>
+        <translation>現在の評価：%1 / 5</translation>
+    </message>
+    <message>
+        <source>只读与禁用</source>
+        <translation>読み取り専用と無効</translation>
+    </message>
+    <message>
+        <source>只读时仅显示评分，禁用时整体半透明</source>
+        <translation>読み取り専用では評価の表示のみ、無効にすると全体が半透明になります</translation>
+    </message>
+    <message>
+        <source>数量与尺寸</source>
+        <translation>数とサイズ</translation>
+    </message>
+    <message>
+        <source>设置星星的数量、大小与间距</source>
+        <translation>星の数、大きさ、間隔を設定します</translation>
+    </message>
+    <message>
+        <source>自定义颜色</source>
+        <translation>カスタム色</translation>
+    </message>
+    <message>
+        <source>setActiveColor：修改选中星星的颜色</source>
+        <translation>setActiveColor：選択された星の色を変更します</translation>
+    </message>
+    <message>
+        <source>键盘与 RTL</source>
+        <translation>キーボードと RTL</translation>
+    </message>
+    <message>
+        <source>键盘调整评分，以及从右到左布局</source>
+        <translation>キーボードでの評価の調整と、右から左のレイアウト</translation>
+    </message>
+</context>
+<context>
+    <name>RtlPage</name>
+    <message>
+        <source>RTL 布局</source>
+        <translation>RTL レイアウト</translation>
+    </message>
+    <message>
+        <source>组件跟随 Qt 的 layoutDirection，从右到左时绘制、交互与弹出层位置全部镜像。</source>
+        <translation>コンポーネントは Qt の layoutDirection に従います。右から左のレイアウトでは、描画、操作、ポップアップの位置がすべて左右反転します。</translation>
+    </message>
+    <message>
+        <source>阿拉伯语登录卡片</source>
+        <translation>アラビア語のログインカード</translation>
+    </message>
+    <message>
+        <source>操作按钮位于左上角，输入框图标与按钮组镜像</source>
+        <translation>操作ボタンは左上にあり、入力欄のアイコンとボタングループは左右反転します</translation>
+    </message>
+    <message>
+        <source>面包屑</source>
+        <translation>パンくずリスト</translation>
+    </message>
+    <message>
+        <source>项从右向左排列，下拉菜单右对齐</source>
+        <translation>項目は右から左に並び、ドロップダウンメニューは右揃えになります</translation>
+    </message>
+    <message>
+        <source>按钮组</source>
+        <translation>ボタングループ</translation>
+    </message>
+    <message>
+        <source>从右向左排列，圆角与拼接边框随方向镜像</source>
+        <translation>右から左に並び、角丸と連結された枠線も向きに合わせて左右反転します</translation>
+    </message>
+    <message>
+        <source>浮层、提示与输入组</source>
+        <translation>ポップオーバー、ツールチップ、入力グループ</translation>
+    </message>
+    <message>
+        <source>浮层右对齐，提示左右互换，输入组附加区镜像</source>
+        <translation>ポップオーバーは右揃えになり、ツールチップは左右が入れ替わり、入力グループの付加領域は左右反転します</translation>
+    </message>
+    <message>
+        <source>常用组件</source>
+        <translation>よく使うコンポーネント</translation>
+    </message>
+    <message>
+        <source>复选框、开关、滑块等常用组件在 RTL 下的效果</source>
+        <translation>チェックボックス、スイッチ、スライダーなどのよく使うコンポーネントの RTL での表示</translation>
+    </message>
+    <message>
+        <source>代码块</source>
+        <translation>コードブロック</translation>
+    </message>
+    <message>
+        <source>标题靠右、复制按钮在左，代码保持从左到右</source>
+        <translation>タイトルは右、コピーボタンは左に配置され、コードは左から右のままです</translation>
+    </message>
+    <message>
+        <source>执行记录</source>
+        <translation>実行ログ</translation>
+    </message>
+    <message>
+        <source>图标在右、描述在左，箭头朝左，详情区缩进在右</source>
+        <translation>アイコンは右、説明は左に配置され、矢印は左を向き、詳細領域は右からインデントされます</translation>
+    </message>
+    <message>
+        <source>标签页</source>
+        <translation>タブ</translation>
+    </message>
+    <message>
+        <source>标签从右向左排列，纵向时标签栏位于右侧</source>
+        <translation>タブは右から左に並び、縦向きの場合はタブバーが右側に配置されます</translation>
+    </message>
+    <message>
+        <source>对话框</source>
+        <translation>ダイアログ</translation>
+    </message>
+    <message>
+        <source>跟随父组件方向，窗口按钮在左，标题与描述靠右</source>
+        <translation>親コンポーネントの向きに従い、ウィンドウボタンは左、タイトルと説明は右揃えになります</translation>
+    </message>
+    <message>
+        <source>独立窗口</source>
+        <translation>独立したウィンドウ</translation>
+    </message>
+    <message>
+        <source>标题栏镜像，窗口按钮在左，内容从右向左排列</source>
+        <translation>タイトルバーは左右反転し、ウィンドウボタンは左、コンテンツは右から左に並びます</translation>
+    </message>
+    <message>
+        <source>加载指示</source>
+        <translation>読み込みインジケーター</translation>
+    </message>
+    <message>
+        <source>Spinner 在右、金额在左，旋转方向不变</source>
+        <translation>スピナーは右、金額は左に配置され、回転方向は変わりません</translation>
+    </message>
+    <message>
+        <source>二维码</source>
+        <translation>QR コード</translation>
+    </message>
+    <message>
+        <source>二维码不镜像，位于右侧，说明文字从右向左</source>
+        <translation>QR コードは左右反転せず右側に配置され、説明文は右から左に流れます</translation>
+    </message>
+    <message>
+        <source>日期与时间选择</source>
+        <translation>日付と時刻の選択</translation>
+    </message>
+    <message>
+        <source>下拉箭头在左、浮层右对齐，日历从右向左排列</source>
+        <translation>ドロップダウンの矢印は左、ポップアップは右揃えになり、カレンダーは右から左に並びます</translation>
+    </message>
+    <message>
+        <source>侧栏</source>
+        <translation>サイドバー</translation>
+    </message>
+    <message>
+        <source>侧栏位于右侧，徽章、操作按钮与箭头在左侧</source>
+        <translation>サイドバーは右側に配置され、バッジ、操作ボタン、矢印は左側に配置されます</translation>
+    </message>
+</context>
+<context>
+    <name>ScreenshotPage</name>
+    <message>
+        <source>结果: 无</source>
+        <translation>結果：なし</translation>
+    </message>
+    <message>
+        <source>结果: 无法开始截图，当前平台不支持或没有屏幕录制权限</source>
+        <translation>結果：スクリーンショットを開始できません。このプラットフォームが非対応か、画面収録の権限がありません</translation>
+    </message>
+    <message>
+        <source>结果: 已截取 %1 × %2</source>
+        <translation>結果：%1 × %2 を取得しました</translation>
+    </message>
+    <message>
+        <source>结果: 已保存到 %1</source>
+        <translation>結果：%1 に保存しました</translation>
+    </message>
+    <message>
+        <source>结果: 保存失败, %1</source>
+        <translation>結果：保存に失敗しました、%1</translation>
+    </message>
+    <message>
+        <source>结果: 已取消</source>
+        <translation>結果：キャンセルしました</translation>
+    </message>
+    <message>
+        <source>截图</source>
+        <translation>スクリーンショット</translation>
+    </message>
+    <message>
+        <source>ShadScreenshot：框选屏幕区域或单击窗口截图，可添加标注，复制、保存或钉在屏幕上。</source>
+        <translation>ShadScreenshot：画面の領域をドラッグで選択するか、ウィンドウをクリックしてスクリーンショットを撮影します。注釈を追加し、コピー、保存、または画面にピン留めできます。</translation>
+    </message>
+    <message>
+        <source>结果: 已钉在屏幕上，拖动移动，滚轮缩放，双击或 Esc 关闭</source>
+        <translation>結果：画面にピン留めしました。ドラッグで移動、ホイールで拡大縮小、ダブルクリックまたは Esc で閉じます</translation>
+    </message>
+    <message>
+        <source>关闭全部贴图</source>
+        <translation>すべてのピン留めを閉じる</translation>
+    </message>
+    <message>
+        <source>未注册快捷键</source>
+        <translation>ショートカットは未登録です</translation>
+    </message>
+    <message>
+        <source>当前平台不支持全局快捷键</source>
+        <translation>このプラットフォームはグローバルショートカットに対応していません</translation>
+    </message>
+    <message>
+        <source>已注册 %1</source>
+        <translation>%1 を登録しました</translation>
+    </message>
+    <message>
+        <source>注册失败，%1 被占用或不支持</source>
+        <translation>登録に失敗しました。%1 は使用中か、非対応です</translation>
+    </message>
+    <message>
+        <source>全局快捷键</source>
+        <translation>グローバルショートカット</translation>
+    </message>
+    <message>
+        <source>示例程序默认注册 %1，在其他程序中也能开始截图</source>
+        <translation>このサンプルは既定で %1 を登録しており、他のアプリからでもスクリーンショットを開始できます</translation>
+    </message>
+    <message>
+        <source>点击后按下快捷键</source>
+        <translation>クリックしてショートカットキーを押してください</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>拖动框选或单击窗口，Enter 完成，Esc 取消</source>
+        <translation>ドラッグで範囲を選択するか、ウィンドウをクリックします。Enter で完了、Esc でキャンセルします</translation>
+    </message>
+    <message>
+        <source>截图包含本程序窗口</source>
+        <translation>このアプリのウィンドウを含める</translation>
+    </message>
+    <message>
+        <source>选区右上角显示钉住按钮</source>
+        <translation>選択範囲の右上にピン留めボタンを表示</translation>
+    </message>
+    <message>
+        <source>开始截图</source>
+        <translation>スクリーンショットを開始</translation>
+    </message>
+    <message>
+        <source>查看大图</source>
+        <translation>拡大表示</translation>
+    </message>
+    <message>
+        <source>清除图片</source>
+        <translation>画像をクリア</translation>
+    </message>
+</context>
+<context>
+    <name>SegmentedPage</name>
+    <message>
+        <source>分段控制器</source>
+        <translation>セグメントコントロール</translation>
+    </message>
+    <message>
+        <source>ShadSegmented：在多个互斥选项之间切换的分段控制器，选中块带滑动动画。</source>
+        <translation>ShadSegmented：互いに排他的な複数の選択肢を切り替えるセグメントコントロールで、選択中のブロックはスライドアニメーションで移動します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击或使用左右方向键切换选项</source>
+        <translation>クリックするか、左右の矢印キーで選択肢を切り替えます</translation>
+    </message>
+    <message>
+        <source>日</source>
+        <translation>日</translation>
+    </message>
+    <message>
+        <source>周</source>
+        <translation>週</translation>
+    </message>
+    <message>
+        <source>月</source>
+        <translation>月</translation>
+    </message>
+    <message>
+        <source>年</source>
+        <translation>年</translation>
+    </message>
+    <message>
+        <source>当前选择: %1</source>
+        <translation>選択中：%1</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>アイコン</translation>
+    </message>
+    <message>
+        <source>图标加文字，或仅图标并设置提示</source>
+        <translation>アイコンとテキスト、またはアイコンのみ（ツールチップを設定）</translation>
+    </message>
+    <message>
+        <source>列表</source>
+        <translation>リスト</translation>
+    </message>
+    <message>
+        <source>网格</source>
+        <translation>グリッド</translation>
+    </message>
+    <message>
+        <source>看板</source>
+        <translation>ボード</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Small、Default、Large 三种尺寸</source>
+        <translation>Small、Default、Large の 3 種類のサイズ</translation>
+    </message>
+    <message>
+        <source>撑满宽度与禁用项</source>
+        <translation>幅いっぱいの表示と無効な項目</translation>
+    </message>
+    <message>
+        <source>setBlock(true) 各项等宽撑满；可禁用单项或整体</source>
+        <translation>setBlock(true) で各項目が同じ幅で全体に広がります。個別の項目または全体を無効にできます</translation>
+    </message>
+    <message>
+        <source>概览</source>
+        <translation>概要</translation>
+    </message>
+    <message>
+        <source>分析</source>
+        <translation>分析</translation>
+    </message>
+    <message>
+        <source>报告</source>
+        <translation>レポート</translation>
+    </message>
+</context>
+<context>
+    <name>SeparatorPage</name>
+    <message>
+        <source>分隔线</source>
+        <translation>区切り線</translation>
+    </message>
+    <message>
+        <source>ShadSeparator / ShadResizable：静态分隔线，以及可拖动调整相邻面板大小的分隔线。</source>
+        <translation>ShadSeparator / ShadResizable：固定の区切り線と、ドラッグして隣り合うパネルのサイズを変更できる区切り線です。</translation>
+    </message>
+    <message>
+        <source>静态分隔线</source>
+        <translation>固定の区切り線</translation>
+    </message>
+    <message>
+        <source>水平与垂直两种分隔线</source>
+        <translation>水平と垂直の 2 種類の区切り線</translation>
+    </message>
+    <message>
+        <source>基础组件</source>
+        <translation>基本コンポーネント</translation>
+    </message>
+    <message>
+        <source>一个开源的 UI 组件库。</source>
+        <translation>オープンソースの UI コンポーネントライブラリです。</translation>
+    </message>
+    <message>
+        <source>博客</source>
+        <translation>ブログ</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>ドキュメント</translation>
+    </message>
+    <message>
+        <source>源码</source>
+        <translation>ソースコード</translation>
+    </message>
+    <message>
+        <source>可拖动分隔线</source>
+        <translation>サイズ変更可能な区切り線</translation>
+    </message>
+    <message>
+        <source>拖动分隔线调整面板大小，支持嵌套面板组</source>
+        <translation>区切り線をドラッグしてパネルのサイズを変更します。パネルグループの入れ子にも対応しています</translation>
+    </message>
+    <message>
+        <source>二</source>
+        <translation>二</translation>
+    </message>
+    <message>
+        <source>三</source>
+        <translation>三</translation>
+    </message>
+    <message>
+        <source>一</source>
+        <translation>一</translation>
+    </message>
+    <message>
+        <source>带抓手</source>
+        <translation>グリップ付き</translation>
+    </message>
+    <message>
+        <source>setGripVisible(true)：在分隔线中间显示抓手</source>
+        <translation>setGripVisible(true)：区切り線の中央にグリップを表示します</translation>
+    </message>
+    <message>
+        <source>侧边栏</source>
+        <translation>サイドバー</translation>
+    </message>
+    <message>
+        <source>内容</source>
+        <translation>コンテンツ</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsDialog</name>
+    <message>
+        <source>右侧</source>
+        <translation>右</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <source>窗口按钮位置</source>
+        <translation>ウィンドウボタンの位置</translation>
+    </message>
+    <message>
+        <source>左上</source>
+        <translation>左上</translation>
+    </message>
+    <message>
+        <source>顶部居中</source>
+        <translation>上部中央</translation>
+    </message>
+    <message>
+        <source>右上</source>
+        <translation>右上</translation>
+    </message>
+    <message>
+        <source>左下</source>
+        <translation>左下</translation>
+    </message>
+    <message>
+        <source>底部居中</source>
+        <translation>下部中央</translation>
+    </message>
+    <message>
+        <source>右下</source>
+        <translation>右下</translation>
+    </message>
+    <message>
+        <source>无</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>壁纸模糊</source>
+        <translation>壁紙ぼかし</translation>
+    </message>
+    <message>
+        <source>背景模糊</source>
+        <translation>背景ぼかし</translation>
+    </message>
+    <message>
+        <source>亚克力</source>
+        <translation>アクリル</translation>
+    </message>
+    <message>
+        <source>云母</source>
+        <translation>マイカ</translation>
+    </message>
+    <message>
+        <source>云母 Alt</source>
+        <translation>マイカ Alt</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>修改后立即生效。</source>
+        <translation>変更は直ちに反映されます。</translation>
+    </message>
+    <message>
+        <source>浅色</source>
+        <translation>ライト</translation>
+    </message>
+    <message>
+        <source>深色</source>
+        <translation>ダーク</translation>
+    </message>
+    <message>
+        <source>跟随系统</source>
+        <translation>システムに合わせる</translation>
+    </message>
+    <message>
+        <source>语言</source>
+        <translation>言語</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>テーマ</translation>
+    </message>
+    <message>
+        <source>基色</source>
+        <translation>ベースカラー</translation>
+    </message>
+    <message>
+        <source>圆角</source>
+        <translation>角丸</translation>
+    </message>
+    <message>
+        <source>特效</source>
+        <translation>エフェクト</translation>
+    </message>
+    <message>
+        <source>底色不透明度</source>
+        <translation>背景の不透明度</translation>
+    </message>
+    <message>
+        <source>模糊程度</source>
+        <translation>ぼかしの強さ</translation>
+    </message>
+    <message>
+        <source>仅模糊桌面</source>
+        <translation>デスクトップのみぼかす</translation>
+    </message>
+    <message>
+        <source>只模糊壁纸，不含其他窗口；需要录屏权限，未授权时使用系统模糊</source>
+        <translation>壁紙のみをぼかし、他のウィンドウは含みません。画面収録の権限が必要で、権限がない場合はシステムのぼかしを使用します</translation>
+    </message>
+    <message>
+        <source>组件不透明度</source>
+        <translation>コンポーネントの不透明度</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>アイコン</translation>
+    </message>
+    <message>
+        <source>完全隐藏</source>
+        <translation>完全に隠す</translation>
+    </message>
+    <message>
+        <source>从右到左布局</source>
+        <translation>右から左のレイアウト</translation>
+    </message>
+    <message>
+        <source>侧栏收起方式</source>
+        <translation>サイドバーの折りたたみ方法</translation>
+    </message>
+    <message>
+        <source>只展开一个分类</source>
+        <translation>カテゴリを 1 つだけ展開</translation>
+    </message>
+    <message>
+        <source>提示位置已更改</source>
+        <translation>トーストの位置を変更しました</translation>
+    </message>
+    <message>
+        <source>之后的提示显示在这里</source>
+        <translation>以降のトーストはここに表示されます</translation>
+    </message>
+    <message>
+        <source>提示位置</source>
+        <translation>トーストの位置</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>オフ</translation>
+    </message>
+    <message>
+        <source>淡入淡出</source>
+        <translation>フェード</translation>
+    </message>
+    <message>
+        <source>滑入</source>
+        <translation>スライド</translation>
+    </message>
+    <message>
+        <source>页面切换</source>
+        <translation>ページ切り替え</translation>
+    </message>
+    <message>
+        <source>切换时长</source>
+        <translation>切り替え時間</translation>
+    </message>
+    <message>
+        <source>侧栏指示条</source>
+        <translation>サイドバーのインジケーター</translation>
+    </message>
+    <message>
+        <source>外观</source>
+        <translation>外観</translation>
+    </message>
+    <message>
+        <source>动画</source>
+        <translation>アニメーション</translation>
+    </message>
+    <message>
+        <source>布局</source>
+        <translation>レイアウト</translation>
+    </message>
+    <message>
+        <source>窗口特效</source>
+        <translation>ウィンドウエフェクト</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>完成</source>
+        <translation>完了</translation>
+    </message>
+</context>
+<context>
+    <name>SidebarPage</name>
+    <message>
+        <source>企业版</source>
+        <translation>エンタープライズ</translation>
+    </message>
+    <message>
+        <source>平台</source>
+        <translation>プラットフォーム</translation>
+    </message>
+    <message>
+        <source>演练场</source>
+        <translation>プレイグラウンド</translation>
+    </message>
+    <message>
+        <source>历史记录</source>
+        <translation>履歴</translation>
+    </message>
+    <message>
+        <source>已收藏</source>
+        <translation>お気に入り</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>模型</source>
+        <translation>モデル</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>ドキュメント</translation>
+    </message>
+    <message>
+        <source>简介</source>
+        <translation>概要</translation>
+    </message>
+    <message>
+        <source>快速开始</source>
+        <translation>クイックスタート</translation>
+    </message>
+    <message>
+        <source>教程</source>
+        <translation>チュートリアル</translation>
+    </message>
+    <message>
+        <source>更新日志</source>
+        <translation>変更履歴</translation>
+    </message>
+    <message>
+        <source>通用</source>
+        <translation>一般</translation>
+    </message>
+    <message>
+        <source>团队</source>
+        <translation>チーム</translation>
+    </message>
+    <message>
+        <source>账单</source>
+        <translation>請求</translation>
+    </message>
+    <message>
+        <source>用量</source>
+        <translation>使用量</translation>
+    </message>
+    <message>
+        <source>项目</source>
+        <translation>プロジェクト</translation>
+    </message>
+    <message>
+        <source>设计工程</source>
+        <translation>デザインエンジニアリング</translation>
+    </message>
+    <message>
+        <source>销售与市场</source>
+        <translation>営業とマーケティング</translation>
+    </message>
+    <message>
+        <source>差旅</source>
+        <translation>出張</translation>
+    </message>
+    <message>
+        <source>帮助</source>
+        <translation>ヘルプ</translation>
+    </message>
+    <message>
+        <source>支持</source>
+        <translation>サポート</translation>
+    </message>
+    <message>
+        <source>反馈</source>
+        <translation>フィードバック</translation>
+    </message>
+    <message>
+        <source>切换侧栏（Ctrl+B / Cmd+B）</source>
+        <translation>サイドバーを切り替え（Ctrl+B / Cmd+B）</translation>
+    </message>
+    <message>
+        <source>构建你的应用 / 历史记录</source>
+        <translation>アプリを構築する / 履歴</translation>
+    </message>
+    <message>
+        <source>侧栏</source>
+        <translation>サイドバー</translation>
+    </message>
+    <message>
+        <source>ShadSidebar / ShadSidebarLayout：可组合、可收起的侧栏，包含页头、分组、菜单与页脚。</source>
+        <translation>ShadSidebar / ShadSidebarLayout：組み合わせ可能で折りたためるサイドバーです。ヘッダー、グループ、メニュー、フッターを含みます。</translation>
+    </message>
+    <message>
+        <source>迷你应用</source>
+        <translation>ミニアプリ</translation>
+    </message>
+    <message>
+        <source>可切换侧栏的变体、收起方式与位置</source>
+        <translation>サイドバーのバリエーション、折りたたみ方法、位置を切り替えられます</translation>
+    </message>
+    <message>
+        <source>起始侧</source>
+        <translation>開始側</translation>
+    </message>
+    <message>
+        <source>结束侧</source>
+        <translation>終了側</translation>
+    </message>
+    <message>
+        <source>变体</source>
+        <translation>バリエーション</translation>
+    </message>
+    <message>
+        <source>收起方式</source>
+        <translation>折りたたみ方法</translation>
+    </message>
+    <message>
+        <source>位置</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>展开</source>
+        <translation>展開</translation>
+    </message>
+    <message>
+        <source>收起</source>
+        <translation>折りたたみ</translation>
+    </message>
+    <message>
+        <source>构建你的应用 / %1</source>
+        <translation>アプリを構築する / %1</translation>
+    </message>
+</context>
+<context>
+    <name>SignaturePadPage</name>
+    <message>
+        <source>签名板</source>
+        <translation>署名パッド</translation>
+    </message>
+    <message>
+        <source>ShadSignaturePad：手写签名板，线宽随速度变化，支持数位板压感、撤销、清空与导出图片。</source>
+        <translation>ShadSignaturePad：手書きの署名パッドで、線の太さは描く速度に応じて変化します。ペンタブレットの筆圧、元に戻す、クリア、画像の書き出しに対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>用鼠标或数位板签名，聚焦后 Ctrl+Z 撤销，Delete 清空</source>
+        <translation>マウスまたはペンタブレットで署名します。フォーカス中は Ctrl+Z で元に戻し、Delete でクリアします</translation>
+    </message>
+    <message>
+        <source>撤销</source>
+        <translation>元に戻す</translation>
+    </message>
+    <message>
+        <source>清空</source>
+        <translation>クリア</translation>
+    </message>
+    <message>
+        <source>导出</source>
+        <translation>書き出し</translation>
+    </message>
+    <message>
+        <source>笔迹样式</source>
+        <translation>筆跡のスタイル</translation>
+    </message>
+    <message>
+        <source>切换笔迹颜色，拖动滑块调整最大线宽</source>
+        <translation>筆跡の色を切り替え、スライダーをドラッグして最大の線幅を調整します</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>標準</translation>
+    </message>
+    <message>
+        <source>蓝色</source>
+        <translation>青</translation>
+    </message>
+    <message>
+        <source>红色</source>
+        <translation>赤</translation>
+    </message>
+    <message>
+        <source>最大线宽: %1</source>
+        <translation>最大線幅：%1</translation>
+    </message>
+    <message>
+        <source>只读与禁用</source>
+        <translation>読み取り専用と無効</translation>
+    </message>
+    <message>
+        <source>只读和禁用的签名板都不响应输入</source>
+        <translation>読み取り専用および無効の署名パッドは入力に反応しません</translation>
+    </message>
+    <message>
+        <source>只读</source>
+        <translation>読み取り専用</translation>
+    </message>
+</context>
+<context>
+    <name>SpinBoxPage</name>
+    <message>
+        <source>数字输入框</source>
+        <translation>スピンボックス</translation>
+    </message>
+    <message>
+        <source>ShadSpinBox / ShadDoubleSpinBox：外观与输入框一致的数字输入框，提供四种按钮布局。</source>
+        <translation>ShadSpinBox / ShadDoubleSpinBox：入力欄と同じ外観の数値入力欄で、4 種類のボタンレイアウトを提供します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>取值范围 0 到 100，右键打开操作菜单</source>
+        <translation>値の範囲は 0 から 100 で、右クリックでコンテキストメニューを開きます</translation>
+    </message>
+    <message>
+        <source>数量</source>
+        <translation>数量</translation>
+    </message>
+    <message>
+        <source>按钮布局</source>
+        <translation>ボタンのレイアウト</translation>
+    </message>
+    <message>
+        <source>setButtonLayout：四种增减按钮布局</source>
+        <translation>setButtonLayout：増減ボタンの 4 種類のレイアウト</translation>
+    </message>
+    <message>
+        <source>小数</source>
+        <translation>小数</translation>
+    </message>
+    <message>
+        <source>ShadDoubleSpinBox：设置小数位数与步长</source>
+        <translation>ShadDoubleSpinBox：小数点以下の桁数とステップを設定します</translation>
+    </message>
+    <message>
+        <source>体重（千克）</source>
+        <translation>体重（kg）</translation>
+    </message>
+    <message>
+        <source>比例</source>
+        <translation>比率</translation>
+    </message>
+    <message>
+        <source>前后缀</source>
+        <translation>接頭辞と接尾辞</translation>
+    </message>
+    <message>
+        <source>数值前后显示固定文字，最小值时显示替代文字</source>
+        <translation>値の前後に固定のテキストを表示し、最小値のときは代替テキストを表示します</translation>
+    </message>
+    <message>
+        <source>不限</source>
+        <translation>無制限</translation>
+    </message>
+    <message>
+        <source> 次</source>
+        <translation>回</translation>
+    </message>
+    <message>
+        <source>价格</source>
+        <translation>価格</translation>
+    </message>
+    <message>
+        <source>音量</source>
+        <translation>音量</translation>
+    </message>
+    <message>
+        <source>重试次数</source>
+        <translation>再試行回数</translation>
+    </message>
+    <message>
+        <source>禁用与错误态</source>
+        <translation>無効状態とエラー状態</translation>
+    </message>
+    <message>
+        <source>禁用与错误态，到达边界时对应按钮半透明</source>
+        <translation>無効状態とエラー状態です。上限または下限に達すると、対応するボタンが半透明になります</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>错误（已达最大值）</source>
+        <translation>エラー（最大値に到達）</translation>
+    </message>
+    <message>
+        <source>数值变化</source>
+        <translation>値の変化</translation>
+    </message>
+    <message>
+        <source>valueChanged：数值变化时更新下方文字</source>
+        <translation>valueChanged：値が変化したときに下のテキストを更新します</translation>
+    </message>
+    <message>
+        <source> 个月</source>
+        <translation>か月</translation>
+    </message>
+    <message>
+        <source>订阅时长：%1 个月，合计 %2 元</source>
+        <translation>購読期間：%1 か月、合計 %2 元</translation>
+    </message>
+    <message>
+        <source>订阅时长</source>
+        <translation>購読期間</translation>
+    </message>
+</context>
+<context>
+    <name>SpinnerPage</name>
+    <message>
+        <source>加载指示</source>
+        <translation>スピナー</translation>
+    </message>
+    <message>
+        <source>ShadSpinner：表示正在加载的旋转图标，按钮、徽章与输入组中同样可用。</source>
+        <translation>ShadSpinner：読み込み中を示す回転アイコンです。ボタン、バッジ、入力グループの中でも使用できます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>匀速旋转，隐藏时暂停，显示后继续</source>
+        <translation>一定の速度で回転し、非表示の間は一時停止して、表示されると再開します</translation>
+    </message>
+    <message>
+        <source>正在处理付款...</source>
+        <translation>お支払いを処理しています...</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>setSpinnerSize：设置不同的图标尺寸</source>
+        <translation>setSpinnerSize：アイコンのサイズを変更します</translation>
+    </message>
+    <message>
+        <source>自定义</source>
+        <translation>カスタマイズ</translation>
+    </message>
+    <message>
+        <source>更换图标与颜色，或停止旋转</source>
+        <translation>アイコンや色を変更したり、回転を止めたりできます</translation>
+    </message>
+    <message>
+        <source>暂停</source>
+        <translation>一時停止</translation>
+    </message>
+    <message>
+        <source>继续</source>
+        <translation>再開</translation>
+    </message>
+    <message>
+        <source>按钮</source>
+        <translation>ボタン</translation>
+    </message>
+    <message>
+        <source>setLoading：在按钮图标位置显示加载动画</source>
+        <translation>setLoading：ボタンのアイコン位置に読み込みアニメーションを表示します</translation>
+    </message>
+    <message>
+        <source>加载中...</source>
+        <translation>読み込み中...</translation>
+    </message>
+    <message>
+        <source>请稍候</source>
+        <translation>しばらくお待ちください</translation>
+    </message>
+    <message>
+        <source>处理中</source>
+        <translation>処理中</translation>
+    </message>
+    <message>
+        <source>徽章</source>
+        <translation>バッジ</translation>
+    </message>
+    <message>
+        <source>徽章中的加载图标在可见时自动旋转</source>
+        <translation>バッジ内の読み込みアイコンは、表示されている間は自動的に回転します</translation>
+    </message>
+    <message>
+        <source>同步中</source>
+        <translation>同期中</translation>
+    </message>
+    <message>
+        <source>更新中</source>
+        <translation>更新中</translation>
+    </message>
+    <message>
+        <source>输入组</source>
+        <translation>入力グループ</translation>
+    </message>
+    <message>
+        <source>把 Spinner 放进输入组的附加区</source>
+        <translation>入力グループの付加領域にスピナーを配置します</translation>
+    </message>
+    <message>
+        <source>发送消息...</source>
+        <translation>メッセージを送信...</translation>
+    </message>
+    <message>
+        <source>正在验证...</source>
+        <translation>検証しています...</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>空状态</source>
+        <translation>空の状態</translation>
+    </message>
+    <message>
+        <source>用现有组件组合出加载中的空状态</source>
+        <translation>既存のコンポーネントを組み合わせて、読み込み中の空状態を作ります</translation>
+    </message>
+    <message>
+        <source>正在处理你的请求</source>
+        <translation>リクエストを処理しています</translation>
+    </message>
+    <message>
+        <source>请稍候，我们正在处理你的请求，请不要刷新页面。</source>
+        <translation>リクエストを処理していますので、しばらくお待ちください。ページを更新しないでください。</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>キャンセル</translation>
+    </message>
+</context>
+<context>
+    <name>StatisticPage</name>
+    <message>
+        <source>统计数值</source>
+        <translation>統計値</translation>
+    </message>
+    <message>
+        <source>ShadStatistic：展示关键数值，支持前后缀、趋势、数值滚动动画与倒计时。</source>
+        <translation>ShadStatistic：重要な数値を表示します。接頭辞と接尾辞、トレンド、数値のロールアニメーション、カウントダウンに対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>数值变化时从当前值滚动到新值</source>
+        <translation>値が変化すると、現在の値から新しい値までロールして切り替わります</translation>
+    </message>
+    <message>
+        <source>活跃用户</source>
+        <translation>アクティブユーザー</translation>
+    </message>
+    <message>
+        <source>账户余额</source>
+        <translation>口座残高</translation>
+    </message>
+    <message>
+        <source>转化率</source>
+        <translation>コンバージョン率</translation>
+    </message>
+    <message>
+        <source>随机刷新</source>
+        <translation>ランダムに更新</translation>
+    </message>
+    <message>
+        <source>趋势</source>
+        <translation>トレンド</translation>
+    </message>
+    <message>
+        <source>上涨显示绿色向上箭头，下跌显示红色向下箭头</source>
+        <translation>上昇は緑の上向き矢印、下降は赤の下向き矢印で表示されます</translation>
+    </message>
+    <message>
+        <source>环比增长</source>
+        <translation>前期比の増加</translation>
+    </message>
+    <message>
+        <source>环比下降</source>
+        <translation>前期比の減少</translation>
+    </message>
+    <message>
+        <source>倒计时</source>
+        <translation>カウントダウン</translation>
+    </message>
+    <message>
+        <source>setCountdown：每秒刷新，到点后显示全 0 并发出 finished 信号</source>
+        <translation>setCountdown：1 秒ごとに更新され、時間になるとすべて 0 を表示して finished シグナルを発行します</translation>
+    </message>
+    <message>
+        <source>距离活动开始</source>
+        <translation>イベント開始まで</translation>
+    </message>
+    <message>
+        <source>距离活动结束</source>
+        <translation>イベント終了まで</translation>
+    </message>
+    <message>
+        <source>D 天 HH:mm:ss</source>
+        <translation>D日 HH:mm:ss</translation>
+    </message>
+    <message>
+        <source>验证码有效期</source>
+        <translation>認証コードの有効期限</translation>
+    </message>
+    <message>
+        <source>已结束</source>
+        <translation>終了しました</translation>
+    </message>
+    <message>
+        <source>重新开始</source>
+        <translation>最初からやり直す</translation>
+    </message>
+</context>
+<context>
+    <name>StatusBarPage</name>
+    <message>
+        <source>状态栏</source>
+        <translation>ステータスバー</translation>
+    </message>
+    <message>
+        <source>ShadStatusBar：窗口底部的状态信息。</source>
+        <translation>ShadStatusBar：ウィンドウ下部に表示される状態情報です。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>开始侧显示状态，结束侧显示常驻信息</source>
+        <translation>開始側に状態、終了側に常時表示の情報を表示します</translation>
+    </message>
+    <message>
+        <source>就绪</source>
+        <translation>準備完了</translation>
+    </message>
+    <message>
+        <source>第 %1 行，第 %2 列</source>
+        <translation>%1 行、%2 列</translation>
+    </message>
+    <message>
+        <source>已连接</source>
+        <translation>接続済み</translation>
+    </message>
+    <message>
+        <source>显示分隔线</source>
+        <translation>区切り線を表示</translation>
+    </message>
+    <message>
+        <source>临时消息</source>
+        <translation>一時メッセージ</translation>
+    </message>
+    <message>
+        <source>消息显示期间隐藏开始侧内容</source>
+        <translation>メッセージの表示中は、開始側の項目が非表示になります</translation>
+    </message>
+    <message>
+        <source>共 %1 个文件</source>
+        <translation>%1 個のファイル</translation>
+    </message>
+    <message>
+        <source>显示 3 秒</source>
+        <translation>3 秒間表示</translation>
+    </message>
+    <message>
+        <source>一直显示</source>
+        <translation>表示し続ける</translation>
+    </message>
+    <message>
+        <source>清除</source>
+        <translation>クリア</translation>
+    </message>
+    <message>
+        <source>已保存</source>
+        <translation>保存しました</translation>
+    </message>
+    <message>
+        <source>正在同步…</source>
+        <translation>同期しています…</translation>
+    </message>
+    <message>
+        <source>进度</source>
+        <translation>進捗</translation>
+    </message>
+    <message>
+        <source>结束侧放置进度与加载状态</source>
+        <translation>終了側に進捗と読み込み状態を配置します</translation>
+    </message>
+    <message>
+        <source>正在索引…</source>
+        <translation>インデックスを作成しています…</translation>
+    </message>
+</context>
+<context>
+    <name>SwitchPage</name>
+    <message>
+        <source>开关</source>
+        <translation>スイッチ</translation>
+    </message>
+    <message>
+        <source>ShadSwitch：在打开与关闭之间切换的开关，滑块带过渡动画。</source>
+        <translation>ShadSwitch：オンとオフを切り替えるスイッチで、つまみにトランジションアニメーションが付きます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>右侧文字可选，点击文字同样可以切换</source>
+        <translation>右側のテキストは省略可能で、テキストをクリックしても切り替えられます</translation>
+    </message>
+    <message>
+        <source>飞行模式</source>
+        <translation>機内モード</translation>
+    </message>
+    <message>
+        <source>当前状态: 关闭</source>
+        <translation>現在の状態：オフ</translation>
+    </message>
+    <message>
+        <source>当前状态: 打开</source>
+        <translation>現在の状態：オン</translation>
+    </message>
+    <message>
+        <source>无线网络</source>
+        <translation>Wi-Fi</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>禁用后整体半透明</source>
+        <translation>無効にするとスイッチ全体が半透明になります</translation>
+    </message>
+    <message>
+        <source>禁用且打开</source>
+        <translation>無効かつオン</translation>
+    </message>
+</context>
+<context>
+    <name>TabViewPage</name>
+    <message>
+        <source>标签视图</source>
+        <translation>タブビュー</translation>
+    </message>
+    <message>
+        <source>ShadTabView：多标签视图，每个标签对应一个页面。</source>
+        <translation>ShadTabView：複数のタブを持つビューで、各タブがそれぞれ 1 つのページに対応します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>新建、关闭标签，拖动调整顺序</source>
+        <translation>タブの作成と閉じる操作ができ、ドラッグで順序を変更できます</translation>
+    </message>
+    <message>
+        <source>拆分与合并</source>
+        <translation>分離と結合</translation>
+    </message>
+    <message>
+        <source>setDragGroup：拖出标签栏拆分为新窗口，拖到同组标签栏上合并</source>
+        <translation>setDragGroup：タブをタブバーの外にドラッグすると新しいウィンドウに分離され、同じグループのタブバーにドロップすると結合されます</translation>
+    </message>
+    <message>
+        <source>单个标签属性</source>
+        <translation>タブごとのプロパティ</translation>
+    </message>
+    <message>
+        <source>setTabFlags：首页不可关闭、不可拖动，归档禁用</source>
+        <translation>setTabFlags：ホームは閉じることも移動することもできず、アーカイブは無効です</translation>
+    </message>
+    <message>
+        <source>首页</source>
+        <translation>ホーム</translation>
+    </message>
+    <message>
+        <source>不可关闭，不可拖动。</source>
+        <translation>閉じることも移動することもできません。</translation>
+    </message>
+    <message>
+        <source>归档</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>禁用的标签不能选中。</source>
+        <translation>無効なタブは選択できません。</translation>
+    </message>
+    <message>
+        <source>项目根目录 / README.md</source>
+        <translation>プロジェクトのルート / README.md</translation>
+    </message>
+    <message>
+        <source>大量标签</source>
+        <translation>大量のタブ</translation>
+    </message>
+    <message>
+        <source>放不下时用滚轮横向滚动</source>
+        <translation>収まらない場合は、マウスホイールで横方向にスクロールできます</translation>
+    </message>
+    <message>
+        <source>标签页 %1</source>
+        <translation>タブ %1</translation>
+    </message>
+    <message>
+        <source>第 %1 个页面。</source>
+        <translation>%1 番目のページです。</translation>
+    </message>
+    <message>
+        <source>固定标签</source>
+        <translation>固定タブ</translation>
+    </message>
+    <message>
+        <source>隐藏关闭与新建按钮</source>
+        <translation>閉じるボタンと新規タブボタンを非表示にします</translation>
+    </message>
+    <message>
+        <source>标题栏中的标签</source>
+        <translation>タイトルバー内のタブ</translation>
+    </message>
+    <message>
+        <source>把标签栏放进窗口标题栏</source>
+        <translation>タブバーをウィンドウのタイトルバーに配置します</translation>
+    </message>
+    <message>
+        <source>打开窗口</source>
+        <translation>ウィンドウを開く</translation>
+    </message>
+    <message>
+        <source>项目说明：构建方式、组件列表与许可证。</source>
+        <translation>プロジェクトの説明：ビルド方法、コンポーネント一覧、ライセンス。</translation>
+    </message>
+    <message>
+        <source>示例程序的主窗口，左侧侧栏按分类导航到各个演示页。</source>
+        <translation>サンプルアプリのメインウィンドウです。左側のサイドバーから、カテゴリごとに各デモページへ移動できます。</translation>
+    </message>
+    <message>
+        <source>各平台的构建预设，使用 Ninja 生成器。</source>
+        <translation>各プラットフォーム向けのビルドプリセットで、Ninja ジェネレーターを使用します。</translation>
+    </message>
+    <message>
+        <source>新标签页 %1</source>
+        <translation>新しいタブ %1</translation>
+    </message>
+    <message>
+        <source>新建的空白页面。</source>
+        <translation>新しく作成された空白のページです。</translation>
+    </message>
+</context>
+<context>
+    <name>TablePage</name>
+    <message>
+        <source>表格</source>
+        <translation>テーブル</translation>
+    </message>
+    <message>
+        <source>ShadTable：接受任意 QAbstractItemModel 的表格组件，对齐与字重由模型决定。</source>
+        <translation>ShadTable：任意の QAbstractItemModel を受け取るテーブルコンポーネントで、配置とフォントの太さはモデルによって決まります。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>拖动表头边缘调整列宽，双击恢复；带表尾合计</source>
+        <translation>ヘッダーの端をドラッグして列幅を調整し、ダブルクリックで元に戻します。フッターに合計を表示します</translation>
+    </message>
+    <message>
+        <source>行操作</source>
+        <translation>行の操作</translation>
+    </message>
+    <message>
+        <source>setActionColumn：指定行操作列，点击可弹出菜单</source>
+        <translation>setActionColumn：行の操作列を指定します。クリックするとメニューが開きます</translation>
+    </message>
+    <message>
+        <source>编辑</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>最近操作: 无</source>
+        <translation>最後の操作：なし</translation>
+    </message>
+    <message>
+        <source>最近操作: %1 %2</source>
+        <translation>最後の操作：%1 %2</translation>
+    </message>
+    <message>
+        <source>图片列</source>
+        <translation>画像列</translation>
+    </message>
+    <message>
+        <source>setColumnImage：每列单独设置图片尺寸与形状</source>
+        <translation>setColumnImage：列ごとに画像のサイズと形状を設定します</translation>
+    </message>
+    <message>
+        <source>商品</source>
+        <translation>商品</translation>
+    </message>
+    <message>
+        <source>卖家</source>
+        <translation>販売者</translation>
+    </message>
+    <message>
+        <source>库存</source>
+        <translation>在庫</translation>
+    </message>
+    <message>
+        <source>价格</source>
+        <translation>価格</translation>
+    </message>
+    <message>
+        <source>无线鼠标</source>
+        <translation>ワイヤレスマウス</translation>
+    </message>
+    <message>
+        <source>数码旗舰店</source>
+        <translation>デジタル旗艦店</translation>
+    </message>
+    <message>
+        <source>机械键盘</source>
+        <translation>メカニカルキーボード</translation>
+    </message>
+    <message>
+        <source>外设专营店</source>
+        <translation>周辺機器専門店</translation>
+    </message>
+    <message>
+        <source>USB-C 扩展坞</source>
+        <translation>USB-C ドック</translation>
+    </message>
+</context>
+<context>
+    <name>TabsPage</name>
+    <message>
+        <source>标签页</source>
+        <translation>タブ</translation>
+    </message>
+    <message>
+        <source>ShadTabs：标签页组件，一组分层的内容每次只显示其中一个。</source>
+        <translation>ShadTabs：タブコンポーネントで、階層化されたコンテンツのうち一度に 1 つだけを表示します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>添加标签与页面，只显示当前标签的页面</source>
+        <translation>タブとパネルを追加し、現在のタブのパネルだけを表示します</translation>
+    </message>
+    <message>
+        <source>概览</source>
+        <translation>概要</translation>
+    </message>
+    <message>
+        <source>查看关键指标与最近的项目动态，跟踪所有进行中项目的进度。</source>
+        <translation>主要な指標と最近のプロジェクトの動きを確認し、進行中のすべてのプロジェクトの進捗を追跡します。</translation>
+    </message>
+    <message>
+        <source>你有 12 个进行中的项目与 3 个待处理的任务。</source>
+        <translation>進行中のプロジェクトが 12 件、未処理のタスクが 3 件あります。</translation>
+    </message>
+    <message>
+        <source>分析</source>
+        <translation>分析</translation>
+    </message>
+    <message>
+        <source>跟踪性能与用户参与度，观察趋势并发现增长机会。</source>
+        <translation>パフォーマンスとユーザーエンゲージメントを追跡し、トレンドを把握して成長の機会を見つけます。</translation>
+    </message>
+    <message>
+        <source>页面浏览量比上月增长 25%。</source>
+        <translation>ページビューは先月より 25% 増加しました。</translation>
+    </message>
+    <message>
+        <source>报告</source>
+        <translation>レポート</translation>
+    </message>
+    <message>
+        <source>生成并下载详细报告，导出多种格式的数据用于分析。</source>
+        <translation>詳細なレポートを生成してダウンロードし、分析用にさまざまな形式でデータを書き出します。</translation>
+    </message>
+    <message>
+        <source>有 5 份报告已生成，可以导出。</source>
+        <translation>生成済みのレポートが 5 件あり、書き出せます。</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>管理账户偏好与选项，按需定制使用体验。</source>
+        <translation>アカウントの設定とオプションを管理し、使い方に合わせてカスタマイズします。</translation>
+    </message>
+    <message>
+        <source>配置通知、安全与主题。</source>
+        <translation>通知、セキュリティ、テーマを設定します。</translation>
+    </message>
+    <message>
+        <source>线条样式</source>
+        <translation>ライン</translation>
+    </message>
+    <message>
+        <source>setVariant(Line)：背景透明，选中项显示指示线</source>
+        <translation>setVariant(Line)：背景は透明で、選択中のタブにインジケーターラインが表示されます</translation>
+    </message>
+    <message>
+        <source>账户</source>
+        <translation>アカウント</translation>
+    </message>
+    <message>
+        <source>密码</source>
+        <translation>パスワード</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>纵向</source>
+        <translation>縦向き</translation>
+    </message>
+    <message>
+        <source>setOrientation(Qt::Vertical)：标签纵向排列在起始侧</source>
+        <translation>setOrientation(Qt::Vertical)：タブを開始側に縦に並べます</translation>
+    </message>
+    <message>
+        <source>修改账户信息，保存后生效。</source>
+        <translation>アカウント情報を変更します。保存すると反映されます。</translation>
+    </message>
+    <message>
+        <source>用户名、头像与个人简介。</source>
+        <translation>ユーザー名、アバター、自己紹介。</translation>
+    </message>
+    <message>
+        <source>修改密码，保存后需要重新登录。</source>
+        <translation>パスワードを変更します。保存後は再度ログインする必要があります。</translation>
+    </message>
+    <message>
+        <source>建议使用 12 位以上的密码。</source>
+        <translation>12 文字以上のパスワードをおすすめします。</translation>
+    </message>
+    <message>
+        <source>选择接收通知的方式。</source>
+        <translation>通知の受け取り方法を選択します。</translation>
+    </message>
+    <message>
+        <source>邮件、推送与站内消息。</source>
+        <translation>メール、プッシュ通知、アプリ内メッセージ。</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>禁用的标签半透明，不能点击，键盘导航时跳过</source>
+        <translation>無効なタブは半透明になり、クリックできず、キーボード操作でもスキップされます</translation>
+    </message>
+    <message>
+        <source>首页</source>
+        <translation>ホーム</translation>
+    </message>
+    <message>
+        <source>已禁用</source>
+        <translation>無効化済み</translation>
+    </message>
+    <message>
+        <source>图标</source>
+        <translation>アイコン</translation>
+    </message>
+    <message>
+        <source>在标签文字前显示图标</source>
+        <translation>タブのテキストの前にアイコンを表示します</translation>
+    </message>
+    <message>
+        <source>预览</source>
+        <translation>プレビュー</translation>
+    </message>
+    <message>
+        <source>代码</source>
+        <translation>コード</translation>
+    </message>
+    <message>
+        <source>键盘切换</source>
+        <translation>キーボードでの切り替え</translation>
+    </message>
+    <message>
+        <source>用方向键在标签间移动，可设置为移动时直接切换</source>
+        <translation>矢印キーでタブ間を移動します。移動と同時にタブを切り替えるように設定することもできます</translation>
+    </message>
+    <message>
+        <source>回车或空格切换</source>
+        <translation>Enter またはスペースで切り替え</translation>
+    </message>
+    <message>
+        <source>方向键直接切换</source>
+        <translation>矢印キーで直接切り替え</translation>
+    </message>
+    <message>
+        <source>日</source>
+        <translation>日</translation>
+    </message>
+    <message>
+        <source>周</source>
+        <translation>週</translation>
+    </message>
+    <message>
+        <source>月</source>
+        <translation>月</translation>
+    </message>
+    <message>
+        <source>年</source>
+        <translation>年</translation>
+    </message>
+    <message>
+        <source>%1：当前为 %2</source>
+        <translation>%1：現在は %2</translation>
+    </message>
+</context>
+<context>
+    <name>ThemePage</name>
+    <message>
+        <source>主题</source>
+        <translation>テーマ</translation>
+    </message>
+    <message>
+        <source>ShadTheme：管理颜色 token、基色、明暗模式与圆角，通常在启动时选定基色。</source>
+        <translation>ShadTheme：カラートークン、ベースカラー、ライト/ダークモード、角丸を管理します。ベースカラーは通常、起動時に選択します。</translation>
+    </message>
+    <message>
+        <source>基色</source>
+        <translation>ベースカラー</translation>
+    </message>
+    <message>
+        <source>切换基色后所有组件立即重绘</source>
+        <translation>ベースカラーを切り替えると、すべてのコンポーネントがすぐに再描画されます</translation>
+    </message>
+    <message>
+        <source>颜色 token</source>
+        <translation>カラートークン</translation>
+    </message>
+    <message>
+        <source>当前基色与明暗模式下的全部颜色</source>
+        <translation>現在のベースカラーとモードにおけるすべての色</translation>
+    </message>
+    <message>
+        <source>基色对比</source>
+        <translation>ベースカラーの比較</translation>
+    </message>
+    <message>
+        <source>对比五种基色的主要 token，悬停查看色值</source>
+        <translation>5 種類のベースカラーの主要なトークンを比較します。カーソルを合わせると色の値を確認できます</translation>
+    </message>
+</context>
+<context>
+    <name>ToastPage</name>
+    <message>
+        <source>子窗口通知</source>
+        <translation>子ウィンドウのトースト</translation>
+    </message>
+    <message>
+        <source>ShadToaster::forWindow(window) 返回本窗口的 toaster。</source>
+        <translation>ShadToaster::forWindow(window) は、このウィンドウの toaster を返します。</translation>
+    </message>
+    <message>
+        <source>在此窗口显示</source>
+        <translation>このウィンドウに表示</translation>
+    </message>
+    <message>
+        <source>在主窗口显示</source>
+        <translation>メインウィンドウに表示</translation>
+    </message>
+    <message>
+        <source>子窗口中的通知</source>
+        <translation>子ウィンドウ内のトースト</translation>
+    </message>
+    <message>
+        <source>显示在当前窗口。</source>
+        <translation>現在のウィンドウに表示されます。</translation>
+    </message>
+    <message>
+        <source>来自子窗口的通知</source>
+        <translation>子ウィンドウからのトースト</translation>
+    </message>
+    <message>
+        <source>显示在主窗口。</source>
+        <translation>メインウィンドウに表示されます。</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>トースト</translation>
+    </message>
+    <message>
+        <source>ShadToaster：在窗口内短暂显示的通知消息，悬停时展开。</source>
+        <translation>ShadToaster：ウィンドウ内に短時間表示される通知メッセージで、カーソルを合わせると展開されます。</translation>
+    </message>
+    <message>
+        <source>位置</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>切换位置后已显示的通知随之移动</source>
+        <translation>位置を切り替えると、表示中のトーストも一緒に移動します</translation>
+    </message>
+    <message>
+        <source>左上</source>
+        <translation>左上</translation>
+    </message>
+    <message>
+        <source>上中</source>
+        <translation>上中央</translation>
+    </message>
+    <message>
+        <source>右上</source>
+        <translation>右上</translation>
+    </message>
+    <message>
+        <source>左下</source>
+        <translation>左下</translation>
+    </message>
+    <message>
+        <source>下中</source>
+        <translation>下中央</translation>
+    </message>
+    <message>
+        <source>右下</source>
+        <translation>右下</translation>
+    </message>
+    <message>
+        <source>位置已切换</source>
+        <translation>位置を切り替えました</translation>
+    </message>
+    <message>
+        <source>通知现在显示在%1</source>
+        <translation>トーストは %1 に表示されます</translation>
+    </message>
+    <message>
+        <source>类型</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>不同类型显示不同的状态图标</source>
+        <translation>種類ごとに異なる状態アイコンが表示されます</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>標準</translation>
+    </message>
+    <message>
+        <source>事件已创建</source>
+        <translation>イベントを作成しました</translation>
+    </message>
+    <message>
+        <source>星期日，12 月 3 日 上午 9:00</source>
+        <translation>12月3日（日）午前 9:00</translation>
+    </message>
+    <message>
+        <source>成功</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <source>保存成功</source>
+        <translation>保存しました</translation>
+    </message>
+    <message>
+        <source>所有更改已同步到云端。</source>
+        <translation>すべての変更がクラウドに同期されました。</translation>
+    </message>
+    <message>
+        <source>信息</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>有新版本可用</source>
+        <translation>新しいバージョンがあります</translation>
+    </message>
+    <message>
+        <source>版本 0.2 包含 Toast 与 Resizable 组件。</source>
+        <translation>バージョン 0.2 には Toast と Resizable コンポーネントが含まれています。</translation>
+    </message>
+    <message>
+        <source>警告</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <source>存储空间不足</source>
+        <translation>ストレージの空き容量が不足しています</translation>
+    </message>
+    <message>
+        <source>剩余空间低于 10%，请及时清理。</source>
+        <translation>空き容量が 10% を下回っています。早めに整理してください。</translation>
+    </message>
+    <message>
+        <source>错误</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>上传失败</source>
+        <translation>アップロードに失敗しました</translation>
+    </message>
+    <message>
+        <source>网络连接已断开，请检查后重试。</source>
+        <translation>ネットワーク接続が切断されました。接続を確認してもう一度お試しください。</translation>
+    </message>
+    <message>
+        <source>操作按钮</source>
+        <translation>アクションボタン</translation>
+    </message>
+    <message>
+        <source>通知中显示操作按钮，点击后执行回调</source>
+        <translation>トーストにアクションボタンを表示し、クリックするとコールバックを実行します</translation>
+    </message>
+    <message>
+        <source>删除文件</source>
+        <translation>ファイルを削除</translation>
+    </message>
+    <message>
+        <source>文件已删除</source>
+        <translation>ファイルを削除しました</translation>
+    </message>
+    <message>
+        <source>报告.pdf 已移到回收站。</source>
+        <translation>レポート.pdf をゴミ箱に移動しました。</translation>
+    </message>
+    <message>
+        <source>撤销</source>
+        <translation>元に戻す</translation>
+    </message>
+    <message>
+        <source>已撤销</source>
+        <translation>元に戻しました</translation>
+    </message>
+    <message>
+        <source>报告.pdf 已恢复。</source>
+        <translation>レポート.pdf を復元しました。</translation>
+    </message>
+    <message>
+        <source>异步任务</source>
+        <translation>非同期タスク</translation>
+    </message>
+    <message>
+        <source>先显示加载状态，任务结束后更新为成功或失败</source>
+        <translation>最初に読み込み状態を表示し、タスクが終了したら成功または失敗に更新します</translation>
+    </message>
+    <message>
+        <source>创建事件</source>
+        <translation>イベントを作成</translation>
+    </message>
+    <message>
+        <source>创建事件（模拟失败）</source>
+        <translation>イベントを作成（失敗をシミュレート）</translation>
+    </message>
+    <message>
+        <source>正在创建事件</source>
+        <translation>イベントを作成しています</translation>
+    </message>
+    <message>
+        <source>请稍候……</source>
+        <translation>しばらくお待ちください…</translation>
+    </message>
+    <message>
+        <source>创建失败</source>
+        <translation>作成に失敗しました</translation>
+    </message>
+    <message>
+        <source>服务器暂时不可用。</source>
+        <translation>サーバーは一時的に利用できません。</translation>
+    </message>
+    <message>
+        <source>堆叠与关闭</source>
+        <translation>積み重ねと閉じる動作</translation>
+    </message>
+    <message>
+        <source>收起时显示最新 3 条，悬停展开</source>
+        <translation>折りたたみ時は最新の 3 件を表示し、カーソルを合わせると展開されます</translation>
+    </message>
+    <message>
+        <source>连续弹出 5 条</source>
+        <translation>5 件続けて表示</translation>
+    </message>
+    <message>
+        <source>第 %1 条通知</source>
+        <translation>トースト %1</translation>
+    </message>
+    <message>
+        <source>悬停在通知上可以展开查看全部。</source>
+        <translation>トーストにカーソルを合わせると、すべてを展開して確認できます。</translation>
+    </message>
+    <message>
+        <source>不自动关闭</source>
+        <translation>自動で閉じない</translation>
+    </message>
+    <message>
+        <source>需要手动关闭</source>
+        <translation>手動で閉じる必要があります</translation>
+    </message>
+    <message>
+        <source>这条通知不会自动消失，点击右侧的关闭按钮。</source>
+        <translation>このトーストは自動では消えません。右側の閉じるボタンをクリックしてください。</translation>
+    </message>
+    <message>
+        <source>全部关闭</source>
+        <translation>すべて閉じる</translation>
+    </message>
+    <message>
+        <source>子窗口</source>
+        <translation>子ウィンドウ</translation>
+    </message>
+    <message>
+        <source>ShadToaster::forWindow 按窗口显示通知</source>
+        <translation>ShadToaster::forWindow はウィンドウごとにトーストを表示します</translation>
+    </message>
+    <message>
+        <source>打开子窗口</source>
+        <translation>子ウィンドウを開く</translation>
+    </message>
+</context>
+<context>
+    <name>TogglePage</name>
+    <message>
+        <source>切换按钮</source>
+        <translation>トグルボタン</translation>
+    </message>
+    <message>
+        <source>ShadToggle / ShadToggleGroup：可选中的双态按钮，以及支持单选与多选的按钮组。</source>
+        <translation>ShadToggle / ShadToggleGroup：オンとオフを切り替えられる 2 状態のボタンと、単一選択・複数選択に対応したボタングループです。</translation>
+    </message>
+    <message>
+        <source>变体</source>
+        <translation>バリエーション</translation>
+    </message>
+    <message>
+        <source>Default 与 Outline 两种外观</source>
+        <translation>Default と Outline の 2 種類の外観</translation>
+    </message>
+    <message>
+        <source>加粗</source>
+        <translation>太字</translation>
+    </message>
+    <message>
+        <source>斜体</source>
+        <translation>斜体</translation>
+    </message>
+    <message>
+        <source>下划线</source>
+        <translation>下線</translation>
+    </message>
+    <message>
+        <source>尺寸</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Small、Medium、Large 三种尺寸</source>
+        <translation>Small、Medium、Large の 3 種類のサイズ</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>禁用后整体半透明</source>
+        <translation>無効にすると全体が半透明になります</translation>
+    </message>
+    <message>
+        <source>按钮组：单选</source>
+        <translation>トグルグループ：単一選択</translation>
+    </message>
+    <message>
+        <source>最多选中一项，再次点击可取消选中</source>
+        <translation>選択できるのは最大 1 つで、もう一度クリックすると選択を解除できます</translation>
+    </message>
+    <message>
+        <source>左对齐</source>
+        <translation>左揃え</translation>
+    </message>
+    <message>
+        <source>居中</source>
+        <translation>中央揃え</translation>
+    </message>
+    <message>
+        <source>右对齐</source>
+        <translation>右揃え</translation>
+    </message>
+    <message>
+        <source>日</source>
+        <translation>日</translation>
+    </message>
+    <message>
+        <source>周</source>
+        <translation>週</translation>
+    </message>
+    <message>
+        <source>月</source>
+        <translation>月</translation>
+    </message>
+    <message>
+        <source>当前选中: 周</source>
+        <translation>選択中：週</translation>
+    </message>
+    <message>
+        <source>当前选中: %1</source>
+        <translation>選択中：%1</translation>
+    </message>
+    <message>
+        <source>当前选中: 无</source>
+        <translation>選択中：なし</translation>
+    </message>
+    <message>
+        <source>按钮组：多选</source>
+        <translation>トグルグループ：複数選択</translation>
+    </message>
+    <message>
+        <source>可以同时选中多项</source>
+        <translation>複数の項目を同時に選択できます</translation>
+    </message>
+</context>
+<context>
+    <name>ToolbarPage</name>
+    <message>
+        <source>最近点击: %1</source>
+        <translation>最後にクリック：%1</translation>
+    </message>
+    <message>
+        <source>最近点击: 无</source>
+        <translation>最後にクリック：なし</translation>
+    </message>
+    <message>
+        <source>工具栏</source>
+        <translation>ツールバー</translation>
+    </message>
+    <message>
+        <source>ShadToolbar：放置常用操作的工具栏。</source>
+        <translation>ShadToolbar：よく使う操作を配置するツールバーです。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>按钮、勾选、下拉菜单与分隔线</source>
+        <translation>ボタン、トグル、ドロップダウンメニュー、区切り線</translation>
+    </message>
+    <message>
+        <source>撤销</source>
+        <translation>元に戻す</translation>
+    </message>
+    <message>
+        <source>重做</source>
+        <translation>やり直す</translation>
+    </message>
+    <message>
+        <source>加粗</source>
+        <translation>太字</translation>
+    </message>
+    <message>
+        <source>斜体</source>
+        <translation>斜体</translation>
+    </message>
+    <message>
+        <source>下划线</source>
+        <translation>下線</translation>
+    </message>
+    <message>
+        <source>对齐</source>
+        <translation>配置</translation>
+    </message>
+    <message>
+        <source>左对齐</source>
+        <translation>左揃え</translation>
+    </message>
+    <message>
+        <source>居中</source>
+        <translation>中央揃え</translation>
+    </message>
+    <message>
+        <source>右对齐</source>
+        <translation>右揃え</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>显示文字</source>
+        <translation>テキストを表示</translation>
+    </message>
+    <message>
+        <source>图标旁显示文字</source>
+        <translation>アイコンの横にテキストを表示</translation>
+    </message>
+    <message>
+        <source>新建</source>
+        <translation>新規</translation>
+    </message>
+    <message>
+        <source>打开</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <source>分享</source>
+        <translation>共有</translation>
+    </message>
+    <message>
+        <source>邮件</source>
+        <translation>メール</translation>
+    </message>
+    <message>
+        <source>复制链接</source>
+        <translation>リンクをコピー</translation>
+    </message>
+    <message>
+        <source>纵向</source>
+        <translation>縦向き</translation>
+    </message>
+    <message>
+        <source>纵向排列，勾选项可以互斥</source>
+        <translation>縦に並べ、トグル項目を排他的にできます</translation>
+    </message>
+    <message>
+        <source>选择</source>
+        <translation>選択</translation>
+    </message>
+    <message>
+        <source>平移</source>
+        <translation>パン</translation>
+    </message>
+    <message>
+        <source>画笔</source>
+        <translation>ペン</translation>
+    </message>
+    <message>
+        <source>橡皮擦</source>
+        <translation>消しゴム</translation>
+    </message>
+    <message>
+        <source>文字</source>
+        <translation>テキスト</translation>
+    </message>
+    <message>
+        <source>放大</source>
+        <translation>拡大</translation>
+    </message>
+    <message>
+        <source>缩小</source>
+        <translation>縮小</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>剪切</source>
+        <translation>切り取り</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>貼り付け</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>溢出</source>
+        <translation>オーバーフロー</translation>
+    </message>
+    <message>
+        <source>宽度不够时收进更多菜单，拖动滑块调整宽度</source>
+        <translation>幅が足りない項目は「その他」メニューにまとめられます。スライダーをドラッグして幅を調整してください</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>打印</source>
+        <translation>印刷</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+</context>
+<context>
+    <name>TooltipPage</name>
+    <message>
+        <source>悬停提示</source>
+        <translation>ツールチップ</translation>
+    </message>
+    <message>
+        <source>ShadTooltip：统一所有组件 toolTip 样式的悬停提示，悬停或聚焦时出现。</source>
+        <translation>ShadTooltip：すべてのコンポーネントの toolTip のスタイルを統一したツールチップで、カーソルを合わせたりフォーカスしたりすると表示されます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>直接使用 setToolTip，默认立即显示</source>
+        <translation>setToolTip をそのまま使うだけで、既定ではすぐに表示されます</translation>
+    </message>
+    <message>
+        <source>悬停</source>
+        <translation>ホバー</translation>
+    </message>
+    <message>
+        <source>添加到收藏</source>
+        <translation>お気に入りに追加</translation>
+    </message>
+    <message>
+        <source>收藏</source>
+        <translation>お気に入り</translation>
+    </message>
+    <message>
+        <source>长文字</source>
+        <translation>長いテキスト</translation>
+    </message>
+    <message>
+        <source>提示文字超过 320px 时自动换行，适合放一两句简短的说明，不要放可以交互的内容。</source>
+        <translation>ツールチップのテキストは 320px を超えると自動的に折り返されます。短い説明を一、二文入れる用途に適しており、操作可能な内容は入れないでください。</translation>
+    </message>
+    <message>
+        <source>方向</source>
+        <translation>表示方向</translation>
+    </message>
+    <message>
+        <source>setSide：指定提示方向，空间不足时翻到对侧</source>
+        <translation>setSide：ツールチップの表示方向を指定します。スペースが足りない場合は反対側に切り替わります</translation>
+    </message>
+    <message>
+        <source>上方</source>
+        <translation>上</translation>
+    </message>
+    <message>
+        <source>显示在上方</source>
+        <translation>上に表示されます</translation>
+    </message>
+    <message>
+        <source>下方</source>
+        <translation>下</translation>
+    </message>
+    <message>
+        <source>显示在下方</source>
+        <translation>下に表示されます</translation>
+    </message>
+    <message>
+        <source>左侧</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <source>显示在左侧</source>
+        <translation>左に表示されます</translation>
+    </message>
+    <message>
+        <source>右侧</source>
+        <translation>右</translation>
+    </message>
+    <message>
+        <source>显示在右侧</source>
+        <translation>右に表示されます</translation>
+    </message>
+    <message>
+        <source>快捷键</source>
+        <translation>ショートカットキー</translation>
+    </message>
+    <message>
+        <source>setShortcut：在提示文字后显示快捷键</source>
+        <translation>setShortcut：ツールチップのテキストの後ろにショートカットキーを表示します</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>保存更改</source>
+        <translation>変更を保存</translation>
+    </message>
+    <message>
+        <source>打印</source>
+        <translation>印刷</translation>
+    </message>
+    <message>
+        <source>打印文档</source>
+        <translation>ドキュメントを印刷</translation>
+    </message>
+    <message>
+        <source>键盘聚焦</source>
+        <translation>キーボードフォーカス</translation>
+    </message>
+    <message>
+        <source>键盘聚焦到按钮时同样显示提示</source>
+        <translation>キーボードでボタンにフォーカスした場合も、ツールチップが表示されます</translation>
+    </message>
+    <message>
+        <source>第一个</source>
+        <translation>1 つ目</translation>
+    </message>
+    <message>
+        <source>第二个</source>
+        <translation>2 つ目</translation>
+    </message>
+    <message>
+        <source>第三个</source>
+        <translation>3 つ目</translation>
+    </message>
+    <message>
+        <source>通过键盘聚焦到%1按钮</source>
+        <translation>キーボードで%1のボタンにフォーカスしました</translation>
+    </message>
+    <message>
+        <source>禁用组件</source>
+        <translation>無効なコンポーネント</translation>
+    </message>
+    <message>
+        <source>禁用组件外包一层容器，把提示设在容器上</source>
+        <translation>無効なコンポーネントをコンテナで包み、ツールチップをコンテナに設定します</translation>
+    </message>
+    <message>
+        <source>已禁用</source>
+        <translation>無効化済み</translation>
+    </message>
+    <message>
+        <source>该操作当前不可用</source>
+        <translation>この操作は現在利用できません</translation>
+    </message>
+</context>
+<context>
+    <name>TracePage</name>
+    <message>
+        <source>在浏览器中打开 %1</source>
+        <translation>ブラウザで %1 を開く</translation>
+    </message>
+    <message>
+        <source>执行记录</source>
+        <translation>実行ログ</translation>
+    </message>
+    <message>
+        <source>ShadTrace / ShadTraceLine / ShadTraceCollapsible：按行显示 agent 的执行过程，每行可展开详情或打开链接。</source>
+        <translation>ShadTrace / ShadTraceLine / ShadTraceCollapsible：エージェントの実行過程を 1 行ずつ表示し、各行で詳細を展開したりリンクを開いたりできます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>添加普通行与可展开的行</source>
+        <translation>通常の行と展開可能な行を追加します</translation>
+    </message>
+    <message>
+        <source>已搜索 frozen-lockfile</source>
+        <translation>frozen-lockfile を検索しました</translation>
+    </message>
+    <message>
+        <source>已运行 node --version</source>
+        <translation>node --version を実行しました</translation>
+    </message>
+    <message>
+        <source>单行</source>
+        <translation>単一行</translation>
+    </message>
+    <message>
+        <source>默认不可点击，只作为文字显示</source>
+        <translation>既定ではクリックできず、テキストとして表示されるだけです</translation>
+    </message>
+    <message>
+        <source>已创建分支 fix/frozen-lockfile</source>
+        <translation>ブランチ fix/frozen-lockfile を作成しました</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>用颜色与动画区分状态，标题也要写明状态</source>
+        <translation>状態は色とアニメーションで区別します。タイトルにも状態を明記してください</translation>
+    </message>
+    <message>
+        <source>已运行 pnpm install</source>
+        <translation>pnpm install を実行しました</translation>
+    </message>
+    <message>
+        <source>运行 pnpm lint 失败</source>
+        <translation>pnpm lint の実行に失敗しました</translation>
+    </message>
+    <message>
+        <source>正在运行 pnpm build</source>
+        <translation>pnpm build を実行しています</translation>
+    </message>
+    <message>
+        <source>运行 pnpm test</source>
+        <translation>pnpm test を実行</translation>
+    </message>
+    <message>
+        <source>描述</source>
+        <translation>説明</translation>
+    </message>
+    <message>
+        <source>描述显示数量、耗时或改动统计</source>
+        <translation>説明には件数、所要時間、変更の統計を表示します</translation>
+    </message>
+    <message>
+        <source>已编辑 components/settings/notification-preferences-form.tsx</source>
+        <translation>components/settings/notification-preferences-form.tsx を編集しました</translation>
+    </message>
+    <message>
+        <source>已运行 pnpm test</source>
+        <translation>pnpm test を実行しました</translation>
+    </message>
+    <message>
+        <source>已搜索 useChat</source>
+        <translation>useChat を検索しました</translation>
+    </message>
+    <message>
+        <source>8 个结果</source>
+        <translation>8 件の結果</translation>
+    </message>
+    <message>
+        <source>可展开</source>
+        <translation>展開可能</translation>
+    </message>
+    <message>
+        <source>触发行带箭头，展开后显示详情区</source>
+        <translation>トリガー行には矢印が付き、展開すると詳細領域が表示されます</translation>
+    </message>
+    <message>
+        <source>展开状态</source>
+        <translation>展開状態</translation>
+    </message>
+    <message>
+        <source>默认展开或外部控制，运行中的行自动展开</source>
+        <translation>既定で展開するか外部から制御でき、実行中の行は自動的に展開されます</translation>
+    </message>
+    <message>
+        <source>已运行 pnpm --version</source>
+        <translation>pnpm --version を実行しました</translation>
+    </message>
+    <message>
+        <source>显示 pnpm 输出</source>
+        <translation>pnpm の出力を表示</translation>
+    </message>
+    <message>
+        <source>隐藏 pnpm 输出</source>
+        <translation>pnpm の出力を非表示</translation>
+    </message>
+    <message>
+        <source>已运行 pnpm build</source>
+        <translation>pnpm build を実行しました</translation>
+    </message>
+    <message>
+        <source>重新运行构建</source>
+        <translation>ビルドを再実行</translation>
+    </message>
+    <message>
+        <source>链接</source>
+        <translation>リンク</translation>
+    </message>
+    <message>
+        <source>setUrl：把一行设为链接，用系统浏览器打开</source>
+        <translation>setUrl：行をリンクにして、システムのブラウザで開きます</translation>
+    </message>
+    <message>
+        <source>浮层</source>
+        <translation>ポップオーバー</translation>
+    </message>
+    <message>
+        <source>点击可点击的行时打开浮层</source>
+        <translation>クリック可能な行をクリックすると、ポップオーバーが開きます</translation>
+    </message>
+    <message>
+        <source>已在网上搜索缓存键</source>
+        <translation>キャッシュキーをウェブで検索しました</translation>
+    </message>
+    <message>
+        <source>3 个结果</source>
+        <translation>3 件の結果</translation>
+    </message>
+    <message>
+        <source>搜索：pnpm cache key</source>
+        <translation>検索：pnpm cache key</translation>
+    </message>
+    <message>
+        <source>3 个结果，按相关度排序</source>
+        <translation>3 件の結果（関連度順）</translation>
+    </message>
+    <message>
+        <source>分组</source>
+        <translation>グループ</translation>
+    </message>
+    <message>
+        <source>相邻的几行放在同一个 ShadTrace 中</source>
+        <translation>隣り合う複数の行を同じ ShadTrace にまとめます</translation>
+    </message>
+    <message>
+        <source>已搜索 lockfile 设置</source>
+        <translation>lockfile の設定を検索しました</translation>
+    </message>
+    <message>
+        <source>4 个结果</source>
+        <translation>4 件の結果</translation>
+    </message>
+    <message>
+        <source>已读取 pnpm-workspace.yaml</source>
+        <translation>pnpm-workspace.yaml を読み込みました</translation>
+    </message>
+    <message>
+        <source>来源</source>
+        <translation>ソース</translation>
+    </message>
+    <message>
+        <source>展开后显示一组来源链接</source>
+        <translation>展開すると、ソースへのリンクの一覧が表示されます</translation>
+    </message>
+    <message>
+        <source>使用了 3 个来源</source>
+        <translation>3 件のソースを使用しました</translation>
+    </message>
+    <message>
+        <source>思维链</source>
+        <translation>思考の連鎖</translation>
+    </message>
+    <message>
+        <source>子步骤依次完成，父行按子步骤汇总状态</source>
+        <translation>サブステップが順に完了し、親の行はサブステップの状態をまとめて表示します</translation>
+    </message>
+    <message>
+        <source>读取 package.json</source>
+        <translation>package.json を読み込む</translation>
+    </message>
+    <message>
+        <source>正在读取 package.json</source>
+        <translation>package.json を読み込んでいます</translation>
+    </message>
+    <message>
+        <source>已读取 package.json</source>
+        <translation>package.json を読み込みました</translation>
+    </message>
+    <message>
+        <source>查找 next.config</source>
+        <translation>next.config を探す</translation>
+    </message>
+    <message>
+        <source>正在查找 next.config</source>
+        <translation>next.config を探しています</translation>
+    </message>
+    <message>
+        <source>已找到 next.config.ts</source>
+        <translation>next.config.ts が見つかりました</translation>
+    </message>
+    <message>
+        <source>检查构建脚本</source>
+        <translation>ビルドスクリプトを確認する</translation>
+    </message>
+    <message>
+        <source>正在检查构建脚本</source>
+        <translation>ビルドスクリプトを確認しています</translation>
+    </message>
+    <message>
+        <source>已检查构建脚本</source>
+        <translation>ビルドスクリプトを確認しました</translation>
+    </message>
+    <message>
+        <source>正在思考：%1</source>
+        <translation>考え中：%1</translation>
+    </message>
+    <message>
+        <source>思考了 %1 个步骤</source>
+        <translation>%1 ステップ分考えました</translation>
+    </message>
+    <message>
+        <source>重新思考</source>
+        <translation>もう一度考える</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>コミット</translation>
+    </message>
+    <message>
+        <source>文件行显示改动行数，点击后在浮层中查看 diff</source>
+        <translation>ファイルの行には変更行数が表示され、クリックするとポップオーバーで diff を確認できます</translation>
+    </message>
+    <message>
+        <source>已提交 a1b2c3：修复登录后的跳转</source>
+        <translation>a1b2c3 をコミットしました：ログイン後のリダイレクトを修正</translation>
+    </message>
+    <message>
+        <source>已添加 %1</source>
+        <translation>%1 を追加しました</translation>
+    </message>
+    <message>
+        <source>已编辑 %1</source>
+        <translation>%1 を編集しました</translation>
+    </message>
+    <message>
+        <source>%1 处新增，%2 处删除</source>
+        <translation>%1 件追加、%2 件削除</translation>
+    </message>
+    <message>
+        <source>完整回合</source>
+        <translation>完全なターン</translation>
+    </message>
+    <message>
+        <source>三层嵌套：回合展开为步骤，步骤再展开为输出</source>
+        <translation>3 階層の入れ子：ターンはステップに、ステップは出力に展開されます</translation>
+    </message>
+    <message>
+        <source>工作了 2 分 4 秒，1 个命令失败</source>
+        <translation>2 分 4 秒間作業し、1 件のコマンドが失敗しました</translation>
+    </message>
+    <message>
+        <source>思考</source>
+        <translation>思考</translation>
+    </message>
+    <message>
+        <source>在生成项目之前，先确认安装了哪些包管理器。</source>
+        <translation>プロジェクトを生成する前に、インストールされているパッケージマネージャーを確認します。</translation>
+    </message>
+    <message>
+        <source>运行了 2 个命令，1 个失败</source>
+        <translation>2 件のコマンドを実行し、1 件が失敗しました</translation>
+    </message>
+    <message>
+        <source>运行 pnpm --version 失败</source>
+        <translation>pnpm --version の実行に失敗しました</translation>
+    </message>
+    <message>
+        <source>已安装 Node，没有安装 pnpm。接下来读取文档配置。</source>
+        <translation>Node はインストールされていますが、pnpm はインストールされていません。次にドキュメントの設定を読み込みます。</translation>
+    </message>
+    <message>
+        <source>已读取 apps/v4/lib/docs.ts</source>
+        <translation>apps/v4/lib/docs.ts を読み込みました</translation>
+    </message>
+</context>
+<context>
+    <name>TreeSelectPage</name>
+    <message>
+        <source>树形选择</source>
+        <translation>ツリー選択</translation>
+    </message>
+    <message>
+        <source>ShadTreeSelect：在下拉的树中选择节点，支持单选、多选、父子勾选联动与搜索。</source>
+        <translation>ShadTreeSelect：ドロップダウンのツリーからノードを選択します。単一選択、複数選択、親子連動のチェック、検索に対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击节点即选中并关闭弹出层，方向键导航，左右键折叠展开</source>
+        <translation>ノードをクリックすると選択されてポップアップが閉じます。矢印キーで移動し、左右キーで折りたたみと展開ができます</translation>
+    </message>
+    <message>
+        <source>选择地区</source>
+        <translation>地域を選択</translation>
+    </message>
+    <message>
+        <source>只选叶子节点</source>
+        <translation>末端ノードのみ選択</translation>
+    </message>
+    <message>
+        <source>开启 leafOnly 后点击地区、县市只展开或折叠，触发框显示完整路径</source>
+        <translation>leafOnly を有効にすると、地域や市県をクリックしても展開と折りたたみだけが行われ、トリガーには完全なパスが表示されます</translation>
+    </message>
+    <message>
+        <source>选择区县</source>
+        <translation>区・県を選択</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>按模糊匹配过滤，匹配节点的祖先自动展开，匹配节点的下级全部保留</source>
+        <translation>あいまい一致で絞り込みます。一致したノードの祖先は自動的に展開され、下位のノードはすべて残ります</translation>
+    </message>
+    <message>
+        <source>搜索地区...</source>
+        <translation>地域を検索...</translation>
+    </message>
+    <message>
+        <source>没有找到地区</source>
+        <translation>地域が見つかりません</translation>
+    </message>
+    <message>
+        <source>多选</source>
+        <translation>複数選択</translation>
+    </message>
+    <message>
+        <source>勾选父节点同步全部下级，三种回显策略对比：ShowChild 只显示叶子节点，ShowParent 下级全选时只显示父节点，ShowAll 显示全部勾选节点</source>
+        <translation>親ノードにチェックを入れると、すべての下位ノードにもチェックが入ります。3 つの表示方式を比較します。ShowChild は末端ノードのみ、ShowParent は下位がすべてチェックされている場合に親ノードのみ、ShowAll はチェックされたすべてのノードを表示します</translation>
+    </message>
+    <message>
+        <source>尺寸与状态</source>
+        <translation>サイズと状態</translation>
+    </message>
+    <message>
+        <source>Small 尺寸为 24px，错误态边框为危险色，禁用后半透明</source>
+        <translation>Small は 24px で、エラー状態では枠線が警告色になり、無効にすると半透明になります</translation>
+    </message>
+    <message>
+        <source>必填项</source>
+        <translation>必須項目</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>当前选择: 无</source>
+        <translation>現在の選択：なし</translation>
+    </message>
+    <message>
+        <source>当前选择: %1</source>
+        <translation>現在の選択：%1</translation>
+    </message>
+    <message>
+        <source>、</source>
+        <comment>列表分隔符</comment>
+        <translation>、</translation>
+    </message>
+    <message>
+        <source>无</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>北部</source>
+        <translation>北部</translation>
+    </message>
+    <message>
+        <source>台北市</source>
+        <translation>台北市</translation>
+    </message>
+    <message>
+        <source>中正区</source>
+        <translation>中正区</translation>
+    </message>
+    <message>
+        <source>大安区</source>
+        <translation>大安区</translation>
+    </message>
+    <message>
+        <source>信义区</source>
+        <translation>信義区</translation>
+    </message>
+    <message>
+        <source>新北市</source>
+        <translation>新北市</translation>
+    </message>
+    <message>
+        <source>板桥区</source>
+        <translation>板橋区</translation>
+    </message>
+    <message>
+        <source>淡水区</source>
+        <translation>淡水区</translation>
+    </message>
+    <message>
+        <source>三重区</source>
+        <translation>三重区</translation>
+    </message>
+    <message>
+        <source>中部</source>
+        <translation>中部</translation>
+    </message>
+    <message>
+        <source>台中市</source>
+        <translation>台中市</translation>
+    </message>
+    <message>
+        <source>西屯区</source>
+        <translation>西屯区</translation>
+    </message>
+    <message>
+        <source>北屯区</source>
+        <translation>北屯区</translation>
+    </message>
+    <message>
+        <source>彰化县</source>
+        <translation>彰化県</translation>
+    </message>
+    <message>
+        <source>彰化市</source>
+        <translation>彰化市</translation>
+    </message>
+    <message>
+        <source>鹿港镇</source>
+        <translation>鹿港鎮</translation>
+    </message>
+    <message>
+        <source>南部</source>
+        <translation>南部</translation>
+    </message>
+    <message>
+        <source>高雄市</source>
+        <translation>高雄市</translation>
+    </message>
+    <message>
+        <source>苓雅区</source>
+        <translation>苓雅区</translation>
+    </message>
+    <message>
+        <source>左营区</source>
+        <translation>左営区</translation>
+    </message>
+</context>
+<context>
+    <name>TreeViewPage</name>
+    <message>
+        <source>树形视图</source>
+        <translation>ツリービュー</translation>
+    </message>
+    <message>
+        <source>ShadTreeView：继承 QTreeView 的树形视图，支持图标、复选框、多列与拖放。</source>
+        <translation>ShadTreeView：QTreeView を継承したツリービューで、アイコン、チェックボックス、複数列、ドラッグ＆ドロップに対応しています。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>IconRole 指定 Lucide 图标，文件夹展开时自动切换图标</source>
+        <translation>IconRole で Lucide アイコンを指定します。フォルダを展開するとアイコンが自動的に切り替わります</translation>
+    </message>
+    <message>
+        <source>未选择</source>
+        <translation>未選択</translation>
+    </message>
+    <message>
+        <source>复选框</source>
+        <translation>チェックボックス</translation>
+    </message>
+    <message>
+        <source>勾选父节点全选子节点，子节点部分勾选时父节点半选</source>
+        <translation>親ノードにチェックを入れるとすべての子ノードにチェックが入り、子ノードの一部だけがチェックされている場合は親ノードが中間状態になります</translation>
+    </message>
+    <message>
+        <source>用户管理</source>
+        <translation>ユーザー管理</translation>
+    </message>
+    <message>
+        <source>查看用户</source>
+        <translation>ユーザーを表示</translation>
+    </message>
+    <message>
+        <source>编辑用户</source>
+        <translation>ユーザーを編集</translation>
+    </message>
+    <message>
+        <source>删除用户</source>
+        <translation>ユーザーを削除</translation>
+    </message>
+    <message>
+        <source>内容管理</source>
+        <translation>コンテンツ管理</translation>
+    </message>
+    <message>
+        <source>发布文章</source>
+        <translation>記事を公開</translation>
+    </message>
+    <message>
+        <source>审核评论</source>
+        <translation>コメントを審査</translation>
+    </message>
+    <message>
+        <source>系统设置</source>
+        <translation>システム設定</translation>
+    </message>
+    <message>
+        <source>修改主题</source>
+        <translation>テーマを変更</translation>
+    </message>
+    <message>
+        <source>备份数据</source>
+        <translation>データをバックアップ</translation>
+    </message>
+    <message>
+        <source>全部展开</source>
+        <translation>すべて展開</translation>
+    </message>
+    <message>
+        <source>全部折叠</source>
+        <translation>すべて折りたたむ</translation>
+    </message>
+    <message>
+        <source>多列与表头</source>
+        <translation>複数列とヘッダー</translation>
+    </message>
+    <message>
+        <source>显示表头后与表格的表头外观一致</source>
+        <translation>ヘッダーを表示すると、テーブルのヘッダーと同じ外観になります</translation>
+    </message>
+    <message>
+        <source>名称</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>大小</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>修改时间</source>
+        <translation>更新日時</translation>
+    </message>
+    <message>
+        <source>文档</source>
+        <translation>書類</translation>
+    </message>
+    <message>
+        <source>季度报告.pdf</source>
+        <translation>四半期レポート.pdf</translation>
+    </message>
+    <message>
+        <source>会议纪要.docx</source>
+        <translation>議事録.docx</translation>
+    </message>
+    <message>
+        <source>图片</source>
+        <translation>ピクチャ</translation>
+    </message>
+    <message>
+        <source>封面.png</source>
+        <translation>カバー.png</translation>
+    </message>
+    <message>
+        <source>安装包.zip</source>
+        <translation>インストーラー.zip</translation>
+    </message>
+    <message>
+        <source>拖放排序</source>
+        <translation>ドラッグ＆ドロップ</translation>
+    </message>
+    <message>
+        <source>InternalMove：拖动节点调整顺序或移入文件夹</source>
+        <translation>InternalMove：ノードをドラッグして順序を変更したり、フォルダに移動したりします</translation>
+    </message>
+    <message>
+        <source>样式选项</source>
+        <translation>スタイルオプション</translation>
+    </message>
+    <message>
+        <source>关闭缩进线，行高改为 28</source>
+        <translation>インデント線をオフにし、行の高さを 28 に変更します</translation>
+    </message>
+    <message>
+        <source>从右到左时缩进、箭头与图标位于右侧</source>
+        <translation>右から左のレイアウトでは、インデント、矢印、アイコンが右側に配置されます</translation>
+    </message>
+</context>
+<context>
+    <name>WatermarkPage</name>
+    <message>
+        <source>水印</source>
+        <translation>透かし</translation>
+    </message>
+    <message>
+        <source>ShadWatermark：在目标组件上平铺文字或图片水印，不拦截鼠标事件。</source>
+        <translation>ShadWatermark：対象のコンポーネント上にテキストまたは画像の透かしを敷き詰めて表示します。マウスイベントは遮りません。</translation>
+    </message>
+    <message>
+        <source>季度经营报告</source>
+        <translation>四半期事業レポート</translation>
+    </message>
+    <message>
+        <source>本季度整体收入保持稳定增长，各业务线的成本控制良好，详细数据见附表。</source>
+        <translation>今四半期の売上全体は安定して成長しており、各事業のコスト管理も良好でした。詳細なデータは添付の表をご覧ください。</translation>
+    </message>
+    <message>
+        <source>文字水印</source>
+        <translation>テキストの透かし</translation>
+    </message>
+    <message>
+        <source>水印覆盖在内容之上，奇数行交错排列</source>
+        <translation>透かしはコンテンツの上に重ねて表示され、奇数行は互い違いに配置されます</translation>
+    </message>
+    <message>
+        <source>内部资料</source>
+        <translation>社外秘</translation>
+    </message>
+    <message>
+        <source>多行文字</source>
+        <translation>複数行のテキスト</translation>
+    </message>
+    <message>
+        <source>文字中的换行符会拆成多行</source>
+        <translation>テキスト内の改行で複数行に分割されます</translation>
+    </message>
+    <message>
+        <source>ShadcnWidgetTools</source>
+        <translation>ShadcnWidgetTools</translation>
+    </message>
+    <message>
+        <source>图片水印</source>
+        <translation>画像の透かし</translation>
+    </message>
+    <message>
+        <source>使用图标渲染的图片，透明度 0.15</source>
+        <translation>アイコンから描画した画像を、不透明度 0.15 で使用します</translation>
+    </message>
+    <message>
+        <source>自定义</source>
+        <translation>カスタム</translation>
+    </message>
+    <message>
+        <source>拖动滑块实时调整旋转角度、间距和字号</source>
+        <translation>スライダーをドラッグして、回転角度、間隔、フォントサイズをリアルタイムに調整します</translation>
+    </message>
+    <message>
+        <source>旋转角度: %1</source>
+        <translation>回転角度：%1</translation>
+    </message>
+    <message>
+        <source>间距: %1</source>
+        <translation>間隔：%1</translation>
+    </message>
+    <message>
+        <source>字号: %1</source>
+        <translation>フォントサイズ：%1</translation>
+    </message>
+</context>
+<context>
+    <name>WidgetPage</name>
+    <message>
+        <source>按钮位置</source>
+        <translation>ボタンの位置</translation>
+    </message>
+    <message>
+        <source>窗口按钮默认在右侧，打开下方开关后移到左侧。</source>
+        <translation>ウィンドウボタンは既定では右側にあります。下のスイッチをオンにすると左側に移動します。</translation>
+    </message>
+    <message>
+        <source>按钮放在左侧</source>
+        <translation>ボタンを左側に配置</translation>
+    </message>
+    <message>
+        <source>窗口按钮可放在标题栏左侧或右侧</source>
+        <translation>ウィンドウボタンはタイトルバーの左側または右側に配置できます</translation>
+    </message>
+    <message>
+        <source>通知设置</source>
+        <translation>通知設定</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>选择你希望收到的通知类型，修改会立即生效。</source>
+        <translation>受け取りたい通知の種類を選択してください。変更は直ちに反映されます。</translation>
+    </message>
+    <message>
+        <source>邮件通知</source>
+        <translation>メール通知</translation>
+    </message>
+    <message>
+        <source>推送通知</source>
+        <translation>プッシュ通知</translation>
+    </message>
+    <message>
+        <source>每周摘要</source>
+        <translation>週間ダイジェスト</translation>
+    </message>
+    <message>
+        <source>移到中央</source>
+        <translation>中央に移動</translation>
+    </message>
+    <message>
+        <source>完成</source>
+        <translation>完了</translation>
+    </message>
+    <message>
+        <source>云同步</source>
+        <translation>クラウド同期</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>这个窗口没有最大化按钮，双击标题栏不会最大化；标题后的徽章与右侧的设置按钮通过 setTitleBarWidget 放入。</source>
+        <translation>このウィンドウには最大化ボタンがなく、タイトルバーをダブルクリックしても最大化されません。タイトルの後ろのバッジと右側の設定ボタンは、setTitleBarWidget で配置しています。</translation>
+    </message>
+    <message>
+        <source>固定尺寸</source>
+        <translation>固定サイズ</translation>
+    </message>
+    <message>
+        <source>这个窗口的尺寸固定为 360 × 220。</source>
+        <translation>このウィンドウのサイズは 360 × 220 に固定されています。</translation>
+    </message>
+    <message>
+        <source>便签</source>
+        <translation>付箋</translation>
+    </message>
+    <message>
+        <source>打开下方开关或点击标题栏的图钉按钮后，这个窗口会保持在其他窗口之上。</source>
+        <translation>下のスイッチをオンにするか、タイトルバーのピンボタンをクリックすると、このウィンドウは他のウィンドウの上に表示され続けます。</translation>
+    </message>
+    <message>
+        <source>保持在最上层</source>
+        <translation>最前面に表示</translation>
+    </message>
+    <message>
+        <source>放弃修改？</source>
+        <translation>変更を破棄しますか？</translation>
+    </message>
+    <message>
+        <source>草稿还没有保存，关闭后修改会丢失。</source>
+        <translation>下書きはまだ保存されていません。閉じると変更内容が失われます。</translation>
+    </message>
+    <message>
+        <source>继续编辑</source>
+        <translation>編集を続ける</translation>
+    </message>
+    <message>
+        <source>放弃并关闭</source>
+        <translation>破棄して閉じる</translation>
+    </message>
+    <message>
+        <source>未保存的草稿</source>
+        <translation>未保存の下書き</translation>
+    </message>
+    <message>
+        <source>草稿</source>
+        <translation>下書き</translation>
+    </message>
+    <message>
+        <source>点击标题栏的关闭按钮或按 Alt+F4 时会先询问是否放弃修改。</source>
+        <translation>タイトルバーの閉じるボタンをクリックするか Alt+F4 を押すと、まず変更を破棄するかどうかを確認します。</translation>
+    </message>
+    <message>
+        <source>独立窗口</source>
+        <translation>独立したウィンドウ</translation>
+    </message>
+    <message>
+        <source>ShadWidget：外观与 ShadWindow 相同的独立窗口，标题栏不占用布局，可以直接 setLayout。</source>
+        <translation>ShadWidget：ShadWindow と同じ外観の独立したウィンドウです。タイトルバーはレイアウトを占有しないため、そのまま setLayout を呼び出せます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>直接 setLayout，内容从标题栏下方开始</source>
+        <translation>そのまま setLayout を呼び出すと、コンテンツはタイトルバーの下から始まります</translation>
+    </message>
+    <message>
+        <source>打开窗口</source>
+        <translation>ウィンドウを開く</translation>
+    </message>
+    <message>
+        <source>标题栏按钮与自定义组件</source>
+        <translation>タイトルバーのボタンとカスタムコンポーネント</translation>
+    </message>
+    <message>
+        <source>精简窗口按钮，并在标题栏放入自定义组件</source>
+        <translation>ウィンドウボタンを減らし、タイトルバーにカスタムコンポーネントを配置します</translation>
+    </message>
+    <message>
+        <source>固定尺寸后不能拖动缩放，也不能双击最大化</source>
+        <translation>サイズを固定すると、ドラッグでのサイズ変更やダブルクリックでの最大化はできなくなります</translation>
+    </message>
+    <message>
+        <source>置顶</source>
+        <translation>最前面に固定</translation>
+    </message>
+    <message>
+        <source>保持在其他窗口之上，标题栏可显示置顶按钮</source>
+        <translation>他のウィンドウの上に表示され続けます。タイトルバーに最前面固定ボタンを表示できます</translation>
+    </message>
+    <message>
+        <source>拦截关闭按钮</source>
+        <translation>閉じるボタンを遮る</translation>
+    </message>
+    <message>
+        <source>关闭请求只发出 closeRequested，确认后再关闭</source>
+        <translation>閉じる要求では closeRequested だけが発行され、確認後にウィンドウが閉じられます</translation>
+    </message>
+</context>
+</TS>

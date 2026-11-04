@@ -1,0 +1,12 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+find_dependency(Qt6 COMPONENTS Widgets)
+# 静态库会导出 PRIVATE 依赖，有 GPU 绘制层时需要 GuiPrivate（Qt 6.9 之前由 Gui 包提供）
+if (@SHADCN_BUILD_STATIC@ AND @SHADCN_CHART_GPU_ENABLED@)
+    find_package(Qt6 QUIET COMPONENTS GuiPrivate)
+endif ()
+
+include("${CMAKE_CURRENT_LIST_DIR}/ShadcnWidgetToolsTargets.cmake")
+
+check_required_components(ShadcnWidgetTools)

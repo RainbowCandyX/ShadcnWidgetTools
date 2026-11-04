@@ -1,0 +1,96 @@
+cmake_minimum_required(VERSION 3.21)
+
+project(ShadcnFramework VERSION 0.1.0 LANGUAGES CXX)
+
+message(STATUS "当前编译器: ${CMAKE_CXX_COMPILER_ID} ${CMAKE_CXX_COMPILER_VERSION}（${CMAKE_CXX_COMPILER}）")
+
+# 构建类型：多配置生成器（Visual Studio）提供 Debug / Release；单配置生成器（Ninja / Makefiles）未指定时默认 Release
+get_property(_shadcn_is_multi_config GLOBAL PROPERTY GENERATOR_IS_MULTI_CONFIG)
+if (_shadcn_is_multi_config)
+    set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "可用的构建配置" FORCE)
+else ()
+    if (NOT CMAKE_BUILD_TYPE)
+        set(CMAKE_BUILD_TYPE "Release" CACHE STRING "构建类型" FORCE)
+    endif ()
+    set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release")
+    message(STATUS "当前构建类型: ${CMAKE_BUILD_TYPE}")
+endif ()
+unset(_shadcn_is_multi_config)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# 源码按 UTF-8 读取，字符串字面量按 UTF-8 编码；MSVC 与 clang-cl 默认使用本地代码页，GCC 默认跟随 locale，Clang / AppleClang 固定为 UTF-8 无需设置
+if (MSVC)
+    add_compile_options(/utf-8)
+elseif (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+    add_compile_options(-finput-charset=UTF-8 -fexec-charset=UTF-8)
+endif ()
+
+# Qt 路径由 -DQT_SDK_DIR、环境变量 QT_SDK_DIR 或 CMAKE_PREFIX_PATH 指定；WebAssembly 由 Qt 工具链文件指定
+if (NOT DEFINED QT_SDK_DIR AND DEFINED ENV{QT_SDK_DIR})
+    file(TO_CMAKE_PATH "$ENV{QT_SDK_DIR}" _shadcn_env_qt_dir)
+    set(QT_SDK_DIR "${_shadcn_env_qt_dir}" CACHE PATH "Qt SDK 根目录")
+    unset(_shadcn_env_qt_dir)
+endif ()
+if (QT_SDK_DIR AND NOT EMSCRIPTEN)
+    list(PREPEND CMAKE_PREFIX_PATH "${QT_SDK_DIR}")
+    list(REMOVE_DUPLICATES CMAKE_PREFIX_PATH)
+endif ()
+
+find_package(Qt6 6.5 REQUIRED COMPONENTS Widgets)
+get_filename_component(SHADCN_QT_DIR "${Qt6_DIR}/../../.." ABSOLUTE)
+message(STATUS "当前 Qt 路径: ${SHADCN_QT_DIR}")
+qt_standard_project_setup(REQUIRES 6.5)
+
+option(SHADCN_BUILD_STATIC "以静态库方式编译 ShadcnWidgetTools" OFF)
+option(SHADCN_EXAMPLE_AI_CHAT "示例程序编译 AI 对话页面，需要 Qt Network" ON)
+if (EMSCRIPTEN)
+    set(SHADCN_BUILD_STATIC ON CACHE BOOL "以静态库方式编译 ShadcnWidgetTools" FORCE)
+    set(_shadcn_chart_gpu_default OFF)
+else ()
+    set(_shadcn_chart_gpu_default ON)
+endif ()
+
+# 图表的 GPU 绘制需要 Qt 6.7、GuiPrivate 与 Shader Tools，不满足时只用 CPU 绘制；SHADCN_CHART_GPU_ENABLED 为最终结果
+option(SHADCN_CHART_GPU "图表使用 GPU 绘制" ${_shadcn_chart_gpu_default})
+unset(_shadcn_chart_gpu_default)
+set(SHADCN_CHART_GPU_ENABLED OFF)
+if (SHADCN_CHART_GPU)
+    if (Qt6_VERSION VERSION_LESS 6.7)
+        message(STATUS "Qt ${Qt6_VERSION} 低于 6.7，图表使用 CPU 绘制")
+    else ()
+        find_package(Qt6 QUIET COMPONENTS ShaderTools)
+        set(QT_NO_PRIVATE_MODULE_WARNING ON)
+        find_package(Qt6 QUIET COMPONENTS GuiPrivate)
+        if (NOT Qt6ShaderTools_FOUND OR NOT COMMAND qt_add_shaders)
+            message(STATUS "未找到 Qt Shader Tools，图表使用 CPU 绘制")
+        elseif (NOT TARGET Qt6::GuiPrivate)
+            message(STATUS "未找到 Qt6::GuiPrivate，图表使用 CPU 绘制")
+        else ()
+            set(SHADCN_CHART_GPU_ENABLED ON)
+        endif ()
+    endif ()
+endif ()
+message(STATUS "图表 GPU 绘制: ${SHADCN_CHART_GPU_ENABLED}")
+
+# 界面翻译需要 Qt Linguist Tools（lupdate、lrelease），不满足时只有原文简体中文；SHADCN_TRANSLATIONS_ENABLED 为最终结果
+set(SHADCN_TRANSLATIONS_ENABLED OFF)
+find_package(Qt6 QUIET COMPONENTS LinguistTools)
+if (Qt6LinguistTools_FOUND AND COMMAND qt_add_translations)
+    set(SHADCN_TRANSLATIONS_ENABLED ON)
+else ()
+    message(STATUS "未找到 Qt Linguist Tools，界面只有简体中文")
+endif ()
+message(STATUS "界面翻译: ${SHADCN_TRANSLATIONS_ENABLED}")
+
+if (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+    set(CMAKE_INSTALL_PREFIX "${CMAKE_SOURCE_DIR}/install" CACHE PATH "安装路径" FORCE)
+endif ()
+
+# 动态库与示例程序输出到同一目录，便于直接运行
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
+
+add_subdirectory(ShadcnWidgetTools)
+add_subdirectory(ShadcnWidgetToolsExample)

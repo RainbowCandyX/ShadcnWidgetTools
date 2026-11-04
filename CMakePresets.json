@@ -1,0 +1,198 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "description": "Ninja 公共配置；Qt 路径通过环境变量 QT_SDK_DIR 或 CMAKE_PREFIX_PATH 指定",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "installDir": "${sourceDir}/install/${presetName}"
+    },
+    {
+      "name": "msvc-base",
+      "hidden": true,
+      "inherits": "base",
+      "description": "MSVC x64 + Ninja，需要在 Visual Studio x64 开发者命令行中运行（CLion 中需选择 Visual Studio 工具链）",
+      "architecture": {
+        "value": "x64",
+        "strategy": "external"
+      },
+      "toolset": {
+        "value": "host=x64",
+        "strategy": "external"
+      },
+      "cacheVariables": {
+        "CMAKE_CXX_COMPILER": "cl"
+      },
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "msvc-debug",
+      "inherits": "msvc-base",
+      "displayName": "MSVC x64 Debug",
+      "description": "调试版本，库文件带 d 后缀",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "msvc-release",
+      "inherits": "msvc-base",
+      "displayName": "MSVC x64 Release",
+      "description": "发布版本",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "macos-base",
+      "hidden": true,
+      "inherits": "base",
+      "description": "AppleClang + Ninja，需要安装 Xcode 或 Command Line Tools",
+      "cacheVariables": {
+        "CMAKE_CXX_COMPILER": "/usr/bin/clang++"
+      },
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Darwin"
+      }
+    },
+    {
+      "name": "macos-debug",
+      "inherits": "macos-base",
+      "displayName": "macOS AppleClang Debug",
+      "description": "调试版本，库文件带 d 后缀",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "macos-release",
+      "inherits": "macos-base",
+      "displayName": "macOS AppleClang Release",
+      "description": "发布版本",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "linux-base",
+      "hidden": true,
+      "inherits": "base",
+      "description": "Linux + Ninja；未指定 Qt 路径时 find_package 搜索系统路径，可直接使用发行版自带的 Qt",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      }
+    },
+    {
+      "name": "linux-gcc-debug",
+      "inherits": "linux-base",
+      "displayName": "Linux GCC Debug",
+      "description": "调试版本，库文件带 d 后缀",
+      "cacheVariables": {
+        "CMAKE_CXX_COMPILER": "g++",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "linux-gcc-release",
+      "inherits": "linux-base",
+      "displayName": "Linux GCC Release",
+      "description": "发布版本",
+      "cacheVariables": {
+        "CMAKE_CXX_COMPILER": "g++",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "linux-clang-debug",
+      "inherits": "linux-base",
+      "displayName": "Linux Clang Debug",
+      "description": "调试版本，库文件带 d 后缀",
+      "cacheVariables": {
+        "CMAKE_CXX_COMPILER": "clang++",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "linux-clang-release",
+      "inherits": "linux-base",
+      "displayName": "Linux Clang Release",
+      "description": "发布版本",
+      "cacheVariables": {
+        "CMAKE_CXX_COMPILER": "clang++",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "wasm-release",
+      "inherits": "base",
+      "displayName": "WebAssembly Release",
+      "description": "Qt WebAssembly 多线程版；需要环境变量 QT_WASM_DIR（wasm 版 Qt）、QT_HOST_PATH（桌面版 Qt），并先执行 emsdk_env 设置 EMSDK",
+      "toolchainFile": "$env{QT_WASM_DIR}/lib/cmake/Qt6/qt.toolchain.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "msvc-debug",
+      "displayName": "MSVC x64 Debug",
+      "configurePreset": "msvc-debug"
+    },
+    {
+      "name": "msvc-release",
+      "displayName": "MSVC x64 Release",
+      "configurePreset": "msvc-release"
+    },
+    {
+      "name": "macos-debug",
+      "displayName": "macOS AppleClang Debug",
+      "configurePreset": "macos-debug"
+    },
+    {
+      "name": "macos-release",
+      "displayName": "macOS AppleClang Release",
+      "configurePreset": "macos-release"
+    },
+    {
+      "name": "linux-gcc-debug",
+      "displayName": "Linux GCC Debug",
+      "configurePreset": "linux-gcc-debug"
+    },
+    {
+      "name": "linux-gcc-release",
+      "displayName": "Linux GCC Release",
+      "configurePreset": "linux-gcc-release"
+    },
+    {
+      "name": "linux-clang-debug",
+      "displayName": "Linux Clang Debug",
+      "configurePreset": "linux-clang-debug"
+    },
+    {
+      "name": "linux-clang-release",
+      "displayName": "Linux Clang Release",
+      "configurePreset": "linux-clang-release"
+    },
+    {
+      "name": "wasm-release",
+      "displayName": "WebAssembly Release",
+      "configurePreset": "wasm-release"
+    }
+  ]
+}

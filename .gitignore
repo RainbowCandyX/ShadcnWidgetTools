@@ -1,0 +1,14 @@
+# 编译与安装输出
+/build/
+/install/
+/Release/
+/Debug/
+/cmake-build-*/
+/out/
+
+# IDE 与本地配置
+/.idea/
+/.vs/
+/.vscode/
+CMakeUserPresets.json
+*.user

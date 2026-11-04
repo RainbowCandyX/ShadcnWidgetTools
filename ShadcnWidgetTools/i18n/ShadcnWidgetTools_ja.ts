@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ja" sourcelanguage="zh_CN">
+<context>
+    <name>ShadAlertDialog</name>
+    <message>
+        <source>取消</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>继续</source>
+        <translation>続ける</translation>
+    </message>
+</context>
+<context>
+    <name>ShadAttachment</name>
+    <message>
+        <source>文件</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>打开链接</source>
+        <translation>リンクを開く</translation>
+    </message>
+    <message>
+        <source>复制链接地址</source>
+        <translation>リンクアドレスをコピー</translation>
+    </message>
+</context>
+<context>
+    <name>ShadBiometric</name>
+    <message>
+        <source>验证你的身份</source>
+        <translation>本人確認を行ってください</translation>
+    </message>
+    <message>
+        <source>已取消</source>
+        <translation>キャンセルされました</translation>
+    </message>
+    <message>
+        <source>当前设备不支持身份验证</source>
+        <translation>このデバイスは認証に対応していません</translation>
+    </message>
+    <message>
+        <source>尚未设置指纹或 Windows Hello</source>
+        <translation>Touch ID または Windows Hello が設定されていません</translation>
+    </message>
+    <message>
+        <source>尝试次数过多，已暂时锁定</source>
+        <translation>試行回数が多すぎるため、一時的にロックされました</translation>
+    </message>
+    <message>
+        <source>身份验证未通过</source>
+        <translation>認証に失敗しました</translation>
+    </message>
+    <message>
+        <source>身份验证失败</source>
+        <translation>認証に失敗しました</translation>
+    </message>
+    <message>
+        <source>系统返回错误：%1</source>
+        <translation>システムからエラーが返されました：%1</translation>
+    </message>
+</context>
+<context>
+    <name>ShadBreadcrumb</name>
+    <message>
+        <source>显示更多</source>
+        <translation>さらに表示</translation>
+    </message>
+    <message>
+        <source>面包屑导航</source>
+        <translation>パンくずリスト</translation>
+    </message>
+</context>
+<context>
+    <name>ShadButtonGroup</name>
+    <message>
+        <source>按钮组</source>
+        <translation>ボタングループ</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCalendar</name>
+    <message>
+        <source>上一月</source>
+        <translation>前の月</translation>
+    </message>
+    <message>
+        <source>下一月</source>
+        <translation>次の月</translation>
+    </message>
+    <message>
+        <source>月份</source>
+        <translation>月</translation>
+    </message>
+    <message>
+        <source>年份</source>
+        <translation>年</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCarousel</name>
+    <message>
+        <source>上一张</source>
+        <translation>前のスライド</translation>
+    </message>
+    <message>
+        <source>下一张</source>
+        <translation>次のスライド</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCodeBlock</name>
+    <message>
+        <source>已复制</source>
+        <translation>コピーしました</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCodeBlockView</name>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>全选</source>
+        <translation>すべて選択</translation>
+    </message>
+</context>
+<context>
+    <name>ShadColorDialog</name>
+    <message>
+        <source>选择颜色</source>
+        <translation>色を選択</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>确定</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>ShadColorPicker</name>
+    <message>
+        <source>点击下半部分恢复原始颜色</source>
+        <translation>下半分をクリックすると元の色に戻ります</translation>
+    </message>
+    <message>
+        <source>从屏幕取色</source>
+        <translation>画面から色を取得</translation>
+    </message>
+    <message>
+        <source>基本颜色</source>
+        <translation>基本色</translation>
+    </message>
+    <message>
+        <source>添加到自定义颜色</source>
+        <translation>カスタム色に追加</translation>
+    </message>
+    <message>
+        <source>移除选中的自定义颜色</source>
+        <translation>選択したカスタム色を削除</translation>
+    </message>
+    <message>
+        <source>自定义颜色</source>
+        <translation>カスタム色</translation>
+    </message>
+</context>
+<context>
+    <name>ShadComboBox</name>
+    <message>
+        <source>搜索...</source>
+        <translation>検索...</translation>
+    </message>
+    <message>
+        <source>未找到结果</source>
+        <translation>結果が見つかりません</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCommand</name>
+    <message>
+        <source>输入命令或搜索…</source>
+        <translation>コマンドを入力、または検索…</translation>
+    </message>
+    <message>
+        <source>没有找到结果。</source>
+        <translation>結果が見つかりません。</translation>
+    </message>
+</context>
+<context>
+    <name>ShadCommandDialog</name>
+    <message>
+        <source>命令面板</source>
+        <translation>コマンドパレット</translation>
+    </message>
+</context>
+<context>
+    <name>ShadDataTable</name>
+    <message>
+        <source>筛选...</source>
+        <translation>絞り込み...</translation>
+    </message>
+    <message>
+        <source>列</source>
+        <translation>列</translation>
+    </message>
+    <message>
+        <source>没有结果</source>
+        <translation>結果がありません</translation>
+    </message>
+    <message>
+        <source>已选择 %1 / %2 行</source>
+        <translation>%2 行中 %1 行を選択</translation>
+    </message>
+</context>
+<context>
+    <name>ShadDatePicker</name>
+    <message>
+        <source>选择日期</source>
+        <translation>日付を選択</translation>
+    </message>
+</context>
+<context>
+    <name>ShadDockHeader</name>
+    <message>
+        <source>关闭</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>ShadFileDropZone</name>
+    <message>
+        <source>文件超过 %1</source>
+        <translation>ファイルが %1 を超えています</translation>
+    </message>
+    <message>
+        <source>文件不存在</source>
+        <translation>ファイルが存在しません</translation>
+    </message>
+    <message>
+        <source>不支持文件夹</source>
+        <translation>フォルダには対応していません</translation>
+    </message>
+    <message>
+        <source>不支持的文件类型</source>
+        <translation>対応していないファイル形式です</translation>
+    </message>
+    <message>
+        <source>拖拽文件到这里</source>
+        <translation>ここにファイルをドラッグ</translation>
+    </message>
+    <message>
+        <source>或点击选择文件</source>
+        <translation>またはクリックしてファイルを選択</translation>
+    </message>
+    <message>
+        <source>选择文件</source>
+        <translation>ファイルを選択</translation>
+    </message>
+</context>
+<context>
+    <name>ShadHeatmap</name>
+    <message>
+        <source>第 %1 行</source>
+        <translation>%1 行目</translation>
+    </message>
+    <message>
+        <source>第 %1 列</source>
+        <translation>%1 列目</translation>
+    </message>
+</context>
+<context>
+    <name>ShadImageCropper</name>
+    <message>
+        <source>未选择图片</source>
+        <translation>画像が選択されていません</translation>
+    </message>
+</context>
+<context>
+    <name>ShadImageViewer</name>
+    <message>
+        <source>图片预览</source>
+        <translation>画像プレビュー</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>上一张</source>
+        <translation>前へ</translation>
+    </message>
+    <message>
+        <source>下一张</source>
+        <translation>次へ</translation>
+    </message>
+    <message>
+        <source>缩小</source>
+        <translation>縮小</translation>
+    </message>
+    <message>
+        <source>放大</source>
+        <translation>拡大</translation>
+    </message>
+    <message>
+        <source>实际大小</source>
+        <translation>実際のサイズ</translation>
+    </message>
+    <message>
+        <source>适应窗口</source>
+        <translation>ウィンドウに合わせる</translation>
+    </message>
+    <message>
+        <source>向左旋转</source>
+        <translation>左に回転</translation>
+    </message>
+    <message>
+        <source>向右旋转</source>
+        <translation>右に回転</translation>
+    </message>
+    <message>
+        <source>水平翻转</source>
+        <translation>左右反転</translation>
+    </message>
+    <message>
+        <source>垂直翻转</source>
+        <translation>上下反転</translation>
+    </message>
+    <message>
+        <source>图片加载失败</source>
+        <translation>画像の読み込みに失敗しました</translation>
+    </message>
+    <message>
+        <source>复制图片</source>
+        <translation>画像をコピー</translation>
+    </message>
+    <message>
+        <source>保存图片…</source>
+        <translation>画像を保存…</translation>
+    </message>
+    <message>
+        <source>保存图片</source>
+        <translation>画像を保存</translation>
+    </message>
+    <message>
+        <source>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</source>
+        <translation>画像 (*.png *.jpg *.jpeg *.bmp *.webp);;すべてのファイル (*)</translation>
+    </message>
+</context>
+<context>
+    <name>ShadInput</name>
+    <message>
+        <source>清空</source>
+        <translation>クリア</translation>
+    </message>
+    <message>
+        <source>隐藏密码</source>
+        <translation>パスワードを非表示</translation>
+    </message>
+    <message>
+        <source>显示密码</source>
+        <translation>パスワードを表示</translation>
+    </message>
+</context>
+<context>
+    <name>ShadInputDialog</name>
+    <message>
+        <source>取消</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>确定</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>ShadKeySequenceEdit</name>
+    <message>
+        <source>点击后按下快捷键</source>
+        <translation>クリックしてショートカットキーを押してください</translation>
+    </message>
+    <message>
+        <source>清除</source>
+        <translation>クリア</translation>
+    </message>
+    <message>
+        <source>请按下组合键…</source>
+        <translation>キーの組み合わせを押してください…</translation>
+    </message>
+</context>
+<context>
+    <name>ShadListView</name>
+    <message>
+        <source>暂无数据</source>
+        <translation>データがありません</translation>
+    </message>
+</context>
+<context>
+    <name>ShadNotification</name>
+    <message>
+        <source>关闭</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>ShadPagination</name>
+    <message>
+        <source>第 %1 页</source>
+        <translation>%1 ページ</translation>
+    </message>
+    <message>
+        <source>上一页</source>
+        <translation>前へ</translation>
+    </message>
+    <message>
+        <source>下一页</source>
+        <translation>次へ</translation>
+    </message>
+    <message>
+        <source>跳至</source>
+        <translation>移動</translation>
+    </message>
+    <message>
+        <source>跳转页码</source>
+        <translation>ページ番号</translation>
+    </message>
+    <message>
+        <source>页</source>
+        <translation>ページ</translation>
+    </message>
+</context>
+<context>
+    <name>ShadPasskey</name>
+    <message>
+        <source>已取消</source>
+        <translation>キャンセルされました</translation>
+    </message>
+    <message>
+        <source>当前平台不支持通行密钥</source>
+        <translation>このプラットフォームはパスキーに対応していません</translation>
+    </message>
+    <message>
+        <source>请求超时</source>
+        <translation>リクエストがタイムアウトしました</translation>
+    </message>
+    <message>
+        <source>应用未与该域名关联</source>
+        <translation>アプリがこのドメインに関連付けられていません</translation>
+    </message>
+    <message>
+        <source>参数不完整</source>
+        <translation>必要なパラメータが不足しています</translation>
+    </message>
+    <message>
+        <source>认证失败</source>
+        <translation>認証に失敗しました</translation>
+    </message>
+    <message>
+        <source>系统返回错误：%1</source>
+        <translation>システムからエラーが返されました：%1</translation>
+    </message>
+</context>
+<context>
+    <name>ShadPasskeyButton</name>
+    <message>
+        <source>使用通行密钥登录</source>
+        <translation>パスキーでログイン</translation>
+    </message>
+    <message>
+        <source>当前平台不支持通行密钥</source>
+        <translation>このプラットフォームはパスキーに対応していません</translation>
+    </message>
+</context>
+<context>
+    <name>ShadPopconfirm</name>
+    <message>
+        <source>取消</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>确定</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>ShadQrCode</name>
+    <message>
+        <source>内容过长，当前纠错等级下无法生成二维码</source>
+        <translation>内容が長すぎるため、現在の誤り訂正レベルでは QR コードを生成できません</translation>
+    </message>
+    <message>
+        <source>内容过长，无法生成二维码</source>
+        <translation>内容が長すぎるため、QR コードを生成できません</translation>
+    </message>
+</context>
+<context>
+    <name>ShadQuestionnaire</name>
+    <message>
+        <source>请选择一个答案。</source>
+        <translation>回答を 1 つ選択してください。</translation>
+    </message>
+    <message>
+        <source>请选择一个答案或跳过此题。</source>
+        <translation>回答を 1 つ選択するか、この質問をスキップしてください。</translation>
+    </message>
+    <message>
+        <source>上一题</source>
+        <translation>前の質問</translation>
+    </message>
+    <message>
+        <source>跳过</source>
+        <translation>スキップ</translation>
+    </message>
+    <message>
+        <source>下一题</source>
+        <translation>次の質問</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>第 %1 题，共 %2 题</source>
+        <translation>質問 %1 / %2</translation>
+    </message>
+</context>
+<context>
+    <name>ShadScreenshot</name>
+    <message>
+        <source>截图</source>
+        <translation>スクリーンショット</translation>
+    </message>
+    <message>
+        <source>PNG 图片 (*.png)</source>
+        <translation>PNG 画像 (*.png)</translation>
+    </message>
+    <message>
+        <source>JPEG 图片 (*.jpg *.jpeg)</source>
+        <translation>JPEG 画像 (*.jpg *.jpeg)</translation>
+    </message>
+    <message>
+        <source>保存截图</source>
+        <translation>スクリーンショットを保存</translation>
+    </message>
+</context>
+<context>
+    <name>ShadScreenshotOverlay</name>
+    <message>
+        <source>钉在屏幕上</source>
+        <translation>画面にピン留め</translation>
+    </message>
+</context>
+<context>
+    <name>ShadScreenshotPin</name>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>恢复原始大小</source>
+        <translation>元のサイズに戻す</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>ShadScreenshotToolbar</name>
+    <message>
+        <source>钉在屏幕上</source>
+        <translation>画面にピン留め</translation>
+    </message>
+    <message>
+        <source>矩形</source>
+        <translation>四角形</translation>
+    </message>
+    <message>
+        <source>椭圆</source>
+        <translation>楕円</translation>
+    </message>
+    <message>
+        <source>箭头</source>
+        <translation>矢印</translation>
+    </message>
+    <message>
+        <source>画笔</source>
+        <translation>ペン</translation>
+    </message>
+    <message>
+        <source>马赛克</source>
+        <translation>モザイク</translation>
+    </message>
+    <message>
+        <source>文字</source>
+        <translation>テキスト</translation>
+    </message>
+    <message>
+        <source>粗细</source>
+        <translation>太さ</translation>
+    </message>
+    <message>
+        <source>模糊</source>
+        <translation>ぼかし</translation>
+    </message>
+    <message>
+        <source>撤销</source>
+        <translation>元に戻す</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>完成</source>
+        <translation>完了</translation>
+    </message>
+</context>
+<context>
+    <name>ShadSidebarTrigger</name>
+    <message>
+        <source>切换侧栏</source>
+        <translation>サイドバーを切り替え</translation>
+    </message>
+</context>
+<context>
+    <name>ShadSignaturePad</name>
+    <message>
+        <source>在此签名</source>
+        <translation>ここに署名してください</translation>
+    </message>
+</context>
+<context>
+    <name>ShadSpinBox</name>
+    <message>
+        <source>撤销</source>
+        <translation>元に戻す</translation>
+    </message>
+    <message>
+        <source>恢复</source>
+        <translation>やり直す</translation>
+    </message>
+    <message>
+        <source>剪切</source>
+        <translation>切り取り</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>貼り付け</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>全选</source>
+        <translation>すべて選択</translation>
+    </message>
+    <message>
+        <source>增加</source>
+        <translation>増やす</translation>
+    </message>
+    <message>
+        <source>减少</source>
+        <translation>減らす</translation>
+    </message>
+</context>
+<context>
+    <name>ShadSpinner</name>
+    <message>
+        <source>加载中</source>
+        <translation>読み込み中</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTabViewBar</name>
+    <message>
+        <source>新建标签页</source>
+        <translation>新しいタブ</translation>
+    </message>
+    <message>
+        <source>关闭标签页</source>
+        <translation>タブを閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTimePanel</name>
+    <message>
+        <source>时</source>
+        <translation>時</translation>
+    </message>
+    <message>
+        <source>分</source>
+        <translation>分</translation>
+    </message>
+    <message>
+        <source>秒</source>
+        <translation>秒</translation>
+    </message>
+    <message>
+        <source>确定</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTimePicker</name>
+    <message>
+        <source>选择时间</source>
+        <translation>時刻を選択</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTitleBar</name>
+    <message>
+        <source>取消置顶</source>
+        <translation>最前面を解除</translation>
+    </message>
+    <message>
+        <source>置顶</source>
+        <translation>最前面に固定</translation>
+    </message>
+</context>
+<context>
+    <name>ShadToastItem</name>
+    <message>
+        <source>关闭</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>ShadToolbar</name>
+    <message>
+        <source>更多</source>
+        <translation>その他</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTreeSelect</name>
+    <message>
+        <source>请选择</source>
+        <translation>選択してください</translation>
+    </message>
+    <message>
+        <source>搜索...</source>
+        <translation>検索...</translation>
+    </message>
+    <message>
+        <source>未找到结果</source>
+        <translation>結果が見つかりません</translation>
+    </message>
+</context>
+</TS>
