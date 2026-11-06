@@ -114,6 +114,7 @@ if (SHADCN_TRANSLATIONS_ENABLED)
     target_compile_definitions(${SHADCN_TARGET} PRIVATE SHADCN_TRANSLATIONS)
 endif ()
 
+target_compile_options(${SHADCN_TARGET} PRIVATE ${SHADCN_UTF8_COMPILE_OPTIONS})
 target_compile_definitions(${SHADCN_TARGET} PRIVATE SHADCN_WIDGETTOOLS_LIBRARY)
 if (SHADCN_BUILD_STATIC)
     target_compile_definitions(${SHADCN_TARGET} PUBLIC SHADCN_STATIC)
@@ -163,41 +164,49 @@ set_target_properties(${SHADCN_TARGET} PROPERTIES
 )
 
 # 安装与 find_package 导出
-include(CMakePackageConfigHelpers)
-set(SHADCN_CMAKE_INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/cmake/ShadcnWidgetTools")
+if (SHADCN_INSTALL)
+    include(CMakePackageConfigHelpers)
+    set(SHADCN_CMAKE_INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/cmake/ShadcnWidgetTools")
 
-install(TARGETS ${SHADCN_TARGET} ${SHADCN_RESOURCE_TARGETS} ${SHADCN_SHADER_TARGETS} ${SHADCN_TRANSLATION_TARGETS}
-    EXPORT ShadcnWidgetToolsTargets
-    ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-    OBJECTS DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    INCLUDES DESTINATION include/ShadcnWidgetTools
-)
-install(FILES ${SHADCN_PUBLIC_HEADERS} DESTINATION include/ShadcnWidgetTools)
-# 只有 MSVC 系链接器生成 PDB，其他编译器使用 TARGET_PDB_FILE 会在生成阶段报错
-if (MSVC AND NOT SHADCN_BUILD_STATIC)
-    install(FILES $<TARGET_PDB_FILE:${SHADCN_TARGET}> DESTINATION ${CMAKE_INSTALL_BINDIR} OPTIONAL)
+    install(TARGETS ${SHADCN_TARGET} ${SHADCN_RESOURCE_TARGETS} ${SHADCN_SHADER_TARGETS} ${SHADCN_TRANSLATION_TARGETS}
+        EXPORT ShadcnWidgetToolsTargets
+        ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
+        LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+        RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+        OBJECTS DESTINATION ${CMAKE_INSTALL_LIBDIR}
+        INCLUDES DESTINATION include/ShadcnWidgetTools
+    )
+    install(FILES ${SHADCN_PUBLIC_HEADERS} DESTINATION include/ShadcnWidgetTools)
+    # 只有 MSVC 系链接器生成 PDB，其他编译器使用 TARGET_PDB_FILE 会在生成阶段报错
+    if (MSVC AND NOT SHADCN_BUILD_STATIC)
+        install(FILES $<TARGET_PDB_FILE:${SHADCN_TARGET}> DESTINATION ${CMAKE_INSTALL_BINDIR} OPTIONAL)
+    endif ()
+
+    install(EXPORT ShadcnWidgetToolsTargets
+        NAMESPACE ShadcnWidgetTools::
+        FILE ShadcnWidgetToolsTargets.cmake
+        DESTINATION ${SHADCN_CMAKE_INSTALL_DIR}
+    )
+
+    configure_package_config_file(
+        "${CMAKE_CURRENT_SOURCE_DIR}/ShadcnWidgetToolsConfig.cmake.in"
+        "${CMAKE_CURRENT_BINARY_DIR}/ShadcnWidgetToolsConfig.cmake"
+        INSTALL_DESTINATION ${SHADCN_CMAKE_INSTALL_DIR}
+    )
+    write_basic_package_version_file(
+        "${CMAKE_CURRENT_BINARY_DIR}/ShadcnWidgetToolsConfigVersion.cmake"
+        VERSION ${PROJECT_VERSION}
+        COMPATIBILITY SameMajorVersion
+    )
+    install(FILES
+        "${CMAKE_CURRENT_BINARY_DIR}/ShadcnWidgetToolsConfig.cmake"
+        "${CMAKE_CURRENT_BINARY_DIR}/ShadcnWidgetToolsConfigVersion.cmake"
+        DESTINATION ${SHADCN_CMAKE_INSTALL_DIR}
+    )
+elseif (NOT SHADCN_BUILD_STATIC)
+    install(TARGETS ${SHADCN_TARGET}
+        RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+        LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR} NAMELINK_SKIP
+        ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR} EXCLUDE_FROM_ALL
+    )
 endif ()
-
-install(EXPORT ShadcnWidgetToolsTargets
-    NAMESPACE ShadcnWidgetTools::
-    FILE ShadcnWidgetToolsTargets.cmake
-    DESTINATION ${SHADCN_CMAKE_INSTALL_DIR}
-)
-
-configure_package_config_file(
-    "${CMAKE_CURRENT_SOURCE_DIR}/ShadcnWidgetToolsConfig.cmake.in"
-    "${CMAKE_CURRENT_BINARY_DIR}/ShadcnWidgetToolsConfig.cmake"
-    INSTALL_DESTINATION ${SHADCN_CMAKE_INSTALL_DIR}
-)
-write_basic_package_version_file(
-    "${CMAKE_CURRENT_BINARY_DIR}/ShadcnWidgetToolsConfigVersion.cmake"
-    VERSION ${PROJECT_VERSION}
-    COMPATIBILITY SameMajorVersion
-)
-install(FILES
-    "${CMAKE_CURRENT_BINARY_DIR}/ShadcnWidgetToolsConfig.cmake"
-    "${CMAKE_CURRENT_BINARY_DIR}/ShadcnWidgetToolsConfigVersion.cmake"
-    DESTINATION ${SHADCN_CMAKE_INSTALL_DIR}
-)

@@ -1,29 +1,32 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(ShadcnFramework VERSION 0.1.0 LANGUAGES CXX)
+project(ShadcnFramework VERSION 1.0.0 LANGUAGES CXX)
 
 message(STATUS "当前编译器: ${CMAKE_CXX_COMPILER_ID} ${CMAKE_CXX_COMPILER_VERSION}（${CMAKE_CXX_COMPILER}）")
 
-# 构建类型：多配置生成器（Visual Studio）提供 Debug / Release；单配置生成器（Ninja / Makefiles）未指定时默认 Release
-get_property(_shadcn_is_multi_config GLOBAL PROPERTY GENERATOR_IS_MULTI_CONFIG)
-if (_shadcn_is_multi_config)
-    set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "可用的构建配置" FORCE)
-else ()
-    if (NOT CMAKE_BUILD_TYPE)
-        set(CMAKE_BUILD_TYPE "Release" CACHE STRING "构建类型" FORCE)
+if (PROJECT_IS_TOP_LEVEL)
+    # 构建类型：多配置生成器（Visual Studio）提供 Debug / Release；单配置生成器（Ninja / Makefiles）未指定时默认 Release
+    get_property(_shadcn_is_multi_config GLOBAL PROPERTY GENERATOR_IS_MULTI_CONFIG)
+    if (_shadcn_is_multi_config)
+        set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "可用的构建配置" FORCE)
+    else ()
+        if (NOT CMAKE_BUILD_TYPE)
+            set(CMAKE_BUILD_TYPE "Release" CACHE STRING "构建类型" FORCE)
+        endif ()
+        set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release")
+        message(STATUS "当前构建类型: ${CMAKE_BUILD_TYPE}")
     endif ()
-    set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Debug" "Release")
-    message(STATUS "当前构建类型: ${CMAKE_BUILD_TYPE}")
+    unset(_shadcn_is_multi_config)
 endif ()
-unset(_shadcn_is_multi_config)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 源码按 UTF-8 读取，字符串字面量按 UTF-8 编码；MSVC 与 clang-cl 默认使用本地代码页，GCC 默认跟随 locale，Clang / AppleClang 固定为 UTF-8 无需设置
+set(SHADCN_UTF8_COMPILE_OPTIONS "")
 if (MSVC)
-    add_compile_options(/utf-8)
+    set(SHADCN_UTF8_COMPILE_OPTIONS /utf-8)
 elseif (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
-    add_compile_options(-finput-charset=UTF-8 -fexec-charset=UTF-8)
+    set(SHADCN_UTF8_COMPILE_OPTIONS -finput-charset=UTF-8 -fexec-charset=UTF-8)
 endif ()
 
 # Qt 路径由 -DQT_SDK_DIR、环境变量 QT_SDK_DIR 或 CMAKE_PREFIX_PATH 指定；WebAssembly 由 Qt 工具链文件指定
@@ -43,6 +46,8 @@ message(STATUS "当前 Qt 路径: ${SHADCN_QT_DIR}")
 qt_standard_project_setup(REQUIRES 6.5)
 
 option(SHADCN_BUILD_STATIC "以静态库方式编译 ShadcnWidgetTools" OFF)
+option(SHADCN_BUILD_EXAMPLE "编译示例程序 ShadcnWidgetToolsExample" ${PROJECT_IS_TOP_LEVEL})
+option(SHADCN_INSTALL "安装头文件、库与 CMake 包配置，供 find_package 使用" ${PROJECT_IS_TOP_LEVEL})
 option(SHADCN_EXAMPLE_AI_CHAT "示例程序编译 AI 对话页面，需要 Qt Network" ON)
 if (EMSCRIPTEN)
     set(SHADCN_BUILD_STATIC ON CACHE BOOL "以静态库方式编译 ShadcnWidgetTools" FORCE)
@@ -83,14 +88,18 @@ else ()
 endif ()
 message(STATUS "界面翻译: ${SHADCN_TRANSLATIONS_ENABLED}")
 
-if (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
-    set(CMAKE_INSTALL_PREFIX "${CMAKE_SOURCE_DIR}/install" CACHE PATH "安装路径" FORCE)
+if (PROJECT_IS_TOP_LEVEL)
+    if (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+        set(CMAKE_INSTALL_PREFIX "${CMAKE_SOURCE_DIR}/install" CACHE PATH "安装路径" FORCE)
+    endif ()
+
+    # 动态库与示例程序输出到同一目录，便于直接运行
+    set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+    set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
+    set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
 endif ()
 
-# 动态库与示例程序输出到同一目录，便于直接运行
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
-
 add_subdirectory(ShadcnWidgetTools)
-add_subdirectory(ShadcnWidgetToolsExample)
+if (SHADCN_BUILD_EXAMPLE)
+    add_subdirectory(ShadcnWidgetToolsExample)
+endif ()

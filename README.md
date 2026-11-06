@@ -17,7 +17,7 @@
 - **RTL**：跟随 Qt 的 `layoutDirection`，从右到左界面中绘制与交互全部镜像。
 - **多语言**：内置文字原文为简体中文，附带英文、繁体中文、日语与韩语翻译；`ShadI18n` 切换语言后组件文字即时刷新，也可注册应用自己的翻译。
 - **GPU 图表**：面积图、折线图、柱状图、散点图与热力图通过 QRhi 由 GPU 绘制，可选绘制 API，支持数十万个实时数据点，GPU 不可用时改用 CPU。
-- **构建**：CMake，动态库 / 静态库，install 后可通过 `find_package` 引用。
+- **构建**：CMake，动态库 / 静态库，可通过 `FetchContent` 直接引入源码，也可 install 后通过 `find_package` 引用。
 
 ## 组件
 
@@ -206,9 +206,39 @@ cmake --build --preset msvc-release
 |---|---|---|
 | `SHADCN_BUILD_STATIC` | `OFF` | 编译为静态库 |
 | `SHADCN_CHART_GPU` | `ON` | 图表使用 GPU 绘制，依赖不满足时只编译 CPU 绘制 |
+| `SHADCN_BUILD_EXAMPLE` | 顶层工程 `ON`，子工程 `OFF` | 编译示例程序 |
+| `SHADCN_INSTALL` | 顶层工程 `ON`，子工程 `OFF` | 安装头文件、库与 CMake 包配置；关闭时只安装动态库 |
 | `SHADCN_EXAMPLE_AI_CHAT` | `ON` | 示例程序编译 AI 对话页面，需要 Qt Network |
 
 编译后不复制 Qt 运行库：Windows 上需要把 Qt 的 `bin` 目录加入 `PATH` 再运行示例；执行 `cmake --install build/<preset>` 时会自动部署 Qt 运行库。
+
+## 在其他工程中使用
+
+推荐用 `FetchContent` 直接引入源码，组件库随工程一起编译：
+
+```cmake
+include(FetchContent)
+FetchContent_Declare(ShadcnWidgetTools
+    GIT_REPOSITORY https://github.com/RainbowCandyX/ShadcnWidgetTools.git
+    GIT_TAG v1.0.0
+    GIT_SHALLOW TRUE
+)
+FetchContent_MakeAvailable(ShadcnWidgetTools)
+
+target_link_libraries(MyApp PRIVATE ShadcnWidgetTools::ShadcnWidgetTools)
+```
+
+- 正式版本由 main 分支按 `CMakeLists.txt` 中的版本号发布为 `vX.Y.Z`，`GIT_TAG` 填 [Releases](https://github.com/RainbowCandyX/ShadcnWidgetTools/releases) 中的版本号。
+- 作为子工程时只编译组件库，不编译示例程序，也不修改上层工程的构建类型、输出目录与安装路径。
+- Windows 上动态库需要与程序在同一目录才能直接运行，在 `FetchContent_MakeAvailable` 之前设置 `CMAKE_RUNTIME_OUTPUT_DIRECTORY`，组件库会沿用该目录。
+- `cmake --install` 时只安装动态库本体（Windows 在 `bin`，Linux / macOS 在 `lib`），可配合 `qt_generate_deploy_app_script` 一起打包；需要完整开发包时设置 `SHADCN_INSTALL=ON`。
+
+也可以先在本仓库执行 `cmake --install build/<preset>`，再在其他工程中通过 `CMAKE_PREFIX_PATH` 指向安装目录引用：
+
+```cmake
+find_package(ShadcnWidgetTools REQUIRED)
+target_link_libraries(MyApp PRIVATE ShadcnWidgetTools::ShadcnWidgetTools)
+```
 
 ## WebAssembly 构建
 

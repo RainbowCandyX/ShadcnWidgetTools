@@ -675,26 +675,30 @@ void ShadImageViewerPrivate::saveImage()
     {
         path += QStringLiteral(".png");
     }
-    bool isSaved = false;
     const QFileInfo sourceInfo(sourcePath);
     const QFileInfo targetInfo(path);
-    if (!sourcePath.isEmpty() && sourceInfo.suffix().compare(targetInfo.suffix(), Qt::CaseInsensitive) == 0)
+    const bool isCopy = !sourcePath.isEmpty() && sourceInfo.suffix().compare(targetInfo.suffix(), Qt::CaseInsensitive) == 0;
+    if (isCopy && sourceInfo.absoluteFilePath() == targetInfo.absoluteFilePath())
     {
-        if (sourceInfo.absoluteFilePath() == targetInfo.absoluteFilePath())
+        return;
+    }
+    QThreadPool::globalInstance()->start([image, sourcePath, path, isCopy]()
+    {
+        bool isSaved = false;
+        if (isCopy)
         {
-            return;
+            QFile::remove(path);
+            isSaved = QFile::copy(sourcePath, path);
         }
-        QFile::remove(path);
-        isSaved = QFile::copy(sourcePath, path);
-    }
-    else
-    {
-        isSaved = image.save(path);
-    }
-    if (!isSaved)
-    {
-        qWarning("保存图片失败: %s", qUtf8Printable(path));
-    }
+        else
+        {
+            isSaved = image.save(path);
+        }
+        if (!isSaved)
+        {
+            qWarning("保存图片失败: %s", qUtf8Printable(path));
+        }
+    });
 }
 
 bool ShadImageViewerPrivate::eventFilter(QObject* watched, QEvent* event)

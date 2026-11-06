@@ -16,6 +16,7 @@
 #include <QPen>
 #include <QPoint>
 #include <QPointF>
+#include <QPointer>
 #include <QRect>
 #include <QRectF>
 #include <QSize>
@@ -223,18 +224,27 @@ void ShadScreenshotPin::copyImage()
 
 void ShadScreenshotPin::saveImage()
 {
-    QString filePath;
-    switch (ShadScreenshotFile::save(this, _image, &filePath))
+    const QString filePath = ShadScreenshotFile::choosePath(this);
+    if (filePath.isEmpty())
     {
-        case ShadScreenshotFile::Result::Saved:
-            Q_EMIT saved(filePath);
-            break;
-        case ShadScreenshotFile::Result::Failed:
-            Q_EMIT saveFailed(filePath);
-            break;
-        case ShadScreenshotFile::Result::Cancelled:
-            break;
+        return;
     }
+    const QPointer<ShadScreenshotPin> pin(this);
+    ShadScreenshotFile::save(_image, filePath, [pin, filePath](bool isSaved)
+    {
+        if (pin.isNull())
+        {
+            return;
+        }
+        if (isSaved)
+        {
+            Q_EMIT pin->saved(filePath);
+        }
+        else
+        {
+            Q_EMIT pin->saveFailed(filePath);
+        }
+    });
 }
 
 void ShadScreenshotPin::rebuildMenu()

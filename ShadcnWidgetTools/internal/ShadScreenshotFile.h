@@ -4,18 +4,15 @@
 #include <QImage>
 #include <QString>
 
+#include <functional>
+
 class QWidget;
 
 namespace ShadScreenshotFile
 {
-    enum class Result
-    {
-        Saved = 0,
-        Failed,
-        Cancelled,
-    };
+    QString choosePath(QWidget* parent);
 
-    Result save(QWidget* parent, const QImage& image, QString* filePath);
+    void save(const QImage& image, const QString& path, const std::function<void(bool isSaved)>& onFinished);
 }
 
 #endif

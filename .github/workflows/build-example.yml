@@ -1,5 +1,5 @@
 # 自动编译 ShadcnWidgetToolsExample
-# 在 Windows / Linux / macOS 最新系统镜像上使用 Qt 6.12.0 构建示例程序，main 分支推送后发布到 GitHub Release
+# 在 Windows / Linux / macOS 最新系统镜像上使用 Qt 6.12.0 构建示例程序
 
 name: Build Example
 
@@ -140,11 +140,17 @@ jobs:
     name: 发布到 GitHub Release
     needs: build
     runs-on: ubuntu-latest
-    # 仅 main 分支推送与手动触发会发布，PR 不发布
-    if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
+    # 只有 main 分支发布正式版本，PR 不发布
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     permissions:
       contents: write
     steps:
+      - name: Checkout 版本号
+        uses: actions/checkout@v7
+        with:
+          sparse-checkout: CMakeLists.txt
+          sparse-checkout-cone-mode: false
+
       # skip-decompress 保持压缩包原样，否则 Windows 的 zip 会被自动解压
       - name: 下载所有平台产物
         uses: actions/download-artifact@v8
@@ -154,31 +160,52 @@ jobs:
           merge-multiple: true
           skip-decompress: true
 
-      - name: 用日期生成 tag 并清理同日旧 release
+      - name: 确定 tag 并清理旧 release
         id: meta
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           ls -lh dist/
-          # tag 格式 vYYYY.MM.DD（UTC）
-          tag="v$(date -u +%Y.%m.%d)"
-          # 同日已有 release 时连同 tag 一并删除，让 tag 指向本次构建的提交
-          if gh release view "$tag" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
-            echo "存在同日 release $tag，删除后重建"
-            gh release delete "$tag" --yes --cleanup-tag --repo "$GITHUB_REPOSITORY"
+          version=$(sed -n 's/^project(ShadcnFramework VERSION \([0-9.]*\).*/\1/p' CMakeLists.txt)
+          tag="v${version}"
+          skip=false
+          # 已发布的版本不覆盖，发布新版本需先修改 project() 的版本号
+          tags=$(git ls-remote --tags origin)
+          tag_sha=$(echo "$tags" | awk -v ref="refs/tags/${tag}^{}" '$2 == ref { print $1 }')
+          if [ -z "$tag_sha" ]; then
+            tag_sha=$(echo "$tags" | awk -v ref="refs/tags/${tag}" '$2 == ref { print $1 }')
           fi
-          echo "tag=$tag" >> "$GITHUB_OUTPUT"
-          echo "short_sha=${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+          # tag 已存在时不传 target_commitish，否则 action-gh-release 会尝试改写 tag 而返回 403
+          target=""
+          if [ -z "$tag_sha" ]; then
+            target="$GITHUB_SHA"
+          fi
+          if [ -n "$tag_sha" ] && [ "$tag_sha" != "$GITHUB_SHA" ]; then
+            echo "::warning::${tag} 已发布在提交 ${tag_sha::7} 上，本次不发布；发布新版本需修改 CMakeLists.txt 中的版本号"
+            skip=true
+          elif gh release view "$tag" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            echo "已存在 release $tag，删除后重建"
+            gh release delete "$tag" --yes --repo "$GITHUB_REPOSITORY"
+          fi
+          {
+            echo "skip=$skip"
+            echo "tag=$tag"
+            echo "target=$target"
+            echo "short_sha=${GITHUB_SHA::7}"
+          } >> "$GITHUB_OUTPUT"
 
       - name: 创建 Release 并上传产物
+        if: steps.meta.outputs.skip != 'true'
         uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ steps.meta.outputs.tag }}
           name: ${{ steps.meta.outputs.tag }}
-          target_commitish: ${{ github.sha }}
+          target_commitish: ${{ steps.meta.outputs.target }}
           body: |
             ShadcnWidgetTools 示例程序预编译包，基于 Qt ${{ env.QT_VERSION }} 自动构建，对应提交 [${{ steps.meta.outputs.short_sha }}](https://github.com/${{ github.repository }}/commit/${{ github.sha }})。
+
+            在其他工程中通过 FetchContent 引入组件库时，GIT_TAG 填 `${{ steps.meta.outputs.tag }}`。
 
             ## 下载
 

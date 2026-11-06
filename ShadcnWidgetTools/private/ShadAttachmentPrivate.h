@@ -2,6 +2,7 @@
 #define SHADATTACHMENTPRIVATE_H
 
 #include <QFont>
+#include <QImage>
 #include <QList>
 #include <QPixmap>
 #include <QPointer>
@@ -73,7 +74,7 @@ class ShadAttachmentPrivate
         static ShadIconType::IconName iconForSuffix(const QString& suffix);
         static QString formatFileSize(qint64 bytes);
         // 按缩略图尺寸解码图片，失败时返回空图片并写日志
-        static QPixmap loadThumbnail(const QString& path);
+        static QImage loadThumbnail(const QString& path);
 
         bool hasMedia() const;
         bool hasContent() const;
@@ -104,6 +105,7 @@ class ShadAttachmentPrivate
         Qt::Orientation _orientation{Qt::Horizontal};
         ShadIconType::IconName _icon{ShadIconType::None};
         QPixmap _image;
+        quint64 _thumbnailSerial{0};
         QString _title;
         QString _description;
         QList<QPointer<ShadButton>> _actions;

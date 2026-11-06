@@ -43,6 +43,8 @@ if (SHADCN_TRANSLATIONS_ENABLED)
     unset(_example_translation_sources)
 endif ()
 
+target_compile_options(${EXAMPLE_TARGET} PRIVATE ${SHADCN_UTF8_COMPILE_OPTIONS})
+
 target_include_directories(${EXAMPLE_TARGET} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/ExamplePage

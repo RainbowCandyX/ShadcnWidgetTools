@@ -4,6 +4,7 @@
 #include <QByteArray>
 #include <QClipboard>
 #include <QContextMenuEvent>
+#include <QCoreApplication>
 #include <QDir>
 #include <QEasingCurve>
 #include <QEnterEvent>
@@ -13,6 +14,7 @@
 #include <QFontMetricsF>
 #include <QGuiApplication>
 #include <QHideEvent>
+#include <QImage>
 #include <QImageReader>
 #include <QKeyEvent>
 #include <QMetaObject>
@@ -23,6 +25,7 @@
 #include <QRectF>
 #include <QResizeEvent>
 #include <QShowEvent>
+#include <QThreadPool>
 #include <QVariant>
 #include <QVariantAnimation>
 
@@ -166,6 +169,7 @@ ShadIconType::IconName ShadAttachment::getShadIcon() const
 void ShadAttachment::setImage(const QPixmap& image)
 {
     Q_D(ShadAttachment);
+    ++d->_thumbnailSerial;
     d->_image = image;
     d->updateContent();
 }
@@ -317,9 +321,32 @@ bool ShadAttachment::setFile(const QString& path)
     d->_title = info.fileName();
     d->_description = QStringLiteral("%1 · %2").arg(typeText, ShadAttachmentPrivate::formatFileSize(info.size()));
     d->_icon = ShadAttachmentPrivate::iconForSuffix(suffix);
+    d->_image = QPixmap();
+    const quint64 serial = ++d->_thumbnailSerial;
     // 只有 Qt 能解码的图片格式才读取缩略图，读取失败时保留类型图标
-    const bool isImage = QImageReader::supportedImageFormats().contains(suffix.toLower().toLatin1());
-    d->_image = isImage ? ShadAttachmentPrivate::loadThumbnail(info.absoluteFilePath()) : QPixmap();
+    if (QImageReader::supportedImageFormats().contains(suffix.toLower().toLatin1()))
+    {
+        const QPointer<ShadAttachment> attachment(this);
+        const QString filePath = info.absoluteFilePath();
+        QThreadPool::globalInstance()->start([attachment, filePath, serial]()
+        {
+            const QImage image = ShadAttachmentPrivate::loadThumbnail(filePath);
+            QCoreApplication* application = QCoreApplication::instance();
+            if (application == nullptr)
+            {
+                return;
+            }
+            QMetaObject::invokeMethod(application, [attachment, image, serial]()
+            {
+                if (attachment.isNull() || attachment->d_func()->_thumbnailSerial != serial || image.isNull())
+                {
+                    return;
+                }
+                attachment->d_func()->_image = QPixmap::fromImage(image);
+                attachment->d_func()->updateContent();
+            }, Qt::QueuedConnection);
+        });
+    }
     d->updateContent();
     return true;
 }

@@ -230,7 +230,7 @@ MainWindow::MainWindow(QWidget* parent)
     // 点击回到首页，不占用选中项
     ShadSidebarMenuButton* brandButton = new ShadSidebarMenuButton(ShadIconType::Component, QStringLiteral("ShadcnWidgetTools"), _sidebar);
     brandButton->setButtonSize(ShadSidebarMenuButtonType::Large);
-    brandButton->setDescription(QStringLiteral("v0.1"));
+    brandButton->setDescription(QStringLiteral("v1.0"));
     brandButton->setSelectable(false);
     connect(brandButton, &ShadSidebarMenuButton::clicked, this, [this]()
     {

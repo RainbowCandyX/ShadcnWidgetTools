@@ -188,7 +188,7 @@ QString ShadAttachmentPrivate::formatFileSize(qint64 bytes)
     return QStringLiteral("%1 GB").arg(megabytes / kUnit, 0, 'f', 1);
 }
 
-QPixmap ShadAttachmentPrivate::loadThumbnail(const QString& path)
+QImage ShadAttachmentPrivate::loadThumbnail(const QString& path)
 {
     // 纵向图标区最大约 108px，按 2 倍像素比取 256px，只按该尺寸解码，大图不会整张读入内存
     constexpr int kThumbnailSize = 256;
@@ -203,9 +203,8 @@ QPixmap ShadAttachmentPrivate::loadThumbnail(const QString& path)
     if (image.isNull())
     {
         qWarning("读取图片缩略图失败：%s，%s", qUtf8Printable(QDir::toNativeSeparators(path)), qUtf8Printable(reader.errorString()));
-        return QPixmap();
     }
-    return QPixmap::fromImage(image);
+    return image;
 }
 
 bool ShadAttachmentPrivate::hasMedia() const

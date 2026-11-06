@@ -119,20 +119,27 @@ void ShadScreenshotPrivate::save(const QImage& image)
 {
     Q_Q(ShadScreenshot);
     closeOverlays();
-    QString filePath;
-    switch (ShadScreenshotFile::save(_host.data(), image, &filePath))
+    const QString filePath = ShadScreenshotFile::choosePath(_host.data());
+    if (filePath.isEmpty())
     {
-        case ShadScreenshotFile::Result::Cancelled:
-            Q_EMIT q->canceled();
-            return;
-        case ShadScreenshotFile::Result::Failed:
-            Q_EMIT q->saveFailed(filePath);
-            return;
-        case ShadScreenshotFile::Result::Saved:
-            break;
+        Q_EMIT q->canceled();
+        return;
     }
-    Q_EMIT q->captured(image);
-    Q_EMIT q->saved(filePath);
+    const QPointer<ShadScreenshot> screenshot(q);
+    ShadScreenshotFile::save(image, filePath, [screenshot, image, filePath](bool isSaved)
+    {
+        if (screenshot.isNull())
+        {
+            return;
+        }
+        if (!isSaved)
+        {
+            Q_EMIT screenshot->saveFailed(filePath);
+            return;
+        }
+        Q_EMIT screenshot->captured(image);
+        Q_EMIT screenshot->saved(filePath);
+    });
 }
 
 void ShadScreenshotPrivate::pin(const QImage& image, const QPoint& globalPosition)
