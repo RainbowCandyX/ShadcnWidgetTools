@@ -1,8 +1,10 @@
 # ShadcnWidgetTools
 
-![Qt](https://img.shields.io/badge/Qt-6.7%2B-41CD52) ![C++](https://img.shields.io/badge/C%2B%2B-17-00599C) ![Windows](https://img.shields.io/badge/Windows-x64-61C263) ![macOS](https://img.shields.io/badge/macOS-supported-61C263) ![Linux](https://img.shields.io/badge/Linux-untested-lightgrey) ![License](https://img.shields.io/badge/License-MIT-blue)
+![Qt](https://img.shields.io/badge/Qt-6.7%2B-41CD52) ![C++](https://img.shields.io/badge/C%2B%2B-17-00599C) ![Windows](https://img.shields.io/badge/Windows-x64-61C263) ![macOS](https://img.shields.io/badge/macOS-supported-61C263) ![Linux](https://img.shields.io/badge/Linux-untested-lightgrey) ![License](https://img.shields.io/badge/License-MIT-blue) [![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-1128537765-12B7F5?logo=qq&logoColor=white)](https://qm.qq.com/q/wJMTPn2Qow)
 
 基于 Qt 6 Widgets 的 [shadcn/ui](https://ui.shadcn.com) 风格组件库。组件全部自绘，不依赖 QSS，外观与交互尽量与 shadcn/ui v4 保持一致，内置 [Lucide](https://lucide.dev) 图标字体。
+
+交流 QQ 群：1128537765，点击链接加入群聊 [ShadcnWidgetTools](https://qm.qq.com/q/wJMTPn2Qow)
 
 ## 特性
 
