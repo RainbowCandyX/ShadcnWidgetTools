@@ -1858,6 +1858,57 @@
     </message>
 </context>
 <context>
+    <name>ChartCandlestickPage</name>
+    <message>
+        <source>K 线图</source>
+        <translation>ローソク足チャート</translation>
+    </message>
+    <message>
+        <source>ShadCandlestickChart：GPU 绘制的 K 线图（蜡烛图），GPU 不可用时改用 CPU。</source>
+        <translation>ShadCandlestickChart：GPU で描画するローソク足チャートです。GPU が使えない場合は CPU で描画します。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>デフォルト</translation>
+    </message>
+    <message>
+        <source>120 根日 K，价格轴在右侧；悬停显示十字线与开高低收</source>
+        <translation>日足 120 本、価格軸は右側です。ホバーで十字線と四本値を表示します</translation>
+    </message>
+    <message>
+        <source>均线与成交量</source>
+        <translation>移動平均と出来高</translation>
+    </message>
+    <message>
+        <source>setMovingAverages({5, 10, 20}) 显示均线，setVolumeVisible(true) 显示成交量副图，setZoomEnabled(true) 可滚轮缩放、拖动平移</source>
+        <translation>setMovingAverages({5, 10, 20}) で移動平均線、setVolumeVisible(true) で出来高チャートを表示し、setZoomEnabled(true) でホイールズームとドラッグ移動ができます</translation>
+    </message>
+    <message>
+        <source>绿涨红跌</source>
+        <translation>緑で上昇、赤で下落</translation>
+    </message>
+    <message>
+        <source>涨跌配色</source>
+        <translation>騰落の配色</translation>
+    </message>
+    <message>
+        <source>setColorScheme(GreenRising) 切换为绿涨红跌，开关可随时切换</source>
+        <translation>setColorScheme(GreenRising) で緑で上昇、赤で下落に切り替えます。スイッチでいつでも切り替えられます</translation>
+    </message>
+    <message>
+        <source>实时行情</source>
+        <translation>リアルタイム相場</translation>
+    </message>
+    <message>
+        <source>updateLastCandle 每 200 毫秒更新最后一根，每 3 秒 appendCandles 追加一根，只保留最近 120 根</source>
+        <translation>updateLastCandle で 200 ミリ秒ごとに最後の 1 本を更新し、3 秒ごとに appendCandles で 1 本追加します。最新の 120 本のみ保持します</translation>
+    </message>
+    <message>
+        <source>开始行情</source>
+        <translation>相場開始</translation>
+    </message>
+</context>
+<context>
     <name>ChartHeatmapPage</name>
     <message>
         <source>周一</source>

@@ -1858,6 +1858,57 @@ Opened with the system default application when the attachment card is clicked.
     </message>
 </context>
 <context>
+    <name>ChartCandlestickPage</name>
+    <message>
+        <source>K 线图</source>
+        <translation>Candlestick Chart</translation>
+    </message>
+    <message>
+        <source>ShadCandlestickChart：GPU 绘制的 K 线图（蜡烛图），GPU 不可用时改用 CPU。</source>
+        <translation>ShadCandlestickChart: a GPU-rendered candlestick chart that falls back to the CPU when no GPU is available.</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>Default</translation>
+    </message>
+    <message>
+        <source>120 根日 K，价格轴在右侧；悬停显示十字线与开高低收</source>
+        <translation>120 daily candles with the price axis on the right; hover shows the crosshair and OHLC</translation>
+    </message>
+    <message>
+        <source>均线与成交量</source>
+        <translation>Moving Averages and Volume</translation>
+    </message>
+    <message>
+        <source>setMovingAverages({5, 10, 20}) 显示均线，setVolumeVisible(true) 显示成交量副图，setZoomEnabled(true) 可滚轮缩放、拖动平移</source>
+        <translation>setMovingAverages({5, 10, 20}) shows moving averages, setVolumeVisible(true) shows the volume pane, setZoomEnabled(true) enables wheel zoom and drag panning</translation>
+    </message>
+    <message>
+        <source>绿涨红跌</source>
+        <translation>Green Up, Red Down</translation>
+    </message>
+    <message>
+        <source>涨跌配色</source>
+        <translation>Color Scheme</translation>
+    </message>
+    <message>
+        <source>setColorScheme(GreenRising) 切换为绿涨红跌，开关可随时切换</source>
+        <translation>setColorScheme(GreenRising) switches to green up, red down; the switch toggles it at any time</translation>
+    </message>
+    <message>
+        <source>实时行情</source>
+        <translation>Live Quotes</translation>
+    </message>
+    <message>
+        <source>updateLastCandle 每 200 毫秒更新最后一根，每 3 秒 appendCandles 追加一根，只保留最近 120 根</source>
+        <translation>updateLastCandle updates the last candle every 200 ms, appendCandles adds a candle every 3 seconds, keeping only the latest 120</translation>
+    </message>
+    <message>
+        <source>开始行情</source>
+        <translation>Start quotes</translation>
+    </message>
+</context>
+<context>
     <name>ChartHeatmapPage</name>
     <message>
         <source>周一</source>

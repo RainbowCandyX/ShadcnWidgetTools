@@ -1858,6 +1858,57 @@
     </message>
 </context>
 <context>
+    <name>ChartCandlestickPage</name>
+    <message>
+        <source>K 线图</source>
+        <translation>캔들스틱 차트</translation>
+    </message>
+    <message>
+        <source>ShadCandlestickChart：GPU 绘制的 K 线图（蜡烛图），GPU 不可用时改用 CPU。</source>
+        <translation>ShadCandlestickChart: GPU로 그리는 캔들스틱 차트이며 GPU를 사용할 수 없으면 CPU로 전환합니다.</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>기본</translation>
+    </message>
+    <message>
+        <source>120 根日 K，价格轴在右侧；悬停显示十字线与开高低收</source>
+        <translation>일봉 120개, 가격 축은 오른쪽에 있으며 마우스를 올리면 십자선과 시가, 고가, 저가, 종가를 표시합니다</translation>
+    </message>
+    <message>
+        <source>均线与成交量</source>
+        <translation>이동평균선과 거래량</translation>
+    </message>
+    <message>
+        <source>setMovingAverages({5, 10, 20}) 显示均线，setVolumeVisible(true) 显示成交量副图，setZoomEnabled(true) 可滚轮缩放、拖动平移</source>
+        <translation>setMovingAverages({5, 10, 20})로 이동평균선을, setVolumeVisible(true)로 거래량 차트를 표시하며 setZoomEnabled(true)로 휠 확대/축소와 드래그 이동을 사용할 수 있습니다</translation>
+    </message>
+    <message>
+        <source>绿涨红跌</source>
+        <translation>녹색 상승, 빨간색 하락</translation>
+    </message>
+    <message>
+        <source>涨跌配色</source>
+        <translation>등락 색상</translation>
+    </message>
+    <message>
+        <source>setColorScheme(GreenRising) 切换为绿涨红跌，开关可随时切换</source>
+        <translation>setColorScheme(GreenRising)로 녹색 상승, 빨간색 하락으로 전환하며 스위치로 언제든지 전환할 수 있습니다</translation>
+    </message>
+    <message>
+        <source>实时行情</source>
+        <translation>실시간 시세</translation>
+    </message>
+    <message>
+        <source>updateLastCandle 每 200 毫秒更新最后一根，每 3 秒 appendCandles 追加一根，只保留最近 120 根</source>
+        <translation>updateLastCandle로 200밀리초마다 마지막 캔들을 갱신하고 3초마다 appendCandles로 하나를 추가하며 최근 120개만 유지합니다</translation>
+    </message>
+    <message>
+        <source>开始行情</source>
+        <translation>시세 시작</translation>
+    </message>
+</context>
+<context>
     <name>ChartHeatmapPage</name>
     <message>
         <source>周一</source>

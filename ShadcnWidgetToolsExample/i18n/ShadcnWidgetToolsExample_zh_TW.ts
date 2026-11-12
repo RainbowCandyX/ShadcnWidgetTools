@@ -1858,6 +1858,57 @@
     </message>
 </context>
 <context>
+    <name>ChartCandlestickPage</name>
+    <message>
+        <source>K 线图</source>
+        <translation>K 線圖</translation>
+    </message>
+    <message>
+        <source>ShadCandlestickChart：GPU 绘制的 K 线图（蜡烛图），GPU 不可用时改用 CPU。</source>
+        <translation>ShadCandlestickChart：由 GPU 繪製的 K 線圖（蠟燭圖），GPU 無法使用時改用 CPU。</translation>
+    </message>
+    <message>
+        <source>默认</source>
+        <translation>預設</translation>
+    </message>
+    <message>
+        <source>120 根日 K，价格轴在右侧；悬停显示十字线与开高低收</source>
+        <translation>120 根日 K，價格軸在右側；滑鼠停留顯示十字線與開高低收</translation>
+    </message>
+    <message>
+        <source>均线与成交量</source>
+        <translation>均線與成交量</translation>
+    </message>
+    <message>
+        <source>setMovingAverages({5, 10, 20}) 显示均线，setVolumeVisible(true) 显示成交量副图，setZoomEnabled(true) 可滚轮缩放、拖动平移</source>
+        <translation>setMovingAverages({5, 10, 20}) 顯示均線，setVolumeVisible(true) 顯示成交量副圖，setZoomEnabled(true) 可滾輪縮放、拖曳平移</translation>
+    </message>
+    <message>
+        <source>绿涨红跌</source>
+        <translation>綠漲紅跌</translation>
+    </message>
+    <message>
+        <source>涨跌配色</source>
+        <translation>漲跌配色</translation>
+    </message>
+    <message>
+        <source>setColorScheme(GreenRising) 切换为绿涨红跌，开关可随时切换</source>
+        <translation>setColorScheme(GreenRising) 切換為綠漲紅跌，開關可隨時切換</translation>
+    </message>
+    <message>
+        <source>实时行情</source>
+        <translation>即時行情</translation>
+    </message>
+    <message>
+        <source>updateLastCandle 每 200 毫秒更新最后一根，每 3 秒 appendCandles 追加一根，只保留最近 120 根</source>
+        <translation>updateLastCandle 每 200 毫秒更新最後一根，每 3 秒 appendCandles 追加一根，只保留最近 120 根</translation>
+    </message>
+    <message>
+        <source>开始行情</source>
+        <translation>開始行情</translation>
+    </message>
+</context>
+<context>
     <name>ChartHeatmapPage</name>
     <message>
         <source>周一</source>

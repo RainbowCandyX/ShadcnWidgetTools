@@ -100,6 +100,33 @@
     </message>
 </context>
 <context>
+    <name>ShadCandlestickChart</name>
+    <message>
+        <source>开盘</source>
+        <translation>Open</translation>
+    </message>
+    <message>
+        <source>最高</source>
+        <translation>High</translation>
+    </message>
+    <message>
+        <source>最低</source>
+        <translation>Low</translation>
+    </message>
+    <message>
+        <source>收盘</source>
+        <translation>Close</translation>
+    </message>
+    <message>
+        <source>涨跌幅</source>
+        <translation>Change</translation>
+    </message>
+    <message>
+        <source>成交量</source>
+        <translation>Volume</translation>
+    </message>
+</context>
+<context>
     <name>ShadCarousel</name>
     <message>
         <source>上一张</source>

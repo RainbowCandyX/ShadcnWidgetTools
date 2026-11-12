@@ -16,7 +16,7 @@
 - **动画**：标签与页面切换带过渡动画，开关、时长与风格由 `ShadTheme` 统一配置；侧栏指示条、手风琴等动画时长可调。
 - **RTL**：跟随 Qt 的 `layoutDirection`，从右到左界面中绘制与交互全部镜像。
 - **多语言**：内置文字原文为简体中文，附带英文、繁体中文、日语与韩语翻译；`ShadI18n` 切换语言后组件文字即时刷新，也可注册应用自己的翻译。
-- **GPU 图表**：面积图、折线图、柱状图、散点图与热力图通过 QRhi 由 GPU 绘制，可选绘制 API，支持数十万个实时数据点，GPU 不可用时改用 CPU。
+- **GPU 图表**：面积图、折线图、柱状图、散点图、热力图与 K 线图通过 QRhi 由 GPU 绘制，可选绘制 API，支持数十万个实时数据点，GPU 不可用时改用 CPU。
 - **构建**：CMake，动态库 / 静态库，可通过 `FetchContent` 直接引入源码，也可 install 后通过 `find_package` 引用。
 
 ## 组件
@@ -113,6 +113,7 @@
 | ShadBarChart | 柱状图 | GPU 绘制，可堆叠 |
 | ShadScatterChart | 散点图 | GPU 绘制，增量追加数据点 |
 | ShadHeatmap | 热力图 | GPU 绘制，支持瀑布图 |
+| ShadCandlestickChart | K 线图 | GPU 绘制，均线，成交量副图，实时更新 |
 | ShadStatistic | 统计数值 | 数值滚动动画，前后缀，涨跌趋势，倒计时 |
 | ShadCodeBlock | 代码块 | 标题栏、复制按钮、行号与增删标记 |
 | ShadMarkdownView | Markdown | GitHub 风格 Markdown，代码块高亮与复制，流式追加 |
@@ -220,7 +221,7 @@ cmake --build --preset msvc-release
 include(FetchContent)
 FetchContent_Declare(ShadcnWidgetTools
     GIT_REPOSITORY https://github.com/RainbowCandyX/ShadcnWidgetTools.git
-    GIT_TAG v1.0.0
+    GIT_TAG v1.1.0
     GIT_SHALLOW TRUE
 )
 FetchContent_MakeAvailable(ShadcnWidgetTools)

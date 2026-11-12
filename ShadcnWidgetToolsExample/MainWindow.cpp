@@ -35,6 +35,7 @@
 #include "CarouselPage.h"
 #include "ChartAreaPage.h"
 #include "ChartBarPage.h"
+#include "ChartCandlestickPage.h"
 #include "ChartHeatmapPage.h"
 #include "ChartLinePage.h"
 #include "ChartScatterPage.h"
@@ -230,7 +231,7 @@ MainWindow::MainWindow(QWidget* parent)
     // 点击回到首页，不占用选中项
     ShadSidebarMenuButton* brandButton = new ShadSidebarMenuButton(ShadIconType::Component, QStringLiteral("ShadcnWidgetTools"), _sidebar);
     brandButton->setButtonSize(ShadSidebarMenuButtonType::Large);
-    brandButton->setDescription(QStringLiteral("v1.0"));
+    brandButton->setDescription(QStringLiteral("v1.1"));
     brandButton->setSelectable(false);
     connect(brandButton, &ShadSidebarMenuButton::clicked, this, [this]()
     {
@@ -364,6 +365,7 @@ MainWindow::MainWindow(QWidget* parent)
     addCategoryPage(dataCategory, new ChartBarPage(_pageStack));
     addCategoryPage(dataCategory, new ChartScatterPage(_pageStack));
     addCategoryPage(dataCategory, new ChartHeatmapPage(_pageStack));
+    addCategoryPage(dataCategory, new ChartCandlestickPage(_pageStack));
     addCategoryPage(dataCategory, new StatisticPage(_pageStack));
     addCategoryPage(dataCategory, new CodeBlockPage(_pageStack));
     addCategoryPage(dataCategory, new MarkdownViewPage(_pageStack));

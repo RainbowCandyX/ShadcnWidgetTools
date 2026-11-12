@@ -965,6 +965,15 @@ namespace ShadChartType
     };
 
     Q_ENUM_NS(RenderApi)
+
+    // K 线涨跌配色，红色 #ef4444，绿色 #22c55e
+    enum CandleColorScheme
+    {
+        RedRising = 0,
+        GreenRising,
+    };
+
+    Q_ENUM_NS(CandleColorScheme)
 } // namespace ShadChartType
 
 namespace ShadEmptyType
