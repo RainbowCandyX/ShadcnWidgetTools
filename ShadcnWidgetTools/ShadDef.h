@@ -593,7 +593,7 @@ namespace ShadWindowType
 {
     Q_NAMESPACE_EXPORT (SHADCN_EXPORT)
 
-    // StayOnTopButton 默认隐藏，AllButtons 不包含它
+    // 标题栏按钮，每个按钮由一个标志位单独控制
     enum ButtonFlag
     {
         NoButton        = 0x0,
@@ -601,7 +601,9 @@ namespace ShadWindowType
         MaximizeButton  = 0x2,
         CloseButton     = 0x4,
         StayOnTopButton = 0x8,
-        AllButtons      = MinimizeButton | MaximizeButton | CloseButton,
+        // 切换主题会关闭跟随系统
+        ThemeButton     = 0x10,
+        AllButtons      = MinimizeButton | MaximizeButton | CloseButton | StayOnTopButton | ThemeButton,
     };
 
     Q_DECLARE_FLAGS(ButtonFlags, ButtonFlag)
@@ -1101,5 +1103,18 @@ namespace ShadBiometricType
 
     Q_ENUM_NS(Error)
 }
+
+namespace ShadDiffViewType
+{
+    Q_NAMESPACE_EXPORT (SHADCN_EXPORT)
+
+    enum Mode
+    {
+        Unified = 0,
+        Split,
+    };
+
+    Q_ENUM_NS(Mode)
+} // namespace ShadDiffViewType
 
 #endif // SHADDEF_H

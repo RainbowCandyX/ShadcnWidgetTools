@@ -22,6 +22,7 @@
 #include "ShadLabel.h"
 #include "ShadStyleHelper.h"
 #include "ShadTabViewBar.h"
+#include "ShadTheme.h"
 #include "ShadWindowButton.h"
 
 namespace
@@ -56,9 +57,9 @@ ShadTitleBar::ShadTitleBar(QWidget* window)
     _rightAreaLayout->setContentsMargins(0, 0, 0, 0);
     _rightAreaLayout->setSpacing(0);
 
+    _themeButton = new ShadWindowButton(ShadWindowButton::Kind::Theme, this);
     _stayOnTopButton = new ShadWindowButton(ShadWindowButton::Kind::StayOnTop, this);
     _stayOnTopButton->setCheckable(true);
-    _stayOnTopButton->setVisible(false);
     _minimizeButton = new ShadWindowButton(ShadWindowButton::Kind::Minimize, this);
     _maximizeButton = new ShadWindowButton(ShadWindowButton::Kind::Maximize, this);
     _closeButton = new ShadWindowButton(ShadWindowButton::Kind::Close, this);
@@ -74,6 +75,9 @@ ShadTitleBar::ShadTitleBar(QWidget* window)
     _mainLayout->addLayout(_rightAreaLayout);
     updateButtonLayout();
 
+    // 主题为全局设置，切换后会关闭跟随系统
+    connect(_themeButton, &QAbstractButton::clicked, this, []() { shadTheme->setThemeMode(shadTheme->isDark() ? ShadThemeType::Light : ShadThemeType::Dark); });
+    connect(shadTheme, &ShadTheme::themeModeChanged, this, [this]() { updateThemeButton(); });
     // 点击后按钮已切换勾选状态，按新状态设置窗口
     connect(_stayOnTopButton, &QAbstractButton::clicked, this, [this](bool checked) { setStayOnTop(checked); });
     connect(_minimizeButton, &QAbstractButton::clicked, this, [this]() { _window->showMinimized(); });
@@ -85,6 +89,7 @@ ShadTitleBar::ShadTitleBar(QWidget* window)
     updateWindowIcon();
     updateWindowTitle();
     updateStayOnTopButton();
+    updateThemeButton();
 }
 
 ShadTitleBar::~ShadTitleBar()
@@ -94,6 +99,7 @@ ShadTitleBar::~ShadTitleBar()
 void ShadTitleBar::setBarHeight(int height)
 {
     setFixedHeight(height);
+    _themeButton->setFixedSize(ShadWindowButton::kButtonWidth, height);
     _stayOnTopButton->setFixedSize(ShadWindowButton::kButtonWidth, height);
     _minimizeButton->setFixedSize(ShadWindowButton::kButtonWidth, height);
     _maximizeButton->setFixedSize(ShadWindowButton::kButtonWidth, height);
@@ -103,6 +109,7 @@ void ShadTitleBar::setBarHeight(int height)
 void ShadTitleBar::setButtonFlags(ShadWindowType::ButtonFlags buttonFlags)
 {
     _buttonFlags = buttonFlags;
+    _themeButton->setVisible(buttonFlags.testFlag(ShadWindowType::ThemeButton));
     _stayOnTopButton->setVisible(buttonFlags.testFlag(ShadWindowType::StayOnTopButton));
     _minimizeButton->setVisible(buttonFlags.testFlag(ShadWindowType::MinimizeButton));
     _maximizeButton->setVisible(buttonFlags.testFlag(ShadWindowType::MaximizeButton));
@@ -262,6 +269,7 @@ void ShadTitleBar::updateMaximizeState()
 void ShadTitleBar::setWindowActive(bool isActive)
 {
     _titleLabel->setColorRole(isActive ? ShadThemeType::Foreground : ShadThemeType::MutedForeground);
+    _themeButton->setWindowActive(isActive);
     _stayOnTopButton->setWindowActive(isActive);
     _minimizeButton->setWindowActive(isActive);
     _maximizeButton->setWindowActive(isActive);
@@ -272,8 +280,9 @@ void ShadTitleBar::changeEvent(QEvent* event)
 {
     if (event->type() == QEvent::LanguageChange)
     {
-        // 刷新置顶按钮的提示
+        // 刷新按钮的提示
         updateStayOnTopButton();
+        updateThemeButton();
     }
     QWidget::changeEvent(event);
 }
@@ -377,6 +386,12 @@ void ShadTitleBar::updateStayOnTopButton()
     _stayOnTopButton->update();
 }
 
+void ShadTitleBar::updateThemeButton()
+{
+    _themeButton->setToolTip(shadTheme->isDark() ? tr("切换到浅色主题") : tr("切换到深色主题"));
+    _themeButton->update();
+}
+
 void ShadTitleBar::updateButtonLayout()
 {
     const bool isLeft = _buttonPosition == ShadWindowType::ButtonsOnLeft;
@@ -392,7 +407,7 @@ void ShadTitleBar::updateButtonLayout()
     }
     _mainLayout->setContentsMargins(isLeft ? 0 : kPaddingLeft, 0, isLeft ? kPaddingLeft : 0, 0);
     _buttonLayout->setContentsMargins(isLeft ? 0 : kAreaSpacing, 0, isLeft ? kAreaSpacing : 0, 0);
-    const QList<ShadWindowButton*> buttons = isLeft ? QList<ShadWindowButton*>{_closeButton, _minimizeButton, _maximizeButton, _stayOnTopButton} : QList<ShadWindowButton*>{_stayOnTopButton, _minimizeButton, _maximizeButton, _closeButton};
+    const QList<ShadWindowButton*> buttons = isLeft ? QList<ShadWindowButton*>{_closeButton, _minimizeButton, _maximizeButton, _stayOnTopButton, _themeButton} : QList<ShadWindowButton*>{_themeButton, _stayOnTopButton, _minimizeButton, _maximizeButton, _closeButton};
     for (ShadWindowButton* button : buttons)
     {
         _buttonLayout->removeWidget(button);

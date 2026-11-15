@@ -257,6 +257,24 @@
     </message>
 </context>
 <context>
+    <name>ShadDiffContent</name>
+    <message>
+        <source>复制</source>
+        <translation>複製</translation>
+    </message>
+    <message>
+        <source>全选</source>
+        <translation>全選</translation>
+    </message>
+</context>
+<context>
+    <name>ShadDiffView</name>
+    <message>
+        <source>%1 行未改动，点击展开</source>
+        <translation>%1 行未變更，點擊展開</translation>
+    </message>
+</context>
+<context>
     <name>ShadDockHeader</name>
     <message>
         <source>关闭</source>
@@ -770,6 +788,14 @@
     <message>
         <source>置顶</source>
         <translation>置頂</translation>
+    </message>
+    <message>
+        <source>切换到浅色主题</source>
+        <translation>切換到淺色主題</translation>
+    </message>
+    <message>
+        <source>切换到深色主题</source>
+        <translation>切換到深色主題</translation>
     </message>
 </context>
 <context>

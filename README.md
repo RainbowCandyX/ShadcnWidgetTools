@@ -116,11 +116,13 @@
 | ShadCandlestickChart | K 线图 | GPU 绘制，均线，成交量副图，实时更新 |
 | ShadStatistic | 统计数值 | 数值滚动动画，前后缀，涨跌趋势，倒计时 |
 | ShadCodeBlock | 代码块 | 标题栏、复制按钮、行号与增删标记 |
+| ShadDiffView | 差异对比 | 统一与分栏视图，行内变化高亮，语法高亮，自动换行，选择与复制，折叠未改动的行 |
 | ShadMarkdownView | Markdown | GitHub 风格 Markdown，代码块高亮与复制，流式追加 |
 | ShadTrace | 执行记录 | 图标、标题与耗时，可点击 |
 | ShadMarker | 标记 | 对话中的状态与提示，行内、带边框与分隔线三种变体，扫光，可作为链接或按钮 |
 | ShadQrCode | 二维码 | 纠错等级可选 |
 | ShadWatermark | 水印 | 文字或图片，交错平铺，角度与间距可调 |
+| ShadMarquee | 跑马灯 | 文字循环滚动，速度与方向可调，悬停暂停，两端渐隐 |
 
 ### 反馈
 
@@ -131,6 +133,7 @@
 | ShadProgress | 进度条 | 数值过渡动画 |
 | ShadRadialProgress | 环形进度 | 整圆或仪表盘，四种状态，数值过渡动画 |
 | ShadSpinner | 加载指示 | 匀速旋转 |
+| ShadSkeleton | 骨架屏 | 脉冲动画，圆角与圆形 |
 | ShadToaster | 通知 | 六种类型、六个位置，悬停展开堆叠 |
 | ShadNotification | 消息通知 | 四种类型、八个位置，倒计时自动关闭 |
 
@@ -147,7 +150,7 @@
 | ShadInputDialog | 输入对话框 | 文本 / 多行 / 整数 / 小数，提供静态函数 |
 | ShadColorDialog | 颜色对话框 | 预览并恢复原始颜色 |
 | ShadDrawer | 抽屉 | 四个方向，拖动关闭，嵌套叠放与吸附点 |
-| ShadWindow | 窗口 | 无边框，系统贴靠与阴影，macOS 上窗口按钮可放在左侧 |
+| ShadWindow | 窗口 | 无边框，系统贴靠与阴影，macOS 上窗口按钮可放在左侧；标题栏自带主题切换与置顶按钮，用 `setButtonFlags` 的标志位单独开关 |
 | ShadWidget | 独立窗口 | 与 ShadWindow 相同的标题栏，可直接 setLayout |
 | ShadScreenshot | 截图 | 框选或单击窗口，标注，复制、保存或钉在屏幕上，全局快捷键 |
 
@@ -210,6 +213,8 @@ cmake --build --preset msvc-release
 | `SHADCN_BUILD_EXAMPLE` | 顶层工程 `ON`，子工程 `OFF` | 编译示例程序 |
 | `SHADCN_INSTALL` | 顶层工程 `ON`，子工程 `OFF` | 安装头文件、库与 CMake 包配置；关闭时只安装动态库 |
 | `SHADCN_EXAMPLE_AI_CHAT` | `ON` | 示例程序编译 AI 对话页面，需要 Qt Network |
+| `SHADCN_BUILD_LUA` | `OFF` | 编译 Lua 绑定库 `ShadcnWidgetToolsLua`，示例程序增加 Lua 脚本页面 |
+| `SHADCN_LUA_ENGINE` | `LuaJIT`，WebAssembly 为 `Lua` | Lua 运行时，随工程编译，不需要预装：`LuaJIT` 为 LuaJIT 2.1（源码在 `ThirdParty/LuaJIT`），`Lua` 为 PUC-Lua 5.4.8（配置时下载） |
 
 编译后不复制 Qt 运行库：Windows 上需要把 Qt 的 `bin` 目录加入 `PATH` 再运行示例；执行 `cmake --install build/<preset>` 时会自动部署 Qt 运行库。
 
@@ -221,7 +226,7 @@ cmake --build --preset msvc-release
 include(FetchContent)
 FetchContent_Declare(ShadcnWidgetTools
     GIT_REPOSITORY https://github.com/RainbowCandyX/ShadcnWidgetTools.git
-    GIT_TAG v1.1.0
+    GIT_TAG v1.2.0
     GIT_SHALLOW TRUE
 )
 FetchContent_MakeAvailable(ShadcnWidgetTools)
@@ -240,6 +245,44 @@ target_link_libraries(MyApp PRIVATE ShadcnWidgetTools::ShadcnWidgetTools)
 find_package(ShadcnWidgetTools REQUIRED)
 target_link_libraries(MyApp PRIVATE ShadcnWidgetTools::ShadcnWidgetTools)
 ```
+
+## 用 Lua 创建组件
+
+`ShadcnWidgetToolsLua` 把组件库接入 Lua，默认不编译，配置时加上 `-DSHADCN_BUILD_LUA=ON`。运行时默认为 LuaJIT 2.1（脚本按 Lua 5.1 语法编写），加 `-DSHADCN_LUA_ENGINE=Lua` 改用 PUC-Lua 5.4.8；两者都随工程编译，不需要预装。编译 LuaJIT 需要 GNU make，Windows 上需要 MSVC；WebAssembly 只能使用 PUC-Lua。
+
+```cmake
+set(SHADCN_BUILD_LUA ON)
+FetchContent_MakeAvailable(ShadcnWidgetTools)
+target_link_libraries(MyApp PRIVATE ShadcnWidgetTools::ShadcnWidgetToolsLua)
+```
+
+```cpp
+#include "ShadLuaEngine.h"
+
+// 隔离：每次新建独立的 Lua 状态，随返回的组件销毁
+QWidget* panel = ShadLua::loadWidget("panel.lua", parent, ShadLuaType::Isolated);
+// 共享：在进程内同一个 Lua 状态中执行，脚本之间共享全局变量
+QWidget* other = ShadLua::loadWidget("other.lua", parent, ShadLuaType::Shared);
+// 自己持有引擎：同一个引擎中的脚本共享，不同引擎之间隔离
+ShadLuaEngine engine;
+engine.runFile("setup.lua");
+```
+
+```lua
+local card = shad.Card.new("标题", "说明")
+local button = shad.Button.new("保存")
+button.variant = shad.ButtonType.Outline
+button:on("clicked", function() print("已保存") end)
+card:contentLayout():addWidget(button)
+return card
+```
+
+- 脚本可用的全部接口见 [docs/lua-api.md](docs/lua-api.md)。属性、信号与槽自动可用，枚举位于 `shad.<名称>`，另有 `shad.json`、`shad.xml` 与 `shad.http` 三个功能模块；没有内置的组件用 `ShadLuaClass` 自行注册。
+- 按文件加载时同时接受源码与字节码（LuaJIT 的 `.ljbc`、PUC-Lua 的 `luac` 输出），两者不能互相加载；运行时不校验字节码，只加载可信来源的文件。
+- 默认只开放安全的标准库与 `shad.http`，`io`、`os`、`package`、`debug`、`ffi` 需要在构造 `ShadLuaEngine` 时指定；不希望脚本联网时去掉 `ShadLuaType::HttpLibrary`。
+- 脚本出错不会中断程序，错误通过 `ShadLuaEngine::errorOccurred` 给出，`print` 的输出通过 `messagePrinted` 给出。
+- `ShadLuaEngine::load` / `loadFile` 返回脚本编号，`unload` 卸载脚本并删除它创建的窗口与定时器。
+- 脚本不必返回组件，没有返回时 `loadWidget` 返回 `nullptr` 且不算错误。
 
 ## WebAssembly 构建
 
@@ -279,4 +322,4 @@ python3 scripts/serve_wasm.py build/wasm-release/bin
 
 ## 许可证
 
-本项目基于 [MIT 许可证](LICENSE) 发布。内置的 Lucide 图标字体遵循 ISC 许可证，见 `ShadcnWidgetTools/Resource/Font/LICENSE-lucide.txt`。Twemoji 字体遵循 CC-BY 4.0，见 `ShadcnWidgetTools/Resource/Font/LICENSE-twemoji.md`。Noto Sans SC 字体遵循 SIL OFL 1.1，见 `ShadcnWidgetToolsExample/Resource/Font/LICENSE-noto-sans-sc.txt`。
+本项目基于 [MIT 许可证](LICENSE) 发布。内置的 Lucide 图标字体遵循 ISC 许可证，见 `ShadcnWidgetTools/Resource/Font/LICENSE-lucide.txt`。Twemoji 字体遵循 CC-BY 4.0，见 `ShadcnWidgetTools/Resource/Font/LICENSE-twemoji.md`。Noto Sans SC 字体遵循 SIL OFL 1.1，见 `ShadcnWidgetToolsExample/Resource/Font/LICENSE-noto-sans-sc.txt`。`ThirdParty/LuaJIT` 中的 LuaJIT 源码遵循 MIT 许可证，见 `ThirdParty/LuaJIT/COPYRIGHT`。`ThirdParty/LuaBridge3` 中的 LuaBridge3 头文件遵循 MIT 许可证，见 `ThirdParty/LuaBridge3/LICENSE.txt`。

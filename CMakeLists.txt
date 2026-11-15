@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(ShadcnFramework VERSION 1.1.0 LANGUAGES CXX)
+project(ShadcnFramework VERSION 1.2.0 LANGUAGES CXX)
 
 message(STATUS "当前编译器: ${CMAKE_CXX_COMPILER_ID} ${CMAKE_CXX_COMPILER_VERSION}（${CMAKE_CXX_COMPILER}）")
 
@@ -49,6 +49,17 @@ option(SHADCN_BUILD_STATIC "以静态库方式编译 ShadcnWidgetTools" OFF)
 option(SHADCN_BUILD_EXAMPLE "编译示例程序 ShadcnWidgetToolsExample" ${PROJECT_IS_TOP_LEVEL})
 option(SHADCN_INSTALL "安装头文件、库与 CMake 包配置，供 find_package 使用" ${PROJECT_IS_TOP_LEVEL})
 option(SHADCN_EXAMPLE_AI_CHAT "示例程序编译 AI 对话页面，需要 Qt Network" ON)
+# Lua 绑定库，默认不编译
+# WebAssembly 不支持 LuaJIT
+option(SHADCN_BUILD_LUA "编译 Lua 绑定库 ShadcnWidgetToolsLua，通过 LuaBridge3 用 Lua 创建组件" OFF)
+if (EMSCRIPTEN)
+    set(_shadcn_lua_engine_default "Lua")
+else ()
+    set(_shadcn_lua_engine_default "LuaJIT")
+endif ()
+set(SHADCN_LUA_ENGINE "${_shadcn_lua_engine_default}" CACHE STRING "Lua 运行时：LuaJIT 或 Lua")
+unset(_shadcn_lua_engine_default)
+set_property(CACHE SHADCN_LUA_ENGINE PROPERTY STRINGS "LuaJIT" "Lua")
 if (EMSCRIPTEN)
     set(SHADCN_BUILD_STATIC ON CACHE BOOL "以静态库方式编译 ShadcnWidgetTools" FORCE)
     set(_shadcn_chart_gpu_default OFF)
@@ -100,6 +111,12 @@ if (PROJECT_IS_TOP_LEVEL)
 endif ()
 
 add_subdirectory(ShadcnWidgetTools)
+if (SHADCN_BUILD_LUA)
+    # Lua 运行时的源码是 C
+    enable_language(C)
+    add_subdirectory(ShadcnWidgetTools/Lua)
+endif ()
+message(STATUS "Lua 绑定: ${SHADCN_BUILD_LUA}")
 if (SHADCN_BUILD_EXAMPLE)
     add_subdirectory(ShadcnWidgetToolsExample)
 endif ()

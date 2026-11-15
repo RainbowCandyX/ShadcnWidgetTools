@@ -42,8 +42,7 @@ class SHADCN_EXPORT ShadWidget : public QWidget
         void setTitleBarHeight(int height);
         int getTitleBarHeight() const;
 
-        // 显示哪些窗口按钮，默认显示最小化、最大化与关闭；隐藏最大化按钮后双击标题栏也不再最大化
-        // 加入 StayOnTopButton 显示置顶按钮（默认隐藏），点击切换 stayOnTop
+        // 标题栏按钮，每个按钮对应一个标志位；隐藏最大化按钮后双击标题栏也不再最大化
         void setButtonFlags(ShadWindowType::ButtonFlags buttonFlags);
         ShadWindowType::ButtonFlags getButtonFlags() const;
 

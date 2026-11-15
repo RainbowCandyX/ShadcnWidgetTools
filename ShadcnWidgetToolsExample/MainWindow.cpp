@@ -50,6 +50,7 @@
 #include "DatePickerPage.h"
 #include "DescriptionsPage.h"
 #include "DialogPage.h"
+#include "DiffViewPage.h"
 #include "DockPage.h"
 #include "DrawerPage.h"
 #include "DropdownMenuPage.h"
@@ -70,8 +71,12 @@
 #include "KbdPage.h"
 #include "LabelPage.h"
 #include "ListViewPage.h"
+#ifdef SHADCN_EXAMPLE_LUA
+#include "LuaPage.h"
+#endif
 #include "MarkdownViewPage.h"
 #include "MarkerPage.h"
+#include "MarqueePage.h"
 #include "MenubarPage.h"
 #include "NavigationMenuPage.h"
 #include "NotificationPage.h"
@@ -93,13 +98,13 @@
 #include "SettingsDialog.h"
 #include "SidebarPage.h"
 #include "SignaturePadPage.h"
+#include "SkeletonPage.h"
 #include "SpinBoxPage.h"
 #include "SpinnerPage.h"
 #include "StatisticPage.h"
 #include "StatusBarPage.h"
 #include "ShadAvatar.h"
 #include "ShadBreadcrumb.h"
-#include "ShadButton.h"
 #include "ShadDef.h"
 #include "ShadDropdownMenu.h"
 #include "ShadItem.h"
@@ -214,10 +219,7 @@ MainWindow::MainWindow(QWidget* parent)
     _followSystemSwitch->setChecked(shadTheme->isFollowSystemTheme());
     connect(_followSystemSwitch, &ShadSwitch::toggled, this, [](bool checked) { shadTheme->setFollowSystemTheme(checked); });
     connect(shadTheme, &ShadTheme::followSystemThemeChanged, _followSystemSwitch, &ShadSwitch::setChecked);
-    _themeButton = new ShadButton(QString(), ShadButtonType::Ghost, titleBarActions);
-    _themeButton->setButtonSize(ShadButtonType::IconSmall);
     titleBarActionsLayout->addWidget(_followSystemSwitch);
-    titleBarActionsLayout->addWidget(_themeButton);
     setTitleBarWidget(ShadWindowType::RightArea, titleBarActions);
 
     _sidebarLayout = new ShadSidebarLayout(this);
@@ -231,7 +233,7 @@ MainWindow::MainWindow(QWidget* parent)
     // 点击回到首页，不占用选中项
     ShadSidebarMenuButton* brandButton = new ShadSidebarMenuButton(ShadIconType::Component, QStringLiteral("ShadcnWidgetTools"), _sidebar);
     brandButton->setButtonSize(ShadSidebarMenuButtonType::Large);
-    brandButton->setDescription(QStringLiteral("v1.1"));
+    brandButton->setDescription(QStringLiteral("v1.2"));
     brandButton->setSelectable(false);
     connect(brandButton, &ShadSidebarMenuButton::clicked, this, [this]()
     {
@@ -258,7 +260,6 @@ MainWindow::MainWindow(QWidget* parent)
         setWindowTitle(tr("ShadcnWidgetTools 示例"));
         _rtlSwitch->setToolTip(tr("切换从右到左布局"));
         _followSystemSwitch->setText(tr("跟随系统"));
-        _themeButton->setToolTip(tr("切换明暗主题（会关闭跟随系统）"));
         sidebarTrigger->setToolTip(tr("切换侧栏（Ctrl+B / Cmd+B）"));
     });
     ShadSeparator* headerSeparator = new ShadSeparator(Qt::Vertical, header);
@@ -306,6 +307,9 @@ MainWindow::MainWindow(QWidget* parent)
     addPage(startGroup, ShadIconType::Languages, new RtlPage(_pageStack));
 #ifdef SHADCN_EXAMPLE_AI_CHAT
     addPage(startGroup, ShadIconType::Sparkles, new AiChatPage(_pageStack));
+#endif
+#ifdef SHADCN_EXAMPLE_LUA
+    addPage(startGroup, ShadIconType::SquareCode, new LuaPage(_pageStack));
 #endif
 
     ShadSidebarGroup* componentGroup = _sidebar->addGroup();
@@ -368,12 +372,14 @@ MainWindow::MainWindow(QWidget* parent)
     addCategoryPage(dataCategory, new ChartCandlestickPage(_pageStack));
     addCategoryPage(dataCategory, new StatisticPage(_pageStack));
     addCategoryPage(dataCategory, new CodeBlockPage(_pageStack));
+    addCategoryPage(dataCategory, new DiffViewPage(_pageStack));
     addCategoryPage(dataCategory, new MarkdownViewPage(_pageStack));
     addCategoryPage(dataCategory, new TracePage(_pageStack));
     addCategoryPage(dataCategory, new MarkerPage(_pageStack));
     addCategoryPage(dataCategory, new KbdPage(_toaster, _pageStack));
     addCategoryPage(dataCategory, new QrCodePage(_pageStack));
     addCategoryPage(dataCategory, new WatermarkPage(_pageStack));
+    addCategoryPage(dataCategory, new MarqueePage(_pageStack));
 
     ShadSidebarMenuButton* feedbackCategory = addCategory(componentGroup, ShadIconType::Bell, [] { return tr("反馈"); });
     addCategoryPage(feedbackCategory, new AlertPage(_pageStack));
@@ -381,6 +387,7 @@ MainWindow::MainWindow(QWidget* parent)
     addCategoryPage(feedbackCategory, new ProgressPage(_pageStack));
     addCategoryPage(feedbackCategory, new RadialProgressPage(_pageStack));
     addCategoryPage(feedbackCategory, new SpinnerPage(_pageStack));
+    addCategoryPage(feedbackCategory, new SkeletonPage(_pageStack));
     addCategoryPage(feedbackCategory, new ToastPage(_toaster, _pageStack));
     addCategoryPage(feedbackCategory, new NotificationPage(_pageStack));
 
@@ -443,15 +450,9 @@ MainWindow::MainWindow(QWidget* parent)
     }
 
     connect(_sidebar, &ShadSidebar::itemActivated, this, [this](ShadSidebarMenuButton* button) { showPage(button); });
-    connect(_themeButton, &ShadButton::clicked, this, []()
-    {
-        shadTheme->setThemeMode(shadTheme->isDark() ? ShadThemeType::Light : ShadThemeType::Dark);
-    });
-    connect(shadTheme, &ShadTheme::themeChanged, this, [this]() { updateThemeButton(); });
 
     _sidebar->setActiveButton(_homeButton);
     showPage(_homeButton);
-    updateThemeButton();
     // 在页面与分类之后绑定：切换语言时它们的文字先刷新，面包屑再按新文字重建
     ExampleI18n::bind(this, [this]() { updateBreadcrumb(); });
 }
@@ -589,9 +590,4 @@ void MainWindow::updateBreadcrumb()
     }
     path.append(page->getTitle());
     _headerBreadcrumb->setPath(path);
-}
-
-void MainWindow::updateThemeButton()
-{
-    _themeButton->setShadIcon(shadTheme->isDark() ? ShadIconType::Sun : ShadIconType::Moon);
 }

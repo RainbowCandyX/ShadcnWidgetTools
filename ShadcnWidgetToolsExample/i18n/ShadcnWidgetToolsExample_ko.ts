@@ -3794,6 +3794,61 @@ echo &quot;빌드 완료&quot;
     </message>
 </context>
 <context>
+    <name>DiffViewPage</name>
+    <message>
+        <source>差异对比</source>
+        <translation>차이 비교</translation>
+    </message>
+    <message>
+        <source>ShadDiffView：按行比较两段文本，标出新增、删除与行内发生变化的字符。</source>
+        <translation>ShadDiffView: 두 텍스트를 줄 단위로 비교하여 추가, 삭제 및 줄 안에서 변경된 문자를 표시합니다.</translation>
+    </message>
+    <message>
+        <source>统一视图</source>
+        <translation>통합 보기</translation>
+    </message>
+    <message>
+        <source>setTexts 设置旧文本与新文本，setLanguage(&quot;cpp&quot;) 开启语法高亮；左侧两列分别是旧行号与新行号</source>
+        <translation>setTexts로 이전 텍스트와 새 텍스트를 설정하고 setLanguage(&quot;cpp&quot;)로 구문 강조를 켭니다. 왼쪽 두 열은 이전 줄 번호와 새 줄 번호입니다</translation>
+    </message>
+    <message>
+        <source>新增 %1 行，删除 %2 行</source>
+        <translation>%1줄 추가, %2줄 삭제</translation>
+    </message>
+    <message>
+        <source>分栏视图</source>
+        <translation>분할 보기</translation>
+    </message>
+    <message>
+        <source>setMode(Split)：旧文本在左、新文本在右，开关可随时切换</source>
+        <translation>setMode(Split): 이전 텍스트는 왼쪽, 새 텍스트는 오른쪽에 표시되며 스위치로 언제든지 전환할 수 있습니다</translation>
+    </message>
+    <message>
+        <source>折叠未改动的行</source>
+        <translation>변경되지 않은 줄 접기</translation>
+    </message>
+    <message>
+        <source>setContextLines(2)：每处改动前后只保留 2 行，其余未改动的行折叠为一行，点击后展开</source>
+        <translation>setContextLines(2): 각 변경 앞뒤로 2줄만 남기고 나머지 변경되지 않은 줄은 한 줄로 접히며 클릭하면 펼쳐집니다</translation>
+    </message>
+    <message>
+        <source>自动换行与选择</source>
+        <translation>자동 줄 바꿈과 선택</translation>
+    </message>
+    <message>
+        <source>setWordWrap(true) 让长行在栏位内折行；setSelectable(false) 关闭文字选择与复制</source>
+        <translation>setWordWrap(true)는 긴 줄을 창 안에서 줄 바꿈하고 setSelectable(false)는 텍스트 선택과 복사를 끕니다</translation>
+    </message>
+    <message>
+        <source>自动换行</source>
+        <translation>자동 줄 바꿈</translation>
+    </message>
+    <message>
+        <source>可选择</source>
+        <translation>선택 가능</translation>
+    </message>
+</context>
+<context>
     <name>DockPage</name>
     <message>
         <source>资源管理器</source>
@@ -6477,6 +6532,116 @@ echo &quot;빌드 완료&quot;
     </message>
 </context>
 <context>
+    <name>LuaPage</name>
+    <message>
+        <source>脚本管理器</source>
+        <translation>스크립트 관리자</translation>
+    </message>
+    <message>
+        <source>勾选加载脚本，取消勾选卸载并关闭它创建的窗口；print 的输出与错误显示在日志中。打开共享状态后，新加载的脚本共用同一个 Lua 状态</source>
+        <translation>체크하면 스크립트를 로드하고 체크를 해제하면 언로드하며 스크립트가 만든 창을 닫습니다. print 출력과 오류는 로그에 표시됩니다. 공유 상태를 켜면 새로 로드하는 스크립트가 같은 Lua 상태를 사용합니다</translation>
+    </message>
+    <message>
+        <source>Lua 脚本</source>
+        <translation>Lua 스크립트</translation>
+    </message>
+    <message>
+        <source>ShadLuaEngine：通过 LuaBridge3 用 Lua 或 LuaJIT 创建组件，脚本可以运行在隔离或共享的 Lua 状态中。</source>
+        <translation>ShadLuaEngine: LuaBridge3를 통해 Lua 또는 LuaJIT로 컴포넌트를 만들며 스크립트는 격리되거나 공유된 Lua 상태에서 실행할 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>脚本</source>
+        <translation>스크립트</translation>
+    </message>
+    <message>
+        <source>脚本通过全局表 shad 创建组件，以 return 返回根组件，也可以不返回组件只执行功能；打开开关后在共享状态中运行，全局变量在多次运行之间保留</source>
+        <translation>스크립트는 전역 테이블 shad로 컴포넌트를 만들고 return으로 루트 컴포넌트를 반환하며, 컴포넌트를 반환하지 않고 기능만 실행할 수도 있습니다. 스위치를 켜면 공유 상태에서 실행되며 전역 변수가 여러 번의 실행 사이에 유지됩니다</translation>
+    </message>
+    <message>
+        <source>运行</source>
+        <translation>실행</translation>
+    </message>
+    <message>
+        <source>共享状态</source>
+        <translation>공유 상태</translation>
+    </message>
+    <message>
+        <source>预览</source>
+        <translation>미리 보기</translation>
+    </message>
+    <message>
+        <source>脚本返回的组件显示在这里；不返回组件的纯功能脚本照常执行。print 的输出与错误信息显示在下方，程序不会中断</source>
+        <translation>스크립트가 반환한 컴포넌트가 여기에 표시됩니다. 컴포넌트를 반환하지 않는 순수 기능 스크립트도 그대로 실행됩니다. print 출력과 오류 메시지는 아래에 표시되며 프로그램은 중단되지 않습니다</translation>
+    </message>
+    <message>
+        <source>脚本已执行，没有返回组件</source>
+        <translation>스크립트가 실행되었으며 반환된 컴포넌트가 없습니다</translation>
+    </message>
+    <message>
+        <source>输出</source>
+        <translation>출력</translation>
+    </message>
+</context>
+<context>
+    <name>LuaScriptManager</name>
+    <message>
+        <source>脚本目录：%1</source>
+        <translation>스크립트 폴더: %1</translation>
+    </message>
+    <message>
+        <source>共享状态</source>
+        <translation>공유 상태</translation>
+    </message>
+    <message>
+        <source>刷新列表</source>
+        <translation>목록 새로 고침</translation>
+    </message>
+    <message>
+        <source>重新加载</source>
+        <translation>다시 로드</translation>
+    </message>
+    <message>
+        <source>清空日志</source>
+        <translation>로그 지우기</translation>
+    </message>
+    <message>
+        <source>打开目录</source>
+        <translation>폴더 열기</translation>
+    </message>
+    <message>
+        <source>日志</source>
+        <translation>로그</translation>
+    </message>
+    <message>
+        <source>内置</source>
+        <translation>내장</translation>
+    </message>
+    <message>
+        <source>本地</source>
+        <translation>로컬</translation>
+    </message>
+    <message>
+        <source>已卸载</source>
+        <translation>언로드됨</translation>
+    </message>
+    <message>
+        <source>已加载（共享）</source>
+        <translation>로드됨(공유)</translation>
+    </message>
+    <message>
+        <source>已加载</source>
+        <translation>로드됨</translation>
+    </message>
+    <message>
+        <source>加载失败</source>
+        <translation>로드 실패</translation>
+    </message>
+    <message>
+        <source>未加载</source>
+        <translation>로드되지 않음</translation>
+    </message>
+</context>
+<context>
     <name>MainWindow</name>
     <message>
         <source>ShadcnWidgetTools 示例</source>
@@ -6489,10 +6654,6 @@ echo &quot;빌드 완료&quot;
     <message>
         <source>跟随系统</source>
         <translation>시스템 설정 따르기</translation>
-    </message>
-    <message>
-        <source>切换明暗主题（会关闭跟随系统）</source>
-        <translation>라이트/다크 테마 전환 (시스템 설정 따르기가 해제됩니다)</translation>
     </message>
     <message>
         <source>切换侧栏（Ctrl+B / Cmd+B）</source>
@@ -6863,6 +7024,85 @@ def fibonacci(count):
     <message>
         <source>点击次数: %1</source>
         <translation>클릭 횟수: %1</translation>
+    </message>
+</context>
+<context>
+    <name>MarqueePage</name>
+    <message>
+        <source>跑马灯</source>
+        <translation>마키</translation>
+    </message>
+    <message>
+        <source>ShadMarquee：一段文字沿水平方向匀速循环滚动，用于公告与提示。</source>
+        <translation>ShadMarquee: 텍스트 한 줄이 가로 방향으로 일정한 속도로 반복 스크롤되며 공지와 알림에 사용합니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>文字首尾相接铺满整个宽度，默认每秒滚动 40 像素</source>
+        <translation>텍스트가 끝과 끝이 이어져 전체 너비를 채우며 기본적으로 초당 40픽셀씩 스크롤됩니다</translation>
+    </message>
+    <message>
+        <source>ShadcnWidgetTools 新版本已发布：新增 K 线图、差异对比、跑马灯与骨架屏组件。</source>
+        <translation>ShadcnWidgetTools 새 버전이 출시되었습니다. 캔들스틱 차트, 차이 비교, 마키, 스켈레톤 컴포넌트가 추가되었습니다.</translation>
+    </message>
+    <message>
+        <source>方向与速度</source>
+        <translation>방향과 속도</translation>
+    </message>
+    <message>
+        <source>setReversed(true) 反向滚动，setSpeed(80) 加快速度，setGap 调整两段文字的间距</source>
+        <translation>setReversed(true)는 반대 방향으로 스크롤하고 setSpeed(80)은 속도를 높이며 setGap은 반복되는 텍스트 사이의 간격을 조정합니다</translation>
+    </message>
+    <message>
+        <source>系统将于今晚 23:00 至次日 01:00 进行维护，期间服务暂停。</source>
+        <translation>오늘 밤 23:00부터 다음 날 01:00까지 시스템 점검이 진행되며 이 기간 동안 서비스가 중단됩니다.</translation>
+    </message>
+    <message>
+        <source>悬停暂停与渐隐</source>
+        <translation>호버 시 일시 정지와 페이드</translation>
+    </message>
+    <message>
+        <source>setPauseOnHover(true) 悬停时暂停，setFadeWidth(48) 让两端渐隐</source>
+        <translation>setPauseOnHover(true)는 호버 중 일시 정지하고 setFadeWidth(48)은 양쪽 끝을 페이드 처리합니다</translation>
+    </message>
+    <message>
+        <source>把鼠标移到这里可以暂停滚动，移开后从当前位置继续。</source>
+        <translation>여기에 포인터를 올리면 스크롤이 일시 정지되고 벗어나면 현재 위치에서 다시 시작합니다.</translation>
+    </message>
+    <message>
+        <source>仅在超出时滚动</source>
+        <translation>넘칠 때만 스크롤</translation>
+    </message>
+    <message>
+        <source>setOverflowOnly(true)：文字放得下时静止显示，缩小窗口到放不下时开始滚动</source>
+        <translation>setOverflowOnly(true): 텍스트가 들어갈 때는 정지 상태로 표시하고 창을 줄여 들어가지 않으면 스크롤을 시작합니다</translation>
+    </message>
+    <message>
+        <source>这段文字较短，不会滚动。</source>
+        <translation>이 텍스트는 짧아서 스크롤되지 않습니다.</translation>
+    </message>
+    <message>
+        <source>这段文字较长：当组件宽度不足以完整显示全部内容时，文字会自动开始滚动，窗口足够宽时保持静止并靠起始侧显示。</source>
+        <translation>이 텍스트는 깁니다. 컴포넌트 너비가 부족해 전체 내용을 표시할 수 없으면 자동으로 스크롤을 시작하고 창이 충분히 넓으면 시작 쪽에 정지 상태로 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>启停</source>
+        <translation>시작과 정지</translation>
+    </message>
+    <message>
+        <source>setRunning(false) 停止滚动并回到起点</source>
+        <translation>setRunning(false)는 스크롤을 멈추고 처음 위치로 돌아갑니다</translation>
+    </message>
+    <message>
+        <source>滚动</source>
+        <translation>스크롤</translation>
+    </message>
+    <message>
+        <source>关闭开关后文字停止滚动并回到起点。</source>
+        <translation>스위치를 끄면 텍스트가 멈추고 처음 위치로 돌아갑니다.</translation>
     </message>
 </context>
 <context>
@@ -9362,6 +9602,45 @@ def fibonacci(count):
     <message>
         <source>只读</source>
         <translation>읽기 전용</translation>
+    </message>
+</context>
+<context>
+    <name>SkeletonPage</name>
+    <message>
+        <source>骨架屏</source>
+        <translation>스켈레톤</translation>
+    </message>
+    <message>
+        <source>ShadSkeleton：内容加载完成前的占位，全部骨架屏的脉冲动画保持同步。</source>
+        <translation>ShadSkeleton: 콘텐츠 로딩이 끝나기 전의 자리 표시자이며 모든 스켈레톤의 펄스 애니메이션이 동기화됩니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>setCircular(true) 作为头像占位，其余为文字占位</source>
+        <translation>setCircular(true)는 아바타 자리 표시자로 사용하고 나머지는 텍스트 자리 표시자입니다</translation>
+    </message>
+    <message>
+        <source>卡片</source>
+        <translation>카드</translation>
+    </message>
+    <message>
+        <source>setRadius 设置圆角，图片占位使用 rounded-xl</source>
+        <translation>setRadius로 모서리 반경을 설정하며 이미지 자리 표시자는 rounded-xl을 사용합니다</translation>
+    </message>
+    <message>
+        <source>动画</source>
+        <translation>애니메이션</translation>
+    </message>
+    <message>
+        <source>setAnimated(false) 关闭脉冲动画，显示为静止的色块</source>
+        <translation>setAnimated(false)는 펄스 애니메이션을 끄고 정지된 색 블록으로 표시합니다</translation>
+    </message>
+    <message>
+        <source>脉冲动画</source>
+        <translation>펄스 애니메이션</translation>
     </message>
 </context>
 <context>

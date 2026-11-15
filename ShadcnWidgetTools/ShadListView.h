@@ -36,6 +36,8 @@ class SHADCN_EXPORT ShadListView : public QListView
         static constexpr int DescriptionRole = Qt::UserRole + 0x301;
         // 结束侧的辅助文字
         static constexpr int TrailingTextRole = Qt::UserRole + 0x302;
+        // 结束侧文字的颜色：QColor 或 ShadThemeType::ThemeColor（以 int 保存）
+        static constexpr int TrailingColorRole = Qt::UserRole + 0x303;
 
         explicit ShadListView(QWidget* parent = nullptr);
         ~ShadListView() override;

@@ -11,7 +11,7 @@ class QEvent;
 class QPaintEvent;
 class ShadTransition;
 
-// 标题栏右侧的置顶 / 最小化 / 最大化 / 关闭按钮，不对外导出
+// 标题栏右侧的主题切换 / 置顶 / 最小化 / 最大化 / 关闭按钮，不对外导出
 // 悬停为 accent 背景，关闭按钮悬停为 destructive 背景；置顶按钮为可勾选按钮，置顶时常驻 accent 背景并显示 PinOff 图标
 class ShadWindowButton : public QAbstractButton
 {
@@ -20,6 +20,7 @@ class ShadWindowButton : public QAbstractButton
     public:
         enum class Kind
         {
+            Theme,
             StayOnTop,
             Minimize,
             Maximize,

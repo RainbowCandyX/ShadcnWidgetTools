@@ -13,7 +13,6 @@
 class ExampleBasePage;
 class QEvent;
 class ShadBreadcrumb;
-class ShadButton;
 class ShadSidebar;
 class ShadSidebarGroup;
 class ShadSidebarLayout;
@@ -43,7 +42,6 @@ class MainWindow : public ShadWindow
         void showPage(ShadSidebarMenuButton* button);
         // 按当前页面重新生成顶栏面包屑，切换语言后也调用
         void updateBreadcrumb();
-        void updateThemeButton();
 
         ShadSidebarLayout* _sidebarLayout{nullptr};
         ShadSidebar* _sidebar{nullptr};
@@ -56,7 +54,6 @@ class MainWindow : public ShadWindow
         ShadStackedWidget* _pageStack{nullptr};
         QWidget* _sidebarDemoPage{nullptr};
         ShadBreadcrumb* _headerBreadcrumb{nullptr};
-        ShadButton* _themeButton{nullptr};
         ShadSwitch* _followSystemSwitch{nullptr};
         ShadSwitch* _rtlSwitch{nullptr};
         ShadToaster* _toaster{nullptr};

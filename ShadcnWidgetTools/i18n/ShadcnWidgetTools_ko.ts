@@ -257,6 +257,24 @@
     </message>
 </context>
 <context>
+    <name>ShadDiffContent</name>
+    <message>
+        <source>复制</source>
+        <translation>복사</translation>
+    </message>
+    <message>
+        <source>全选</source>
+        <translation>모두 선택</translation>
+    </message>
+</context>
+<context>
+    <name>ShadDiffView</name>
+    <message>
+        <source>%1 行未改动，点击展开</source>
+        <translation>변경되지 않은 %1줄, 클릭하여 펼치기</translation>
+    </message>
+</context>
+<context>
     <name>ShadDockHeader</name>
     <message>
         <source>关闭</source>
@@ -770,6 +788,14 @@
     <message>
         <source>置顶</source>
         <translation>항상 위</translation>
+    </message>
+    <message>
+        <source>切换到浅色主题</source>
+        <translation>라이트 테마로 전환</translation>
+    </message>
+    <message>
+        <source>切换到深色主题</source>
+        <translation>다크 테마로 전환</translation>
     </message>
 </context>
 <context>

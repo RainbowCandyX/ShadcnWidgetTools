@@ -6,6 +6,7 @@
 #include <QEvent>
 #include <QFont>
 #include <QKeyEvent>
+#include <QMetaType>
 #include <QMouseEvent>
 #include <QPaintDevice>
 #include <QPainter>
@@ -193,8 +194,18 @@ void ShadListDelegate::paint(QPainter* painter, const QStyleOptionViewItem& opti
         trailingFont.setWeight(QFont::Normal);
         const int trailingWidth = qMin(textWidth(trailingFont, trailingText), qMax(0, (right - left) / 2));
         const QRect trailingRect = visualRect(direction, rect, QRect(right - trailingWidth, rect.top(), trailingWidth, rect.height()));
+        QColor trailingColor = shadTheme->getColor(ShadThemeType::MutedForeground);
+        const QVariant trailingColorData = index.data(ShadListView::TrailingColorRole);
+        if (trailingColorData.typeId() == QMetaType::QColor)
+        {
+            trailingColor = trailingColorData.value<QColor>();
+        }
+        else if (trailingColorData.typeId() == QMetaType::Int)
+        {
+            trailingColor = shadTheme->getColor(static_cast<ShadThemeType::ThemeColor>(trailingColorData.toInt()));
+        }
         painter->setFont(trailingFont);
-        painter->setPen(shadTheme->getColor(ShadThemeType::MutedForeground));
+        painter->setPen(trailingColor);
         painter->drawText(trailingRect, visualAlignment(direction, Qt::AlignRight | Qt::AlignVCenter), elideText(trailingFont, trailingText, trailingWidth));
         right -= trailingWidth + spacing;
     }

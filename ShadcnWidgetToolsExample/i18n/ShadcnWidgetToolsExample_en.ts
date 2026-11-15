@@ -3794,6 +3794,61 @@ Chen Yi-chun 0912-345-678</translation>
     </message>
 </context>
 <context>
+    <name>DiffViewPage</name>
+    <message>
+        <source>差异对比</source>
+        <translation>Diff View</translation>
+    </message>
+    <message>
+        <source>ShadDiffView：按行比较两段文本，标出新增、删除与行内发生变化的字符。</source>
+        <translation>ShadDiffView: compares two texts line by line and marks additions, deletions and the characters that changed within a line.</translation>
+    </message>
+    <message>
+        <source>统一视图</source>
+        <translation>Unified View</translation>
+    </message>
+    <message>
+        <source>setTexts 设置旧文本与新文本，setLanguage(&quot;cpp&quot;) 开启语法高亮；左侧两列分别是旧行号与新行号</source>
+        <translation>setTexts sets the old and new text, setLanguage(&quot;cpp&quot;) enables syntax highlighting; the two columns on the left are the old and new line numbers</translation>
+    </message>
+    <message>
+        <source>新增 %1 行，删除 %2 行</source>
+        <translation>%1 lines added, %2 lines removed</translation>
+    </message>
+    <message>
+        <source>分栏视图</source>
+        <translation>Split View</translation>
+    </message>
+    <message>
+        <source>setMode(Split)：旧文本在左、新文本在右，开关可随时切换</source>
+        <translation>setMode(Split): old text on the left, new text on the right; toggle the switch at any time</translation>
+    </message>
+    <message>
+        <source>折叠未改动的行</source>
+        <translation>Fold Unchanged Lines</translation>
+    </message>
+    <message>
+        <source>setContextLines(2)：每处改动前后只保留 2 行，其余未改动的行折叠为一行，点击后展开</source>
+        <translation>setContextLines(2): keeps only 2 lines before and after each change; the remaining unchanged lines fold into one row that expands on click</translation>
+    </message>
+    <message>
+        <source>自动换行与选择</source>
+        <translation>Word Wrap and Selection</translation>
+    </message>
+    <message>
+        <source>setWordWrap(true) 让长行在栏位内折行；setSelectable(false) 关闭文字选择与复制</source>
+        <translation>setWordWrap(true) wraps long lines within the pane; setSelectable(false) turns off text selection and copying</translation>
+    </message>
+    <message>
+        <source>自动换行</source>
+        <translation>Word Wrap</translation>
+    </message>
+    <message>
+        <source>可选择</source>
+        <translation>Selectable</translation>
+    </message>
+</context>
+<context>
     <name>DockPage</name>
     <message>
         <source>资源管理器</source>
@@ -6477,6 +6532,116 @@ Chen Yi-chun 0912-345-678</translation>
     </message>
 </context>
 <context>
+    <name>LuaPage</name>
+    <message>
+        <source>脚本管理器</source>
+        <translation>Script Manager</translation>
+    </message>
+    <message>
+        <source>勾选加载脚本，取消勾选卸载并关闭它创建的窗口；print 的输出与错误显示在日志中。打开共享状态后，新加载的脚本共用同一个 Lua 状态</source>
+        <translation>Check a script to load it; uncheck to unload it and close the windows it created. Output from print and errors appear in the log. With shared state on, newly loaded scripts use the same Lua state</translation>
+    </message>
+    <message>
+        <source>Lua 脚本</source>
+        <translation>Lua Script</translation>
+    </message>
+    <message>
+        <source>ShadLuaEngine：通过 LuaBridge3 用 Lua 或 LuaJIT 创建组件，脚本可以运行在隔离或共享的 Lua 状态中。</source>
+        <translation>ShadLuaEngine: create components with Lua or LuaJIT through LuaBridge3; scripts run in an isolated or a shared Lua state.</translation>
+    </message>
+    <message>
+        <source>脚本</source>
+        <translation>Script</translation>
+    </message>
+    <message>
+        <source>脚本通过全局表 shad 创建组件，以 return 返回根组件，也可以不返回组件只执行功能；打开开关后在共享状态中运行，全局变量在多次运行之间保留</source>
+        <translation>Scripts create components through the global table shad and return the root component, or return nothing and only run logic; with the switch on they run in the shared state, where globals persist between runs</translation>
+    </message>
+    <message>
+        <source>运行</source>
+        <translation>Run</translation>
+    </message>
+    <message>
+        <source>共享状态</source>
+        <translation>Shared State</translation>
+    </message>
+    <message>
+        <source>预览</source>
+        <translation>Preview</translation>
+    </message>
+    <message>
+        <source>脚本返回的组件显示在这里；不返回组件的纯功能脚本照常执行。print 的输出与错误信息显示在下方，程序不会中断</source>
+        <translation>The component returned by the script appears here; scripts that return no component still run. Output from print and error messages appear below, and the program keeps running</translation>
+    </message>
+    <message>
+        <source>脚本已执行，没有返回组件</source>
+        <translation>The script ran and returned no component</translation>
+    </message>
+    <message>
+        <source>输出</source>
+        <translation>Output</translation>
+    </message>
+</context>
+<context>
+    <name>LuaScriptManager</name>
+    <message>
+        <source>脚本目录：%1</source>
+        <translation>Script folder: %1</translation>
+    </message>
+    <message>
+        <source>共享状态</source>
+        <translation>Shared State</translation>
+    </message>
+    <message>
+        <source>刷新列表</source>
+        <translation>Refresh List</translation>
+    </message>
+    <message>
+        <source>重新加载</source>
+        <translation>Reload</translation>
+    </message>
+    <message>
+        <source>清空日志</source>
+        <translation>Clear Log</translation>
+    </message>
+    <message>
+        <source>打开目录</source>
+        <translation>Open Folder</translation>
+    </message>
+    <message>
+        <source>日志</source>
+        <translation>Log</translation>
+    </message>
+    <message>
+        <source>内置</source>
+        <translation>Built-in</translation>
+    </message>
+    <message>
+        <source>本地</source>
+        <translation>Local</translation>
+    </message>
+    <message>
+        <source>已卸载</source>
+        <translation>Unloaded</translation>
+    </message>
+    <message>
+        <source>已加载（共享）</source>
+        <translation>Loaded (shared)</translation>
+    </message>
+    <message>
+        <source>已加载</source>
+        <translation>Loaded</translation>
+    </message>
+    <message>
+        <source>加载失败</source>
+        <translation>Load failed</translation>
+    </message>
+    <message>
+        <source>未加载</source>
+        <translation>Not loaded</translation>
+    </message>
+</context>
+<context>
     <name>MainWindow</name>
     <message>
         <source>ShadcnWidgetTools 示例</source>
@@ -6489,10 +6654,6 @@ Chen Yi-chun 0912-345-678</translation>
     <message>
         <source>跟随系统</source>
         <translation>System</translation>
-    </message>
-    <message>
-        <source>切换明暗主题（会关闭跟随系统）</source>
-        <translation>Toggle light/dark theme (turns off System)</translation>
     </message>
     <message>
         <source>切换侧栏（Ctrl+B / Cmd+B）</source>
@@ -6863,6 +7024,85 @@ Done.
     <message>
         <source>点击次数: %1</source>
         <translation>Clicks: %1</translation>
+    </message>
+</context>
+<context>
+    <name>MarqueePage</name>
+    <message>
+        <source>跑马灯</source>
+        <translation>Marquee</translation>
+    </message>
+    <message>
+        <source>ShadMarquee：一段文字沿水平方向匀速循环滚动，用于公告与提示。</source>
+        <translation>ShadMarquee: a line of text that scrolls horizontally in a loop at constant speed, for announcements and notices.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>文字首尾相接铺满整个宽度，默认每秒滚动 40 像素</source>
+        <translation>The text repeats end to end across the full width and scrolls 40 pixels per second by default</translation>
+    </message>
+    <message>
+        <source>ShadcnWidgetTools 新版本已发布：新增 K 线图、差异对比、跑马灯与骨架屏组件。</source>
+        <translation>A new version of ShadcnWidgetTools is out: candlestick chart, diff view, marquee and skeleton components have been added.</translation>
+    </message>
+    <message>
+        <source>方向与速度</source>
+        <translation>Direction and Speed</translation>
+    </message>
+    <message>
+        <source>setReversed(true) 反向滚动，setSpeed(80) 加快速度，setGap 调整两段文字的间距</source>
+        <translation>setReversed(true) scrolls in the opposite direction, setSpeed(80) speeds it up, setGap adjusts the spacing between repetitions</translation>
+    </message>
+    <message>
+        <source>系统将于今晚 23:00 至次日 01:00 进行维护，期间服务暂停。</source>
+        <translation>The system will be under maintenance from 23:00 tonight to 01:00 tomorrow; service is suspended during this period.</translation>
+    </message>
+    <message>
+        <source>悬停暂停与渐隐</source>
+        <translation>Pause on Hover and Fade</translation>
+    </message>
+    <message>
+        <source>setPauseOnHover(true) 悬停时暂停，setFadeWidth(48) 让两端渐隐</source>
+        <translation>setPauseOnHover(true) pauses while hovered, setFadeWidth(48) fades both ends</translation>
+    </message>
+    <message>
+        <source>把鼠标移到这里可以暂停滚动，移开后从当前位置继续。</source>
+        <translation>Move the pointer here to pause scrolling; it resumes from the current position when you move away.</translation>
+    </message>
+    <message>
+        <source>仅在超出时滚动</source>
+        <translation>Scroll Only on Overflow</translation>
+    </message>
+    <message>
+        <source>setOverflowOnly(true)：文字放得下时静止显示，缩小窗口到放不下时开始滚动</source>
+        <translation>setOverflowOnly(true): the text stays still when it fits and starts scrolling once the window is too narrow to fit it</translation>
+    </message>
+    <message>
+        <source>这段文字较短，不会滚动。</source>
+        <translation>This text is short and does not scroll.</translation>
+    </message>
+    <message>
+        <source>这段文字较长：当组件宽度不足以完整显示全部内容时，文字会自动开始滚动，窗口足够宽时保持静止并靠起始侧显示。</source>
+        <translation>This text is longer: when the component is too narrow to show all of it, the text starts scrolling automatically; when the window is wide enough it stays still at the start side.</translation>
+    </message>
+    <message>
+        <source>启停</source>
+        <translation>Start and Stop</translation>
+    </message>
+    <message>
+        <source>setRunning(false) 停止滚动并回到起点</source>
+        <translation>setRunning(false) stops scrolling and returns to the start</translation>
+    </message>
+    <message>
+        <source>滚动</source>
+        <translation>Scroll</translation>
+    </message>
+    <message>
+        <source>关闭开关后文字停止滚动并回到起点。</source>
+        <translation>Turning the switch off stops the text and returns it to the start.</translation>
     </message>
 </context>
 <context>
@@ -9362,6 +9602,45 @@ Done.
     <message>
         <source>只读</source>
         <translation>Read-only</translation>
+    </message>
+</context>
+<context>
+    <name>SkeletonPage</name>
+    <message>
+        <source>骨架屏</source>
+        <translation>Skeleton</translation>
+    </message>
+    <message>
+        <source>ShadSkeleton：内容加载完成前的占位，全部骨架屏的脉冲动画保持同步。</source>
+        <translation>ShadSkeleton: a placeholder shown until content loads; the pulse animation stays in sync across all skeletons.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>setCircular(true) 作为头像占位，其余为文字占位</source>
+        <translation>setCircular(true) makes an avatar placeholder; the others are text placeholders</translation>
+    </message>
+    <message>
+        <source>卡片</source>
+        <translation>Card</translation>
+    </message>
+    <message>
+        <source>setRadius 设置圆角，图片占位使用 rounded-xl</source>
+        <translation>setRadius sets the corner radius; the image placeholder uses rounded-xl</translation>
+    </message>
+    <message>
+        <source>动画</source>
+        <translation>Animation</translation>
+    </message>
+    <message>
+        <source>setAnimated(false) 关闭脉冲动画，显示为静止的色块</source>
+        <translation>setAnimated(false) turns off the pulse animation and shows a static block</translation>
+    </message>
+    <message>
+        <source>脉冲动画</source>
+        <translation>Pulse Animation</translation>
     </message>
 </context>
 <context>

@@ -9,6 +9,10 @@ else ()
     list(FILTER EXAMPLE_PAGE_FILES EXCLUDE REGEX "/AiChat[^/]*$")
 endif ()
 message(STATUS "示例 AI 对话页面: ${SHADCN_EXAMPLE_AI_CHAT}")
+# Lua 页面只在编译了 Lua 绑定库时加入
+if (NOT SHADCN_BUILD_LUA)
+    list(FILTER EXAMPLE_PAGE_FILES EXCLUDE REGEX "/Lua[^/]*$")
+endif ()
 source_group(ExamplePage FILES ${EXAMPLE_PAGE_FILES})
 
 # macOS 上生成 .app bundle，install 时 Qt 部署脚本只支持 bundle
@@ -58,6 +62,31 @@ target_link_libraries(${EXAMPLE_TARGET} PRIVATE
 if (SHADCN_EXAMPLE_AI_CHAT)
     target_link_libraries(${EXAMPLE_TARGET} PRIVATE Qt6::Network)
     target_compile_definitions(${EXAMPLE_TARGET} PRIVATE SHADCN_EXAMPLE_AI_CHAT)
+endif ()
+if (SHADCN_BUILD_LUA)
+    target_link_libraries(${EXAMPLE_TARGET} PRIVATE ShadcnWidgetTools::ShadcnWidgetToolsLua)
+    target_compile_definitions(${EXAMPLE_TARGET} PRIVATE SHADCN_EXAMPLE_LUA)
+    # 内置示例脚本
+    qt_add_resources(${EXAMPLE_TARGET} "ShadcnWidgetToolsExampleLua"
+        PREFIX "/lua"
+        BASE "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua"
+        FILES
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/chart.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/counter.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/dashboard.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/dialog.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/display.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/form.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/http.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/inputs.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/layout.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/overlay.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/pure.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/shared.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/table.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/tabs.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/timer.lua"
+    )
 endif ()
 
 set_target_properties(${EXAMPLE_TARGET} PROPERTIES

@@ -71,6 +71,7 @@ class ShadTitleBar : public QWidget
         void updateWindowIcon();
         void updateWindowTitle();
         void updateStayOnTopButton();
+        void updateThemeButton();
         void updateButtonLayout();
 
         QWidget* _window{nullptr};
@@ -82,6 +83,7 @@ class ShadTitleBar : public QWidget
         ShadLabel* _titleLabel{nullptr};
         QPointer<QWidget> _leftAreaWidget;
         QPointer<QWidget> _rightAreaWidget;
+        ShadWindowButton* _themeButton{nullptr};
         ShadWindowButton* _stayOnTopButton{nullptr};
         ShadWindowButton* _minimizeButton{nullptr};
         ShadWindowButton* _maximizeButton{nullptr};

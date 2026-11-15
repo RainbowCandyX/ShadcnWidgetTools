@@ -141,6 +141,9 @@ ShadIconType::IconName ShadWindowButton::iconName() const
 {
     switch (_kind)
     {
+        case Kind::Theme:
+            // 显示点击后要切换到的主题
+            return shadTheme->isDark() ? ShadIconType::Sun : ShadIconType::Moon;
         case Kind::StayOnTop:
             // 未置顶时显示图钉，置顶后显示取消图钉，点击即可取消
             return isChecked() ? ShadIconType::PinOff : ShadIconType::Pin;
