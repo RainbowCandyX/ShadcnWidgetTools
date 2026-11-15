@@ -213,7 +213,7 @@ cmake --build --preset msvc-release
 | `SHADCN_BUILD_EXAMPLE` | 顶层工程 `ON`，子工程 `OFF` | 编译示例程序 |
 | `SHADCN_INSTALL` | 顶层工程 `ON`，子工程 `OFF` | 安装头文件、库与 CMake 包配置；关闭时只安装动态库 |
 | `SHADCN_EXAMPLE_AI_CHAT` | `ON` | 示例程序编译 AI 对话页面，需要 Qt Network |
-| `SHADCN_BUILD_LUA` | `OFF` | 编译 Lua 绑定库 `ShadcnWidgetToolsLua`，示例程序增加 Lua 脚本页面 |
+| `SHADCN_BUILD_LUA` | `OFF` | 编译 Lua 绑定库 `ShadcnWidgetToolsLua`（静态库，链接进使用它的程序），示例程序增加 Lua 脚本页面 |
 | `SHADCN_LUA_ENGINE` | `LuaJIT`，WebAssembly 为 `Lua` | Lua 运行时，随工程编译，不需要预装：`LuaJIT` 为 LuaJIT 2.1（源码在 `ThirdParty/LuaJIT`），`Lua` 为 PUC-Lua 5.4.8（配置时下载） |
 
 编译后不复制 Qt 运行库：Windows 上需要把 Qt 的 `bin` 目录加入 `PATH` 再运行示例；执行 `cmake --install build/<preset>` 时会自动部署 Qt 运行库。
@@ -248,7 +248,7 @@ target_link_libraries(MyApp PRIVATE ShadcnWidgetTools::ShadcnWidgetTools)
 
 ## 用 Lua 创建组件
 
-`ShadcnWidgetToolsLua` 把组件库接入 Lua，默认不编译，配置时加上 `-DSHADCN_BUILD_LUA=ON`。运行时默认为 LuaJIT 2.1（脚本按 Lua 5.1 语法编写），加 `-DSHADCN_LUA_ENGINE=Lua` 改用 PUC-Lua 5.4.8；两者都随工程编译，不需要预装。编译 LuaJIT 需要 GNU make，Windows 上需要 MSVC；WebAssembly 只能使用 PUC-Lua。
+`ShadcnWidgetToolsLua` 为静态库，加 `-DSHADCN_BUILD_LUA=ON` 开启。默认运行时为 LuaJIT 2.1，`-DSHADCN_LUA_ENGINE=Lua` 改用 PUC-Lua 5.4.8（WebAssembly 仅支持此项）。
 
 ```cmake
 set(SHADCN_BUILD_LUA ON)

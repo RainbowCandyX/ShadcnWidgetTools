@@ -23,13 +23,8 @@ if (SHADCN_LUA_ENGINE STREQUAL "LuaJIT")
     file(COPY "${_shadcn_luajit_source_dir}/src" "${_shadcn_luajit_source_dir}/dynasm" "${_shadcn_luajit_source_dir}/.relver" DESTINATION "${_shadcn_luajit_build_dir}")
     set(_shadcn_luajit_dir "${_shadcn_luajit_build_dir}/src")
     if (MSVC)
-        # mixed 生成带导出标记的静态库，使 Lua C API 随动态库导出
         set(_shadcn_luajit_library "${_shadcn_luajit_dir}/lua51.lib")
-        if (SHADCN_BUILD_STATIC)
-            set(_shadcn_luajit_arguments static)
-        else ()
-            set(_shadcn_luajit_arguments mixed)
-        endif ()
+        set(_shadcn_luajit_arguments static)
         # C 运行库与本工程保持一致
         if (CMAKE_BUILD_TYPE STREQUAL "Debug")
             list(PREPEND _shadcn_luajit_arguments debug)
@@ -114,19 +109,14 @@ elseif (SHADCN_LUA_ENGINE STREQUAL "Lua")
     unset(_shadcn_lua_names)
     unset(_shadcn_lua_sources)
     unset(_shadcn_lua_name)
-    # Lua 符号保持默认可见，随动态库导出
     set_target_properties(ShadcnLuaRuntime PROPERTIES
         POSITION_INDEPENDENT_CODE ON
         AUTOMOC OFF
-        C_VISIBILITY_PRESET default
     )
     if (APPLE)
         target_compile_definitions(ShadcnLuaRuntime PRIVATE LUA_USE_MACOSX)
     elseif (UNIX AND NOT EMSCRIPTEN)
         target_compile_definitions(ShadcnLuaRuntime PRIVATE LUA_USE_POSIX)
-    endif ()
-    if (WIN32 AND NOT SHADCN_BUILD_STATIC)
-        target_compile_definitions(ShadcnLuaRuntime PRIVATE LUA_BUILD_AS_DLL)
     endif ()
     set(SHADCN_LUA_RUNTIME_OBJECTS $<TARGET_OBJECTS:ShadcnLuaRuntime>)
     list(APPEND SHADCN_LUA_INCLUDE_DIRS "${lua_SOURCE_DIR}")
@@ -141,13 +131,8 @@ file(GLOB SHADCN_LUA_INTERNAL_FILES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DI
 source_group(include FILES ${SHADCN_LUA_PUBLIC_HEADERS})
 source_group(internal FILES ${SHADCN_LUA_INTERNAL_FILES})
 
-if (SHADCN_BUILD_STATIC)
-    set(SHADCN_LUA_LIB_TYPE STATIC)
-else ()
-    set(SHADCN_LUA_LIB_TYPE SHARED)
-endif ()
-
-qt_add_library(${SHADCN_LUA_TARGET} ${SHADCN_LUA_LIB_TYPE}
+# 始终编译为静态库，链接进使用它的程序，不单独生成动态库
+qt_add_library(${SHADCN_LUA_TARGET} STATIC
     ${SHADCN_LUA_PUBLIC_HEADERS}
     ${SHADCN_LUA_PUBLIC_SOURCES}
     ${SHADCN_LUA_INTERNAL_FILES}
@@ -167,14 +152,10 @@ target_compile_options(${SHADCN_LUA_TARGET} PRIVATE ${SHADCN_UTF8_COMPILE_OPTION
 if (MSVC)
     target_compile_options(${SHADCN_LUA_TARGET} PRIVATE /bigobj)
 endif ()
-target_compile_definitions(${SHADCN_LUA_TARGET} PRIVATE SHADCN_WIDGETTOOLS_LUA_LIBRARY)
 if (SHADCN_LUA_ENGINE STREQUAL "LuaJIT")
     target_compile_definitions(${SHADCN_LUA_TARGET} PUBLIC SHADCN_LUA_JIT)
     # 先编译 LuaJIT 以生成 luajit.h
     add_dependencies(${SHADCN_LUA_TARGET} ShadcnLuaJitBuild)
-endif ()
-if (WIN32 AND NOT SHADCN_BUILD_STATIC)
-    target_compile_definitions(${SHADCN_LUA_TARGET} INTERFACE LUA_BUILD_AS_DLL)
 endif ()
 
 target_include_directories(${SHADCN_LUA_TARGET}
@@ -200,15 +181,4 @@ set_target_properties(${SHADCN_LUA_TARGET} PROPERTIES
     CXX_VISIBILITY_PRESET hidden
     VISIBILITY_INLINES_HIDDEN ON
     DEBUG_POSTFIX "d"
-    VERSION ${PROJECT_VERSION}
-    SOVERSION ${PROJECT_VERSION_MAJOR}
 )
-
-# 只安装运行时文件，供示例程序打包
-if (NOT SHADCN_BUILD_STATIC)
-    install(TARGETS ${SHADCN_LUA_TARGET}
-        RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-        LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR} NAMELINK_SKIP
-        ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR} EXCLUDE_FROM_ALL
-    )
-endif ()

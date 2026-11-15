@@ -623,6 +623,14 @@ namespace ShadStyleHelper
             {
                 result.append(QFontDatabase::systemFont(QFontDatabase::FixedFont).family());
             }
+            const QStringList cjkCandidates{QStringLiteral("Microsoft YaHei UI"), QStringLiteral("Microsoft YaHei"), QStringLiteral("PingFang SC"), QStringLiteral("Noto Sans SC"), QStringLiteral("Noto Sans CJK SC")};
+            for (const QString& family : cjkCandidates)
+            {
+                if (installed.contains(family, Qt::CaseInsensitive))
+                {
+                    result.append(family);
+                }
+            }
             // 等宽字体缺少的 emoji 回退到内置彩色 emoji 字体
             const QString emojiFamily = emojiFontFamily();
             if (!emojiFamily.isEmpty())

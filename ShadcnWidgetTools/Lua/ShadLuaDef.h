@@ -4,13 +4,8 @@
 #include <QFlags>
 #include <QtCore/qglobal.h>
 
-#if defined(SHADCN_STATIC)
+// Lua 绑定库始终为静态库，不需要导出或导入标记
 #define SHADCN_LUA_EXPORT
-#elif defined(SHADCN_WIDGETTOOLS_LUA_LIBRARY)
-#define SHADCN_LUA_EXPORT Q_DECL_EXPORT
-#else
-#define SHADCN_LUA_EXPORT Q_DECL_IMPORT
-#endif
 
 namespace ShadLuaType
 {

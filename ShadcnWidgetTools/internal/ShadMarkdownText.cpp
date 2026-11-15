@@ -8,7 +8,6 @@
 #include <QEvent>
 #include <QFileInfo>
 #include <QFont>
-#include <QFontDatabase>
 #include <QImage>
 #include <QList>
 #include <QMetaType>
@@ -352,7 +351,7 @@ void ShadMarkdownText::applyStyle()
     const QColor muted = shadTheme->getColor(ShadThemeType::Muted);
     const QColor primary = shadTheme->getColor(ShadThemeType::Primary);
     const QColor border = shadTheme->getColor(ShadThemeType::Border);
-    const QString codeFamily = QFontDatabase::systemFont(QFontDatabase::FixedFont).family();
+    const QStringList codeFamilies = ShadStyleHelper::monospaceFontFamilies();
     const int availableWidth = viewport()->width();
     _hasImages = false;
     _styledWidth = availableWidth;
@@ -481,7 +480,7 @@ void ShadMarkdownText::applyStyle()
             if (isCode)
             {
                 format.clearProperty(QTextFormat::FontFamily);
-                format.setFontFamilies(QStringList{codeFamily});
+                format.setFontFamilies(codeFamilies);
                 format.setFontFixedPitch(true);
                 format.setBackground(muted);
                 format.setForeground(foreground);
