@@ -465,6 +465,25 @@ SignaturePad    shad.SignaturePad.new([parent])
   isEmpty() -> boolean
   strokeCount() -> number
   toPngBase64([trimmed]) -> string                   没有笔迹时返回 nil
+
+AutoComplete    shad.AutoComplete.new([parent])                  继承 Input；options、filterMode、maxVisibleItems 是属性
+  setModel(model)          model() -> Model                      传 nil 恢复用 options 设置的选项
+  showPopup()  hidePopup()  isPopupVisible() -> boolean
+```
+
+`filterMode` 取 `shad.AutoCompleteType`。用户输入时发出 `searchTextChanged(text)`，选中建议时发出 `optionSelected(text, row)`。远程搜索把 `filterMode` 设为 `NoFilter`，在 `searchTextChanged` 中取得结果后写入 `options`。
+
+### Transfer
+
+`shad.Transfer.new([parent])`。`targetKeys`、`searchEnabled` 是属性，`moveToTarget()`、`moveToSource()` 是槽；移动后发出 `targetKeysChanged(targetKeys, direction, movedKeys)`，`direction` 取 `shad.TransferType`。每一项写作 `{key = "1", title = "标题", description = "描述", icon = 0, disabled = false}`，除 `key` 与 `title` 外都可以省略。
+
+```
+setItems(items)          getItems() -> 数组
+setTitles(sourceTitle, targetTitle)
+getSourceTitle() -> string
+getTargetTitle() -> string
+getSourceCheckedKeys() -> 数组
+getTargetCheckedKeys() -> 数组
 ```
 
 ### TreeSelect
@@ -681,6 +700,17 @@ ImageCropper    shad.ImageCropper.new([parent])
   reset()
   setCropRect({x, y, 宽, 高})   getCropRect() -> 表
   croppedPngBase64() -> string                   没有图片时返回 nil
+
+Timeline        shad.Timeline.new([parent])                      mode、reverse、pending 是属性，mode 取 shad.TimelineType
+  addItem(title, [time], [description]) -> TimelineItem
+  itemAt(index) -> TimelineItem
+  count() -> number
+  clear()
+  pendingItem() -> TimelineItem                  没有设置 pending 时返回 nil
+
+TimelineItem    由 Timeline:addItem 创建                         title、time、description、color 是属性，color 取 shad.ThemeType
+  setIcon(icon)            getIcon() -> icon
+  contentLayout() -> layout
 ```
 
 ### ListView
@@ -872,6 +902,32 @@ StatusBar       shad.StatusBar.new([parent])
   showMessage(message, [timeout])
   clearMessage()
   currentMessage() -> string
+
+Anchor          shad.Anchor.new([parent])                        currentIndex、offset、duration 是属性
+  setScrollArea(area)      getScrollArea() -> widget
+  addLink(title, target, [level]) -> index       target 必须在 area 的内容组件中
+  setLinkTitle(index, title)   getLinkTitle(index) -> string
+  getLinkTarget(index) -> widget
+  count() -> number
+  clear()
+
+BackTop         shad.BackTop.new([area])                         visibilityHeight、offset、duration 是属性，scrollToTop() 是槽
+  setTarget(area)          getTarget() -> widget                 按钮成为 area 的子组件
+```
+
+### Steps
+
+`shad.Steps.new([parent])`。`currentIndex`、`status`、`orientation`、`clickable` 是属性，`status` 取 `shad.StepsType`，`next()`、`previous()` 是槽；用户点击步骤时发出 `stepClicked(index)`。
+
+```
+addStep(title, [description]) -> index
+setStepTitle(index, title)               getStepTitle(index) -> string
+setStepDescription(index, description)   getStepDescription(index) -> string
+setStepIcon(index, icon)                 getStepIcon(index) -> icon
+setStepDisabled(index, disabled)         isStepDisabled(index) -> boolean
+getStepStatus(index) -> number           取值见 shad.StepsType
+count() -> number
+clear()
 ```
 
 ### TabView

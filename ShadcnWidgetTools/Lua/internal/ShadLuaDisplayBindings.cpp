@@ -47,6 +47,7 @@
 #include "ShadLuaObject.h"
 #include "ShadLuaStack.h"
 #include "ShadMarkdownView.h"
+#include "ShadTimeline.h"
 
 namespace
 {
@@ -324,6 +325,23 @@ namespace
         attachmentGroup.method("count", &ShadAttachmentGroup::count);
         attachmentGroup.method("attachmentAt", &ShadAttachmentGroup::attachmentAt);
         attachmentGroup.method("scrollToAttachment", &ShadAttachmentGroup::scrollToAttachment);
+
+        ShadLuaClass<ShadTimelineItem> timelineItem;
+        timelineItem.method("setIcon", &ShadTimelineItem::setIcon);
+        timelineItem.method("getIcon", &ShadTimelineItem::getIcon);
+        timelineItem.method("contentLayout", &ShadTimelineItem::contentLayout);
+
+        ShadLuaClass<ShadTimeline> timeline("Timeline");
+        timeline.constructor(&ShadLuaBind::newWithParent<ShadTimeline>);
+        timeline.rawMethod("addItem", [](lua_State* L, ShadTimeline* self) -> int
+        {
+            ShadLuaObject::push(L, self->addItem(optionalString(L, 2), optionalString(L, 3), optionalString(L, 4)));
+            return 1;
+        });
+        timeline.method("itemAt", &ShadTimeline::itemAt);
+        timeline.method("count", &ShadTimeline::count);
+        timeline.method("clear", &ShadTimeline::clear);
+        timeline.method("pendingItem", &ShadTimeline::pendingItem);
     }
 
     // Markdown 视图、图片预览与图片裁剪

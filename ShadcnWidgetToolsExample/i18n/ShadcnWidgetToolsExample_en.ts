@@ -533,6 +533,81 @@
     </message>
 </context>
 <context>
+    <name>AnchorPage</name>
+    <message>
+        <source>锚点</source>
+        <translation>Anchor</translation>
+    </message>
+    <message>
+        <source>ShadAnchor：页面内的目录导航，点击平滑滚动到对应位置，滚动时自动高亮当前链接。</source>
+        <translation>ShadAnchor: in-page table of contents. Click a link to scroll smoothly to its section; the current link is highlighted as you scroll.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>addLink 添加链接，level 设置缩进；在右侧滚动区域中滚动，左侧自动切换当前链接</source>
+        <translation>addLink adds a link and level sets its indent. Scroll the area on the right and the current link on the left updates automatically.</translation>
+    </message>
+    <message>
+        <source>安装</source>
+        <translation>Installation</translation>
+    </message>
+    <message>
+        <source>使用 FetchContent</source>
+        <translation>Using FetchContent</translation>
+    </message>
+    <message>
+        <source>使用 find_package</source>
+        <translation>Using find_package</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>Theme</translation>
+    </message>
+    <message>
+        <source>国际化</source>
+        <translation>Internationalization</translation>
+    </message>
+    <message>
+        <source>常见问题</source>
+        <translation>FAQ</translation>
+    </message>
+    <message>
+        <source>这是一段占位文字，用于撑开内容的高度，便于观察滚动时当前链接的变化。</source>
+        <translation>This is placeholder text that adds height to the content, so you can watch the current link change as you scroll.</translation>
+    </message>
+    <message>
+        <source>当前链接: 无</source>
+        <translation>Current link: None</translation>
+    </message>
+    <message>
+        <source>当前链接: %1</source>
+        <translation>Current link: %1</translation>
+    </message>
+    <message>
+        <source>页面导航</source>
+        <translation>Page Navigation</translation>
+    </message>
+    <message>
+        <source>setScrollArea 绑定整个示例页，setOffset(16) 让区块顶部与页面顶部保留 16px</source>
+        <translation>setScrollArea binds the whole example page; setOffset(16) keeps 16px between the top of a section and the top of the page</translation>
+    </message>
+    <message>
+        <source>滚动偏移</source>
+        <translation>Scroll Offset</translation>
+    </message>
+    <message>
+        <source>offset 同时决定判断当前链接的位置：区块顶部越过可视区顶部加 offset 的位置即视为进入该区块</source>
+        <translation>offset also sets where the current link is decided: a section counts as entered once its top passes the top of the viewport plus offset</translation>
+    </message>
+    <message>
+        <source>滚动到底部后，最后几个区块无法再到达顶部，此时切换到最后一个可见的链接。</source>
+        <translation>At the bottom of the page the last sections can no longer reach the top, so the last visible link becomes current.</translation>
+    </message>
+</context>
+<context>
     <name>AttachmentPage</name>
     <message>
         <source>附件</source>
@@ -739,6 +814,81 @@ Opened with the system default application when the attachment card is clicked.
     </message>
 </context>
 <context>
+    <name>AutoCompletePage</name>
+    <message>
+        <source>自动补全</source>
+        <translation>Auto Complete</translation>
+    </message>
+    <message>
+        <source>ShadAutoComplete：输入时在下方弹出建议，方向键切换，回车或点击选中。</source>
+        <translation>ShadAutoComplete: shows suggestions below the input as you type. Use the arrow keys to move, and press Enter or click to pick one.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>setOptions 设置选项，默认按模糊匹配过滤并按相关度排序</source>
+        <translation>setOptions sets the options. By default they are fuzzy filtered and sorted by relevance</translation>
+    </message>
+    <message>
+        <source>输入框架名称</source>
+        <translation>Enter a framework name</translation>
+    </message>
+    <message>
+        <source>选中的建议: 无</source>
+        <translation>Picked suggestion: None</translation>
+    </message>
+    <message>
+        <source>选中的建议: %1</source>
+        <translation>Picked suggestion: %1</translation>
+    </message>
+    <message>
+        <source>前缀匹配</source>
+        <translation>Prefix Match</translation>
+    </message>
+    <message>
+        <source>setFilterMode(Prefix)：只显示以输入文字开头的选项，忽略大小写</source>
+        <translation>setFilterMode(Prefix): only shows options that start with the input, ignoring case</translation>
+    </message>
+    <message>
+        <source>输入 git 命令</source>
+        <translation>Enter a git command</translation>
+    </message>
+    <message>
+        <source>动态选项</source>
+        <translation>Dynamic Options</translation>
+    </message>
+    <message>
+        <source>setFilterMode(NoFilter)：在 searchTextChanged 中按输入生成选项，例如补全邮箱域名</source>
+        <translation>setFilterMode(NoFilter): build the options from the input in searchTextChanged, for example to complete email domains</translation>
+    </message>
+    <message>
+        <source>输入邮箱</source>
+        <translation>Enter your email</translation>
+    </message>
+    <message>
+        <source>远程搜索</source>
+        <translation>Remote Search</translation>
+    </message>
+    <message>
+        <source>输入后延迟 400ms 返回结果，模拟网络请求；结果返回时建议列表自动刷新</source>
+        <translation>Results arrive 400ms after typing to simulate a network request; the suggestions refresh when they arrive</translation>
+    </message>
+    <message>
+        <source>搜索城市</source>
+        <translation>Search cities</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>Invalid</translation>
+    </message>
+    <message>
+        <source>继承 ShadInput，setInvalid(true) 等接口同样可用</source>
+        <translation>Inherits ShadInput, so setInvalid(true) and the other input APIs work too</translation>
+    </message>
+</context>
+<context>
     <name>AvatarPage</name>
     <message>
         <source>头像</source>
@@ -835,6 +985,49 @@ Opened with the system default application when the attachment card is clicked.
     <message>
         <source>从右到左布局下徽章与头像组镜像</source>
         <translation>Badges and avatar groups mirror in right-to-left layout</translation>
+    </message>
+</context>
+<context>
+    <name>BackTopPage</name>
+    <message>
+        <source>回到顶部</source>
+        <translation>Back to Top</translation>
+    </message>
+    <message>
+        <source>ShadBackTop：滚动一段距离后在右下角出现的圆形按钮，点击平滑滚动到顶部。</source>
+        <translation>ShadBackTop: a round button that appears in the bottom corner after you scroll down. Click it to scroll smoothly back to the top.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>ShadBackTop(this) 绑定整个示例页：向下滚动 400px 后右下角出现按钮</source>
+        <translation>ShadBackTop(this) binds the whole example page: the button appears in the bottom corner after scrolling down 400px</translation>
+    </message>
+    <message>
+        <source>继续向下滚动页面，按钮出现后点击回到顶部；动画期间手动滚动会中断动画。</source>
+        <translation>Keep scrolling down the page, then click the button to return to the top. Scrolling by hand during the animation stops it.</translation>
+    </message>
+    <message>
+        <source>滚动区域</source>
+        <translation>Scroll Area</translation>
+    </message>
+    <message>
+        <source>绑定任意 QAbstractScrollArea；setVisibilityHeight(200) 与 setOffset(16) 调整出现时机与位置</source>
+        <translation>Binds any QAbstractScrollArea; setVisibilityHeight(200) and setOffset(16) change when and where the button appears</translation>
+    </message>
+    <message>
+        <source>第 %1 行</source>
+        <translation>Row %1</translation>
+    </message>
+    <message>
+        <source>占位内容</source>
+        <translation>Placeholder Content</translation>
+    </message>
+    <message>
+        <source>用于撑开页面高度</source>
+        <translation>Adds height to the page</translation>
     </message>
 </context>
 <context>
@@ -10040,6 +10233,141 @@ Done.
     </message>
 </context>
 <context>
+    <name>StepsPage</name>
+    <message>
+        <source>账号信息</source>
+        <translation>Account</translation>
+    </message>
+    <message>
+        <source>填写邮箱与密码</source>
+        <translation>Enter your email and password</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>Profile</translation>
+    </message>
+    <message>
+        <source>完善姓名与头像</source>
+        <translation>Add your name and avatar</translation>
+    </message>
+    <message>
+        <source>完成</source>
+        <translation>Done</translation>
+    </message>
+    <message>
+        <source>开始使用</source>
+        <translation>Start using the app</translation>
+    </message>
+    <message>
+        <source>步骤条</source>
+        <translation>Steps</translation>
+    </message>
+    <message>
+        <source>ShadSteps：显示多步骤流程的进度，用于向导与分步表单。</source>
+        <translation>ShadSteps: shows progress through a multi-step flow, for wizards and step-by-step forms.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>addStep 添加步骤，next / previous 前进或后退；当前之前的步骤显示为已完成</source>
+        <translation>addStep adds a step and next / previous move forward or back; steps before the current one show as finished</translation>
+    </message>
+    <message>
+        <source>下一步</source>
+        <translation>Next</translation>
+    </message>
+    <message>
+        <source>上一步</source>
+        <translation>Back</translation>
+    </message>
+    <message>
+        <source>纵向与描述</source>
+        <translation>Vertical with Descriptions</translation>
+    </message>
+    <message>
+        <source>setOrientation(Qt::Vertical)：纵向排列，标题与描述自动换行</source>
+        <translation>setOrientation(Qt::Vertical): steps are stacked vertically, and titles and descriptions wrap</translation>
+    </message>
+    <message>
+        <source>出错状态</source>
+        <translation>Error Status</translation>
+    </message>
+    <message>
+        <source>setStatus(Error)：当前步骤显示为出错，指示器为 X</source>
+        <translation>setStatus(Error): the current step shows as failed, with an X in its indicator</translation>
+    </message>
+    <message>
+        <source>提交订单</source>
+        <translation>Place order</translation>
+    </message>
+    <message>
+        <source>已确认商品与地址</source>
+        <translation>Items and address confirmed</translation>
+    </message>
+    <message>
+        <source>支付</source>
+        <translation>Payment</translation>
+    </message>
+    <message>
+        <source>支付失败，请重试</source>
+        <translation>Payment failed, please try again</translation>
+    </message>
+    <message>
+        <source>发货</source>
+        <translation>Shipping</translation>
+    </message>
+    <message>
+        <source>可点击</source>
+        <translation>Clickable</translation>
+    </message>
+    <message>
+        <source>setClickable(true)：点击步骤或用方向键与回车切换；setStepDisabled 禁用的步骤不能切换</source>
+        <translation>setClickable(true): click a step, or use the arrow keys and Enter, to switch; steps disabled with setStepDisabled cannot be selected</translation>
+    </message>
+    <message>
+        <source>基本设置</source>
+        <translation>General</translation>
+    </message>
+    <message>
+        <source>权限</source>
+        <translation>Permissions</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>Notifications</translation>
+    </message>
+    <message>
+        <source>高级</source>
+        <translation>Advanced</translation>
+    </message>
+    <message>
+        <source>当前步骤: %1</source>
+        <translation>Current step: %1</translation>
+    </message>
+    <message>
+        <source>自定义图标</source>
+        <translation>Custom Icons</translation>
+    </message>
+    <message>
+        <source>setStepIcon 用图标代替序号</source>
+        <translation>setStepIcon replaces the step number with an icon</translation>
+    </message>
+    <message>
+        <source>购物车</source>
+        <translation>Cart</translation>
+    </message>
+    <message>
+        <source>配送</source>
+        <translation>Delivery</translation>
+    </message>
+    <message>
+        <source>签收</source>
+        <translation>Received</translation>
+    </message>
+</context>
+<context>
     <name>SwitchPage</name>
     <message>
         <source>开关</source>
@@ -10508,6 +10836,141 @@ Done.
     <message>
         <source>对比五种基色的主要 token，悬停查看色值</source>
         <translation>Compare the main tokens of the five base colors; hover to see the values</translation>
+    </message>
+</context>
+<context>
+    <name>TimelinePage</name>
+    <message>
+        <source>订单已提交</source>
+        <translation>Order placed</translation>
+    </message>
+    <message>
+        <source>等待商家确认</source>
+        <translation>Waiting for the seller to confirm</translation>
+    </message>
+    <message>
+        <source>商家已发货</source>
+        <translation>Shipped</translation>
+    </message>
+    <message>
+        <source>包裹已交给快递公司</source>
+        <translation>The package was handed to the carrier</translation>
+    </message>
+    <message>
+        <source>运输中</source>
+        <translation>In transit</translation>
+    </message>
+    <message>
+        <source>已到达转运中心</source>
+        <translation>Arrived at the sorting center</translation>
+    </message>
+    <message>
+        <source>派送中</source>
+        <translation>Out for delivery</translation>
+    </message>
+    <message>
+        <source>时间轴</source>
+        <translation>Timeline</translation>
+    </message>
+    <message>
+        <source>ShadTimeline：按时间顺序纵向排列的节点，用于操作记录、版本历史与物流进度。</source>
+        <translation>ShadTimeline: events listed vertically in time order, for activity logs, version history and delivery progress.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>addItem 添加节点，每个节点包含时间、标题与描述</source>
+        <translation>addItem adds an event with a time, title and description</translation>
+    </message>
+    <message>
+        <source>颜色与图标</source>
+        <translation>Colors and Icons</translation>
+    </message>
+    <message>
+        <source>setColor 设置圆点颜色，setIcon 用图标代替圆点</source>
+        <translation>setColor sets the dot color; setIcon replaces the dot with an icon</translation>
+    </message>
+    <message>
+        <source>创建仓库</source>
+        <translation>Repository created</translation>
+    </message>
+    <message>
+        <source>初始化项目结构</source>
+        <translation>Initial project structure</translation>
+    </message>
+    <message>
+        <source>发布正式版</source>
+        <translation>Stable release</translation>
+    </message>
+    <message>
+        <source>全部测试通过</source>
+        <translation>All tests passed</translation>
+    </message>
+    <message>
+        <source>构建失败</source>
+        <translation>Build failed</translation>
+    </message>
+    <message>
+        <source>依赖下载超时</source>
+        <translation>Dependency download timed out</translation>
+    </message>
+    <message>
+        <source>草稿</source>
+        <translation>Draft</translation>
+    </message>
+    <message>
+        <source>交替排列</source>
+        <translation>Alternate</translation>
+    </message>
+    <message>
+        <source>setMode(Alternate)：轴居中，节点左右交替，时间显示在另一侧；End 模式轴在结束侧</source>
+        <translation>setMode(Alternate): the line is centered, events alternate sides and the time is shown on the other side; in End mode the line is on the end side</translation>
+    </message>
+    <message>
+        <source>进行中与倒序</source>
+        <translation>Pending and Reverse</translation>
+    </message>
+    <message>
+        <source>setPending 在末尾追加旋转图标的进行中节点，相连的一段为虚线；setReverse 倒序显示</source>
+        <translation>setPending adds a pending event with a spinning icon at the end, joined by a dashed line; setReverse shows the events in reverse order</translation>
+    </message>
+    <message>
+        <source>倒序</source>
+        <translation>Reverse</translation>
+    </message>
+    <message>
+        <source>等待签收...</source>
+        <translation>Waiting for delivery...</translation>
+    </message>
+    <message>
+        <source>自定义内容</source>
+        <translation>Custom Content</translation>
+    </message>
+    <message>
+        <source>contentLayout 可在节点中放入任意组件</source>
+        <translation>contentLayout holds any widgets inside an event</translation>
+    </message>
+    <message>
+        <source>等待审核</source>
+        <translation>Waiting for review</translation>
+    </message>
+    <message>
+        <source>合并请求需要一位成员批准</source>
+        <translation>The merge request needs approval from one member</translation>
+    </message>
+    <message>
+        <source>批准</source>
+        <translation>Approve</translation>
+    </message>
+    <message>
+        <source>拒绝</source>
+        <translation>Reject</translation>
+    </message>
+    <message>
+        <source>已合并</source>
+        <translation>Merged</translation>
     </message>
 </context>
 <context>
@@ -11487,6 +11950,89 @@ Done.
     <message>
         <source>已读取 apps/v4/lib/docs.ts</source>
         <translation>Read apps/v4/lib/docs.ts</translation>
+    </message>
+</context>
+<context>
+    <name>TransferPage</name>
+    <message>
+        <source>成员 %1</source>
+        <translation>Member %1</translation>
+    </message>
+    <message>
+        <source>查看项目</source>
+        <translation>View project</translation>
+    </message>
+    <message>
+        <source>编辑代码</source>
+        <translation>Edit code</translation>
+    </message>
+    <message>
+        <source>合并请求</source>
+        <translation>Merge requests</translation>
+    </message>
+    <message>
+        <source>发布版本</source>
+        <translation>Publish releases</translation>
+    </message>
+    <message>
+        <source>管理成员</source>
+        <translation>Manage members</translation>
+    </message>
+    <message>
+        <source>修改设置</source>
+        <translation>Change settings</translation>
+    </message>
+    <message>
+        <source>删除项目</source>
+        <translation>Delete project</translation>
+    </message>
+    <message>
+        <source>穿梭框</source>
+        <translation>Transfer</translation>
+    </message>
+    <message>
+        <source>ShadTransfer：在两个列表之间移动勾选的项，常用于成员与权限分配。</source>
+        <translation>ShadTransfer: moves checked items between two lists, often used to assign members and permissions.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>点击整行或按空格勾选，点击中间的按钮移动；禁用的项不能勾选</source>
+        <translation>Click a row or press Space to check it, then use the buttons in the middle to move it; disabled items cannot be checked</translation>
+    </message>
+    <message>
+        <source>全部成员</source>
+        <translation>All Members</translation>
+    </message>
+    <message>
+        <source>项目成员</source>
+        <translation>Project Members</translation>
+    </message>
+    <message>
+        <source>项目成员: %1 人</source>
+        <translation>Project members: %1</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>Search</translation>
+    </message>
+    <message>
+        <source>setSearchEnabled(true) 在列表顶部显示搜索框，按标题过滤，全选只作用于过滤后的项</source>
+        <translation>setSearchEnabled(true) shows a search box above each list that filters by title; Select All only affects the filtered items</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>Disabled</translation>
+    </message>
+    <message>
+        <source>setEnabled(false) 禁用整个穿梭框</source>
+        <translation>setEnabled(false) disables the whole transfer</translation>
+    </message>
+    <message>
+        <source>可用</source>
+        <translation>Enabled</translation>
     </message>
 </context>
 <context>

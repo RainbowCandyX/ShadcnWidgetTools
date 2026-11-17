@@ -27,7 +27,7 @@ local details = shad.Descriptions.new("版本信息")
 details.columnCount = 2
 details.bordered = true
 details:addItem("名称", "ShadcnWidgetTools")
-details:addItem("版本", "1.2.0")
+details:addItem("版本", "1.3.0")
 details:addItem("许可证", "MIT")
 details:addItem("状态", shad.Badge.new("稳定"))
 layout:addWidget(details)

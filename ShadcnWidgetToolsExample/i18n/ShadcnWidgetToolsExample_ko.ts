@@ -533,6 +533,81 @@
     </message>
 </context>
 <context>
+    <name>AnchorPage</name>
+    <message>
+        <source>锚点</source>
+        <translation>앵커</translation>
+    </message>
+    <message>
+        <source>ShadAnchor：页面内的目录导航，点击平滑滚动到对应位置，滚动时自动高亮当前链接。</source>
+        <translation>ShadAnchor: 페이지 안의 목차 탐색입니다. 클릭하면 해당 위치로 부드럽게 스크롤하고, 스크롤할 때 현재 링크를 강조 표시합니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>addLink 添加链接，level 设置缩进；在右侧滚动区域中滚动，左侧自动切换当前链接</source>
+        <translation>addLink로 링크를 추가하고 level로 들여쓰기를 설정합니다. 오른쪽 스크롤 영역을 스크롤하면 왼쪽의 현재 링크가 자동으로 바뀝니다</translation>
+    </message>
+    <message>
+        <source>安装</source>
+        <translation>설치</translation>
+    </message>
+    <message>
+        <source>使用 FetchContent</source>
+        <translation>FetchContent 사용</translation>
+    </message>
+    <message>
+        <source>使用 find_package</source>
+        <translation>find_package 사용</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>테마</translation>
+    </message>
+    <message>
+        <source>国际化</source>
+        <translation>국제화</translation>
+    </message>
+    <message>
+        <source>常见问题</source>
+        <translation>자주 묻는 질문</translation>
+    </message>
+    <message>
+        <source>这是一段占位文字，用于撑开内容的高度，便于观察滚动时当前链接的变化。</source>
+        <translation>콘텐츠 높이를 늘리기 위한 자리 표시 텍스트입니다. 스크롤할 때 현재 링크가 바뀌는 모습을 확인할 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>当前链接: 无</source>
+        <translation>현재 링크: 없음</translation>
+    </message>
+    <message>
+        <source>当前链接: %1</source>
+        <translation>현재 링크: %1</translation>
+    </message>
+    <message>
+        <source>页面导航</source>
+        <translation>페이지 탐색</translation>
+    </message>
+    <message>
+        <source>setScrollArea 绑定整个示例页，setOffset(16) 让区块顶部与页面顶部保留 16px</source>
+        <translation>setScrollArea로 예제 페이지 전체에 연결하고, setOffset(16)으로 섹션 상단과 페이지 상단 사이에 16px를 남깁니다</translation>
+    </message>
+    <message>
+        <source>滚动偏移</source>
+        <translation>스크롤 오프셋</translation>
+    </message>
+    <message>
+        <source>offset 同时决定判断当前链接的位置：区块顶部越过可视区顶部加 offset 的位置即视为进入该区块</source>
+        <translation>offset은 현재 링크를 판단하는 위치도 결정합니다. 섹션 상단이 보이는 영역 상단에 offset을 더한 위치를 지나면 해당 섹션에 들어간 것으로 봅니다</translation>
+    </message>
+    <message>
+        <source>滚动到底部后，最后几个区块无法再到达顶部，此时切换到最后一个可见的链接。</source>
+        <translation>맨 아래까지 스크롤하면 마지막 몇 개 섹션은 더 이상 상단에 도달할 수 없으므로 마지막으로 보이는 링크로 전환합니다.</translation>
+    </message>
+</context>
+<context>
     <name>AttachmentPage</name>
     <message>
         <source>附件</source>
@@ -739,6 +814,81 @@
     </message>
 </context>
 <context>
+    <name>AutoCompletePage</name>
+    <message>
+        <source>自动补全</source>
+        <translation>자동 완성</translation>
+    </message>
+    <message>
+        <source>ShadAutoComplete：输入时在下方弹出建议，方向键切换，回车或点击选中。</source>
+        <translation>ShadAutoComplete: 입력하는 동안 아래에 추천 항목을 표시합니다. 방향키로 이동하고 Enter 또는 클릭으로 선택합니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>setOptions 设置选项，默认按模糊匹配过滤并按相关度排序</source>
+        <translation>setOptions로 항목을 설정합니다. 기본적으로 퍼지 일치로 거르고 관련도 순으로 정렬합니다</translation>
+    </message>
+    <message>
+        <source>输入框架名称</source>
+        <translation>프레임워크 이름 입력</translation>
+    </message>
+    <message>
+        <source>选中的建议: 无</source>
+        <translation>선택한 추천: 없음</translation>
+    </message>
+    <message>
+        <source>选中的建议: %1</source>
+        <translation>선택한 추천: %1</translation>
+    </message>
+    <message>
+        <source>前缀匹配</source>
+        <translation>접두사 일치</translation>
+    </message>
+    <message>
+        <source>setFilterMode(Prefix)：只显示以输入文字开头的选项，忽略大小写</source>
+        <translation>setFilterMode(Prefix): 입력한 텍스트로 시작하는 항목만 표시하며 대소문자를 구분하지 않습니다</translation>
+    </message>
+    <message>
+        <source>输入 git 命令</source>
+        <translation>git 명령 입력</translation>
+    </message>
+    <message>
+        <source>动态选项</source>
+        <translation>동적 항목</translation>
+    </message>
+    <message>
+        <source>setFilterMode(NoFilter)：在 searchTextChanged 中按输入生成选项，例如补全邮箱域名</source>
+        <translation>setFilterMode(NoFilter): searchTextChanged에서 입력에 따라 항목을 만듭니다. 예를 들어 이메일 도메인을 완성할 수 있습니다</translation>
+    </message>
+    <message>
+        <source>输入邮箱</source>
+        <translation>이메일을 입력하세요</translation>
+    </message>
+    <message>
+        <source>远程搜索</source>
+        <translation>원격 검색</translation>
+    </message>
+    <message>
+        <source>输入后延迟 400ms 返回结果，模拟网络请求；结果返回时建议列表自动刷新</source>
+        <translation>입력 후 400ms 뒤에 결과를 돌려주어 네트워크 요청을 흉내 냅니다. 결과가 오면 추천 목록이 자동으로 새로 고쳐집니다</translation>
+    </message>
+    <message>
+        <source>搜索城市</source>
+        <translation>도시 검색</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>오류 상태</translation>
+    </message>
+    <message>
+        <source>继承 ShadInput，setInvalid(true) 等接口同样可用</source>
+        <translation>ShadInput을 상속하므로 setInvalid(true) 등의 인터페이스도 그대로 사용할 수 있습니다</translation>
+    </message>
+</context>
+<context>
     <name>AvatarPage</name>
     <message>
         <source>头像</source>
@@ -835,6 +985,49 @@
     <message>
         <source>从右到左布局下徽章与头像组镜像</source>
         <translation>오른쪽에서 왼쪽 레이아웃에서는 배지와 아바타 그룹이 좌우 반전됩니다</translation>
+    </message>
+</context>
+<context>
+    <name>BackTopPage</name>
+    <message>
+        <source>回到顶部</source>
+        <translation>맨 위로</translation>
+    </message>
+    <message>
+        <source>ShadBackTop：滚动一段距离后在右下角出现的圆形按钮，点击平滑滚动到顶部。</source>
+        <translation>ShadBackTop: 일정 거리를 스크롤하면 오른쪽 아래에 나타나는 원형 버튼입니다. 클릭하면 맨 위로 부드럽게 스크롤합니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>ShadBackTop(this) 绑定整个示例页：向下滚动 400px 后右下角出现按钮</source>
+        <translation>ShadBackTop(this)로 예제 페이지 전체에 연결합니다. 400px 아래로 스크롤하면 오른쪽 아래에 버튼이 나타납니다</translation>
+    </message>
+    <message>
+        <source>继续向下滚动页面，按钮出现后点击回到顶部；动画期间手动滚动会中断动画。</source>
+        <translation>페이지를 계속 아래로 스크롤하고 버튼이 나타나면 클릭해 맨 위로 돌아가세요. 애니메이션 중에 직접 스크롤하면 애니메이션이 멈춥니다.</translation>
+    </message>
+    <message>
+        <source>滚动区域</source>
+        <translation>스크롤 영역</translation>
+    </message>
+    <message>
+        <source>绑定任意 QAbstractScrollArea；setVisibilityHeight(200) 与 setOffset(16) 调整出现时机与位置</source>
+        <translation>어떤 QAbstractScrollArea에도 연결할 수 있습니다. setVisibilityHeight(200)과 setOffset(16)으로 나타나는 시점과 위치를 조정합니다</translation>
+    </message>
+    <message>
+        <source>第 %1 行</source>
+        <translation>%1번째 행</translation>
+    </message>
+    <message>
+        <source>占位内容</source>
+        <translation>자리 표시 콘텐츠</translation>
+    </message>
+    <message>
+        <source>用于撑开页面高度</source>
+        <translation>페이지 높이를 늘리기 위한 콘텐츠</translation>
     </message>
 </context>
 <context>
@@ -10040,6 +10233,141 @@ def fibonacci(count):
     </message>
 </context>
 <context>
+    <name>StepsPage</name>
+    <message>
+        <source>账号信息</source>
+        <translation>계정 정보</translation>
+    </message>
+    <message>
+        <source>填写邮箱与密码</source>
+        <translation>이메일과 비밀번호 입력</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>프로필</translation>
+    </message>
+    <message>
+        <source>完善姓名与头像</source>
+        <translation>이름과 아바타 설정</translation>
+    </message>
+    <message>
+        <source>完成</source>
+        <translation>완료</translation>
+    </message>
+    <message>
+        <source>开始使用</source>
+        <translation>사용 시작</translation>
+    </message>
+    <message>
+        <source>步骤条</source>
+        <translation>단계 표시</translation>
+    </message>
+    <message>
+        <source>ShadSteps：显示多步骤流程的进度，用于向导与分步表单。</source>
+        <translation>ShadSteps: 여러 단계로 이루어진 흐름의 진행 상황을 표시하며, 마법사와 단계별 양식에 사용합니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>addStep 添加步骤，next / previous 前进或后退；当前之前的步骤显示为已完成</source>
+        <translation>addStep으로 단계를 추가하고 next / previous로 앞뒤로 이동합니다. 현재 단계 이전의 단계는 완료로 표시됩니다</translation>
+    </message>
+    <message>
+        <source>下一步</source>
+        <translation>다음</translation>
+    </message>
+    <message>
+        <source>上一步</source>
+        <translation>이전</translation>
+    </message>
+    <message>
+        <source>纵向与描述</source>
+        <translation>세로 방향과 설명</translation>
+    </message>
+    <message>
+        <source>setOrientation(Qt::Vertical)：纵向排列，标题与描述自动换行</source>
+        <translation>setOrientation(Qt::Vertical): 세로로 배치하며 제목과 설명은 자동으로 줄 바꿈됩니다</translation>
+    </message>
+    <message>
+        <source>出错状态</source>
+        <translation>오류 상태</translation>
+    </message>
+    <message>
+        <source>setStatus(Error)：当前步骤显示为出错，指示器为 X</source>
+        <translation>setStatus(Error): 현재 단계를 오류로 표시하며 표시기는 X가 됩니다</translation>
+    </message>
+    <message>
+        <source>提交订单</source>
+        <translation>주문하기</translation>
+    </message>
+    <message>
+        <source>已确认商品与地址</source>
+        <translation>상품과 주소 확인 완료</translation>
+    </message>
+    <message>
+        <source>支付</source>
+        <translation>결제</translation>
+    </message>
+    <message>
+        <source>支付失败，请重试</source>
+        <translation>결제에 실패했습니다. 다시 시도하세요</translation>
+    </message>
+    <message>
+        <source>发货</source>
+        <translation>발송</translation>
+    </message>
+    <message>
+        <source>可点击</source>
+        <translation>클릭 가능</translation>
+    </message>
+    <message>
+        <source>setClickable(true)：点击步骤或用方向键与回车切换；setStepDisabled 禁用的步骤不能切换</source>
+        <translation>setClickable(true): 단계를 클릭하거나 방향키와 Enter로 전환합니다. setStepDisabled로 비활성화한 단계로는 전환할 수 없습니다</translation>
+    </message>
+    <message>
+        <source>基本设置</source>
+        <translation>기본 설정</translation>
+    </message>
+    <message>
+        <source>权限</source>
+        <translation>권한</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>알림</translation>
+    </message>
+    <message>
+        <source>高级</source>
+        <translation>고급</translation>
+    </message>
+    <message>
+        <source>当前步骤: %1</source>
+        <translation>현재 단계: %1</translation>
+    </message>
+    <message>
+        <source>自定义图标</source>
+        <translation>사용자 지정 아이콘</translation>
+    </message>
+    <message>
+        <source>setStepIcon 用图标代替序号</source>
+        <translation>setStepIcon으로 번호 대신 아이콘을 표시합니다</translation>
+    </message>
+    <message>
+        <source>购物车</source>
+        <translation>장바구니</translation>
+    </message>
+    <message>
+        <source>配送</source>
+        <translation>배송</translation>
+    </message>
+    <message>
+        <source>签收</source>
+        <translation>수령</translation>
+    </message>
+</context>
+<context>
     <name>SwitchPage</name>
     <message>
         <source>开关</source>
@@ -10508,6 +10836,141 @@ def fibonacci(count):
     <message>
         <source>对比五种基色的主要 token，悬停查看色值</source>
         <translation>다섯 가지 기본 색상의 주요 토큰을 비교하며, 마우스를 올리면 색상 값을 볼 수 있습니다</translation>
+    </message>
+</context>
+<context>
+    <name>TimelinePage</name>
+    <message>
+        <source>订单已提交</source>
+        <translation>주문 접수됨</translation>
+    </message>
+    <message>
+        <source>等待商家确认</source>
+        <translation>판매자 확인 대기 중</translation>
+    </message>
+    <message>
+        <source>商家已发货</source>
+        <translation>발송됨</translation>
+    </message>
+    <message>
+        <source>包裹已交给快递公司</source>
+        <translation>택배사에 소포를 인계했습니다</translation>
+    </message>
+    <message>
+        <source>运输中</source>
+        <translation>배송 중</translation>
+    </message>
+    <message>
+        <source>已到达转运中心</source>
+        <translation>물류 센터에 도착했습니다</translation>
+    </message>
+    <message>
+        <source>派送中</source>
+        <translation>배달 중</translation>
+    </message>
+    <message>
+        <source>时间轴</source>
+        <translation>타임라인</translation>
+    </message>
+    <message>
+        <source>ShadTimeline：按时间顺序纵向排列的节点，用于操作记录、版本历史与物流进度。</source>
+        <translation>ShadTimeline: 시간 순서대로 세로로 나열한 노드로, 작업 기록, 버전 기록, 배송 진행 상황에 사용합니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>addItem 添加节点，每个节点包含时间、标题与描述</source>
+        <translation>addItem으로 노드를 추가합니다. 각 노드에는 시간, 제목, 설명이 있습니다</translation>
+    </message>
+    <message>
+        <source>颜色与图标</source>
+        <translation>색상과 아이콘</translation>
+    </message>
+    <message>
+        <source>setColor 设置圆点颜色，setIcon 用图标代替圆点</source>
+        <translation>setColor로 점 색상을 설정하고 setIcon으로 점 대신 아이콘을 표시합니다</translation>
+    </message>
+    <message>
+        <source>创建仓库</source>
+        <translation>저장소 생성</translation>
+    </message>
+    <message>
+        <source>初始化项目结构</source>
+        <translation>프로젝트 구조 초기화</translation>
+    </message>
+    <message>
+        <source>发布正式版</source>
+        <translation>정식 버전 출시</translation>
+    </message>
+    <message>
+        <source>全部测试通过</source>
+        <translation>모든 테스트 통과</translation>
+    </message>
+    <message>
+        <source>构建失败</source>
+        <translation>빌드 실패</translation>
+    </message>
+    <message>
+        <source>依赖下载超时</source>
+        <translation>의존성 다운로드 시간 초과</translation>
+    </message>
+    <message>
+        <source>草稿</source>
+        <translation>초안</translation>
+    </message>
+    <message>
+        <source>交替排列</source>
+        <translation>교차 배치</translation>
+    </message>
+    <message>
+        <source>setMode(Alternate)：轴居中，节点左右交替，时间显示在另一侧；End 模式轴在结束侧</source>
+        <translation>setMode(Alternate): 축을 가운데에 두고 노드를 좌우로 번갈아 배치하며 시간은 반대쪽에 표시합니다. End 모드에서는 축이 끝쪽에 있습니다</translation>
+    </message>
+    <message>
+        <source>进行中与倒序</source>
+        <translation>진행 중과 역순</translation>
+    </message>
+    <message>
+        <source>setPending 在末尾追加旋转图标的进行中节点，相连的一段为虚线；setReverse 倒序显示</source>
+        <translation>setPending은 회전 아이콘이 있는 진행 중 노드를 끝에 추가하며 연결선은 점선이 됩니다. setReverse는 역순으로 표시합니다</translation>
+    </message>
+    <message>
+        <source>倒序</source>
+        <translation>역순</translation>
+    </message>
+    <message>
+        <source>等待签收...</source>
+        <translation>수령 대기 중...</translation>
+    </message>
+    <message>
+        <source>自定义内容</source>
+        <translation>사용자 지정 콘텐츠</translation>
+    </message>
+    <message>
+        <source>contentLayout 可在节点中放入任意组件</source>
+        <translation>contentLayout으로 노드에 원하는 위젯을 넣을 수 있습니다</translation>
+    </message>
+    <message>
+        <source>等待审核</source>
+        <translation>검토 대기 중</translation>
+    </message>
+    <message>
+        <source>合并请求需要一位成员批准</source>
+        <translation>병합 요청에는 멤버 한 명의 승인이 필요합니다</translation>
+    </message>
+    <message>
+        <source>批准</source>
+        <translation>승인</translation>
+    </message>
+    <message>
+        <source>拒绝</source>
+        <translation>거부</translation>
+    </message>
+    <message>
+        <source>已合并</source>
+        <translation>병합됨</translation>
     </message>
 </context>
 <context>
@@ -11487,6 +11950,89 @@ def fibonacci(count):
     <message>
         <source>已读取 apps/v4/lib/docs.ts</source>
         <translation>apps/v4/lib/docs.ts 읽음</translation>
+    </message>
+</context>
+<context>
+    <name>TransferPage</name>
+    <message>
+        <source>成员 %1</source>
+        <translation>멤버 %1</translation>
+    </message>
+    <message>
+        <source>查看项目</source>
+        <translation>프로젝트 보기</translation>
+    </message>
+    <message>
+        <source>编辑代码</source>
+        <translation>코드 편집</translation>
+    </message>
+    <message>
+        <source>合并请求</source>
+        <translation>병합 요청</translation>
+    </message>
+    <message>
+        <source>发布版本</source>
+        <translation>릴리스 게시</translation>
+    </message>
+    <message>
+        <source>管理成员</source>
+        <translation>멤버 관리</translation>
+    </message>
+    <message>
+        <source>修改设置</source>
+        <translation>설정 변경</translation>
+    </message>
+    <message>
+        <source>删除项目</source>
+        <translation>프로젝트 삭제</translation>
+    </message>
+    <message>
+        <source>穿梭框</source>
+        <translation>트랜스퍼</translation>
+    </message>
+    <message>
+        <source>ShadTransfer：在两个列表之间移动勾选的项，常用于成员与权限分配。</source>
+        <translation>ShadTransfer: 체크한 항목을 두 목록 사이에서 옮깁니다. 멤버와 권한을 배정할 때 자주 사용합니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>点击整行或按空格勾选，点击中间的按钮移动；禁用的项不能勾选</source>
+        <translation>행을 클릭하거나 Space 키로 체크한 뒤 가운데 버튼으로 옮깁니다. 비활성화된 항목은 체크할 수 없습니다</translation>
+    </message>
+    <message>
+        <source>全部成员</source>
+        <translation>전체 멤버</translation>
+    </message>
+    <message>
+        <source>项目成员</source>
+        <translation>프로젝트 멤버</translation>
+    </message>
+    <message>
+        <source>项目成员: %1 人</source>
+        <translation>프로젝트 멤버: %1명</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>검색</translation>
+    </message>
+    <message>
+        <source>setSearchEnabled(true) 在列表顶部显示搜索框，按标题过滤，全选只作用于过滤后的项</source>
+        <translation>setSearchEnabled(true)로 목록 위에 검색 상자를 표시하고 제목으로 거릅니다. 모두 선택은 걸러진 항목에만 적용됩니다</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>비활성화</translation>
+    </message>
+    <message>
+        <source>setEnabled(false) 禁用整个穿梭框</source>
+        <translation>setEnabled(false)로 트랜스퍼 전체를 비활성화합니다</translation>
+    </message>
+    <message>
+        <source>可用</source>
+        <translation>사용 가능</translation>
     </message>
 </context>
 <context>

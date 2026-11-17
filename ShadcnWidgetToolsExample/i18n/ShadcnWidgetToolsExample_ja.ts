@@ -533,6 +533,81 @@
     </message>
 </context>
 <context>
+    <name>AnchorPage</name>
+    <message>
+        <source>锚点</source>
+        <translation>アンカー</translation>
+    </message>
+    <message>
+        <source>ShadAnchor：页面内的目录导航，点击平滑滚动到对应位置，滚动时自动高亮当前链接。</source>
+        <translation>ShadAnchor：ページ内の目次ナビゲーション。クリックすると該当位置まで滑らかにスクロールし、スクロールに合わせて現在のリンクを強調表示します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>addLink 添加链接，level 设置缩进；在右侧滚动区域中滚动，左侧自动切换当前链接</source>
+        <translation>addLink でリンクを追加し、level でインデントを設定します。右側のスクロールエリアをスクロールすると、左側の現在のリンクが自動で切り替わります</translation>
+    </message>
+    <message>
+        <source>安装</source>
+        <translation>インストール</translation>
+    </message>
+    <message>
+        <source>使用 FetchContent</source>
+        <translation>FetchContent を使う</translation>
+    </message>
+    <message>
+        <source>使用 find_package</source>
+        <translation>find_package を使う</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>テーマ</translation>
+    </message>
+    <message>
+        <source>国际化</source>
+        <translation>国際化</translation>
+    </message>
+    <message>
+        <source>常见问题</source>
+        <translation>よくある質問</translation>
+    </message>
+    <message>
+        <source>这是一段占位文字，用于撑开内容的高度，便于观察滚动时当前链接的变化。</source>
+        <translation>これはコンテンツの高さを確保するためのプレースホルダーテキストです。スクロールしたときに現在のリンクが切り替わる様子を確認できます。</translation>
+    </message>
+    <message>
+        <source>当前链接: 无</source>
+        <translation>現在のリンク: なし</translation>
+    </message>
+    <message>
+        <source>当前链接: %1</source>
+        <translation>現在のリンク: %1</translation>
+    </message>
+    <message>
+        <source>页面导航</source>
+        <translation>ページナビゲーション</translation>
+    </message>
+    <message>
+        <source>setScrollArea 绑定整个示例页，setOffset(16) 让区块顶部与页面顶部保留 16px</source>
+        <translation>setScrollArea でサンプルページ全体に紐付け、setOffset(16) でセクションの上端とページの上端の間に 16px を空けます</translation>
+    </message>
+    <message>
+        <source>滚动偏移</source>
+        <translation>スクロールオフセット</translation>
+    </message>
+    <message>
+        <source>offset 同时决定判断当前链接的位置：区块顶部越过可视区顶部加 offset 的位置即视为进入该区块</source>
+        <translation>offset は現在のリンクを判定する位置も決めます。セクションの上端が表示領域の上端に offset を加えた位置を越えると、そのセクションに入ったとみなします</translation>
+    </message>
+    <message>
+        <source>滚动到底部后，最后几个区块无法再到达顶部，此时切换到最后一个可见的链接。</source>
+        <translation>最下部までスクロールすると最後のいくつかのセクションは上端に届かないため、最後に表示されているリンクに切り替えます。</translation>
+    </message>
+</context>
+<context>
     <name>AttachmentPage</name>
     <message>
         <source>附件</source>
@@ -739,6 +814,81 @@
     </message>
 </context>
 <context>
+    <name>AutoCompletePage</name>
+    <message>
+        <source>自动补全</source>
+        <translation>オートコンプリート</translation>
+    </message>
+    <message>
+        <source>ShadAutoComplete：输入时在下方弹出建议，方向键切换，回车或点击选中。</source>
+        <translation>ShadAutoComplete：入力中に下に候補を表示します。矢印キーで切り替え、Enter またはクリックで選択します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>setOptions 设置选项，默认按模糊匹配过滤并按相关度排序</source>
+        <translation>setOptions で候補を設定します。既定ではあいまい一致で絞り込み、関連度順に並べます</translation>
+    </message>
+    <message>
+        <source>输入框架名称</source>
+        <translation>フレームワーク名を入力</translation>
+    </message>
+    <message>
+        <source>选中的建议: 无</source>
+        <translation>選択した候補: なし</translation>
+    </message>
+    <message>
+        <source>选中的建议: %1</source>
+        <translation>選択した候補: %1</translation>
+    </message>
+    <message>
+        <source>前缀匹配</source>
+        <translation>前方一致</translation>
+    </message>
+    <message>
+        <source>setFilterMode(Prefix)：只显示以输入文字开头的选项，忽略大小写</source>
+        <translation>setFilterMode(Prefix)：入力した文字で始まる候補だけを表示します（大文字と小文字を区別しません）</translation>
+    </message>
+    <message>
+        <source>输入 git 命令</source>
+        <translation>git コマンドを入力</translation>
+    </message>
+    <message>
+        <source>动态选项</source>
+        <translation>動的な候補</translation>
+    </message>
+    <message>
+        <source>setFilterMode(NoFilter)：在 searchTextChanged 中按输入生成选项，例如补全邮箱域名</source>
+        <translation>setFilterMode(NoFilter)：searchTextChanged で入力に応じて候補を生成します。例えばメールアドレスのドメインを補完できます</translation>
+    </message>
+    <message>
+        <source>输入邮箱</source>
+        <translation>メールアドレスを入力</translation>
+    </message>
+    <message>
+        <source>远程搜索</source>
+        <translation>リモート検索</translation>
+    </message>
+    <message>
+        <source>输入后延迟 400ms 返回结果，模拟网络请求；结果返回时建议列表自动刷新</source>
+        <translation>入力から 400ms 後に結果を返してネットワーク要求を模擬します。結果が返ると候補一覧が自動で更新されます</translation>
+    </message>
+    <message>
+        <source>搜索城市</source>
+        <translation>都市を検索</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>エラー状態</translation>
+    </message>
+    <message>
+        <source>继承 ShadInput，setInvalid(true) 等接口同样可用</source>
+        <translation>ShadInput を継承しているため、setInvalid(true) などのインターフェイスもそのまま使えます</translation>
+    </message>
+</context>
+<context>
     <name>AvatarPage</name>
     <message>
         <source>头像</source>
@@ -835,6 +985,49 @@
     <message>
         <source>从右到左布局下徽章与头像组镜像</source>
         <translation>右から左へのレイアウトでは、バッジとアバターグループが左右反転します</translation>
+    </message>
+</context>
+<context>
+    <name>BackTopPage</name>
+    <message>
+        <source>回到顶部</source>
+        <translation>トップへ戻る</translation>
+    </message>
+    <message>
+        <source>ShadBackTop：滚动一段距离后在右下角出现的圆形按钮，点击平滑滚动到顶部。</source>
+        <translation>ShadBackTop：一定距離スクロールすると右下に表示される丸いボタンです。クリックすると先頭まで滑らかにスクロールします。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>ShadBackTop(this) 绑定整个示例页：向下滚动 400px 后右下角出现按钮</source>
+        <translation>ShadBackTop(this) でサンプルページ全体に紐付けます。400px 下にスクロールすると右下にボタンが表示されます</translation>
+    </message>
+    <message>
+        <source>继续向下滚动页面，按钮出现后点击回到顶部；动画期间手动滚动会中断动画。</source>
+        <translation>ページをさらに下へスクロールし、ボタンが表示されたらクリックして先頭へ戻ります。アニメーション中に手動でスクロールするとアニメーションは止まります。</translation>
+    </message>
+    <message>
+        <source>滚动区域</source>
+        <translation>スクロールエリア</translation>
+    </message>
+    <message>
+        <source>绑定任意 QAbstractScrollArea；setVisibilityHeight(200) 与 setOffset(16) 调整出现时机与位置</source>
+        <translation>任意の QAbstractScrollArea に紐付けられます。setVisibilityHeight(200) と setOffset(16) で表示のタイミングと位置を調整します</translation>
+    </message>
+    <message>
+        <source>第 %1 行</source>
+        <translation>%1 行目</translation>
+    </message>
+    <message>
+        <source>占位内容</source>
+        <translation>プレースホルダー</translation>
+    </message>
+    <message>
+        <source>用于撑开页面高度</source>
+        <translation>ページの高さを確保するためのコンテンツ</translation>
     </message>
 </context>
 <context>
@@ -10040,6 +10233,141 @@ def fibonacci(count):
     </message>
 </context>
 <context>
+    <name>StepsPage</name>
+    <message>
+        <source>账号信息</source>
+        <translation>アカウント情報</translation>
+    </message>
+    <message>
+        <source>填写邮箱与密码</source>
+        <translation>メールアドレスとパスワードを入力</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>プロフィール</translation>
+    </message>
+    <message>
+        <source>完善姓名与头像</source>
+        <translation>名前とアバターを設定</translation>
+    </message>
+    <message>
+        <source>完成</source>
+        <translation>完了</translation>
+    </message>
+    <message>
+        <source>开始使用</source>
+        <translation>利用を開始</translation>
+    </message>
+    <message>
+        <source>步骤条</source>
+        <translation>ステップ</translation>
+    </message>
+    <message>
+        <source>ShadSteps：显示多步骤流程的进度，用于向导与分步表单。</source>
+        <translation>ShadSteps：複数ステップの流れの進捗を表示します。ウィザードや段階的なフォームに使います。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>addStep 添加步骤，next / previous 前进或后退；当前之前的步骤显示为已完成</source>
+        <translation>addStep でステップを追加し、next / previous で前後に移動します。現在より前のステップは完了として表示されます</translation>
+    </message>
+    <message>
+        <source>下一步</source>
+        <translation>次へ</translation>
+    </message>
+    <message>
+        <source>上一步</source>
+        <translation>戻る</translation>
+    </message>
+    <message>
+        <source>纵向与描述</source>
+        <translation>縦向きと説明</translation>
+    </message>
+    <message>
+        <source>setOrientation(Qt::Vertical)：纵向排列，标题与描述自动换行</source>
+        <translation>setOrientation(Qt::Vertical)：縦に並べ、タイトルと説明は自動で折り返します</translation>
+    </message>
+    <message>
+        <source>出错状态</source>
+        <translation>エラー状態</translation>
+    </message>
+    <message>
+        <source>setStatus(Error)：当前步骤显示为出错，指示器为 X</source>
+        <translation>setStatus(Error)：現在のステップをエラーとして表示し、インジケーターは X になります</translation>
+    </message>
+    <message>
+        <source>提交订单</source>
+        <translation>注文を確定</translation>
+    </message>
+    <message>
+        <source>已确认商品与地址</source>
+        <translation>商品と住所を確認済み</translation>
+    </message>
+    <message>
+        <source>支付</source>
+        <translation>支払い</translation>
+    </message>
+    <message>
+        <source>支付失败，请重试</source>
+        <translation>支払いに失敗しました。もう一度お試しください</translation>
+    </message>
+    <message>
+        <source>发货</source>
+        <translation>発送</translation>
+    </message>
+    <message>
+        <source>可点击</source>
+        <translation>クリック可能</translation>
+    </message>
+    <message>
+        <source>setClickable(true)：点击步骤或用方向键与回车切换；setStepDisabled 禁用的步骤不能切换</source>
+        <translation>setClickable(true)：ステップをクリックするか、矢印キーと Enter で切り替えます。setStepDisabled で無効にしたステップには切り替えられません</translation>
+    </message>
+    <message>
+        <source>基本设置</source>
+        <translation>基本設定</translation>
+    </message>
+    <message>
+        <source>权限</source>
+        <translation>権限</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>高级</source>
+        <translation>詳細設定</translation>
+    </message>
+    <message>
+        <source>当前步骤: %1</source>
+        <translation>現在のステップ: %1</translation>
+    </message>
+    <message>
+        <source>自定义图标</source>
+        <translation>カスタムアイコン</translation>
+    </message>
+    <message>
+        <source>setStepIcon 用图标代替序号</source>
+        <translation>setStepIcon で番号の代わりにアイコンを表示します</translation>
+    </message>
+    <message>
+        <source>购物车</source>
+        <translation>カート</translation>
+    </message>
+    <message>
+        <source>配送</source>
+        <translation>配送</translation>
+    </message>
+    <message>
+        <source>签收</source>
+        <translation>受け取り</translation>
+    </message>
+</context>
+<context>
     <name>SwitchPage</name>
     <message>
         <source>开关</source>
@@ -10508,6 +10836,141 @@ def fibonacci(count):
     <message>
         <source>对比五种基色的主要 token，悬停查看色值</source>
         <translation>5 種類のベースカラーの主要なトークンを比較します。カーソルを合わせると色の値を確認できます</translation>
+    </message>
+</context>
+<context>
+    <name>TimelinePage</name>
+    <message>
+        <source>订单已提交</source>
+        <translation>注文を受け付けました</translation>
+    </message>
+    <message>
+        <source>等待商家确认</source>
+        <translation>販売者の確認待ち</translation>
+    </message>
+    <message>
+        <source>商家已发货</source>
+        <translation>発送済み</translation>
+    </message>
+    <message>
+        <source>包裹已交给快递公司</source>
+        <translation>荷物を配送業者に引き渡しました</translation>
+    </message>
+    <message>
+        <source>运输中</source>
+        <translation>輸送中</translation>
+    </message>
+    <message>
+        <source>已到达转运中心</source>
+        <translation>中継センターに到着しました</translation>
+    </message>
+    <message>
+        <source>派送中</source>
+        <translation>配達中</translation>
+    </message>
+    <message>
+        <source>时间轴</source>
+        <translation>タイムライン</translation>
+    </message>
+    <message>
+        <source>ShadTimeline：按时间顺序纵向排列的节点，用于操作记录、版本历史与物流进度。</source>
+        <translation>ShadTimeline：時系列に縦に並ぶノードです。操作履歴、バージョン履歴、配送状況などに使います。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>addItem 添加节点，每个节点包含时间、标题与描述</source>
+        <translation>addItem でノードを追加します。各ノードは時刻、タイトル、説明を持ちます</translation>
+    </message>
+    <message>
+        <source>颜色与图标</source>
+        <translation>色とアイコン</translation>
+    </message>
+    <message>
+        <source>setColor 设置圆点颜色，setIcon 用图标代替圆点</source>
+        <translation>setColor で点の色を設定し、setIcon で点の代わりにアイコンを表示します</translation>
+    </message>
+    <message>
+        <source>创建仓库</source>
+        <translation>リポジトリを作成</translation>
+    </message>
+    <message>
+        <source>初始化项目结构</source>
+        <translation>プロジェクト構成を初期化</translation>
+    </message>
+    <message>
+        <source>发布正式版</source>
+        <translation>正式版をリリース</translation>
+    </message>
+    <message>
+        <source>全部测试通过</source>
+        <translation>すべてのテストに合格</translation>
+    </message>
+    <message>
+        <source>构建失败</source>
+        <translation>ビルド失敗</translation>
+    </message>
+    <message>
+        <source>依赖下载超时</source>
+        <translation>依存関係のダウンロードがタイムアウトしました</translation>
+    </message>
+    <message>
+        <source>草稿</source>
+        <translation>下書き</translation>
+    </message>
+    <message>
+        <source>交替排列</source>
+        <translation>交互配置</translation>
+    </message>
+    <message>
+        <source>setMode(Alternate)：轴居中，节点左右交替，时间显示在另一侧；End 模式轴在结束侧</source>
+        <translation>setMode(Alternate)：軸を中央に置き、ノードを左右交互に配置して時刻を反対側に表示します。End モードでは軸が終了側に来ます</translation>
+    </message>
+    <message>
+        <source>进行中与倒序</source>
+        <translation>進行中と逆順</translation>
+    </message>
+    <message>
+        <source>setPending 在末尾追加旋转图标的进行中节点，相连的一段为虚线；setReverse 倒序显示</source>
+        <translation>setPending で回転アイコン付きの進行中ノードを末尾に追加し、つながる線は破線になります。setReverse で逆順に表示します</translation>
+    </message>
+    <message>
+        <source>倒序</source>
+        <translation>逆順</translation>
+    </message>
+    <message>
+        <source>等待签收...</source>
+        <translation>受け取り待ち...</translation>
+    </message>
+    <message>
+        <source>自定义内容</source>
+        <translation>カスタムコンテンツ</translation>
+    </message>
+    <message>
+        <source>contentLayout 可在节点中放入任意组件</source>
+        <translation>contentLayout でノードに任意のウィジェットを配置できます</translation>
+    </message>
+    <message>
+        <source>等待审核</source>
+        <translation>レビュー待ち</translation>
+    </message>
+    <message>
+        <source>合并请求需要一位成员批准</source>
+        <translation>マージリクエストにはメンバー 1 人の承認が必要です</translation>
+    </message>
+    <message>
+        <source>批准</source>
+        <translation>承認</translation>
+    </message>
+    <message>
+        <source>拒绝</source>
+        <translation>却下</translation>
+    </message>
+    <message>
+        <source>已合并</source>
+        <translation>マージ済み</translation>
     </message>
 </context>
 <context>
@@ -11487,6 +11950,89 @@ def fibonacci(count):
     <message>
         <source>已读取 apps/v4/lib/docs.ts</source>
         <translation>apps/v4/lib/docs.ts を読み込みました</translation>
+    </message>
+</context>
+<context>
+    <name>TransferPage</name>
+    <message>
+        <source>成员 %1</source>
+        <translation>メンバー %1</translation>
+    </message>
+    <message>
+        <source>查看项目</source>
+        <translation>プロジェクトを表示</translation>
+    </message>
+    <message>
+        <source>编辑代码</source>
+        <translation>コードを編集</translation>
+    </message>
+    <message>
+        <source>合并请求</source>
+        <translation>マージリクエスト</translation>
+    </message>
+    <message>
+        <source>发布版本</source>
+        <translation>リリースを公開</translation>
+    </message>
+    <message>
+        <source>管理成员</source>
+        <translation>メンバーを管理</translation>
+    </message>
+    <message>
+        <source>修改设置</source>
+        <translation>設定を変更</translation>
+    </message>
+    <message>
+        <source>删除项目</source>
+        <translation>プロジェクトを削除</translation>
+    </message>
+    <message>
+        <source>穿梭框</source>
+        <translation>トランスファー</translation>
+    </message>
+    <message>
+        <source>ShadTransfer：在两个列表之间移动勾选的项，常用于成员与权限分配。</source>
+        <translation>ShadTransfer：チェックした項目を 2 つのリストの間で移動します。メンバーや権限の割り当てによく使います。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击整行或按空格勾选，点击中间的按钮移动；禁用的项不能勾选</source>
+        <translation>行をクリックするか Space キーでチェックし、中央のボタンで移動します。無効な項目はチェックできません</translation>
+    </message>
+    <message>
+        <source>全部成员</source>
+        <translation>全メンバー</translation>
+    </message>
+    <message>
+        <source>项目成员</source>
+        <translation>プロジェクトメンバー</translation>
+    </message>
+    <message>
+        <source>项目成员: %1 人</source>
+        <translation>プロジェクトメンバー: %1 人</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>setSearchEnabled(true) 在列表顶部显示搜索框，按标题过滤，全选只作用于过滤后的项</source>
+        <translation>setSearchEnabled(true) でリストの上部に検索ボックスを表示し、タイトルで絞り込みます。すべて選択は絞り込み後の項目だけに適用されます</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>setEnabled(false) 禁用整个穿梭框</source>
+        <translation>setEnabled(false) でトランスファー全体を無効にします</translation>
+    </message>
+    <message>
+        <source>可用</source>
+        <translation>有効</translation>
     </message>
 </context>
 <context>

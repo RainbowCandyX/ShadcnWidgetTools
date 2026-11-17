@@ -48,6 +48,7 @@ if (SHADCN_TRANSLATIONS_ENABLED)
 endif ()
 
 target_compile_options(${EXAMPLE_TARGET} PRIVATE ${SHADCN_UTF8_COMPILE_OPTIONS})
+target_compile_definitions(${EXAMPLE_TARGET} PRIVATE SHADCN_EXAMPLE_VERSION="${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}")
 
 target_include_directories(${EXAMPLE_TARGET} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
@@ -80,12 +81,14 @@ if (SHADCN_BUILD_LUA)
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/http.lua"
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/inputs.lua"
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/layout.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/navigation.lua"
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/overlay.lua"
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/pure.lua"
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/shared.lua"
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/table.lua"
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/tabs.lua"
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/timer.lua"
+        "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/wizard.lua"
     )
 endif ()
 

@@ -1,4 +1,5 @@
 #include <QAbstractButton>
+#include <QAbstractScrollArea>
 #include <QAction>
 #include <QByteArray>
 #include <QHBoxLayout>
@@ -16,7 +17,9 @@
 #include <QtCore/qnamespace.h>
 #include <QtGlobal>
 
+#include "ShadAnchor.h"
 #include "ShadAvatar.h"
+#include "ShadBackTop.h"
 #include "ShadCarousel.h"
 #include "ShadCollapsible.h"
 #include "ShadDef.h"
@@ -42,6 +45,7 @@
 #include "ShadSidebarTrigger.h"
 #include "ShadStackedWidget.h"
 #include "ShadStatusBar.h"
+#include "ShadSteps.h"
 #include "ShadTabView.h"
 #include "ShadToolbar.h"
 #include "ShadWindow.h"
@@ -471,6 +475,48 @@ namespace
         mainWindow.method("setButtonFlags", +[](ShadWindow* self, int flags) { self->setButtonFlags(ShadWindowType::ButtonFlags::fromInt(flags)); });
         mainWindow.method("getButtonFlags", +[](ShadWindow* self) { return self->getButtonFlags().toInt(); });
     }
+
+    void registerNavigation()
+    {
+        ShadLuaClass<ShadAnchor> anchor("Anchor");
+        anchor.constructor(&ShadLuaBind::newWithParent<ShadAnchor>);
+        anchor.method("setScrollArea", &ShadAnchor::setScrollArea);
+        anchor.method("getScrollArea", &ShadAnchor::getScrollArea);
+        anchor.rawMethod("addLink", [](lua_State* L, ShadAnchor* self) -> int
+        {
+            lua_pushinteger(L, self->addLink(optionalString(L, 2), ShadLuaObject::get<QWidget>(L, 3), optionalInt(L, 4, 0)));
+            return 1;
+        });
+        anchor.method("setLinkTitle", &ShadAnchor::setLinkTitle);
+        anchor.method("getLinkTitle", &ShadAnchor::getLinkTitle);
+        anchor.method("getLinkTarget", &ShadAnchor::getLinkTarget);
+        anchor.method("count", &ShadAnchor::count);
+        anchor.method("clear", &ShadAnchor::clear);
+
+        ShadLuaClass<ShadBackTop> backTop("BackTop");
+        backTop.constructor([](lua_State* L) -> ShadBackTop* { return new ShadBackTop(ShadLuaObject::get<QAbstractScrollArea>(L, 1)); });
+        backTop.method("setTarget", &ShadBackTop::setTarget);
+        backTop.method("getTarget", &ShadBackTop::getTarget);
+
+        ShadLuaClass<ShadSteps> steps("Steps");
+        steps.constructor(&ShadLuaBind::newWithParent<ShadSteps>);
+        steps.rawMethod("addStep", [](lua_State* L, ShadSteps* self) -> int
+        {
+            lua_pushinteger(L, self->addStep(optionalString(L, 2), optionalString(L, 3)));
+            return 1;
+        });
+        steps.method("setStepTitle", &ShadSteps::setStepTitle);
+        steps.method("getStepTitle", &ShadSteps::getStepTitle);
+        steps.method("setStepDescription", &ShadSteps::setStepDescription);
+        steps.method("getStepDescription", &ShadSteps::getStepDescription);
+        steps.method("setStepIcon", &ShadSteps::setStepIcon);
+        steps.method("getStepIcon", &ShadSteps::getStepIcon);
+        steps.method("setStepDisabled", &ShadSteps::setStepDisabled);
+        steps.method("isStepDisabled", &ShadSteps::isStepDisabled);
+        steps.method("getStepStatus", &ShadSteps::getStepStatus);
+        steps.method("count", &ShadSteps::count);
+        steps.method("clear", &ShadSteps::clear);
+    }
 } // namespace
 
 namespace ShadLuaBindings
@@ -482,5 +528,6 @@ namespace ShadLuaBindings
         registerDock();
         registerSidebar();
         registerWindowParts();
+        registerNavigation();
     }
 } // namespace ShadLuaBindings

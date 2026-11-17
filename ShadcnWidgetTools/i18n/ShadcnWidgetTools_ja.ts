@@ -28,6 +28,13 @@
     </message>
 </context>
 <context>
+    <name>ShadBackTop</name>
+    <message>
+        <source>回到顶部</source>
+        <translation>トップへ戻る</translation>
+    </message>
+</context>
+<context>
     <name>ShadBiometric</name>
     <message>
         <source>验证你的身份</source>
@@ -810,6 +817,40 @@
     <message>
         <source>更多</source>
         <translation>その他</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTransfer</name>
+    <message>
+        <source>可选项</source>
+        <translation>選択可能</translation>
+    </message>
+    <message>
+        <source>已选项</source>
+        <translation>選択済み</translation>
+    </message>
+    <message>
+        <source>搜索...</source>
+        <translation>検索...</translation>
+    </message>
+    <message>
+        <source>添加所选项</source>
+        <translation>選択した項目を追加</translation>
+    </message>
+    <message>
+        <source>移除所选项</source>
+        <translation>選択した項目を削除</translation>
+    </message>
+</context>
+<context>
+    <name>ShadTransferPanel</name>
+    <message>
+        <source>%1/%2 项</source>
+        <translation>%1/%2 件</translation>
+    </message>
+    <message>
+        <source>%1 项</source>
+        <translation>%1 件</translation>
     </message>
 </context>
 <context>

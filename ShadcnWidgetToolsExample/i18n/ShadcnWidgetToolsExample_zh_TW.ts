@@ -533,6 +533,81 @@
     </message>
 </context>
 <context>
+    <name>AnchorPage</name>
+    <message>
+        <source>锚点</source>
+        <translation>錨點</translation>
+    </message>
+    <message>
+        <source>ShadAnchor：页面内的目录导航，点击平滑滚动到对应位置，滚动时自动高亮当前链接。</source>
+        <translation>ShadAnchor：頁面內的目錄導覽，點擊平滑捲動到對應位置，捲動時自動醒目提示目前連結。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>addLink 添加链接，level 设置缩进；在右侧滚动区域中滚动，左侧自动切换当前链接</source>
+        <translation>addLink 新增連結，level 設定縮排；在右側捲動區域中捲動，左側自動切換目前連結</translation>
+    </message>
+    <message>
+        <source>安装</source>
+        <translation>安裝</translation>
+    </message>
+    <message>
+        <source>使用 FetchContent</source>
+        <translation>使用 FetchContent</translation>
+    </message>
+    <message>
+        <source>使用 find_package</source>
+        <translation>使用 find_package</translation>
+    </message>
+    <message>
+        <source>主题</source>
+        <translation>主題</translation>
+    </message>
+    <message>
+        <source>国际化</source>
+        <translation>國際化</translation>
+    </message>
+    <message>
+        <source>常见问题</source>
+        <translation>常見問題</translation>
+    </message>
+    <message>
+        <source>这是一段占位文字，用于撑开内容的高度，便于观察滚动时当前链接的变化。</source>
+        <translation>這是一段佔位文字，用於撐開內容的高度，方便觀察捲動時目前連結的變化。</translation>
+    </message>
+    <message>
+        <source>当前链接: 无</source>
+        <translation>目前連結: 無</translation>
+    </message>
+    <message>
+        <source>当前链接: %1</source>
+        <translation>目前連結: %1</translation>
+    </message>
+    <message>
+        <source>页面导航</source>
+        <translation>頁面導覽</translation>
+    </message>
+    <message>
+        <source>setScrollArea 绑定整个示例页，setOffset(16) 让区块顶部与页面顶部保留 16px</source>
+        <translation>setScrollArea 綁定整個範例頁，setOffset(16) 讓區塊頂部與頁面頂部保留 16px</translation>
+    </message>
+    <message>
+        <source>滚动偏移</source>
+        <translation>捲動偏移</translation>
+    </message>
+    <message>
+        <source>offset 同时决定判断当前链接的位置：区块顶部越过可视区顶部加 offset 的位置即视为进入该区块</source>
+        <translation>offset 同時決定判斷目前連結的位置：區塊頂部越過可視區頂部加 offset 的位置即視為進入該區塊</translation>
+    </message>
+    <message>
+        <source>滚动到底部后，最后几个区块无法再到达顶部，此时切换到最后一个可见的链接。</source>
+        <translation>捲動到底部後，最後幾個區塊無法再到達頂部，此時切換到最後一個可見的連結。</translation>
+    </message>
+</context>
+<context>
     <name>AttachmentPage</name>
     <message>
         <source>附件</source>
@@ -739,6 +814,81 @@
     </message>
 </context>
 <context>
+    <name>AutoCompletePage</name>
+    <message>
+        <source>自动补全</source>
+        <translation>自動完成</translation>
+    </message>
+    <message>
+        <source>ShadAutoComplete：输入时在下方弹出建议，方向键切换，回车或点击选中。</source>
+        <translation>ShadAutoComplete：輸入時在下方彈出建議，方向鍵切換，Enter 或點擊選取。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>setOptions 设置选项，默认按模糊匹配过滤并按相关度排序</source>
+        <translation>setOptions 設定選項，預設依模糊比對篩選並依相關度排序</translation>
+    </message>
+    <message>
+        <source>输入框架名称</source>
+        <translation>輸入框架名稱</translation>
+    </message>
+    <message>
+        <source>选中的建议: 无</source>
+        <translation>選取的建議: 無</translation>
+    </message>
+    <message>
+        <source>选中的建议: %1</source>
+        <translation>選取的建議: %1</translation>
+    </message>
+    <message>
+        <source>前缀匹配</source>
+        <translation>前綴比對</translation>
+    </message>
+    <message>
+        <source>setFilterMode(Prefix)：只显示以输入文字开头的选项，忽略大小写</source>
+        <translation>setFilterMode(Prefix)：只顯示以輸入文字開頭的選項，忽略大小寫</translation>
+    </message>
+    <message>
+        <source>输入 git 命令</source>
+        <translation>輸入 git 指令</translation>
+    </message>
+    <message>
+        <source>动态选项</source>
+        <translation>動態選項</translation>
+    </message>
+    <message>
+        <source>setFilterMode(NoFilter)：在 searchTextChanged 中按输入生成选项，例如补全邮箱域名</source>
+        <translation>setFilterMode(NoFilter)：在 searchTextChanged 中依輸入產生選項，例如補全電子郵件網域</translation>
+    </message>
+    <message>
+        <source>输入邮箱</source>
+        <translation>輸入電子郵件</translation>
+    </message>
+    <message>
+        <source>远程搜索</source>
+        <translation>遠端搜尋</translation>
+    </message>
+    <message>
+        <source>输入后延迟 400ms 返回结果，模拟网络请求；结果返回时建议列表自动刷新</source>
+        <translation>輸入後延遲 400ms 傳回結果，模擬網路請求；結果傳回時建議清單自動重新整理</translation>
+    </message>
+    <message>
+        <source>搜索城市</source>
+        <translation>搜尋城市</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>錯誤狀態</translation>
+    </message>
+    <message>
+        <source>继承 ShadInput，setInvalid(true) 等接口同样可用</source>
+        <translation>繼承 ShadInput，setInvalid(true) 等介面同樣可用</translation>
+    </message>
+</context>
+<context>
     <name>AvatarPage</name>
     <message>
         <source>头像</source>
@@ -835,6 +985,49 @@
     <message>
         <source>从右到左布局下徽章与头像组镜像</source>
         <translation>由右至左版面配置下，徽章與大頭貼群組會鏡像翻轉</translation>
+    </message>
+</context>
+<context>
+    <name>BackTopPage</name>
+    <message>
+        <source>回到顶部</source>
+        <translation>回到頂部</translation>
+    </message>
+    <message>
+        <source>ShadBackTop：滚动一段距离后在右下角出现的圆形按钮，点击平滑滚动到顶部。</source>
+        <translation>ShadBackTop：捲動一段距離後在右下角出現的圓形按鈕，點擊平滑捲動到頂部。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>ShadBackTop(this) 绑定整个示例页：向下滚动 400px 后右下角出现按钮</source>
+        <translation>ShadBackTop(this) 綁定整個範例頁：向下捲動 400px 後右下角出現按鈕</translation>
+    </message>
+    <message>
+        <source>继续向下滚动页面，按钮出现后点击回到顶部；动画期间手动滚动会中断动画。</source>
+        <translation>繼續向下捲動頁面，按鈕出現後點擊回到頂部；動畫期間手動捲動會中斷動畫。</translation>
+    </message>
+    <message>
+        <source>滚动区域</source>
+        <translation>捲動區域</translation>
+    </message>
+    <message>
+        <source>绑定任意 QAbstractScrollArea；setVisibilityHeight(200) 与 setOffset(16) 调整出现时机与位置</source>
+        <translation>綁定任意 QAbstractScrollArea；setVisibilityHeight(200) 與 setOffset(16) 調整出現時機與位置</translation>
+    </message>
+    <message>
+        <source>第 %1 行</source>
+        <translation>第 %1 列</translation>
+    </message>
+    <message>
+        <source>占位内容</source>
+        <translation>佔位內容</translation>
+    </message>
+    <message>
+        <source>用于撑开页面高度</source>
+        <translation>用於撐開頁面高度</translation>
     </message>
 </context>
 <context>
@@ -10040,6 +10233,141 @@ def fibonacci(count):
     </message>
 </context>
 <context>
+    <name>StepsPage</name>
+    <message>
+        <source>账号信息</source>
+        <translation>帳號資訊</translation>
+    </message>
+    <message>
+        <source>填写邮箱与密码</source>
+        <translation>填寫電子郵件與密碼</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>個人資料</translation>
+    </message>
+    <message>
+        <source>完善姓名与头像</source>
+        <translation>補充姓名與頭像</translation>
+    </message>
+    <message>
+        <source>完成</source>
+        <translation>完成</translation>
+    </message>
+    <message>
+        <source>开始使用</source>
+        <translation>開始使用</translation>
+    </message>
+    <message>
+        <source>步骤条</source>
+        <translation>步驟條</translation>
+    </message>
+    <message>
+        <source>ShadSteps：显示多步骤流程的进度，用于向导与分步表单。</source>
+        <translation>ShadSteps：顯示多步驟流程的進度，用於精靈與分步表單。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>addStep 添加步骤，next / previous 前进或后退；当前之前的步骤显示为已完成</source>
+        <translation>addStep 新增步驟，next / previous 前進或後退；目前步驟之前的步驟顯示為已完成</translation>
+    </message>
+    <message>
+        <source>下一步</source>
+        <translation>下一步</translation>
+    </message>
+    <message>
+        <source>上一步</source>
+        <translation>上一步</translation>
+    </message>
+    <message>
+        <source>纵向与描述</source>
+        <translation>縱向與描述</translation>
+    </message>
+    <message>
+        <source>setOrientation(Qt::Vertical)：纵向排列，标题与描述自动换行</source>
+        <translation>setOrientation(Qt::Vertical)：縱向排列，標題與描述自動換行</translation>
+    </message>
+    <message>
+        <source>出错状态</source>
+        <translation>錯誤狀態</translation>
+    </message>
+    <message>
+        <source>setStatus(Error)：当前步骤显示为出错，指示器为 X</source>
+        <translation>setStatus(Error)：目前步驟顯示為出錯，指示器為 X</translation>
+    </message>
+    <message>
+        <source>提交订单</source>
+        <translation>送出訂單</translation>
+    </message>
+    <message>
+        <source>已确认商品与地址</source>
+        <translation>已確認商品與地址</translation>
+    </message>
+    <message>
+        <source>支付</source>
+        <translation>付款</translation>
+    </message>
+    <message>
+        <source>支付失败，请重试</source>
+        <translation>付款失敗，請重試</translation>
+    </message>
+    <message>
+        <source>发货</source>
+        <translation>出貨</translation>
+    </message>
+    <message>
+        <source>可点击</source>
+        <translation>可點擊</translation>
+    </message>
+    <message>
+        <source>setClickable(true)：点击步骤或用方向键与回车切换；setStepDisabled 禁用的步骤不能切换</source>
+        <translation>setClickable(true)：點擊步驟或用方向鍵與 Enter 切換；setStepDisabled 停用的步驟不能切換</translation>
+    </message>
+    <message>
+        <source>基本设置</source>
+        <translation>基本設定</translation>
+    </message>
+    <message>
+        <source>权限</source>
+        <translation>權限</translation>
+    </message>
+    <message>
+        <source>通知</source>
+        <translation>通知</translation>
+    </message>
+    <message>
+        <source>高级</source>
+        <translation>進階</translation>
+    </message>
+    <message>
+        <source>当前步骤: %1</source>
+        <translation>目前步驟: %1</translation>
+    </message>
+    <message>
+        <source>自定义图标</source>
+        <translation>自訂圖示</translation>
+    </message>
+    <message>
+        <source>setStepIcon 用图标代替序号</source>
+        <translation>setStepIcon 以圖示取代序號</translation>
+    </message>
+    <message>
+        <source>购物车</source>
+        <translation>購物車</translation>
+    </message>
+    <message>
+        <source>配送</source>
+        <translation>配送</translation>
+    </message>
+    <message>
+        <source>签收</source>
+        <translation>簽收</translation>
+    </message>
+</context>
+<context>
     <name>SwitchPage</name>
     <message>
         <source>开关</source>
@@ -10508,6 +10836,141 @@ def fibonacci(count):
     <message>
         <source>对比五种基色的主要 token，悬停查看色值</source>
         <translation>對比五種基底色的主要 token，滑鼠停留可檢視色值</translation>
+    </message>
+</context>
+<context>
+    <name>TimelinePage</name>
+    <message>
+        <source>订单已提交</source>
+        <translation>訂單已送出</translation>
+    </message>
+    <message>
+        <source>等待商家确认</source>
+        <translation>等待商家確認</translation>
+    </message>
+    <message>
+        <source>商家已发货</source>
+        <translation>商家已出貨</translation>
+    </message>
+    <message>
+        <source>包裹已交给快递公司</source>
+        <translation>包裹已交給物流公司</translation>
+    </message>
+    <message>
+        <source>运输中</source>
+        <translation>運送中</translation>
+    </message>
+    <message>
+        <source>已到达转运中心</source>
+        <translation>已抵達轉運中心</translation>
+    </message>
+    <message>
+        <source>派送中</source>
+        <translation>配送中</translation>
+    </message>
+    <message>
+        <source>时间轴</source>
+        <translation>時間軸</translation>
+    </message>
+    <message>
+        <source>ShadTimeline：按时间顺序纵向排列的节点，用于操作记录、版本历史与物流进度。</source>
+        <translation>ShadTimeline：依時間順序縱向排列的節點，用於操作紀錄、版本歷史與物流進度。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>addItem 添加节点，每个节点包含时间、标题与描述</source>
+        <translation>addItem 新增節點，每個節點包含時間、標題與描述</translation>
+    </message>
+    <message>
+        <source>颜色与图标</source>
+        <translation>顏色與圖示</translation>
+    </message>
+    <message>
+        <source>setColor 设置圆点颜色，setIcon 用图标代替圆点</source>
+        <translation>setColor 設定圓點顏色，setIcon 以圖示取代圓點</translation>
+    </message>
+    <message>
+        <source>创建仓库</source>
+        <translation>建立儲存庫</translation>
+    </message>
+    <message>
+        <source>初始化项目结构</source>
+        <translation>初始化專案結構</translation>
+    </message>
+    <message>
+        <source>发布正式版</source>
+        <translation>發布正式版</translation>
+    </message>
+    <message>
+        <source>全部测试通过</source>
+        <translation>全部測試通過</translation>
+    </message>
+    <message>
+        <source>构建失败</source>
+        <translation>建置失敗</translation>
+    </message>
+    <message>
+        <source>依赖下载超时</source>
+        <translation>相依套件下載逾時</translation>
+    </message>
+    <message>
+        <source>草稿</source>
+        <translation>草稿</translation>
+    </message>
+    <message>
+        <source>交替排列</source>
+        <translation>交替排列</translation>
+    </message>
+    <message>
+        <source>setMode(Alternate)：轴居中，节点左右交替，时间显示在另一侧；End 模式轴在结束侧</source>
+        <translation>setMode(Alternate)：軸置中，節點左右交替，時間顯示在另一側；End 模式軸在結束側</translation>
+    </message>
+    <message>
+        <source>进行中与倒序</source>
+        <translation>進行中與倒序</translation>
+    </message>
+    <message>
+        <source>setPending 在末尾追加旋转图标的进行中节点，相连的一段为虚线；setReverse 倒序显示</source>
+        <translation>setPending 在末尾追加旋轉圖示的進行中節點，相連的一段為虛線；setReverse 倒序顯示</translation>
+    </message>
+    <message>
+        <source>倒序</source>
+        <translation>倒序</translation>
+    </message>
+    <message>
+        <source>等待签收...</source>
+        <translation>等待簽收...</translation>
+    </message>
+    <message>
+        <source>自定义内容</source>
+        <translation>自訂內容</translation>
+    </message>
+    <message>
+        <source>contentLayout 可在节点中放入任意组件</source>
+        <translation>contentLayout 可在節點中放入任意元件</translation>
+    </message>
+    <message>
+        <source>等待审核</source>
+        <translation>等待審核</translation>
+    </message>
+    <message>
+        <source>合并请求需要一位成员批准</source>
+        <translation>合併請求需要一位成員核准</translation>
+    </message>
+    <message>
+        <source>批准</source>
+        <translation>核准</translation>
+    </message>
+    <message>
+        <source>拒绝</source>
+        <translation>拒絕</translation>
+    </message>
+    <message>
+        <source>已合并</source>
+        <translation>已合併</translation>
     </message>
 </context>
 <context>
@@ -11487,6 +11950,89 @@ def fibonacci(count):
     <message>
         <source>已读取 apps/v4/lib/docs.ts</source>
         <translation>已讀取 apps/v4/lib/docs.ts</translation>
+    </message>
+</context>
+<context>
+    <name>TransferPage</name>
+    <message>
+        <source>成员 %1</source>
+        <translation>成員 %1</translation>
+    </message>
+    <message>
+        <source>查看项目</source>
+        <translation>檢視專案</translation>
+    </message>
+    <message>
+        <source>编辑代码</source>
+        <translation>編輯程式碼</translation>
+    </message>
+    <message>
+        <source>合并请求</source>
+        <translation>合併請求</translation>
+    </message>
+    <message>
+        <source>发布版本</source>
+        <translation>發布版本</translation>
+    </message>
+    <message>
+        <source>管理成员</source>
+        <translation>管理成員</translation>
+    </message>
+    <message>
+        <source>修改设置</source>
+        <translation>修改設定</translation>
+    </message>
+    <message>
+        <source>删除项目</source>
+        <translation>刪除專案</translation>
+    </message>
+    <message>
+        <source>穿梭框</source>
+        <translation>穿梭框</translation>
+    </message>
+    <message>
+        <source>ShadTransfer：在两个列表之间移动勾选的项，常用于成员与权限分配。</source>
+        <translation>ShadTransfer：在兩個清單之間移動勾選的項目，常用於成員與權限分配。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击整行或按空格勾选，点击中间的按钮移动；禁用的项不能勾选</source>
+        <translation>點擊整列或按空白鍵勾選，點擊中間的按鈕移動；停用的項目不能勾選</translation>
+    </message>
+    <message>
+        <source>全部成员</source>
+        <translation>全部成員</translation>
+    </message>
+    <message>
+        <source>项目成员</source>
+        <translation>專案成員</translation>
+    </message>
+    <message>
+        <source>项目成员: %1 人</source>
+        <translation>專案成員: %1 人</translation>
+    </message>
+    <message>
+        <source>搜索</source>
+        <translation>搜尋</translation>
+    </message>
+    <message>
+        <source>setSearchEnabled(true) 在列表顶部显示搜索框，按标题过滤，全选只作用于过滤后的项</source>
+        <translation>setSearchEnabled(true) 在清單頂部顯示搜尋框，依標題篩選，全選只作用於篩選後的項目</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>setEnabled(false) 禁用整个穿梭框</source>
+        <translation>setEnabled(false) 停用整個穿梭框</translation>
+    </message>
+    <message>
+        <source>可用</source>
+        <translation>可用</translation>
     </message>
 </context>
 <context>

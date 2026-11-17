@@ -25,8 +25,11 @@
 #include "ExpanderPage.h"
 #include "AlertDialogPage.h"
 #include "AlertPage.h"
+#include "AnchorPage.h"
 #include "AttachmentPage.h"
+#include "AutoCompletePage.h"
 #include "AvatarPage.h"
+#include "BackTopPage.h"
 #include "BadgePage.h"
 #include "BiometricPage.h"
 #include "BreadcrumbPage.h"
@@ -103,6 +106,7 @@
 #include "SpinnerPage.h"
 #include "StatisticPage.h"
 #include "StatusBarPage.h"
+#include "StepsPage.h"
 #include "ShadAvatar.h"
 #include "ShadBreadcrumb.h"
 #include "ShadDef.h"
@@ -124,11 +128,13 @@
 #include "TabViewPage.h"
 #include "TabsPage.h"
 #include "ThemePage.h"
+#include "TimelinePage.h"
 #include "ToastPage.h"
 #include "TogglePage.h"
 #include "ToolbarPage.h"
 #include "TooltipPage.h"
 #include "TracePage.h"
+#include "TransferPage.h"
 #include "TreeSelectPage.h"
 #include "TreeViewPage.h"
 #include "WatermarkPage.h"
@@ -233,7 +239,7 @@ MainWindow::MainWindow(QWidget* parent)
     // 点击回到首页，不占用选中项
     ShadSidebarMenuButton* brandButton = new ShadSidebarMenuButton(ShadIconType::Component, QStringLiteral("ShadcnWidgetTools"), _sidebar);
     brandButton->setButtonSize(ShadSidebarMenuButtonType::Large);
-    brandButton->setDescription(QStringLiteral("v1.2"));
+    brandButton->setDescription(QStringLiteral("v" SHADCN_EXAMPLE_VERSION));
     brandButton->setSelectable(false);
     connect(brandButton, &ShadSidebarMenuButton::clicked, this, [this]()
     {
@@ -336,7 +342,9 @@ MainWindow::MainWindow(QWidget* parent)
     addCategoryPage(formCategory, new CodeEditorPage(_pageStack));
     addCategoryPage(formCategory, new SpinBoxPage(_pageStack));
     addCategoryPage(formCategory, new ComboBoxPage(_pageStack));
+    addCategoryPage(formCategory, new AutoCompletePage(_pageStack));
     addCategoryPage(formCategory, new TreeSelectPage(_pageStack));
+    addCategoryPage(formCategory, new TransferPage(_pageStack));
     addCategoryPage(formCategory, new CheckboxPage(_pageStack));
     addCategoryPage(formCategory, new SwitchPage(_pageStack));
     addCategoryPage(formCategory, new RadioGroupPage(_pageStack));
@@ -375,6 +383,7 @@ MainWindow::MainWindow(QWidget* parent)
     addCategoryPage(dataCategory, new DiffViewPage(_pageStack));
     addCategoryPage(dataCategory, new MarkdownViewPage(_pageStack));
     addCategoryPage(dataCategory, new TracePage(_pageStack));
+    addCategoryPage(dataCategory, new TimelinePage(_pageStack));
     addCategoryPage(dataCategory, new MarkerPage(_pageStack));
     addCategoryPage(dataCategory, new KbdPage(_toaster, _pageStack));
     addCategoryPage(dataCategory, new QrCodePage(_pageStack));
@@ -407,6 +416,9 @@ MainWindow::MainWindow(QWidget* parent)
     addCategoryPage(navigationCategory, new NavigationMenuPage(_pageStack));
     addCategoryPage(navigationCategory, new BreadcrumbPage(_toaster, _pageStack));
     addCategoryPage(navigationCategory, new PaginationPage(_pageStack));
+    addCategoryPage(navigationCategory, new StepsPage(_pageStack));
+    addCategoryPage(navigationCategory, new AnchorPage(_pageStack));
+    addCategoryPage(navigationCategory, new BackTopPage(_pageStack));
     addCategoryPage(navigationCategory, new TabsPage(_pageStack));
     addCategoryPage(navigationCategory, new TabViewPage(_pageStack));
     addCategoryPage(navigationCategory, new DockPage(_pageStack));

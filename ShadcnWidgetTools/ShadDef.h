@@ -454,6 +454,66 @@ namespace ShadTraceType
     Q_ENUM_NS(Status)
 } // namespace ShadTraceType
 
+namespace ShadTimelineType
+{
+    Q_NAMESPACE_EXPORT (SHADCN_EXPORT)
+
+    // 时间轴所在的一侧：Start 轴在起始侧、内容在结束侧，End 轴在结束侧、内容在起始侧，Alternate 轴居中、内容左右交替
+    enum Mode
+    {
+        Start = 0,
+        Alternate,
+        End,
+    };
+
+    Q_ENUM_NS(Mode)
+} // namespace ShadTimelineType
+
+namespace ShadAutoCompleteType
+{
+    Q_NAMESPACE_EXPORT (SHADCN_EXPORT)
+
+    // 建议的过滤方式：Fuzzy 模糊匹配并按相关度排序，Prefix 前缀匹配（忽略大小写），NoFilter 不过滤，由使用者按输入更新选项
+    enum FilterMode
+    {
+        Fuzzy = 0,
+        Prefix,
+        NoFilter,
+    };
+
+    Q_ENUM_NS(FilterMode)
+} // namespace ShadAutoCompleteType
+
+namespace ShadTransferType
+{
+    Q_NAMESPACE_EXPORT (SHADCN_EXPORT)
+
+    // 穿梭框的移动方向：ToTarget 从源列表移到目标列表，ToSource 从目标列表移回源列表
+    enum Direction
+    {
+        ToTarget = 0,
+        ToSource,
+    };
+
+    Q_ENUM_NS(Direction)
+} // namespace ShadTransferType
+
+namespace ShadStepsType
+{
+    Q_NAMESPACE_EXPORT (SHADCN_EXPORT)
+
+    // 步骤状态：Wait 未开始，Process 进行中，Finish 已完成，Error 出错
+    enum Status
+    {
+        Wait = 0,
+        Process,
+        Finish,
+        Error,
+    };
+
+    Q_ENUM_NS(Status)
+} // namespace ShadStepsType
+
 namespace ShadTabsType
 {
     Q_NAMESPACE_EXPORT (SHADCN_EXPORT)

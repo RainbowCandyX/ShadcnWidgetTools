@@ -64,7 +64,9 @@
 | ShadSpinBox | 整数输入 | 聚焦后滚轮调节 |
 | ShadDoubleSpinBox | 小数输入 | 聚焦后滚轮调节 |
 | ShadComboBox | 下拉选择 | 单选 / 多选，搜索过滤，保留 QComboBox 接口 |
+| ShadAutoComplete | 自动补全 | 输入时弹出建议，模糊 / 前缀匹配，支持远程搜索 |
 | ShadTreeSelect | 树形选择 | 单选 / 多选，父子勾选联动，搜索过滤，完整路径显示 |
+| ShadTransfer | 穿梭框 | 两个列表之间移动勾选的项，全选，搜索过滤，禁用项 |
 | ShadCheckbox | 复选框 | 三态 |
 | ShadSwitch | 开关 | 可带文字 |
 | ShadRadioGroup | 单选组 | 布局与互斥选择 |
@@ -119,6 +121,7 @@
 | ShadDiffView | 差异对比 | 统一与分栏视图，行内变化高亮，语法高亮，自动换行，选择与复制，折叠未改动的行 |
 | ShadMarkdownView | Markdown | GitHub 风格 Markdown，代码块高亮与复制，流式追加 |
 | ShadTrace | 执行记录 | 图标、标题与耗时，可点击 |
+| ShadTimeline | 时间轴 | 轴在起始侧 / 结束侧 / 居中交替，图标节点，进行中节点，倒序 |
 | ShadMarker | 标记 | 对话中的状态与提示，行内、带边框与分隔线三种变体，扫光，可作为链接或按钮 |
 | ShadQrCode | 二维码 | 纠错等级可选 |
 | ShadWatermark | 水印 | 文字或图片，交错平铺，角度与间距可调 |
@@ -162,6 +165,9 @@
 | ShadNavigationMenuLink | 导航链接 | 标题与两行描述，点击后关闭菜单 |
 | ShadBreadcrumb | 面包屑 | 可折叠中间项，宽度不够时换行 |
 | ShadPagination | 分页 | 页码跳转 |
+| ShadSteps | 步骤条 | 横向 / 纵向，完成、进行中、出错状态，自定义图标，可点击切换 |
+| ShadAnchor | 锚点 | 页内目录，点击平滑滚动，滚动时自动高亮当前链接，多级缩进 |
+| ShadBackTop | 回到顶部 | 滚动一段距离后淡入，点击平滑滚动到顶部，可绑定任意滚动区域 |
 | ShadTabs | 标签页 | 横向 / 纵向，Line 变体 |
 | ShadTabView | 标签视图 | 关闭、新建、拖动排序，拆分与合并窗口 |
 | ShadStackedWidget | 页面栈 | 切换动画跟随 ShadTheme |
@@ -226,7 +232,7 @@ cmake --build --preset msvc-release
 include(FetchContent)
 FetchContent_Declare(ShadcnWidgetTools
     GIT_REPOSITORY https://github.com/RainbowCandyX/ShadcnWidgetTools.git
-    GIT_TAG v1.2.0
+    GIT_TAG v1.3.0
     GIT_SHALLOW TRUE
 )
 FetchContent_MakeAvailable(ShadcnWidgetTools)

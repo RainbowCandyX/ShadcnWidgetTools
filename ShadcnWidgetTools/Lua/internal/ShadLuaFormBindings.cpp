@@ -17,10 +17,13 @@
 #include <QStringList>
 #include <QVBoxLayout>
 #include <QVariant>
+#include <QVariantList>
+#include <QVariantMap>
 #include <QWidget>
 #include <QtCore/qnamespace.h>
 #include <QtGlobal>
 
+#include "ShadAutoComplete.h"
 #include "ShadButton.h"
 #include "ShadButtonGroup.h"
 #include "ShadCodeEditor.h"
@@ -52,6 +55,7 @@
 #include "ShadTimePicker.h"
 #include "ShadToggle.h"
 #include "ShadToggleGroup.h"
+#include "ShadTransfer.h"
 #include "ShadTreeSelect.h"
 #include "ShadTreeView.h"
 
@@ -357,6 +361,88 @@ namespace
 
         // new(code, parent) 或 new(parent)
         ShadLuaClass<ShadCodeEditor>("CodeEditor").constructor(&ShadLuaBind::newWithText<ShadCodeEditor>);
+
+        ShadLuaClass<ShadAutoComplete> autoComplete("AutoComplete");
+        autoComplete.constructor(&ShadLuaBind::newWithParent<ShadAutoComplete>);
+        autoComplete.method("setModel", &ShadAutoComplete::setModel);
+        autoComplete.method("model", &ShadAutoComplete::model);
+        autoComplete.method("showPopup", &ShadAutoComplete::showPopup);
+        autoComplete.method("hidePopup", &ShadAutoComplete::hidePopup);
+        autoComplete.method("isPopupVisible", &ShadAutoComplete::isPopupVisible);
+    }
+
+    bool readTransferItems(const QVariant& value, QList<ShadTransferItem>& items)
+    {
+        items.clear();
+        if (value.typeId() == QMetaType::QVariantMap && value.toMap().isEmpty())
+        {
+            return true;
+        }
+        if (value.typeId() != QMetaType::QVariantList)
+        {
+            return false;
+        }
+        const QVariantList list = value.toList();
+        items.reserve(list.size());
+        for (const QVariant& entry : list)
+        {
+            if (entry.typeId() != QMetaType::QVariantMap)
+            {
+                return false;
+            }
+            const QVariantMap map = entry.toMap();
+            ShadTransferItem item;
+            item.key = map.value(QStringLiteral("key")).toString();
+            item.title = map.value(QStringLiteral("title")).toString();
+            item.description = map.value(QStringLiteral("description")).toString();
+            item.icon = static_cast<ShadIconType::IconName>(map.value(QStringLiteral("icon"), int(ShadIconType::None)).toInt());
+            item.isDisabled = map.value(QStringLiteral("disabled")).toBool();
+            items.append(item);
+        }
+        return true;
+    }
+
+    QVariantList transferItemsToVariant(const QList<ShadTransferItem>& items)
+    {
+        QVariantList list;
+        list.reserve(items.size());
+        for (const ShadTransferItem& item : items)
+        {
+            QVariantMap map;
+            map.insert(QStringLiteral("key"), item.key);
+            map.insert(QStringLiteral("title"), item.title);
+            map.insert(QStringLiteral("description"), item.description);
+            map.insert(QStringLiteral("icon"), int(item.icon));
+            map.insert(QStringLiteral("disabled"), item.isDisabled);
+            list.append(map);
+        }
+        return list;
+    }
+
+    void registerTransfer()
+    {
+        ShadLuaClass<ShadTransfer> transfer("Transfer");
+        transfer.constructor(&ShadLuaBind::newWithParent<ShadTransfer>);
+        transfer.rawMethod("setItems", [](lua_State* L, ShadTransfer* self) -> int
+        {
+            QList<ShadTransferItem> items;
+            if (!readTransferItems(ShadLuaStack::getVariant(L, 2), items))
+            {
+                return ShadLuaStack::argumentError(L, 1);
+            }
+            self->setItems(items);
+            return 0;
+        });
+        transfer.rawMethod("getItems", [](lua_State* L, ShadTransfer* self) -> int
+        {
+            ShadLuaStack::pushVariant(L, QVariant(transferItemsToVariant(self->getItems())));
+            return 1;
+        });
+        transfer.method("setTitles", &ShadTransfer::setTitles);
+        transfer.method("getSourceTitle", &ShadTransfer::getSourceTitle);
+        transfer.method("getTargetTitle", &ShadTransfer::getTargetTitle);
+        transfer.method("getSourceCheckedKeys", &ShadTransfer::getSourceCheckedKeys);
+        transfer.method("getTargetCheckedKeys", &ShadTransfer::getTargetCheckedKeys);
     }
 
     // 树形下拉选择，节点用路径表示
@@ -654,6 +740,7 @@ namespace ShadLuaBindings
     void registerFormComponents()
     {
         registerInputs();
+        registerTransfer();
         registerTreeSelect();
         registerForms();
     }
