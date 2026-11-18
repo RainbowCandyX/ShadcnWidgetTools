@@ -3495,6 +3495,61 @@ echo &quot;Build complete&quot;
     </message>
 </context>
 <context>
+    <name>DateTimePickerPage</name>
+    <message>
+        <source>日期时间选择</source>
+        <translation>Date Time Picker</translation>
+    </message>
+    <message>
+        <source>ShadDateTimePicker：在一个浮层中选择日期与时间，左侧为日历，右侧为时、分、秒三列，点击确定后写入。</source>
+        <translation>ShadDateTimePicker: pick a date and a time in one popover. The calendar is on the left and the hour, minute and second columns are on the right. The value is applied when you click OK.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>点击触发框打开浮层，选择日期与时间后点击确定；按 Esc 或点击外部关闭时不保存</source>
+        <translation>Click the trigger to open the popover, pick a date and time, then click OK. Closing with Esc or by clicking outside discards the changes</translation>
+    </message>
+    <message>
+        <source>当前选择: %1</source>
+        <translation>Selected: %1</translation>
+    </message>
+    <message>
+        <source>当前选择: 无</source>
+        <translation>Selected: None</translation>
+    </message>
+    <message>
+        <source>图标与格式</source>
+        <translation>Icons and format</translation>
+    </message>
+    <message>
+        <source>setCalendarIconVisible、setChevronVisible 显示图标与下拉箭头；setSecondsVisible(false) 隐藏秒，setDisplayFormat 自定义显示格式</source>
+        <translation>setCalendarIconVisible and setChevronVisible show the icon and the chevron. setSecondsVisible(false) hides seconds and setDisplayFormat customizes the display format</translation>
+    </message>
+    <message>
+        <source>可选范围</source>
+        <translation>Selectable range</translation>
+    </message>
+    <message>
+        <source>calendar() 取得浮层中的日历，限制只能选择今天起 30 天内的日期；setNowButtonVisible(false) 隐藏此刻按钮</source>
+        <translation>calendar() returns the calendar in the popover, limited here to the next 30 days from today. setNowButtonVisible(false) hides the Now button</translation>
+    </message>
+    <message>
+        <source>选择预约时间</source>
+        <translation>Pick an appointment time</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>Disabled</translation>
+    </message>
+    <message>
+        <source>setEnabled(false) 时不能打开浮层</source>
+        <translation>The popover cannot be opened when setEnabled(false) is set</translation>
+    </message>
+</context>
+<context>
     <name>DescriptionsPage</name>
     <message>
         <source>描述列表</source>
@@ -6725,6 +6780,196 @@ Chen Yi-chun 0912-345-678</translation>
     </message>
 </context>
 <context>
+    <name>LoadingOverlayPage</name>
+    <message>
+        <source>加载遮罩</source>
+        <translation>Loading Overlay</translation>
+    </message>
+    <message>
+        <source>ShadLoadingOverlay：盖在任意组件上的加载遮罩，居中显示转圈与文字，加载期间被盖住的组件不响应操作。</source>
+        <translation>ShadLoadingOverlay: a loading mask that covers any widget, with a centered spinner and text. The covered widget does not respond to input while loading.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>ShadLoadingOverlay(target) 绑定目标组件，start() 与 stop() 控制显示；点击保存后表单被遮住 2 秒</source>
+        <translation>ShadLoadingOverlay(target) binds the target widget, and start() and stop() control visibility. Click Save and the form is covered for 2 seconds</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>Profile</translation>
+    </message>
+    <message>
+        <source>修改后点击保存</source>
+        <translation>Edit, then click Save</translation>
+    </message>
+    <message>
+        <source>姓名</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>邮箱</source>
+        <translation>Email</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>Save</translation>
+    </message>
+    <message>
+        <source>文字与延迟</source>
+        <translation>Text and delay</translation>
+    </message>
+    <message>
+        <source>setText 设置转圈下方的文字；setDelay(300) 在加载超过 300ms 时才显示，避免短暂的加载造成闪烁</source>
+        <translation>setText sets the text below the spinner. setDelay(300) shows the overlay only when loading takes longer than 300 ms, which avoids flicker on short loads</translation>
+    </message>
+    <message>
+        <source>数据列表</source>
+        <translation>Data list</translation>
+    </message>
+    <message>
+        <source>加载很快结束时不会出现遮罩</source>
+        <translation>The overlay does not appear when loading finishes quickly</translation>
+    </message>
+    <message>
+        <source>正在加载数据...</source>
+        <translation>Loading data...</translation>
+    </message>
+    <message>
+        <source>加载 100 毫秒</source>
+        <translation>Load for 100 ms</translation>
+    </message>
+    <message>
+        <source>加载 2 秒</source>
+        <translation>Load for 2 seconds</translation>
+    </message>
+</context>
+<context>
+    <name>LogViewPage</name>
+    <message>
+        <source>暂无日志</source>
+        <translation>No logs yet</translation>
+    </message>
+    <message>
+        <source>收到请求 GET /api/items/%1</source>
+        <translation>Received request GET /api/items/%1</translation>
+    </message>
+    <message>
+        <source>查询耗时 %1 ms</source>
+        <translation>Query took %1 ms</translation>
+    </message>
+    <message>
+        <source>缓存命中率 %1%</source>
+        <translation>Cache hit rate %1%</translation>
+    </message>
+    <message>
+        <source>任务 %1 已完成</source>
+        <translation>Task %1 completed</translation>
+    </message>
+    <message>
+        <source>响应较慢：%1 ms，超过阈值</source>
+        <translation>Slow response: %1 ms, above the threshold</translation>
+    </message>
+    <message>
+        <source>请求 %1 失败：连接超时</source>
+        <translation>Request %1 failed: connection timed out</translation>
+    </message>
+    <message>
+        <source>日志视图</source>
+        <translation>Log View</translation>
+    </message>
+    <message>
+        <source>ShadLogView：按级别着色的日志输出，可按级别与关键字过滤，停在末尾时自动跟随新日志。</source>
+        <translation>ShadLogView: log output colored by level. Filter by level and keyword, and it follows new entries while the view stays at the end.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>debug、info、success、warning、error 追加一条日志；右键可复制、全选与清空</source>
+        <translation>debug, info, success, warning and error each append one entry. Right-click to copy, select all or clear</translation>
+    </message>
+    <message>
+        <source>应用已启动</source>
+        <translation>Application started</translation>
+    </message>
+    <message>
+        <source>读取配置文件 config.json</source>
+        <translation>Reading configuration file config.json</translation>
+    </message>
+    <message>
+        <source>已连接到服务器</source>
+        <translation>Connected to the server</translation>
+    </message>
+    <message>
+        <source>磁盘剩余空间不足 10%</source>
+        <translation>Less than 10% disk space remaining</translation>
+    </message>
+    <message>
+        <source>无法打开文件：权限不足</source>
+        <translation>Cannot open the file: permission denied</translation>
+    </message>
+    <message>
+        <source>这是一条 %1 日志</source>
+        <translation>This is a %1 entry</translation>
+    </message>
+    <message>
+        <source>过滤</source>
+        <translation>Filtering</translation>
+    </message>
+    <message>
+        <source>setMinimumLevel 按级别过滤，setFilterText 按关键字过滤，忽略大小写</source>
+        <translation>setMinimumLevel filters by level and setFilterText filters by keyword, ignoring case</translation>
+    </message>
+    <message>
+        <source>全部</source>
+        <translation>All</translation>
+    </message>
+    <message>
+        <source>按关键字过滤</source>
+        <translation>Filter by keyword</translation>
+    </message>
+    <message>
+        <source>显示 %1 / %2 条</source>
+        <translation>Showing %1 of %2</translation>
+    </message>
+    <message>
+        <source>实时输出</source>
+        <translation>Live output</translation>
+    </message>
+    <message>
+        <source>每 200ms 追加一条日志；setMaxEntryCount(500) 超出后丢弃最早的日志，向上滚动后暂停跟随</source>
+        <translation>Appends one entry every 200 ms. setMaxEntryCount(500) drops the oldest entries beyond the limit, and scrolling up pauses following</translation>
+    </message>
+    <message>
+        <source>停止</source>
+        <translation>Stop</translation>
+    </message>
+    <message>
+        <source>开始</source>
+        <translation>Start</translation>
+    </message>
+    <message>
+        <source>清空</source>
+        <translation>Clear</translation>
+    </message>
+    <message>
+        <source>自动滚动</source>
+        <translation>Auto scroll</translation>
+    </message>
+    <message>
+        <source>自动换行</source>
+        <translation>Word wrap</translation>
+    </message>
+    <message>
+        <source>共 %1 条</source>
+        <translation>%1 entries</translation>
+    </message>
+</context>
+<context>
     <name>LuaPage</name>
     <message>
         <source>脚本管理器</source>
@@ -8993,6 +9238,189 @@ Done.
     </message>
 </context>
 <context>
+    <name>ResultPage</name>
+    <message>
+        <source>操作成功</source>
+        <translation>Operation succeeded</translation>
+    </message>
+    <message>
+        <source>操作失败</source>
+        <translation>Operation failed</translation>
+    </message>
+    <message>
+        <source>导入完成，部分记录被跳过</source>
+        <translation>Import finished, some records were skipped</translation>
+    </message>
+    <message>
+        <source>申请已提交</source>
+        <translation>Request submitted</translation>
+    </message>
+    <message>
+        <source>没有访问权限</source>
+        <translation>Access denied</translation>
+    </message>
+    <message>
+        <source>页面不存在</source>
+        <translation>Page not found</translation>
+    </message>
+    <message>
+        <source>服务器出错</source>
+        <translation>Server error</translation>
+    </message>
+    <message>
+        <source>更改已保存并立即生效</source>
+        <translation>Your changes were saved and take effect immediately</translation>
+    </message>
+    <message>
+        <source>请检查网络连接后重试</source>
+        <translation>Check your network connection and try again</translation>
+    </message>
+    <message>
+        <source>共 120 条，其中 3 条因格式不正确没有导入</source>
+        <translation>120 records in total, 3 were not imported because of an invalid format</translation>
+    </message>
+    <message>
+        <source>审核结果会通过邮件通知你</source>
+        <translation>You will be notified of the review result by email</translation>
+    </message>
+    <message>
+        <source>你的账户无权查看此页面，请联系管理员</source>
+        <translation>Your account is not allowed to view this page. Contact your administrator</translation>
+    </message>
+    <message>
+        <source>你访问的页面已被移动或删除</source>
+        <translation>The page you requested was moved or deleted</translation>
+    </message>
+    <message>
+        <source>服务暂时不可用，请稍后再试</source>
+        <translation>The service is temporarily unavailable. Try again later</translation>
+    </message>
+    <message>
+        <source>结果</source>
+        <translation>Result</translation>
+    </message>
+    <message>
+        <source>ShadResult：操作结束后用一整块区域说明结果，由状态图标、标题、说明与操作按钮组成。</source>
+        <translation>ShadResult: a full block that reports the outcome of an operation, made of a status icon, a title, a description and action buttons.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>ShadResult(status, title, description) 创建，addButton 在底部添加操作按钮</source>
+        <translation>Create it with ShadResult(status, title, description). addButton adds an action button at the bottom</translation>
+    </message>
+    <message>
+        <source>提交成功</source>
+        <translation>Submitted successfully</translation>
+    </message>
+    <message>
+        <source>订单号 2026111800123，预计 1 到 2 个工作日内完成审核</source>
+        <translation>Order number 2026111800123. The review is expected to finish within 1 to 2 business days</translation>
+    </message>
+    <message>
+        <source>返回列表</source>
+        <translation>Back to list</translation>
+    </message>
+    <message>
+        <source>查看详情</source>
+        <translation>View details</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>setStatus 切换状态，图标与颜色随之变化；Forbidden、NotFound、ServerError 对应 403、404、500</source>
+        <translation>setStatus switches the status, and the icon and color follow. Forbidden, NotFound and ServerError stand for 403, 404 and 500</translation>
+    </message>
+    <message>
+        <source>成功</source>
+        <translation>Success</translation>
+    </message>
+    <message>
+        <source>失败</source>
+        <translation>Error</translation>
+    </message>
+    <message>
+        <source>警告</source>
+        <translation>Warning</translation>
+    </message>
+    <message>
+        <source>信息</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>自定义内容</source>
+        <translation>Custom content</translation>
+    </message>
+    <message>
+        <source>addContentWidget 在说明与按钮之间加入任意组件，例如错误明细</source>
+        <translation>addContentWidget places any widget between the description and the buttons, such as error details</translation>
+    </message>
+    <message>
+        <source>提交失败</source>
+        <translation>Submission failed</translation>
+    </message>
+    <message>
+        <source>请修正下面的问题后重新提交</source>
+        <translation>Fix the problems below and submit again</translation>
+    </message>
+    <message>
+        <source>账户已被冻结，暂时不能发起付款</source>
+        <translation>The account is frozen and cannot make payments for now</translation>
+    </message>
+    <message>
+        <source>收款银行卡信息不完整</source>
+        <translation>The receiving bank card information is incomplete</translation>
+    </message>
+    <message>
+        <source>重新提交</source>
+        <translation>Submit again</translation>
+    </message>
+    <message>
+        <source>自定义图标</source>
+        <translation>Custom icon</translation>
+    </message>
+    <message>
+        <source>setShadIcon 用任意 Lucide 图标替换状态图标，颜色仍然跟随状态</source>
+        <translation>setShadIcon replaces the status icon with any Lucide icon. The color still follows the status</translation>
+    </message>
+    <message>
+        <source>版本已发布</source>
+        <translation>Release published</translation>
+    </message>
+    <message>
+        <source>用户会在下次启动时收到更新</source>
+        <translation>Users will receive the update the next time they launch the app</translation>
+    </message>
+    <message>
+        <source>自定义状态</source>
+        <translation>Custom status</translation>
+    </message>
+    <message>
+        <source>setColor 设置状态色，与 setShadIcon 组合可以表达任意状态；setMediaWidget 用任意组件取代图标</source>
+        <translation>setColor sets the status color. Combined with setShadIcon it can express any status. setMediaWidget replaces the icon with any widget</translation>
+    </message>
+    <message>
+        <source>等待审核</source>
+        <translation>Pending review</translation>
+    </message>
+    <message>
+        <source>前面还有 3 个申请，预计等待 10 分钟</source>
+        <translation>3 requests are ahead of yours. The estimated wait is 10 minutes</translation>
+    </message>
+    <message>
+        <source>正在处理</source>
+        <translation>Processing</translation>
+    </message>
+    <message>
+        <source>处理完成前请不要关闭窗口</source>
+        <translation>Do not close the window until processing finishes</translation>
+    </message>
+</context>
+<context>
     <name>RtlPage</name>
     <message>
         <source>RTL 布局</source>
@@ -10801,6 +11229,85 @@ Done.
     <message>
         <source>%1：当前为 %2</source>
         <translation>%1: currently %2</translation>
+    </message>
+</context>
+<context>
+    <name>TagInputPage</name>
+    <message>
+        <source>标签输入</source>
+        <translation>Tag Input</translation>
+    </message>
+    <message>
+        <source>ShadTagInput：输入文字后按回车生成标签，标签显示在输入框内，放不下时自动换行。</source>
+        <translation>ShadTagInput: type some text and press Enter to turn it into a tag. Tags sit inside the field and wrap to a new line when they do not fit.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>回车生成标签；输入为空时按 Backspace 选中最后一个标签，再按一次删除</source>
+        <translation>Press Enter to create a tag. With an empty input, Backspace selects the last tag and a second press removes it</translation>
+    </message>
+    <message>
+        <source>输入标签后按回车</source>
+        <translation>Type a tag and press Enter</translation>
+    </message>
+    <message>
+        <source>当前标签: 无</source>
+        <translation>Current tags: None</translation>
+    </message>
+    <message>
+        <source>当前标签: %1</source>
+        <translation>Current tags: %1</translation>
+    </message>
+    <message>
+        <source>分隔符</source>
+        <translation>Separators</translation>
+    </message>
+    <message>
+        <source>setSeparators(&quot;,;&quot;)：输入逗号或分号即生成标签，粘贴多行文字时每行生成一个</source>
+        <translation>setSeparators(&quot;,;&quot;): typing a comma or semicolon creates a tag. Pasting multi-line text creates one tag per line</translation>
+    </message>
+    <message>
+        <source>输入邮箱，用逗号或分号分隔</source>
+        <translation>Enter emails, separated by commas or semicolons</translation>
+    </message>
+    <message>
+        <source>数量上限</source>
+        <translation>Maximum count</translation>
+    </message>
+    <message>
+        <source>setMaxTags(3)：重复或超出上限的标签被拒绝，并发出 tagRejected</source>
+        <translation>setMaxTags(3): duplicate tags and tags beyond the limit are rejected, and tagRejected is emitted</translation>
+    </message>
+    <message>
+        <source>最多添加 %1 个标签</source>
+        <translation>Up to %1 tags</translation>
+    </message>
+    <message>
+        <source>已添加 %1 / %2</source>
+        <translation>Added %1 / %2</translation>
+    </message>
+    <message>
+        <source>已添加 %1 / %2，已拒绝: %3</source>
+        <translation>Added %1 / %2, rejected: %3</translation>
+    </message>
+    <message>
+        <source>只读与禁用</source>
+        <translation>Read-only and disabled</translation>
+    </message>
+    <message>
+        <source>setReadOnly(true) 不显示输入框与删除按钮；setEnabled(false) 整体置灰</source>
+        <translation>setReadOnly(true) hides the input and the remove buttons. setEnabled(false) dims the whole control</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>Invalid</translation>
+    </message>
+    <message>
+        <source>setInvalid(true)：边框与焦点环变为 destructive 色</source>
+        <translation>setInvalid(true): the border and focus ring turn the destructive color</translation>
     </message>
 </context>
 <context>

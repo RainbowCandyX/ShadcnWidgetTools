@@ -6,6 +6,7 @@
 #include <QIODevice>
 #include <QImage>
 #include <QKeySequence>
+#include <QLineEdit>
 #include <QList>
 #include <QMetaType>
 #include <QModelIndex>
@@ -26,8 +27,10 @@
 #include "ShadAutoComplete.h"
 #include "ShadButton.h"
 #include "ShadButtonGroup.h"
+#include "ShadCalendar.h"
 #include "ShadCodeEditor.h"
 #include "ShadColorPicker.h"
+#include "ShadDateTimePicker.h"
 #include "ShadDef.h"
 #include "ShadDoubleSpinBox.h"
 #include "ShadField.h"
@@ -51,6 +54,7 @@
 #include "ShadRadioButton.h"
 #include "ShadRadioGroup.h"
 #include "ShadSignaturePad.h"
+#include "ShadTagInput.h"
 #include "ShadTextarea.h"
 #include "ShadTimePicker.h"
 #include "ShadToggle.h"
@@ -197,6 +201,12 @@ namespace
         timePicker.method("showPopup", &ShadTimePicker::showPopup);
         timePicker.method("hidePopup", &ShadTimePicker::hidePopup);
         timePicker.method("isPopupVisible", &ShadTimePicker::isPopupVisible);
+
+        ShadLuaClass<ShadDateTimePicker> dateTimePicker("DateTimePicker");
+        dateTimePicker.constructor(&ShadLuaBind::newWithParent<ShadDateTimePicker>);
+        dateTimePicker.method("getDisplayText", &ShadDateTimePicker::getDisplayText);
+        dateTimePicker.method("calendar", &ShadDateTimePicker::calendar);
+        dateTimePicker.method("isPopupVisible", &ShadDateTimePicker::isPopupVisible);
 
         // setGroups({3, 3})；setPattern(正则表达式)
         ShadLuaClass<ShadInputOtp> inputOtp("InputOtp");
@@ -369,6 +379,15 @@ namespace
         autoComplete.method("showPopup", &ShadAutoComplete::showPopup);
         autoComplete.method("hidePopup", &ShadAutoComplete::hidePopup);
         autoComplete.method("isPopupVisible", &ShadAutoComplete::isPopupVisible);
+
+        ShadLuaClass<ShadTagInput> tagInput("TagInput");
+        tagInput.constructor(&ShadLuaBind::newWithParent<ShadTagInput>);
+        tagInput.method("addTag", &ShadTagInput::addTag);
+        tagInput.method("removeTag", &ShadTagInput::removeTag);
+        tagInput.method("removeTagAt", &ShadTagInput::removeTagAt);
+        tagInput.method("tagAt", &ShadTagInput::tagAt);
+        tagInput.method("count", &ShadTagInput::count);
+        tagInput.method("lineEdit", &ShadTagInput::lineEdit);
     }
 
     bool readTransferItems(const QVariant& value, QList<ShadTransferItem>& items)

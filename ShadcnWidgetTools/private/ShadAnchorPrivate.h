@@ -57,6 +57,7 @@ class ShadAnchorPrivate
 
         QList<Link> _links;
         QPointer<QAbstractScrollArea> _scrollArea;
+        QPointer<QWidget> _viewport;
         QList<QMetaObject::Connection> _scrollConnections;
         QVariantAnimation* _indicatorAnimation{nullptr};
         QVariantAnimation* _scrollAnimation{nullptr};

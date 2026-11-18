@@ -201,7 +201,8 @@ void ShadAnchorPrivate::connectScrollArea()
     {
         return;
     }
-    _scrollArea->viewport()->installEventFilter(q);
+    _viewport = _scrollArea->viewport();
+    _viewport->installEventFilter(q);
     QScrollBar* scrollBar = _scrollArea->verticalScrollBar();
     _scrollConnections.append(QObject::connect(scrollBar, &QScrollBar::valueChanged, q, [this]()
     {
@@ -224,8 +225,9 @@ void ShadAnchorPrivate::disconnectScrollArea()
     }
     _scrollConnections.clear();
     _scrollAnimation->stop();
-    if (!_scrollArea.isNull())
+    if (!_viewport.isNull())
     {
-        _scrollArea->viewport()->removeEventFilter(q);
+        _viewport->removeEventFilter(q);
     }
+    _viewport = nullptr;
 }

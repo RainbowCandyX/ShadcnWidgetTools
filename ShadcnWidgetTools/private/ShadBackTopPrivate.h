@@ -8,6 +8,7 @@
 class QAbstractScrollArea;
 class QGraphicsOpacityEffect;
 class QVariantAnimation;
+class QWidget;
 class ShadBackTop;
 
 class ShadBackTopPrivate
@@ -30,6 +31,7 @@ class ShadBackTopPrivate
 
         ShadBackTop* q{nullptr};
         QPointer<QAbstractScrollArea> _target;
+        QPointer<QWidget> _viewport;
         QList<QMetaObject::Connection> _targetConnections;
         QGraphicsOpacityEffect* _opacityEffect{nullptr};
         QVariantAnimation* _fadeAnimation{nullptr};

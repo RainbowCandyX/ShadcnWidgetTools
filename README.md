@@ -59,6 +59,7 @@
 | ShadTextarea | 多行输入 | 随内容自动增高，可设上限 |
 | ShadCodeEditor | 代码编辑器 | 行号、语法高亮、当前行高亮 |
 | ShadInputOtp | 验证码输入 | 分格输入，粘贴自动分发，键盘导航 |
+| ShadTagInput | 标签输入 | 回车或分隔符生成标签，自动换行增高，数量上限，去重，键盘选中与删除 |
 | ShadPasskey / ShadPasskeyButton | 通行密钥 | 系统通行密钥注册与登录，模拟模式 |
 | ShadBiometric | 身份验证 | Touch ID / Windows Hello 确认本人，可改用密码或 PIN |
 | ShadSpinBox | 整数输入 | 聚焦后滚轮调节 |
@@ -77,6 +78,7 @@
 | ShadCalendar | 日历 | 键盘导航，跟随 locale |
 | ShadDatePicker | 日期选择 | 单日与范围模式 |
 | ShadTimePicker | 时间选择 | 时、分、秒滚动列 |
+| ShadDateTimePicker | 日期时间选择 | 日历与时间列在同一个浮层，此刻按钮，可隐藏秒，自定义显示格式 |
 | ShadField | 表单项 | 标签、说明、错误态，选择卡片样式 |
 | ShadFieldGroup | 表单项组 | 纵向排列表单项，可插入分隔线 |
 | ShadFieldSet | 表单分组 | 标题、说明与一组表单项 |
@@ -121,6 +123,7 @@
 | ShadDiffView | 差异对比 | 统一与分栏视图，行内变化高亮，语法高亮，自动换行，选择与复制，折叠未改动的行 |
 | ShadMarkdownView | Markdown | GitHub 风格 Markdown，代码块高亮与复制，流式追加 |
 | ShadTrace | 执行记录 | 图标、标题与耗时，可点击 |
+| ShadLogView | 日志视图 | 按级别着色，级别与关键字过滤，自动跟随末尾，条数上限，选择与复制 |
 | ShadTimeline | 时间轴 | 轴在起始侧 / 结束侧 / 居中交替，图标节点，进行中节点，倒序 |
 | ShadMarker | 标记 | 对话中的状态与提示，行内、带边框与分隔线三种变体，扫光，可作为链接或按钮 |
 | ShadQrCode | 二维码 | 纠错等级可选 |
@@ -133,9 +136,11 @@
 |---|---|---|
 | ShadAlert | 提示 | Default / Destructive，图标与操作按钮 |
 | ShadEmpty | 空状态 | 图标或自定义媒体、标题、描述与操作区，可选虚线边框 |
+| ShadResult | 结果页 | 成功、失败、警告、信息与 403 / 404 / 500 七种内置状态，可用自定义图标、颜色或媒体组件表达任意状态，标题、说明、自定义内容与操作按钮 |
 | ShadProgress | 进度条 | 数值过渡动画 |
 | ShadRadialProgress | 环形进度 | 整圆或仪表盘，四种状态，数值过渡动画 |
 | ShadSpinner | 加载指示 | 匀速旋转 |
+| ShadLoadingOverlay | 加载遮罩 | 盖在任意组件上，转圈与文字，延迟显示，加载期间拦截鼠标与键盘 |
 | ShadSkeleton | 骨架屏 | 脉冲动画，圆角与圆形 |
 | ShadToaster | 通知 | 六种类型、六个位置，悬停展开堆叠 |
 | ShadNotification | 消息通知 | 四种类型、八个位置，倒计时自动关闭 |
@@ -232,7 +237,7 @@ cmake --build --preset msvc-release
 include(FetchContent)
 FetchContent_Declare(ShadcnWidgetTools
     GIT_REPOSITORY https://github.com/RainbowCandyX/ShadcnWidgetTools.git
-    GIT_TAG v1.3.0
+    GIT_TAG v1.3.1
     GIT_SHALLOW TRUE
 )
 FetchContent_MakeAvailable(ShadcnWidgetTools)

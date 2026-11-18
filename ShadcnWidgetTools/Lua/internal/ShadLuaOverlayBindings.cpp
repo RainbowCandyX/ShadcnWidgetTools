@@ -31,6 +31,7 @@
 #include "ShadHoverCard.h"
 #include "ShadIconType.h"
 #include "ShadInputDialog.h"
+#include "ShadLoadingOverlay.h"
 #include "ShadLuaBinder.h"
 #include "ShadLuaBindings.h"
 #include "ShadLuaEngine.h"
@@ -300,6 +301,11 @@ namespace
             }
             return 1;
         });
+
+        ShadLuaClass<ShadLoadingOverlay> loadingOverlay("LoadingOverlay");
+        loadingOverlay.constructor(&ShadLuaBind::newWithParent<ShadLoadingOverlay>);
+        loadingOverlay.method("setTarget", &ShadLoadingOverlay::setTarget);
+        loadingOverlay.method("getTarget", &ShadLoadingOverlay::getTarget);
 
         ShadLuaClass<ShadPopover> popover("Popover");
         popover.constructor(&ShadLuaBind::newWithParent<ShadPopover>);

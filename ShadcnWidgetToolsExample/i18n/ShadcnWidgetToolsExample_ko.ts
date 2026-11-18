@@ -3495,6 +3495,61 @@ echo &quot;빌드 완료&quot;
     </message>
 </context>
 <context>
+    <name>DateTimePickerPage</name>
+    <message>
+        <source>日期时间选择</source>
+        <translation>날짜 및 시간 선택</translation>
+    </message>
+    <message>
+        <source>ShadDateTimePicker：在一个浮层中选择日期与时间，左侧为日历，右侧为时、分、秒三列，点击确定后写入。</source>
+        <translation>ShadDateTimePicker: 하나의 팝오버에서 날짜와 시간을 선택합니다. 왼쪽은 달력, 오른쪽은 시, 분, 초 세 열이며 확인을 클릭하면 값이 적용됩니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>点击触发框打开浮层，选择日期与时间后点击确定；按 Esc 或点击外部关闭时不保存</source>
+        <translation>트리거를 클릭해 팝오버를 열고 날짜와 시간을 선택한 뒤 확인을 클릭합니다. Esc를 누르거나 바깥을 클릭해 닫으면 저장되지 않습니다</translation>
+    </message>
+    <message>
+        <source>当前选择: %1</source>
+        <translation>현재 선택: %1</translation>
+    </message>
+    <message>
+        <source>当前选择: 无</source>
+        <translation>현재 선택: 없음</translation>
+    </message>
+    <message>
+        <source>图标与格式</source>
+        <translation>아이콘과 형식</translation>
+    </message>
+    <message>
+        <source>setCalendarIconVisible、setChevronVisible 显示图标与下拉箭头；setSecondsVisible(false) 隐藏秒，setDisplayFormat 自定义显示格式</source>
+        <translation>setCalendarIconVisible과 setChevronVisible로 아이콘과 화살표를 표시합니다. setSecondsVisible(false)로 초를 숨기고 setDisplayFormat으로 표시 형식을 지정합니다</translation>
+    </message>
+    <message>
+        <source>可选范围</source>
+        <translation>선택 가능 범위</translation>
+    </message>
+    <message>
+        <source>calendar() 取得浮层中的日历，限制只能选择今天起 30 天内的日期；setNowButtonVisible(false) 隐藏此刻按钮</source>
+        <translation>calendar()로 팝오버 안의 달력을 가져와 오늘부터 30일 이내의 날짜만 선택할 수 있도록 제한합니다. setNowButtonVisible(false)로 지금 버튼을 숨깁니다</translation>
+    </message>
+    <message>
+        <source>选择预约时间</source>
+        <translation>예약 시간 선택</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>비활성화</translation>
+    </message>
+    <message>
+        <source>setEnabled(false) 时不能打开浮层</source>
+        <translation>setEnabled(false)일 때는 팝오버를 열 수 없습니다</translation>
+    </message>
+</context>
+<context>
     <name>DescriptionsPage</name>
     <message>
         <source>描述列表</source>
@@ -6725,6 +6780,196 @@ echo &quot;빌드 완료&quot;
     </message>
 </context>
 <context>
+    <name>LoadingOverlayPage</name>
+    <message>
+        <source>加载遮罩</source>
+        <translation>로딩 오버레이</translation>
+    </message>
+    <message>
+        <source>ShadLoadingOverlay：盖在任意组件上的加载遮罩，居中显示转圈与文字，加载期间被盖住的组件不响应操作。</source>
+        <translation>ShadLoadingOverlay: 임의의 위젯을 덮는 로딩 마스크입니다. 가운데에 스피너와 텍스트를 표시하며, 로딩 중에는 덮인 위젯이 입력에 반응하지 않습니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>ShadLoadingOverlay(target) 绑定目标组件，start() 与 stop() 控制显示；点击保存后表单被遮住 2 秒</source>
+        <translation>ShadLoadingOverlay(target)로 대상 위젯을 지정하고 start()와 stop()으로 표시를 제어합니다. 저장을 클릭하면 폼이 2초 동안 가려집니다</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>프로필</translation>
+    </message>
+    <message>
+        <source>修改后点击保存</source>
+        <translation>수정한 뒤 저장을 클릭</translation>
+    </message>
+    <message>
+        <source>姓名</source>
+        <translation>이름</translation>
+    </message>
+    <message>
+        <source>邮箱</source>
+        <translation>이메일</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>저장</translation>
+    </message>
+    <message>
+        <source>文字与延迟</source>
+        <translation>텍스트와 지연</translation>
+    </message>
+    <message>
+        <source>setText 设置转圈下方的文字；setDelay(300) 在加载超过 300ms 时才显示，避免短暂的加载造成闪烁</source>
+        <translation>setText로 스피너 아래의 텍스트를 설정합니다. setDelay(300)은 로딩이 300ms를 넘을 때만 표시해 짧은 로딩으로 인한 깜빡임을 막습니다</translation>
+    </message>
+    <message>
+        <source>数据列表</source>
+        <translation>데이터 목록</translation>
+    </message>
+    <message>
+        <source>加载很快结束时不会出现遮罩</source>
+        <translation>로딩이 빨리 끝나면 마스크가 나타나지 않습니다</translation>
+    </message>
+    <message>
+        <source>正在加载数据...</source>
+        <translation>데이터를 불러오는 중...</translation>
+    </message>
+    <message>
+        <source>加载 100 毫秒</source>
+        <translation>100밀리초 로딩</translation>
+    </message>
+    <message>
+        <source>加载 2 秒</source>
+        <translation>2초 로딩</translation>
+    </message>
+</context>
+<context>
+    <name>LogViewPage</name>
+    <message>
+        <source>暂无日志</source>
+        <translation>로그 없음</translation>
+    </message>
+    <message>
+        <source>收到请求 GET /api/items/%1</source>
+        <translation>요청 수신 GET /api/items/%1</translation>
+    </message>
+    <message>
+        <source>查询耗时 %1 ms</source>
+        <translation>쿼리 소요 시간 %1 ms</translation>
+    </message>
+    <message>
+        <source>缓存命中率 %1%</source>
+        <translation>캐시 적중률 %1%</translation>
+    </message>
+    <message>
+        <source>任务 %1 已完成</source>
+        <translation>작업 %1 완료</translation>
+    </message>
+    <message>
+        <source>响应较慢：%1 ms，超过阈值</source>
+        <translation>응답 지연: %1 ms, 임계값 초과</translation>
+    </message>
+    <message>
+        <source>请求 %1 失败：连接超时</source>
+        <translation>요청 %1 실패: 연결 시간 초과</translation>
+    </message>
+    <message>
+        <source>日志视图</source>
+        <translation>로그 뷰</translation>
+    </message>
+    <message>
+        <source>ShadLogView：按级别着色的日志输出，可按级别与关键字过滤，停在末尾时自动跟随新日志。</source>
+        <translation>ShadLogView: 수준별로 색이 구분되는 로그 출력입니다. 수준과 키워드로 필터링할 수 있으며, 끝에 머물러 있는 동안 새 로그를 자동으로 따라갑니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>debug、info、success、warning、error 追加一条日志；右键可复制、全选与清空</source>
+        <translation>debug, info, success, warning, error로 로그를 한 건 추가합니다. 마우스 오른쪽 버튼으로 복사, 모두 선택, 지우기를 할 수 있습니다</translation>
+    </message>
+    <message>
+        <source>应用已启动</source>
+        <translation>애플리케이션이 시작되었습니다</translation>
+    </message>
+    <message>
+        <source>读取配置文件 config.json</source>
+        <translation>설정 파일 config.json을 읽는 중</translation>
+    </message>
+    <message>
+        <source>已连接到服务器</source>
+        <translation>서버에 연결되었습니다</translation>
+    </message>
+    <message>
+        <source>磁盘剩余空间不足 10%</source>
+        <translation>디스크 여유 공간이 10% 미만입니다</translation>
+    </message>
+    <message>
+        <source>无法打开文件：权限不足</source>
+        <translation>파일을 열 수 없습니다: 권한이 없습니다</translation>
+    </message>
+    <message>
+        <source>这是一条 %1 日志</source>
+        <translation>%1 로그입니다</translation>
+    </message>
+    <message>
+        <source>过滤</source>
+        <translation>필터</translation>
+    </message>
+    <message>
+        <source>setMinimumLevel 按级别过滤，setFilterText 按关键字过滤，忽略大小写</source>
+        <translation>setMinimumLevel은 수준으로, setFilterText는 키워드로 필터링하며 대소문자를 구분하지 않습니다</translation>
+    </message>
+    <message>
+        <source>全部</source>
+        <translation>전체</translation>
+    </message>
+    <message>
+        <source>按关键字过滤</source>
+        <translation>키워드로 필터링</translation>
+    </message>
+    <message>
+        <source>显示 %1 / %2 条</source>
+        <translation>%2건 중 %1건 표시</translation>
+    </message>
+    <message>
+        <source>实时输出</source>
+        <translation>실시간 출력</translation>
+    </message>
+    <message>
+        <source>每 200ms 追加一条日志；setMaxEntryCount(500) 超出后丢弃最早的日志，向上滚动后暂停跟随</source>
+        <translation>200ms마다 로그를 한 건 추가합니다. setMaxEntryCount(500)으로 한도를 넘으면 가장 오래된 로그를 버리고, 위로 스크롤하면 따라가기가 일시 중지됩니다</translation>
+    </message>
+    <message>
+        <source>停止</source>
+        <translation>중지</translation>
+    </message>
+    <message>
+        <source>开始</source>
+        <translation>시작</translation>
+    </message>
+    <message>
+        <source>清空</source>
+        <translation>지우기</translation>
+    </message>
+    <message>
+        <source>自动滚动</source>
+        <translation>자동 스크롤</translation>
+    </message>
+    <message>
+        <source>自动换行</source>
+        <translation>자동 줄바꿈</translation>
+    </message>
+    <message>
+        <source>共 %1 条</source>
+        <translation>총 %1건</translation>
+    </message>
+</context>
+<context>
     <name>LuaPage</name>
     <message>
         <source>脚本管理器</source>
@@ -8993,6 +9238,189 @@ def fibonacci(count):
     </message>
 </context>
 <context>
+    <name>ResultPage</name>
+    <message>
+        <source>操作成功</source>
+        <translation>작업 성공</translation>
+    </message>
+    <message>
+        <source>操作失败</source>
+        <translation>작업 실패</translation>
+    </message>
+    <message>
+        <source>导入完成，部分记录被跳过</source>
+        <translation>가져오기 완료, 일부 레코드를 건너뜀</translation>
+    </message>
+    <message>
+        <source>申请已提交</source>
+        <translation>신청이 제출되었습니다</translation>
+    </message>
+    <message>
+        <source>没有访问权限</source>
+        <translation>접근 권한이 없습니다</translation>
+    </message>
+    <message>
+        <source>页面不存在</source>
+        <translation>페이지를 찾을 수 없습니다</translation>
+    </message>
+    <message>
+        <source>服务器出错</source>
+        <translation>서버 오류</translation>
+    </message>
+    <message>
+        <source>更改已保存并立即生效</source>
+        <translation>변경 사항이 저장되어 즉시 적용됩니다</translation>
+    </message>
+    <message>
+        <source>请检查网络连接后重试</source>
+        <translation>네트워크 연결을 확인한 뒤 다시 시도하세요</translation>
+    </message>
+    <message>
+        <source>共 120 条，其中 3 条因格式不正确没有导入</source>
+        <translation>총 120건 중 3건은 형식이 올바르지 않아 가져오지 못했습니다</translation>
+    </message>
+    <message>
+        <source>审核结果会通过邮件通知你</source>
+        <translation>심사 결과는 이메일로 알려 드립니다</translation>
+    </message>
+    <message>
+        <source>你的账户无权查看此页面，请联系管理员</source>
+        <translation>이 계정은 이 페이지를 볼 권한이 없습니다. 관리자에게 문의하세요</translation>
+    </message>
+    <message>
+        <source>你访问的页面已被移动或删除</source>
+        <translation>방문한 페이지가 이동되었거나 삭제되었습니다</translation>
+    </message>
+    <message>
+        <source>服务暂时不可用，请稍后再试</source>
+        <translation>서비스를 일시적으로 사용할 수 없습니다. 잠시 후 다시 시도하세요</translation>
+    </message>
+    <message>
+        <source>结果</source>
+        <translation>결과</translation>
+    </message>
+    <message>
+        <source>ShadResult：操作结束后用一整块区域说明结果，由状态图标、标题、说明与操作按钮组成。</source>
+        <translation>ShadResult: 작업이 끝난 뒤 하나의 영역 전체로 결과를 알려 줍니다. 상태 아이콘, 제목, 설명, 작업 버튼으로 구성됩니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>ShadResult(status, title, description) 创建，addButton 在底部添加操作按钮</source>
+        <translation>ShadResult(status, title, description)로 만들고 addButton으로 아래쪽에 작업 버튼을 추가합니다</translation>
+    </message>
+    <message>
+        <source>提交成功</source>
+        <translation>제출 성공</translation>
+    </message>
+    <message>
+        <source>订单号 2026111800123，预计 1 到 2 个工作日内完成审核</source>
+        <translation>주문 번호 2026111800123. 심사는 영업일 기준 1일에서 2일 안에 완료될 예정입니다</translation>
+    </message>
+    <message>
+        <source>返回列表</source>
+        <translation>목록으로 돌아가기</translation>
+    </message>
+    <message>
+        <source>查看详情</source>
+        <translation>자세히 보기</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>상태</translation>
+    </message>
+    <message>
+        <source>setStatus 切换状态，图标与颜色随之变化；Forbidden、NotFound、ServerError 对应 403、404、500</source>
+        <translation>setStatus로 상태를 바꾸면 아이콘과 색상도 함께 바뀝니다. Forbidden, NotFound, ServerError는 403, 404, 500에 해당합니다</translation>
+    </message>
+    <message>
+        <source>成功</source>
+        <translation>성공</translation>
+    </message>
+    <message>
+        <source>失败</source>
+        <translation>실패</translation>
+    </message>
+    <message>
+        <source>警告</source>
+        <translation>경고</translation>
+    </message>
+    <message>
+        <source>信息</source>
+        <translation>정보</translation>
+    </message>
+    <message>
+        <source>自定义内容</source>
+        <translation>사용자 지정 콘텐츠</translation>
+    </message>
+    <message>
+        <source>addContentWidget 在说明与按钮之间加入任意组件，例如错误明细</source>
+        <translation>addContentWidget으로 설명과 버튼 사이에 임의의 위젯을 넣습니다. 예를 들어 오류 상세입니다</translation>
+    </message>
+    <message>
+        <source>提交失败</source>
+        <translation>제출 실패</translation>
+    </message>
+    <message>
+        <source>请修正下面的问题后重新提交</source>
+        <translation>아래 문제를 수정한 뒤 다시 제출하세요</translation>
+    </message>
+    <message>
+        <source>账户已被冻结，暂时不能发起付款</source>
+        <translation>계정이 동결되어 현재 결제를 시작할 수 없습니다</translation>
+    </message>
+    <message>
+        <source>收款银行卡信息不完整</source>
+        <translation>수취 은행 카드 정보가 불완전합니다</translation>
+    </message>
+    <message>
+        <source>重新提交</source>
+        <translation>다시 제출</translation>
+    </message>
+    <message>
+        <source>自定义图标</source>
+        <translation>사용자 지정 아이콘</translation>
+    </message>
+    <message>
+        <source>setShadIcon 用任意 Lucide 图标替换状态图标，颜色仍然跟随状态</source>
+        <translation>setShadIcon으로 상태 아이콘을 임의의 Lucide 아이콘으로 바꿉니다. 색상은 계속 상태를 따릅니다</translation>
+    </message>
+    <message>
+        <source>版本已发布</source>
+        <translation>버전이 게시되었습니다</translation>
+    </message>
+    <message>
+        <source>用户会在下次启动时收到更新</source>
+        <translation>사용자는 다음 실행 시 업데이트를 받습니다</translation>
+    </message>
+    <message>
+        <source>自定义状态</source>
+        <translation>사용자 지정 상태</translation>
+    </message>
+    <message>
+        <source>setColor 设置状态色，与 setShadIcon 组合可以表达任意状态；setMediaWidget 用任意组件取代图标</source>
+        <translation>setColor로 상태 색상을 설정합니다. setShadIcon과 함께 쓰면 어떤 상태든 표현할 수 있습니다. setMediaWidget으로 아이콘을 임의의 위젯으로 바꿉니다</translation>
+    </message>
+    <message>
+        <source>等待审核</source>
+        <translation>심사 대기 중</translation>
+    </message>
+    <message>
+        <source>前面还有 3 个申请，预计等待 10 分钟</source>
+        <translation>앞에 신청이 3건 있습니다. 예상 대기 시간은 10분입니다</translation>
+    </message>
+    <message>
+        <source>正在处理</source>
+        <translation>처리 중</translation>
+    </message>
+    <message>
+        <source>处理完成前请不要关闭窗口</source>
+        <translation>처리가 끝날 때까지 창을 닫지 마세요</translation>
+    </message>
+</context>
+<context>
     <name>RtlPage</name>
     <message>
         <source>RTL 布局</source>
@@ -10801,6 +11229,85 @@ def fibonacci(count):
     <message>
         <source>%1：当前为 %2</source>
         <translation>%1: 현재 %2</translation>
+    </message>
+</context>
+<context>
+    <name>TagInputPage</name>
+    <message>
+        <source>标签输入</source>
+        <translation>태그 입력</translation>
+    </message>
+    <message>
+        <source>ShadTagInput：输入文字后按回车生成标签，标签显示在输入框内，放不下时自动换行。</source>
+        <translation>ShadTagInput: 텍스트를 입력하고 Enter를 누르면 태그가 됩니다. 태그는 입력란 안에 표시되며 공간이 부족하면 자동으로 줄바꿈됩니다.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>기본 사용법</translation>
+    </message>
+    <message>
+        <source>回车生成标签；输入为空时按 Backspace 选中最后一个标签，再按一次删除</source>
+        <translation>Enter로 태그를 만듭니다. 입력이 비어 있을 때 Backspace를 누르면 마지막 태그가 선택되고 한 번 더 누르면 삭제됩니다</translation>
+    </message>
+    <message>
+        <source>输入标签后按回车</source>
+        <translation>태그를 입력하고 Enter</translation>
+    </message>
+    <message>
+        <source>当前标签: 无</source>
+        <translation>현재 태그: 없음</translation>
+    </message>
+    <message>
+        <source>当前标签: %1</source>
+        <translation>현재 태그: %1</translation>
+    </message>
+    <message>
+        <source>分隔符</source>
+        <translation>구분자</translation>
+    </message>
+    <message>
+        <source>setSeparators(&quot;,;&quot;)：输入逗号或分号即生成标签，粘贴多行文字时每行生成一个</source>
+        <translation>setSeparators(&quot;,;&quot;): 쉼표나 세미콜론을 입력하면 태그가 만들어집니다. 여러 줄의 텍스트를 붙여넣으면 줄마다 태그가 하나씩 만들어집니다</translation>
+    </message>
+    <message>
+        <source>输入邮箱，用逗号或分号分隔</source>
+        <translation>이메일을 쉼표나 세미콜론으로 구분해 입력</translation>
+    </message>
+    <message>
+        <source>数量上限</source>
+        <translation>최대 개수</translation>
+    </message>
+    <message>
+        <source>setMaxTags(3)：重复或超出上限的标签被拒绝，并发出 tagRejected</source>
+        <translation>setMaxTags(3): 중복되거나 한도를 넘는 태그는 거부되고 tagRejected가 발생합니다</translation>
+    </message>
+    <message>
+        <source>最多添加 %1 个标签</source>
+        <translation>태그는 최대 %1개까지</translation>
+    </message>
+    <message>
+        <source>已添加 %1 / %2</source>
+        <translation>추가됨 %1 / %2</translation>
+    </message>
+    <message>
+        <source>已添加 %1 / %2，已拒绝: %3</source>
+        <translation>추가됨 %1 / %2, 거부됨: %3</translation>
+    </message>
+    <message>
+        <source>只读与禁用</source>
+        <translation>읽기 전용 및 비활성화</translation>
+    </message>
+    <message>
+        <source>setReadOnly(true) 不显示输入框与删除按钮；setEnabled(false) 整体置灰</source>
+        <translation>setReadOnly(true)는 입력란과 삭제 버튼을 숨깁니다. setEnabled(false)는 전체를 흐리게 표시합니다</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>오류 상태</translation>
+    </message>
+    <message>
+        <source>setInvalid(true)：边框与焦点环变为 destructive 色</source>
+        <translation>setInvalid(true): 테두리와 포커스 링이 destructive 색상으로 바뀝니다</translation>
     </message>
 </context>
 <context>

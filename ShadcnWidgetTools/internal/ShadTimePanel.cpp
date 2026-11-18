@@ -89,6 +89,12 @@ bool ShadTimePanel::isSecondsVisible() const
     return !_secondColumn->isHidden();
 }
 
+void ShadTimePanel::setFooterVisible(bool visible)
+{
+    _footer->setVisible(visible);
+    update();
+}
+
 void ShadTimePanel::setTime(const QTime& time)
 {
     const bool isValid = time.isValid();
@@ -154,7 +160,10 @@ void ShadTimePanel::paintEvent(QPaintEvent* event)
         painter.fillRect(QRect(right.x(), areaRect.top(), kSeparatorWidth, areaRect.height()), borderColor);
     }
     // 页脚顶部的分隔线
-    painter.fillRect(QRect(0, _footer->y(), width(), kSeparatorWidth), borderColor);
+    if (!_footer->isHidden())
+    {
+        painter.fillRect(QRect(0, _footer->y(), width(), kSeparatorWidth), borderColor);
+    }
 }
 
 QList<ShadTimeColumn*> ShadTimePanel::visibleColumns() const
@@ -178,6 +187,7 @@ void ShadTimePanel::onValueSelected()
         }
     }
     updateConfirmButton();
+    Q_EMIT timeEdited();
 }
 
 void ShadTimePanel::moveFocus(ShadTimeColumn* column, int direction)

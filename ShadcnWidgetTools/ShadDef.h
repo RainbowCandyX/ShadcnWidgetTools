@@ -514,6 +514,40 @@ namespace ShadStepsType
     Q_ENUM_NS(Status)
 } // namespace ShadStepsType
 
+namespace ShadLogViewType
+{
+    Q_NAMESPACE_EXPORT (SHADCN_EXPORT)
+
+    enum Level
+    {
+        Debug = 0,
+        Info,
+        Success,
+        Warning,
+        Error,
+    };
+
+    Q_ENUM_NS(Level)
+} // namespace ShadLogViewType
+
+namespace ShadResultType
+{
+    Q_NAMESPACE_EXPORT (SHADCN_EXPORT)
+
+    enum Status
+    {
+        Success = 0,
+        Error,
+        Warning,
+        Info,
+        Forbidden,
+        NotFound,
+        ServerError,
+    };
+
+    Q_ENUM_NS(Status)
+} // namespace ShadResultType
+
 namespace ShadTabsType
 {
     Q_NAMESPACE_EXPORT (SHADCN_EXPORT)

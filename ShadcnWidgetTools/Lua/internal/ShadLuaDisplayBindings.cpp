@@ -41,12 +41,14 @@
 #include "ShadKbd.h"
 #include "ShadLabel.h"
 #include "ShadListView.h"
+#include "ShadLogView.h"
 #include "ShadLuaBinder.h"
 #include "ShadLuaBindings.h"
 #include "ShadLuaInclude.h"
 #include "ShadLuaObject.h"
 #include "ShadLuaStack.h"
 #include "ShadMarkdownView.h"
+#include "ShadResult.h"
 #include "ShadTimeline.h"
 
 namespace
@@ -132,6 +134,30 @@ namespace
         empty.method("setMediaWidget", &ShadEmpty::setMediaWidget);
         empty.method("getMediaWidget", &ShadEmpty::getMediaWidget);
         empty.method("contentLayout", &ShadEmpty::contentLayout);
+
+        // new(status, title, description, parent) 或 new(parent)
+        ShadLuaClass<ShadResult> result("Result");
+        result.constructor([](lua_State* L) -> ShadResult*
+        {
+            qint64 status = 0;
+            if (ShadLuaStack::getInteger(L, 1, status))
+            {
+                return new ShadResult(static_cast<ShadResultType::Status>(status), optionalString(L, 2), optionalString(L, 3), ShadLuaObject::get<QWidget>(L, 4));
+            }
+            return new ShadResult(ShadLuaObject::get<QWidget>(L, 1));
+        });
+        result.method("setShadIcon", &ShadResult::setShadIcon);
+        result.method("getShadIcon", &ShadResult::getShadIcon);
+        result.method("setMediaWidget", &ShadResult::setMediaWidget);
+        result.method("getMediaWidget", &ShadResult::getMediaWidget);
+        // addButton(text, variant)
+        result.rawMethod("addButton", [](lua_State* L, ShadResult* self) -> int
+        {
+            ShadLuaObject::push(L, self->addButton(optionalString(L, 2), static_cast<ShadButtonType::Variant>(optionalInt(L, 3, ShadButtonType::Default))));
+            return 1;
+        });
+        result.method("addActionWidget", &ShadResult::addActionWidget);
+        result.method("addContentWidget", &ShadResult::addContentWidget);
 
         ShadLuaClass<ShadKbd>("Kbd").constructor(&ShadLuaBind::newWithText<ShadKbd>);
 
@@ -342,6 +368,18 @@ namespace
         timeline.method("count", &ShadTimeline::count);
         timeline.method("clear", &ShadTimeline::clear);
         timeline.method("pendingItem", &ShadTimeline::pendingItem);
+
+        ShadLuaClass<ShadLogView> logView("LogView");
+        logView.constructor(&ShadLuaBind::newWithParent<ShadLogView>);
+        // append(level, message)
+        logView.rawMethod("append", [](lua_State* L, ShadLogView* self) -> int
+        {
+            self->append(static_cast<ShadLogViewType::Level>(optionalInt(L, 2, ShadLogViewType::Info)), optionalString(L, 3));
+            return 0;
+        });
+        logView.method("count", &ShadLogView::count);
+        logView.method("visibleCount", &ShadLogView::visibleCount);
+        logView.method("clear", &ShadLogView::clear);
     }
 
     // Markdown 视图、图片预览与图片裁剪

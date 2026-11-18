@@ -27,7 +27,7 @@ local details = shad.Descriptions.new("版本信息")
 details.columnCount = 2
 details.bordered = true
 details:addItem("名称", "ShadcnWidgetTools")
-details:addItem("版本", "1.3.0")
+details:addItem("版本", "1.3.1")
 details:addItem("许可证", "MIT")
 details:addItem("状态", shad.Badge.new("稳定"))
 layout:addWidget(details)
@@ -106,6 +106,15 @@ empty:contentLayout():addWidget(reload)
 layout:addWidget(empty)
 reload:on("clicked", function()
     print("空状态：重新加载")
+end)
+
+-- 结果页
+local result = shad.Result.new(shad.ResultType.Success, "提交成功", "预计 1 到 2 个工作日内完成审核")
+local back = result:addButton("返回列表")
+result:addButton("查看详情", shad.ButtonType.Outline)
+layout:addWidget(result)
+back:on("clicked", function()
+    print("结果页：返回列表")
 end)
 
 layout:addStretch(1)

@@ -3495,6 +3495,61 @@ echo &quot;ビルド完了&quot;
     </message>
 </context>
 <context>
+    <name>DateTimePickerPage</name>
+    <message>
+        <source>日期时间选择</source>
+        <translation>日時選択</translation>
+    </message>
+    <message>
+        <source>ShadDateTimePicker：在一个浮层中选择日期与时间，左侧为日历，右侧为时、分、秒三列，点击确定后写入。</source>
+        <translation>ShadDateTimePicker：1 つのポップオーバーで日付と時刻を選択します。左側がカレンダー、右側が時・分・秒の 3 列で、OK をクリックすると値が反映されます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>点击触发框打开浮层，选择日期与时间后点击确定；按 Esc 或点击外部关闭时不保存</source>
+        <translation>トリガーをクリックしてポップオーバーを開き、日付と時刻を選んで OK をクリックします。Esc または外側のクリックで閉じた場合は保存されません</translation>
+    </message>
+    <message>
+        <source>当前选择: %1</source>
+        <translation>現在の選択: %1</translation>
+    </message>
+    <message>
+        <source>当前选择: 无</source>
+        <translation>現在の選択: なし</translation>
+    </message>
+    <message>
+        <source>图标与格式</source>
+        <translation>アイコンと書式</translation>
+    </message>
+    <message>
+        <source>setCalendarIconVisible、setChevronVisible 显示图标与下拉箭头；setSecondsVisible(false) 隐藏秒，setDisplayFormat 自定义显示格式</source>
+        <translation>setCalendarIconVisible と setChevronVisible でアイコンと矢印を表示します。setSecondsVisible(false) で秒を非表示にし、setDisplayFormat で表示形式を指定します</translation>
+    </message>
+    <message>
+        <source>可选范围</source>
+        <translation>選択可能な範囲</translation>
+    </message>
+    <message>
+        <source>calendar() 取得浮层中的日历，限制只能选择今天起 30 天内的日期；setNowButtonVisible(false) 隐藏此刻按钮</source>
+        <translation>calendar() でポップオーバー内のカレンダーを取得し、今日から 30 日以内の日付だけを選択できるようにしています。setNowButtonVisible(false) で現在ボタンを非表示にします</translation>
+    </message>
+    <message>
+        <source>选择预约时间</source>
+        <translation>予約日時を選択</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>無効</translation>
+    </message>
+    <message>
+        <source>setEnabled(false) 时不能打开浮层</source>
+        <translation>setEnabled(false) のときはポップオーバーを開けません</translation>
+    </message>
+</context>
+<context>
     <name>DescriptionsPage</name>
     <message>
         <source>描述列表</source>
@@ -6725,6 +6780,196 @@ echo &quot;ビルド完了&quot;
     </message>
 </context>
 <context>
+    <name>LoadingOverlayPage</name>
+    <message>
+        <source>加载遮罩</source>
+        <translation>ローディングオーバーレイ</translation>
+    </message>
+    <message>
+        <source>ShadLoadingOverlay：盖在任意组件上的加载遮罩，居中显示转圈与文字，加载期间被盖住的组件不响应操作。</source>
+        <translation>ShadLoadingOverlay：任意のウィジェットを覆うローディングマスクです。中央にスピナーとテキストを表示し、読み込み中は覆われたウィジェットが操作に反応しません。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>ShadLoadingOverlay(target) 绑定目标组件，start() 与 stop() 控制显示；点击保存后表单被遮住 2 秒</source>
+        <translation>ShadLoadingOverlay(target) で対象のウィジェットを指定し、start() と stop() で表示を切り替えます。保存をクリックするとフォームが 2 秒間覆われます</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>プロフィール</translation>
+    </message>
+    <message>
+        <source>修改后点击保存</source>
+        <translation>編集してから保存をクリック</translation>
+    </message>
+    <message>
+        <source>姓名</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>邮箱</source>
+        <translation>メールアドレス</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>文字与延迟</source>
+        <translation>テキストと遅延</translation>
+    </message>
+    <message>
+        <source>setText 设置转圈下方的文字；setDelay(300) 在加载超过 300ms 时才显示，避免短暂的加载造成闪烁</source>
+        <translation>setText でスピナーの下のテキストを設定します。setDelay(300) により読み込みが 300ms を超えた場合のみ表示され、短い読み込みによるちらつきを防ぎます</translation>
+    </message>
+    <message>
+        <source>数据列表</source>
+        <translation>データ一覧</translation>
+    </message>
+    <message>
+        <source>加载很快结束时不会出现遮罩</source>
+        <translation>読み込みがすぐに終わる場合はマスクが表示されません</translation>
+    </message>
+    <message>
+        <source>正在加载数据...</source>
+        <translation>データを読み込み中...</translation>
+    </message>
+    <message>
+        <source>加载 100 毫秒</source>
+        <translation>100 ミリ秒読み込む</translation>
+    </message>
+    <message>
+        <source>加载 2 秒</source>
+        <translation>2 秒読み込む</translation>
+    </message>
+</context>
+<context>
+    <name>LogViewPage</name>
+    <message>
+        <source>暂无日志</source>
+        <translation>ログはありません</translation>
+    </message>
+    <message>
+        <source>收到请求 GET /api/items/%1</source>
+        <translation>リクエストを受信 GET /api/items/%1</translation>
+    </message>
+    <message>
+        <source>查询耗时 %1 ms</source>
+        <translation>クエリ時間 %1 ms</translation>
+    </message>
+    <message>
+        <source>缓存命中率 %1%</source>
+        <translation>キャッシュヒット率 %1%</translation>
+    </message>
+    <message>
+        <source>任务 %1 已完成</source>
+        <translation>タスク %1 が完了しました</translation>
+    </message>
+    <message>
+        <source>响应较慢：%1 ms，超过阈值</source>
+        <translation>応答が遅延：%1 ms、しきい値を超えました</translation>
+    </message>
+    <message>
+        <source>请求 %1 失败：连接超时</source>
+        <translation>リクエスト %1 が失敗：接続がタイムアウトしました</translation>
+    </message>
+    <message>
+        <source>日志视图</source>
+        <translation>ログビュー</translation>
+    </message>
+    <message>
+        <source>ShadLogView：按级别着色的日志输出，可按级别与关键字过滤，停在末尾时自动跟随新日志。</source>
+        <translation>ShadLogView：レベルごとに色分けされるログ出力です。レベルとキーワードで絞り込めます。末尾を表示している間は新しいログに自動で追従します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>debug、info、success、warning、error 追加一条日志；右键可复制、全选与清空</source>
+        <translation>debug、info、success、warning、error でログを 1 件追加します。右クリックでコピー、すべて選択、クリアができます</translation>
+    </message>
+    <message>
+        <source>应用已启动</source>
+        <translation>アプリケーションを起動しました</translation>
+    </message>
+    <message>
+        <source>读取配置文件 config.json</source>
+        <translation>設定ファイル config.json を読み込み中</translation>
+    </message>
+    <message>
+        <source>已连接到服务器</source>
+        <translation>サーバーに接続しました</translation>
+    </message>
+    <message>
+        <source>磁盘剩余空间不足 10%</source>
+        <translation>ディスクの空き容量が 10% 未満です</translation>
+    </message>
+    <message>
+        <source>无法打开文件：权限不足</source>
+        <translation>ファイルを開けません：権限がありません</translation>
+    </message>
+    <message>
+        <source>这是一条 %1 日志</source>
+        <translation>これは %1 のログです</translation>
+    </message>
+    <message>
+        <source>过滤</source>
+        <translation>フィルター</translation>
+    </message>
+    <message>
+        <source>setMinimumLevel 按级别过滤，setFilterText 按关键字过滤，忽略大小写</source>
+        <translation>setMinimumLevel でレベル、setFilterText でキーワードによる絞り込みを行います。大文字と小文字は区別しません</translation>
+    </message>
+    <message>
+        <source>全部</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>按关键字过滤</source>
+        <translation>キーワードで絞り込み</translation>
+    </message>
+    <message>
+        <source>显示 %1 / %2 条</source>
+        <translation>%2 件中 %1 件を表示</translation>
+    </message>
+    <message>
+        <source>实时输出</source>
+        <translation>リアルタイム出力</translation>
+    </message>
+    <message>
+        <source>每 200ms 追加一条日志；setMaxEntryCount(500) 超出后丢弃最早的日志，向上滚动后暂停跟随</source>
+        <translation>200ms ごとにログを 1 件追加します。setMaxEntryCount(500) により上限を超えた古いログは破棄され、上にスクロールすると追従が一時停止します</translation>
+    </message>
+    <message>
+        <source>停止</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>开始</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>清空</source>
+        <translation>クリア</translation>
+    </message>
+    <message>
+        <source>自动滚动</source>
+        <translation>自動スクロール</translation>
+    </message>
+    <message>
+        <source>自动换行</source>
+        <translation>折り返し</translation>
+    </message>
+    <message>
+        <source>共 %1 条</source>
+        <translation>全 %1 件</translation>
+    </message>
+</context>
+<context>
     <name>LuaPage</name>
     <message>
         <source>脚本管理器</source>
@@ -8993,6 +9238,189 @@ def fibonacci(count):
     </message>
 </context>
 <context>
+    <name>ResultPage</name>
+    <message>
+        <source>操作成功</source>
+        <translation>操作に成功しました</translation>
+    </message>
+    <message>
+        <source>操作失败</source>
+        <translation>操作に失敗しました</translation>
+    </message>
+    <message>
+        <source>导入完成，部分记录被跳过</source>
+        <translation>インポートが完了し、一部のレコードはスキップされました</translation>
+    </message>
+    <message>
+        <source>申请已提交</source>
+        <translation>申請を送信しました</translation>
+    </message>
+    <message>
+        <source>没有访问权限</source>
+        <translation>アクセス権がありません</translation>
+    </message>
+    <message>
+        <source>页面不存在</source>
+        <translation>ページが見つかりません</translation>
+    </message>
+    <message>
+        <source>服务器出错</source>
+        <translation>サーバーエラー</translation>
+    </message>
+    <message>
+        <source>更改已保存并立即生效</source>
+        <translation>変更は保存され、すぐに反映されます</translation>
+    </message>
+    <message>
+        <source>请检查网络连接后重试</source>
+        <translation>ネットワーク接続を確認してから再試行してください</translation>
+    </message>
+    <message>
+        <source>共 120 条，其中 3 条因格式不正确没有导入</source>
+        <translation>全 120 件のうち 3 件は形式が正しくないためインポートされませんでした</translation>
+    </message>
+    <message>
+        <source>审核结果会通过邮件通知你</source>
+        <translation>審査結果はメールでお知らせします</translation>
+    </message>
+    <message>
+        <source>你的账户无权查看此页面，请联系管理员</source>
+        <translation>このアカウントにはこのページを表示する権限がありません。管理者に連絡してください</translation>
+    </message>
+    <message>
+        <source>你访问的页面已被移动或删除</source>
+        <translation>アクセスしたページは移動または削除されました</translation>
+    </message>
+    <message>
+        <source>服务暂时不可用，请稍后再试</source>
+        <translation>サービスは一時的に利用できません。しばらくしてからもう一度お試しください</translation>
+    </message>
+    <message>
+        <source>结果</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>ShadResult：操作结束后用一整块区域说明结果，由状态图标、标题、说明与操作按钮组成。</source>
+        <translation>ShadResult：操作の完了後に、ひとまとまりの領域で結果を伝えます。状態アイコン、タイトル、説明、操作ボタンで構成されます。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>ShadResult(status, title, description) 创建，addButton 在底部添加操作按钮</source>
+        <translation>ShadResult(status, title, description) で作成し、addButton で下部に操作ボタンを追加します</translation>
+    </message>
+    <message>
+        <source>提交成功</source>
+        <translation>送信に成功しました</translation>
+    </message>
+    <message>
+        <source>订单号 2026111800123，预计 1 到 2 个工作日内完成审核</source>
+        <translation>注文番号 2026111800123。審査は 1 から 2 営業日以内に完了する見込みです</translation>
+    </message>
+    <message>
+        <source>返回列表</source>
+        <translation>一覧に戻る</translation>
+    </message>
+    <message>
+        <source>查看详情</source>
+        <translation>詳細を見る</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>setStatus 切换状态，图标与颜色随之变化；Forbidden、NotFound、ServerError 对应 403、404、500</source>
+        <translation>setStatus で状態を切り替えると、アイコンと色も変わります。Forbidden、NotFound、ServerError は 403、404、500 に対応します</translation>
+    </message>
+    <message>
+        <source>成功</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <source>失败</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>警告</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <source>信息</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>自定义内容</source>
+        <translation>カスタムコンテンツ</translation>
+    </message>
+    <message>
+        <source>addContentWidget 在说明与按钮之间加入任意组件，例如错误明细</source>
+        <translation>addContentWidget で説明とボタンの間に任意のウィジェットを追加します。たとえばエラーの詳細です</translation>
+    </message>
+    <message>
+        <source>提交失败</source>
+        <translation>送信に失敗しました</translation>
+    </message>
+    <message>
+        <source>请修正下面的问题后重新提交</source>
+        <translation>以下の問題を修正してから再送信してください</translation>
+    </message>
+    <message>
+        <source>账户已被冻结，暂时不能发起付款</source>
+        <translation>アカウントが凍結されているため、現在は支払いを開始できません</translation>
+    </message>
+    <message>
+        <source>收款银行卡信息不完整</source>
+        <translation>受取用の銀行カード情報が不完全です</translation>
+    </message>
+    <message>
+        <source>重新提交</source>
+        <translation>再送信</translation>
+    </message>
+    <message>
+        <source>自定义图标</source>
+        <translation>カスタムアイコン</translation>
+    </message>
+    <message>
+        <source>setShadIcon 用任意 Lucide 图标替换状态图标，颜色仍然跟随状态</source>
+        <translation>setShadIcon で状態アイコンを任意の Lucide アイコンに置き換えます。色は状態に従います</translation>
+    </message>
+    <message>
+        <source>版本已发布</source>
+        <translation>バージョンを公開しました</translation>
+    </message>
+    <message>
+        <source>用户会在下次启动时收到更新</source>
+        <translation>ユーザーは次回の起動時に更新を受け取ります</translation>
+    </message>
+    <message>
+        <source>自定义状态</source>
+        <translation>カスタム状態</translation>
+    </message>
+    <message>
+        <source>setColor 设置状态色，与 setShadIcon 组合可以表达任意状态；setMediaWidget 用任意组件取代图标</source>
+        <translation>setColor で状態の色を設定します。setShadIcon と組み合わせると任意の状態を表現できます。setMediaWidget でアイコンを任意のウィジェットに置き換えます</translation>
+    </message>
+    <message>
+        <source>等待审核</source>
+        <translation>審査待ち</translation>
+    </message>
+    <message>
+        <source>前面还有 3 个申请，预计等待 10 分钟</source>
+        <translation>前に 3 件の申請があります。待ち時間の目安は 10 分です</translation>
+    </message>
+    <message>
+        <source>正在处理</source>
+        <translation>処理中</translation>
+    </message>
+    <message>
+        <source>处理完成前请不要关闭窗口</source>
+        <translation>処理が完了するまでウィンドウを閉じないでください</translation>
+    </message>
+</context>
+<context>
     <name>RtlPage</name>
     <message>
         <source>RTL 布局</source>
@@ -10801,6 +11229,85 @@ def fibonacci(count):
     <message>
         <source>%1：当前为 %2</source>
         <translation>%1：現在は %2</translation>
+    </message>
+</context>
+<context>
+    <name>TagInputPage</name>
+    <message>
+        <source>标签输入</source>
+        <translation>タグ入力</translation>
+    </message>
+    <message>
+        <source>ShadTagInput：输入文字后按回车生成标签，标签显示在输入框内，放不下时自动换行。</source>
+        <translation>ShadTagInput：文字を入力して Enter を押すとタグになります。タグは入力欄の中に表示され、収まらない場合は自動で折り返します。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>回车生成标签；输入为空时按 Backspace 选中最后一个标签，再按一次删除</source>
+        <translation>Enter でタグを作成します。入力が空のときに Backspace を押すと最後のタグが選択され、もう一度押すと削除されます</translation>
+    </message>
+    <message>
+        <source>输入标签后按回车</source>
+        <translation>タグを入力して Enter</translation>
+    </message>
+    <message>
+        <source>当前标签: 无</source>
+        <translation>現在のタグ: なし</translation>
+    </message>
+    <message>
+        <source>当前标签: %1</source>
+        <translation>現在のタグ: %1</translation>
+    </message>
+    <message>
+        <source>分隔符</source>
+        <translation>区切り文字</translation>
+    </message>
+    <message>
+        <source>setSeparators(&quot;,;&quot;)：输入逗号或分号即生成标签，粘贴多行文字时每行生成一个</source>
+        <translation>setSeparators(&quot;,;&quot;)：カンマまたはセミコロンを入力するとタグになります。複数行のテキストを貼り付けると 1 行ごとにタグが作成されます</translation>
+    </message>
+    <message>
+        <source>输入邮箱，用逗号或分号分隔</source>
+        <translation>メールアドレスをカンマまたはセミコロンで区切って入力</translation>
+    </message>
+    <message>
+        <source>数量上限</source>
+        <translation>上限数</translation>
+    </message>
+    <message>
+        <source>setMaxTags(3)：重复或超出上限的标签被拒绝，并发出 tagRejected</source>
+        <translation>setMaxTags(3)：重複したタグや上限を超えたタグは拒否され、tagRejected が発行されます</translation>
+    </message>
+    <message>
+        <source>最多添加 %1 个标签</source>
+        <translation>タグは最大 %1 個まで</translation>
+    </message>
+    <message>
+        <source>已添加 %1 / %2</source>
+        <translation>追加済み %1 / %2</translation>
+    </message>
+    <message>
+        <source>已添加 %1 / %2，已拒绝: %3</source>
+        <translation>追加済み %1 / %2、拒否: %3</translation>
+    </message>
+    <message>
+        <source>只读与禁用</source>
+        <translation>読み取り専用と無効</translation>
+    </message>
+    <message>
+        <source>setReadOnly(true) 不显示输入框与删除按钮；setEnabled(false) 整体置灰</source>
+        <translation>setReadOnly(true) で入力欄と削除ボタンが非表示になります。setEnabled(false) で全体がグレー表示になります</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>エラー状態</translation>
+    </message>
+    <message>
+        <source>setInvalid(true)：边框与焦点环变为 destructive 色</source>
+        <translation>setInvalid(true)：枠線とフォーカスリングが destructive の色になります</translation>
     </message>
 </context>
 <context>

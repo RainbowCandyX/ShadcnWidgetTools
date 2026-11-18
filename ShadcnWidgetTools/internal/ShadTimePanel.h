@@ -24,6 +24,8 @@ class ShadTimePanel : public QWidget
         void setSecondsVisible(bool visible);
         bool isSecondsVisible() const;
 
+        void setFooterVisible(bool visible);
+
         // 面板中待确定的时间，传无效时间清空选择
         void setTime(const QTime& time);
         // 任一可见列未选择时返回无效时间；隐藏秒时秒为 0
@@ -35,6 +37,7 @@ class ShadTimePanel : public QWidget
 
     Q_SIGNALS:
         void confirmed(const QTime& time);
+        void timeEdited();
 
     protected:
         void changeEvent(QEvent* event) override;

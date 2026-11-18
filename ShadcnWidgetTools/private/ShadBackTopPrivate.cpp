@@ -32,8 +32,9 @@ void ShadBackTopPrivate::attach(QAbstractScrollArea* target)
     q->setParent(target);
     _opacityEffect->setOpacity(0.0);
     _isShown = false;
+    _viewport = target->viewport();
     target->installEventFilter(q);
-    target->viewport()->installEventFilter(q);
+    _viewport->installEventFilter(q);
     QScrollBar* scrollBar = target->verticalScrollBar();
     _targetConnections.append(QObject::connect(scrollBar, &QScrollBar::valueChanged, q, [this]()
     {
@@ -59,9 +60,13 @@ void ShadBackTopPrivate::detach()
     if (!_target.isNull())
     {
         _target->removeEventFilter(q);
-        _target->viewport()->removeEventFilter(q);
+    }
+    if (!_viewport.isNull())
+    {
+        _viewport->removeEventFilter(q);
     }
     _target = nullptr;
+    _viewport = nullptr;
 }
 
 void ShadBackTopPrivate::updatePosition()

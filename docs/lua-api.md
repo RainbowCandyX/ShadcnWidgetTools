@@ -405,6 +405,11 @@ TimePicker      shad.TimePicker.new([parent])
   getDisplayText() -> string
   showPopup()  hidePopup()  isPopupVisible() -> boolean
 
+DateTimePicker  shad.DateTimePicker.new([parent])                dateTime、secondsVisible、nowButtonVisible、placeholderText、displayFormat、calendarIconVisible、chevronVisible 是属性
+  getDisplayText() -> string
+  calendar() -> Calendar                                         浮层中的日历，可设置 minimumDate、maximumDate
+  clear()  showPopup()  hidePopup()  isPopupVisible() -> boolean
+
 InputOtp        shad.InputOtp.new([parent])
   setGroups(groups)        getGroups() -> 数组       每组的格子数，例如 {3, 3}
   getMaxLength() -> number
@@ -472,6 +477,19 @@ AutoComplete    shad.AutoComplete.new([parent])                  继承 Input；
 ```
 
 `filterMode` 取 `shad.AutoCompleteType`。用户输入时发出 `searchTextChanged(text)`，选中建议时发出 `optionSelected(text, row)`。远程搜索把 `filterMode` 设为 `NoFilter`，在 `searchTextChanged` 中取得结果后写入 `options`。
+
+### TagInput
+
+`shad.TagInput.new([parent])`。`tags`、`placeholderText`、`separators`、`maxTags`、`duplicatesAllowed`、`readOnly`、`invalid` 是属性，`clear()` 是槽。标签变化时发出 `tagsChanged(tags)`、`tagAdded(tag)`、`tagRemoved(tag)`，重复或超出上限时发出 `tagRejected(tag)`。
+
+```
+addTag(tag) -> boolean
+removeTag(tag) -> boolean
+removeTagAt(index)
+tagAt(index) -> string
+count() -> number
+lineEdit() -> widget                     内部输入框
+```
 
 ### Transfer
 
@@ -606,6 +624,13 @@ Empty           shad.Empty.new([icon], [title, description], [parent])
   setMediaWidget(widget)   getMediaWidget() -> widget
   contentLayout() -> layout
 
+Result          shad.Result.new([status, title, description], [parent])   status、color、title、description 是属性，status 取 shad.ResultType
+  setShadIcon(icon)        getShadIcon() -> icon     替换状态图标，传 0 恢复；与 color 组合可以表达任意状态
+  setMediaWidget(widget)   getMediaWidget() -> widget   用任意组件取代图标，传 nil 恢复
+  addButton(text, [variant]) -> Button               variant 取 shad.ButtonType
+  addActionWidget(widget)
+  addContentWidget(widget)                           加在说明与操作区之间
+
 KbdGroup        shad.KbdGroup.new([keys], [parent])
   addKey(text)  -> Kbd
   addText(text) -> Label
@@ -711,6 +736,17 @@ Timeline        shad.Timeline.new([parent])                      mode、reverse�
 TimelineItem    由 Timeline:addItem 创建                         title、time、description、color 是属性，color 取 shad.ThemeType
   setIcon(icon)            getIcon() -> icon
   contentLayout() -> layout
+```
+
+### LogView
+
+`shad.LogView.new([parent])`。`maxEntryCount`、`autoScroll`、`wordWrap`、`timestampVisible`、`levelVisible`、`timestampFormat`、`minimumLevel`、`filterText`、`placeholderText` 是属性，`minimumLevel` 取 `shad.LogViewType`；`debug(message)`、`info(message)`、`success(message)`、`warning(message)`、`error(message)`、`scrollToBottom()` 是槽。条数变化时发出 `countChanged(count)`。
+
+```
+append(level, message)                   level 取 shad.LogViewType
+count() -> number                        全部条数，包括被过滤掉的
+visibleCount() -> number
+clear()
 ```
 
 ### ListView
@@ -1032,6 +1068,9 @@ Drawer          shad.Drawer.new([title, description], [parent])  open() 与 clos
   footerLayout()  -> layout
   isOpen() -> boolean
   setSnapPoints(points)        getSnapPoints() -> 数组
+
+LoadingOverlay  shad.LoadingOverlay.new([target])                loading、text、delay、radius、spinnerSize 是属性，start()、stop() 是槽
+  setTarget(target)            getTarget() -> widget             遮罩成为 target 的子组件
 
 Popover         shad.Popover.new([parent])
   contentLayout() -> layout

@@ -264,6 +264,24 @@
     </message>
 </context>
 <context>
+    <name>ShadDateTimePanel</name>
+    <message>
+        <source>此刻</source>
+        <translation>現在</translation>
+    </message>
+    <message>
+        <source>确定</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>ShadDateTimePicker</name>
+    <message>
+        <source>选择日期时间</source>
+        <translation>日時を選択</translation>
+    </message>
+</context>
+<context>
     <name>ShadDiffContent</name>
     <message>
         <source>复制</source>
@@ -454,6 +472,21 @@
     <message>
         <source>暂无数据</source>
         <translation>データがありません</translation>
+    </message>
+</context>
+<context>
+    <name>ShadLogView</name>
+    <message>
+        <source>复制</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>全选</source>
+        <translation>すべて選択</translation>
+    </message>
+    <message>
+        <source>清空</source>
+        <translation>クリア</translation>
     </message>
 </context>
 <context>

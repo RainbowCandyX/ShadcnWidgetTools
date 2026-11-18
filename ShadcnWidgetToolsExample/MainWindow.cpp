@@ -51,6 +51,7 @@
 #include "ContextMenuPage.h"
 #include "DataTablePage.h"
 #include "DatePickerPage.h"
+#include "DateTimePickerPage.h"
 #include "DescriptionsPage.h"
 #include "DialogPage.h"
 #include "DiffViewPage.h"
@@ -74,6 +75,8 @@
 #include "KbdPage.h"
 #include "LabelPage.h"
 #include "ListViewPage.h"
+#include "LoadingOverlayPage.h"
+#include "LogViewPage.h"
 #ifdef SHADCN_EXAMPLE_LUA
 #include "LuaPage.h"
 #endif
@@ -94,6 +97,7 @@
 #include "RadialProgressPage.h"
 #include "RadioGroupPage.h"
 #include "RatingPage.h"
+#include "ResultPage.h"
 #include "RtlPage.h"
 #include "ScreenshotPage.h"
 #include "SegmentedPage.h"
@@ -127,6 +131,7 @@
 #include "TablePage.h"
 #include "TabViewPage.h"
 #include "TabsPage.h"
+#include "TagInputPage.h"
 #include "ThemePage.h"
 #include "TimelinePage.h"
 #include "ToastPage.h"
@@ -337,6 +342,7 @@ MainWindow::MainWindow(QWidget* parent)
     addCategoryPage(formCategory, new InputPage(_pageStack));
     addCategoryPage(formCategory, new InputGroupPage(_toaster, _pageStack));
     addCategoryPage(formCategory, new InputOtpPage(_toaster, _pageStack));
+    addCategoryPage(formCategory, new TagInputPage(_pageStack));
     addCategoryPage(formCategory, new PasskeyPage(_pageStack));
     addCategoryPage(formCategory, new BiometricPage(_pageStack));
     addCategoryPage(formCategory, new CodeEditorPage(_pageStack));
@@ -351,6 +357,7 @@ MainWindow::MainWindow(QWidget* parent)
     addCategoryPage(formCategory, new RatingPage(_pageStack));
     addCategoryPage(formCategory, new ColorPickerPage(_pageStack));
     addCategoryPage(formCategory, new DatePickerPage(_pageStack));
+    addCategoryPage(formCategory, new DateTimePickerPage(_pageStack));
     addCategoryPage(formCategory, new AttachmentPage(_toaster, _pageStack));
     addCategoryPage(formCategory, new ImageCropperPage(_pageStack));
     addCategoryPage(formCategory, new SignaturePadPage(_pageStack));
@@ -383,6 +390,7 @@ MainWindow::MainWindow(QWidget* parent)
     addCategoryPage(dataCategory, new DiffViewPage(_pageStack));
     addCategoryPage(dataCategory, new MarkdownViewPage(_pageStack));
     addCategoryPage(dataCategory, new TracePage(_pageStack));
+    addCategoryPage(dataCategory, new LogViewPage(_pageStack));
     addCategoryPage(dataCategory, new TimelinePage(_pageStack));
     addCategoryPage(dataCategory, new MarkerPage(_pageStack));
     addCategoryPage(dataCategory, new KbdPage(_toaster, _pageStack));
@@ -393,9 +401,11 @@ MainWindow::MainWindow(QWidget* parent)
     ShadSidebarMenuButton* feedbackCategory = addCategory(componentGroup, ShadIconType::Bell, [] { return tr("反馈"); });
     addCategoryPage(feedbackCategory, new AlertPage(_pageStack));
     addCategoryPage(feedbackCategory, new EmptyPage(_pageStack));
+    addCategoryPage(feedbackCategory, new ResultPage(_pageStack));
     addCategoryPage(feedbackCategory, new ProgressPage(_pageStack));
     addCategoryPage(feedbackCategory, new RadialProgressPage(_pageStack));
     addCategoryPage(feedbackCategory, new SpinnerPage(_pageStack));
+    addCategoryPage(feedbackCategory, new LoadingOverlayPage(_pageStack));
     addCategoryPage(feedbackCategory, new SkeletonPage(_pageStack));
     addCategoryPage(feedbackCategory, new ToastPage(_toaster, _pageStack));
     addCategoryPage(feedbackCategory, new NotificationPage(_pageStack));

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(ShadcnFramework VERSION 1.3.0 LANGUAGES CXX)
+project(ShadcnFramework VERSION 1.3.1 LANGUAGES CXX)
 
 message(STATUS "当前编译器: ${CMAKE_CXX_COMPILER_ID} ${CMAKE_CXX_COMPILER_VERSION}（${CMAKE_CXX_COMPILER}）")
 

@@ -3495,6 +3495,61 @@ echo &quot;建置完成&quot;
     </message>
 </context>
 <context>
+    <name>DateTimePickerPage</name>
+    <message>
+        <source>日期时间选择</source>
+        <translation>日期時間選擇</translation>
+    </message>
+    <message>
+        <source>ShadDateTimePicker：在一个浮层中选择日期与时间，左侧为日历，右侧为时、分、秒三列，点击确定后写入。</source>
+        <translation>ShadDateTimePicker：在同一個浮層中選擇日期與時間，左側為日曆，右側為時、分、秒三欄，按下確定後寫入。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>点击触发框打开浮层，选择日期与时间后点击确定；按 Esc 或点击外部关闭时不保存</source>
+        <translation>點選觸發框開啟浮層，選擇日期與時間後按下確定；按 Esc 或點選外部關閉時不儲存</translation>
+    </message>
+    <message>
+        <source>当前选择: %1</source>
+        <translation>目前選擇: %1</translation>
+    </message>
+    <message>
+        <source>当前选择: 无</source>
+        <translation>目前選擇: 無</translation>
+    </message>
+    <message>
+        <source>图标与格式</source>
+        <translation>圖示與格式</translation>
+    </message>
+    <message>
+        <source>setCalendarIconVisible、setChevronVisible 显示图标与下拉箭头；setSecondsVisible(false) 隐藏秒，setDisplayFormat 自定义显示格式</source>
+        <translation>setCalendarIconVisible、setChevronVisible 顯示圖示與下拉箭頭；setSecondsVisible(false) 隱藏秒，setDisplayFormat 自訂顯示格式</translation>
+    </message>
+    <message>
+        <source>可选范围</source>
+        <translation>可選範圍</translation>
+    </message>
+    <message>
+        <source>calendar() 取得浮层中的日历，限制只能选择今天起 30 天内的日期；setNowButtonVisible(false) 隐藏此刻按钮</source>
+        <translation>calendar() 取得浮層中的日曆，限制只能選擇今天起 30 天內的日期；setNowButtonVisible(false) 隱藏現在按鈕</translation>
+    </message>
+    <message>
+        <source>选择预约时间</source>
+        <translation>選擇預約時間</translation>
+    </message>
+    <message>
+        <source>禁用</source>
+        <translation>停用</translation>
+    </message>
+    <message>
+        <source>setEnabled(false) 时不能打开浮层</source>
+        <translation>setEnabled(false) 時無法開啟浮層</translation>
+    </message>
+</context>
+<context>
     <name>DescriptionsPage</name>
     <message>
         <source>描述列表</source>
@@ -6725,6 +6780,196 @@ echo &quot;建置完成&quot;
     </message>
 </context>
 <context>
+    <name>LoadingOverlayPage</name>
+    <message>
+        <source>加载遮罩</source>
+        <translation>載入遮罩</translation>
+    </message>
+    <message>
+        <source>ShadLoadingOverlay：盖在任意组件上的加载遮罩，居中显示转圈与文字，加载期间被盖住的组件不响应操作。</source>
+        <translation>ShadLoadingOverlay：蓋在任意元件上的載入遮罩，置中顯示轉圈與文字，載入期間被蓋住的元件不回應操作。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>ShadLoadingOverlay(target) 绑定目标组件，start() 与 stop() 控制显示；点击保存后表单被遮住 2 秒</source>
+        <translation>ShadLoadingOverlay(target) 綁定目標元件，start() 與 stop() 控制顯示；按下儲存後表單被遮住 2 秒</translation>
+    </message>
+    <message>
+        <source>个人资料</source>
+        <translation>個人資料</translation>
+    </message>
+    <message>
+        <source>修改后点击保存</source>
+        <translation>修改後按下儲存</translation>
+    </message>
+    <message>
+        <source>姓名</source>
+        <translation>姓名</translation>
+    </message>
+    <message>
+        <source>邮箱</source>
+        <translation>電子郵件</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>儲存</translation>
+    </message>
+    <message>
+        <source>文字与延迟</source>
+        <translation>文字與延遲</translation>
+    </message>
+    <message>
+        <source>setText 设置转圈下方的文字；setDelay(300) 在加载超过 300ms 时才显示，避免短暂的加载造成闪烁</source>
+        <translation>setText 設定轉圈下方的文字；setDelay(300) 在載入超過 300ms 時才顯示，避免短暫的載入造成閃爍</translation>
+    </message>
+    <message>
+        <source>数据列表</source>
+        <translation>資料列表</translation>
+    </message>
+    <message>
+        <source>加载很快结束时不会出现遮罩</source>
+        <translation>載入很快結束時不會出現遮罩</translation>
+    </message>
+    <message>
+        <source>正在加载数据...</source>
+        <translation>正在載入資料...</translation>
+    </message>
+    <message>
+        <source>加载 100 毫秒</source>
+        <translation>載入 100 毫秒</translation>
+    </message>
+    <message>
+        <source>加载 2 秒</source>
+        <translation>載入 2 秒</translation>
+    </message>
+</context>
+<context>
+    <name>LogViewPage</name>
+    <message>
+        <source>暂无日志</source>
+        <translation>暫無日誌</translation>
+    </message>
+    <message>
+        <source>收到请求 GET /api/items/%1</source>
+        <translation>收到請求 GET /api/items/%1</translation>
+    </message>
+    <message>
+        <source>查询耗时 %1 ms</source>
+        <translation>查詢耗時 %1 ms</translation>
+    </message>
+    <message>
+        <source>缓存命中率 %1%</source>
+        <translation>快取命中率 %1%</translation>
+    </message>
+    <message>
+        <source>任务 %1 已完成</source>
+        <translation>任務 %1 已完成</translation>
+    </message>
+    <message>
+        <source>响应较慢：%1 ms，超过阈值</source>
+        <translation>回應較慢：%1 ms，超過閾值</translation>
+    </message>
+    <message>
+        <source>请求 %1 失败：连接超时</source>
+        <translation>請求 %1 失敗：連線逾時</translation>
+    </message>
+    <message>
+        <source>日志视图</source>
+        <translation>日誌檢視</translation>
+    </message>
+    <message>
+        <source>ShadLogView：按级别着色的日志输出，可按级别与关键字过滤，停在末尾时自动跟随新日志。</source>
+        <translation>ShadLogView：依級別著色的日誌輸出，可依級別與關鍵字篩選，停在結尾時自動跟隨新日誌。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>debug、info、success、warning、error 追加一条日志；右键可复制、全选与清空</source>
+        <translation>debug、info、success、warning、error 新增一筆日誌；按右鍵可複製、全選與清除</translation>
+    </message>
+    <message>
+        <source>应用已启动</source>
+        <translation>應用程式已啟動</translation>
+    </message>
+    <message>
+        <source>读取配置文件 config.json</source>
+        <translation>讀取設定檔 config.json</translation>
+    </message>
+    <message>
+        <source>已连接到服务器</source>
+        <translation>已連線到伺服器</translation>
+    </message>
+    <message>
+        <source>磁盘剩余空间不足 10%</source>
+        <translation>磁碟剩餘空間不足 10%</translation>
+    </message>
+    <message>
+        <source>无法打开文件：权限不足</source>
+        <translation>無法開啟檔案：權限不足</translation>
+    </message>
+    <message>
+        <source>这是一条 %1 日志</source>
+        <translation>這是一筆 %1 日誌</translation>
+    </message>
+    <message>
+        <source>过滤</source>
+        <translation>篩選</translation>
+    </message>
+    <message>
+        <source>setMinimumLevel 按级别过滤，setFilterText 按关键字过滤，忽略大小写</source>
+        <translation>setMinimumLevel 依級別篩選，setFilterText 依關鍵字篩選，不區分大小寫</translation>
+    </message>
+    <message>
+        <source>全部</source>
+        <translation>全部</translation>
+    </message>
+    <message>
+        <source>按关键字过滤</source>
+        <translation>依關鍵字篩選</translation>
+    </message>
+    <message>
+        <source>显示 %1 / %2 条</source>
+        <translation>顯示 %1 / %2 筆</translation>
+    </message>
+    <message>
+        <source>实时输出</source>
+        <translation>即時輸出</translation>
+    </message>
+    <message>
+        <source>每 200ms 追加一条日志；setMaxEntryCount(500) 超出后丢弃最早的日志，向上滚动后暂停跟随</source>
+        <translation>每 200ms 新增一筆日誌；setMaxEntryCount(500) 超出後捨棄最早的日誌，向上捲動後暫停跟隨</translation>
+    </message>
+    <message>
+        <source>停止</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>开始</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>清空</source>
+        <translation>清除</translation>
+    </message>
+    <message>
+        <source>自动滚动</source>
+        <translation>自動捲動</translation>
+    </message>
+    <message>
+        <source>自动换行</source>
+        <translation>自動換行</translation>
+    </message>
+    <message>
+        <source>共 %1 条</source>
+        <translation>共 %1 筆</translation>
+    </message>
+</context>
+<context>
     <name>LuaPage</name>
     <message>
         <source>脚本管理器</source>
@@ -8993,6 +9238,189 @@ def fibonacci(count):
     </message>
 </context>
 <context>
+    <name>ResultPage</name>
+    <message>
+        <source>操作成功</source>
+        <translation>操作成功</translation>
+    </message>
+    <message>
+        <source>操作失败</source>
+        <translation>操作失敗</translation>
+    </message>
+    <message>
+        <source>导入完成，部分记录被跳过</source>
+        <translation>匯入完成，部分記錄被略過</translation>
+    </message>
+    <message>
+        <source>申请已提交</source>
+        <translation>申請已送出</translation>
+    </message>
+    <message>
+        <source>没有访问权限</source>
+        <translation>沒有存取權限</translation>
+    </message>
+    <message>
+        <source>页面不存在</source>
+        <translation>頁面不存在</translation>
+    </message>
+    <message>
+        <source>服务器出错</source>
+        <translation>伺服器錯誤</translation>
+    </message>
+    <message>
+        <source>更改已保存并立即生效</source>
+        <translation>變更已儲存並立即生效</translation>
+    </message>
+    <message>
+        <source>请检查网络连接后重试</source>
+        <translation>請檢查網路連線後重試</translation>
+    </message>
+    <message>
+        <source>共 120 条，其中 3 条因格式不正确没有导入</source>
+        <translation>共 120 筆，其中 3 筆因格式不正確未匯入</translation>
+    </message>
+    <message>
+        <source>审核结果会通过邮件通知你</source>
+        <translation>審核結果會透過電子郵件通知你</translation>
+    </message>
+    <message>
+        <source>你的账户无权查看此页面，请联系管理员</source>
+        <translation>你的帳戶無權檢視此頁面，請聯絡管理員</translation>
+    </message>
+    <message>
+        <source>你访问的页面已被移动或删除</source>
+        <translation>你存取的頁面已被移動或刪除</translation>
+    </message>
+    <message>
+        <source>服务暂时不可用，请稍后再试</source>
+        <translation>服務暫時無法使用，請稍後再試</translation>
+    </message>
+    <message>
+        <source>结果</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>ShadResult：操作结束后用一整块区域说明结果，由状态图标、标题、说明与操作按钮组成。</source>
+        <translation>ShadResult：操作結束後用一整塊區域說明結果，由狀態圖示、標題、說明與操作按鈕組成。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>ShadResult(status, title, description) 创建，addButton 在底部添加操作按钮</source>
+        <translation>以 ShadResult(status, title, description) 建立，addButton 在底部新增操作按鈕</translation>
+    </message>
+    <message>
+        <source>提交成功</source>
+        <translation>送出成功</translation>
+    </message>
+    <message>
+        <source>订单号 2026111800123，预计 1 到 2 个工作日内完成审核</source>
+        <translation>訂單編號 2026111800123，預計 1 到 2 個工作天內完成審核</translation>
+    </message>
+    <message>
+        <source>返回列表</source>
+        <translation>返回列表</translation>
+    </message>
+    <message>
+        <source>查看详情</source>
+        <translation>檢視詳情</translation>
+    </message>
+    <message>
+        <source>状态</source>
+        <translation>狀態</translation>
+    </message>
+    <message>
+        <source>setStatus 切换状态，图标与颜色随之变化；Forbidden、NotFound、ServerError 对应 403、404、500</source>
+        <translation>setStatus 切換狀態，圖示與顏色隨之變化；Forbidden、NotFound、ServerError 對應 403、404、500</translation>
+    </message>
+    <message>
+        <source>成功</source>
+        <translation>成功</translation>
+    </message>
+    <message>
+        <source>失败</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>警告</source>
+        <translation>警告</translation>
+    </message>
+    <message>
+        <source>信息</source>
+        <translation>資訊</translation>
+    </message>
+    <message>
+        <source>自定义内容</source>
+        <translation>自訂內容</translation>
+    </message>
+    <message>
+        <source>addContentWidget 在说明与按钮之间加入任意组件，例如错误明细</source>
+        <translation>addContentWidget 在說明與按鈕之間加入任意元件，例如錯誤明細</translation>
+    </message>
+    <message>
+        <source>提交失败</source>
+        <translation>送出失敗</translation>
+    </message>
+    <message>
+        <source>请修正下面的问题后重新提交</source>
+        <translation>請修正下列問題後重新送出</translation>
+    </message>
+    <message>
+        <source>账户已被冻结，暂时不能发起付款</source>
+        <translation>帳戶已被凍結，暫時無法發起付款</translation>
+    </message>
+    <message>
+        <source>收款银行卡信息不完整</source>
+        <translation>收款銀行卡資訊不完整</translation>
+    </message>
+    <message>
+        <source>重新提交</source>
+        <translation>重新送出</translation>
+    </message>
+    <message>
+        <source>自定义图标</source>
+        <translation>自訂圖示</translation>
+    </message>
+    <message>
+        <source>setShadIcon 用任意 Lucide 图标替换状态图标，颜色仍然跟随状态</source>
+        <translation>setShadIcon 用任意 Lucide 圖示取代狀態圖示，顏色仍然跟隨狀態</translation>
+    </message>
+    <message>
+        <source>版本已发布</source>
+        <translation>版本已發佈</translation>
+    </message>
+    <message>
+        <source>用户会在下次启动时收到更新</source>
+        <translation>使用者會在下次啟動時收到更新</translation>
+    </message>
+    <message>
+        <source>自定义状态</source>
+        <translation>自訂狀態</translation>
+    </message>
+    <message>
+        <source>setColor 设置状态色，与 setShadIcon 组合可以表达任意状态；setMediaWidget 用任意组件取代图标</source>
+        <translation>setColor 設定狀態色，與 setShadIcon 組合可以表達任意狀態；setMediaWidget 用任意元件取代圖示</translation>
+    </message>
+    <message>
+        <source>等待审核</source>
+        <translation>等待審核</translation>
+    </message>
+    <message>
+        <source>前面还有 3 个申请，预计等待 10 分钟</source>
+        <translation>前面還有 3 個申請，預計等待 10 分鐘</translation>
+    </message>
+    <message>
+        <source>正在处理</source>
+        <translation>正在處理</translation>
+    </message>
+    <message>
+        <source>处理完成前请不要关闭窗口</source>
+        <translation>處理完成前請不要關閉視窗</translation>
+    </message>
+</context>
+<context>
     <name>RtlPage</name>
     <message>
         <source>RTL 布局</source>
@@ -10801,6 +11229,85 @@ def fibonacci(count):
     <message>
         <source>%1：当前为 %2</source>
         <translation>%1：目前為 %2</translation>
+    </message>
+</context>
+<context>
+    <name>TagInputPage</name>
+    <message>
+        <source>标签输入</source>
+        <translation>標籤輸入</translation>
+    </message>
+    <message>
+        <source>ShadTagInput：输入文字后按回车生成标签，标签显示在输入框内，放不下时自动换行。</source>
+        <translation>ShadTagInput：輸入文字後按 Enter 產生標籤，標籤顯示在輸入框內，放不下時自動換行。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>回车生成标签；输入为空时按 Backspace 选中最后一个标签，再按一次删除</source>
+        <translation>按 Enter 產生標籤；輸入為空時按 Backspace 選取最後一個標籤，再按一次刪除</translation>
+    </message>
+    <message>
+        <source>输入标签后按回车</source>
+        <translation>輸入標籤後按 Enter</translation>
+    </message>
+    <message>
+        <source>当前标签: 无</source>
+        <translation>目前標籤: 無</translation>
+    </message>
+    <message>
+        <source>当前标签: %1</source>
+        <translation>目前標籤: %1</translation>
+    </message>
+    <message>
+        <source>分隔符</source>
+        <translation>分隔符號</translation>
+    </message>
+    <message>
+        <source>setSeparators(&quot;,;&quot;)：输入逗号或分号即生成标签，粘贴多行文字时每行生成一个</source>
+        <translation>setSeparators(&quot;,;&quot;)：輸入逗號或分號即產生標籤，貼上多行文字時每行產生一個</translation>
+    </message>
+    <message>
+        <source>输入邮箱，用逗号或分号分隔</source>
+        <translation>輸入電子郵件，以逗號或分號分隔</translation>
+    </message>
+    <message>
+        <source>数量上限</source>
+        <translation>數量上限</translation>
+    </message>
+    <message>
+        <source>setMaxTags(3)：重复或超出上限的标签被拒绝，并发出 tagRejected</source>
+        <translation>setMaxTags(3)：重複或超出上限的標籤會被拒絕，並發出 tagRejected</translation>
+    </message>
+    <message>
+        <source>最多添加 %1 个标签</source>
+        <translation>最多新增 %1 個標籤</translation>
+    </message>
+    <message>
+        <source>已添加 %1 / %2</source>
+        <translation>已新增 %1 / %2</translation>
+    </message>
+    <message>
+        <source>已添加 %1 / %2，已拒绝: %3</source>
+        <translation>已新增 %1 / %2，已拒絕: %3</translation>
+    </message>
+    <message>
+        <source>只读与禁用</source>
+        <translation>唯讀與停用</translation>
+    </message>
+    <message>
+        <source>setReadOnly(true) 不显示输入框与删除按钮；setEnabled(false) 整体置灰</source>
+        <translation>setReadOnly(true) 不顯示輸入框與刪除按鈕；setEnabled(false) 整體變灰</translation>
+    </message>
+    <message>
+        <source>错误态</source>
+        <translation>錯誤狀態</translation>
+    </message>
+    <message>
+        <source>setInvalid(true)：边框与焦点环变为 destructive 色</source>
+        <translation>setInvalid(true)：邊框與焦點環變為 destructive 色</translation>
     </message>
 </context>
 <context>
