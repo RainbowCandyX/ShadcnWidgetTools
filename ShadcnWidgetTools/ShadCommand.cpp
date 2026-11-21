@@ -24,6 +24,7 @@
 #include "ShadScrollArea.h"
 #include "ShadScrollBar.h"
 #include "ShadStyleHelper.h"
+#include "ShadTextContextMenu.h"
 #include "ShadTheme.h"
 
 namespace
@@ -46,6 +47,7 @@ ShadCommand::ShadCommand(QWidget* parent)
 
     d->_searchEdit = new QLineEdit(this);
     d->_searchEdit->setFrame(false);
+    ShadTextContextMenu::install(d->_searchEdit);
 #ifdef Q_OS_MACOS
     d->_searchEdit->setAttribute(Qt::WA_MacShowFocusRect, false);
 #endif

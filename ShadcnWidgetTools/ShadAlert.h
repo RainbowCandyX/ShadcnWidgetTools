@@ -25,6 +25,7 @@ class SHADCN_EXPORT ShadAlert : public QWidget
     Q_PROPERTY(ShadAlertType::Variant variant READ getVariant WRITE setVariant)
     Q_PROPERTY(QString title READ getTitle WRITE setTitle)
     Q_PROPERTY(QString description READ getDescription WRITE setDescription)
+    Q_PROPERTY(bool textSelectable READ isTextSelectable WRITE setTextSelectable)
 
     public:
         explicit ShadAlert(QWidget* parent = nullptr);
@@ -43,6 +44,10 @@ class SHADCN_EXPORT ShadAlert : public QWidget
         QString getTitle() const;
         void setDescription(const QString& description);
         QString getDescription() const;
+
+        // 标题与描述是否可以用鼠标选中并复制，默认 false
+        void setTextSelectable(bool selectable);
+        bool isTextSelectable() const;
 
         // 右上角的操作组件（例如按钮），旧组件会被删除，传 nullptr 只移除；设置后文字右侧预留 72px（pr-18）
         void setAction(QWidget* action);

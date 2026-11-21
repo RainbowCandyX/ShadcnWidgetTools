@@ -34,6 +34,7 @@
 #include "ShadScrollArea.h"
 #include "ShadScrollBar.h"
 #include "ShadStyleHelper.h"
+#include "ShadTextContextMenu.h"
 #include "ShadTheme.h"
 
 namespace
@@ -372,6 +373,7 @@ ShadComboBoxPopup::ShadComboBoxPopup(ShadComboBox* comboBox)
     _content = new QWidget(this);
     _searchEdit = new QLineEdit(_content);
     _searchEdit->setFrame(false);
+    ShadTextContextMenu::install(_searchEdit);
 #ifdef Q_OS_MACOS
     // setFrame(false) 会开启该属性，macOS 样式会在获得焦点时额外绘制系统焦点框
     _searchEdit->setAttribute(Qt::WA_MacShowFocusRect, false);

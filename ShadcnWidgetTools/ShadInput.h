@@ -8,6 +8,7 @@
 #include "ShadIconType.h"
 #include "ShadProperty.h"
 
+class QContextMenuEvent;
 class QEvent;
 class QFocusEvent;
 class QMouseEvent;
@@ -53,6 +54,7 @@ class SHADCN_EXPORT ShadInput : public QLineEdit
         void mouseReleaseEvent(QMouseEvent* event) override;
         void mouseDoubleClickEvent(QMouseEvent* event) override;
         void leaveEvent(QEvent* event) override;
+        void contextMenuEvent(QContextMenuEvent* event) override;
         void paintEvent(QPaintEvent* event) override;
 };
 

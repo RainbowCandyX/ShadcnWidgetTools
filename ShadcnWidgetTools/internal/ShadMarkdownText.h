@@ -6,6 +6,7 @@
 #include <QTextBrowser>
 #include <QUrl>
 
+class QContextMenuEvent;
 class QEvent;
 class QPaintEvent;
 class QResizeEvent;
@@ -35,6 +36,7 @@ class ShadMarkdownText : public QTextBrowser
         void resizeEvent(QResizeEvent* event) override;
         void wheelEvent(QWheelEvent* event) override;
         void changeEvent(QEvent* event) override;
+        void contextMenuEvent(QContextMenuEvent* event) override;
 
     private:
         void applyPalette();

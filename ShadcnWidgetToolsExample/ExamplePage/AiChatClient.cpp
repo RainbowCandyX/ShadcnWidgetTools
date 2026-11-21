@@ -151,7 +151,7 @@ QString AiChatClient::defaultModel(Provider provider)
         case Provider::OpenAiCompatible:
             break;
     }
-    return QStringLiteral("gpt-6.1-sol");
+    return QStringLiteral("gpt-6.2-sol");
 }
 
 QStringList AiChatClient::effortLevels()

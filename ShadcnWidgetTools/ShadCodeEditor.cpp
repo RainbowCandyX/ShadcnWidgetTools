@@ -1,10 +1,12 @@
 #include "ShadCodeEditor.h"
 
+#include <QContextMenuEvent>
 #include <QEvent>
 #include <QFocusEvent>
 #include <QFrame>
 #include <QMouseEvent>
 #include <QPaintEvent>
+#include <QPoint>
 #include <QRect>
 #include <QResizeEvent>
 #include <QString>
@@ -17,6 +19,7 @@
 #include "ShadCodeEditorPrivate.h"
 #include "ShadCodeHighlighter.h"
 #include "ShadScrollBar.h"
+#include "ShadTextContextMenu.h"
 #include "ShadTheme.h"
 
 ShadCodeEditor::ShadCodeEditor(QWidget* parent)
@@ -238,4 +241,11 @@ void ShadCodeEditor::mouseDoubleClickEvent(QMouseEvent* event)
     mapped.setTimestamp(event->timestamp());
     QPlainTextEdit::mouseDoubleClickEvent(&mapped);
     event->setAccepted(mapped.isAccepted());
+}
+
+void ShadCodeEditor::contextMenuEvent(QContextMenuEvent* event)
+{
+    const QPoint globalPos = event->reason() == QContextMenuEvent::Mouse ? event->globalPos() : mapToGlobal(rect().center());
+    ShadTextContextMenu::show(this, globalPos);
+    event->accept();
 }

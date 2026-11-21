@@ -1,6 +1,7 @@
 #include "ShadInput.h"
 
 #include <QColor>
+#include <QContextMenuEvent>
 #include <QDynamicPropertyChangeEvent>
 #include <QEvent>
 #include <QFocusEvent>
@@ -14,6 +15,7 @@
 
 #include "ShadInputPrivate.h"
 #include "ShadStyleHelper.h"
+#include "ShadTextContextMenu.h"
 #include "ShadTheme.h"
 #include "ShadTooltip.h"
 
@@ -227,6 +229,13 @@ void ShadInput::leaveEvent(QEvent* event)
     Q_D(ShadInput);
     d->updateTrailingHover(QPoint(-1, -1));
     QLineEdit::leaveEvent(event);
+}
+
+void ShadInput::contextMenuEvent(QContextMenuEvent* event)
+{
+    const QPoint globalPos = event->reason() == QContextMenuEvent::Mouse ? event->globalPos() : mapToGlobal(rect().center());
+    ShadTextContextMenu::show(this, globalPos);
+    event->accept();
 }
 
 void ShadInput::paintEvent(QPaintEvent* event)

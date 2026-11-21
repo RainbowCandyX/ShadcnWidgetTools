@@ -669,7 +669,9 @@ void AiChatPage::clearPendingImages()
 
 void AiChatPage::appendError(const QString& message)
 {
-    appendWidget(new ShadAlert(ShadIconType::CircleAlert, tr("请求失败"), message, ShadAlertType::Destructive, _messageContainer));
+    ShadAlert* alert = new ShadAlert(ShadIconType::CircleAlert, tr("请求失败"), message, ShadAlertType::Destructive, _messageContainer);
+    alert->setTextSelectable(true);
+    appendWidget(alert);
 }
 
 void AiChatPage::appendNotice(ShadIconType::IconName icon, const QString& text, ShadMarkerType::Variant variant)

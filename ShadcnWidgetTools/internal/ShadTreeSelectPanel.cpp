@@ -21,6 +21,7 @@
 #include "ShadIcon.h"
 #include "ShadIconType.h"
 #include "ShadStyleHelper.h"
+#include "ShadTextContextMenu.h"
 #include "ShadTheme.h"
 #include "ShadTreeView.h"
 
@@ -40,6 +41,7 @@ ShadTreeSelectPanel::ShadTreeSelectPanel(QWidget* parent)
     ShadStyleHelper::applyFont(this, 14, QFont::Normal);
     _searchEdit = new QLineEdit(this);
     _searchEdit->setFrame(false);
+    ShadTextContextMenu::install(_searchEdit);
 #ifdef Q_OS_MACOS
     // 避免 macOS 额外绘制系统焦点框
     _searchEdit->setAttribute(Qt::WA_MacShowFocusRect, false);

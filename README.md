@@ -134,7 +134,7 @@
 
 | 类 | 名称 | 要点 |
 |---|---|---|
-| ShadAlert | 提示 | Default / Destructive，图标与操作按钮 |
+| ShadAlert | 提示 | Default / Destructive，图标与操作按钮，文字可设为可选中 |
 | ShadEmpty | 空状态 | 图标或自定义媒体、标题、描述与操作区，可选虚线边框 |
 | ShadResult | 结果页 | 成功、失败、警告、信息与 403 / 404 / 500 七种内置状态，可用自定义图标、颜色或媒体组件表达任意状态，标题、说明、自定义内容与操作按钮 |
 | ShadProgress | 进度条 | 数值过渡动画 |
@@ -237,7 +237,7 @@ cmake --build --preset msvc-release
 include(FetchContent)
 FetchContent_Declare(ShadcnWidgetTools
     GIT_REPOSITORY https://github.com/RainbowCandyX/ShadcnWidgetTools.git
-    GIT_TAG v1.3.1
+    GIT_TAG v1.3.2
     GIT_SHALLOW TRUE
 )
 FetchContent_MakeAvailable(ShadcnWidgetTools)

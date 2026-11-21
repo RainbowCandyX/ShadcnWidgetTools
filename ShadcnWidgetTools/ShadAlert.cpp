@@ -9,11 +9,13 @@
 #include <QRectF>
 #include <QResizeEvent>
 #include <QSizePolicy>
+#include <QtCore/qnamespace.h>
 #include <QtGlobal>
 
 #include "ShadAlertPrivate.h"
 #include "ShadIcon.h"
 #include "ShadStyleHelper.h"
+#include "ShadTextContextMenu.h"
 #include "ShadTheme.h"
 
 namespace
@@ -42,6 +44,8 @@ ShadAlert::ShadAlert(QWidget* parent)
     d->_descriptionLabel = new QLabel(this);
     d->_descriptionLabel->setWordWrap(true);
     ShadStyleHelper::applyFont(d->_descriptionLabel, 14, QFont::Normal);
+    ShadTextContextMenu::install(d->_titleLabel);
+    ShadTextContextMenu::install(d->_descriptionLabel);
     d->updateContent();
     connect(shadTheme, &ShadTheme::themeChanged, this, [d]() { d->updateContent(); });
 }
@@ -119,6 +123,20 @@ QString ShadAlert::getDescription() const
 {
     Q_D(const ShadAlert);
     return d->_descriptionLabel->text();
+}
+
+void ShadAlert::setTextSelectable(bool selectable)
+{
+    Q_D(ShadAlert);
+    const Qt::TextInteractionFlags flags = selectable ? Qt::TextSelectableByMouse : Qt::NoTextInteraction;
+    d->_titleLabel->setTextInteractionFlags(flags);
+    d->_descriptionLabel->setTextInteractionFlags(flags);
+}
+
+bool ShadAlert::isTextSelectable() const
+{
+    Q_D(const ShadAlert);
+    return d->_descriptionLabel->textInteractionFlags().testFlag(Qt::TextSelectableByMouse);
 }
 
 void ShadAlert::setAction(QWidget* action)

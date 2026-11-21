@@ -22,6 +22,7 @@
 #include "ShadDef.h"
 #include "ShadDescriptionsPrivate.h"
 #include "ShadStyleHelper.h"
+#include "ShadTextContextMenu.h"
 #include "ShadTheme.h"
 
 namespace
@@ -41,6 +42,7 @@ namespace
         if (isSelectable)
         {
             label->setTextInteractionFlags(Qt::TextSelectableByMouse);
+            ShadTextContextMenu::install(label);
         }
         ShadStyleHelper::applyFont(label, kTextFontSize, QFont::Normal);
         label->show();

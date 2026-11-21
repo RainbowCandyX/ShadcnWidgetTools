@@ -4,6 +4,7 @@
 #include <QBrush>
 #include <QByteArray>
 #include <QColor>
+#include <QContextMenuEvent>
 #include <QDir>
 #include <QEvent>
 #include <QFileInfo>
@@ -15,6 +16,7 @@
 #include <QPainter>
 #include <QPalette>
 #include <QPixmap>
+#include <QPoint>
 #include <QPointF>
 #include <QRectF>
 #include <QResizeEvent>
@@ -46,6 +48,7 @@
 
 #include "ShadDef.h"
 #include "ShadStyleHelper.h"
+#include "ShadTextContextMenu.h"
 #include "ShadTheme.h"
 
 namespace
@@ -298,6 +301,13 @@ void ShadMarkdownText::wheelEvent(QWheelEvent* event)
     event->ignore();
 }
 
+void ShadMarkdownText::contextMenuEvent(QContextMenuEvent* event)
+{
+    const bool isMouse = event->reason() == QContextMenuEvent::Mouse;
+    ShadTextContextMenu::show(this, isMouse ? event->globalPos() : mapToGlobal(rect().center()), isMouse ? anchorAt(event->pos()) : QString());
+    event->accept();
+}
+
 void ShadMarkdownText::changeEvent(QEvent* event)
 {
     QTextBrowser::changeEvent(event);
@@ -330,12 +340,23 @@ void ShadMarkdownText::rebuildDocument()
         return;
     }
     _applying = true;
+    const QTextCursor previousCursor = textCursor();
+    const int anchor = previousCursor.anchor();
+    const int position = previousCursor.position();
 #if QT_CONFIG(textmarkdownreader)
     document()->setMarkdown(_markdown, QTextDocument::MarkdownDialectGitHub);
 #else
     document()->setPlainText(_markdown);
 #endif
     applyStyle();
+    if (anchor != 0 || position != 0)
+    {
+        const int lastPosition = qMax(0, document()->characterCount() - 1);
+        QTextCursor restoredCursor(document());
+        restoredCursor.setPosition(qMin(anchor, lastPosition));
+        restoredCursor.setPosition(qMin(position, lastPosition), QTextCursor::KeepAnchor);
+        setTextCursor(restoredCursor);
+    }
     _applying = false;
     _cachedWidth = -1;
     updateGeometry();

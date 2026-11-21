@@ -7,6 +7,7 @@
 #include "ShadDef.h"
 #include "ShadProperty.h"
 
+class QContextMenuEvent;
 class QEvent;
 class QMouseEvent;
 class QObject;
@@ -37,6 +38,7 @@ class SHADCN_EXPORT ShadLabel : public QLabel
     protected:
         // 点击标签时触发 buddy：按钮类组件切换状态，其余组件获得焦点（对应 <label for>）
         void mouseReleaseEvent(QMouseEvent* event) override;
+        void contextMenuEvent(QContextMenuEvent* event) override;
 };
 
 #endif // SHADLABEL_H

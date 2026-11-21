@@ -1,13 +1,17 @@
 #include "ShadLabel.h"
 
 #include <QAbstractButton>
+#include <QContextMenuEvent>
 #include <QEvent>
 #include <QMouseEvent>
 #include <QObject>
+#include <QPoint>
 #include <QWidget>
+#include <QtCore/qnamespace.h>
 
 #include "ShadLabelPrivate.h"
 #include "ShadStyleHelper.h"
+#include "ShadTextContextMenu.h"
 #include "ShadTheme.h"
 
 ShadLabel::ShadLabel(QWidget* parent)
@@ -89,4 +93,16 @@ void ShadLabel::mouseReleaseEvent(QMouseEvent* event)
         }
     }
     QLabel::mouseReleaseEvent(event);
+}
+
+void ShadLabel::contextMenuEvent(QContextMenuEvent* event)
+{
+    if (!textInteractionFlags().testFlag(Qt::TextSelectableByMouse))
+    {
+        QLabel::contextMenuEvent(event);
+        return;
+    }
+    const QPoint globalPos = event->reason() == QContextMenuEvent::Mouse ? event->globalPos() : mapToGlobal(rect().center());
+    ShadTextContextMenu::show(this, globalPos);
+    event->accept();
 }

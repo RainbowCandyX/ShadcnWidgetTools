@@ -6,6 +6,7 @@
 
 #include "ShadProperty.h"
 
+class QContextMenuEvent;
 class QEvent;
 class QFocusEvent;
 class QMouseEvent;
@@ -62,6 +63,7 @@ class SHADCN_EXPORT ShadCodeEditor : public QPlainTextEdit
         void mouseMoveEvent(QMouseEvent* event) override;
         void mouseReleaseEvent(QMouseEvent* event) override;
         void mouseDoubleClickEvent(QMouseEvent* event) override;
+        void contextMenuEvent(QContextMenuEvent* event) override;
 
     private:
         friend class ShadCodeEditorGutter;

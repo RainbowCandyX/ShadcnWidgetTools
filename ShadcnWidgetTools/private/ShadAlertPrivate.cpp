@@ -1,5 +1,6 @@
 #include "ShadAlertPrivate.h"
 
+#include <QColor>
 #include <QLabel>
 #include <QMargins>
 #include <QPalette>
@@ -77,11 +78,18 @@ QColor ShadAlertPrivate::descriptionColor() const
 void ShadAlertPrivate::updateContent()
 {
     Q_Q(ShadAlert);
+    const QColor selectionColor = ShadStyleHelper::withAlpha(shadTheme->getColor(ShadThemeType::Primary), 0.3);
     QPalette titlePalette = _titleLabel->palette();
     titlePalette.setColor(QPalette::WindowText, foregroundColor());
+    titlePalette.setColor(QPalette::Text, foregroundColor());
+    titlePalette.setColor(QPalette::Highlight, selectionColor);
+    titlePalette.setColor(QPalette::HighlightedText, foregroundColor());
     _titleLabel->setPalette(titlePalette);
     QPalette descriptionPalette = _descriptionLabel->palette();
     descriptionPalette.setColor(QPalette::WindowText, descriptionColor());
+    descriptionPalette.setColor(QPalette::Text, descriptionColor());
+    descriptionPalette.setColor(QPalette::Highlight, selectionColor);
+    descriptionPalette.setColor(QPalette::HighlightedText, descriptionColor());
     _descriptionLabel->setPalette(descriptionPalette);
     _titleLabel->setVisible(!_titleLabel->text().isEmpty());
     _descriptionLabel->setVisible(!_descriptionLabel->text().isEmpty());

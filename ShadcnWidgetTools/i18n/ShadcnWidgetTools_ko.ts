@@ -794,6 +794,41 @@
     </message>
 </context>
 <context>
+    <name>ShadTextContextMenu</name>
+    <message>
+        <source>撤销</source>
+        <translation>실행 취소</translation>
+    </message>
+    <message>
+        <source>恢复</source>
+        <translation>다시 실행</translation>
+    </message>
+    <message>
+        <source>剪切</source>
+        <translation>잘라내기</translation>
+    </message>
+    <message>
+        <source>复制</source>
+        <translation>복사</translation>
+    </message>
+    <message>
+        <source>复制链接地址</source>
+        <translation>링크 주소 복사</translation>
+    </message>
+    <message>
+        <source>粘贴</source>
+        <translation>붙여넣기</translation>
+    </message>
+    <message>
+        <source>删除</source>
+        <translation>삭제</translation>
+    </message>
+    <message>
+        <source>全选</source>
+        <translation>모두 선택</translation>
+    </message>
+</context>
+<context>
     <name>ShadTimePanel</name>
     <message>
         <source>时</source>

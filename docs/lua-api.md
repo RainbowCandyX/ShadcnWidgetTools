@@ -336,7 +336,7 @@ Badge           shad.Badge.new([text], [parent])
 Spinner         shad.Spinner.new([parent])
   setShadIcon(icon)
 
-Alert           shad.Alert.new([parent])
+Alert           shad.Alert.new([parent])                         textSelectable 设为 true 后标题与描述可以选中复制
   setShadIcon(icon)
 
 Card            shad.Card.new([title, description], [parent])

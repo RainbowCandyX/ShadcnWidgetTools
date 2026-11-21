@@ -1,9 +1,11 @@
 #include "ShadTextarea.h"
 
+#include <QContextMenuEvent>
 #include <QDynamicPropertyChangeEvent>
 #include <QEvent>
 #include <QFocusEvent>
 #include <QFrame>
+#include <QPoint>
 #include <QResizeEvent>
 #include <QSizePolicy>
 #include <QTextDocument>
@@ -12,6 +14,7 @@
 
 #include "ShadScrollBar.h"
 #include "ShadStyleHelper.h"
+#include "ShadTextContextMenu.h"
 #include "ShadTextareaPrivate.h"
 #include "ShadTheme.h"
 
@@ -153,4 +156,11 @@ void ShadTextarea::resizeEvent(QResizeEvent* event)
     {
         d->updateAutoHeight();
     }
+}
+
+void ShadTextarea::contextMenuEvent(QContextMenuEvent* event)
+{
+    const QPoint globalPos = event->reason() == QContextMenuEvent::Mouse ? event->globalPos() : mapToGlobal(rect().center());
+    ShadTextContextMenu::show(this, globalPos);
+    event->accept();
 }
