@@ -245,6 +245,12 @@ namespace
             lua_pushinteger(L, lua_Integer(value.toLongLong()));
             return;
         }
+        // 注册了到 QVariantMap 的转换的自定义值类型按表压入
+        if (type.id() >= QMetaType::User && QMetaType::canConvert(type, QMetaType::fromType<QVariantMap>()))
+        {
+            pushVariantAt(L, QVariant(value.toMap()), depth + 1);
+            return;
+        }
         lua_pushnil(L);
     }
 } // namespace

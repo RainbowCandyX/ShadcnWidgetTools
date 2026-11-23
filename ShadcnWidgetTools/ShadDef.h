@@ -853,6 +853,14 @@ namespace ShadCarouselType
     };
 
     Q_ENUM_NS(Align)
+
+    enum NavigationPlacement
+    {
+        Outside = 0,
+        Inside,
+    };
+
+    Q_ENUM_NS(NavigationPlacement)
 } // namespace ShadCarouselType
 
 namespace ShadAvatarType

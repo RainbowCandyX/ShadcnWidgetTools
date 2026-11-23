@@ -29,6 +29,7 @@ class ShadCarouselPrivate
 
         // 翻页按钮主体到内容区的距离，对应 -left-12 / -right-12（纵向为 -top-12 / -bottom-12）
         static constexpr int kButtonOffset = 48;
+        static constexpr int kInsideInset = 12;
         // 开始拖动前需要移动的距离，对应 Embla 的 dragThreshold
         static constexpr int kDragThreshold = 10;
         // 切换动画时长
@@ -133,6 +134,7 @@ class ShadCarouselPrivate
         bool _isLoop{false};
         int _autoplayInterval{0};
         bool _isNavigationVisible{true};
+        ShadCarouselType::NavigationPlacement _navigationPlacement{ShadCarouselType::Outside};
 
         // 停靠点对应的滚动位置（视口起始边在轨道上的逻辑坐标）
         QList<qreal> _snaps;

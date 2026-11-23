@@ -1759,6 +1759,38 @@
         <source>从右到左布局下幻灯片顺序与拖动方向镜像</source>
         <translation>由右至左版面配置下，投影片順序與拖曳方向會鏡像翻轉</translation>
     </message>
+    <message>
+        <source>按钮位置</source>
+        <translation>按鈕位置</translation>
+    </message>
+    <message>
+        <source>setNavigationPlacement(Inside) 把按钮放进内容区；默认为 Outside，按钮在内容区两侧</source>
+        <translation>setNavigationPlacement(Inside) 把按鈕放進內容區；預設為 Outside，按鈕在內容區兩側</translation>
+    </message>
+    <message>
+        <source>圆点</source>
+        <translation>圓點</translation>
+    </message>
+    <message>
+        <source>ShadCarouselDots 绑定轮播后显示分页圆点，点击圆点跳转</source>
+        <translation>ShadCarouselDots 綁定輪播後顯示分頁圓點，點選圓點即可跳轉</translation>
+    </message>
+    <message>
+        <source>缩略图</source>
+        <translation>縮圖</translation>
+    </message>
+    <message>
+        <source>ShadCarouselThumbnails 绑定轮播，addThumbnail 逐张添加缩略图，点击缩略图跳转，当前项带描边</source>
+        <translation>ShadCarouselThumbnails 綁定輪播，addThumbnail 逐張新增縮圖，點選縮圖即可跳轉，目前項目帶有外框</translation>
+    </message>
+    <message>
+        <source>缩略图行内按钮</source>
+        <translation>縮圖列內按鈕</translation>
+    </message>
+    <message>
+        <source>隐藏轮播自身的按钮，setNavigationVisible(true) 把按钮放到缩略图两端；缩略图放不下时自动滚动到当前项</source>
+        <translation>隱藏輪播本身的按鈕，setNavigationVisible(true) 把按鈕放到縮圖兩端；縮圖放不下時自動捲動到目前項目</translation>
+    </message>
 </context>
 <context>
     <name>ChartAreaPage</name>
@@ -7156,6 +7188,541 @@ echo &quot;建置完成&quot;
     <message>
         <source>首页</source>
         <translation>首頁</translation>
+    </message>
+</context>
+<context>
+    <name>MapPage</name>
+    <message>
+        <source>地图</source>
+        <translation>地圖</translation>
+    </message>
+    <message>
+        <source>ShadMap：基于栅格瓦片的地图，支持标记、弹出框、路线、弧线与聚合，瓦片随主题在浅色与深色之间切换。</source>
+        <translation>ShadMap：基於柵格圖磚的地圖，支援標記、彈出框、路線、弧線與聚合，圖磚隨主題在淺色與深色之間切換。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本用法</translation>
+    </message>
+    <message>
+        <source>setTileUrl(浅色地址, 深色地址) 设置瓦片地址，深色主题下自动切换；拖动平移，滚轮或双击缩放，方向键与 + - 键也可以操作</source>
+        <translation>setTileUrl(淺色位址, 深色位址) 設定圖磚位址，深色主題下自動切換；拖曳平移，滾輪或按兩下縮放，方向鍵與 + - 鍵也可以操作</translation>
+    </message>
+    <message>
+        <source>矢量瓦片</source>
+        <translation>向量圖磚</translation>
+    </message>
+    <message>
+        <source>setTileFormat(ShadMapType::Vector) 改用矢量瓦片，setVectorTileUrl 可以传瓦片地址模板或 TileJSON 地址；矢量瓦片在本地绘制，颜色跟随主题，地名跟随界面语言；setTheme 让单张地图固定使用浅色或深色</source>
+        <translation>setTileFormat(ShadMapType::Vector) 改用向量圖磚，setVectorTileUrl 可以傳入圖磚位址範本或 TileJSON 位址；向量圖磚在本機繪製，顏色跟隨主題，地名跟隨介面語言；setTheme 讓單張地圖固定使用淺色或深色</translation>
+    </message>
+    <message>
+        <source>跟随主题</source>
+        <translation>跟隨主題</translation>
+    </message>
+    <message>
+        <source>浅色</source>
+        <translation>淺色</translation>
+    </message>
+    <message>
+        <source>深色</source>
+        <translation>深色</translation>
+    </message>
+    <message>
+        <source>矢量</source>
+        <translation>向量</translation>
+    </message>
+    <message>
+        <source>栅格 PNG</source>
+        <translation>點陣 PNG</translation>
+    </message>
+    <message>
+        <source>标记</source>
+        <translation>標記</translation>
+    </message>
+    <message>
+        <source>addMarker 添加标记，可设置颜色、标签、悬停提示与弹出文字；点击带弹出文字的标记显示弹出框；setContentWidget 把任意组件作为标记</source>
+        <translation>addMarker 新增標記，可設定顏色、標籤、懸停提示與彈出文字；點擊帶彈出文字的標記顯示彈出框；setContentWidget 把任意元件作為標記</translation>
+    </message>
+    <message>
+        <source>展览中</source>
+        <translation>展覽中</translation>
+    </message>
+    <message>
+        <source>国父纪念馆：这个标记是一个徽章组件</source>
+        <translation>國父紀念館：這個標記是一個徽章元件</translation>
+    </message>
+    <message>
+        <source>台北 101</source>
+        <translation>台北 101</translation>
+    </message>
+    <message>
+        <source>台北 101：信义区的地标摩天大楼</source>
+        <translation>台北 101：信義區的地標摩天大樓</translation>
+    </message>
+    <message>
+        <source>中正纪念堂</source>
+        <translation>中正紀念堂</translation>
+    </message>
+    <message>
+        <source>中正纪念堂：中正区的纪念建筑与广场</source>
+        <translation>中正紀念堂：中正區的紀念建築與廣場</translation>
+    </message>
+    <message>
+        <source>台北车站</source>
+        <translation>台北車站</translation>
+    </message>
+    <message>
+        <source>台北车站：铁路、高铁与捷运的交通枢纽</source>
+        <translation>台北車站：鐵路、高鐵與捷運的交通樞紐</translation>
+    </message>
+    <message>
+        <source>龙山寺</source>
+        <translation>龍山寺</translation>
+    </message>
+    <message>
+        <source>悬停时显示的提示</source>
+        <translation>懸停時顯示的提示</translation>
+    </message>
+    <message>
+        <source>点击标记查看详情</source>
+        <translation>點擊標記查看詳情</translation>
+    </message>
+    <message>
+        <source>已点击：%1</source>
+        <translation>已點擊：%1</translation>
+    </message>
+    <message>
+        <source>可拖动标记</source>
+        <translation>可拖曳標記</translation>
+    </message>
+    <message>
+        <source>setDraggable(true) 后标记可以拖动，松开时发出 dragEnded 信号</source>
+        <translation>setDraggable(true) 後標記可以拖曳，放開時發出 dragEnded 訊號</translation>
+    </message>
+    <message>
+        <source>拖动标记到新的位置</source>
+        <translation>拖曳標記到新的位置</translation>
+    </message>
+    <message>
+        <source>纬度 %1，经度 %2</source>
+        <translation>緯度 %1，經度 %2</translation>
+    </message>
+    <message>
+        <source>路线</source>
+        <translation>路線</translation>
+    </message>
+    <message>
+        <source>addRoute 按坐标列表绘制折线，可设置颜色、线宽、透明度与虚线；fitBounds 让视图容纳全部坐标</source>
+        <translation>addRoute 依座標清單繪製折線，可設定顏色、線寬、透明度與虛線；fitBounds 讓檢視容納全部座標</translation>
+    </message>
+    <message>
+        <source>高雄</source>
+        <translation>高雄</translation>
+    </message>
+    <message>
+        <source>花莲</source>
+        <translation>花蓮</translation>
+    </message>
+    <message>
+        <source>弧线</source>
+        <translation>弧線</translation>
+    </message>
+    <message>
+        <source>addArc 在两个坐标之间绘制弧线，setCurvature 调整弯曲程度，适合表示航线或数据流向</source>
+        <translation>addArc 在兩個座標之間繪製弧線，setCurvature 調整彎曲程度，適合表示航線或資料流向</translation>
+    </message>
+    <message>
+        <source>东京</source>
+        <translation>東京</translation>
+    </message>
+    <message>
+        <source>新加坡</source>
+        <translation>新加坡</translation>
+    </message>
+    <message>
+        <source>迪拜</source>
+        <translation>杜拜</translation>
+    </message>
+    <message>
+        <source>伦敦</source>
+        <translation>倫敦</translation>
+    </message>
+    <message>
+        <source>聚合</source>
+        <translation>聚合</translation>
+    </message>
+    <message>
+        <source>addGeoJson 读取 GeoJSON 中的点并逐个添加为标记，loadGeoJson 从地址下载；setClusteringEnabled(true) 把相邻的标记合并成带数量的圆点，点击圆点放大展开</source>
+        <translation>addGeoJson 讀取 GeoJSON 中的點並逐個新增為標記，loadGeoJson 從位址下載；setClusteringEnabled(true) 把相鄰的標記合併成帶數量的圓點，點擊圓點放大展開</translation>
+    </message>
+    <message>
+        <source>控件</source>
+        <translation>控制項</translation>
+    </message>
+    <message>
+        <source>右键拖动或按住 Ctrl 拖动可以旋转地图，setCompassControlVisible 显示指北针，点击转回正北；setLocateControlVisible 显示定位按钮，addControlButton 添加自定义按钮，addControlSeparator 添加分隔线；组件不获取系统定位，点击定位按钮时由程序用 setUserLocation 提供坐标</source>
+        <translation>右鍵拖曳或按住 Ctrl 拖曳可以旋轉地圖，setCompassControlVisible 顯示指北針，點擊轉回正北；setLocateControlVisible 顯示定位按鈕，addControlButton 新增自訂按鈕，addControlSeparator 新增分隔線；元件不取得系統定位，點擊定位按鈕時由程式用 setUserLocation 提供座標</translation>
+    </message>
+    <message>
+        <source>切换地球仪视图</source>
+        <translation>切換地球儀檢視</translation>
+    </message>
+    <message>
+        <source>点击定位按钮，示例用台北 101 的坐标模拟当前位置</source>
+        <translation>點擊定位按鈕，範例用台北 101 的座標模擬目前位置</translation>
+    </message>
+    <message>
+        <source>飞行定位</source>
+        <translation>飛行定位</translation>
+    </message>
+    <message>
+        <source>flyTo 以动画移动到指定坐标与缩放级别</source>
+        <translation>flyTo 以動畫移動到指定座標與縮放層級</translation>
+    </message>
+    <message>
+        <source>台北</source>
+        <translation>台北</translation>
+    </message>
+    <message>
+        <source>纽约</source>
+        <translation>紐約</translation>
+    </message>
+    <message>
+        <source>弹出框</source>
+        <translation>彈出框</translation>
+    </message>
+    <message>
+        <source>addPopup 在坐标上添加常驻的弹出框，setContentWidget 可以放入任意组件</source>
+        <translation>addPopup 在座標上新增常駐的彈出框，setContentWidget 可以放入任意元件</translation>
+    </message>
+    <message>
+        <source>台北：这个弹出框固定在坐标上，随地图移动</source>
+        <translation>台北：這個彈出框固定在座標上，隨地圖移動</translation>
+    </message>
+    <message>
+        <source>显示弹出框</source>
+        <translation>顯示彈出框</translation>
+    </message>
+    <message>
+        <source>路线规划</source>
+        <translation>路線規劃</translation>
+    </message>
+    <message>
+        <source>addOverlay 把任意组件固定在地图的一角；标记用 setPopupTitle 与 setPopupText 设置弹出框的标题和说明，showMarkerPopup 直接打开弹出框</source>
+        <translation>addOverlay 把任意元件固定在地圖的一角；標記用 setPopupTitle 與 setPopupText 設定彈出框的標題和說明，showMarkerPopup 直接開啟彈出框</translation>
+    </message>
+    <message>
+        <source>起点</source>
+        <translation>起點</translation>
+    </message>
+    <message>
+        <source>终点</source>
+        <translation>終點</translation>
+    </message>
+    <message>
+        <source>忠孝复兴站</source>
+        <translation>忠孝復興站</translation>
+    </message>
+    <message>
+        <source>下一站</source>
+        <translation>下一站</translation>
+    </message>
+    <message>
+        <source>预计 9:19 到达</source>
+        <translation>預計 9:19 抵達</translation>
+    </message>
+    <message>
+        <source>忠孝东路配送</source>
+        <translation>忠孝東路配送</translation>
+    </message>
+    <message>
+        <source>7 分钟</source>
+        <translation>7 分鐘</translation>
+    </message>
+    <message>
+        <source>预计到达</source>
+        <translation>預計抵達</translation>
+    </message>
+    <message>
+        <source>停靠点</source>
+        <translation>停靠點</translation>
+    </message>
+    <message>
+        <source>公里</source>
+        <translation>公里</translation>
+    </message>
+    <message>
+        <source>实时位置</source>
+        <translation>即時位置</translation>
+    </message>
+    <message>
+        <source>定时调用标记的 setCoordinate 与路线的 setCoordinates：车辆沿路线从起点移动到终点，走过的路线变灰，面板中的剩余时间与距离同步刷新</source>
+        <translation>定時呼叫標記的 setCoordinate 與路線的 setCoordinates：車輛沿路線從起點移動到終點，走過的路線變灰，面板中的剩餘時間與距離同步更新</translation>
+    </message>
+    <message>
+        <source>实时配送</source>
+        <translation>即時配送</translation>
+    </message>
+    <message>
+        <source>机车 14 正在前往终点</source>
+        <translation>機車 14 正在前往終點</translation>
+    </message>
+    <message>
+        <source>剩余时间</source>
+        <translation>剩餘時間</translation>
+    </message>
+    <message>
+        <source>剩余距离</source>
+        <translation>剩餘距離</translation>
+    </message>
+    <message>
+        <source>进度</source>
+        <translation>進度</translation>
+    </message>
+    <message>
+        <source>重新开始</source>
+        <translation>重新開始</translation>
+    </message>
+    <message>
+        <source>%1 分钟</source>
+        <translation>%1 分鐘</translation>
+    </message>
+    <message>
+        <source>%1 公里</source>
+        <translation>%1 公里</translation>
+    </message>
+    <message>
+        <source>暂停</source>
+        <translation>暫停</translation>
+    </message>
+    <message>
+        <source>开始</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>长途追踪</source>
+        <translation>長途追蹤</translation>
+    </message>
+    <message>
+        <source>路线跨越大陆时做法相同：列车沿西伯利亚铁路从莫斯科开往符拉迪沃斯托克，setContentWidget 把列车显示为图标，经过的站点用 setColor 变灰，面板中的下一站、剩余时间与距离同步刷新；路线是按主要车站连成的简化折线</source>
+        <translation>路線跨越大陸時做法相同：列車沿西伯利亞鐵路從莫斯科開往海參崴，setContentWidget 把列車顯示為圖示，經過的站點用 setColor 變灰，面板中的下一站、剩餘時間與距離同步更新；路線是依主要車站連成的簡化折線</translation>
+    </message>
+    <message>
+        <source>莫斯科</source>
+        <translation>莫斯科</translation>
+    </message>
+    <message>
+        <source>叶卡捷琳堡</source>
+        <translation>葉卡捷琳堡</translation>
+    </message>
+    <message>
+        <source>新西伯利亚</source>
+        <translation>新西伯利亞</translation>
+    </message>
+    <message>
+        <source>伊尔库茨克</source>
+        <translation>伊爾庫次克</translation>
+    </message>
+    <message>
+        <source>哈巴罗夫斯克</source>
+        <translation>伯力</translation>
+    </message>
+    <message>
+        <source>符拉迪沃斯托克</source>
+        <translation>海參崴</translation>
+    </message>
+    <message>
+        <source>西伯利亚铁路</source>
+        <translation>西伯利亞鐵路</translation>
+    </message>
+    <message>
+        <source>下一站：%1</source>
+        <translation>下一站：%1</translation>
+    </message>
+    <message>
+        <source>已到达终点</source>
+        <translation>已抵達終點</translation>
+    </message>
+    <message>
+        <source>%1 小时</source>
+        <translation>%1 小時</translation>
+    </message>
+    <message>
+        <source>房源列表</source>
+        <translation>房源清單</translation>
+    </message>
+    <message>
+        <source>setText 把标记显示为文字胶囊，setSelected 切换选中态；点击列表项或标记时两边同步选中，并打开对应的弹出框</source>
+        <translation>setText 把標記顯示為文字膠囊，setSelected 切換選取狀態；點擊清單項目或標記時兩邊同步選取，並開啟對應的彈出框</translation>
+    </message>
+    <message>
+        <source>大安森林景观宅</source>
+        <translation>大安森林景觀宅</translation>
+    </message>
+    <message>
+        <source>大安区</source>
+        <translation>大安區</translation>
+    </message>
+    <message>
+        <source>信义高楼层公寓</source>
+        <translation>信義高樓層公寓</translation>
+    </message>
+    <message>
+        <source>信义区</source>
+        <translation>信義區</translation>
+    </message>
+    <message>
+        <source>中山电梯华厦</source>
+        <translation>中山電梯華廈</translation>
+    </message>
+    <message>
+        <source>中山区</source>
+        <translation>中山區</translation>
+    </message>
+    <message>
+        <source>士林河岸宅</source>
+        <translation>士林河岸宅</translation>
+    </message>
+    <message>
+        <source>士林区</source>
+        <translation>士林區</translation>
+    </message>
+    <message>
+        <source>万华小套房</source>
+        <translation>萬華小套房</translation>
+    </message>
+    <message>
+        <source>万华区</source>
+        <translation>萬華區</translation>
+    </message>
+    <message>
+        <source>内湖科技宅</source>
+        <translation>內湖科技宅</translation>
+    </message>
+    <message>
+        <source>内湖区</source>
+        <translation>內湖區</translation>
+    </message>
+    <message>
+        <source>待售房源</source>
+        <translation>待售房源</translation>
+    </message>
+    <message>
+        <source>台北市 6 套</source>
+        <translation>台北市 6 間</translation>
+    </message>
+    <message>
+        <source>%1 房 %2 卫</source>
+        <translation>%1 房 %2 衛</translation>
+    </message>
+    <message>
+        <source>车队调度</source>
+        <translation>車隊調度</translation>
+    </message>
+    <message>
+        <source>多个标记各自带弹出框的标题与说明，配合浮动面板展示整体状态；矢量瓦片在街道级别显示路名</source>
+        <translation>多個標記各自帶彈出框的標題與說明，搭配浮動面板顯示整體狀態；向量圖磚在街道層級顯示路名</translation>
+    </message>
+    <message>
+        <source>机车 14</source>
+        <translation>機車 14</translation>
+    </message>
+    <message>
+        <source>骑手：小陈</source>
+        <translation>外送員：小陳</translation>
+    </message>
+    <message>
+        <source>配送中 · 6 分钟</source>
+        <translation>配送中 · 6 分鐘</translation>
+    </message>
+    <message>
+        <source>机车 07</source>
+        <translation>機車 07</translation>
+    </message>
+    <message>
+        <source>骑手：小林</source>
+        <translation>外送員：小林</translation>
+    </message>
+    <message>
+        <source>空闲 · 等待派单</source>
+        <translation>空閒 · 等待派單</translation>
+    </message>
+    <message>
+        <source>货车 03</source>
+        <translation>貨車 03</translation>
+    </message>
+    <message>
+        <source>司机：老王</source>
+        <translation>司機：老王</translation>
+    </message>
+    <message>
+        <source>待处理 · 装货中</source>
+        <translation>待處理 · 裝貨中</translation>
+    </message>
+    <message>
+        <source>台北市中心区域</source>
+        <translation>台北市中心區域</translation>
+    </message>
+    <message>
+        <source>在线</source>
+        <translation>上線</translation>
+    </message>
+    <message>
+        <source>准时率</source>
+        <translation>準時率</translation>
+    </message>
+    <message>
+        <source>待处理</source>
+        <translation>待處理</translation>
+    </message>
+    <message>
+        <source>航线图</source>
+        <translation>航線圖</translation>
+    </message>
+    <message>
+        <source>setProjection(ShadMapType::Globe) 切换为地球仪视图，拖动旋转地球，弧线沿大圆航线绘制；addArc 为每条航线设置不同的颜色，浮动面板中用图例列出航线与客座率</source>
+        <translation>setProjection(ShadMapType::Globe) 切換為地球儀檢視，拖曳旋轉地球，弧線沿大圓航線繪製；addArc 為每條航線設定不同的顏色，浮動面板中用圖例列出航線與載客率</translation>
+    </message>
+    <message>
+        <source>地球仪</source>
+        <translation>地球儀</translation>
+    </message>
+    <message>
+        <source>平面</source>
+        <translation>平面</translation>
+    </message>
+    <message>
+        <source>航班运营</source>
+        <translation>航班營運</translation>
+    </message>
+    <message>
+        <source>长途运力调度</source>
+        <translation>長程運能調度</translation>
+    </message>
+    <message>
+        <source>航线</source>
+        <translation>航線</translation>
+    </message>
+    <message>
+        <source>座位</source>
+        <translation>座位</translation>
+    </message>
+    <message>
+        <source>峰值</source>
+        <translation>尖峰</translation>
+    </message>
+    <message>
+        <source>静态与加载</source>
+        <translation>靜態與載入</translation>
+    </message>
+    <message>
+        <source>setInteractive(false) 关闭拖动与缩放，setControlsVisible(false) 隐藏缩放按钮，适合做位置预览；setLoading 显示加载状态</source>
+        <translation>setInteractive(false) 關閉拖曳與縮放，setControlsVisible(false) 隱藏縮放按鈕，適合做位置預覽；setLoading 顯示載入狀態</translation>
+    </message>
+    <message>
+        <source>切换加载状态</source>
+        <translation>切換載入狀態</translation>
     </message>
 </context>
 <context>

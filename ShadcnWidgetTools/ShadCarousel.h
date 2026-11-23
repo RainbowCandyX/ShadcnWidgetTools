@@ -34,6 +34,7 @@ class SHADCN_EXPORT ShadCarousel : public QWidget
     Q_PROPERTY(bool loop READ isLoop WRITE setLoop)
     Q_PROPERTY(int autoplayInterval READ getAutoplayInterval WRITE setAutoplayInterval)
     Q_PROPERTY(bool navigationVisible READ isNavigationVisible WRITE setNavigationVisible)
+    Q_PROPERTY(ShadCarouselType::NavigationPlacement navigationPlacement READ getNavigationPlacement WRITE setNavigationPlacement)
     Q_PROPERTY(int currentIndex READ currentIndex NOTIFY currentChanged)
 
     public:
@@ -79,6 +80,9 @@ class SHADCN_EXPORT ShadCarousel : public QWidget
         // 是否显示上一张 / 下一张按钮，默认显示
         void setNavigationVisible(bool visible);
         bool isNavigationVisible() const;
+
+        void setNavigationPlacement(ShadCarouselType::NavigationPlacement placement);
+        ShadCarouselType::NavigationPlacement getNavigationPlacement() const;
 
         // 以下的位置均为停靠点序号：一屏多张且不循环时，末尾放不满一屏的停靠点会合并（Embla 的 containScroll="trimSnaps"），
         // 例如 5 张幻灯片、一屏 3 张、起始对齐时共有 3 个停靠点

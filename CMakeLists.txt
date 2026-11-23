@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(ShadcnFramework VERSION 1.3.2 LANGUAGES CXX)
+project(ShadcnFramework VERSION 1.5.0 LANGUAGES CXX)
 
 message(STATUS "当前编译器: ${CMAKE_CXX_COMPILER_ID} ${CMAKE_CXX_COMPILER_VERSION}（${CMAKE_CXX_COMPILER}）")
 
@@ -52,6 +52,7 @@ option(SHADCN_EXAMPLE_AI_CHAT "示例程序编译 AI 对话页面，需要 Qt Ne
 # Lua 绑定库，默认不编译
 # WebAssembly 不支持 LuaJIT
 option(SHADCN_BUILD_LUA "编译 Lua 绑定库 ShadcnWidgetToolsLua，通过 LuaBridge3 用 Lua 创建组件" OFF)
+option(SHADCN_BUILD_MAP "编译地图库 ShadcnWidgetToolsMap，需要 Qt Network" OFF)
 if (EMSCRIPTEN)
     set(_shadcn_lua_engine_default "Lua")
 else ()
@@ -111,6 +112,11 @@ if (PROJECT_IS_TOP_LEVEL)
 endif ()
 
 add_subdirectory(ShadcnWidgetTools)
+# 地图库先于 Lua 绑定库加入，Lua 绑定库在两者都开启时链接地图库
+if (SHADCN_BUILD_MAP)
+    add_subdirectory(ShadcnWidgetTools/Map)
+endif ()
+message(STATUS "地图库: ${SHADCN_BUILD_MAP}")
 if (SHADCN_BUILD_LUA)
     # Lua 运行时的源码是 C
     enable_language(C)

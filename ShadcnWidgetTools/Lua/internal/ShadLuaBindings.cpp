@@ -374,5 +374,8 @@ namespace ShadLuaBindings
         registerLayoutComponents();
         registerOverlayComponents();
         registerDisplayComponents();
+#if defined(SHADCN_LUA_MAP)
+        registerMapComponents();
+#endif
     }
 } // namespace ShadLuaBindings

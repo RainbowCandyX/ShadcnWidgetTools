@@ -145,6 +145,17 @@
     </message>
 </context>
 <context>
+    <name>ShadCarouselThumbnails</name>
+    <message>
+        <source>上一张</source>
+        <translation>上一張</translation>
+    </message>
+    <message>
+        <source>下一张</source>
+        <translation>下一張</translation>
+    </message>
+</context>
+<context>
     <name>ShadCodeBlock</name>
     <message>
         <source>已复制</source>

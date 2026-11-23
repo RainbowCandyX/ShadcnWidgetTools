@@ -80,6 +80,9 @@
 #ifdef SHADCN_EXAMPLE_LUA
 #include "LuaPage.h"
 #endif
+#ifdef SHADCN_EXAMPLE_MAP
+#include "MapPage.h"
+#endif
 #include "MarkdownViewPage.h"
 #include "MarkerPage.h"
 #include "MarqueePage.h"
@@ -393,6 +396,9 @@ MainWindow::MainWindow(QWidget* parent)
     addCategoryPage(dataCategory, new LogViewPage(_pageStack));
     addCategoryPage(dataCategory, new TimelinePage(_pageStack));
     addCategoryPage(dataCategory, new MarkerPage(_pageStack));
+#ifdef SHADCN_EXAMPLE_MAP
+    addCategoryPage(dataCategory, new MapPage(_pageStack));
+#endif
     addCategoryPage(dataCategory, new KbdPage(_toaster, _pageStack));
     addCategoryPage(dataCategory, new QrCodePage(_pageStack));
     addCategoryPage(dataCategory, new WatermarkPage(_pageStack));

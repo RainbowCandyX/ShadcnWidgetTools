@@ -11,6 +11,8 @@ namespace ShadLuaBindings
     void registerLayoutComponents();
     void registerOverlayComponents();
     void registerDisplayComponents();
+    // 只在同时编译地图库时提供
+    void registerMapComponents();
 } // namespace ShadLuaBindings
 
 #endif // SHADLUABINDINGS_H

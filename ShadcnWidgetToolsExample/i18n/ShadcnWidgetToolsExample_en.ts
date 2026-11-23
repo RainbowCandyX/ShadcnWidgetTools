@@ -1759,6 +1759,38 @@ Opened with the system default application when the attachment card is clicked.
         <source>从右到左布局下幻灯片顺序与拖动方向镜像</source>
         <translation>In right-to-left layouts, the slide order and drag direction are mirrored</translation>
     </message>
+    <message>
+        <source>按钮位置</source>
+        <translation>Button placement</translation>
+    </message>
+    <message>
+        <source>setNavigationPlacement(Inside) 把按钮放进内容区；默认为 Outside，按钮在内容区两侧</source>
+        <translation>setNavigationPlacement(Inside) puts the buttons inside the content area. The default is Outside, with the buttons on both sides of the content</translation>
+    </message>
+    <message>
+        <source>圆点</source>
+        <translation>Dots</translation>
+    </message>
+    <message>
+        <source>ShadCarouselDots 绑定轮播后显示分页圆点，点击圆点跳转</source>
+        <translation>ShadCarouselDots shows pagination dots once bound to a carousel, and clicking a dot jumps to it</translation>
+    </message>
+    <message>
+        <source>缩略图</source>
+        <translation>Thumbnails</translation>
+    </message>
+    <message>
+        <source>ShadCarouselThumbnails 绑定轮播，addThumbnail 逐张添加缩略图，点击缩略图跳转，当前项带描边</source>
+        <translation>ShadCarouselThumbnails binds to a carousel. addThumbnail adds thumbnails one by one, clicking a thumbnail jumps to it, and the current one has a ring</translation>
+    </message>
+    <message>
+        <source>缩略图行内按钮</source>
+        <translation>Buttons in the thumbnail row</translation>
+    </message>
+    <message>
+        <source>隐藏轮播自身的按钮，setNavigationVisible(true) 把按钮放到缩略图两端；缩略图放不下时自动滚动到当前项</source>
+        <translation>Hide the carousel's own buttons, and setNavigationVisible(true) places them at both ends of the thumbnail row. When the thumbnails do not fit, the row scrolls to the current one</translation>
+    </message>
 </context>
 <context>
     <name>ChartAreaPage</name>
@@ -7156,6 +7188,541 @@ Chen Yi-chun 0912-345-678</translation>
     <message>
         <source>首页</source>
         <translation>Home</translation>
+    </message>
+</context>
+<context>
+    <name>MapPage</name>
+    <message>
+        <source>地图</source>
+        <translation>Map</translation>
+    </message>
+    <message>
+        <source>ShadMap：基于栅格瓦片的地图，支持标记、弹出框、路线、弧线与聚合，瓦片随主题在浅色与深色之间切换。</source>
+        <translation>ShadMap: A raster tile map with markers, popups, routes, arcs and clustering. Tiles switch between light and dark with the theme.</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>Basic</translation>
+    </message>
+    <message>
+        <source>setTileUrl(浅色地址, 深色地址) 设置瓦片地址，深色主题下自动切换；拖动平移，滚轮或双击缩放，方向键与 + - 键也可以操作</source>
+        <translation>setTileUrl(lightUrl, darkUrl) sets the tile URLs and switches automatically in the dark theme; drag to pan, scroll or double-click to zoom, and the arrow keys and + / - keys work as well</translation>
+    </message>
+    <message>
+        <source>矢量瓦片</source>
+        <translation>Vector Tiles</translation>
+    </message>
+    <message>
+        <source>setTileFormat(ShadMapType::Vector) 改用矢量瓦片，setVectorTileUrl 可以传瓦片地址模板或 TileJSON 地址；矢量瓦片在本地绘制，颜色跟随主题，地名跟随界面语言；setTheme 让单张地图固定使用浅色或深色</source>
+        <translation>setTileFormat(ShadMapType::Vector) switches to vector tiles, and setVectorTileUrl accepts a tile URL template or a TileJSON URL; vector tiles are drawn locally, with colors that follow the theme and place names that follow the interface language; setTheme pins a single map to the light or dark style</translation>
+    </message>
+    <message>
+        <source>跟随主题</source>
+        <translation>Follow Theme</translation>
+    </message>
+    <message>
+        <source>浅色</source>
+        <translation>Light</translation>
+    </message>
+    <message>
+        <source>深色</source>
+        <translation>Dark</translation>
+    </message>
+    <message>
+        <source>矢量</source>
+        <translation>Vector</translation>
+    </message>
+    <message>
+        <source>栅格 PNG</source>
+        <translation>Raster PNG</translation>
+    </message>
+    <message>
+        <source>标记</source>
+        <translation>Markers</translation>
+    </message>
+    <message>
+        <source>addMarker 添加标记，可设置颜色、标签、悬停提示与弹出文字；点击带弹出文字的标记显示弹出框；setContentWidget 把任意组件作为标记</source>
+        <translation>addMarker adds a marker with a configurable color, label, tooltip and popup text; clicking a marker that has popup text shows a popup; setContentWidget uses any widget as the marker</translation>
+    </message>
+    <message>
+        <source>展览中</source>
+        <translation>On Exhibit</translation>
+    </message>
+    <message>
+        <source>国父纪念馆：这个标记是一个徽章组件</source>
+        <translation>Sun Yat-sen Memorial Hall: this marker is a badge widget</translation>
+    </message>
+    <message>
+        <source>台北 101</source>
+        <translation>Taipei 101</translation>
+    </message>
+    <message>
+        <source>台北 101：信义区的地标摩天大楼</source>
+        <translation>Taipei 101: the landmark skyscraper in Xinyi District</translation>
+    </message>
+    <message>
+        <source>中正纪念堂</source>
+        <translation>Chiang Kai-shek Memorial Hall</translation>
+    </message>
+    <message>
+        <source>中正纪念堂：中正区的纪念建筑与广场</source>
+        <translation>Chiang Kai-shek Memorial Hall: a memorial building and plaza in Zhongzheng District</translation>
+    </message>
+    <message>
+        <source>台北车站</source>
+        <translation>Taipei Main Station</translation>
+    </message>
+    <message>
+        <source>台北车站：铁路、高铁与捷运的交通枢纽</source>
+        <translation>Taipei Main Station: a hub for railway, high-speed rail and metro</translation>
+    </message>
+    <message>
+        <source>龙山寺</source>
+        <translation>Longshan Temple</translation>
+    </message>
+    <message>
+        <source>悬停时显示的提示</source>
+        <translation>A tooltip shown on hover</translation>
+    </message>
+    <message>
+        <source>点击标记查看详情</source>
+        <translation>Click a marker to see details</translation>
+    </message>
+    <message>
+        <source>已点击：%1</source>
+        <translation>Clicked: %1</translation>
+    </message>
+    <message>
+        <source>可拖动标记</source>
+        <translation>Draggable Marker</translation>
+    </message>
+    <message>
+        <source>setDraggable(true) 后标记可以拖动，松开时发出 dragEnded 信号</source>
+        <translation>After setDraggable(true) the marker can be dragged, and dragEnded is emitted on release</translation>
+    </message>
+    <message>
+        <source>拖动标记到新的位置</source>
+        <translation>Drag the marker to a new position</translation>
+    </message>
+    <message>
+        <source>纬度 %1，经度 %2</source>
+        <translation>Latitude %1, longitude %2</translation>
+    </message>
+    <message>
+        <source>路线</source>
+        <translation>Routes</translation>
+    </message>
+    <message>
+        <source>addRoute 按坐标列表绘制折线，可设置颜色、线宽、透明度与虚线；fitBounds 让视图容纳全部坐标</source>
+        <translation>addRoute draws a polyline through a list of coordinates with a configurable color, width, opacity and dash pattern; fitBounds fits all coordinates into the view</translation>
+    </message>
+    <message>
+        <source>高雄</source>
+        <translation>Kaohsiung</translation>
+    </message>
+    <message>
+        <source>花莲</source>
+        <translation>Hualien</translation>
+    </message>
+    <message>
+        <source>弧线</source>
+        <translation>Arcs</translation>
+    </message>
+    <message>
+        <source>addArc 在两个坐标之间绘制弧线，setCurvature 调整弯曲程度，适合表示航线或数据流向</source>
+        <translation>addArc draws an arc between two coordinates and setCurvature adjusts how much it bends, which suits flight routes or data flows</translation>
+    </message>
+    <message>
+        <source>东京</source>
+        <translation>Tokyo</translation>
+    </message>
+    <message>
+        <source>新加坡</source>
+        <translation>Singapore</translation>
+    </message>
+    <message>
+        <source>迪拜</source>
+        <translation>Dubai</translation>
+    </message>
+    <message>
+        <source>伦敦</source>
+        <translation>London</translation>
+    </message>
+    <message>
+        <source>聚合</source>
+        <translation>Clustering</translation>
+    </message>
+    <message>
+        <source>addGeoJson 读取 GeoJSON 中的点并逐个添加为标记，loadGeoJson 从地址下载；setClusteringEnabled(true) 把相邻的标记合并成带数量的圆点，点击圆点放大展开</source>
+        <translation>addGeoJson reads the points in a GeoJSON document and adds each as a marker, and loadGeoJson downloads one from a URL; setClusteringEnabled(true) merges nearby markers into a circle showing their count, and clicking a circle zooms in to expand it</translation>
+    </message>
+    <message>
+        <source>控件</source>
+        <translation>Controls</translation>
+    </message>
+    <message>
+        <source>右键拖动或按住 Ctrl 拖动可以旋转地图，setCompassControlVisible 显示指北针，点击转回正北；setLocateControlVisible 显示定位按钮，addControlButton 添加自定义按钮，addControlSeparator 添加分隔线；组件不获取系统定位，点击定位按钮时由程序用 setUserLocation 提供坐标</source>
+        <translation>Drag with the right button, or hold Ctrl and drag, to rotate the map; setCompassControlVisible shows the compass, and clicking it turns the map back to north. setLocateControlVisible shows the locate button, addControlButton adds a custom button and addControlSeparator adds a separator; the widget does not read the system location, so the application supplies the coordinate with setUserLocation when the locate button is clicked</translation>
+    </message>
+    <message>
+        <source>切换地球仪视图</source>
+        <translation>Toggle Globe View</translation>
+    </message>
+    <message>
+        <source>点击定位按钮，示例用台北 101 的坐标模拟当前位置</source>
+        <translation>Click the locate button; this example uses the coordinate of Taipei 101 as the current location</translation>
+    </message>
+    <message>
+        <source>飞行定位</source>
+        <translation>Fly To</translation>
+    </message>
+    <message>
+        <source>flyTo 以动画移动到指定坐标与缩放级别</source>
+        <translation>flyTo animates to the given coordinate and zoom level</translation>
+    </message>
+    <message>
+        <source>台北</source>
+        <translation>Taipei</translation>
+    </message>
+    <message>
+        <source>纽约</source>
+        <translation>New York</translation>
+    </message>
+    <message>
+        <source>弹出框</source>
+        <translation>Popup</translation>
+    </message>
+    <message>
+        <source>addPopup 在坐标上添加常驻的弹出框，setContentWidget 可以放入任意组件</source>
+        <translation>addPopup adds a persistent popup at a coordinate, and setContentWidget places any widget inside it</translation>
+    </message>
+    <message>
+        <source>台北：这个弹出框固定在坐标上，随地图移动</source>
+        <translation>Taipei: this popup is anchored to the coordinate and moves with the map</translation>
+    </message>
+    <message>
+        <source>显示弹出框</source>
+        <translation>Show Popup</translation>
+    </message>
+    <message>
+        <source>路线规划</source>
+        <translation>Route Planner</translation>
+    </message>
+    <message>
+        <source>addOverlay 把任意组件固定在地图的一角；标记用 setPopupTitle 与 setPopupText 设置弹出框的标题和说明，showMarkerPopup 直接打开弹出框</source>
+        <translation>addOverlay pins any widget to a corner of the map; markers use setPopupTitle and setPopupText for the popup title and description, and showMarkerPopup opens the popup directly</translation>
+    </message>
+    <message>
+        <source>起点</source>
+        <translation>Start</translation>
+    </message>
+    <message>
+        <source>终点</source>
+        <translation>End</translation>
+    </message>
+    <message>
+        <source>忠孝复兴站</source>
+        <translation>Zhongxiao Fuxing Station</translation>
+    </message>
+    <message>
+        <source>下一站</source>
+        <translation>Next stop</translation>
+    </message>
+    <message>
+        <source>预计 9:19 到达</source>
+        <translation>Arrival 9:19 AM</translation>
+    </message>
+    <message>
+        <source>忠孝东路配送</source>
+        <translation>Zhongxiao East Road dispatch</translation>
+    </message>
+    <message>
+        <source>7 分钟</source>
+        <translation>7m</translation>
+    </message>
+    <message>
+        <source>预计到达</source>
+        <translation>ETA</translation>
+    </message>
+    <message>
+        <source>停靠点</source>
+        <translation>Stops</translation>
+    </message>
+    <message>
+        <source>公里</source>
+        <translation>Km</translation>
+    </message>
+    <message>
+        <source>实时位置</source>
+        <translation>Live Tracking</translation>
+    </message>
+    <message>
+        <source>定时调用标记的 setCoordinate 与路线的 setCoordinates：车辆沿路线从起点移动到终点，走过的路线变灰，面板中的剩余时间与距离同步刷新</source>
+        <translation>A timer calls setCoordinate on the marker and setCoordinates on the routes: the vehicle moves along the route from start to end, the part already travelled turns gray, and the remaining time and distance in the panel update with it</translation>
+    </message>
+    <message>
+        <source>实时配送</source>
+        <translation>Live delivery</translation>
+    </message>
+    <message>
+        <source>机车 14 正在前往终点</source>
+        <translation>Bike 14 is heading to the destination</translation>
+    </message>
+    <message>
+        <source>剩余时间</source>
+        <translation>Time left</translation>
+    </message>
+    <message>
+        <source>剩余距离</source>
+        <translation>Distance left</translation>
+    </message>
+    <message>
+        <source>进度</source>
+        <translation>Progress</translation>
+    </message>
+    <message>
+        <source>重新开始</source>
+        <translation>Restart</translation>
+    </message>
+    <message>
+        <source>%1 分钟</source>
+        <translation>%1 min</translation>
+    </message>
+    <message>
+        <source>%1 公里</source>
+        <translation>%1 km</translation>
+    </message>
+    <message>
+        <source>暂停</source>
+        <translation>Pause</translation>
+    </message>
+    <message>
+        <source>开始</source>
+        <translation>Start</translation>
+    </message>
+    <message>
+        <source>长途追踪</source>
+        <translation>Long-Distance Tracking</translation>
+    </message>
+    <message>
+        <source>路线跨越大陆时做法相同：列车沿西伯利亚铁路从莫斯科开往符拉迪沃斯托克，setContentWidget 把列车显示为图标，经过的站点用 setColor 变灰，面板中的下一站、剩余时间与距离同步刷新；路线是按主要车站连成的简化折线</source>
+        <translation>The same approach works across a continent: the train follows the Trans-Siberian Railway from Moscow to Vladivostok, setContentWidget shows the train as an icon, setColor turns the stops already passed gray, and the next stop, remaining time and distance in the panel update with it; the route is a simplified polyline through the main stations</translation>
+    </message>
+    <message>
+        <source>莫斯科</source>
+        <translation>Moscow</translation>
+    </message>
+    <message>
+        <source>叶卡捷琳堡</source>
+        <translation>Yekaterinburg</translation>
+    </message>
+    <message>
+        <source>新西伯利亚</source>
+        <translation>Novosibirsk</translation>
+    </message>
+    <message>
+        <source>伊尔库茨克</source>
+        <translation>Irkutsk</translation>
+    </message>
+    <message>
+        <source>哈巴罗夫斯克</source>
+        <translation>Khabarovsk</translation>
+    </message>
+    <message>
+        <source>符拉迪沃斯托克</source>
+        <translation>Vladivostok</translation>
+    </message>
+    <message>
+        <source>西伯利亚铁路</source>
+        <translation>Trans-Siberian Railway</translation>
+    </message>
+    <message>
+        <source>下一站：%1</source>
+        <translation>Next stop: %1</translation>
+    </message>
+    <message>
+        <source>已到达终点</source>
+        <translation>Arrived at the destination</translation>
+    </message>
+    <message>
+        <source>%1 小时</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <source>房源列表</source>
+        <translation>Home Listings</translation>
+    </message>
+    <message>
+        <source>setText 把标记显示为文字胶囊，setSelected 切换选中态；点击列表项或标记时两边同步选中，并打开对应的弹出框</source>
+        <translation>setText shows a marker as a text pill and setSelected toggles its selected state; clicking a list item or a marker selects both and opens the matching popup</translation>
+    </message>
+    <message>
+        <source>大安森林景观宅</source>
+        <translation>Daan Park view home</translation>
+    </message>
+    <message>
+        <source>大安区</source>
+        <translation>Daan</translation>
+    </message>
+    <message>
+        <source>信义高楼层公寓</source>
+        <translation>Xinyi high-rise flat</translation>
+    </message>
+    <message>
+        <source>信义区</source>
+        <translation>Xinyi</translation>
+    </message>
+    <message>
+        <source>中山电梯华厦</source>
+        <translation>Zhongshan condo</translation>
+    </message>
+    <message>
+        <source>中山区</source>
+        <translation>Zhongshan</translation>
+    </message>
+    <message>
+        <source>士林河岸宅</source>
+        <translation>Shilin riverside home</translation>
+    </message>
+    <message>
+        <source>士林区</source>
+        <translation>Shilin</translation>
+    </message>
+    <message>
+        <source>万华小套房</source>
+        <translation>Wanhua studio</translation>
+    </message>
+    <message>
+        <source>万华区</source>
+        <translation>Wanhua</translation>
+    </message>
+    <message>
+        <source>内湖科技宅</source>
+        <translation>Neihu tech park home</translation>
+    </message>
+    <message>
+        <source>内湖区</source>
+        <translation>Neihu</translation>
+    </message>
+    <message>
+        <source>待售房源</source>
+        <translation>For sale</translation>
+    </message>
+    <message>
+        <source>台北市 6 套</source>
+        <translation>6 homes in Taipei</translation>
+    </message>
+    <message>
+        <source>%1 房 %2 卫</source>
+        <translation>%1 bd · %2 ba</translation>
+    </message>
+    <message>
+        <source>车队调度</source>
+        <translation>Fleet Dispatch</translation>
+    </message>
+    <message>
+        <source>多个标记各自带弹出框的标题与说明，配合浮动面板展示整体状态；矢量瓦片在街道级别显示路名</source>
+        <translation>Each marker carries its own popup title and description, and an overlay panel shows the overall status; vector tiles show road names at street level</translation>
+    </message>
+    <message>
+        <source>机车 14</source>
+        <translation>Bike 14</translation>
+    </message>
+    <message>
+        <source>骑手：小陈</source>
+        <translation>Rider: Chen</translation>
+    </message>
+    <message>
+        <source>配送中 · 6 分钟</source>
+        <translation>En route · 6 min</translation>
+    </message>
+    <message>
+        <source>机车 07</source>
+        <translation>Bike 07</translation>
+    </message>
+    <message>
+        <source>骑手：小林</source>
+        <translation>Rider: Lin</translation>
+    </message>
+    <message>
+        <source>空闲 · 等待派单</source>
+        <translation>Idle · awaiting orders</translation>
+    </message>
+    <message>
+        <source>货车 03</source>
+        <translation>Truck 03</translation>
+    </message>
+    <message>
+        <source>司机：老王</source>
+        <translation>Driver: Wang</translation>
+    </message>
+    <message>
+        <source>待处理 · 装货中</source>
+        <translation>On hold · loading</translation>
+    </message>
+    <message>
+        <source>台北市中心区域</source>
+        <translation>Taipei central zone</translation>
+    </message>
+    <message>
+        <source>在线</source>
+        <translation>Active</translation>
+    </message>
+    <message>
+        <source>准时率</source>
+        <translation>SLA</translation>
+    </message>
+    <message>
+        <source>待处理</source>
+        <translation>Holds</translation>
+    </message>
+    <message>
+        <source>航线图</source>
+        <translation>Flight Paths</translation>
+    </message>
+    <message>
+        <source>setProjection(ShadMapType::Globe) 切换为地球仪视图，拖动旋转地球，弧线沿大圆航线绘制；addArc 为每条航线设置不同的颜色，浮动面板中用图例列出航线与客座率</source>
+        <translation>setProjection(ShadMapType::Globe) switches to the globe view, where dragging rotates the globe and arcs follow great-circle routes; addArc gives each route its own color, and the overlay panel lists the routes and load factors as a legend</translation>
+    </message>
+    <message>
+        <source>地球仪</source>
+        <translation>Globe</translation>
+    </message>
+    <message>
+        <source>平面</source>
+        <translation>Flat</translation>
+    </message>
+    <message>
+        <source>航班运营</source>
+        <translation>Flight operations</translation>
+    </message>
+    <message>
+        <source>长途运力调度</source>
+        <translation>Long-haul capacity desk</translation>
+    </message>
+    <message>
+        <source>航线</source>
+        <translation>Routes</translation>
+    </message>
+    <message>
+        <source>座位</source>
+        <translation>Seats</translation>
+    </message>
+    <message>
+        <source>峰值</source>
+        <translation>Peak</translation>
+    </message>
+    <message>
+        <source>静态与加载</source>
+        <translation>Static and Loading</translation>
+    </message>
+    <message>
+        <source>setInteractive(false) 关闭拖动与缩放，setControlsVisible(false) 隐藏缩放按钮，适合做位置预览；setLoading 显示加载状态</source>
+        <translation>setInteractive(false) disables panning and zooming and setControlsVisible(false) hides the zoom buttons, which suits a location preview; setLoading shows the loading state</translation>
+    </message>
+    <message>
+        <source>切换加载状态</source>
+        <translation>Toggle Loading</translation>
     </message>
 </context>
 <context>

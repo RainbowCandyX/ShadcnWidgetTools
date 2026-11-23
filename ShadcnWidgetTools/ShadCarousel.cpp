@@ -264,6 +264,24 @@ bool ShadCarousel::isNavigationVisible() const
     return d->_isNavigationVisible;
 }
 
+void ShadCarousel::setNavigationPlacement(ShadCarouselType::NavigationPlacement placement)
+{
+    Q_D(ShadCarousel);
+    if (d->_navigationPlacement == placement)
+    {
+        return;
+    }
+    d->_navigationPlacement = placement;
+    d->updateLayout();
+    updateGeometry();
+}
+
+ShadCarouselType::NavigationPlacement ShadCarousel::getNavigationPlacement() const
+{
+    Q_D(const ShadCarousel);
+    return d->_navigationPlacement;
+}
+
 void ShadCarousel::scrollPrev()
 {
     Q_D(ShadCarousel);

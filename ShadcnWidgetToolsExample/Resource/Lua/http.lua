@@ -20,7 +20,7 @@ print("错误的 JSON 返回 nil 与说明：" .. tostring(badJsonError))
 
 -- XML
 local document, xmlError = shad.xml.decode([[
-<library name="ShadcnWidgetTools" version="1.3.2">
+<library name="ShadcnWidgetTools" version="1.5.0">
     <component type="chart">ShadLineChart</component>
     <component type="input">ShadInput</component>
 </library>]])

@@ -19,6 +19,7 @@
 - [数据模型与表格](#数据模型与表格)
 - [布局与容器](#布局与容器)
 - [弹层与菜单](#弹层与菜单)
+- [地图](#地图)
 
 ## 通用规则
 
@@ -906,7 +907,7 @@ Expander        shad.Expander.new([parent])                      toggle() 是槽
   removeItem(widget)
   getItems() -> 数组
 
-Carousel        shad.Carousel.new([parent])
+Carousel        shad.Carousel.new([parent])                      navigationPlacement 取 shad.CarouselType 的 Outside（默认）/ Inside
   addItem(item) -> index
   insertItem(index, item) -> index
   removeItem(index)
@@ -918,6 +919,17 @@ Carousel        shad.Carousel.new([parent])
   canScrollPrev() -> boolean
   canScrollNext() -> boolean
   snapCount() -> number
+
+CarouselDots    shad.CarouselDots.new([carousel], [parent])      分页圆点，点击跳转；dotSize、spacing 是属性
+  setCarousel(carousel)    getCarousel() -> Carousel
+
+CarouselThumbnails  shad.CarouselThumbnails.new([carousel], [parent])   缩略图条；thumbnailSize、spacing、navigationVisible 是属性
+  setCarousel(carousel)    getCarousel() -> Carousel
+  addThumbnail(path) -> index                    按图片路径添加，第 index 张对应第 index 个停靠点
+  setThumbnail(index, path)
+  removeThumbnail(index)
+  clear()
+  count() -> number
 
 Toolbar         shad.Toolbar.new([orientation], [parent])
   addAction(icon, text) -> QAction
@@ -1144,4 +1156,132 @@ popupAt(x, y)                         屏幕坐标
 ```
 attachTo(target)
 detachFrom(target)
+```
+
+## 地图
+
+只在 `SHADCN_BUILD_LUA` 与 `SHADCN_BUILD_MAP` 同时开启时提供，C++ 侧的说明见 [README](../README.md#地图)。
+
+地理坐标写入时用数组 `{纬度, 经度}`，也接受 `{latitude = 纬度, longitude = 经度}`；读取得到带 `latitude`、`longitude` 字段的表。下文的 `coordinate` 指一个地理坐标，`coordinates` 指地理坐标的数组。
+
+枚举都在 `shad.MapType` 下：
+
+| 用途 | 取值 |
+| --- | --- |
+| 控件与浮动面板的位置 | `TopLeft`、`TopRight`、`BottomLeft`、`BottomRight` |
+| 标记标签的位置 | `Top`、`Bottom` |
+| 瓦片格式 | `Raster`、`Vector` |
+| 投影 | `Mercator`、`Globe` |
+| 主题 | `Auto`、`Light`、`Dark` |
+
+```lua
+local map = shad.Map.new()
+map:setVectorTileUrl("https://tiles.openfreemap.org/planet")
+map.tileFormat = shad.MapType.Vector
+map.attribution = "© OpenMapTiles © OpenStreetMap contributors"
+map:setCenter({25.0330, 121.5654})
+map.zoom = 12
+
+local marker = map:addMarker({25.0338, 121.5645})
+marker.label = "台北 101"
+marker.popupText = "点击标记时显示的文字"
+
+local route = map:addRoute({{25.0478, 121.5170}, {25.0416, 121.5437}, {25.0411, 121.5660}})
+route.color = "#2563eb"
+map:fitBounds(route:getCoordinates(), 64)
+
+map:on("clicked", function(coordinate) print(coordinate.latitude, coordinate.longitude) end)
+map:on("markerClicked", function(clicked) print(clicked.label) end)
+return map
+```
+
+### Map
+
+`shad.Map.new([parent])`。`zoom`、`minimumZoom`、`maximumZoom`、`bearing`、`attribution`、`vectorTileUrl`、`tileFormat`、`projection`、`theme`、`interactive`、`loading`、`controlsVisible`、`controlPosition`、`clusteringEnabled`、`rotationEnabled` 是属性；`zoomIn()`、`zoomOut()`、`resetView()`、`resetNorth()`、`locate()` 是槽。
+
+信号：`viewportChanged()`、`clicked(coordinate)`、`markerClicked(marker)`、`locateRequested()`、`geoJsonLoaded(url, count)`、`geoJsonFailed(url, error)`。
+
+```
+setTileUrl(lightUrl, [darkUrl])
+getTileUrl() -> string               getDarkTileUrl() -> string
+setTileSubdomains(subdomains)        getTileSubdomains() -> 数组
+setCenter(coordinate)                getCenter() -> coordinate
+flyTo(coordinate, zoom)
+fitBounds(coordinates, [padding])    padding 默认 48
+coordinateAt(x, y) -> coordinate     组件内的像素位置对应的地理坐标
+positionOf(coordinate) -> 带 x、y 字段的表
+
+addMarker(coordinate) -> MapMarker
+removeMarker(marker)
+markers() -> 数组
+clearMarkers()
+showMarkerPopup(marker)              hideMarkerPopup()
+addGeoJson(text) -> 数组             读取 GeoJSON 文本中的点，返回添加的标记
+loadGeoJson(url)                     结果通过 geoJsonLoaded 与 geoJsonFailed 信号给出
+
+addRoute(coordinates) -> MapRoute
+removeRoute(route)
+
+addArc(from, to) -> MapArc           from、to 为 coordinate
+addArcs(items) -> 数组               items 为 {{id = "编号", from = coordinate, to = coordinate}, ...}
+removeArc(arc)
+arc(id) -> MapArc                    没有时返回 nil
+arcs() -> 数组
+clearArcs()
+
+addPopup(coordinate, [text]) -> MapPopup
+removePopup(popup)
+addOverlay(widget, [position])       position 默认 shad.MapType.TopLeft
+removeOverlay(widget)
+
+setZoomControlVisible(visible)       isZoomControlVisible() -> boolean
+setResetControlVisible(visible)      isResetControlVisible() -> boolean
+setLocateControlVisible(visible)     isLocateControlVisible() -> boolean
+setCompassControlVisible(visible)    isCompassControlVisible() -> boolean
+addControlButton(icon, [toolTip]) -> Button
+removeControlButton(button)
+addControlSeparator()
+
+setUserLocation(coordinate)          getUserLocation() -> coordinate
+hasUserLocation() -> boolean
+clearUserLocation()
+```
+
+`addMarker`、`addRoute`、`addArc`、`addPopup` 返回的对象由地图持有，没有构造函数，用对应的 `remove` 方法移除。
+
+### MapMarker
+
+`color`、`ringColor`、`label`、`labelPosition`、`text`、`selected`、`toolTip`、`popupTitle`、`popupText`、`draggable` 是属性。信号：`clicked()`、`dragEnded(coordinate)`、`changed()`。
+
+```
+setCoordinate(coordinate)            getCoordinate() -> coordinate
+setContentWidget(widget)             getContentWidget() -> widget
+```
+
+### MapRoute
+
+`color`、`width`、`opacity` 是属性。
+
+```
+setCoordinates(coordinates)          getCoordinates() -> coordinates
+setDashPattern(pattern)              getDashPattern() -> 数组        pattern 为数字的数组，空数组为实线
+```
+
+### MapArc
+
+`color`、`width`、`curvature`、`id` 是属性。
+
+```
+setEndpoints(from, to)
+getFrom() -> coordinate              getTo() -> coordinate
+```
+
+### MapPopup
+
+继承 Widget，`show()` 与 `hide()` 是槽。`title`、`description`、`text`、`closeButtonVisible`、`placement`（取 `shad.PlacementType`）、`arrowVisible` 是属性。信号：`closed()`、`changed()`。
+
+```
+setCoordinate(coordinate)            getCoordinate() -> coordinate
+setContentWidget(widget)             getContentWidget() -> widget
+setAnchorOffset(offset)              getAnchorOffset() -> number
 ```

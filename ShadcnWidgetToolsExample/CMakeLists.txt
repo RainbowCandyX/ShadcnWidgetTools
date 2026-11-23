@@ -13,6 +13,10 @@ message(STATUS "示例 AI 对话页面: ${SHADCN_EXAMPLE_AI_CHAT}")
 if (NOT SHADCN_BUILD_LUA)
     list(FILTER EXAMPLE_PAGE_FILES EXCLUDE REGEX "/Lua[^/]*$")
 endif ()
+# 地图页面只在编译了地图库时加入
+if (NOT SHADCN_BUILD_MAP)
+    list(FILTER EXAMPLE_PAGE_FILES EXCLUDE REGEX "/MapPage\\.(h|cpp)$")
+endif ()
 source_group(ExamplePage FILES ${EXAMPLE_PAGE_FILES})
 
 # macOS 上生成 .app bundle，install 时 Qt 部署脚本只支持 bundle
@@ -64,6 +68,10 @@ if (SHADCN_EXAMPLE_AI_CHAT)
     target_link_libraries(${EXAMPLE_TARGET} PRIVATE Qt6::Network)
     target_compile_definitions(${EXAMPLE_TARGET} PRIVATE SHADCN_EXAMPLE_AI_CHAT)
 endif ()
+if (SHADCN_BUILD_MAP)
+    target_link_libraries(${EXAMPLE_TARGET} PRIVATE ShadcnWidgetTools::ShadcnWidgetToolsMap)
+    target_compile_definitions(${EXAMPLE_TARGET} PRIVATE SHADCN_EXAMPLE_MAP)
+endif ()
 if (SHADCN_BUILD_LUA)
     target_link_libraries(${EXAMPLE_TARGET} PRIVATE ShadcnWidgetTools::ShadcnWidgetToolsLua)
     target_compile_definitions(${EXAMPLE_TARGET} PRIVATE SHADCN_EXAMPLE_LUA)
@@ -91,6 +99,15 @@ if (SHADCN_BUILD_LUA)
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/timer.lua"
         "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/wizard.lua"
     )
+    # 地图脚本只在同时编译了地图库时加入
+    if (SHADCN_BUILD_MAP)
+        qt_add_resources(${EXAMPLE_TARGET} "ShadcnWidgetToolsExampleLuaMap"
+            PREFIX "/lua"
+            BASE "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua"
+            FILES
+            "${CMAKE_CURRENT_SOURCE_DIR}/Resource/Lua/map.lua"
+        )
+    endif ()
 endif ()
 
 set_target_properties(${EXAMPLE_TARGET} PROPERTIES

@@ -1,11 +1,14 @@
 #include "CarouselPage.h"
 
 #include <QChar>
+#include <QColor>
 #include <QFont>
 #include <QList>
 #include <QPaintEvent>
 #include <QPainter>
+#include <QPainterPath>
 #include <QPen>
+#include <QPixmap>
 #include <QRectF>
 #include <QSize>
 #include <QString>
@@ -19,6 +22,8 @@
 #include "ExampleI18n.h"
 #include "ShadCard.h"
 #include "ShadCarousel.h"
+#include "ShadCarouselDots.h"
+#include "ShadCarouselThumbnails.h"
 #include "ShadDef.h"
 #include "ShadLabel.h"
 #include "ShadTheme.h"
@@ -40,6 +45,10 @@ namespace
     constexpr int kLargeTextSize = 36;
     constexpr int kMediumTextSize = 30;
     constexpr int kSmallTextSize = 24;
+    constexpr int kTileColorCount = 8;
+    constexpr int kColorSlideHeight = 216;
+    constexpr int kThumbnailPixmapSize = 128;
+    constexpr int kCompanionSpacing = 8;
 
     // 示例用的幻灯片：p-1 内放一张卡片（bg-card rounded-xl border），卡片中间是一个数字
     // isSquare 为 true 时按宽度保持正方形（aspect-square），对应横向示例；纵向示例的高度由轮播决定
@@ -120,6 +129,78 @@ namespace
         label->setColorRole(ShadThemeType::MutedForeground);
         return label;
     }
+
+    QColor tileColor(int index)
+    {
+        static const QColor colors[kTileColorCount] = {QColor(0xef, 0x44, 0x44), QColor(0xf9, 0x73, 0x16), QColor(0xea, 0xb3, 0x08), QColor(0x22, 0xc5, 0x5e), QColor(0x06, 0xb6, 0xd4), QColor(0x3b, 0x82, 0xf6), QColor(0x8b, 0x5c, 0xf6), QColor(0xec, 0x48, 0x99)};
+        return colors[index % kTileColorCount];
+    }
+
+    void paintTile(QPainter* painter, const QRectF& rect, int index, int textPixelSize, QFont font)
+    {
+        font.setPixelSize(textPixelSize);
+        font.setWeight(QFont::DemiBold);
+        painter->fillRect(rect, tileColor(index));
+        painter->setFont(font);
+        painter->setPen(Qt::white);
+        painter->drawText(rect, Qt::AlignCenter, QString::number(index + 1));
+    }
+
+    class ColorSlide : public QWidget
+    {
+        public:
+            ColorSlide(int index, const QSize& hint, QWidget* parent = nullptr)
+                : QWidget(parent), _index(index), _hint(hint)
+            {
+            }
+
+            QSize sizeHint() const override
+            {
+                return _hint;
+            }
+
+        protected:
+            void paintEvent(QPaintEvent* event) override
+            {
+                Q_UNUSED(event);
+                const qreal radius = shadTheme->getRadius(ShadThemeType::ExtraLarge);
+                QPainter painter(this);
+                painter.setRenderHints(QPainter::Antialiasing | QPainter::TextAntialiasing);
+                QPainterPath clipPath;
+                clipPath.addRoundedRect(QRectF(rect()), radius, radius);
+                painter.setClipPath(clipPath);
+                paintTile(&painter, QRectF(rect()), _index, kLargeTextSize, font());
+            }
+
+        private:
+            int _index;
+            QSize _hint;
+    };
+
+    ShadCarousel* createColorCarousel(int count, QWidget* parent)
+    {
+        ShadCarousel* carousel = new ShadCarousel(parent);
+        for (int index = 0; index < count; ++index)
+        {
+            carousel->addItem(new ColorSlide(index, QSize(kWideContentWidth, kColorSlideHeight), carousel));
+        }
+        return carousel;
+    }
+
+    ShadCarouselThumbnails* createThumbnails(ShadCarousel* carousel, int count, QWidget* parent)
+    {
+        ShadCarouselThumbnails* thumbnails = new ShadCarouselThumbnails(carousel, parent);
+        for (int index = 0; index < count; ++index)
+        {
+            QPixmap pixmap(kThumbnailPixmapSize, kThumbnailPixmapSize);
+            QPainter painter(&pixmap);
+            painter.setRenderHint(QPainter::TextAntialiasing, true);
+            paintTile(&painter, QRectF(pixmap.rect()), index, kThumbnailPixmapSize / 3, thumbnails->font());
+            painter.end();
+            thumbnails->addThumbnail(pixmap);
+        }
+        return thumbnails;
+    }
 } // namespace
 
 CarouselPage::CarouselPage(QWidget* parent)
@@ -196,6 +277,45 @@ CarouselPage::CarouselPage(QWidget* parent)
     ShadCarousel* autoplayCarousel = createHorizontalCarousel(kNarrowContentWidth, 1, kDefaultSpacing, kLargeTextSize, this);
     autoplayCarousel->setAutoplayInterval(2000);
     addRow(autoplayCard, {autoplayCarousel});
+
+    ShadCard* placementCard = addSection([] { return tr("按钮位置"); }, [] { return tr("setNavigationPlacement(Inside) 把按钮放进内容区；默认为 Outside，按钮在内容区两侧"); });
+    ShadCarousel* insideCarousel = createColorCarousel(kTileColorCount / 2, this);
+    insideCarousel->setNavigationPlacement(ShadCarouselType::Inside);
+    addRow(placementCard, {insideCarousel});
+
+    ShadCard* dotsCard = addSection([] { return tr("圆点"); }, [] { return tr("ShadCarouselDots 绑定轮播后显示分页圆点，点击圆点跳转"); });
+    QWidget* dotsContainer = new QWidget(this);
+    QVBoxLayout* dotsLayout = new QVBoxLayout(dotsContainer);
+    dotsLayout->setContentsMargins(0, 0, 0, 0);
+    dotsLayout->setSpacing(kCompanionSpacing);
+    ShadCarousel* dotsCarousel = createColorCarousel(kTileColorCount / 2, dotsContainer);
+    dotsCarousel->setLoop(true);
+    dotsLayout->addWidget(dotsCarousel);
+    dotsLayout->addWidget(new ShadCarouselDots(dotsCarousel, dotsContainer));
+    addRow(dotsCard, {dotsContainer});
+
+    ShadCard* thumbnailsCard = addSection([] { return tr("缩略图"); }, [] { return tr("ShadCarouselThumbnails 绑定轮播，addThumbnail 逐张添加缩略图，点击缩略图跳转，当前项带描边"); });
+    QWidget* thumbnailsContainer = new QWidget(this);
+    QVBoxLayout* thumbnailsLayout = new QVBoxLayout(thumbnailsContainer);
+    thumbnailsLayout->setContentsMargins(0, 0, 0, 0);
+    thumbnailsLayout->setSpacing(kCompanionSpacing);
+    ShadCarousel* thumbnailsCarousel = createColorCarousel(kTileColorCount / 2, thumbnailsContainer);
+    thumbnailsLayout->addWidget(thumbnailsCarousel);
+    thumbnailsLayout->addWidget(createThumbnails(thumbnailsCarousel, kTileColorCount / 2, thumbnailsContainer));
+    addRow(thumbnailsCard, {thumbnailsContainer});
+
+    ShadCard* miniaturesCard = addSection([] { return tr("缩略图行内按钮"); }, [] { return tr("隐藏轮播自身的按钮，setNavigationVisible(true) 把按钮放到缩略图两端；缩略图放不下时自动滚动到当前项"); });
+    QWidget* miniaturesContainer = new QWidget(this);
+    QVBoxLayout* miniaturesLayout = new QVBoxLayout(miniaturesContainer);
+    miniaturesLayout->setContentsMargins(0, 0, 0, 0);
+    miniaturesLayout->setSpacing(kCompanionSpacing);
+    ShadCarousel* miniaturesCarousel = createColorCarousel(kTileColorCount, miniaturesContainer);
+    miniaturesCarousel->setNavigationVisible(false);
+    ShadCarouselThumbnails* miniatures = createThumbnails(miniaturesCarousel, kTileColorCount, miniaturesContainer);
+    miniatures->setNavigationVisible(true);
+    miniaturesLayout->addWidget(miniaturesCarousel);
+    miniaturesLayout->addWidget(miniatures);
+    addRow(miniaturesCard, {miniaturesContainer});
 
     // RTL：第一张在右侧，拖动与方向键随之镜像
     ShadCard* rtlCard = addSection([] { return QStringLiteral("RTL"); }, [] { return tr("从右到左布局下幻灯片顺序与拖动方向镜像"); });

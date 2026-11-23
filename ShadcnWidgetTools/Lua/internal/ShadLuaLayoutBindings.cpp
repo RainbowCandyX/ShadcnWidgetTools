@@ -6,6 +6,7 @@
 #include <QList>
 #include <QMetaType>
 #include <QObject>
+#include <QPixmap>
 #include <QRect>
 #include <QScrollArea>
 #include <QSplitter>
@@ -21,6 +22,8 @@
 #include "ShadAvatar.h"
 #include "ShadBackTop.h"
 #include "ShadCarousel.h"
+#include "ShadCarouselDots.h"
+#include "ShadCarouselThumbnails.h"
 #include "ShadCollapsible.h"
 #include "ShadDef.h"
 #include "ShadDockManager.h"
@@ -189,6 +192,33 @@ namespace
         carousel.method("canScrollPrev", &ShadCarousel::canScrollPrev);
         carousel.method("canScrollNext", &ShadCarousel::canScrollNext);
         carousel.method("snapCount", &ShadCarousel::snapCount);
+
+        // new(carousel, parent)
+        ShadLuaClass<ShadCarouselDots> carouselDots("CarouselDots");
+        carouselDots.constructor([](lua_State* L) -> ShadCarouselDots* { return new ShadCarouselDots(ShadLuaObject::get<ShadCarousel>(L, 1), ShadLuaObject::get<QWidget>(L, 2)); });
+        carouselDots.method("setCarousel", &ShadCarouselDots::setCarousel);
+        carouselDots.method("getCarousel", &ShadCarouselDots::getCarousel);
+
+        // new(carousel, parent)
+        ShadLuaClass<ShadCarouselThumbnails> carouselThumbnails("CarouselThumbnails");
+        carouselThumbnails.constructor([](lua_State* L) -> ShadCarouselThumbnails* { return new ShadCarouselThumbnails(ShadLuaObject::get<ShadCarousel>(L, 1), ShadLuaObject::get<QWidget>(L, 2)); });
+        carouselThumbnails.method("setCarousel", &ShadCarouselThumbnails::setCarousel);
+        carouselThumbnails.method("getCarousel", &ShadCarouselThumbnails::getCarousel);
+        // addThumbnail(path)
+        carouselThumbnails.rawMethod("addThumbnail", [](lua_State* L, ShadCarouselThumbnails* self) -> int
+        {
+            lua_pushinteger(L, self->addThumbnail(QPixmap(optionalString(L, 2))));
+            return 1;
+        });
+        // setThumbnail(index, path)
+        carouselThumbnails.rawMethod("setThumbnail", [](lua_State* L, ShadCarouselThumbnails* self) -> int
+        {
+            self->setThumbnail(optionalInt(L, 2, -1), QPixmap(optionalString(L, 3)));
+            return 0;
+        });
+        carouselThumbnails.method("removeThumbnail", &ShadCarouselThumbnails::removeThumbnail);
+        carouselThumbnails.method("clear", &ShadCarouselThumbnails::clear);
+        carouselThumbnails.method("count", &ShadCarouselThumbnails::count);
     }
 
     // 标签视图

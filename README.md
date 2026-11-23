@@ -102,7 +102,9 @@
 | ShadItem | 列表项 | 可点击，多种尺寸 |
 | ShadItemGroup | 列表项组 | 纵向排列，可插入分隔线 |
 | ShadListView | 虚拟列表 | 基于 QListView 只绘制可见行，三种尺寸，复选框，空状态，滚动加载更多 |
-| ShadCarousel | 轮播 | 横向 / 纵向，拖动与键盘切换 |
+| ShadCarousel | 轮播 | 横向 / 纵向，拖动与键盘切换，按钮可放在内容区外侧（默认）或内侧 |
+| ShadCarouselDots | 轮播圆点 | 绑定轮播的分页圆点，当前项带过渡动画，点击与方向键跳转 |
+| ShadCarouselThumbnails | 轮播缩略图 | 绑定轮播的缩略图条，当前项描边，放不下时自动滚动，可在两端显示翻页按钮 |
 | ShadImageViewer | 图片预览 | 缩放、旋转、翻转，多图切换，复制与保存 |
 | ShadAvatar | 头像 | 图片失败时显示文字或图标 |
 | ShadAvatarGroup | 头像组 | 头像重叠排列，末尾可显示计数 |
@@ -126,6 +128,7 @@
 | ShadLogView | 日志视图 | 按级别着色，级别与关键字过滤，自动跟随末尾，条数上限，选择与复制 |
 | ShadTimeline | 时间轴 | 轴在起始侧 / 结束侧 / 居中交替，图标节点，进行中节点，倒序 |
 | ShadMarker | 标记 | 对话中的状态与提示，行内、带边框与分隔线三种变体，扫光，可作为链接或按钮 |
+| ShadMap | 地图 | 栅格 PNG 与矢量瓦片地图（独立库 `ShadcnWidgetToolsMap`），平面与地球仪两种视图，标记、弹出框、路线、弧线、聚合与浮动面板，随主题切换 |
 | ShadQrCode | 二维码 | 纠错等级可选 |
 | ShadWatermark | 水印 | 文字或图片，交错平铺，角度与间距可调 |
 | ShadMarquee | 跑马灯 | 文字循环滚动，速度与方向可调，悬停暂停，两端渐隐 |
@@ -225,6 +228,7 @@ cmake --build --preset msvc-release
 | `SHADCN_INSTALL` | 顶层工程 `ON`，子工程 `OFF` | 安装头文件、库与 CMake 包配置；关闭时只安装动态库 |
 | `SHADCN_EXAMPLE_AI_CHAT` | `ON` | 示例程序编译 AI 对话页面，需要 Qt Network |
 | `SHADCN_BUILD_LUA` | `OFF` | 编译 Lua 绑定库 `ShadcnWidgetToolsLua`（静态库，链接进使用它的程序），示例程序增加 Lua 脚本页面 |
+| `SHADCN_BUILD_MAP` | `OFF` | 编译地图库 `ShadcnWidgetToolsMap`（静态库，链接进使用它的程序，需要 Qt Network），示例程序增加地图页面 |
 | `SHADCN_LUA_ENGINE` | `LuaJIT`，WebAssembly 为 `Lua` | Lua 运行时，随工程编译，不需要预装：`LuaJIT` 为 LuaJIT 2.1（源码在 `ThirdParty/LuaJIT`），`Lua` 为 PUC-Lua 5.4.8（配置时下载） |
 
 编译后不复制 Qt 运行库：Windows 上需要把 Qt 的 `bin` 目录加入 `PATH` 再运行示例；执行 `cmake --install build/<preset>` 时会自动部署 Qt 运行库。
@@ -237,7 +241,7 @@ cmake --build --preset msvc-release
 include(FetchContent)
 FetchContent_Declare(ShadcnWidgetTools
     GIT_REPOSITORY https://github.com/RainbowCandyX/ShadcnWidgetTools.git
-    GIT_TAG v1.3.2
+    GIT_TAG v1.5.0
     GIT_SHALLOW TRUE
 )
 FetchContent_MakeAvailable(ShadcnWidgetTools)
@@ -294,6 +298,40 @@ return card
 - 脚本出错不会中断程序，错误通过 `ShadLuaEngine::errorOccurred` 给出，`print` 的输出通过 `messagePrinted` 给出。
 - `ShadLuaEngine::load` / `loadFile` 返回脚本编号，`unload` 卸载脚本并删除它创建的窗口与定时器。
 - 脚本不必返回组件，没有返回时 `loadWidget` 返回 `nullptr` 且不算错误。
+
+## 地图
+
+`ShadcnWidgetToolsMap` 为静态库，加 `-DSHADCN_BUILD_MAP=ON` 开启，需要 Qt Network。
+
+```cmake
+set(SHADCN_BUILD_MAP ON)
+FetchContent_MakeAvailable(ShadcnWidgetTools)
+target_link_libraries(MyApp PRIVATE ShadcnWidgetTools::ShadcnWidgetToolsMap)
+```
+
+```cpp
+#include "ShadMap.h"
+#include "ShadMapMarker.h"
+
+ShadMap* map = new ShadMap(parent);
+// 第二个参数为深色主题的瓦片地址，留空时两种主题共用同一套瓦片
+map->setTileUrl("https://tile.openstreetmap.org/{z}/{x}/{y}.png");
+map->setAttribution("© OpenStreetMap contributors");
+map->setCenter(ShadMapCoordinate(31.2304, 121.4737));
+map->setZoom(11);
+
+ShadMapMarker* marker = map->addMarker(ShadMapCoordinate(31.2400, 121.4900));
+marker->setLabel("外滩");
+marker->setPopupText("点击标记时显示的文字");
+```
+
+- 瓦片：组件不内置瓦片源，地址由调用方提供，使用前确认瓦片服务的使用条款，并用 `setAttribution` 显示版权信息。`setTileUrl` 设置 XYZ 栅格瓦片；`setTileFormat(ShadMapType::Vector)` 配合 `setVectorTileUrl` 改用矢量瓦片，按 OpenMapTiles 规范在本地绘制，颜色跟随主题，地名跟随界面语言，不支持 MapLibre 样式 JSON。
+- 覆盖物：`addMarker`、`addRoute`、`addArc`、`addPopup` 添加标记、路线、弧线与弹出框，返回的对象由地图持有，可以随时修改；`addOverlay` 把任意组件固定在地图的一角，`setClusteringEnabled` 合并相邻标记，`addGeoJson` / `loadGeoJson` 从 GeoJSON 添加标记。
+- 视图：`setCenter`、`setZoom`、`flyTo`、`fitBounds` 调整视图，`fitBounds` 会避开浮动面板；`setProjection(ShadMapType::Globe)` 切换为地球仪视图，`setBearing` 旋转地图，不支持倾斜。
+- 控件与主题：内置缩放、复位、定位与指北针按钮，`addControlButton` 添加自定义按钮；`setTheme` 让单张地图固定使用浅色或深色。组件不读取系统定位，点击定位按钮发出 `locateRequested`，由程序用 `setUserLocation` 提供坐标。
+- 缓存与请求：瓦片缓存在内存与磁盘（上限 100 MB），请求的 User-Agent 为 `ShadcnWidgetTools/组件库版本`。
+- 示例：完整用法见示例程序的地图页面。矢量瓦片来自 OpenFreeMap，栅格瓦片默认使用 OpenStreetMap；设置环境变量 `SHADCN_EXAMPLE_CARTO_KEY` 为 CARTO 底图密钥后，栅格瓦片改用 CARTO。
+- Lua：同时开启 `SHADCN_BUILD_LUA` 时提供 `shad.Map`，接口见 [docs/lua-api.md](docs/lua-api.md#地图)。
 
 ## WebAssembly 构建
 

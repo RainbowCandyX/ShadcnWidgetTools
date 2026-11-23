@@ -21,6 +21,9 @@
 #include "ShadLuaInclude.h"
 #include "ShadLuaObject.h"
 #include "ShadLuaStack.h"
+#if defined(SHADCN_LUA_MAP)
+#include "ShadMapDef.h"
+#endif
 #include "ShadTheme.h"
 
 namespace
@@ -332,6 +335,9 @@ namespace ShadLuaMeta
         {
             installEnums(L, *metaObject);
         }
+#if defined(SHADCN_LUA_MAP)
+        installEnums(L, ShadMapType::staticMetaObject);
+#endif
         ShadLuaRegistry::installConstructors(L);
         lua_pushstring(L, "theme");
         ShadLuaObject::push(L, ShadTheme::getInstance());

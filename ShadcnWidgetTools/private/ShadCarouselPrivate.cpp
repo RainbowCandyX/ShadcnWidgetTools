@@ -44,7 +44,7 @@ ShadCarouselPrivate::~ShadCarouselPrivate()
 
 int ShadCarouselPrivate::navigationMargin() const
 {
-    return _isNavigationVisible ? kButtonOffset + ShadStyleHelper::kFocusRingWidth : 0;
+    return _isNavigationVisible && _navigationPlacement == ShadCarouselType::Outside ? kButtonOffset + ShadStyleHelper::kFocusRingWidth : 0;
 }
 
 QRect ShadCarouselPrivate::viewportRect(const QRect& bounds) const
@@ -298,22 +298,25 @@ void ShadCarouselPrivate::updateLayout()
     if (_isNavigationVisible)
     {
         const QSize buttonSize = _prevButton->sizeHint();
+        const int inset = _navigationPlacement == ShadCarouselType::Inside ? kInsideInset : 0;
         QRect prevRect;
         QRect nextRect;
         if (_orientation == Qt::Horizontal)
         {
             const int y = (bounds.height() - buttonSize.height()) / 2;
-            prevRect = ShadStyleHelper::visualRect(q->layoutDirection(), bounds, QRect(QPoint(0, y), buttonSize));
-            nextRect = ShadStyleHelper::visualRect(q->layoutDirection(), bounds, QRect(QPoint(bounds.width() - buttonSize.width(), y), buttonSize));
+            prevRect = ShadStyleHelper::visualRect(q->layoutDirection(), bounds, QRect(QPoint(inset, y), buttonSize));
+            nextRect = ShadStyleHelper::visualRect(q->layoutDirection(), bounds, QRect(QPoint(bounds.width() - buttonSize.width() - inset, y), buttonSize));
         }
         else
         {
             const int x = (bounds.width() - buttonSize.width()) / 2;
-            prevRect = QRect(QPoint(x, 0), buttonSize);
-            nextRect = QRect(QPoint(x, bounds.height() - buttonSize.height()), buttonSize);
+            prevRect = QRect(QPoint(x, inset), buttonSize);
+            nextRect = QRect(QPoint(x, bounds.height() - buttonSize.height() - inset), buttonSize);
         }
         _prevButton->setGeometry(prevRect);
         _nextButton->setGeometry(nextRect);
+        _prevButton->raise();
+        _nextButton->raise();
     }
     if (!_isNavigationVisible)
     {

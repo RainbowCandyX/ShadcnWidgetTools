@@ -1759,6 +1759,38 @@
         <source>从右到左布局下幻灯片顺序与拖动方向镜像</source>
         <translation>右から左へのレイアウトでは、スライドの順序とドラッグ方向が左右反転します</translation>
     </message>
+    <message>
+        <source>按钮位置</source>
+        <translation>ボタンの位置</translation>
+    </message>
+    <message>
+        <source>setNavigationPlacement(Inside) 把按钮放进内容区；默认为 Outside，按钮在内容区两侧</source>
+        <translation>setNavigationPlacement(Inside) でボタンをコンテンツ領域の内側に配置します。既定値は Outside で、ボタンはコンテンツ領域の両側に表示されます</translation>
+    </message>
+    <message>
+        <source>圆点</source>
+        <translation>ドット</translation>
+    </message>
+    <message>
+        <source>ShadCarouselDots 绑定轮播后显示分页圆点，点击圆点跳转</source>
+        <translation>ShadCarouselDots はカルーセルに関連付けるとページドットを表示し、ドットをクリックすると移動します</translation>
+    </message>
+    <message>
+        <source>缩略图</source>
+        <translation>サムネイル</translation>
+    </message>
+    <message>
+        <source>ShadCarouselThumbnails 绑定轮播，addThumbnail 逐张添加缩略图，点击缩略图跳转，当前项带描边</source>
+        <translation>ShadCarouselThumbnails をカルーセルに関連付け、addThumbnail でサムネイルを 1 枚ずつ追加します。サムネイルをクリックすると移動し、現在の項目には枠が付きます</translation>
+    </message>
+    <message>
+        <source>缩略图行内按钮</source>
+        <translation>サムネイル行のボタン</translation>
+    </message>
+    <message>
+        <source>隐藏轮播自身的按钮，setNavigationVisible(true) 把按钮放到缩略图两端；缩略图放不下时自动滚动到当前项</source>
+        <translation>カルーセル自体のボタンを非表示にし、setNavigationVisible(true) でサムネイルの両端にボタンを配置します。サムネイルが収まらない場合は現在の項目まで自動でスクロールします</translation>
+    </message>
 </context>
 <context>
     <name>ChartAreaPage</name>
@@ -7156,6 +7188,541 @@ echo &quot;ビルド完了&quot;
     <message>
         <source>首页</source>
         <translation>ホーム</translation>
+    </message>
+</context>
+<context>
+    <name>MapPage</name>
+    <message>
+        <source>地图</source>
+        <translation>マップ</translation>
+    </message>
+    <message>
+        <source>ShadMap：基于栅格瓦片的地图，支持标记、弹出框、路线、弧线与聚合，瓦片随主题在浅色与深色之间切换。</source>
+        <translation>ShadMap：ラスタータイルを使った地図。マーカー、ポップアップ、ルート、アーク、クラスタリングに対応し、タイルはテーマに合わせてライトとダークが切り替わります。</translation>
+    </message>
+    <message>
+        <source>基础用法</source>
+        <translation>基本的な使い方</translation>
+    </message>
+    <message>
+        <source>setTileUrl(浅色地址, 深色地址) 设置瓦片地址，深色主题下自动切换；拖动平移，滚轮或双击缩放，方向键与 + - 键也可以操作</source>
+        <translation>setTileUrl(ライト用 URL, ダーク用 URL) でタイルの URL を設定し、ダークテーマでは自動で切り替わります。ドラッグで移動、ホイールまたはダブルクリックでズーム、矢印キーと + - キーでも操作できます</translation>
+    </message>
+    <message>
+        <source>矢量瓦片</source>
+        <translation>ベクタータイル</translation>
+    </message>
+    <message>
+        <source>setTileFormat(ShadMapType::Vector) 改用矢量瓦片，setVectorTileUrl 可以传瓦片地址模板或 TileJSON 地址；矢量瓦片在本地绘制，颜色跟随主题，地名跟随界面语言；setTheme 让单张地图固定使用浅色或深色</source>
+        <translation>setTileFormat(ShadMapType::Vector) でベクタータイルに切り替え、setVectorTileUrl にはタイル URL テンプレートまたは TileJSON の URL を指定できます。ベクタータイルはローカルで描画され、色はテーマに、地名は表示言語に合わせて変わります。setTheme で 1 枚の地図をライトまたはダークに固定できます</translation>
+    </message>
+    <message>
+        <source>跟随主题</source>
+        <translation>テーマに合わせる</translation>
+    </message>
+    <message>
+        <source>浅色</source>
+        <translation>ライト</translation>
+    </message>
+    <message>
+        <source>深色</source>
+        <translation>ダーク</translation>
+    </message>
+    <message>
+        <source>矢量</source>
+        <translation>ベクター</translation>
+    </message>
+    <message>
+        <source>栅格 PNG</source>
+        <translation>ラスター PNG</translation>
+    </message>
+    <message>
+        <source>标记</source>
+        <translation>マーカー</translation>
+    </message>
+    <message>
+        <source>addMarker 添加标记，可设置颜色、标签、悬停提示与弹出文字；点击带弹出文字的标记显示弹出框；setContentWidget 把任意组件作为标记</source>
+        <translation>addMarker でマーカーを追加し、色、ラベル、ツールチップ、ポップアップの文字を設定できます。ポップアップの文字があるマーカーをクリックするとポップアップが表示されます。setContentWidget で任意のウィジェットをマーカーとして使えます</translation>
+    </message>
+    <message>
+        <source>展览中</source>
+        <translation>展示中</translation>
+    </message>
+    <message>
+        <source>国父纪念馆：这个标记是一个徽章组件</source>
+        <translation>国父紀念館：このマーカーはバッジのウィジェットです</translation>
+    </message>
+    <message>
+        <source>台北 101</source>
+        <translation>台北 101</translation>
+    </message>
+    <message>
+        <source>台北 101：信义区的地标摩天大楼</source>
+        <translation>台北 101：信義区のランドマークとなる超高層ビル</translation>
+    </message>
+    <message>
+        <source>中正纪念堂</source>
+        <translation>中正紀念堂</translation>
+    </message>
+    <message>
+        <source>中正纪念堂：中正区的纪念建筑与广场</source>
+        <translation>中正紀念堂：中正区の記念建築と広場</translation>
+    </message>
+    <message>
+        <source>台北车站</source>
+        <translation>台北駅</translation>
+    </message>
+    <message>
+        <source>台北车站：铁路、高铁与捷运的交通枢纽</source>
+        <translation>台北駅：在来線、高速鉄道、MRT が集まる交通の拠点</translation>
+    </message>
+    <message>
+        <source>龙山寺</source>
+        <translation>龍山寺</translation>
+    </message>
+    <message>
+        <source>悬停时显示的提示</source>
+        <translation>ホバー時に表示されるツールチップ</translation>
+    </message>
+    <message>
+        <source>点击标记查看详情</source>
+        <translation>マーカーをクリックすると詳細が表示されます</translation>
+    </message>
+    <message>
+        <source>已点击：%1</source>
+        <translation>クリック：%1</translation>
+    </message>
+    <message>
+        <source>可拖动标记</source>
+        <translation>ドラッグ可能なマーカー</translation>
+    </message>
+    <message>
+        <source>setDraggable(true) 后标记可以拖动，松开时发出 dragEnded 信号</source>
+        <translation>setDraggable(true) でマーカーをドラッグできるようになり、離したときに dragEnded シグナルが発行されます</translation>
+    </message>
+    <message>
+        <source>拖动标记到新的位置</source>
+        <translation>マーカーを新しい位置までドラッグしてください</translation>
+    </message>
+    <message>
+        <source>纬度 %1，经度 %2</source>
+        <translation>緯度 %1、経度 %2</translation>
+    </message>
+    <message>
+        <source>路线</source>
+        <translation>ルート</translation>
+    </message>
+    <message>
+        <source>addRoute 按坐标列表绘制折线，可设置颜色、线宽、透明度与虚线；fitBounds 让视图容纳全部坐标</source>
+        <translation>addRoute は座標のリストに沿って折れ線を描画し、色、線幅、不透明度、破線を設定できます。fitBounds はすべての座標が収まるように表示を調整します</translation>
+    </message>
+    <message>
+        <source>高雄</source>
+        <translation>高雄</translation>
+    </message>
+    <message>
+        <source>花莲</source>
+        <translation>花蓮</translation>
+    </message>
+    <message>
+        <source>弧线</source>
+        <translation>アーク</translation>
+    </message>
+    <message>
+        <source>addArc 在两个坐标之间绘制弧线，setCurvature 调整弯曲程度，适合表示航线或数据流向</source>
+        <translation>addArc は 2 つの座標の間にアークを描画し、setCurvature で曲がり具合を調整します。航路やデータの流れの表現に適しています</translation>
+    </message>
+    <message>
+        <source>东京</source>
+        <translation>東京</translation>
+    </message>
+    <message>
+        <source>新加坡</source>
+        <translation>シンガポール</translation>
+    </message>
+    <message>
+        <source>迪拜</source>
+        <translation>ドバイ</translation>
+    </message>
+    <message>
+        <source>伦敦</source>
+        <translation>ロンドン</translation>
+    </message>
+    <message>
+        <source>聚合</source>
+        <translation>クラスタリング</translation>
+    </message>
+    <message>
+        <source>addGeoJson 读取 GeoJSON 中的点并逐个添加为标记，loadGeoJson 从地址下载；setClusteringEnabled(true) 把相邻的标记合并成带数量的圆点，点击圆点放大展开</source>
+        <translation>addGeoJson は GeoJSON 内のポイントを読み取ってマーカーとして追加し、loadGeoJson は URL からダウンロードします。setClusteringEnabled(true) は近くのマーカーを件数付きの円にまとめ、円をクリックするとズームして展開されます</translation>
+    </message>
+    <message>
+        <source>控件</source>
+        <translation>コントロール</translation>
+    </message>
+    <message>
+        <source>右键拖动或按住 Ctrl 拖动可以旋转地图，setCompassControlVisible 显示指北针，点击转回正北；setLocateControlVisible 显示定位按钮，addControlButton 添加自定义按钮，addControlSeparator 添加分隔线；组件不获取系统定位，点击定位按钮时由程序用 setUserLocation 提供坐标</source>
+        <translation>右ボタンのドラッグ、または Ctrl を押しながらのドラッグで地図を回転できます。setCompassControlVisible でコンパスを表示し、クリックすると北向きに戻ります。setLocateControlVisible で現在地ボタンを表示し、addControlButton でカスタムボタン、addControlSeparator で区切り線を追加します。ウィジェットはシステムの位置情報を取得しないため、現在地ボタンがクリックされたときにアプリが setUserLocation で座標を渡します</translation>
+    </message>
+    <message>
+        <source>切换地球仪视图</source>
+        <translation>地球儀表示を切り替え</translation>
+    </message>
+    <message>
+        <source>点击定位按钮，示例用台北 101 的坐标模拟当前位置</source>
+        <translation>現在地ボタンをクリックしてください。このサンプルでは台北 101 の座標を現在地として使います</translation>
+    </message>
+    <message>
+        <source>飞行定位</source>
+        <translation>指定位置へ移動</translation>
+    </message>
+    <message>
+        <source>flyTo 以动画移动到指定坐标与缩放级别</source>
+        <translation>flyTo は指定した座標とズームレベルまでアニメーションで移動します</translation>
+    </message>
+    <message>
+        <source>台北</source>
+        <translation>台北</translation>
+    </message>
+    <message>
+        <source>纽约</source>
+        <translation>ニューヨーク</translation>
+    </message>
+    <message>
+        <source>弹出框</source>
+        <translation>ポップアップ</translation>
+    </message>
+    <message>
+        <source>addPopup 在坐标上添加常驻的弹出框，setContentWidget 可以放入任意组件</source>
+        <translation>addPopup は座標に常時表示のポップアップを追加し、setContentWidget で任意のウィジェットを配置できます</translation>
+    </message>
+    <message>
+        <source>台北：这个弹出框固定在坐标上，随地图移动</source>
+        <translation>台北：このポップアップは座標に固定され、地図と一緒に移動します</translation>
+    </message>
+    <message>
+        <source>显示弹出框</source>
+        <translation>ポップアップを表示</translation>
+    </message>
+    <message>
+        <source>路线规划</source>
+        <translation>ルートプランナー</translation>
+    </message>
+    <message>
+        <source>addOverlay 把任意组件固定在地图的一角；标记用 setPopupTitle 与 setPopupText 设置弹出框的标题和说明，showMarkerPopup 直接打开弹出框</source>
+        <translation>addOverlay は任意のウィジェットを地図の隅に固定します。マーカーは setPopupTitle と setPopupText でポップアップのタイトルと説明を設定し、showMarkerPopup でポップアップを直接開きます</translation>
+    </message>
+    <message>
+        <source>起点</source>
+        <translation>出発地</translation>
+    </message>
+    <message>
+        <source>终点</source>
+        <translation>目的地</translation>
+    </message>
+    <message>
+        <source>忠孝复兴站</source>
+        <translation>忠孝復興駅</translation>
+    </message>
+    <message>
+        <source>下一站</source>
+        <translation>次の停車地</translation>
+    </message>
+    <message>
+        <source>预计 9:19 到达</source>
+        <translation>9:19 到着予定</translation>
+    </message>
+    <message>
+        <source>忠孝东路配送</source>
+        <translation>忠孝東路の配送</translation>
+    </message>
+    <message>
+        <source>7 分钟</source>
+        <translation>7 分</translation>
+    </message>
+    <message>
+        <source>预计到达</source>
+        <translation>到着予定</translation>
+    </message>
+    <message>
+        <source>停靠点</source>
+        <translation>停車地</translation>
+    </message>
+    <message>
+        <source>公里</source>
+        <translation>km</translation>
+    </message>
+    <message>
+        <source>实时位置</source>
+        <translation>リアルタイム位置</translation>
+    </message>
+    <message>
+        <source>定时调用标记的 setCoordinate 与路线的 setCoordinates：车辆沿路线从起点移动到终点，走过的路线变灰，面板中的剩余时间与距离同步刷新</source>
+        <translation>タイマーでマーカーの setCoordinate とルートの setCoordinates を呼び出します。車両がルートに沿って出発地から目的地まで移動し、通過した区間はグレーになり、パネルの残り時間と距離も合わせて更新されます</translation>
+    </message>
+    <message>
+        <source>实时配送</source>
+        <translation>リアルタイム配送</translation>
+    </message>
+    <message>
+        <source>机车 14 正在前往终点</source>
+        <translation>バイク 14 が目的地へ向かっています</translation>
+    </message>
+    <message>
+        <source>剩余时间</source>
+        <translation>残り時間</translation>
+    </message>
+    <message>
+        <source>剩余距离</source>
+        <translation>残り距離</translation>
+    </message>
+    <message>
+        <source>进度</source>
+        <translation>進捗</translation>
+    </message>
+    <message>
+        <source>重新开始</source>
+        <translation>最初から</translation>
+    </message>
+    <message>
+        <source>%1 分钟</source>
+        <translation>%1 分</translation>
+    </message>
+    <message>
+        <source>%1 公里</source>
+        <translation>%1 km</translation>
+    </message>
+    <message>
+        <source>暂停</source>
+        <translation>一時停止</translation>
+    </message>
+    <message>
+        <source>开始</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>长途追踪</source>
+        <translation>長距離の追跡</translation>
+    </message>
+    <message>
+        <source>路线跨越大陆时做法相同：列车沿西伯利亚铁路从莫斯科开往符拉迪沃斯托克，setContentWidget 把列车显示为图标，经过的站点用 setColor 变灰，面板中的下一站、剩余时间与距离同步刷新；路线是按主要车站连成的简化折线</source>
+        <translation>大陸を横断するルートでも方法は同じです。列車はシベリア鉄道に沿ってモスクワからウラジオストクへ向かい、setContentWidget で列車をアイコンとして表示し、通過した駅は setColor でグレーに変わり、パネルの次の駅、残り時間と距離も合わせて更新されます。ルートは主要駅を結んだ簡略化した折れ線です</translation>
+    </message>
+    <message>
+        <source>莫斯科</source>
+        <translation>モスクワ</translation>
+    </message>
+    <message>
+        <source>叶卡捷琳堡</source>
+        <translation>エカテリンブルク</translation>
+    </message>
+    <message>
+        <source>新西伯利亚</source>
+        <translation>ノヴォシビルスク</translation>
+    </message>
+    <message>
+        <source>伊尔库茨克</source>
+        <translation>イルクーツク</translation>
+    </message>
+    <message>
+        <source>哈巴罗夫斯克</source>
+        <translation>ハバロフスク</translation>
+    </message>
+    <message>
+        <source>符拉迪沃斯托克</source>
+        <translation>ウラジオストク</translation>
+    </message>
+    <message>
+        <source>西伯利亚铁路</source>
+        <translation>シベリア鉄道</translation>
+    </message>
+    <message>
+        <source>下一站：%1</source>
+        <translation>次の駅：%1</translation>
+    </message>
+    <message>
+        <source>已到达终点</source>
+        <translation>終点に到着しました</translation>
+    </message>
+    <message>
+        <source>%1 小时</source>
+        <translation>%1 時間</translation>
+    </message>
+    <message>
+        <source>房源列表</source>
+        <translation>物件リスト</translation>
+    </message>
+    <message>
+        <source>setText 把标记显示为文字胶囊，setSelected 切换选中态；点击列表项或标记时两边同步选中，并打开对应的弹出框</source>
+        <translation>setText はマーカーを文字入りのピルとして表示し、setSelected で選択状態を切り替えます。リスト項目またはマーカーをクリックすると両方が選択され、対応するポップアップが開きます</translation>
+    </message>
+    <message>
+        <source>大安森林景观宅</source>
+        <translation>大安森林公園ビューの住宅</translation>
+    </message>
+    <message>
+        <source>大安区</source>
+        <translation>大安区</translation>
+    </message>
+    <message>
+        <source>信义高楼层公寓</source>
+        <translation>信義の高層マンション</translation>
+    </message>
+    <message>
+        <source>信义区</source>
+        <translation>信義区</translation>
+    </message>
+    <message>
+        <source>中山电梯华厦</source>
+        <translation>中山のエレベーター付き住宅</translation>
+    </message>
+    <message>
+        <source>中山区</source>
+        <translation>中山区</translation>
+    </message>
+    <message>
+        <source>士林河岸宅</source>
+        <translation>士林のリバーサイド住宅</translation>
+    </message>
+    <message>
+        <source>士林区</source>
+        <translation>士林区</translation>
+    </message>
+    <message>
+        <source>万华小套房</source>
+        <translation>萬華のワンルーム</translation>
+    </message>
+    <message>
+        <source>万华区</source>
+        <translation>萬華区</translation>
+    </message>
+    <message>
+        <source>内湖科技宅</source>
+        <translation>内湖テクノロジーパークの住宅</translation>
+    </message>
+    <message>
+        <source>内湖区</source>
+        <translation>内湖区</translation>
+    </message>
+    <message>
+        <source>待售房源</source>
+        <translation>販売中</translation>
+    </message>
+    <message>
+        <source>台北市 6 套</source>
+        <translation>台北市の 6 件</translation>
+    </message>
+    <message>
+        <source>%1 房 %2 卫</source>
+        <translation>寝室 %1 · 浴室 %2</translation>
+    </message>
+    <message>
+        <source>车队调度</source>
+        <translation>車両の配車管理</translation>
+    </message>
+    <message>
+        <source>多个标记各自带弹出框的标题与说明，配合浮动面板展示整体状态；矢量瓦片在街道级别显示路名</source>
+        <translation>各マーカーがポップアップのタイトルと説明を持ち、フローティングパネルで全体の状況を表示します。ベクタータイルは街路レベルで道路名を表示します</translation>
+    </message>
+    <message>
+        <source>机车 14</source>
+        <translation>バイク 14</translation>
+    </message>
+    <message>
+        <source>骑手：小陈</source>
+        <translation>ライダー：陳</translation>
+    </message>
+    <message>
+        <source>配送中 · 6 分钟</source>
+        <translation>配送中 · 6 分</translation>
+    </message>
+    <message>
+        <source>机车 07</source>
+        <translation>バイク 07</translation>
+    </message>
+    <message>
+        <source>骑手：小林</source>
+        <translation>ライダー：林</translation>
+    </message>
+    <message>
+        <source>空闲 · 等待派单</source>
+        <translation>待機中 · 配車待ち</translation>
+    </message>
+    <message>
+        <source>货车 03</source>
+        <translation>トラック 03</translation>
+    </message>
+    <message>
+        <source>司机：老王</source>
+        <translation>ドライバー：王</translation>
+    </message>
+    <message>
+        <source>待处理 · 装货中</source>
+        <translation>保留中 · 積み込み中</translation>
+    </message>
+    <message>
+        <source>台北市中心区域</source>
+        <translation>台北市中心エリア</translation>
+    </message>
+    <message>
+        <source>在线</source>
+        <translation>稼働中</translation>
+    </message>
+    <message>
+        <source>准时率</source>
+        <translation>定時率</translation>
+    </message>
+    <message>
+        <source>待处理</source>
+        <translation>保留</translation>
+    </message>
+    <message>
+        <source>航线图</source>
+        <translation>フライトパス</translation>
+    </message>
+    <message>
+        <source>setProjection(ShadMapType::Globe) 切换为地球仪视图，拖动旋转地球，弧线沿大圆航线绘制；addArc 为每条航线设置不同的颜色，浮动面板中用图例列出航线与客座率</source>
+        <translation>setProjection(ShadMapType::Globe) で地球儀表示に切り替わり、ドラッグで地球を回転でき、アークは大圏航路に沿って描画されます。addArc で路線ごとに異なる色を設定し、フローティングパネルの凡例に路線と搭乗率を表示します</translation>
+    </message>
+    <message>
+        <source>地球仪</source>
+        <translation>地球儀</translation>
+    </message>
+    <message>
+        <source>平面</source>
+        <translation>平面</translation>
+    </message>
+    <message>
+        <source>航班运营</source>
+        <translation>フライト運航</translation>
+    </message>
+    <message>
+        <source>长途运力调度</source>
+        <translation>長距離便の輸送力管理</translation>
+    </message>
+    <message>
+        <source>航线</source>
+        <translation>路線</translation>
+    </message>
+    <message>
+        <source>座位</source>
+        <translation>座席</translation>
+    </message>
+    <message>
+        <source>峰值</source>
+        <translation>ピーク</translation>
+    </message>
+    <message>
+        <source>静态与加载</source>
+        <translation>静的表示と読み込み</translation>
+    </message>
+    <message>
+        <source>setInteractive(false) 关闭拖动与缩放，setControlsVisible(false) 隐藏缩放按钮，适合做位置预览；setLoading 显示加载状态</source>
+        <translation>setInteractive(false) でドラッグとズームを無効にし、setControlsVisible(false) でズームボタンを隠します。位置のプレビューに適しています。setLoading は読み込み状態を表示します</translation>
+    </message>
+    <message>
+        <source>切换加载状态</source>
+        <translation>読み込み状態を切り替え</translation>
     </message>
 </context>
 <context>
